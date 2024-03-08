@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id PveaJkyf4WQWaxwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 19 Aug 2023 22:06:20 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 19 Aug 2023 22:06:20 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qXado-007oUy-J0
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 19 Aug 2023 22:06:20 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qXadj-007oTo-G9@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1692507980-eximdsn-946720110
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qXado-007oUy-J0@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 19 Aug 2023 22:06:20 -0700
+
+--1692507980-eximdsn-946720110
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 XadoqYELQAGP9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ZdvbdOZA c=1 sm=1 tr=0 ts=64e19f4c p=rfB9l19yAAAA:8 p=gVUzUnzsrjOVnYdOcjvU:22 p=xj1cDIjXJUurgF-4HJzT:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=0-yMdLl0AAAA:8 a=d_dkJNkpAAAA:8 a=3IfM0oHtAAAA:8 a=iO4_7e9jHs6TdZeNHEgA:9 a=QEXdDO2ut3YA:10 a=ZPFsXoakrI4A:10 a=y_Fbk9P0iOUA:10 a=a1VIiPmvkxgA:10 a=KyYZJfTCSdMA:10 a=l71SFO33uXJxaQ_kX-ga:22 a=7qiH1goQ5T5SMoIyG0fe:22 a=RrCj-AqEht6g64E9WCpl:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1692507980-eximdsn-946720110
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 XadoqYELQAGP9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ZdvbdOZA c=1 sm=1 tr=0 ts=64e19f4c p=rfB9l19yAAAA:8 p=gVUzUnzsrjOVnYdOcjvU:22 p=xj1cDIjXJUurgF-4HJzT:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=0-yMdLl0AAAA:8 a=d_dkJNkpAAAA:8 a=3IfM0oHtAAAA:8 a=iO4_7e9jHs6TdZeNHEgA:9 a=QEXdDO2ut3YA:10 a=ZPFsXoakrI4A:10 a=y_Fbk9P0iOUA:10 a=a1VIiPmvkxgA:10 a=KyYZJfTCSdMA:10 a=l71SFO33uXJxaQ_kX-ga:22 a=7qiH1goQ5T5SMoIyG0fe:22 a=RrCj-AqEht6g64E9WCpl:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1692507980-eximdsn-946720110
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qXadj-007oTo-G9
+	for ginojohn@gmail.com;
+	Sat, 19 Aug 2023 22:06:20 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Michaeltup.
+X-PHP-Script: ststephenssanjose.org/contact.php for 136.169.172.167
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 136.169.172.167
+From: info@24avant.ru
+Reply-To: info@24avant.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qXadj-007oTo-G9@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 19 Aug 2023 22:06:15 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Michaeltup, and the message is as follows.
+
+"[url=24avant.ru]РЈРєР»Р°РґРєР°
+С‚РµРїР»РѕРіРѕ РїРѕР»Р°[/url] 
+[url=http://www.24avant.ru/]http://www.24avant.ru/[/url] 
+[url=http://google.com.bo/url?q=http://24avant.ru/]https://google.sn/url?q=http://24avant.ru/[/url]"
+
+You can contact Michaeltup via email, info@24avant.ru
+
+--1692507980-eximdsn-946720110--

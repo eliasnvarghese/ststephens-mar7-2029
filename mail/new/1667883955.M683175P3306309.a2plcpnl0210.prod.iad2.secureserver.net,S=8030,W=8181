@@ -1,0 +1,151 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ULydKLPjaWNFczIAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 22:05:55 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 22:05:55 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1osGo7-00DuBO-Hd
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 22:05:55 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1osGo7-00Du9z-1N@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667883955-eximdsn-525159302
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1osGo7-00DuBO-Hd@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 22:05:55 -0700
+
+--1667883955-eximdsn-525159302
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 sGo7ovJg0a2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=6369e3b3 p=Vq0CRjtNub0A:10 p=4yYjxf7CAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=870v4AyVy34A:10 a=mem--OOHAAAA:8 a=316gJWusQo6O76sajGcA:9 a=QEXdDO2ut3YA:10 a=h5UbptAkqiYA:10 a=JO4ks8YjEcEA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=LOKK_papP9voSLhy8DDB:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667883955-eximdsn-525159302
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 sGo7ovJg0a2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=6369e3b3 p=Vq0CRjtNub0A:10 p=4yYjxf7CAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=870v4AyVy34A:10 a=mem--OOHAAAA:8 a=316gJWusQo6O76sajGcA:9 a=QEXdDO2ut3YA:10 a=h5UbptAkqiYA:10 a=JO4ks8YjEcEA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=LOKK_papP9voSLhy8DDB:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667883955-eximdsn-525159302
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1osGo7-00Du9z-1N
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 22:05:55 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Anthonyamuri.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: beliaev_denis_1989_31_12@bk.ru
+Reply-To: beliaev_denis_1989_31_12@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1osGo7-00Du9z-1N@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 22:05:55 -0700
+
+You have been contacted by Anthonyamuri, and the message is as
+follows.
+
+"Поверхность каменной штукатурки до
+начала обработки делят на отдельные ,
+а также ремешки и другие
+прямолинейные детали https://decorgrad.ru/
+  После этого приступают к отделке
+штукатурки под ту или другую фактуру
+https://decorgrad.ru/
+ 
+Паропроницаемость и возможность
+отталкивать влагу – это два разных
+качества https://decorgrad.ru/
+  Минеральные известковые компоненты
+впитывают пар, но такие поверхности
+нельзя мыть водой https://decorgrad.ru/
+  В спальню не рекомендуется покупать
+паропроницаемую штукатурку, потому
+что ее желательно покрывать слоем
+акрила для достижения высоких
+эксплуатационных показателей
+https://decorgrad.ru/
+ 
+Изготавливаются на основе
+портландцемента, с фракционированным
+песком, водоудерживающими и другими
+добавками, улучшающими их
+эксплуатационные характеристики
+https://decorgrad.ru/
+  Также в состав декоративных
+цементных штукатурок для наружных
+работ включаются элементы, отвечающие
+за фактуру готовой поверхности
+https://decorgrad.ru/
+  Например, в фасадной смеси типа 
+содержатся зерна из дробленого
+гранита фракцией от 0,5 до 3мм
+https://decorgrad.ru/
+ 
+Существует несколько наиболее
+популярных декоративных штукатурок,
+которые применяются для обустройства
+фасада дома https://decorgrad.ru/
+  Перед тем, как отдавать предпочтение
+той или иной штукатурной смеси,
+необходимо более детально
+ознакомиться с достоинствами и
+недостатками каждого вида
+https://decorgrad.ru/
+ 
+Из-за особо  — мелкобугристая
+поверхность, эта фактура считается
+разновидностью камешковой, и не зря: в
+составе таких штукатурок
+присутствуют каменные зерна разных
+размеров https://decorgrad.ru/
+  Отличие ее от других типов — техника
+набрасывания, позволяющая сделать
+процесс быстрым: затирки этот состав
+не требует https://decorgrad.ru/
+  Чтобы сформировать рельеф, часто
+используют дополнительные смеси —
+песчано-цементные или
+известково-цементные https://decorgrad.ru/
+ 
+Затирочная минеральная штукатурка
+характеризуется высоким содержанием
+натуральных зерен, не содержит
+искусственной смолы https://decorgrad.ru/
+  Отличается высокой способностью
+пропускать пары воды https://decorgrad.ru/
+  Используется для наружных и
+внутренних работ https://decorgrad.ru/
+ 
+"
+
+You can contact Anthonyamuri via email, beliaev_denis_1989_31_12@bk.ru
+
+--1667883955-eximdsn-525159302--

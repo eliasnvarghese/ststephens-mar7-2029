@@ -1,0 +1,98 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 4I06DGxwq13/MgIAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 19 Oct 2019 13:22:04 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 19 Oct 2019 13:22:04 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	id 1iLvEi-000eSz-4K
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sat, 19 Oct 2019 13:22:04 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1571516524-eximdsn-1634994419
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iLvEi-000eSz-4K@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 19 Oct 2019 13:22:04 -0700
+
+--1571516524-eximdsn-1634994419
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 LvEiinofaGXg3 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=Ubovt5aN c=1 sm=1 tr=0 p=2QeClbX6AAAA:20 p=Bc11PKKnUB8A:10 p=DDtx8FqMSW8A:10 p=exxe_PaiGtsA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=sPJ6ePP6PkcA:10 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=UxhPqrsaGaYA:10 a=9tMiWJV1oG0A:10 a=tdB2LVuYDnoA:10 a=XobE76Q3jBoA:10 a=NsaCFH8JaVYA:10 a=pGLkceISAAAA:8 a=k8-rg3YRxL25sBZz2LsA:9 a=aot_vNZUoVj9ZexG:21 a=ekcX7SkRujCPVSxU:21 a=QEXdDO2ut3YA:10 a=mnZC73uc_1UA:10 a=dsCHgcubjgD72PJOhann:22 a=f39ENVzNh3u72nKSS0j-:22 a=p-dnK0njbqwfn1k4-x12:22 a=rLkV7i5x5X597yo9dRWc:22 ::
+    100.00
+
+--1571516524-eximdsn-1634994419
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 LvEiinofaGXg3 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=Ubovt5aN c=1 sm=1 tr=0 p=2QeClbX6AAAA:20 p=Bc11PKKnUB8A:10 p=DDtx8FqMSW8A:10 p=exxe_PaiGtsA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=sPJ6ePP6PkcA:10 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=UxhPqrsaGaYA:10 a=9tMiWJV1oG0A:10 a=tdB2LVuYDnoA:10 a=XobE76Q3jBoA:10 a=NsaCFH8JaVYA:10 a=pGLkceISAAAA:8 a=k8-rg3YRxL25sBZz2LsA:9 a=aot_vNZUoVj9ZexG:21 a=ekcX7SkRujCPVSxU:21 a=QEXdDO2ut3YA:10 a=mnZC73uc_1UA:10 a=dsCHgcubjgD72PJOhann:22 a=f39ENVzNh3u72nKSS0j-:22 a=p-dnK0njbqwfn1k4-x12:22 a=rLkV7i5x5X597yo9dRWc:22 :: 100.00
+
+--1571516524-eximdsn-1634994419
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1iLvEh-000eSX-Re
+	for ginojohn@gmail.com; Sat, 19 Oct 2019 13:22:03 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Hellenkam.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 37.230.114.129
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 37.230.114.129
+From: lisadontate@gmail.com
+Reply-To: lisadontate@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1iLvEh-000eSX-Re@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 19 Oct 2019 13:22:03 -0700
+
+You have been contacted by Hellenkam, and the message is as follows.
+
+"Hello, I apologize for this letter, but I have no other choice! 
+ 
+This is a 4-year-old girl Lisa Filameshina! 
+https://sun9-7.userapi.com/c848620/v848620572/b2c87/xpLF8Ynpc_0.jpg 
+Lisa has retinoblastoma (retinal cancer). Her eye needs urgent
+treatment! In the Swiss clinic «Hospital Ophtalmique Jules-Gonin»
+(Lausanne) they guarantee the preservation of the organ so important
+for the future life of the child. 
+ 
+It is necessary to collect  $9000 before October 31. 
+ 
+We will be grateful for any amount of money! 
+ 
+I beg you help! 
+ 
+That is wallet address for payment bitcoin
+:157CfZ3qhHpRWKbzqoroUAxTMgDhhmPfPt 
+ 
+I give the payment details in bitcoins, since another transfer is
+problematic in our country. 
+ 
+Sorry again."
+
+You can contact Hellenkam via email, lisadontate@gmail.com
+
+--1571516524-eximdsn-1634994419--

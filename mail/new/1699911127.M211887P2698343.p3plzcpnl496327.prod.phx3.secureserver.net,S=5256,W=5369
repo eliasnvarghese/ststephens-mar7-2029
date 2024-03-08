@@ -1,0 +1,113 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id e78gDNeVUmVnLCkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 13 Nov 2023 14:32:07 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 13 Nov 2023 14:32:07 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r2eXP-00BJxZ-4Q
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 13 Nov 2023 14:32:07 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r2eXK-00BJvH-Hc@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699911127-eximdsn-1656898804
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r2eXP-00BJxZ-4Q@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 13 Nov 2023 14:32:07 -0700
+
+--1699911127-eximdsn-1656898804
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 2eXPrplWNiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=655295d7 p=MnShTJBZYem5GHzt9ggA:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=-b0yr7r70oEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=K_sJ1Sip2_UA:10 a=ufVhovi6AAAA:8 a=AAvYLDLOAAAA:8 a=hfUqKzDITXJWAzdxBE0A:9 a=QEXdDO2ut3YA:10 a=YRqLwqOYYyQA:10 a=KyYZJfTCSdMA:10 a=Rq7b9cgEovXWvHaxvUmz:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1699911127-eximdsn-1656898804
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 2eXPrplWNiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=655295d7 p=MnShTJBZYem5GHzt9ggA:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=-b0yr7r70oEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=K_sJ1Sip2_UA:10 a=ufVhovi6AAAA:8 a=AAvYLDLOAAAA:8 a=hfUqKzDITXJWAzdxBE0A:9 a=QEXdDO2ut3YA:10 a=YRqLwqOYYyQA:10 a=KyYZJfTCSdMA:10 a=Rq7b9cgEovXWvHaxvUmz:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1699911127-eximdsn-1656898804
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r2eXK-00BJvH-Hc
+	for ginojohn@gmail.com;
+	Mon, 13 Nov 2023 14:32:07 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Garry Genovese.
+X-PHP-Script: ststephenssanjose.org/contact.php for 45.38.60.145
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 45.38.60.145
+From: genovese.garry@msn.com
+Reply-To: genovese.garry@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r2eXK-00BJvH-Hc@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 13 Nov 2023 14:32:02 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Garry Genovese, and the message is as
+follows.
+
+"Are you tired of the daily grind, constantly chasing new clients, and
+being tied down by the demands of your business? 
+
+What if I told you there's a way to build a thriving online business
+without being a slave to it?
+
+
+
+Introducing the 7 FIGURE AUTOMATION SYSTEM, a revolutionary approach
+to online business that gives you the freedom, fun, and adventure
+you've always craved. 
+
+Imagine having a business machine that works tirelessly for you,
+leaving you with the sole task of overseeing its incredible success.
+
+
+Say goodbye to the endless cycle of product creation and client
+hunting. 
+
+Click >>>> https://7figures.systeme.io/c880732f
+
+With the 7 FIGURE AUTOMATION SYSTEM, you'll finally have the time to
+live life on your terms while your business generates profits
+effortlessly.
+
+Don't miss out on this life-changing opportunity. 
+Join the movement and unlock the secret to a business that works for
+you!
+
+Click>>>  https://7figures.systeme.io/c880732f"
+
+You can contact Garry Genovese via email, genovese.garry@msn.com
+
+--1699911127-eximdsn-1656898804--

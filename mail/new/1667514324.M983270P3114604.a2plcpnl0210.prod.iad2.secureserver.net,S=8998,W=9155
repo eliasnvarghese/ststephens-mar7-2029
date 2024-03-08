@@ -1,0 +1,157 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id mC8IOtQ/ZGNshi8AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 15:25:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 15:25:24 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqieK-00D5u4-SO
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 15:25:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqieK-00D5tJ-EP@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667514324-eximdsn-38117333
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqieK-00D5u4-SO@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 15:25:24 -0700
+
+--1667514324-eximdsn-38117333
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qieKoh6e74oIf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63643fd4 p=oITKRlBLPp4A:10 p=sikSpJ0t3_oA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=4dWLWivEJnUA:10 a=MJ4n-0voAAAA:8 a=mem--OOHAAAA:8 a=mpjPFhj-BgWGwfJZ7UgA:9 a=QEXdDO2ut3YA:10 a=1usfws7tEtsA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=pJ3VizIf9_r_Snbu_oJB:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667514324-eximdsn-38117333
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qieKoh6e74oIf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63643fd4 p=oITKRlBLPp4A:10 p=sikSpJ0t3_oA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=4dWLWivEJnUA:10 a=MJ4n-0voAAAA:8 a=mem--OOHAAAA:8 a=mpjPFhj-BgWGwfJZ7UgA:9 a=QEXdDO2ut3YA:10 a=1usfws7tEtsA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=pJ3VizIf9_r_Snbu_oJB:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667514324-eximdsn-38117333
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqieK-00D5tJ-EP
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 15:25:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jamesvah.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.106
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.106
+From: kovaleva.ekaterina.1980.3.2@bk.ru
+Reply-To: kovaleva.ekaterina.1980.3.2@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqieK-00D5tJ-EP@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 15:25:24 -0700
+
+You have been contacted by Jamesvah, and the message is as follows.
+
+"Если расчеты за приобретенный товар
+осуществляются с помощью расчетных
+банковских карт, то продавец должен
+зарегистрироваться в системе
+электронных платежей и получить
+личный код
+https://ballwool.com/?hashtag=%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B%D0%B4%D0%BB%D1%8F%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85
+  Помимо этого, продавцу необходимо
+заключить с обслуживающим банком
+договор интернет-эквайринга, на
+основании которого кредитная
+организация откроет продавцу
+специальный счет, куда будут
+поступать денежные средства от
+покупателей https://ballwool.com/posts/457
+  Ежедневно банк по электронной почте
+направляет продавцу выписку о
+проведенных за день операциях
+https://ballwool.com/?hashtag=%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0
+  После получения выписки,
+подтверждающей, что покупатель
+оплатил заказанный товар, продавец
+доставляет товар покупателю
+https://ballwool.com/?hashtag=%D1%83%D1%8E%D1%82%D0%B2%D0%B4%D0%BE%D0%BC%D0%B5
+  Следует отметить, что услуги банка не
+бесплатные
+https://ballwool.com/?hashtag=%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BA%D0%B8%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0
+  Поэтому за перевод денежных средств
+банк удерживает с продавца сумму
+комиссии, которая в бухгалтерском
+учете продавца в соответствии с п
+https://ballwool.com/?hashtag=%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0%D0%B3%D0%B4%D0%B5%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8%D0%BB%D0%B5%D0%B6%D0%B0%D1%82
+  11 ПБУ 10/99 относится к прочим расходам,
+а в налоговом учете на основании пп
+https://ballwool.com/?filter=video_only
+  15 п
+https://ballwool.com/?hashtag=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%B2%D0%B4%D0%BE%D0%BC
+  1 ст https://ballwool.com/?hashtag=%D1%81%D0%BF%D0%B8%D0%BB%D1%8B
+  265 Налогового кодекса Российской
+Федерации (далее - НК РФ) учитывается в
+составе внереализационных расходов
+https://ballwool.com/?hashtag=%D1%83%D1%8E%D1%82%D0%B2%D0%B4%D0%BE%D0%BC%D0%B5
+ 
+Здесь представлены популярные
+московские магазины подарков,
+магазины украшений, службы доставки
+цветов, магазины цифровой техники и
+подарочных сертификатов
+https://ballwool.com/?hashtag=%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0%D0%B3%D0%B4%D0%B5%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8%D0%BB%D0%B5%D0%B6%D0%B0%D1%82
+ 
+В общем случае нормы ст
+https://ballwool.com/?is_detailed=true
+  ст
+https://ballwool.com/?hashtag=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%B2%D0%B4%D0%BE%D0%BC
+  223 и 224 ГК РФ предусматривают, что
+право собственности на товар от
+продавца к покупателю переходит при
+его непосредственной передаче
+покупателю (если иное не вытекает из
+договора или закона)
+https://ballwool.com/?filter=video_only
+ 
+
+9
+https://ballwool.com/?hashtag=%D1%83%D0%BA%D1%80%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%D1%81%D1%86%D0%B2%D0%B5%D1%82%D0%B0%D0%BC%D0%B8
+  Продавец в момент доставки товара
+обязан довести до сведения покупателя
+в письменной форме следующую
+информацию (для импортных товаров - на
+русском языке): 
+Услуга - оказываемые Компанией
+действия по подбору клиенту
+оптимальных для него тарифов, услуг,
+опций Оператора связи на основании
+исследования сообщенных клиентом
+сведений о пользовании услугами
+Оператора, модели телефона
+https://ballwool.com/?hashtag=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%D0%BA%D1%83%D0%BA%D0%BB%D1%83
+ 
+"
+
+You can contact Jamesvah via email, kovaleva.ekaterina.1980.3.2@bk.ru
+
+--1667514324-eximdsn-38117333--

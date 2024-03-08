@@ -1,0 +1,159 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id wMUFH+MPZGM84R8AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 12:00:51 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 12:00:51 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqfSN-008pjd-CO
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 12:00:51 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqfSM-008pjF-Uz@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667502051-eximdsn-985476263
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqfSN-008pjd-CO@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 12:00:51 -0700
+
+--1667502051-eximdsn-985476263
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qfSNoEGQ5F1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63640fe3 p=CAEPTdzYJXoA:10 p=OdBGk-QrNdgA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=_ydkAXfsGqQA:10 a=x7bEGLp0ZPQA:10 a=zug5T9SdgwAA:10 a=YQ0orcSaAAAA:8 a=mem--OOHAAAA:8 a=2nFpSEfUjz2C2UxV6SUA:9 a=QEXdDO2ut3YA:10 a=gLGtLtFmf7kA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=QHnERrxV02giokv99R4N:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667502051-eximdsn-985476263
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qfSNoEGQ5F1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63640fe3 p=CAEPTdzYJXoA:10 p=OdBGk-QrNdgA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=_ydkAXfsGqQA:10 a=x7bEGLp0ZPQA:10 a=zug5T9SdgwAA:10 a=YQ0orcSaAAAA:8 a=mem--OOHAAAA:8 a=2nFpSEfUjz2C2UxV6SUA:9 a=QEXdDO2ut3YA:10 a=gLGtLtFmf7kA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=QHnERrxV02giokv99R4N:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667502051-eximdsn-985476263
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqfSM-008pjF-Uz
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 12:00:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Petermex.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.232.186
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.232.186
+From: shura.kolesnikov.2003@bk.ru
+Reply-To: shura.kolesnikov.2003@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqfSM-008pjF-Uz@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 12:00:50 -0700
+
+You have been contacted by Petermex, and the message is as follows.
+
+"
+Кроме прочего, игра больница для детей
+даст понятие о медицинской профессии,
+и возможно в будущем, когда  вырастут,
+своей профессией дети они выберут
+именно медицину http://zabotik.com/fizioterapiya
+  В игре можно познакомиться с
+различными заболеваниями и способами
+их лечения, при этом можно
+пользоваться инструментами врача,
+измеряя температуру, слушая
+сердцебиение, дыхание или ставя
+клизму очередному пациенту
+http://zabotik.com/shulepova-ekaterina-aleksandrovna
+  Эта игра учит малышей
+взаимодействовать в коллективе, ведь
+играя компанией детишек можно
+распределить роли, один будет врачом,
+другой пациентом, а третий водителем
+скорой помощи, и так далее
+http://zabotik.com/vakciny
+  Играя в больницу, малыши приобретут
+уважение к профессии медика, узнают,
+почему и когда люди заболевают, как
+происходит лечение и как нужно
+следить за своим здоровьем, чтобы не
+заболеть
+http://zabotik.com/statya-nomer-tri-s-dlinnym-zagolovkom-v-dve-strochki
+ 
+Если вы не умеете ставить уколы - это
+не беда, ведь в виртуальном мире
+данное действие происходит
+совершенно не так, как в реальном
+http://zabotik.com/ionov-aleksej-mihajlovich
+  В этой игре вам понадобятся не
+медицинские знания, а такие качества
+как внимательность, быстрота реакции,
+зрительная память, наблюдательность и
+некоторые другие
+http://zabotik.com/porfirev-mihail-sergeevich
+  Дело в том, что это развлечение
+больше направлено на веселое
+времяпрепровождение, нежели на
+познавание медицинских тонкостей
+http://zabotik.com/dmitrieva-anastasiya-nikolaevna
+  Постарайтесь стать лучшим
+медицинским работником http://zabotik.com/hirurg
+  Игры-для-девочек http://zabotik.com/endokrinolog
+ РФ желают вам успехов! 
+
+
+детей, возможно, некоторые из вас
+задумывались над тем, как устроен наш
+организм http://zabotik.com/prajs
+  С каждым новым годом, ученые делают
+сенсационные заявления о том, что они
+узнали еще что-то новое о человеке
+http://zabotik.com/gurev-aleksandr-sergeevich
+  Взять, к примеру, мозг
+http://zabotik.com/vyezd-vracha
+  Он настолько сложно и удивительно
+устроен, то до си пор ведутся горячие
+дебаты относительно того, как он
+собственно устроен
+http://zabotik.com/ivanov-oleg-yurevich
+  Знаменитый исследователь в области
+нейрохирургии, российский профессор
+медицинских наук Бехтерев, заявил, что
+после долгих годов экспериментов,
+данный орган лично для него остался
+загадкой http://zabotik.com/statya-1
+  Как замечательно, что  не только
+помогают участникам узнать много
+интересного, но еще и одновременно
+учат, как справляться с той или иной
+травмой http://zabotik.com/matveeva-tatyana-vyacheslavovna
+  Часто люди ломают кости рук и ног,
+однако бывают и такие случаи, когда
+случаются переломы шеи
+http://zabotik.com/gurev-aleksandr-sergeevich
+ 
+"
+
+You can contact Petermex via email, shura.kolesnikov.2003@bk.ru
+
+--1667502051-eximdsn-985476263--

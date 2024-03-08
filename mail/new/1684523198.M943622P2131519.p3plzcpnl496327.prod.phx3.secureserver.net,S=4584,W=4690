@@ -1,0 +1,106 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id AKiON77IZ2Q/hiAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 19 May 2023 12:06:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 19 May 2023 12:06:38 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q05R0-008xry-Sb
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 19 May 2023 12:06:38 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q05Qv-008xrD-Rm@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1684523198-eximdsn-1356213542
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q05R0-008xry-Sb@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 19 May 2023 12:06:38 -0700
+
+--1684523198-eximdsn-1356213542
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 05R0qHQ40VVZp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=YJhZizKx c=1 sm=1 tr=0 ts=6467c8be p=P0dy4D5ilIoA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=zrv46PY2GuAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=cWPG653lzJEA:10 a=BQQhop51AAAA:8 a=UqCG9HQmAAAA:8 a=krjLCUWgcvcF87d6IcUA:9 a=QEXdDO2ut3YA:10 a=O-txjiF-su0A:10 a=zLl3JJe5LssA:10 a=u-JyC0rah9oA:10 a=acewEgQMpYTsClr9keMy:22 a=yFj4vD6TwD5E5oxwgEUG:22 a=B9Ybdo1KxGa4mJsBoR18:22 ::
+    100.00
+
+--1684523198-eximdsn-1356213542
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 05R0qHQ40VVZp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=YJhZizKx c=1 sm=1 tr=0 ts=6467c8be p=P0dy4D5ilIoA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=zrv46PY2GuAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=cWPG653lzJEA:10 a=BQQhop51AAAA:8 a=UqCG9HQmAAAA:8 a=krjLCUWgcvcF87d6IcUA:9 a=QEXdDO2ut3YA:10 a=O-txjiF-su0A:10 a=zLl3JJe5LssA:10 a=u-JyC0rah9oA:10 a=acewEgQMpYTsClr9keMy:22 a=yFj4vD6TwD5E5oxwgEUG:22 a=B9Ybdo1KxGa4mJsBoR18:22 :: 100.00
+
+--1684523198-eximdsn-1356213542
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q05Qv-008xrD-Rm
+	for ginojohn@gmail.com;
+	Fri, 19 May 2023 12:06:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by  William   Anderson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 104.249.29.105
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 104.249.29.105
+From: junko.neumann@outlook.com
+Reply-To: junko.neumann@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q05Qv-008xrD-Rm@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 19 May 2023 12:06:33 -0700
+
+You have been contacted by  William   Anderson, and the message is as
+follows.
+
+" Hi Ya,
+
+A proven weight loss method is within reach. Ready to seize the
+opportunity?
+
+more at https://jo.my/feelgreat
+
+
+Regards 
+
+ Robert   Brown 
+
+
+
+
+
+
+
+
+
+
+//Optout//
+
+To opt out of future communication, 
+please visit https://jo.my/optoutjangle. "
+
+You can contact  William   Anderson via email,
+junko.neumann@outlook.com
+
+--1684523198-eximdsn-1356213542--

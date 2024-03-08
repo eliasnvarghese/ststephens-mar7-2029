@@ -1,0 +1,159 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 2MerGO5pimNGCQUAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 02 Dec 2022 14:11:10 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 02 Dec 2022 14:11:10 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1p1DJO-001RBQ-8l
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 02 Dec 2022 14:11:10 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1p1DJI-001R7p-L9@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1670015470-eximdsn-1809136427
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1p1DJO-001RBQ-8l@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 02 Dec 2022 14:11:10 -0700
+
+--1670015470-eximdsn-1809136427
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 1DJOpOUaFAJAH :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=dOVg2sVb c=1 sm=1 tr=0 ts=638a69ee p=9yBjaxiWOU8A:10 p=GvFwvfa0AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=Zse_lvVcAAAA:8 a=bHDrHPjVAHHYYlY_ot0A:9 a=QEXdDO2ut3YA:10 a=fRl5M9yOEMYA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=jUbAS3HZACP4Zf5DMgLM:22 a=YgOfC2YwrURCXwUPexHd:22 ::
+    100.00
+
+--1670015470-eximdsn-1809136427
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 1DJOpOUaFAJAH :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=dOVg2sVb c=1 sm=1 tr=0 ts=638a69ee p=9yBjaxiWOU8A:10 p=GvFwvfa0AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=Zse_lvVcAAAA:8 a=bHDrHPjVAHHYYlY_ot0A:9 a=QEXdDO2ut3YA:10 a=fRl5M9yOEMYA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=jUbAS3HZACP4Zf5DMgLM:22 a=YgOfC2YwrURCXwUPexHd:22 :: 100.00
+
+--1670015470-eximdsn-1809136427
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1p1DJI-001R7p-L9
+	for ginojohn@gmail.com;
+	Fri, 02 Dec 2022 14:11:09 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Thomastit.
+X-PHP-Script: ststephenssanjose.org/contact.php for 167.114.91.41
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 167.114.91.41
+From: joe_stiffy@jerseyshoreelectric.com
+Reply-To: joe_stiffy@jerseyshoreelectric.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1p1DJI-001R7p-L9@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 02 Dec 2022 14:11:04 -0700
+
+You have been contacted by Thomastit, and the message is as follows.
+
+"Best Vaporizers For Weed For Sale 2023 
+ 
+ 
+In the past few years, the vaporizer market has seen a dramatic
+increase in popularity. As more people become aware of the health
+benefits of vaporizing weed, compared to smoking, the need for a
+quality vaporizer is on the rise. Many of the top brands have released
+a range of new vaporizers for sale in the market, making it difficult
+to find the best vaporizer for your needs. 
+ 
+ 
+This blog post will help you navigate the new range of vaporizers for
+weed
+([url=]https://articleworld.in/18010/comparison-of-dab-pens-vs-stiiizy-here-are-the-reasons-why-a-pen-usually-wins/
+
+[/url]) that are available to buy in 2023. By the end of this post,
+you'll have a better understanding of which specific vaporizers are
+the best for you and your needs. We'll take a look at the top features
+to look for in a quality vaporizer, as well as what factors will help
+you to decide which one is the right choice. You'll also get a
+comprehensive overview of the various vaporizers that are currently
+available for sale. 
+ 
+ 
+The Arizer Extreme Q is a reliable and efficient desktop vaporizer
+that provides a great vaporizing experience for users. It features a
+digital display and remote control for easy operation, giving you
+precision control over the vaporizing temperature, fan speed, and
+more. The cyclone bowl and all glass whip provide a flavorful and cool
+vapor, while the balloon fill system allows for easy transport and
+storage of the vapor. The Extreme Q also offers a timer and automatic
+shut off setting for safety and convenience. With its high-quality
+materials, durable construction, and great features, the Arizer
+Extreme Q is a great choice for anyone looking for a reliable and
+efficient desktop vaporizer. 
+ 
+ 
+The Volcano Desktop Vaporizer is one of the most popular vaporizers on
+the market and is renowned for its superior performance. It utilizes a
+forced air balloon system to produce a steady and consistent vaping
+experience. The Volcano Desktop Vaporizer is a highly efficient and
+effective device that features an adjustable temperature range that
+allows users to customize their vaping experience. It also features an
+automatic shut-off feature that helps to reduce the risk of
+overheating while using the device. The Volcano Desktop Vaporizer is
+an ideal choice for those looking for a reliable and consistent
+vaporizing experience. It is easy to use, safe, and produces a smooth,
+consistent vapor. It is also backed by a two-year warranty that
+ensures that users receive the highest quality vaporizing experience
+possible. 
+ 
+ 
+The Da Buddha Vaporizer is a top-of-the-line device for enjoying
+herbal vapor. This vaporizer is easy to use and features a ceramic
+heating element, as well as adjustable temperature control, allowing
+users to enjoy their herbs and oils at the exact temperature they
+desire. Da Buddha also features a steel outer shell and a ceramic
+inner lining, both of which contribute to its durability. With its
+reliable performance and quality construction, Da Buddha Vaporizer is
+sure to provide a superior vaping experience and the ability to
+customize your session. Whether you are a beginner or an experienced
+user, Da Buddha Vaporizer is sure to provide an enjoyable and
+convenient experience. 
+ 
+ 
+Arizer Extreme Q, Volcano Desktop Vaporizer, and Da Buddha Vaporizer |
+conclusion */ 
+ 
+ 
+In conclusion, the Arizer Extreme Q, Volcano Desktop Vaporizer, and Da
+Buddha Vaporizer are all excellent options for desktop vaporizers.
+Each model has its own unique features and advantages, so it's
+important to consider your needs when choosing the right one. The
+Arizer Extreme Q is great for its versatility and digital temperature
+controls, while the Volcano Desktop Vaporizer is great for its
+balloon-style bag delivery system and simple design. The Da Buddha
+Vaporizer is great for its easy-to-use design and affordability.
+Ultimately, your own needs and preferences will help you decide which
+vaporizer is the best for you."
+
+You can contact Thomastit via email,
+joe_stiffy@jerseyshoreelectric.com
+
+--1670015470-eximdsn-1809136427--

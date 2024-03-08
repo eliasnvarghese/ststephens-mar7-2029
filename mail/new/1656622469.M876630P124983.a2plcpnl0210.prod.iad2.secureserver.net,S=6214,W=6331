@@ -1,0 +1,117 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id QAMaNIUNvmI36AEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 30 Jun 2022 13:54:29 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 30 Jun 2022 13:54:29 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1o71BF-000XP4-PX
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 30 Jun 2022 13:54:29 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1o71BF-000XOZ-9B@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1656622469-eximdsn-1116662311
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1o71BF-000XP4-PX@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 30 Jun 2022 13:54:29 -0700
+
+--1656622469-eximdsn-1116662311
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 71BFoK06VLRJq :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=MK2lJOVl c=1 sm=1 tr=0 ts=62be0d85 p=9egaDtt7m2AA:10 p=d7ay1EleAAAA:8 p=PLiXNRgE5MAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=JPEYwPQDsx4A:10 a=Hi5oteM5Q-0A:10 a=x7bEGLp0ZPQA:10 a=ydqVZbDkOyIA:10 a=mem--OOHAAAA:8 a=OeDbzE34eEwafoJd2IEA:9 a=QEXdDO2ut3YA:10 a=Ntl3dIHTU8UA:10 a=fjm-g3BdBNoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=_8kKFm_aRGZtngSMS1a3:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1656622469-eximdsn-1116662311
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 71BFoK06VLRJq :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=MK2lJOVl c=1 sm=1 tr=0 ts=62be0d85 p=9egaDtt7m2AA:10 p=d7ay1EleAAAA:8 p=PLiXNRgE5MAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=JPEYwPQDsx4A:10 a=Hi5oteM5Q-0A:10 a=x7bEGLp0ZPQA:10 a=ydqVZbDkOyIA:10 a=mem--OOHAAAA:8 a=OeDbzE34eEwafoJd2IEA:9 a=QEXdDO2ut3YA:10 a=Ntl3dIHTU8UA:10 a=fjm-g3BdBNoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=_8kKFm_aRGZtngSMS1a3:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1656622469-eximdsn-1116662311
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1o71BF-000XOZ-9B
+	for ginojohn@gmail.com; Thu, 30 Jun 2022 13:54:29 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jamessoumb.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.188
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.188
+From: vika.dorofeeva.1997@bk.ru
+Reply-To: vika.dorofeeva.1997@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1o71BF-000XOZ-9B@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 30 Jun 2022 13:54:29 -0700
+
+You have been contacted by Jamessoumb, and the message is as follows.
+
+"
+Самое главное сказать учителям, что
+они открыли для вас, выпускников, мир
+музыки, и что это для вас важно
+[url=https://singingdelivery.ru/services]итальянский
+оперный певец [/url]
+   Ничего нет важнее для учителя
+музыки, чем услышать, что его ученики
+разделили с ним его любовь к этому
+прекрасному виду искусства, к этим
+пленительным звукам, которые могут
+выразить всё, и даже то, что не могут
+выразить слова
+[url=https://singingdelivery.ru/]Поздравления
+Музыкальные [/url]
+   Поблагодарить надо обязательно
+каждого учителя поименно, ведь вы же
+будете говорить от лица всех
+выпускников, а не от себя лично
+[url=https://singingdelivery.ru/repertoire]оригинальные
+подарки женщине на день [/url]
+ 
+
+
+
+Услуга голосовых и видео-приветствий
+открывает новые возможности перед
+Вами и дарит океан положительных
+эмоций [url=https://singingdelivery.ru/services]голоса
+оперных певцов [/url]
+   К тому же воспользоваться ей очень
+легко
+[url=https://singingdelivery.ru/services]музыкальные
+поздравления с днем рождения [/url]
+   Удобнейшая навигация и доступный
+поиск облегчают поставленную задачу
+[url=https://singingdelivery.ru/services]организации
+мероприятий [/url]
+ 
+"
+
+You can contact Jamessoumb via email, vika.dorofeeva.1997@bk.ru
+
+--1656622469-eximdsn-1116662311--

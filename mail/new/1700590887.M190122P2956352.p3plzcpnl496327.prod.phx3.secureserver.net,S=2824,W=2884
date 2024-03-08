@@ -1,0 +1,60 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id YLPVCif1XGVAHC0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 21 Nov 2023 11:21:27 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 21 Nov 2023 11:21:27 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r5VNH-00CP4x-3j
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 21 Nov 2023 11:21:27 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r5VNC-00CP3m-2c@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1r5VNH-00CP4x-3j@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 21 Nov 2023 11:21:27 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r5VNC-00CP3m-2c
+	for ginojohn@gmail.com;
+	Tue, 21 Nov 2023 11:21:22 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jim Gammon.
+X-PHP-Script: ststephenssanjose.org/contact.php for 146.70.181.246
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 146.70.181.246
+From: gammon.ara@googlemail.com
+Reply-To: gammon.ara@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r5VNC-00CP3m-2c@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 21 Nov 2023 11:21:22 -0700
+
+You have been contacted by Jim Gammon, and the message is as follows.
+
+"Hope you're well. Our monthly SEO services offer comprehensive
+keyword analysis, content optimization, and continuous monitoring for
+sustained growth. Let's discuss how we can elevate your online
+presence.Check out here: https://digitalpromax.co/lb/
+
+Is Your Search Console Reporting Errors? Don't let issues hold back
+your SEO! Specializing in fixing Search Console errors for higher
+rankings. Resolve crawl issues, improve indexing, and supercharge your
+SEO. Let's boost your site together! Visit now:
+https://speedexpert.co/search-console/"
+
+You can contact Jim Gammon via email, gammon.ara@googlemail.com

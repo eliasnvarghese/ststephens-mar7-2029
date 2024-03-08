@@ -1,0 +1,124 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id ypBAH0yyFmWxqTEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 29 Sep 2023 04:17:32 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 29 Sep 2023 04:17:32 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qmBUy-00Dfk3-EN
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 29 Sep 2023 04:17:32 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qmBUt-00DfM1-8o@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1695986252-eximdsn-960693933
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qmBUy-00Dfk3-EN@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 29 Sep 2023 04:17:32 -0700
+
+--1695986252-eximdsn-960693933
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 mBUyqqttZIKdu :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=6516b24c p=lLqYhPsHAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=RjHm55UezsgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=u3ke18VBKuMA:10 a=pGLkceISAAAA:8 a=RPNuzmgbzR9De0FNeJkA:9 a=QEXdDO2ut3YA:10 a=GPNpuFyd-_AA:10 a=bvq7mmghygoA:10 a=q656PeHK6icA:10 a=NAk-_oii8NOAamvUO9Ie:22 a=02DQV-39rSFxPUfSeuxY:22 a=YDvqGk8750H61X7bEmZW:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1695986252-eximdsn-960693933
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 mBUyqqttZIKdu :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=6516b24c p=lLqYhPsHAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=RjHm55UezsgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=u3ke18VBKuMA:10 a=pGLkceISAAAA:8 a=RPNuzmgbzR9De0FNeJkA:9 a=QEXdDO2ut3YA:10 a=GPNpuFyd-_AA:10 a=bvq7mmghygoA:10 a=q656PeHK6icA:10 a=NAk-_oii8NOAamvUO9Ie:22 a=02DQV-39rSFxPUfSeuxY:22 a=YDvqGk8750H61X7bEmZW:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1695986252-eximdsn-960693933
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qmBUt-00DfM1-8o
+	for ginojohn@gmail.com;
+	Fri, 29 Sep 2023 04:17:32 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Andre Clarke.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.105.151.72
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.105.151.72
+From: rosario.sharpe@gmail.com
+Reply-To: rosario.sharpe@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qmBUt-00DfM1-8o@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 29 Sep 2023 04:17:27 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Andre Clarke, and the message is as
+follows.
+
+"Hey there,
+
+Was looking at your site today and I thought this would probably
+interest you.
+
+Are you tired of traditional virtual assistants who lack the expertise
+to handle complex tasks? Feeling overwhelmed by the thought of diving
+into generative AI? We've got the game-changing solution you've been
+waiting for: Myaa's AI-Powered Personal Support Agents.
+
+Imagine the best of both worlds: a personal assistant who's a live
+professional expert at leveraging the power of thousands of AI Agents.
+That's exactly what you get with Myaa. Our AI-Powered Personal Support
+Agents are trained to perfection in writing excellent prompts and
+harnessing the capabilities of our AI Agents.
+
+But here's the best part: we're offering a one-week free trial for you
+to experience the transformative capabilities of our agents firsthand.
+No obligations, no strings attached. Just a chance to see how our
+AI-Powered Personal Support Agents, the experts in leveraging AI
+technology, can revolutionize the way you manage your business.
+
+Don't miss out on this exclusive opportunity. Click below to schedule
+a call and claim your one-week free trial:
+
+https://bit.ly/Free-AI-Powered-Support-Agent
+
+During the call, our experts will guide you through the process and
+pair you with the perfect Myaa AI-Powered Personal Support Agent for
+your business. Say goodbye to inefficiency and hello to expert
+assistance.
+
+Get started now and unlock the full potential of generative AI with
+Myaa's AI-Powered Personal Support Agents.
+
+Cheers,
+
+Andre Clarke
+Business Development
+Myaa
+"
+
+You can contact Andre Clarke via email, rosario.sharpe@gmail.com
+
+--1695986252-eximdsn-960693933--

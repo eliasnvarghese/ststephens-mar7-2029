@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 5pnNEJhU2GTeZDMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 12 Aug 2023 20:57:12 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 12 Aug 2023 20:57:12 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qV2E4-00E8g1-7F
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 12 Aug 2023 20:57:12 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qV2Dz-00E8e3-4i@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1691899032-eximdsn-1068600358
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qV2E4-00E8g1-7F@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 12 Aug 2023 20:57:12 -0700
+
+--1691899032-eximdsn-1068600358
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 V2E4qZMYZTTLZ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=JJ798eGb c=1 sm=1 tr=0 ts=64d85498 p=3wNIWgxKAAAA:8 p=9AbzhD84_uMZMgmA3h_O:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=9kJAS6u5tfEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=vlmY5gSf1akA:10 a=RgBw9RmQAAAA:8 a=kV2VAugUGpGGak55fNIA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=0_13mLgqkPMA:10 a=KyYZJfTCSdMA:10 a=pEq-gcGEpmY7j7Qz6LVt:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1691899032-eximdsn-1068600358
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 V2E4qZMYZTTLZ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=JJ798eGb c=1 sm=1 tr=0 ts=64d85498 p=3wNIWgxKAAAA:8 p=9AbzhD84_uMZMgmA3h_O:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=9kJAS6u5tfEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=vlmY5gSf1akA:10 a=RgBw9RmQAAAA:8 a=kV2VAugUGpGGak55fNIA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=0_13mLgqkPMA:10 a=KyYZJfTCSdMA:10 a=pEq-gcGEpmY7j7Qz6LVt:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1691899032-eximdsn-1068600358
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qV2Dz-00E8e3-4i
+	for ginojohn@gmail.com;
+	Sat, 12 Aug 2023 20:57:12 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by nzbkGet.
+X-PHP-Script: ststephenssanjose.org/contact.php for 95.79.172.183
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 95.79.172.183
+From: lumelskiy.leopold@mail.ru
+Reply-To: lumelskiy.leopold@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qV2Dz-00E8e3-4i@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 12 Aug 2023 20:57:07 -0700
+
+You have been contacted by nzbkGet, and the message is as follows.
+
+"Наша фирма ООО «НЗБК» сайт
+[url=http://nzbknn.ru]nzbknn.ru[/url] занимается
+производством элементов
+канализационных колодцев из
+товарного бетона в полном их
+ассортименте. В состав колодцев
+входят следующие составляющие: 
+колодезные кольца (кольцо колодца
+стеновое); доборные кольца (кольцо
+колодца стеновое доборное); крышки
+колодцев (плита перекрытия колодца);
+днища колодцев (плита днища колодца).	 
+ 
+[url=http://nzbknn.ru]кольца ж б[/url]  "
+
+You can contact nzbkGet via email, lumelskiy.leopold@mail.ru
+
+--1691899032-eximdsn-1068600358--

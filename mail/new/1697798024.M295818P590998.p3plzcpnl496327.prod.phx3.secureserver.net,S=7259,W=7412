@@ -1,0 +1,153 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id KA9EEYhXMmWWBAkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 20 Oct 2023 03:33:44 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 20 Oct 2023 03:33:44 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qtmp6-002ZK8-7V
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 20 Oct 2023 03:33:44 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qtmp1-002ZGz-0w@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697798024-eximdsn-977704315
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qtmp6-002ZK8-7V@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 20 Oct 2023 03:33:44 -0700
+
+--1697798024-eximdsn-977704315
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 tmp6qY0ylTa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=65325788 p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=KmiAeNXtlIUA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=17TDKlWhCRIA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=Tn4bpVG1s84dLwzEdxAA:9 a=QEXdDO2ut3YA:10 a=3e6Qi0XFqCIA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=Qg4JTM_b5t2JD8qA_LOq:22 a=jycUkCEYUnZvh0PkXkJV:22 a=b28fG0I-qyudfx9am0fZ:22 a=O3JtFR89zp98BDOwQUCp:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1697798024-eximdsn-977704315
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 tmp6qY0ylTa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=65325788 p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=KmiAeNXtlIUA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=17TDKlWhCRIA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=Tn4bpVG1s84dLwzEdxAA:9 a=QEXdDO2ut3YA:10 a=3e6Qi0XFqCIA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=Qg4JTM_b5t2JD8qA_LOq:22 a=jycUkCEYUnZvh0PkXkJV:22 a=b28fG0I-qyudfx9am0fZ:22 a=O3JtFR89zp98BDOwQUCp:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1697798024-eximdsn-977704315
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qtmp1-002ZGz-0w
+	for ginojohn@gmail.com;
+	Fri, 20 Oct 2023 03:33:44 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Lucinda Larios.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 196.242.178.108
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.242.178.108
+From: larios.lucinda@gmail.com
+Reply-To: larios.lucinda@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qtmp1-002ZGz-0w@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 20 Oct 2023 03:33:39 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Lucinda Larios, and the message is as
+follows.
+
+"Cool website!
+
+To the ststephenssanjose.org Owner!
+
+My name’s Lucinda, and I recently found your site -
+ststephenssanjose.org - while navigating the net. You surfaced at the
+peak of the search results, so I looked you out. Appears like what
+you’re doing is pretty cool.  
+
+But if you don’t mind me asking – after someone like me comes
+across ststephenssanjose.org, what normally happens?
+
+Is your site producing leads for your company? 
+
+I’m guessing some, but I also bet you’d like more… studies show
+that 7 out 10 who arrive on a site wind up leaving without a trace.
+
+Not good.
+
+Here’s a notion – what if there was an simple way for every
+visitor to “raise their hand” to get a phone call from you
+INSTANTLY… the moment they hit your site and stated, “call me
+now.”
+
+You can –
+  
+Web Visitor is a software widget that’s operates on your site, set
+to grab any visitor’s Name, Email address and Phone Number.  It lets
+you know IMMEDIATELY – so that you can chat to that lead while
+they’re really looking over your site.
+
+CLICK HERE https://bit.ly/3LPltcD to try out a Live Demo with Web
+Visitor now to see specifically how it works.
+
+Time is money when it comes to connecting with with leads – the
+difference between contacting someone within 5 minutes versus 30
+minutes later can be huge – like 100 times better!
+
+That’s why we built out our new SMS Text With Lead feature…
+because once you’ve caught the visitor’s phone number, you can
+automatically start a text message (SMS) conversation.
+  
+Think about the possibilities – even if you don’t close a deal
+then and there, you can follow with text messages for new offers,
+content links, even just “how you doing?” notes to build a
+relationship.
+
+Wouldn’t that be cool?
+
+CLICK HERE https://bit.ly/3LPltcD to discover Web Visitor can do for
+your business
+
+You could be converting up to 100X more leads today!
+Lucinda
+
+PS: Web Visitor offers FREE 14 days trial – and it even comprises
+Long Distance Calling. 
+You have customers waiting to to talk with you right now… don’t
+keep them waiting. 
+CLICK HERE https://bit.ly/3LPltcD to try Visitor now.
+
+If you'd like to unsubscribe click here https://bit.ly/3rD0G5c
+
+Merely a quick note - the monikers and email address utilized in this
+communication, Lucinda and Larios, are stand-ins and not really
+genuine contact information. We esteem candor and wished to confirm
+you are conscious! Should you want to get in touch with the actual one
+behind this message, kindly visit our website, and we’ll connect you
+with the proper individual.
+"
+
+You can contact Lucinda Larios via email, larios.lucinda@gmail.com
+
+--1697798024-eximdsn-977704315--

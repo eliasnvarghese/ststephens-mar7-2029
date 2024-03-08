@@ -1,0 +1,131 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id eQ1dMOaNaGPCHAgAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 06 Nov 2022 21:47:34 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 06 Nov 2022 21:47:34 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oru2o-002Ets-Mn
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sun, 06 Nov 2022 21:47:34 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oru2o-002EsB-6x@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667796454-eximdsn-1267907304
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oru2o-002Ets-Mn@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 06 Nov 2022 21:47:34 -0700
+
+--1667796454-eximdsn-1267907304
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ru2oobsffwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63688de6 p=9fCyO1QoW6QA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=mRjDMKnDZOoA:10 a=p2xhioQqAAAA:8 a=RgBw9RmQAAAA:8 a=6x4rXw4DPT-OLWtCvlYA:9 a=QEXdDO2ut3YA:10 a=9AHY1EnWix8A:10 a=VQRkmaYggCwA:10 a=IE-pLd35_c0A:10 a=yT-8iEIMrVcA:10 a=NSBek8Zt_VsA:10 a=6TA2aZKICu8A:10 a=yF9Y4tDgLe0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=aJJ6O3Oh9uUmqPPZBw55:22 ::
+    100.00
+
+--1667796454-eximdsn-1267907304
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 ru2oobsffwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63688de6 p=9fCyO1QoW6QA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=mRjDMKnDZOoA:10 a=p2xhioQqAAAA:8 a=RgBw9RmQAAAA:8 a=6x4rXw4DPT-OLWtCvlYA:9 a=QEXdDO2ut3YA:10 a=9AHY1EnWix8A:10 a=VQRkmaYggCwA:10 a=IE-pLd35_c0A:10 a=yT-8iEIMrVcA:10 a=NSBek8Zt_VsA:10 a=6TA2aZKICu8A:10 a=yF9Y4tDgLe0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=aJJ6O3Oh9uUmqPPZBw55:22 :: 100.00
+
+--1667796454-eximdsn-1267907304
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oru2o-002EsB-6x
+	for ginojohn@gmail.com; Sun, 06 Nov 2022 21:47:34 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by WarrenInick.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.197.74.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.197.74.6
+From: abtite_278@mail.ru
+Reply-To: abtite_278@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oru2o-002EsB-6x@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 06 Nov 2022 21:47:34 -0700
+
+You have been contacted by WarrenInick, and the message is as follows.
+
+"#DECQQCQMGZNVC, #DECQQCQMGZPV6, #DECQQCQMGZOF4, #DECQQCQMGZPV4,
+#DECQQCQMGZPV2, #DECQQCQMGZPVA, #DECQQCQMGZOFC, #DECQQCQMGZPVC,
+#DECQQCQMGZOFU, #DECQQCQMGZPFA, #DECQQCQMGZPF4, #DECQQCQMGZPFC,
+#DECQQCQMGZOFQ, #DECQQCQMGZIFS, #DECQQCQMGZOFS, #DECQQCQMGZIFW, 
+Крепежные метизы применяются для
+соединения деталей из разных
+материалов: металла, дерева, пластика
+и пр https://gm-k.ru/gruvloki/mufta-j/mj219.html
+   Изделия используются в
+промышленности, производстве и быту
+https://gm-k.ru/index.php?route=product/category&path=247_249_281
+   У заботливого хозяина всегда есть
+коробка с необходимым набором разного
+крепежа на всякий случай
+https://gm-k.ru/index.php?route=product/category&path=1163_1645_1689
+ 
+Г О С У Д А Р С Т В Е Н Н Ы Е С Т А Н Д А Р Т
+Ы С О Ю З А С С Р БОЛТЫ И ГАЙКИ С
+ДИАМЕТРОМ РЕЗЬБЫ СВЫШЕ 48 мм ГОСТ 10602-72,
+ГОСТ 10605-72-ГОСТ 10610-72, ГОСТ 18125-72, ГОСТ
+18126-72 Издание официальное 
+Дюбель-винты, резьба у которых М6 со
+стержнем, диаметр которого 3,7 мм, а
+длина 40, 45, 50 и 55 мм, заглубляемая часть,
+соответственно 22, 28, 33 и 39 мм
+https://gm-k.ru/index.php?route=product/category&path=1811_1814_1978
+ 
+Гайка Крепежное изделие с резьбовым
+отверстием и конструктивным
+элементом для передачи крутящего
+момента https://gm-k.ru/gruvloki/mufta-j/mj76.html
+   Примечание: Конструктивным
+элементом гайки для передачи
+крутящего момента может быть
+многогранник, накатка на боковой
+поверхности, торцевые и радиальные
+отверстия, шлицы и т
+https://gm-k.ru/index.php?route=product/category&path=1811_1883_2109
+  д
+https://gm-k.ru/index.php?route=product/product&path=155_188_228&product_id=2486
+ 
+Самых разных форм и размеров оптом и в
+розницу
+https://gm-k.ru/index.php?route=product/category&path=1163_1164_1170
+   Перфорированные изделия для монтажа
+стен, пола, перекрытий, кровельных
+работ https://gm-k.ru/walraven.html?page=30
+   Оцинкованный крепеж для деревянного
+строительства заказать в интернет 
+https://gm-k.ru/index.php?route=product/category&path=156_184_237_626
+   https://gm-k.ru/index.php?route=product/category&path=683_165_544
+   https://gm-k.ru/monprof/mpc/mpc25/
+ 
+"
+
+You can contact WarrenInick via email, abtite_278@mail.ru
+
+--1667796454-eximdsn-1267907304--

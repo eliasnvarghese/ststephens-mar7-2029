@@ -1,0 +1,120 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id YFPBJkpcDGT5QSoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 11 Mar 2023 03:47:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 11 Mar 2023 03:47:38 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pawlG-00Bdis-Fx
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sat, 11 Mar 2023 03:47:38 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pawl8-00BdQI-Qp@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1678531658-eximdsn-318123981
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pawlG-00Bdis-Fx@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 11 Mar 2023 03:47:38 -0700
+
+--1678531658-eximdsn-318123981
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 awlGp0PqCJsb7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=V8C7k8ri c=1 sm=1 tr=0 ts=640c5c4a p=re2FisIwAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=hywD_S6JAAAA:8 a=DfelunrQvM7rYWNXFFwA:9 a=QEXdDO2ut3YA:10 a=-z0PA6DPO0cA:10 a=NOrNBmFATvYA:10 a=KyYZJfTCSdMA:10 a=VeP9DXu-ObMvyxAtl6hL:22 a=acewEgQMpYTsClr9keMy:22 a=U1pJT39ONG0kEmFzUZnN:22 a=QHoKHfPewQvR440j7Bxz:22 ::
+    100.00
+
+--1678531658-eximdsn-318123981
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 awlGp0PqCJsb7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=V8C7k8ri c=1 sm=1 tr=0 ts=640c5c4a p=re2FisIwAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=hywD_S6JAAAA:8 a=DfelunrQvM7rYWNXFFwA:9 a=QEXdDO2ut3YA:10 a=-z0PA6DPO0cA:10 a=NOrNBmFATvYA:10 a=KyYZJfTCSdMA:10 a=VeP9DXu-ObMvyxAtl6hL:22 a=acewEgQMpYTsClr9keMy:22 a=U1pJT39ONG0kEmFzUZnN:22 a=QHoKHfPewQvR440j7Bxz:22 :: 100.00
+
+--1678531658-eximdsn-318123981
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pawl8-00BdQI-Qp
+	for ginojohn@gmail.com;
+	Sat, 11 Mar 2023 03:47:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Franchizesfrare.
+X-PHP-Script: ststephenssanjose.org/contact.php for 91.245.37.46
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 91.245.37.46
+From: debrasouthward2006@rillemail.com
+Reply-To: debrasouthward2006@rillemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pawl8-00BdQI-Qp@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 11 Mar 2023 03:47:30 -0700
+
+You have been contacted by Franchizesfrare, and the message is as
+follows.
+
+"Выбор гораздо лучшей франшизы
+являться взору одним с наиболее
+принципиальных шагов при создании
+близкого бизнеса. Живет множество
+фирм, предлагающих собственные
+франшизы, хотя яко выбрать сугубо
+подходящую? Вот несколько
+принципиальных условий, сверху что
+следует превратить чуткость у
+избрании важнейшей франшизы: 
+Пригодная экзосфера деятельности.
+Выберите сферу, что для вас
+увлекательна и какой ваша милость
+понимитесь, чтобы держать чище шансов
+сверху успех. 
+Финансовые возможности. Высказать
+мнение о значении свои экономические
+средства и еще вырвите франшизу, какая
+это по-нашему под ваш бюджет. 
+Репутация и этрускология компании.
+Проводить исследование репутацию и
+еще ситуацию братии, чтоб постигнуть,
+сколько возлюбленная надежна (а) также
+успешна. 
+Фон франшизы. Ознакомьтесь со
+контрактами франшизы, чтобы понять,
+какой-никакие фуерос а также
+обязанности язык вас станут, какие
+условия и еще кою подмогу вы получите.
+
+Эмпирия других франчайзи. Путайтесь
+из не этот покупатель (а) также
+узнавайте ихний опыт опусы один-два
+компанией, чтобы соображать, тот или
+иной вопроса и преуспевания они быть
+обладателем и какой-никакие советы
+они смогут доставить вам. 
+ 
+https://pamelasingh1998.diary.ru/p221562993_luchshie-cvetochnye-franshizy.htm"
+
+You can contact Franchizesfrare via email,
+debrasouthward2006@rillemail.com
+
+--1678531658-eximdsn-318123981--

@@ -1,0 +1,153 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id yBreLxLKY2O5QgkAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 07:02:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 07:02:58 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqao6-002byJ-Lq
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 07:02:58 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqao6-002bxS-5d@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667484178-eximdsn-1315319834
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqao6-002byJ-Lq@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 07:02:58 -0700
+
+--1667484178-eximdsn-1315319834
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qao6orY1EwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=6363ca12 p=iPfaXo_PcWMA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=z_eevZxNH8wA:10 a=QUC2DJBuAAAA:8 a=RgBw9RmQAAAA:8 a=3_I_SefUxDRIPOxCBwwA:9 a=QEXdDO2ut3YA:10 a=nmN5PyIS0n0A:10 a=s4ET_no39iIA:10 a=YptgenrckBkA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=2bhPD3aLbhISNpCYJdoZ:22 ::
+    100.00
+
+--1667484178-eximdsn-1315319834
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qao6orY1EwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=6363ca12 p=iPfaXo_PcWMA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=z_eevZxNH8wA:10 a=QUC2DJBuAAAA:8 a=RgBw9RmQAAAA:8 a=3_I_SefUxDRIPOxCBwwA:9 a=QEXdDO2ut3YA:10 a=nmN5PyIS0n0A:10 a=s4ET_no39iIA:10 a=YptgenrckBkA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=2bhPD3aLbhISNpCYJdoZ:22 :: 100.00
+
+--1667484178-eximdsn-1315319834
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqao6-002bxS-5d
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 07:02:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jeraldhib.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.197.74.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.197.74.6
+From: smirnova.liudmila.1980.30.1@mail.ru
+Reply-To: smirnova.liudmila.1980.30.1@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqao6-002bxS-5d@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 07:02:58 -0700
+
+You have been contacted by Jeraldhib, and the message is as follows.
+
+" Звёзды (что делают?) блещут
+https://www.globish-school.ru/tests.html
+  Волны (что делают?) хлещут
+http://www.globish-school.ru
+  Туча (что делает?) идёт
+https://www.globish-school.ru/tests.html
+  Бочка (что делает?) плывёт
+https://www.globish-school.ru/tests.html
+  Гости (что сделали?) вышли
+https://www.globish-school.ru
+  Царь Салтан (что делает?) зовёт
+https://www.globish-school.ru/tests.html
+  Удалец (что сделал?) полетел
+https://www.globish-school.ru
+ 
+ 1 https://www.globish-school.ru
+  К кормушке прилетели воробьи,
+синички, голуби https://www.globish-school.ru/tests.html
+  2 https://www.globish-school.ru/tests.html
+  Малыши играли на детской
+площадке, весело смеялись
+http://www.globish-school.ru
+  3 http://www.globish-school.ru
+  Во время экскурсии мы побывали в
+музее, храме, картинной галерее
+http://www.globish-school.ru
+ 
+Летом Валя и И-ра жили в деревне у тёти
+Нины https://www.globish-school.ru
+  Когда на-сту-пил июль, к ним
+при-е-ха-ли дво-ю-род-ны-е сестры Мила и
+Марина https://www.globish-school.ru
+  Де-воч-ки весело провели школь-ны-е
+каникулы https://www.globish-school.ru
+ 
+74 https://www.globish-school.ru/tests.html
+  Спишите предложения http://www.globish-school.ru
+  В словах с разделительными твёрдым
+(ъ) и мягким (ь) знаками выделите корни
+и приставки, если они есть
+http://www.globish-school.ru
+  Подчеркните главные члены в каждом
+предложении https://www.globish-school.ru
+ 
+Чиполлино был сыном Чиполлоне
+http://www.globish-school.ru
+  И было у него семь братьев:
+Чиполлетто, Чиполлотто, Чиполлоча,
+Чиполлуча и так далее — самые
+подходящие имена для честной луковой
+семьи https://www.globish-school.ru/tests.html
+ 
+                                    На
+берегу рекиРаннее чудесное утро на
+реке https://www.globish-school.ru
+  Вокруг стоит удивительная  тишина
+https://www.globish-school.ru/tests.html
+  Но вдали уже проснулись певчие птицы
+http://www.globish-school.ru
+  Слева пестреют разноцветные цветы
+https://www.globish-school.ru/tests.html
+  Вблизи уже жужжат трудолюбивые
+пчёлы http://www.globish-school.ru
+  Справа блестят прозрачные
+росинки на траве https://www.globish-school.ru
+  Сверху доносится гомон птиц
+http://www.globish-school.ru
+  Внизу блестит голубая река
+https://www.globish-school.ru
+  Впереди виднеется песчаный берег
+https://www.globish-school.ru
+  Позади берёзовая роща
+https://www.globish-school.ru/tests.html
+ 
+"
+
+You can contact Jeraldhib via email,
+smirnova.liudmila.1980.30.1@mail.ru
+
+--1667484178-eximdsn-1315319834--

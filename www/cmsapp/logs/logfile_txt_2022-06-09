@@ -1,0 +1,4 @@
+DebugLog  | 2022-06-09 18:02:47 | guest | 114.119.142.27 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-06-09 18:02:47 | guest | 114.119.142.27 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-06-09' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-06-09 19:43:24 | guest | 207.46.13.47 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-06-09' order by fromdate asc ,todate asc limit 1
+DebugLog  | 2022-06-09 20:07:47 | guest | 114.119.142.43 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-06-09' order by fromdate asc ,todate asc limit 1

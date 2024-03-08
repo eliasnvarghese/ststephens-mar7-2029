@@ -1,0 +1,115 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id sCxxJUzEPWM6tBoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 05 Oct 2022 10:52:12 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 05 Oct 2022 10:52:12 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1og8Z2-007NmV-G7
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Wed, 05 Oct 2022 10:52:12 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1og8Z1-007NlZ-DU@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1664992332-eximdsn-1113838312
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1og8Z2-007NmV-G7@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 05 Oct 2022 10:52:12 -0700
+
+--1664992332-eximdsn-1113838312
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 g8Z1oN7IphVSR :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=I/Og+Psg c=1 sm=1 tr=0 ts=633dc44c p=FmeRATZIcosA:10 p=oRkqbCoaAAAA:8 p=JA3Z4DHBAAAA:8 p=obYRRw5tAAAA:8 p=ziAcytp2AAAA:8 p=EtcPfdKXAAAA:8 p=fm5DKE9OAAAA:8 p=eMC-UghJSEcA:10 p=TY_PvBU4NmIA:10 p=LT0Cev02HfgA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=Qawa6l4ZSaYA:10 a=MbHwY01eVj4A:10 a=x7bEGLp0ZPQA:10 a=44btyP4MfmgA:10 a=55jZN7dOAAAA:8 a=m7yBqarVFjUCuFZImyQA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=HEHVGuv-cu0A:10 a=ipNGQV0Ur_0A:10 a=Wm8md4xlqIQA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=GZ4MpXurEHM2uBO77CRR:22 a=61FXhy9x3HhDFwaGU_tK:22 a=R0DMp2NlANyKN4cyJC9v:22 a=Py0lE5SvLXCAg98xzZ0K:22 a=TbJ0181C00Muu7hx7tF-:22 a=odh3i5pfw7gQ6VwNz3g5:22 ::
+    100.00
+
+--1664992332-eximdsn-1113838312
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 g8Z1oN7IphVSR :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=I/Og+Psg c=1 sm=1 tr=0 ts=633dc44c p=FmeRATZIcosA:10 p=oRkqbCoaAAAA:8 p=JA3Z4DHBAAAA:8 p=obYRRw5tAAAA:8 p=ziAcytp2AAAA:8 p=EtcPfdKXAAAA:8 p=fm5DKE9OAAAA:8 p=eMC-UghJSEcA:10 p=TY_PvBU4NmIA:10 p=LT0Cev02HfgA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=Qawa6l4ZSaYA:10 a=MbHwY01eVj4A:10 a=x7bEGLp0ZPQA:10 a=44btyP4MfmgA:10 a=55jZN7dOAAAA:8 a=m7yBqarVFjUCuFZImyQA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=HEHVGuv-cu0A:10 a=ipNGQV0Ur_0A:10 a=Wm8md4xlqIQA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=GZ4MpXurEHM2uBO77CRR:22 a=61FXhy9x3HhDFwaGU_tK:22 a=R0DMp2NlANyKN4cyJC9v:22 a=Py0lE5SvLXCAg98xzZ0K:22 a=TbJ0181C00Muu7hx7tF-:22 a=odh3i5pfw7gQ6VwNz3g5:22 :: 100.00
+
+--1664992332-eximdsn-1113838312
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1og8Z1-007NlZ-DU
+	for ginojohn@gmail.com; Wed, 05 Oct 2022 10:52:11 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by dinnabbistr.
+X-PHP-Script: ststephenssanjose.org/contact.php for 78.29.92.51
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 78.29.92.51
+From: dinnabbistr@rambler.ru
+Reply-To: dinnabbistr@rambler.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1og8Z1-007NlZ-DU@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 05 Oct 2022 10:52:11 -0700
+
+You have been contacted by dinnabbistr, and the message is as follows.
+
+"Как очистить бензиновые и дизельные
+форсунки автомобиля
+[url=http://www.uzo.matrixplus.ru/index.htm]Химия для
+очистки и тестирования форсунок ,
+бензинновых и дизельных[/url] 
+ 
+[url=http://www.uzo.matrixplus.ru/]Купить химию для
+очистки дизельных и бензинновых
+форсунок на судоых установках[/url] 
+ 
+Купить химию и моющее средство для
+мойки катера [url=http://regionsv.ru/chem4.html]для
+мойки яхты и лодок[/url] 
+ 
+Как собрать радиолюбительский
+компьютер
+[url=http://rdk.regionsv.ru/orion128-new.htm]Орион-128.2
+ревизия мк 512.3[/url] 
+Как собрать радиолюбительский
+бытовой компьютер
+[url=http://rdk.regionsv.ru/orion128-express.htm]Орион-128.2
+Орион Восточный Экспресс 512[/url] для
+инженерных расчетов 
+ 
+ 
+[url=http://www.matrixboard.ru/stat013.htm]matrixboard.ru[/url] 
+ 
+Все для детского творчества
+[url=http://www.freshdesigner.ru]www.freshdesigner.ru/[/url] 
+ 
+Как делать массаж
+[url=http://tantra64.ru]tantra64.ru[/url] 
+ 
+Массаж медицинский
+[url=http://freshrelax.ru]freshrelax.ru[/url] 
+ 
+Химия для клининга
+[url=http://regionsv.ru]regionsv.ru[/url]"
+
+You can contact dinnabbistr via email, dinnabbistr@rambler.ru
+
+--1664992332-eximdsn-1113838312--

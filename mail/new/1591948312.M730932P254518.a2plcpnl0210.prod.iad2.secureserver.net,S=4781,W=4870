@@ -1,0 +1,89 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id AJLOJhg041424gMAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 12 Jun 2020 00:51:52 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 12 Jun 2020 00:51:52 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	id 1jjeTg-0015wC-4g
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 12 Jun 2020 00:51:52 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1591948312-eximdsn-1988639207
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jjeTg-0015wC-4g@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 12 Jun 2020 00:51:52 -0700
+
+--1591948312-eximdsn-1988639207
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 jeTgjSH7iRZej :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=UN2j4xXy c=1 sm=1 tr=0 p=0-RUdp2zAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=63PfLCIBvxoA:10 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=sW9SMKTExeIA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=nTHF0DUjJn0A:10 a=V7PIi5ijkEYA:10 a=pGLkceISAAAA:8 a=cjxqk2FvWK_5y91Xxw0A:9 a=SRmwhnDh7Bmkoqk-:21 a=rfH6CW-pauJbYIvn:21 a=QEXdDO2ut3YA:10 a=VZeibp19fzQA:10 a=kJRyhZL5CHQA:10 a=ty558779Eq0A:10 a=rfcTVKDzNb75LW6U4NFl:22 a=kK6BLzKYbl8cVSKqQn9g:22 a=64yjDz2Af90sFJ8PKeoP:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 ::
+    100.00
+
+--1591948312-eximdsn-1988639207
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 jeTgjSH7iRZej :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=UN2j4xXy c=1 sm=1 tr=0 p=0-RUdp2zAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=63PfLCIBvxoA:10 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=sW9SMKTExeIA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=nTHF0DUjJn0A:10 a=V7PIi5ijkEYA:10 a=pGLkceISAAAA:8 a=cjxqk2FvWK_5y91Xxw0A:9 a=SRmwhnDh7Bmkoqk-:21 a=rfH6CW-pauJbYIvn:21 a=QEXdDO2ut3YA:10 a=VZeibp19fzQA:10 a=kJRyhZL5CHQA:10 a=ty558779Eq0A:10 a=rfcTVKDzNb75LW6U4NFl:22 a=kK6BLzKYbl8cVSKqQn9g:22 a=64yjDz2Af90sFJ8PKeoP:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 :: 100.00
+
+--1591948312-eximdsn-1988639207
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1jjeTf-0015vc-Qr
+	for ginojohn@gmail.com; Fri, 12 Jun 2020 00:51:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by EU LOTTO BOARD.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.9.114.218
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.9.114.218
+From: saabtkhann@gmail.com
+Reply-To: saabtkhann@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1jjeTf-0015vc-Qr@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 12 Jun 2020 00:51:51 -0700
+
+You have been contacted by EU LOTTO BOARD, and the message is as
+follows.
+
+"Dear sir, 
+Due to the most recent COVID-19 epidemic, Your email has been selected
+to claim the sum of $500,000 in the 2020 EU/COMMONWEALTH LOTTO through
+the United Nations Covid-19 relief funding. 
+ 
+To Claim your funds please contact Our processing Agent. 
+Ambreen Dossa. 
+Email: ambreendossa@ambreenmerchant.com 
+ 
+Congratulations. 
+John Edward. 
+(Cordinator)"
+
+You can contact EU LOTTO BOARD via email, saabtkhann@gmail.com
+
+--1591948312-eximdsn-1988639207--

@@ -1,0 +1,99 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id wDhEDusicmOFZj0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 14 Nov 2022 04:13:47 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 14 Nov 2022 04:13:47 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1ouXPP-00H9eg-4S
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 14 Nov 2022 04:13:47 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1ouXPO-00H9XI-Gm@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1668424427-eximdsn-353830285
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ouXPP-00H9eg-4S@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 14 Nov 2022 04:13:47 -0700
+
+--1668424427-eximdsn-353830285
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 uXPNoL7OjF1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=637222e9 p=SHPMoBxgO-cA:10 p=uFgf5oPn32AA:10 p=_sBuVqInsxAA:10 p=XQ0H4F6AE_hSKZrk9syD:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=x7bEGLp0ZPQA:10 a=HYTqqDvchfUA:10 a=24R364EgAAAA:8 a=pGLkceISAAAA:8 a=Bg55UxYi6HpbUYQj0PYA:9 a=QEXdDO2ut3YA:10 a=yzswzjxvZv4A:10 a=p7XAdLkDMscA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=3HuXb1N_H2wZl7-_I1Tr:22 a=qU-x-Q-6eWzPb5nVh042:22 ::
+    100.00
+
+--1668424427-eximdsn-353830285
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 uXPNoL7OjF1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=637222e9 p=SHPMoBxgO-cA:10 p=uFgf5oPn32AA:10 p=_sBuVqInsxAA:10 p=XQ0H4F6AE_hSKZrk9syD:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=x7bEGLp0ZPQA:10 a=HYTqqDvchfUA:10 a=24R364EgAAAA:8 a=pGLkceISAAAA:8 a=Bg55UxYi6HpbUYQj0PYA:9 a=QEXdDO2ut3YA:10 a=yzswzjxvZv4A:10 a=p7XAdLkDMscA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=3HuXb1N_H2wZl7-_I1Tr:22 a=qU-x-Q-6eWzPb5nVh042:22 :: 100.00
+
+--1668424427-eximdsn-353830285
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1ouXPO-00H9XI-Gm
+	for ginojohn@gmail.com; Mon, 14 Nov 2022 04:13:46 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by DavidJar.
+X-PHP-Script: ststephenssanjose.org/contact.php for 91.242.54.52
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 91.242.54.52
+From: kanalosh6000@gmail.com
+Reply-To: kanalosh6000@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1ouXPO-00H9XI-Gm@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 14 Nov 2022 04:13:46 -0700
+
+You have been contacted by DavidJar, and the message is as follows.
+
+"Доброго времени суток! 
+ 
+Биржа копирайтинга  https://text-market.ru/ 
+ 
+• - Пополнение статей для ваших сайтов
+каждый день. 
+ 
+• - Проверка статей сервисами
+антиплагиатами. 
+ 
+• - Удобный выбор статей. Вы можете
+выбрать одну статью или несколько
+штук. 
+ 
+• - На сайте есть обратная связь и
+тикет система. Вам ответят в течение
+дня.. 
+ 
+• - Магазин работает 24/7. 
+ 
+• - Все ответы на ваши вопросы вы
+можите посмотреть на сайте."
+
+You can contact DavidJar via email, kanalosh6000@gmail.com
+
+--1668424427-eximdsn-353830285--

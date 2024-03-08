@@ -1,0 +1,278 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id WGPcA8B5cWS6NSQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 26 May 2023 20:32:16 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 26 May 2023 20:32:16 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q2kf9-009xap-PV
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 26 May 2023 20:32:15 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q2kf4-009xa3-3K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1685158335-eximdsn-1854526309
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q2kf9-009xap-PV@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 26 May 2023 20:32:15 -0700
+
+--1685158335-eximdsn-1854526309
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 2kf9qyCoJVVZp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=YJhZizKx c=1 sm=1 tr=0 ts=647179bf p=_oVGLPwIAAAA:20 p=prpInxyIDPzgjDZQ94N2:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=U56_6ga0_NcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=zVFgLE4ClKEA:10 a=pGLkceISAAAA:8 a=4DOlgmLx2i6uHsOfuGcA:9 a=QEXdDO2ut3YA:10 a=S5L2PrMXqqAA:10 a=x3JCeA33C0AA:10 a=KyYZJfTCSdMA:10 a=B8SQno6LKQnxjfldQy7J:22 a=0kuqQ5xQJfZuqF0brSzF:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1685158335-eximdsn-1854526309
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 2kf9qyCoJVVZp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=YJhZizKx c=1 sm=1 tr=0 ts=647179bf p=_oVGLPwIAAAA:20 p=prpInxyIDPzgjDZQ94N2:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=U56_6ga0_NcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=zVFgLE4ClKEA:10 a=pGLkceISAAAA:8 a=4DOlgmLx2i6uHsOfuGcA:9 a=QEXdDO2ut3YA:10 a=S5L2PrMXqqAA:10 a=x3JCeA33C0AA:10 a=KyYZJfTCSdMA:10 a=B8SQno6LKQnxjfldQy7J:22 a=0kuqQ5xQJfZuqF0brSzF:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1685158335-eximdsn-1854526309
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q2kf4-009xa3-3K
+	for ginojohn@gmail.com;
+	Fri, 26 May 2023 20:32:15 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Dawn Allen.
+X-PHP-Script: ststephenssanjose.org/contact.php for 168.91.65.107
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 168.91.65.107
+From: dawn.allen@gmail.com
+Reply-To: dawn.allen@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q2kf4-009xa3-3K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 26 May 2023 20:32:10 -0700
+
+You have been contacted by Dawn Allen, and the message is as follows.
+
+"You're just one click...
+
+
+From plugging into a turbo-charged AI...
+
+
+That make $400 per day...
+
+
+$55 per hour...
+
+
+Even $2,200 per day...
+
+
+Just by pasting a few words...
+
+
+Into a new AI app - that is the ULTIMATE AI available right now
+
+
+That’s because it’s just the most PROFITABLE AI.
+
+
+See for yourself:
+
+
+==> https://bit.ly/3Vh88NO
+
+
+Why?
+
+
+Because...
+
+
+EVERY time you paste into the AI...
+
+
+It builds an instant Internet asset...
+
+
+A new and unique asset, that makes FAST commissions...
+
+
+Gets buyer leads...
+
+
+Banks commissions...
+
+
+Crushes ClickBank...
+
+
+Smashes Shopify...
+
+
+Closes on UpWork...
+
+
+And 27x other mega-sites...
+
+
+See the INSANE proof from THIS WEEK here:
+
+
+==> https://bit.ly/3Vh88NO
+
+
+YES. This uses Chat-GPT (and 4x other secret AIs).
+
+
+And yes, you can do this, right from your browser.
+
+
+Without needing to understand...
+
+
+How the AI works...
+
+
+Why the AI works...
+
+
+Or any of the hardcore tech stuff needed to make this happen.
+
+
+Curious?
+
+
+Hit this link:
+
+
+==> https://bit.ly/3Vh88NO
+
+
+LOOK. With the AI.. and THIS new tactic...
+
+
+Profiting in 2023 is as DONE FOR YOU as it gets.
+
+
+Simply PASTE in a few words from any site.
+
+
+And the AI does the rest...
+
+
+Seriously, this is THE holy grail.
+
+
+A NEW money-making method...
+
+
+That requires no writing whatsoever.
+
+
+In fact, all you need to open up a website...
+
+
+Copy a few words from the website...
+
+
+Paste it into the AI software tool...
+
+
+And wait for the AI to build you an income-generating asset...
+
+
+From scratch, right from your browser
+
+
+Go here NOW:
+
+
+==> https://bit.ly/3Vh88NO
+
+
+It's NEW for April 2023. No-one else knows about this.
+
+
+This is a BRAND NEW method that NO-ONE knows about…
+
+
+It’s completely UNTAPPED and new...
+
+
+And even though it's a few days old...
+
+
+It's already proven - and ready for you to try!
+
+
+==> https://bit.ly/3Vh88NO
+
+
+This is 100% DONE FOR YOU online profiteering.
+
+
+It's as push-button simple for you as possible.
+
+
+That's why THIS... is world’s first COPY AND PASTE moneymaking AI.
+
+
+Even if you’re brand new, don’t have a list...
+
+
+Don't have a product to sell...
+
+
+And even if you don't have a website... 
+
+
+You don’t need one because...
+
+
+Because the AI will build them all for you - AUTOMATICALLY - IF you
+can copy... and paste.
+
+
+So what are you waiting for?
+
+
+Click below to get started.
+
+
+==> https://bit.ly/3Vh88NO
+
+
+PS. Do it now, the price jumps IN THE NEXT FEW MINUTES.
+
+
+And then again.. and AGAIN.. EVERY hour after that!
+
+
+==> https://bit.ly/3Vh88NO
+
+"
+
+You can contact Dawn Allen via email, dawn.allen@gmail.com
+
+--1685158335-eximdsn-1854526309--

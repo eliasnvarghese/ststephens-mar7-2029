@@ -1,0 +1,69 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id SAQCG1ITf2RLUjEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 06 Jun 2023 04:06:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 06 Jun 2023 04:06:58 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q6UWg-00Dbim-D3
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 06 Jun 2023 04:06:58 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q6UWb-00Dbhw-G6@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1q6UWg-00Dbim-D3@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 06 Jun 2023 04:06:58 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q6UWb-00Dbhw-G6
+	for ginojohn@gmail.com;
+	Tue, 06 Jun 2023 04:06:53 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Steve Collins.
+X-PHP-Script: ststephenssanjose.org/contact.php for 38.153.147.211
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 38.153.147.211
+From: stevecollins@gmail.com
+Reply-To: stevecollins@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q6UWb-00Dbhw-G6@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 06 Jun 2023 04:06:53 -0700
+
+You have been contacted by Steve Collins, and the message is as
+follows.
+
+"Hey there, my name is Steve and I am a remote recruitment agent for
+AISocial, I checked out your website and I am impressed. I am
+currently looking for a couple more app reviewers to join our team.
+The position is flexible so you can work it a couple hours a day on
+the side of your main business, it pays a minimum of $200 per day and
+would involve writing a couple app reviews a day.
+
+We currently are hiring 3 more people from your location, if you are
+interested you can view the details of the job by clicking my hiring
+link below, it isn't the hardest job but we are looking for the most
+qualified candidates to proceed.
+
+https://www.theaisocial.com/writeappreviews
+
+Thank you for your time, we hope to see you on our team!
+
+Talk soon,
+Steve from AISocial"
+
+You can contact Steve Collins via email, stevecollins@gmail.com

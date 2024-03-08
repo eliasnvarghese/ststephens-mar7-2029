@@ -1,0 +1,144 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OH8tOaIZY2PBLw0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 02 Nov 2022 18:30:10 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 02 Nov 2022 18:30:10 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqP3a-003icL-Rg
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Wed, 02 Nov 2022 18:30:10 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqP3a-003ibL-CD@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667439010-eximdsn-1511227754
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqP3a-003icL-Rg@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 02 Nov 2022 18:30:10 -0700
+
+--1667439010-eximdsn-1511227754
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qP3aov1TPYVlN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=636319a2 p=cs8gf37ADIYA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=7hIBbAKoStsA:10 a=6_QihwcNAAAA:8 a=RgBw9RmQAAAA:8 a=87cGHYVK4kExz8LmZ8cA:9 a=QEXdDO2ut3YA:10 a=ugb6AYb8TpUA:10 a=un8xGrvMoEUA:10 a=qo8OtsNcEtkA:10 a=WT-AGx3-lj8A:10 a=REQWpoWbRTEA:10 a=crm-MsgCQ54A:10 a=Kf3MDc5fUU4A:10 a=5__tXuBjFWoA:10 a=sbzKK18Oqx0A:10 a=S2UCcQKLJsgA:10 a=2V2cg12dkqUA:10 a=PPI3inAd4ZwA:10 a=opGcp8E7aiQA:10 a=96efJufKbTEA:10 a=5N9Sc-Q2dN0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=d9IQMi0ovIPTbKr8UT6T:22 ::
+    100.00
+
+--1667439010-eximdsn-1511227754
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qP3aov1TPYVlN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=636319a2 p=cs8gf37ADIYA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=7hIBbAKoStsA:10 a=6_QihwcNAAAA:8 a=RgBw9RmQAAAA:8 a=87cGHYVK4kExz8LmZ8cA:9 a=QEXdDO2ut3YA:10 a=ugb6AYb8TpUA:10 a=un8xGrvMoEUA:10 a=qo8OtsNcEtkA:10 a=WT-AGx3-lj8A:10 a=REQWpoWbRTEA:10 a=crm-MsgCQ54A:10 a=Kf3MDc5fUU4A:10 a=5__tXuBjFWoA:10 a=sbzKK18Oqx0A:10 a=S2UCcQKLJsgA:10 a=2V2cg12dkqUA:10 a=PPI3inAd4ZwA:10 a=opGcp8E7aiQA:10 a=96efJufKbTEA:10 a=5N9Sc-Q2dN0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=d9IQMi0ovIPTbKr8UT6T:22 :: 100.00
+
+--1667439010-eximdsn-1511227754
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqP3a-003ibL-CD
+	for ginojohn@gmail.com; Wed, 02 Nov 2022 18:30:10 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Stevenmaw.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.38.235.158
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.38.235.158
+From: pavel.sitdikov.88@mail.ru
+Reply-To: pavel.sitdikov.88@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqP3a-003ibL-CD@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 02 Nov 2022 18:30:10 -0700
+
+You have been contacted by Stevenmaw, and the message is as follows.
+
+"Обновлено 17 фев 2017Дефектоскопы,
+толщиномеры, твердомеры, тепловизоры,
+пирометры, рентгеновские аппараты,
+рентгеновская пленка, лазерные
+дальномеры
+https://www.ndt-club.com/product-5-a1212-master-klab-komplekt-yltrazvykovoi-defektoskop.htm
+  Доставка в любую точку России
+https://www.ndt-club.com/product-151-tr210-izmeritel-sherohovatosti.htm
+  Гарантийное и  
+https://www.ndt-club.com/product-639-tapirys-yniversalnii-shablon-specialista-nk.htm
+  https://www.ndt-club.com/proizvoditeli-1-kropys.htm
+ 
+https://www.ndt-club.com/product-356-em2210-ema-tolshinomer-diapazon-po-stali-2-60-mm.htm
+ 
+Работает по:   черным и цветным
+металламРабочая температура:   -40°С до
++50°СМакс
+https://www.ndt-club.com/product-435-ips-mg4-03-izmeritel-prochnosti-betona-sklerometr.htm
+  измерение:   2000 микронШаг измерений:  
+0,1 микронПодсветка экрана:   ЕстьДоп
+https://www.ndt-club.com/produkcija-162-koercitimetri-magnitnie.htm
+  функции:   датчик
+оцинковкиПроизводство:  
+КитайГарантия:   1 год 
+Комплект образцовых ультразвуковых
+плоскопараллельных мер толщин КМТ-176
+(КУСОТ-180) создан для проверки
+работоспособности, настройки, а также
+калибровки различных ультразвуковых
+толщиномеров на
+предприятиях-изготовителях
+https://www.ndt-club.com/product-595-yp-1m-ystroistvo-dlya-yzk-perekrestii-svarnih-shvov.htm
+  С помощью данного комплекта
+стандартных образцов толщины КУСОТ-180
+(КМТ-176) возможно осуществить проверку,
+калибровку и метрологическую
+аттестацию ультразвуковых
+толщиномеров
+https://www.ndt-club.com/product-233-raycraft-rentgenovskie-apparati-reikraft.htm
+ 
+Ультразвуковой толщиномер TT340
+используется для измерения толщины
+отливок и различных объектов как
+металлического, так неметаллического
+происхождения
+https://www.ndt-club.com/produkcija-256-kameri-ohlajdeniya.htm
+  Прибор прост и удобен в
+использовании, он оборудован ЖК
+экраном с регулируемой яркостью
+подсветки
+https://www.ndt-club.com/product-542-foundry-master-smart-optimum.htm
+  Результаты измерений могут
+отображаються на экране как
+миллиметрах, так в дюймах
+https://www.ndt-club.com/product-15-a1040-mira-yltrazvykovoi-tomograf-dlya-kontrolya-betona.htm
+ 
+
+Работает по:   черным и цветным
+металламРабочая температура:   -25°С до
++50°СМакс
+https://www.ndt-club.com/product-13-a1220-monolith-monolit-yltrazvykovoi-defektoskop-dlya-kontrolya-betona.htm
+  измерение:   2000 микронШаг измерений:  
+1 микронПодсветка экрана:   ЕстьДоп
+https://www.ndt-club.com/product-209-prinadlejnosti-i-aksessyari-dlya-rentgenograficheskogo-kontrolya.htm
+  функции:   нетПроизводство:  
+ТайваньГарантия:   1,5 года 
+"
+
+You can contact Stevenmaw via email, pavel.sitdikov.88@mail.ru
+
+--1667439010-eximdsn-1511227754--

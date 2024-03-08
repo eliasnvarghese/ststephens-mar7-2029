@@ -1,0 +1,138 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id yLVQMR8ckGMHvCAAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 06 Dec 2022 21:52:47 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 06 Dec 2022 21:52:47 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1p2mQJ-009DHe-O9
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 06 Dec 2022 21:52:47 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1p2mQD-009DAw-I2@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1670388767-eximdsn-1506474353
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1p2mQJ-009DHe-O9@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 06 Dec 2022 21:52:47 -0700
+
+--1670388767-eximdsn-1506474353
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 2mQJp3CguAJAH :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=dOVg2sVb c=1 sm=1 tr=0 ts=63901c1f p=muX8AnVF0QMA:10 p=CwT2kIeEoWIA:10 p=bRWeeHD5YsQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=x7bEGLp0ZPQA:10 a=6rY2EMjTOd4A:10 a=my_aHA5sAAAA:8 a=BMxJXzqDAAAA:8 a=lVysYuggCTimghVPrs8A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=kAbfpHFFlEkA:10 a=hu_MHUbB3IMA:10 a=u5R-neFBOuMA:10 a=tlggY0r7AV8A:10 a=aSNeMNu_SJkA:10 a=sl5xmgLJLksA:10 a=4K05xc08MW4A:10 a=0k6SPM0B_GwA:10 a=9RHhSFwiq6wA:10 a=eURo6ZL38A8A:10 a=160lH-spndYA:10 a=nfLq4sFBFBYA:10 a=CRN8_D8G3gYA:10 a=cbKC-1LXJ3wA:10 a=W1kvokVmtooA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=HfBD_YA8LKcf4HqcVIH8:22 ::
+    100.00
+
+--1670388767-eximdsn-1506474353
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 2mQJp3CguAJAH :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=dOVg2sVb c=1 sm=1 tr=0 ts=63901c1f p=muX8AnVF0QMA:10 p=CwT2kIeEoWIA:10 p=bRWeeHD5YsQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=x7bEGLp0ZPQA:10 a=6rY2EMjTOd4A:10 a=my_aHA5sAAAA:8 a=BMxJXzqDAAAA:8 a=lVysYuggCTimghVPrs8A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=kAbfpHFFlEkA:10 a=hu_MHUbB3IMA:10 a=u5R-neFBOuMA:10 a=tlggY0r7AV8A:10 a=aSNeMNu_SJkA:10 a=sl5xmgLJLksA:10 a=4K05xc08MW4A:10 a=0k6SPM0B_GwA:10 a=9RHhSFwiq6wA:10 a=eURo6ZL38A8A:10 a=160lH-spndYA:10 a=nfLq4sFBFBYA:10 a=CRN8_D8G3gYA:10 a=cbKC-1LXJ3wA:10 a=W1kvokVmtooA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=HfBD_YA8LKcf4HqcVIH8:22 :: 100.00
+
+--1670388767-eximdsn-1506474353
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1p2mQD-009DAw-I2
+	for ginojohn@gmail.com;
+	Tue, 06 Dec 2022 21:52:47 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Ashleyfloop.
+X-PHP-Script: ststephenssanjose.org/contact.php for 88.206.120.250
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 88.206.120.250
+From: tthfttr@yandex.com
+Reply-To: tthfttr@yandex.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1p2mQD-009DAw-I2@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 06 Dec 2022 21:52:41 -0700
+
+You have been contacted by Ashleyfloop, and the message is as follows.
+
+" 
+В 1990-х и 2000-х годах целый ряд
+производств в городе прекратил
+существование из-за сложной
+экономической ситуации[8][10]. К концу
+2010-х Челябинск имеет серьёзные
+экологические проблемы , в частности,
+почти ежедневное загрязнение воздуха,
+что является одной из причин оттока
+населения в другие регионы страны[11] .
+Челябинск также испытывает серьёзные
+трудности в хозяйственной и
+экономической сферах, что проявляется
+в деградировавших дорожной сети и
+общественном транспорте , а также в
+отсутствии городского
+благоустройства и архитектуры . Тем не
+менее, Челябинск является одним из
+крупнейших культурных, экономических,
+деловых и промышленных центров Урала,
+где промышленность составляет 38 % от
+валового муниципального продукта[12] . 
+ 
+[url=https://mir74.ru/marshrutki.html]как доехать с
+чичерина до фиесты[/url]
+[url=https://mir74.ru/21801-v-chelyabinskoy-oblasti-bolee-chem-na-10-procentov-vyroslo-chislo-rabotodateley-privlekayuschih-na-rabotu-inostrancev.html]вакансии
+для мигрантов челябинск[/url]
+[url=https://mir74.ru/doska/auto.html]авторынок[/url]
+[url=https://mir74.ru/obschestvo/28558-mchs-preduprezhdaet-nastupaet-pozharoopasnyy-period.html]речелстрой
+челябинск[/url]
+[url=https://mir74.ru/sobytija/28503-v-chelyabinske-proydet-seminar-dlya-veterinarov.html]ветеринарная
+клиника карена даллакяна
+челябинск[/url]
+ 
+ 
+ 
+ 
+[b]Драматический камерный театр[/b] 
+ 
+Молодой Челябинский государственный
+драматический камерный театр
+ворвался в культурную жизнь города с
+постановкой «Крик лангусты» по пьесе
+Джона Марелла, чем сразу полюбился
+публике. Все дело в творческой
+дерзости, азарте и кураже актеров,
+смелости режиссерских замыслов. 
+ 
+[url=https://mir74.ru/18478-v-chelyabi...rejting-shkol.html]школы
+центрального района челябинска
+рейтинг[/url]
+[url=https://mir74.ru/26013-8499-rubley-sostavit-prozhitochnyy-minimum-pensionera-v-2016-godu.html]минимальная
+пенсия в челябинской области[/url]
+[url=https://mir74.ru/26682-gde-pokatatsya-na-konkah-v-prazdniki.html]каток
+челябинск сад победы 2017[/url]
+[url=https://mir74.ru/]чел.ру 74[/url]
+[url=https://mir74.ru/26682-gde-pokatatsya-na-konkah-v-prazdniki.html]сад
+победы каток челябинск 2017[/url]
+"
+
+You can contact Ashleyfloop via email, tthfttr@yandex.com
+
+--1670388767-eximdsn-1506474353--

@@ -1,0 +1,152 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id aAlrE29mmmTQ4zkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 26 Jun 2023 21:32:47 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 26 Jun 2023 21:32:47 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qE0Nj-00FuxO-8a
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 26 Jun 2023 21:32:47 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qE0Ne-00FuwY-Hy@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1687840367-eximdsn-1181661629
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qE0Nj-00FuxO-8a@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 26 Jun 2023 21:32:47 -0700
+
+--1687840367-eximdsn-1181661629
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 E0NjqmynoUe7e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=649a666f p=wgH_7pNrAAAA:20 p=iNQQPaF21gR9Swt2bzAO:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=SL_z6qJt0rAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=mAyEhy10APcA:10 a=-9j8TOH6AAAA:8 a=huvbmMDMAAAA:8 a=69EAbJreAAAA:8 a=DuV-PBMjtT7pH0vUEKcA:9 a=QEXdDO2ut3YA:10 a=KBvMdNYI1H4A:10 a=7rtvV9g8zP0A:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=TLozLrwl4OuFejqALa6-:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1687840367-eximdsn-1181661629
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 E0NjqmynoUe7e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=649a666f p=wgH_7pNrAAAA:20 p=iNQQPaF21gR9Swt2bzAO:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=SL_z6qJt0rAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=mAyEhy10APcA:10 a=-9j8TOH6AAAA:8 a=huvbmMDMAAAA:8 a=69EAbJreAAAA:8 a=DuV-PBMjtT7pH0vUEKcA:9 a=QEXdDO2ut3YA:10 a=KBvMdNYI1H4A:10 a=7rtvV9g8zP0A:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=TLozLrwl4OuFejqALa6-:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1687840367-eximdsn-1181661629
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qE0Ne-00FuwY-Hy
+	for ginojohn@gmail.com;
+	Mon, 26 Jun 2023 21:32:47 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Hildegard Jarnigan.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.93.128.186
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.93.128.186
+From: jarnigan.hildegard@hotmail.com
+Reply-To: jarnigan.hildegard@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qE0Ne-00FuwY-Hy@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 26 Jun 2023 21:32:42 -0700
+
+You have been contacted by Hildegard Jarnigan, and the message is as
+follows.
+
+"Hi
+
+Get a free audit for your website here: 
+https://tinyurl.com/seowebreport
+
+I wish this email discovers you well. As a search engine optimization
+professional, I recognize the significance of ranking high in search
+engine results as well as driving organic website traffic to your
+site. That's why I intended to reach out to you today with an amazing
+chance to give your internet site the boost it should have!
+
+At Free Internet Traffic Online, we concentrate on developing top
+quality backlinks that are verified to boost your site's presence and
+also aid it climb up the search engine positions. Back links from
+trusted sources can dramatically boost your website's authority and
+credibility, ultimately resulting in increased natural web traffic and
+also even more possible clients.
+
+Get a free audit for your website here: 
+https://tinyurl.com/seowebreport
+
+But that's not all! As a motion of our commitment to your success,
+we're supplying you a FREE Web Site Audit Report. Our comprehensive
+audit will determine any kind of existing mistakes, concerns, or
+missed possibilities on your site that might be preventing its
+efficiency. You'll obtain useful insights as well as workable
+suggestions to enhance your website and also guarantee it's executing
+at its ideal.
+Below are some benefits you can expect from our backlink services and
+also the cost-free site audit record:
+
+Enhanced Search Engine Rankings: Our high-grade back links will assist
+your website climb the internet search engine rankings, making it much
+more noticeable to possible clients who are proactively searching for
+product and services like your own.
+Raised Organic Web traffic: With better positions, your internet site
+will attract much more natural web traffic, leading to a steady stream
+of visitors who are truly curious about what you have to offer.
+
+Enhanced Website Authority: Backlinks from authoritative internet
+sites will certainly develop your web site as a reliable and also
+reliable resource in your industry, developing trustworthiness and
+count on among your target market.
+Targeted Reach: Our tailored backlink strategy ensures that your
+internet site gets pertinent, industry-specific web links, driving
+targeted web traffic to your site and enhancing the probability of
+conversions.
+
+Do not lose out on this extraordinary opportunity to take your
+website's efficiency to new heights! Simply reply to this e-mail or
+give us a call at [Your Contact Number] to arrange your FREE Website
+Audit Report and also discuss exactly how our top notch backlinks can
+profit your service.
+Remember, the early riser captures the worm! Act now to protect your
+area as well as give your site the competitive edge it is entitled
+to.
+
+Eagerly anticipating helping you achieve outstanding results.
+Get a free audit for your website here:
+
+https://tinyurl.com/seowebreport
+
+Best regards,
+
+Vic
+Free Web Traffic Online
+To unsubscribe to future e-mails please visit this site.
+http://mastarseo.xyz/unsubscribe.php?d=ststephenssanjose.org
+
+
+FWTO , 437 Railway St Cochrane AB T4C2C3"
+
+You can contact Hildegard Jarnigan via email,
+jarnigan.hildegard@hotmail.com
+
+--1687840367-eximdsn-1181661629--

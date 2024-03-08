@@ -1,0 +1,70 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id wBlbH57w1WNgiToAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 28 Jan 2023 21:05:50 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 28 Jan 2023 21:05:50 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pLyww-00G64p-CV
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sat, 28 Jan 2023 21:05:50 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pLywr-00G62l-Qg@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pLyww-00G64p-CV@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 28 Jan 2023 21:05:50 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pLywr-00G62l-Qg
+	for ginojohn@gmail.com;
+	Sat, 28 Jan 2023 21:05:45 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Ty A.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.142.53
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.142.53
+From: miilionmarketing@outlook.com
+Reply-To: miilionmarketing@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pLywr-00G62l-Qg@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 28 Jan 2023 21:05:45 -0700
+
+You have been contacted by Ty A, and the message is as follows.
+
+"
+I hope this email finds you well. I wanted to reach out and introduce
+you to Phantombuster, our powerful lead generation tool that can help
+you increase your conversions and grow your business.
+
+With Phantombuster, you'll be able to easily collect leads from any
+website, social media platform, or search engine, and even automate
+your outreach efforts to increase your chances of success. Plus, with
+our 14-day free trial, you can test out the tool risk-free and see the
+results for yourself.
+
+If you're looking for a reliable, easy-to-use solution to help you
+generate more leads and grow your business, I highly recommend giving
+Phantombuster a try.
+
+Here is the link to get your 14 days free trial with no credit card
+required. https://www.taiversetech.com/phantombuster
+
+Best Regards,
+Ty"
+
+You can contact Ty A via email, miilionmarketing@outlook.com

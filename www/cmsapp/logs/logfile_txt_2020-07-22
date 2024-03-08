@@ -1,0 +1,157 @@
+DebugLog  | 2020-07-22 02:14:50 | guest | 150.95.116.96 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 02:14:50 | guest | 150.95.116.96 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 02:14:53 | guest | 150.95.116.96 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 02:14:53 | guest | 150.95.116.96 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 02:14:56 | guest | 150.95.116.96 | photogallery | Page No = 1
+DebugLog  | 2020-07-22 02:14:56 | guest | 150.95.116.96 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2020-07-22 02:14:56 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:14:56 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2020-07-22 02:14:58 | guest | 150.95.116.96 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2020-07-22 02:14:58 | guest | 150.95.116.96 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 0, 9
+DebugLog  | 2020-07-22 02:15:11 | guest | 150.95.116.96 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 1
+DebugLog  | 2020-07-22 02:15:13 | guest | 150.95.116.96 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2020-07-22 02:15:21 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:21 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:21 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:21 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:23 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:23 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:23 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:23 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:25 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:25 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:25 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:25 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:27 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:27 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:27 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:27 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:29 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:29 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:29 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:29 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:31 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:31 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:31 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:31 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:34 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:34 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:34 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:34 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:36 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:36 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:36 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:36 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:38 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:38 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:38 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:38 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:40 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:40 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:40 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:40 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:43 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:43 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:43 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:43 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:45 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:45 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:45 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:45 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:47 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:47 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:47 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:47 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:49 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:49 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:49 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:49 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:52 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:52 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:52 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:52 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:54 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:54 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:54 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:54 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:56 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:56 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:56 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:56 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:15:58 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:15:58 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:15:58 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:15:58 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:01 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:16:01 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:16:01 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:16:01 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:03 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:16:03 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:16:03 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:16:03 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:06 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:16:06 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:16:06 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:16:06 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:08 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:16:08 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:16:08 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:16:08 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:10 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:16:10 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:16:10 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:16:10 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:13 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:16:13 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:16:13 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:16:13 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:15 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:16:15 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:16:15 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:16:15 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:17 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:16:17 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:16:17 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:16:17 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:19 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:16:19 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:16:19 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:16:19 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:22 | guest | 150.95.116.96 | photogallery | Page No = 2
+DebugLog  | 2020-07-22 02:16:22 | guest | 150.95.116.96 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2020-07-22 02:16:22 | guest | 150.95.116.96 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 02:16:22 | guest | 150.95.116.96 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2020-07-22 02:16:32 | guest | 172.126.71.66 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 02:16:32 | guest | 172.126.71.66 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 02:23:26 | guest | 173.252.127.5 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 02:23:26 | guest | 173.252.127.16 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 02:23:26 | guest | 173.252.127.5 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 02:23:26 | guest | 173.252.127.16 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 03:21:06 | guest | 101.21.145.129 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 03:21:06 | guest | 101.21.145.129 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 04:37:25 | guest | 173.252.95.2 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 04:37:25 | guest | 173.252.95.6 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 04:37:25 | guest | 173.252.95.2 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 04:37:25 | guest | 173.252.95.6 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 06:30:18 | guest | 66.249.65.158 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 06:30:18 | guest | 66.249.65.158 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 07:59:32 | guest | 49.7.21.95 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 07:59:32 | guest | 49.7.21.95 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 08:29:25 | guest | 46.229.168.130 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2020-07-22 08:29:25 | guest | 46.229.168.130 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 0, 9
+DebugLog  | 2020-07-22 10:54:20 | guest | 46.229.168.162 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2020-07-22 11:29:35 | guest | 207.46.13.218 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 11:29:35 | guest | 207.46.13.218 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 15:10:13 | guest | 46.229.168.149 | photogallery | Page No = 3
+DebugLog  | 2020-07-22 15:10:13 | guest | 46.229.168.149 | photogallery | Page No = 3 Rowno = 18
+DebugLog  | 2020-07-22 15:10:13 | guest | 46.229.168.149 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-07-22 15:10:13 | guest | 46.229.168.149 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 18, 9
+DebugLog  | 2020-07-22 16:32:48 | guest | 69.160.160.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 16:32:48 | guest | 69.160.160.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 17:53:04 | guest | 46.229.168.139 | login_action | isUserExists: select userid from useraccount_t  where userid= ''
+DebugLog  | 2020-07-22 18:21:22 | guest | 46.229.168.148 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 1
+DebugLog  | 2020-07-22 18:54:48 | guest | 64.233.172.15 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 18:54:48 | guest | 64.233.172.15 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-07-22 20:13:44 | guest | 66.249.65.128 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-07-22 20:13:44 | guest | 66.249.65.128 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-07-22' order by fromdate asc ,todate asc limit 3

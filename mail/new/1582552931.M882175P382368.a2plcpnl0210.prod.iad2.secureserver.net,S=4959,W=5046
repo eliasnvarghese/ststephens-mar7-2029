@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id qPxGMmPXU16g1QUAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 24 Feb 2020 07:02:11 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 24 Feb 2020 07:02:11 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	id 1j6EJH-001ptj-OS
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 24 Feb 2020 07:02:11 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1582552931-eximdsn-1257574936
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1j6EJH-001ptj-OS@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 24 Feb 2020 07:02:11 -0700
+
+--1582552931-eximdsn-1257574936
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 6EJHjQrMh6reu :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=RKDN4Lq+ c=1 sm=1 tr=0 p=hol58KfuG6cA:10 p=NCPwQTPtC_oA:10 p=1ghaLthvxvtc7e4aeqs3:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=tA1W1y7I1bcA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=l697ptgUJYAA:10 a=KYILVnYGoX8A:10 a=-HiOlP4sAAAA:8 a=i4NDHYoAAAAA:8 a=pGLkceISAAAA:8 a=fEWDaRrwuosC4wTaBy8A:9 a=QEXdDO2ut3YA:10 a=HmfJPmFSSEcA:10 a=Z6C1vXLu1BEA:10 a=17MAUeEyPPS68izZ6o_S:22 a=Zgd97aK7TkFhpfw4BsMU:22 a=Ob6T1F4xpAp-VGq8kkhY:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 ::
+    100.00
+
+--1582552931-eximdsn-1257574936
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 6EJHjQrMh6reu :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=RKDN4Lq+ c=1 sm=1 tr=0 p=hol58KfuG6cA:10 p=NCPwQTPtC_oA:10 p=1ghaLthvxvtc7e4aeqs3:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=tA1W1y7I1bcA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=l697ptgUJYAA:10 a=KYILVnYGoX8A:10 a=-HiOlP4sAAAA:8 a=i4NDHYoAAAAA:8 a=pGLkceISAAAA:8 a=fEWDaRrwuosC4wTaBy8A:9 a=QEXdDO2ut3YA:10 a=HmfJPmFSSEcA:10 a=Z6C1vXLu1BEA:10 a=17MAUeEyPPS68izZ6o_S:22 a=Zgd97aK7TkFhpfw4BsMU:22 a=Ob6T1F4xpAp-VGq8kkhY:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 :: 100.00
+
+--1582552931-eximdsn-1257574936
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1j6EJH-001ptL-GV
+	for ginojohn@gmail.com; Mon, 24 Feb 2020 07:02:11 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JamesBup.
+X-PHP-Script: ststephenssanjose.org/contact.php for 84.17.47.109
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 84.17.47.109
+From: writingbyb@gmail.com
+Reply-To: writingbyb@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1j6EJH-001ptL-GV@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 24 Feb 2020 07:02:11 -0700
+
+You have been contacted by JamesBup, and the message is as follows.
+
+"Hi! 
+Are you ready to explode your website traffic? Do you struggle to find
+time to write fresh blog and website content? 
+I am a highly-skilled blog and web content writer with more than 10
+years of experience. Let me provide well-researched, 100 percent
+unique content specifically for you! 
+Contact Me Today! 
+Email - NewBusiness@writingbybenjamin.com  // Skype - Behinger19 //
+Website - http://www.writingbybenjamin.com 
+If you're not sure how to start a blog, this free guide will help:
+https://www.benjaminehinger.com/how-to-start-a-blog-that-makes-money/"
+
+You can contact JamesBup via email, writingbyb@gmail.com
+
+--1582552931-eximdsn-1257574936--

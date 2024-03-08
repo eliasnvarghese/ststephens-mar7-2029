@@ -1,0 +1,94 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 4FLcBO1Zx2W19SQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 10 Feb 2024 04:11:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 10 Feb 2024 04:11:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rYlGn-00AAic-05
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 10 Feb 2024 04:11:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rYlGh-00AAhi-2l@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1707563501-eximdsn-1040662966
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rYlGn-00AAic-05@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 10 Feb 2024 04:11:41 -0700
+
+--1707563501-eximdsn-1040662966
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 YlGmrJ7vHRm4N :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=LJTFQ4W9 c=1 sm=1 tr=0 ts=65c759ed p=OqVxiVHdAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=KJ1oyaWcAAAA:8 a=hTOOnLzHexDUibt9lnYA:9 a=PRpDppDLrCsA:10 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=N9mvxbwdM7IA:10 a=KyYZJfTCSdMA:10 a=qsPRHvonzk360LdhwxJ1:22 a=9ucdLE-kNI9erHamN7CW:22 a=acewEgQMpYTsClr9keMy:22 a=4B5sH4x1mh89dD-gLM2X:22 a=qFa1DmBGh8SRkZj0qjYC:22 ::
+    100.00
+
+--1707563501-eximdsn-1040662966
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 YlGmrJ7vHRm4N :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=LJTFQ4W9 c=1 sm=1 tr=0 ts=65c759ed p=OqVxiVHdAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=KJ1oyaWcAAAA:8 a=hTOOnLzHexDUibt9lnYA:9 a=PRpDppDLrCsA:10 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=N9mvxbwdM7IA:10 a=KyYZJfTCSdMA:10 a=qsPRHvonzk360LdhwxJ1:22 a=9ucdLE-kNI9erHamN7CW:22 a=acewEgQMpYTsClr9keMy:22 a=4B5sH4x1mh89dD-gLM2X:22 a=qFa1DmBGh8SRkZj0qjYC:22 :: 100.00
+
+--1707563501-eximdsn-1040662966
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rYlGh-00AAhi-2l
+	for ginojohn@gmail.com;
+	Sat, 10 Feb 2024 04:11:40 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by 수원큐티셀.
+X-PHP-Script: ststephenssanjose.org/contact.php for 1.231.27.148
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 1.231.27.148
+From: help@gwmetabitt.com
+Reply-To: help@gwmetabitt.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rYlGh-00AAhi-2l@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 10 Feb 2024 04:11:35 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by 수원큐티셀, and the message is as
+follows.
+
+"수원피부미용 장** 원장은 “교통사고 치료는
+물리요법뿐만 아니라 한약 치료, 침, 뜸, 부항, 추나
+치료, 약침 치료 등 비교적 수많은 범위의 처치가
+가능하다는 이점이 있어 차량사고로 한의사 병원을
+찾는 환자분들이 일괄되게 늘고 있다”라면서
+“가벼운 운전사고라고 방치하지 마시고 사고
+초반에 내원하여 조취를 받아야 만성 통증으로
+발전하지 않고 교통사고 후유증을 최소화할 수
+있다”라고 전했다. 
+ 
+[url=https://suwonskin.com]수원RF고주파[/url]"
+
+You can contact 수원큐티셀 via email, help@gwmetabitt.com
+
+--1707563501-eximdsn-1040662966--

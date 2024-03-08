@@ -1,0 +1,132 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id SGGvBr8+hWVSAiwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 22 Dec 2023 00:46:07 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 22 Dec 2023 00:46:07 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rGaER-00C6Ng-0B
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 22 Dec 2023 00:46:07 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rGaEL-00C6Mh-0h@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1703231167-eximdsn-406669277
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rGaER-00C6Ng-0B@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 22 Dec 2023 00:46:07 -0700
+
+--1703231167-eximdsn-406669277
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 GaEQrbHq4AGhr :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=XvI8e3J9 c=1 sm=1 tr=0 ts=65853ebf p=lQg-1K5AAAAA:8 p=q1nu5fJMF48pbDDRoC28:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=7_-WFCrTV4CGz4SD7RwA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=LbQiahHvDV0A:10 a=M6rlRcTZ_B0A:10 a=KyYZJfTCSdMA:10 a=_8ZFCPoBQAuFFnQT9rBv:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1703231167-eximdsn-406669277
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 GaEQrbHq4AGhr :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=XvI8e3J9 c=1 sm=1 tr=0 ts=65853ebf p=lQg-1K5AAAAA:8 p=q1nu5fJMF48pbDDRoC28:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=7_-WFCrTV4CGz4SD7RwA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=LbQiahHvDV0A:10 a=M6rlRcTZ_B0A:10 a=KyYZJfTCSdMA:10 a=_8ZFCPoBQAuFFnQT9rBv:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1703231167-eximdsn-406669277
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rGaEL-00C6Mh-0h
+	for ginojohn@gmail.com;
+	Fri, 22 Dec 2023 00:46:06 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Peterhig.
+X-PHP-Script: ststephenssanjose.org/contact.php for 37.45.4.88
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 37.45.4.88
+From: info@za-splav.by
+Reply-To: info@za-splav.by
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rGaEL-00C6Mh-0h@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 22 Dec 2023 00:46:01 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Peterhig, and the message is as follows.
+
+"В городе Люберцы, в Московской
+области, есть
+[url=https://dent-levi.blogspot.com/2023/12/stomat.html]стоматологический
+центр[/url], который находится близко к
+метро Жулебино. Здесь оказывают
+разные стоматологические услуги,
+такие как лечение дырок в зубах,
+протезирование, вставка
+искусственных зубов, улучшение
+внешнего вида зубов, лечение болезней
+десен и стоматология для детей. 
+ 
+Врачи в центре очень опытные и
+используют современные технологии и
+материалы, чтобы лечение было хорошим
+и пациентам было удобно. Здесь
+работают хорошие специалисты,
+используют передовое оборудование от
+известных компаний (Sirona, KaVo, A-dec),
+предлагают разные услуги, цены
+доступные, и еще это место удобно
+расположено. 
+ 
+В клинике есть несколько преимуществ:
+
+ 
+Точное оборудование: Врачи используют
+современные инструменты от Sirona, KaVo,
+A-dec, чтобы лечить зубы точно и хорошо. 
+ 
+Современные материалы: Здесь
+используют новые материалы, такие как
+керамические виниры, циркониевые
+коронки и премиум-классовые
+искусственные зубы, которые крепкие,
+красивые и долго продержатся. 
+ 
+Детская стоматология: Есть
+специальные врачи, которые знают, как
+лечить детей и помогут им не бояться
+стоматолога. 
+ 
+Этот
+[url=https://dent-levi.blogspot.com/2023/12/stomat.html][u]стоматологический
+центр[/u][/url] – это современное место,
+где можно получить хорошее лечение
+зубов по нормальным ценам. Здесь
+работают хорошие врачи, используют
+современные технологии и заботятся о
+пациентах."
+
+You can contact Peterhig via email, info@za-splav.by
+
+--1703231167-eximdsn-406669277--

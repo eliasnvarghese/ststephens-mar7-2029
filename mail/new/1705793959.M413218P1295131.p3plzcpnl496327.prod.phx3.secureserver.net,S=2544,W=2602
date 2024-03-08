@@ -1,0 +1,58 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id nuB0GKdZrGUbwxMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 20 Jan 2024 16:39:19 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 20 Jan 2024 16:39:19 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rRKvn-005Qv6-14
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 20 Jan 2024 16:39:19 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rRKvi-005Qu0-1A@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rRKvn-005Qv6-14@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 20 Jan 2024 16:39:19 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rRKvi-005Qu0-1A
+	for ginojohn@gmail.com;
+	Sat, 20 Jan 2024 16:39:14 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Marquis O'Hea.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.108.47.85
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.108.47.85
+From: ohea.marquis@gmail.com
+Reply-To: ohea.marquis@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rRKvi-005Qu0-1A@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 20 Jan 2024 16:39:14 -0700
+
+You have been contacted by Marquis O'Hea, and the message is as
+follows.
+
+"Learn how to scale from $120 to $5k/day with AI Commissions 2024.
+Access cutting-edge AI tools and case studies. Start your journey at
+https://www.socialsurge.ai/recommends/ai-money-machine-2024/
+
+Keep kickin' ass over there at  ststephenssanjose.org!
+
+- Marquis"
+
+You can contact Marquis O'Hea via email, ohea.marquis@gmail.com

@@ -1,0 +1,51 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 4BBAC9HdXmX2NRAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 22 Nov 2023 22:06:25 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 22 Nov 2023 22:06:25 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r61uz-004Sjn-47
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 22 Nov 2023 22:06:25 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r61uu-004Sj1-LH@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1r61uz-004Sjn-47@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 22 Nov 2023 22:06:25 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r61uu-004Sj1-LH
+	for ginojohn@gmail.com;
+	Wed, 22 Nov 2023 22:06:20 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by wikipedia .
+X-PHP-Script: ststephenssanjose.org/contact.php for 154.12.230.31
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 154.12.230.31
+From: resume@wikipediamail.com
+Reply-To: resume@wikipediamail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r61uu-004Sj1-LH@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 22 Nov 2023 22:06:20 -0700
+
+You have been contacted by wikipedia , and the message is as follows.
+
+"need a new job ? Let Wikipedia help you. https://submit.wiki/jobhunt"
+
+You can contact wikipedia  via email, resume@wikipediamail.com

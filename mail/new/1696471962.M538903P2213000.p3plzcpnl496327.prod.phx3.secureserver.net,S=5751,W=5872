@@ -1,0 +1,121 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id ayqvH5obHmWIxCEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 04 Oct 2023 19:12:42 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 04 Oct 2023 19:12:42 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qoDr0-009HhS-F5
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 04 Oct 2023 19:12:42 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qoDqv-009Hfe-EZ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696471962-eximdsn-446332939
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qoDr0-009HhS-F5@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 04 Oct 2023 19:12:42 -0700
+
+--1696471962-eximdsn-446332939
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 oDr0q8EHRZBek :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fLH/n7We c=1 sm=1 tr=0 ts=651e1b9a p=58767Uv7Es8A:10 p=4DvLgqVkkfsA:10 p=UMozHqx5AAAA:20 p=HVcFhAGF08oA:10 p=kMCs3ZqqW7TKkOJBVlil:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=JqxP7WvTY4SZlxZ2OIwA:9 a=QEXdDO2ut3YA:10 a=ZXzWU4Ysl2sA:10 a=H6aTcwrGW2EA:10 a=KZikxMynFDQA:10 a=b8gveGEsc3wA:10 a=uGCTroCvVn4A:10 a=KyYZJfTCSdMA:10 a=2JIM8Ts78OUkzDDD_T7d:22 a=Q63sJ7lAT5xUZmigGEei:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1696471962-eximdsn-446332939
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 oDr0q8EHRZBek :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fLH/n7We c=1 sm=1 tr=0 ts=651e1b9a p=58767Uv7Es8A:10 p=4DvLgqVkkfsA:10 p=UMozHqx5AAAA:20 p=HVcFhAGF08oA:10 p=kMCs3ZqqW7TKkOJBVlil:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=JqxP7WvTY4SZlxZ2OIwA:9 a=QEXdDO2ut3YA:10 a=ZXzWU4Ysl2sA:10 a=H6aTcwrGW2EA:10 a=KZikxMynFDQA:10 a=b8gveGEsc3wA:10 a=uGCTroCvVn4A:10 a=KyYZJfTCSdMA:10 a=2JIM8Ts78OUkzDDD_T7d:22 a=Q63sJ7lAT5xUZmigGEei:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1696471962-eximdsn-446332939
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qoDqv-009Hfe-EZ
+	for ginojohn@gmail.com;
+	Wed, 04 Oct 2023 19:12:42 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Dennis Mascarenhas.
+X-PHP-Script: ststephenssanjose.org/contact.php for 154.12.127.213
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 154.12.127.213
+From: dennist6432@gmail.com
+Reply-To: dennist6432@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qoDqv-009Hfe-EZ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 04 Oct 2023 19:12:37 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Dennis Mascarenhas, and the message is as
+follows.
+
+"Hello!,
+
+“The Lost Superfoods” contains all the forgotten foods that saved
+countless lives throughout human history.
+
+Click here- https://t.ly/KutSz  to add them to your own pantry
+
+These are the real foods you should add to your pantry instead of
+“plastic” and expensive ones.
+
+Discover the Lost Superfoods that could save your life during the next
+crisis
+
+Like the “Doomsday Ration,” our own U.S government secretly
+developed to make sure we won the Cold War.
+
+Or the superfood that fuelled the greatest Mongol conquests of Genghis
+Khan.
+
+This massive 271-page book is choke-full of inexpensive and
+long-lasting survival foods and preservation methods you won’t read
+or hear about anywhere else.'
+
+Over 100 to be more exact.
+
+You’ll get all the recipes in minute detail with photos guiding you
+each step of the way.
+
+With these lost superfoods in your pantry, you’ll be able to keep
+your family well-fed during the darkest of times.
+
+Click here- https://t.ly/KutSz to find out the 100 Superfoods that
+we’ve lost to history
+
+Order now- https://t.ly/KutSz
+
+Dennis Mascarenhas
+(414) 375-2949"
+
+You can contact Dennis Mascarenhas via email, dennist6432@gmail.com
+
+--1696471962-eximdsn-446332939--

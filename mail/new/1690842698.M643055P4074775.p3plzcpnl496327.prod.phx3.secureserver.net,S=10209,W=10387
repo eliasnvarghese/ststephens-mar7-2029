@@ -1,0 +1,178 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 52ryJUo2yGQXLT4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 31 Jul 2023 15:31:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 31 Jul 2023 15:31:38 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qQbQQ-00H624-IP
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 31 Jul 2023 15:31:38 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qQbQQ-00H61n-DG@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690842698-eximdsn-1631859040
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qQbQQ-00H624-IP@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 31 Jul 2023 15:31:38 -0700
+
+--1690842698-eximdsn-1631859040
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 QbQQqXiOuQ7u7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64c8364a p=GRfzTW9f53IA:10 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=iYao8EOnAAAA:8 a=e-Ovw6bNAAAA:8 a=jNTKuEmdiM3cYat3z9cA:9 a=QEXdDO2ut3YA:10 a=25bBvvCMaiMA:10 a=rArxj3EDRC4A:10 a=_OWGJalbkngA:10 a=nhnHM2ARb7IA:10 a=dYhha4kWpuEA:10 a=YR5FKwnnooYA:10 a=CZC7UB7nVd8A:10 a=LX0seY9dq10A:10 a=Dq3KZUWUFqYA:10 a=4doYEFvWlZ4A:10 a=73mJwVnGUn0A:10 a=w7RFBWQvgvkA:10 a=XCSrQq8VMB4A:10 a=rqZdCuNHoAMA:10 a=fyqLrsPrJ78A:10 a=ZTMkGmLAXPcA:10 a=6TdHdVHn8i0A:10 a=73xwbWhnc1wA:10 a=KyYZJfTCSdMA:10 a=QR2DGJdPlGCQHPnoL2Zh:22 a=HwIsH3Z9-mCL6hc3tb0M:22 a=nOxMtLUM5ck9Hn2diPJ4:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1690842698-eximdsn-1631859040
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 QbQQqXiOuQ7u7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64c8364a p=GRfzTW9f53IA:10 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=iYao8EOnAAAA:8 a=e-Ovw6bNAAAA:8 a=jNTKuEmdiM3cYat3z9cA:9 a=QEXdDO2ut3YA:10 a=25bBvvCMaiMA:10 a=rArxj3EDRC4A:10 a=_OWGJalbkngA:10 a=nhnHM2ARb7IA:10 a=dYhha4kWpuEA:10 a=YR5FKwnnooYA:10 a=CZC7UB7nVd8A:10 a=LX0seY9dq10A:10 a=Dq3KZUWUFqYA:10 a=4doYEFvWlZ4A:10 a=73mJwVnGUn0A:10 a=w7RFBWQvgvkA:10 a=XCSrQq8VMB4A:10 a=rqZdCuNHoAMA:10 a=fyqLrsPrJ78A:10 a=ZTMkGmLAXPcA:10 a=6TdHdVHn8i0A:10 a=73xwbWhnc1wA:10 a=KyYZJfTCSdMA:10 a=QR2DGJdPlGCQHPnoL2Zh:22 a=HwIsH3Z9-mCL6hc3tb0M:22 a=nOxMtLUM5ck9Hn2diPJ4:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1690842698-eximdsn-1631859040
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qQbQQ-00H61n-DG
+	for ginojohn@gmail.com;
+	Mon, 31 Jul 2023 15:31:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JosephSuica.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.188.20.66
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.188.20.66
+From: sashunya.sergeev.2022@list.ru
+Reply-To: sashunya.sergeev.2022@list.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qQbQQ-00H61n-DG@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 31 Jul 2023 15:31:38 -0700
+
+You have been contacted by JosephSuica, and the message is as follows.
+
+"
+Керамзитовый гравий размером от 5 мм
+до 10 мм широко используется для
+изготовления перегородочных
+межкомнатных блоков
+https://al-keram.ru/zakazat-keramzit-v-kotelniki.html
+  Более высокая фракция керамзитового
+гравия (10 мм-20 мм) применяется для
+утепления межэтажных перекрытий и
+полов строительных конструкций
+https://al-keram.ru/price.html
+ 
+Актеры: Сергей Газаров, Юрий Стоянов,
+Сергей Никоненко, Ия Нинидзе,
+Александр Жулин, Андрей Кайков, Дана
+Абызова, Армен Арушанян, Олег Алмазов,
+Лаура Кеосаян 
+Для этого гидроизоляцию укладывают в
+промежутки между лагами
+https://al-keram.ru/catalog-keramzit/keramzit-v-big-begah-fraktsii-20-40-m200-250-detail.html
+  Затем засыпают слой керамзита, на
+который укладывают фольгированную
+пароизоляцию
+https://al-keram.ru/blog/nezamenimie-stroitelnie-materiali-keramzit.html
+  Для дополнительного тепла сверху
+можно положить еще слой другого
+утеплителя (пенопласт,
+пенополистирол) вровень с верхним
+краем лаг
+https://al-keram.ru/catalog-keramzit/keramzit-v-meshkah-fraktsii-5-10-m300-350-detail.html
+  Затем настилается деревянный пол,
+рейки которого прибивают к лагам
+https://al-keram.ru/blog/stroitelstvo-i-keramzit.html
+  Читайте также: Утепление пола в
+деревянном доме снизу – как сделать и
+что использовать
+https://al-keram.ru/blog/keramzit-otlichnyj-material-dlya-teploizolyatsii-zdanij.html
+ 
+Гидроизоляция
+https://al-keram.ru/blog/proizvodstvo-keramzita.html
+  На данном этапе требуется расстелить
+на полу полиэтилен или специальную
+мембрану таким образом, чтобы края
+материала выходили за границы стен по
+периметру на 8-10 см
+https://al-keram.ru/blog/kak-uteplit-dom-keramzitom.html
+  В этом случае лаги тоже оказываются
+под пленкой
+https://al-keram.ru/aktsii/skidki-pri-pokupke-keramzita.html
+  Если цельного куска недостаточно, то
+полосы из нее следует укладывать
+внахлест и фиксировать стыки при
+помощи строительного скотча
+https://al-keram.ru/blog/chto-vliyaet-na-stoimost-keramzita.html
+  На брусьях гидроизоляцию требуется
+закрепить посредством степлера,
+осуществив распределение полиэтилена
+в углублениях между лагами
+https://al-keram.ru/blog/vozmozhnost-utepleniya-fundamentov-keramzitom.html
+  При применении гидроизоляционной
+мастики составом нужно вскрывать
+очищенное от пыли бетонное основание
+при помощи валика или малярной
+кисточки, захватывая поверхности стен
+на высоту в 15-20 см https://al-keram.ru/blog/20-40.html
+  В данной ситуации монтаж лаг
+требуется производить выше защитного
+покрытия
+https://al-keram.ru/catalog-keramzit/keramzit-v-meshkah-fraktsii-20-40-m200350-detail.html
+  В качестве смеси можно применять
+мастики на битумной или
+цементно-полимерной основе, жидкую
+резину, а также битумно-полимерные
+составы
+https://al-keram.ru/novosti/otsutstvie-rosta-tsen-po-sravneniyu-s-konkurentami.html
+  Выполнять нанесение смеси
+необходимо в 2-3 слоя, каждый из которых
+полноценно впитывается
+приблизительно за 3 часа
+https://al-keram.ru/certificates.html
+  По окончании этапа по протяженности
+всех стен на высоте чернового
+напольного покрытия нужно совершить
+фиксацию демпферной ленты, что
+позволит исключить деформирование и
+появление трещин на стяжке во время
+перепадов температуры
+https://al-keram.ru/price.html
+ 
+Необходимое условие — высокие
+потолки
+https://al-keram.ru/keramzit-s-dostavkoj-v-dmitrov.html
+  Если в доме низкие потолки, то слой
+керамзита со стяжкой сделают их еще
+ниже, что повлияет на комфортность
+проживания
+https://al-keram.ru/blog/kakie-raboty-s-keramzitom-mozhno-vypolnyat-zimoj.html
+ 
+"
+
+You can contact JosephSuica via email, sashunya.sergeev.2022@list.ru
+
+--1690842698-eximdsn-1631859040--

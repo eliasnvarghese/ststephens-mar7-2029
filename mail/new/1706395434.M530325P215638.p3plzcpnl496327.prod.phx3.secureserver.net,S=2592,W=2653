@@ -1,0 +1,61 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 2OI+HyqHtWVWSgMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 27 Jan 2024 15:43:54 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 27 Jan 2024 15:43:54 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rTrP0-000uzq-1W
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 27 Jan 2024 15:43:54 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rTrOw-000uzE-0C@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rTrP0-000uzq-1W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 27 Jan 2024 15:43:54 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rTrOw-000uzE-0C
+	for ginojohn@gmail.com;
+	Sat, 27 Jan 2024 15:43:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Megan Coughlin.
+X-PHP-Script: ststephenssanjose.org/contact.php for 196.245.164.143
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.245.164.143
+From: megan.coughlin@mail.com
+Reply-To: megan.coughlin@mail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rTrOw-000uzE-0C@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 27 Jan 2024 15:43:50 -0700
+
+You have been contacted by Megan Coughlin, and the message is as
+follows.
+
+"This incredible method I discovered helps drive revenue through email
+marketing alone. Perfect for your entrepreneurial goals! [Discover
+how](https://bit.ly/424XtJu)
+
+I know that this book will be  priceless for ststephenssanjose.org
+
+Here's to a bright year full of growth!
+
+Talk to ya soon!
+Megan"
+
+You can contact Megan Coughlin via email, megan.coughlin@mail.com

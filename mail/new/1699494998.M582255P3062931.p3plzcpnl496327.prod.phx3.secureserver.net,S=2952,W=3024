@@ -1,0 +1,72 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id mGhQIlY8TGWTvC4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 08 Nov 2023 18:56:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 08 Nov 2023 18:56:38 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r0uHe-00Cs87-GT
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 08 Nov 2023 18:56:38 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r0uHZ-00Cs6b-RA@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1r0uHe-00Cs87-GT@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 08 Nov 2023 18:56:38 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r0uHZ-00Cs6b-RA
+	for ginojohn@gmail.com;
+	Wed, 08 Nov 2023 18:56:33 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jorja Masterson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.230.11.237
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.230.11.237
+From: jorja.masterson@yahoo.com
+Reply-To: jorja.masterson@yahoo.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r0uHZ-00Cs6b-RA@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 08 Nov 2023 18:56:33 -0700
+
+You have been contacted by Jorja Masterson, and the message is as
+follows.
+
+"Introducing The All-In-One Software For Your Business and Marketing
+Needs
+
+Our AI software can:
+
+Create custom AI chatbots to engage with your customers and answer
+their questions 24/7.
+Create image and video content that is more engaging and likely to
+convert.
+Generate AI graphics and 3D models to create unique and visually
+appealing marketing materials.
+Create business cards, pages, ebooks, and flipbooks with ease using
+AI.
+Track your marketing results and identify areas for improvement using
+AI analytics.
+
+Try our AI software today and grow your business at
+https://warriorplus.com/o2/a/npqlst/0 
+
+Click >>>  https://warriorplus.com/o2/a/npqlst/0 
+"
+
+You can contact Jorja Masterson via email, jorja.masterson@yahoo.com

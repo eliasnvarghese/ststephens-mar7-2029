@@ -1,0 +1,92 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id hS9IIaHZ0GQCFxsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 07 Aug 2023 04:46:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 07 Aug 2023 04:46:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qSyh7-007Rqk-G4
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 07 Aug 2023 04:46:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qSyh2-007RpN-ST@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1691408801-eximdsn-1706073887
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qSyh7-007Rqk-G4@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 07 Aug 2023 04:46:41 -0700
+
+--1691408801-eximdsn-1706073887
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Syh7qRfYsUe7e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64d0d9a1 p=vsIjPjjZAAAA:8 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=pGY8Lfz4z0J9Oy3Vbr0A:9 a=QEXdDO2ut3YA:10 a=nRwzlPUr01gA:10 a=KyYZJfTCSdMA:10 a=zv8EM9w9l0hAlM8O0Wsc:22 a=FolazZHqli6dkAzF0BNy:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1691408801-eximdsn-1706073887
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 Syh7qRfYsUe7e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64d0d9a1 p=vsIjPjjZAAAA:8 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=pGY8Lfz4z0J9Oy3Vbr0A:9 a=QEXdDO2ut3YA:10 a=nRwzlPUr01gA:10 a=KyYZJfTCSdMA:10 a=zv8EM9w9l0hAlM8O0Wsc:22 a=FolazZHqli6dkAzF0BNy:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1691408801-eximdsn-1706073887
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qSyh2-007RpN-ST
+	for ginojohn@gmail.com;
+	Mon, 07 Aug 2023 04:46:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by  Stephensen.
+X-PHP-Script: ststephenssanjose.org/contact.php for 154.13.255.230
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 154.13.255.230
+From: mywebsitefixed@pps.bz
+Reply-To: mywebsitefixed@pps.bz
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qSyh2-007RpN-ST@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 07 Aug 2023 04:46:36 -0700
+
+You have been contacted by  Stephensen, and the message is as follows.
+
+"Now absorb this fully. Your business survival does depend on new
+leads and growth. Believe me, I am looking out for you. Paste in the
+domain bar: https://www.gamechange.pps.bz/ I don’t want you to miss
+out on your open window of opportunity this summer. This new leads
+getting technology is unstoppable. For the investment of the price of
+a Dominoes Pizza, you can have it. If you’re still thinking about
+it, no need to say yes, a maybe, will do. How much are 5 new customers
+a week worth to you? 10x your business today. In 2 seconds, you will
+know if this is right for you. Paste in the domain bar:
+https://www.gamechange.pps.bz/
+Your online friend,
+David
+"
+
+You can contact  Stephensen via email, mywebsitefixed@pps.bz
+
+--1691408801-eximdsn-1706073887--

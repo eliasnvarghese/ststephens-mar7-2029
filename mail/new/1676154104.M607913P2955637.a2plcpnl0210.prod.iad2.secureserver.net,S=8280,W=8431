@@ -1,0 +1,151 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id MDUuCPgU6GN1GS0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 11 Feb 2023 15:21:44 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 11 Feb 2023 15:21:44 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pQyFb-00CR3G-V1
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sat, 11 Feb 2023 15:21:44 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pQyFW-00CR0f-DH@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1676154103-eximdsn-215984625
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pQyFb-00CR3G-V1@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 11 Feb 2023 15:21:43 -0700
+
+--1676154103-eximdsn-215984625
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 QyFbp8xc0lA5Y :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=63e814f7 p=h5ispNxMNiV_7dyk2oLi:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=20jHpE6bksAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=AR1YULUiCwYA:10 a=x7bEGLp0ZPQA:10 a=nDN85VK9alsA:10 a=UrosnGG0AAAA:8 a=pGLkceISAAAA:8 a=riUFlkgXlM10-fJSFMIA:9 a=QEXdDO2ut3YA:10 a=IVXUWuUSyKEA:10 a=KyYZJfTCSdMA:10 a=DziAxp8ucTBC1IxCOdij:22 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 a=D5rRxAbGvHU773a49CId:22 a=gQbpo9_dDl8w-12oMRg9:22 ::
+    100.00
+
+--1676154103-eximdsn-215984625
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 QyFbp8xc0lA5Y :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=63e814f7 p=h5ispNxMNiV_7dyk2oLi:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=20jHpE6bksAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=AR1YULUiCwYA:10 a=x7bEGLp0ZPQA:10 a=nDN85VK9alsA:10 a=UrosnGG0AAAA:8 a=pGLkceISAAAA:8 a=riUFlkgXlM10-fJSFMIA:9 a=QEXdDO2ut3YA:10 a=IVXUWuUSyKEA:10 a=KyYZJfTCSdMA:10 a=DziAxp8ucTBC1IxCOdij:22 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 a=D5rRxAbGvHU773a49CId:22 a=gQbpo9_dDl8w-12oMRg9:22 :: 100.00
+
+--1676154103-eximdsn-215984625
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pQyFW-00CR0f-DH
+	for ginojohn@gmail.com;
+	Sat, 11 Feb 2023 15:21:43 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jameslally.
+X-PHP-Script: ststephenssanjose.org/contact.php for 45.131.194.206
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 45.131.194.206
+From: r.yansolde.r3@gmail.com
+Reply-To: r.yansolde.r3@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pQyFW-00CR0f-DH@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 11 Feb 2023 15:21:38 -0700
+
+You have been contacted by Jameslally, and the message is as follows.
+
+"The necessity of Water and also mildew minimization upon Drywall
+Repair in Mission Viejo 
+ 
+Water damage and mold and bacteria emergence may have serious
+consequences for house homeowners in Mission Viejo, CA. From damaging
+the dwelling of the house to which affects the health insurance and
+well-being for the residents, it is necessary to deal with these
+problems quickly. The proper water and mildew and mold excuse through
+drywall repair is important in preventing water damage and mold and
+guaranteeing the permanence of the property. 
+ 
+Water damage and mold could be brought on by a variety of sources,
+such as drips, floods, plus lake intrusion. Disregarding water damage
+and mold can result in pricey repair work and in a negative way impact
+the entire worth of the home. Approaching water damage and mold and
+leakage immediately is really important in reducing additional damage
+and also guarding your home from potential water damage and mold. 
+ 
+Among the best approaches to prevent water damage is through sealing
+underground room and crawlspace places. It will help to avoid water
+damage and mold from influencing the building blocks as well as
+construction of the house. Also, proper routine maintenance of
+plumbing and HEATING AND COOLING systems can help prevent water damage
+and mold and ensure the longevity of the property. Securing roofing
+systems, windows, and panels can also be important in blocking water
+damage and mold and securing the house from potential water damage and
+mold. 
+ 
+Fungus emergence may be brought on by a number of factors, like
+wetness and water damage and mold. Knowing the role of humidity in
+mold growth is vital in controlling bacteria. Humidness amounts should
+always be monitored to stop mold growth also to protect the health
+insurance and well-being of this residents. 
+ 
+Skilled water damage and mold and mold testing is important in
+establishing the extent and reason behind the destruction and
+establishing a removal plan. A specialist water damage and mold and
+mildew testing service will help identify potential types of water
+damage and mold and mold and recommend methods to prevent further
+damage. 
+ 
+Investing in water damage and mold and mold mitigation is a must in
+protecting the safety and health of residents, preserving the worth of
+the house and avoiding costly repairs. Proper water and mold
+mitigation with drywall repair can help prevent water damage and mold
+and mold growth, ensuring the longevity and worth of the house. 
+ 
+Proper drainage can be crucial in preventing water damage and
+protecting the house from potential flooding. Ensuring proper drainage
+will help prevent water damage from which affects the building blocks
+and structure of the house. Proper loft fresh air can be essential in
+combating water damage and mold and maintaining the durability of the
+house. 
+ 
+Fitting water leak spotting systems can offer early warning of water
+damages and stop costly repairs. These processes can detect perhaps
+the smallest leaks, providing homeowners using the chance to tackle
+the matter promptly. 
+ 
+In summary, right water and mold mitigation with drywall repair is
+really important in preventing water damage and mold and mold
+development in California homes. From sealing garage and other areas
+to investing in water leak detection systems, householders usually
+takes proactive steps to safeguard their homes from probable damage.
+By taking care of water damage and mold and mold punctually,
+homeowners can protect their own health and well-being, preserve the
+worthiness of the property, and give a wide berth to pricey repair. 
+ 
+Should you want to practice more about this kind of subject come visit
+my personal web site:
+[url=https://drywallpatchguys.com/drywall-repair-and-water-restoration-company-aliso-viejo-ca/][color=#000_url]flood
+restoration near MANHATTAN BEACH CA[/color][/url]"
+
+You can contact Jameslally via email, r.yansolde.r3@gmail.com
+
+--1676154103-eximdsn-215984625--

@@ -1,0 +1,117 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id QMUlEQI0uGTlqC4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 19 Jul 2023 12:05:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 19 Jul 2023 12:05:38 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qMCUU-00Cqup-7h
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 19 Jul 2023 12:05:38 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qMCUP-00Cqty-N7@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1689793538-eximdsn-911929816
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qMCUU-00Cqup-7h@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 19 Jul 2023 12:05:38 -0700
+
+--1689793538-eximdsn-911929816
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 MCUUqSjctQ7u7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64b83402 p=2aMifrPhAAAA:20 p=1hpwXw_k0YQMgvuA8tir:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=VI-3n_vth3AA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=n8oLdEKHZQ4A:10 a=pGLkceISAAAA:8 a=gq5impzSue2oLbfaRa0A:9 a=QEXdDO2ut3YA:10 a=OuSJ7mHcJx8A:10 a=UeSG0pJN8hgA:10 a=_8TQhqeBM0oA:10 a=KyYZJfTCSdMA:10 a=tXKGfBmn5nFEjACAmtrs:22 a=X3uPPWhqH3yf3qg3mEvq:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1689793538-eximdsn-911929816
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 MCUUqSjctQ7u7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64b83402 p=2aMifrPhAAAA:20 p=1hpwXw_k0YQMgvuA8tir:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=VI-3n_vth3AA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=n8oLdEKHZQ4A:10 a=pGLkceISAAAA:8 a=gq5impzSue2oLbfaRa0A:9 a=QEXdDO2ut3YA:10 a=OuSJ7mHcJx8A:10 a=UeSG0pJN8hgA:10 a=_8TQhqeBM0oA:10 a=KyYZJfTCSdMA:10 a=tXKGfBmn5nFEjACAmtrs:22 a=X3uPPWhqH3yf3qg3mEvq:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1689793538-eximdsn-911929816
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qMCUP-00Cqty-N7
+	for ginojohn@gmail.com;
+	Wed, 19 Jul 2023 12:05:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Big Stomach.
+X-PHP-Script: ststephenssanjose.org/contact.php for 176.100.157.148
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 176.100.157.148
+From: nordstrom.susan97@gmail.com
+Reply-To: nordstrom.susan97@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qMCUP-00Cqty-N7@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 19 Jul 2023 12:05:33 -0700
+
+You have been contacted by Big Stomach, and the message is as follows.
+
+"Lately, all my girlfriends have been asking me how I’m looking so
+smoking hot so quickly…
+ 
+They compliment my killer figure… 
+ 
+And say I have a “wasp-like” waist, a new glow, soaring energy and
+a sassy confidence they’ve never seen on me before. 
+ 
+I tell them all I did was add THIS fizzy juice to my morning
+routine… 
+
+Click here for the details- https://tinyurl.com/3kd73x6k
+ 
+And you should’ve seen the stunned looks on their faces! 
+ 
+They said there’s no way it could work THAT fast…
+ 
+But it did work for me! And it did for other 67,129 regular men and
+women, as you’ll see in this short video: 
+
+ >>> 1 cup of THIS fizzy juice helped me slim down “in record
+time”!
+
+Click here for the details- https://tinyurl.com/3kd73x6k
+ 
+Sometimes, my husband gets jealous of all the puppy-dog attention I
+get at the mall and the restaurants… 
+ 
+But he loves my lean, lithe, toned body, and our relationship has
+never been stronger!
+
+
+Click here for the details- https://tinyurl.com/3kd73x6k
+
+To your good health,
+
+Jessica
+"
+
+You can contact Big Stomach via email, nordstrom.susan97@gmail.com
+
+--1689793538-eximdsn-911929816--

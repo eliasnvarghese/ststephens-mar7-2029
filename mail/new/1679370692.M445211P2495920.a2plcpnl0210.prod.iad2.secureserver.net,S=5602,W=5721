@@ -1,0 +1,119 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id M+zGEMQpGWSwFSYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 20 Mar 2023 20:51:32 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 20 Mar 2023 20:51:32 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1peT23-00ATI4-TS
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Mon, 20 Mar 2023 20:51:31 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1peT1y-00ATD7-4a@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1679370691-eximdsn-1310968921
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1peT23-00ATI4-TS@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 20 Mar 2023 20:51:31 -0700
+
+--1679370691-eximdsn-1310968921
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 eT23pPIZry0IM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=DbjR6NhW c=1 sm=1 tr=0 ts=641929c3 p=zPHK9Nw5AAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=uRPtUX8J1CQA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=Z6u7MAFON_QA:10 a=pGLkceISAAAA:8 a=2AWiZ9wT8sHetJOeBh0A:9 a=QEXdDO2ut3YA:10 a=L-ccfuOrALcA:10 a=ezFxgfoeCyIA:10 a=KyYZJfTCSdMA:10 a=D7KHrarkFqqyW550yhiT:22 a=lWLKdcC3xPc6bX_YuciH:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=-yt3e_l3IpDb0WkqZcJp:22 ::
+    100.00
+
+--1679370691-eximdsn-1310968921
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 eT23pPIZry0IM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=DbjR6NhW c=1 sm=1 tr=0 ts=641929c3 p=zPHK9Nw5AAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=uRPtUX8J1CQA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=Z6u7MAFON_QA:10 a=pGLkceISAAAA:8 a=2AWiZ9wT8sHetJOeBh0A:9 a=QEXdDO2ut3YA:10 a=L-ccfuOrALcA:10 a=ezFxgfoeCyIA:10 a=KyYZJfTCSdMA:10 a=D7KHrarkFqqyW550yhiT:22 a=lWLKdcC3xPc6bX_YuciH:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=-yt3e_l3IpDb0WkqZcJp:22 :: 100.00
+
+--1679370691-eximdsn-1310968921
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1peT1y-00ATD7-4a
+	for ginojohn@gmail.com;
+	Mon, 20 Mar 2023 20:51:31 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Augustina Hoskins.
+X-PHP-Script: ststephenssanjose.org/contact.php for 156.239.54.62
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 156.239.54.62
+From: hoskins.augustina@gmail.com
+Reply-To: hoskins.augustina@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1peT1y-00ATD7-4a@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 20 Mar 2023 20:51:26 -0700
+
+You have been contacted by Augustina Hoskins, and the message is as
+follows.
+
+"Hi there,
+
+Are you still paying huge monthly fees to ClickFunnels or other Funnel
+Builders?
+
+Then it's time to save 1000s by getting your hands on... 
+
+QuickFunnel - The Lightning Fast Funnel & Page Builder with 
+Industry's First Journey Planner, Next-Gen Drag-N-Drop Editor & 400+
+Proven Templates...
+
+that you can grab at Heavily Discounted 1-Time Price 
+
+Watch Quickfunnel in Action >>> https://bit.ly/quickfunnelsl
+
+With QuickFunnel, you can: 
+
++ Build Huge Email List for Affiliate Promotions & Commissions
++ Sell All Your Info-Training Products to Grab Your Share of $898
+Billion E-Learning Industry
++ Sell All Your Software Products
++ Generate Lots of Leads & Close Max Clients
++ Sell Your High-Ticket Coaching through Webinar Registrations
++ Start Your Own Home-Based Freelancing Services, Consultancy or
+Agency to Charge 100s of Dollars to Business Clients for Your Funnel &
+Pages Creation Services  
++ Create & Sell Beautiful, Static & High In-Demand Mobile-Responsive
+Websites to Clients in Any Business in Any Niche for $100-300/site
+
+Or anything that you can think of!
+
+CHEERS!
+Jen Alice
+89 St. Street
+TX, 44495
+========
+Click here to Unsubscribe
+"
+
+You can contact Augustina Hoskins via email,
+hoskins.augustina@gmail.com
+
+--1679370691-eximdsn-1310968921--

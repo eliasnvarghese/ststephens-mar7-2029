@@ -1,0 +1,55 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 2LF5GjuzpmUFbA0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 16 Jan 2024 09:47:55 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 16 Jan 2024 09:47:55 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rPmbT-003gvO-1D
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 16 Jan 2024 09:47:55 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rPmbO-003gub-1X@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rPmbT-003gvO-1D@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 16 Jan 2024 09:47:55 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rPmbO-003gub-1X
+	for ginojohn@gmail.com;
+	Tue, 16 Jan 2024 09:47:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by SamuelCalge.
+X-PHP-Script: ststephenssanjose.org/contact.php for 24.108.106.119
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 24.108.106.119
+From: mailman655@yahoo.com
+Reply-To: mailman655@yahoo.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rPmbO-003gub-1X@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 16 Jan 2024 09:47:50 -0700
+
+You have been contacted by SamuelCalge, and the message is as follows.
+
+"Get millions upon millions of immediate leads for your organization
+to jumpstart your promotion. You can use the lists an infinite number
+of times. We have been delivering firms and market analysis firms with
+information since 2012. [url=https://www.mailbanger.com]Learn more
+about Mailbanger[/url]"
+
+You can contact SamuelCalge via email, mailman655@yahoo.com

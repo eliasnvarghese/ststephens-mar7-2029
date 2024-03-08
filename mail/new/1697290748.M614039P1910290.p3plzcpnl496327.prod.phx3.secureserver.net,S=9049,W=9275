@@ -1,0 +1,226 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id WvYiJPyZKmUSJh0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 14 Oct 2023 06:39:08 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 14 Oct 2023 06:39:08 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qrerE-0081HC-Hq
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 14 Oct 2023 06:39:08 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qrer9-0081FX-BB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697290748-eximdsn-294316768
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qrerE-0081HC-Hq@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 14 Oct 2023 06:39:08 -0700
+
+--1697290748-eximdsn-294316768
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rerEqWTaQjLE1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=652a99fc p=5yh1zfKrX-UA:10 p=o-_eMbqUAAAA:20 p=7pgOvzrC9mVNtYBz-kgA:9 p=vXVVmcj_ahuRrLSiGZ7L:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=_zXUVZgeo8sA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=6tsASxabW0EA:10 a=KyYZJfTCSdMA:10 a=TjOUT832Uxm9s0gWJo3v:22 a=AMLbwwQlYIu3erJAGtI6:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1697290748-eximdsn-294316768
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 rerEqWTaQjLE1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=652a99fc p=5yh1zfKrX-UA:10 p=o-_eMbqUAAAA:20 p=7pgOvzrC9mVNtYBz-kgA:9 p=vXVVmcj_ahuRrLSiGZ7L:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=_zXUVZgeo8sA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=6tsASxabW0EA:10 a=KyYZJfTCSdMA:10 a=TjOUT832Uxm9s0gWJo3v:22 a=AMLbwwQlYIu3erJAGtI6:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1697290748-eximdsn-294316768
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qrer9-0081FX-BB
+	for ginojohn@gmail.com;
+	Sat, 14 Oct 2023 06:39:08 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Josh Davids.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.168.102
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.168.102
+From: josh.davids@gmail.com
+Reply-To: josh.davids@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qrer9-0081FX-BB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 14 Oct 2023 06:39:03 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Josh Davids, and the message is as follows.
+
+"Today, My friend Ashwath has released another premium Software that
+can get you Unlimited Backlinks for your website & Youtube Channel
+With the push of a button - without any manual work.
+
+Yes, you read that right. 
+
+You Can Now Easily Get Unlimited HQ Backlinks & Real Buyers Traffic
+… With Commercial EVEN FOR A LIFETIME!!
+
+=> Click Here to Get It Now Before Deal Ends: 
+https://bit.ly/AIBacklinks
+Special $4 Off - ‘BLINK4’ (Expires in an hour time)
+
+Let me introduce you to AI Backlinks…
+"Award Winning" ChatGPT4 Powered Software Gets You UNLIMITED REAL
+BACKLINKS & FREE BUYER TRAFFIC On Autopilot With Zero Monthly Fee 
++ 
+“Guaranteed” Rank Your Site on Top of Google, Yahoo & Bing…
+
+How cool is that?
+
+Now you won’t have to pay for Backlinks & Other SEO Services On
+Other Online Platforms Like Fiverr, Upwork etc
+
+So let me ask you…
+
+Aren’t you tired of Spending 1000’s Of Dollars for getting non
+related backlinks or fake traffic even ?
+
+Thanks to the brand new AI-powered software AI Backlinks you’ll get
+Unlimited Backlinks & Real Human Traffic to your website & Youtube
+channels.
+
+This is a professional cloud-based platform that comes with a
+Commercial.
+
+For Evergreen Income WITHOUT Any Special Skills, Experience, Or
+Learning Curve.
+
+=> Grab AI Backlinks With Exclusive Bonuses Now:
+https://bit.ly/AIBacklinks
+
+Special $4 Off - ‘BLINK4’ (Expires in an hour time)
+
+This is an irresistible offer, with AI Backlinks you’ll be able to:
+
+Create Unlimited HQ Backlinks For Your Blogs, Website Etc On
+Autopilot
+Get Higher Rank Easily On Google, Bing & yahoo etc With No Extra
+Efforts
+Get Unlimited Real & Related Buyer Traffic & Sales 
+Fully Autopilot.. No Manual Work
+Get Faster Indexing For Your All Webpages  
+Automatic Updates With No Extra Installation Hassels 
+UNLIMITED COMMERCIAL LICENCE Included
+No Limitations - Completely Free
+Sell Unlimited Backlinks & Rest Services to Earn Like The Big Boys
+No Special Skills or Experience Required
+Step By Step Training & Videos  
+$200 Refund If It Doesn’t Work For You
+
+And much more...
+
+
+
+=> Get Your AI Backlinks Lifetime Account + Commercial  Licence at a
+One-Time Price https://bit.ly/AIBacklinks
+Special $4 Off - ‘BLINK4’ (Expires in an hour time)
+
+This is turning into monthly recurring very soon.
+
+AI Backlinks is very easy to use, Trust me, once you have AI Backlinks
+you’ll be able to Rank #1 On Google, Bing & yahoo etc  in 3 easy
+steps:
+
+Step 1 - Login & Enter to the Friendly Dashboard 
+
+Step 2 - Enter Your Website Or Youtube Link & Click “Get
+Backlinks” & DONE!
+
+Step 3 - AI Backlinks Will Send Automatically Send Backlinks To The
+Most High Authority Websites 
+
+
+150 TOP Agency Owners, Marketers & more than 2000 customers have
+started making money with AI Backlinks.
+Till Now AI Backlinks Has Successfully Sent 18M+ Real & High Quality
+Backlinks To Customers Website, Blogs & Youtube Channels. 
+IT’S HUGE!!
+
+
+=> Get Your AI Backlinks Lifetime Account + Commercial Licence at a
+One-Time Price :  https://bit.ly/AIBacklinks
+Special $4 Off - ‘BLINK4’ (Expires in an hour time)
+
+If you get AI Backlinks during the special launch period, you'll get
+the following bonuses for no extra cost:
+
+Puzzlinks OTO1 + Reseller - WORLD'S FIRST Cloud Based 1-Click Puzzle &
+Maze Book Creator Platform Along With 1 Million+ Pre Made Puzzles &
+Mazes With PLR Licence
+
+
+Funnelinks OTO1 + Reseller- Brand new, drag n’ drop page builder
+that builds stunning websites, sales pages, powerful sales funnels,
+memberships landing pages, blogs & email marketing campaign in minutes
+with no skills required!
+
+
+DriveLinks OTO1 + RESELLER- DriveJam can be said as the world's most
+secure and fastest loading servers are ready to store your unlimited
+data
+
+
+GraphLinks With OTO1 + Reseller- Simple Canva Like App With New
+Technology Creates & Sells Unlimited Jaw Dropping Designs, Video,
+Logos & Banners
+
+
+EZYLinks With OTO1 + Reseller- WORLD'S FIRST Builder Platform To
+Create Unlimited Stunning Videos + Thousands Of Pre Made Video
+Templates With Unique Inbuilt Video & Image Editor
+
+
+AI Backlinks AppBuilder Edition With OTO1 + Reseller- The World’s
+First Mobile App Builder Allows You To Turn Your Existing Website into
+a Lightning Fast Future Ready Mobile App
+
+
+AI Backlinks Logo Generator Tool- A premium tool that helps you create
+beautiful, unique Logos/Icons for your business and your clients'
+business.
+
+
+But remember after this week, AI Backlinks will turn into a recurring
+subscription.
+So act fast and get your account at the lowest price ever.
+
+===>>> https://bit.ly/AIBacklinks
+
+
+To Your Success,
+Josh
+"
+
+You can contact Josh Davids via email, josh.davids@gmail.com
+
+--1697290748-eximdsn-294316768--

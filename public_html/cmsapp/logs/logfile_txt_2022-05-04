@@ -1,0 +1,2 @@
+DebugLog  | 2022-05-04 17:11:50 | guest | 142.93.180.9 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-05-04 17:11:50 | guest | 142.93.180.9 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-05-04' order by fromdate asc ,todate asc limit 3

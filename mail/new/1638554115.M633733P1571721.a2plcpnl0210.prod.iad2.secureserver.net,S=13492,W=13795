@@ -1,0 +1,303 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id GEnvGANaqmGJ+xcAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 03 Dec 2021 10:55:15 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 03 Dec 2021 10:55:15 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1mtCmB-006gBj-8U
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 03 Dec 2021 10:55:15 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1mtCmA-006gB2-Pg@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1638554115-eximdsn-1482916651
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mtCmB-006gBj-8U@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 03 Dec 2021 10:55:15 -0700
+
+--1638554115-eximdsn-1482916651
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 tCmBmGiLXtcYz :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=cJwlDnSN c=1 sm=1 tr=0 ts=61aa5a03 p=ggSuU5BGDKoA:10 p=AhDx0b2QAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=IOMw9HtfNCkA:10 a=HR-cyhpEg_8A:10 a=x7bEGLp0ZPQA:10 a=yoLYDquYrIAA:10 a=55jZN7dOAAAA:8 a=6U4zJdc-YbqC_JxMIrIA:9 a=QEXdDO2ut3YA:10 a=soQtYGs6CkwA:10 a=KyYZJfTCSdMA:10 a=i2yPr2Yumgm6q67zSGrQ:22 ::
+    100.00
+
+--1638554115-eximdsn-1482916651
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 tCmBmGiLXtcYz :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=cJwlDnSN c=1 sm=1 tr=0 ts=61aa5a03 p=ggSuU5BGDKoA:10 p=AhDx0b2QAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=IOMw9HtfNCkA:10 a=HR-cyhpEg_8A:10 a=x7bEGLp0ZPQA:10 a=yoLYDquYrIAA:10 a=55jZN7dOAAAA:8 a=6U4zJdc-YbqC_JxMIrIA:9 a=QEXdDO2ut3YA:10 a=soQtYGs6CkwA:10 a=KyYZJfTCSdMA:10 a=i2yPr2Yumgm6q67zSGrQ:22 :: 100.00
+
+--1638554115-eximdsn-1482916651
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1mtCmA-006gB2-Pg
+	for ginojohn@gmail.com; Fri, 03 Dec 2021 10:55:14 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by contactfikuxb.
+X-PHP-Script: ststephenssanjose.org/contact.php for 91.76.211.158
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 91.76.211.158
+From: solopinacelestina1991@rambler.ru
+Reply-To: solopinacelestina1991@rambler.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1mtCmA-006gB2-Pg@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 03 Dec 2021 10:55:14 -0700
+
+You have been contacted by contactfikuxb, and the message is as
+follows.
+
+"Dear Madame, Dear Sirs! 
+ 
+Sending newsletters via  forms of Your messages into the "Contact us"
+section to the sites of companies via any countries of the world.  
+ 
+https://xn----7sbb1bbndheurc1a.xn--p1ai/ 
+ 
+WHAT IS THE MAILING OF WEBSITES BY FEEDBACK FORMS? 
+This is a type of mailing using the contact forms that are located in
+the contact section of the website and filled by our programme in
+automatic mode with a rate of a few thousand contact forms per 1
+minute, while the alphanumeric code from the pictures (captcha) is
+also solved. 
+After that, the e-mails including your cooperation offers are sent to
+the e-mails of organisations. 
+When sending mailing by contact contact forms, it turns out that each
+internet resource sends a correspondent e-mail “to itself” and,
+therefore, all letters arrive in the inbox folder of the exact e-mail
+in which the organisation is ready to receive the business
+information. 
+ 
+Unique Trade Offer: 
+Fast 100% notification of businesses and site owners about new
+business offers. 
+Search of new customers that other advertisements cannot find. 
+ 
+THE MAIN AIM: 
+Finding customers that cannot be found through other types of
+advertisements. 
+ 
+Benefits: 
+1.one hundred % delivery of cooperation messages. 
+2.Increase of the customer database. 
+3. Increase of the market share. 
+4.Mailings based on topics and regionality. 
+5. Sending letters to directors. 
+6. Supply/demand analysis. 
+7. Conducting marketing campaigns. 
+8. Studying public opinion and conducting surveys. 
+9. Notification speed. 
+10. Cost. 
+11. Entering the markets of other countries. 
+ 
+Our competitive advantages: 
+ 
+1.When sending mailing by feedback forms, all letters arrive in the
+inbox. When sending bulk e-mails, this can reach up to 5%. 
+ 
+2.When sending mailing by feedback forms it is possible to send a few
+million messages per 24 hours to inboxes. When sending e-newsletters a
+few thousands arrive in the inboxes, the rest often either are not
+delivered or arrive in the junk folder. 
+ 
+3. When sending mailing by contact forms a message does not get
+blocked by mail services because it is sent from different sites. When
+sending e-newsletters it is possible to send a few thousands of those
+but nevertheless all the IP addresses from which the mailing is done
+will be banned. 
+ 
+4. When sending mailing by feedback forms the minimum of
+macro-synonims is used to form headings and text of the letter. When
+sending e-mail newsletters, it is necessary to use synonyms
+(«macros») for each word and create thousands different headings. 
+ 
+5. Many businesses try to hide their e-mail address and only leave a
+contact form for contacting with them. 
+ 
+6. When sending bulk e-mails, your cooperation offer can be delivered
+to every employee of the firm, (which causes irritation) compared to
+mailing by feedback forms where the letter is received at the
+electronic address specifically set up for commercial offers. 
+ 
+7.Fifty % of corporate e-mails are located on free e-mail servers,
+they are badly "searchable" by electronic address, but when sending
+mailing by contact forms through these mail systems, all letters are
+100% delivered to the recipients. 
+ 
+8. Only thirty-forty % of businesses get into the directories within
+2-3 years, and the rest are already located in our WHOIS databases and
+are waiting for your commercial offers. 
+It turns out that that emails of businesses from directories are
+filled with spam, and therefore they will not have such result as when
+sending mailing by contact forms using our always new WHOIS databases.
+
+ 
+9. Any kind of stop words in the headings or body of the letter can be
+sent through forms. When sending e-newsletters, such messages either
+do not reach the recipient or arrive in spam. 
+The list of stop words of mails includes almost all phrases and words
+that encourage potential customers to take actions. 
+ 
+Application: 
+ 
+1. Increasing the customer base. 
+2. Quick informing of marketplaces about new commercial offers. 
+3. Reaching out directors. 
+4.demand analysis. 
+5. Conducting tenders. 
+6.Conducting marketing campaigns. 
+7.Studying public opinion and conducting surveys. 
+8. Searching for clients abroad. 
+ 
+Reasons for ordering this service: 
+ 
+1. 100% delivery of your messages and business offers to millions of
+firms all over the globe. 
+Every website sends a letter to itself so all filters of mails are
+bypassed. 
+ 
+2.Mailing by feedback forms is an excellent way in for conducting
+various marketing researches, studies and surveys of  social opinion
+on differenttype of activity and direction. 
+When sending mailing by feedback forms, you will will be absolutely
+sure that your letter has been delivered to 100% of consumers of your
+service and product and if a service or product is "poorly promoted",
+then the potential issue lies in in something else, for example in
+pricing. 
+At the same time, within a week you will see demand for your products
+and services, you will not have to spend money on renting premises and
+other more expensive and time-consuming marketing events. 
+ 
+3.Mailing by feedback forms is the most economical and quickest way to
+get your product or service to the markets of other countries. 
+ 
+4. Mailing by contact forms is a great tool for conducting all sorts
+of tenders. 
+ 
+5.Daily update of the database, as more than 150,000 new sites, are
+registered all over the world daily, and you, get new potential
+clients. 
+ 
+6. Full geographical coverage for all states of the globe. 
+ 
+7. We offer customers that are not available through other types of
+advertisement. 
+When sending mailing by contact forms, you will be able to get to that
+part of your customers, that is impossible to "break through" in
+automatic mode in any other way. 
+For instance, you will be able to send a business offer to those
+potential customers that were earlier unavailable due to filters of
+mail systems while sending e-mail newsletters. 
+In reality, there is a unusual situation: businesses in the
+directories are literally spammed with all sorts of business offers
+while very little or no e-mails are sent to the remaining ones. 
+ 
+8. Unique technology of unraveling the captcha. 
+There are special services for decrypting alphanumeric code
+(captcha/CAPTCHA). It costs 1 dollar to solve 1000  captchas. 
+It follows from this that, processing one million sites the robot
+solves a million CAPTCHAs, which costs thousand $ only to solve
+captcha/CAPTCHA, and with our service this is free of charge for you!
+
+ 
+9. By ordering mailing by feedback forms, you are promoting your
+product or service not to separate people, but to entire
+organisations, for example domain .com, where more than one hundred
+and fifty million cooperational  firms from all countries are
+collected (we have got samples of them from international zones for
+every state). 
+ 
+10. Mailing by contact forms is also a subtype of text mailing 
+Mailbox that is linked to the feedback form is the primary email of
+businesses through which orders and commercial offers are sent. This
+mail is also set up for cell phones as it is necessary to respond to
+the information very fast so as not to misplace the order or the
+relevance of the cooperation offer. 
+ 
+11. The database of every country also includes all joint firms from
+all countries working with or closely related to this country, for
+instance, diasporas and national communities. 
+Sanctions of mail systems and search engines? 
+These mailings are an alternative to sending mass e-mails, therefore
+search sanctions and "BAN" do not apply to them. 
+The mail system delivers the data of e-mails to the inbox folder, as
+it bypasses through the "warm e-mail channel" from the new IP address
+of the website to the corporate e-mail of the same site. 
+In other words, these mailings "live in emails" and filters of mail
+systems do not respond to them, because mail systems have a certain
+trust in communication channels between websites and corporate
+e-mails. 
+ 
+OUR DATABASES: 
+ 
+You can buy our databases separately from the mailing by sending us a
+enquiry by feedback form. 
+ 
+MORE THAN TWO THOUSAND WHOIS DATABASES BY DOMAINS AND COUNTRIES. 
+ 
+SELECTIONS OF DATABASES BY THE MAIN CONTINENTS OF THE WORLD. 
+ 
+COLLECTIONS OF DATABASES BY THE MAIN LANGUAGES. 
+ 
+COLLECTIONS OF DATABASES BY THE MAIN CMS. 
+ 
+SELECTIONS BY THE MAIN COUNTRIES. 
+ 
+HOW TO MAKE AN ORDER FOR MAILING BY CONTACT FORMS: 
+The simplest text + headings, the main goal is to interest the future
+client, and they will read the rest on your website. 
+Most likely, all ads on your subject are already on the networks,
+enter the necessary requests into the search bar and choose the most
+successful ones. 
+The headings are substituted one after another from text file. 
+Only text messages are sent, links are inserted without problems, they
+are active. If the potential customer needs pictures or more specific
+information, then you should forward the future customer to visit your
+website. 
+ 
+In the letter: 
+Text without pictures, since pictures do not pass through the feedback
+form. 
+Your contact details: 
+Site address: 
+ 
+Fields to fill in: 
+Name: 
+Country: 
+City: 
+Website: 
+Several headings: 
+E-mail address for automatic responces: 
+ 
+website: https://xn----7sbb1bbndheurc1a.xn--p1ai/ 
+Price List: https://xn----7sbb1bbndheurc1a.xn--p1ai/en/price/"
+
+You can contact contactfikuxb via email,
+solopinacelestina1991@rambler.ru
+
+--1638554115-eximdsn-1482916651--

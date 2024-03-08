@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 4JbjGMzpEWX+MhwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 25 Sep 2023 13:13:00 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 25 Sep 2023 13:13:00 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qkrwy-007klL-BR
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 25 Sep 2023 13:13:00 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qkrwt-007kho-6W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1695672780-eximdsn-2139763991
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qkrwy-007klL-BR@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 25 Sep 2023 13:13:00 -0700
+
+--1695672780-eximdsn-2139763991
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 krwyqZQbOWGna :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=B/5/kshM c=1 sm=1 tr=0 ts=6511e9cc p=9tgu-oQZAAAA:8 p=z9_W_cwVZEQA:10 p=nMMKESJJFikA:10 p=cwW5kQ_RsZ2eLns9v5rA:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=x5eJAsP76xgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=ETbnej4RIA0A:10 a=pGLkceISAAAA:8 a=Ft-NTqWX5j109A7jrc0A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=LRl7_Cxas8EA:10 a=hvSUqpYRE2UA:10 a=KyYZJfTCSdMA:10 a=TsyHU019us9E9vb9lCuE:22 a=trajspWPA8ZHtYtPay1P:22 a=3_0QQOaahua38wSzT6E4:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1695672780-eximdsn-2139763991
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 krwyqZQbOWGna :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=B/5/kshM c=1 sm=1 tr=0 ts=6511e9cc p=9tgu-oQZAAAA:8 p=z9_W_cwVZEQA:10 p=nMMKESJJFikA:10 p=cwW5kQ_RsZ2eLns9v5rA:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=x5eJAsP76xgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=ETbnej4RIA0A:10 a=pGLkceISAAAA:8 a=Ft-NTqWX5j109A7jrc0A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=LRl7_Cxas8EA:10 a=hvSUqpYRE2UA:10 a=KyYZJfTCSdMA:10 a=TsyHU019us9E9vb9lCuE:22 a=trajspWPA8ZHtYtPay1P:22 a=3_0QQOaahua38wSzT6E4:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1695672780-eximdsn-2139763991
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qkrwt-007kho-6W
+	for ginojohn@gmail.com;
+	Mon, 25 Sep 2023 13:13:00 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by SamuelLip.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.59.222.83
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.59.222.83
+From: arseni.jpetrakovski@gmail.com
+Reply-To: arseni.jpetrakovski@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qkrwt-007kho-6W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 25 Sep 2023 13:12:55 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by SamuelLip, and the message is as follows.
+
+"[url=http://astana.economtaxi.kz/]пин-ап
+казахстан[/url]"
+
+You can contact SamuelLip via email, arseni.jpetrakovski@gmail.com
+
+--1695672780-eximdsn-2139763991--

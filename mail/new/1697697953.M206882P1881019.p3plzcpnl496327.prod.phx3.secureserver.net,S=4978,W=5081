@@ -1,0 +1,103 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id JHvwC6HQMGW7sxwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 18 Oct 2023 23:45:53 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 18 Oct 2023 23:45:53 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qtMn3-007tKu-4M
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 18 Oct 2023 23:45:53 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qtMmy-007tHX-19@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697697953-eximdsn-820716243
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qtMn3-007tKu-4M@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 18 Oct 2023 23:45:53 -0700
+
+--1697697953-eximdsn-820716243
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 tMn3qKdgKTa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=6530d0a1 p=kU1NMOLrzJgFweFIGSxJ:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=HUxd-do1F5sA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=_SE7i-70BGYA:10 a=1BaD8y4kAAAA:8 a=pGLkceISAAAA:8 a=o9mP1DCtITrHUNAxeikA:9 a=QEXdDO2ut3YA:10 a=1g_Qeg_Pf7QA:10 a=U9RFWjf67t0A:10 a=-FEs8UIgK8oA:10 a=cRYJZdyqU1EvkJ8DXzHF:22 a=0GuLOputKndaZQ2bXH-Z:22 a=9N1O4zwaKKNQqaO5Haau:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1697697953-eximdsn-820716243
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 tMn3qKdgKTa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=6530d0a1 p=kU1NMOLrzJgFweFIGSxJ:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=HUxd-do1F5sA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=_SE7i-70BGYA:10 a=1BaD8y4kAAAA:8 a=pGLkceISAAAA:8 a=o9mP1DCtITrHUNAxeikA:9 a=QEXdDO2ut3YA:10 a=1g_Qeg_Pf7QA:10 a=U9RFWjf67t0A:10 a=-FEs8UIgK8oA:10 a=cRYJZdyqU1EvkJ8DXzHF:22 a=0GuLOputKndaZQ2bXH-Z:22 a=9N1O4zwaKKNQqaO5Haau:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1697697953-eximdsn-820716243
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qtMmy-007tHX-19
+	for ginojohn@gmail.com;
+	Wed, 18 Oct 2023 23:45:53 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Mike Ramacey  .
+X-PHP-Script: ststephenssanjose.org/contact.php for 138.199.63.81
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 138.199.63.81
+From: mikeOutsiBe@gmail.com
+Reply-To: mikeOutsiBe@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qtMmy-007tHX-19@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 18 Oct 2023 23:45:48 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Mike Ramacey
+, and the message is as follows.
+
+"Hi there, 
+ 
+I have reviewed your domain in MOZ and have observed that you may
+benefit from an increase in authority. 
+ 
+Our solution guarantees you a high-quality domain authority score
+within a period of three months. This will increase your organic
+visibility and strengthen your website authority, thus making it
+stronger against Google updates. 
+ 
+Check out our deals for more details. 
+https://www.monkeydigital.co/domain-authority-plan/ 
+ 
+NEW: Ahrefs Domain Rating 
+https://www.monkeydigital.co/ahrefs-seo/ 
+ 
+Thanks and regards 
+Mike Ramacey
+"
+
+You can contact Mike Ramacey
+ via email, mikeOutsiBe@gmail.com
+
+--1697697953-eximdsn-820716243--

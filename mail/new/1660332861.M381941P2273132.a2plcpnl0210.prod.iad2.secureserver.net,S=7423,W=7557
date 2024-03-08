@@ -1,0 +1,134 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id gMpBFD2r9mJsryIAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 12 Aug 2022 12:34:21 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 12 Aug 2022 12:34:21 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oMaQH-009eAL-7p
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 12 Aug 2022 12:34:21 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oMaQG-009e9j-Qa@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1660332861-eximdsn-1692341789
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oMaQH-009eAL-7p@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 12 Aug 2022 12:34:21 -0700
+
+--1660332861-eximdsn-1692341789
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 MaQHonl4u1sq2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=N//sq0xB c=1 sm=1 tr=0 ts=62f6ab3d p=Nl1ixbQNMecA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=biHskzXt2R4A:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=FGuORhMbuy4A:10 a=BdWEblhHAAAA:8 a=mem--OOHAAAA:8 a=fe1YW8gLjlgrOlD-VyQA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=4oBJZeieC0AA:10 a=MlEPhS27xWEA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=0J5GKlUg64s5Di0DYNl1:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1660332861-eximdsn-1692341789
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 MaQHonl4u1sq2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=N//sq0xB c=1 sm=1 tr=0 ts=62f6ab3d p=Nl1ixbQNMecA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=biHskzXt2R4A:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=FGuORhMbuy4A:10 a=BdWEblhHAAAA:8 a=mem--OOHAAAA:8 a=fe1YW8gLjlgrOlD-VyQA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=4oBJZeieC0AA:10 a=MlEPhS27xWEA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=0J5GKlUg64s5Di0DYNl1:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1660332861-eximdsn-1692341789
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oMaQG-009e9j-Qa
+	for ginojohn@gmail.com; Fri, 12 Aug 2022 12:34:20 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JohnnyMew.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.125
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.125
+From: lara.vorobeva.81@bk.ru
+Reply-To: lara.vorobeva.81@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oMaQG-009e9j-Qa@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 12 Aug 2022 12:34:20 -0700
+
+You have been contacted by JohnnyMew, and the message is as follows.
+
+"Для того чтобы получить
+окончательное медицинское заключение
+(медсправку) о том, что вы годны к
+управлению транспортным средством,
+необходимо пройти соответствующий
+медосмотр
+[url=https://www.xn----7sbgbppn1bjii.xn--p1ai/pages/spravka-dlya-zabega]медкнижка
+купить [/url]
+ 
+Оформление водительской медицинской
+справки для последующего
+предоставления в отделение ГИБДД
+медицинского заключения включает в
+себя обязательное прохождение врачей
+непосредственно в медицинском центре
+[url=https://www.xn----7sbgbppn1bjii.xn--p1ai/uslugi/konsultatsii-spetsialistov]справка
+в бассейн цена [/url]
+ 
+Врачи нашего центра сделают все
+быстро, точно и максимально корректно,
+не отнимая у вас лишнего времени
+[url=https://www.xn----7sbgbppn1bjii.xn--p1ai/med-spravki/spravki-dlya-gibdd]проведение
+предрейсового медицинского осмотра
+водителей [/url]
+   Получая справку у нас, можете быть
+уверены – она не вызовет никаких
+нареканий у представителей дорожной
+полиции, поскольку наш центр
+аккредитован для выдачи справок
+такого рода.- 
+Но и это еще не все: за поддельную
+медицинскую справку ответственность
+наступает уже по статье 327 Уголовного
+кодекса РФ
+[url=https://www.xn----7sbgbppn1bjii.xn--p1ai/pages/klinika]справка
+на гостайну [/url]
+   Санкция этой статьи альтернативная:
+
+Свежие комментарииЛия к записи Андрей
+к записи Яна к записи егор к записи
+Александр к записи Николаевна к
+записи александр иванович к записи
+Валентина Николаевна к записи 
+С 26 марта 2016 года медкомиссию для
+водителей уже проводят по новым
+правилам, а вот новый бланк
+водительской медсправки введут в
+действие с 1 июля 2016 года
+[url=https://www.xn----7sbgbppn1bjii.xn--p1ai/pages/spravki-bassein]медицинская
+справка для водительского [/url]
+   Поэтому не пугайтесь, что врачей Вы
+пройдете меньше, а бланк справки
+старого образца
+[url=https://www.xn----7sbgbppn1bjii.xn--p1ai/uslugi/meditsinskie-knizhki]как
+получить справку в бассейн [/url]
+ 
+"
+
+You can contact JohnnyMew via email, lara.vorobeva.81@bk.ru
+
+--1660332861-eximdsn-1692341789--

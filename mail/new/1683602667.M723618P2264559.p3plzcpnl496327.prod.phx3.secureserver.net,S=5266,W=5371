@@ -1,0 +1,105 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id k+K7Kuu8WWTvjSIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 08 May 2023 20:24:27 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 08 May 2023 20:24:27 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pwDxj-009V73-LK
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 08 May 2023 20:24:27 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pwDxe-009V6J-UI@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1683602667-eximdsn-871448187
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pwDxj-009V73-LK@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 08 May 2023 20:24:27 -0700
+
+--1683602667-eximdsn-871448187
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wDxjpFbzM0Bnb :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=TflQ9zch c=1 sm=1 tr=0 ts=6459bceb p=dMQcO5jmAAAA:20 p=j2TuZfHkAAAA:8 p=PuLGAiLyjffjrGSJZUzv:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=eeBzKJi7OhYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=g7um1hEQ6x0A:10 a=pGLkceISAAAA:8 a=Uy-uqkUtApfsvSZS3LoA:9 a=QEXdDO2ut3YA:10 a=YWvqMwSNsKEA:10 a=7uWVu51AYpgA:10 a=t37TW9_45-oA:10 a=foHl0HBgjwROcVqeZXVa:22 a=nlhILWbuZIvYcUD8eyjx:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 a=RpSAj7vEMrVX78pztulH:22 ::
+    100.00
+
+--1683602667-eximdsn-871448187
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 wDxjpFbzM0Bnb :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=TflQ9zch c=1 sm=1 tr=0 ts=6459bceb p=dMQcO5jmAAAA:20 p=j2TuZfHkAAAA:8 p=PuLGAiLyjffjrGSJZUzv:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=eeBzKJi7OhYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=g7um1hEQ6x0A:10 a=pGLkceISAAAA:8 a=Uy-uqkUtApfsvSZS3LoA:9 a=QEXdDO2ut3YA:10 a=YWvqMwSNsKEA:10 a=7uWVu51AYpgA:10 a=t37TW9_45-oA:10 a=foHl0HBgjwROcVqeZXVa:22 a=nlhILWbuZIvYcUD8eyjx:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 a=RpSAj7vEMrVX78pztulH:22 :: 100.00
+
+--1683602667-eximdsn-871448187
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pwDxe-009V6J-UI
+	for ginojohn@gmail.com;
+	Mon, 08 May 2023 20:24:27 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Normand Boykin.
+X-PHP-Script: ststephenssanjose.org/contact.php for 130.185.154.42
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 130.185.154.42
+From: normand.boykin@gmail.com
+Reply-To: normand.boykin@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pwDxe-009V6J-UI@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 08 May 2023 20:24:22 -0700
+
+You have been contacted by Normand Boykin, and the message is as
+follows.
+
+"Hi Business Owners.
+
+Introducing Conversion.ai - The most advanced AI copywriting tool in
+the world. 
+
+Download a Free Trial -  https://bit.ly/3pez9W8 - A winning marketing
+copy generated in under 30 seconds with AI-powered software. No more
+struggling to write - simply fill in the blanks and let the technology
+do the work.
+
+It's like having a 24/7 copywriter crafting Facebook ads, marketing
+emails, video scripts, tweets, and more for you. 
+
+Just provide information about your product or company, click
+"generate", and watch the amazing copy appear on your screen. Say
+goodbye to writer's block for good.
+
+Try for Free Now - https://bit.ly/3pez9W8
+
+
+Opt out of future messages by submitting your domain to optout -
+optout.topb2btools.com
+
+
+"
+
+You can contact Normand Boykin via email, normand.boykin@gmail.com
+
+--1683602667-eximdsn-871448187--

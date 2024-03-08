@@ -1,0 +1,99 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id uFIxI8G23mXmzScACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 27 Feb 2024 21:29:53 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 27 Feb 2024 21:29:53 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rfBZp-00Ax6s-1j
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 27 Feb 2024 21:29:53 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rfBZk-00Ax6H-11@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1709094593-eximdsn-419680892
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rfBZp-00Ax6s-1j@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 27 Feb 2024 21:29:53 -0700
+
+--1709094593-eximdsn-419680892
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 fBZpre5lQspk6 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L62+QPT8 c=1 sm=1 tr=0 ts=65deb6c1 p=wCPSU9ldAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=MKtGQD3n3ToA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=Q-3bGZjCF4kA:10 a=rlCzlqp2qvzxt1gB_6UA:9 a=QEXdDO2ut3YA:10 a=o0Cppe977yIA:10 a=zgiPjhLxNE0A:10 a=mODC9Y9Hm2tIPZGkP26s:22 a=IhgaDrcvve3PLUNlhxT7:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1709094593-eximdsn-419680892
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 fBZpre5lQspk6 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L62+QPT8 c=1 sm=1 tr=0 ts=65deb6c1 p=wCPSU9ldAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=MKtGQD3n3ToA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=Q-3bGZjCF4kA:10 a=rlCzlqp2qvzxt1gB_6UA:9 a=QEXdDO2ut3YA:10 a=o0Cppe977yIA:10 a=zgiPjhLxNE0A:10 a=mODC9Y9Hm2tIPZGkP26s:22 a=IhgaDrcvve3PLUNlhxT7:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1709094593-eximdsn-419680892
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rfBZk-00Ax6H-11
+	for ginojohn@gmail.com;
+	Tue, 27 Feb 2024 21:29:53 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Sarah Johnson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.26.254
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.26.254
+From: sarah@loansforsba.info
+Reply-To: sarah@loansforsba.info
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rfBZk-00Ax6H-11@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 27 Feb 2024 21:29:48 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Sarah Johnson, and the message is as
+follows.
+
+"We are offering business loans with the below minimum terms.
+
+515+ Credit Score(doesn't hurt credit to apply)
+Funding up to $3,500,000
+No Open Bankruptcies
+Must Be a USA LLC or Corporation
+1+ Year in Business
+$5000 in Deposits per month.
+ 
+Approvals happen within 24hours
+
+Apply here: LoansForSBA.info
+
+Sarah Johnson
+Account Representative
+LoansForSBA.info"
+
+You can contact Sarah Johnson via email, sarah@loansforsba.info
+
+--1709094593-eximdsn-419680892--

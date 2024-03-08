@@ -1,0 +1,57 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id cGxkG3PptGT8SBYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 17 Jul 2023 00:10:43 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 17 Jul 2023 00:10:43 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qLINX-0067vx-D1
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 17 Jul 2023 00:10:43 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qLINS-0067v4-Gb@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qLINX-0067vx-D1@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 17 Jul 2023 00:10:43 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qLINS-0067v4-Gb
+	for ginojohn@gmail.com;
+	Mon, 17 Jul 2023 00:10:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Dannielle Mackinlay.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.175.224.12
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.175.224.12
+From: mackinlay.dannielle@googlemail.com
+Reply-To: mackinlay.dannielle@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qLINS-0067v4-Gb@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 17 Jul 2023 00:10:38 -0700
+
+You have been contacted by Dannielle Mackinlay, and the message is as
+follows.
+
+"AMAZON MEGA SPRING SALE!|Upto 70% Off
+
+Checkout the Amazon biggest deals of the year
+
+Check on Amazon- https://bit.ly/3PrZISP"
+
+You can contact Dannielle Mackinlay via email,
+mackinlay.dannielle@googlemail.com

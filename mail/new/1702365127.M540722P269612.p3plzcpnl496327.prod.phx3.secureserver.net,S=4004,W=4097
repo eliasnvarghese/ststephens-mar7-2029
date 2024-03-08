@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id fHS7H8cHeGUsHQQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 12 Dec 2023 00:12:07 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 12 Dec 2023 00:12:07 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rCww3-00188T-1V
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 12 Dec 2023 00:12:07 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rCwvy-001806-0v@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rCww3-00188T-1V@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 12 Dec 2023 00:12:07 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rCwvy-001806-0v
+	for ginojohn@gmail.com;
+	Tue, 12 Dec 2023 00:12:02 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Eric Jones.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 196.18.229.228
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.18.229.228
+From: ericjonesmyemail@gmail.com
+Reply-To: ericjonesmyemail@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rCwvy-001806-0v@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 12 Dec 2023 00:12:02 -0700
+
+You have been contacted by Eric Jones, and the message is as follows.
+
+"To the ststephenssanjose.org Webmaster. my name is Eric and I’m
+betting you’d like your website ststephenssanjose.org to generate
+more leads.
+
+Here’s how:
+Web Visitors Into Leads is a software widget that’s works on your
+site, ready to capture any visitor’s Name, Email address and Phone
+Number.  It signals you as soon as they say they’re interested –
+so that you can talk to that lead while they’re still there at
+ststephenssanjose.org.
+
+Web Visitors Into Leads – CLICK HERE https://rushleadgeneration.com
+for a live demo now.
+
+And now that you’ve got their phone number, our new SMS Text With
+Lead feature enables you to start a text (SMS) conversation – answer
+questions, provide more info, and close a deal that way.
+
+If they don’t take you up on your offer then, just follow up with
+text messages for new offers, content links, even just how you doing?
+notes to build a relationship.
+
+CLICK HERE https://rushleadgeneration.com to discover what Web
+Visitors Into Leads can do for your business.
+
+The difference between contacting someone within 5 minutes versus a
+half-hour means you could be converting up to 100X more leads today!
+
+Try Web Visitors Into Leads and get more leads now.
+
+Eric
+PS: The studies show 7 out of 10 visitors don’t hang around – you
+can’t afford to lose them!
+Web Visitors Into Leads offers a FREE 14 days trial – and it even
+includes International Long Distance Calling. 
+You have customers waiting to talk with you right now… don’t keep
+them waiting. 
+CLICK HERE https://rushleadgeneration.com to try Web Visitors Into
+Leads now.
+
+If you'd like to unsubscribe click here
+https://rushleadgeneration.com/unsubscribe.aspx?d=ststephenssanjose.org
+"
+
+You can contact Eric Jones via email, ericjonesmyemail@gmail.com

@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id GLluH1pet2RuBAYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 18 Jul 2023 20:54:02 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 18 Jul 2023 20:54:02 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qLyGI-001eaN-FC
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 18 Jul 2023 20:54:02 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qLyGD-001eLg-Ip@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1689738842-eximdsn-431053236
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qLyGI-001eaN-FC@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 18 Jul 2023 20:54:02 -0700
+
+--1689738842-eximdsn-431053236
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 LyGIqJyiYb3ts :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64b75e5a p=CkOZ_16_4YQA:10 p=4akDHEbLWdwA:10 p=otr0Hc7nVgIu0f9jR70l:22 p=xG5E3ky0UqGEt3LzyqQK:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=uq-4WQvc4u0A:10 a=_MWHve4lAAAA:8 a=pGLkceISAAAA:8 a=EPeyz3PmM9INMWvkdWsA:9 a=QEXdDO2ut3YA:10 a=XGe2eQIPpKIA:10 a=SmcSdSiJGJkA:10 a=VxAk22fqlfwA:10 a=KyYZJfTCSdMA:10 a=lz63O_L4c55NikGzm2Ny:22 a=6-mhKEkjO3XVfLtoyHD6:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1689738842-eximdsn-431053236
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 LyGIqJyiYb3ts :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64b75e5a p=CkOZ_16_4YQA:10 p=4akDHEbLWdwA:10 p=otr0Hc7nVgIu0f9jR70l:22 p=xG5E3ky0UqGEt3LzyqQK:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=uq-4WQvc4u0A:10 a=_MWHve4lAAAA:8 a=pGLkceISAAAA:8 a=EPeyz3PmM9INMWvkdWsA:9 a=QEXdDO2ut3YA:10 a=XGe2eQIPpKIA:10 a=SmcSdSiJGJkA:10 a=VxAk22fqlfwA:10 a=KyYZJfTCSdMA:10 a=lz63O_L4c55NikGzm2Ny:22 a=6-mhKEkjO3XVfLtoyHD6:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1689738842-eximdsn-431053236
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qLyGD-001eLg-Ip
+	for ginojohn@gmail.com;
+	Tue, 18 Jul 2023 20:54:02 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Mike B B.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.152.125
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.152.125
+From: seomike@gmail.com
+Reply-To: seomike@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qLyGD-001eLg-Ip@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 18 Jul 2023 20:53:57 -0700
+
+You have been contacted by Mike B B, and the message is as follows.
+
+"At www.FreeSEOcheckup.click  we’re offering a no-cost SEO analysis.
+Enhance user experience, gain visibility, and drive more sales. Get
+started now - no time from your side required."
+
+You can contact Mike B B via email, seomike@gmail.com
+
+--1689738842-eximdsn-431053236--

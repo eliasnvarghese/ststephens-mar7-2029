@@ -1,0 +1,153 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id mPxPJQlXRGWd2hIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 02 Nov 2023 19:12:25 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 02 Nov 2023 19:12:25 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qyjfd-005CH6-IO
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 02 Nov 2023 19:12:25 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qyjfY-005CFv-E5@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698977545-eximdsn-1864570451
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qyjfd-005CH6-IO@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 19:12:25 -0700
+
+--1698977545-eximdsn-1864570451
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yjfdqtlWETa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=65445709 p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=SeidXsbpufYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=cB8fcu0li6cA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=UpyFDA-I3Z6WZAlp25kA:9 a=QEXdDO2ut3YA:10 a=R4o2gKnsGjMA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=walnL1Tuc4zlISK7Pl1_:22 a=jycUkCEYUnZvh0PkXkJV:22 a=OIetYpwiBwETtklfd5HE:22 a=BreUdGtT35ydH5Bo58Li:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1698977545-eximdsn-1864570451
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 yjfdqtlWETa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=65445709 p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=SeidXsbpufYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=cB8fcu0li6cA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=UpyFDA-I3Z6WZAlp25kA:9 a=QEXdDO2ut3YA:10 a=R4o2gKnsGjMA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=walnL1Tuc4zlISK7Pl1_:22 a=jycUkCEYUnZvh0PkXkJV:22 a=OIetYpwiBwETtklfd5HE:22 a=BreUdGtT35ydH5Bo58Li:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1698977545-eximdsn-1864570451
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qyjfY-005CFv-E5
+	for ginojohn@gmail.com;
+	Thu, 02 Nov 2023 19:12:25 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Floyd Mcclary.
+X-PHP-Script: ststephenssanjose.org/contact.php for 196.240.237.35
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.240.237.35
+From: mcclary.floyd6@gmail.com
+Reply-To: mcclary.floyd6@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qyjfY-005CFv-E5@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 19:12:20 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Floyd Mcclary, and the message is as
+follows.
+
+"Cool website!
+
+Hello ststephenssanjose.org Owner.
+
+My name’s Floyd, and I just found your site - ststephenssanjose.org
+- while browsing the net. You surfaced at the peak of the search
+results, so I checked you out. Appears like what you’re doing is
+very cool.  
+
+But if you don’t mind me asking – after someone like me comes
+across ststephenssanjose.org, what usually happens?
+
+Is your site generating leads for your business? 
+
+I’m supposing some, but I also bet you’d like more… studies
+demonstrate that 7 out 10 who touch down on a site finish leaving
+without a trace.
+
+Not good.
+
+Here’s a idea – what if there was an simple way for every visitor
+to “elevate their hand” to get a phone call from you INSTANTLY…
+the minute they hit your site and declared, “call me now.”
+
+You can –
+  
+Web Visitor is a software widget that’s operates on your site, ready
+to catch any visitor’s Name, Email address and Phone Number.  It
+enables you know IMMEDIATELY – so that you can speak to that lead
+while they’re really looking your site.
+
+CLICK HERE https://bit.ly/3LPltcD to experiment with a Live Demo with
+Web Visitor now to see specifically how it works.
+
+Time is money when it comes to connecting with leads – the
+distinction between contacting someone within 5 minutes versus 30
+minutes later can be massive – like 100 times better!
+
+That’s why we built out our new SMS Text With Lead attribute because
+once you’ve captured the visitor’s phone number, you can instantly
+a text message (SMS) conversation.
+  
+Consider the possibilities – even if you don’t close a deal then
+and there, you can follow-up with text messages for new offers,
+content links, even just “how you doing?” notes to construct a
+relationship.
+
+Wouldn’t that be cool?
+
+CLICK HERE https://bit.ly/3LPltcD to learn Web Visitor can do for your
+enterprise
+
+You could be converting up to 100X more leads today!
+Floyd
+
+PS: Web Visitor offers FREE 14 days trial – and it even comprises
+Long Distance Calling. 
+You have customers waiting to to talk with you right now… don’t
+keep them waiting. 
+CLICK HERE https://bit.ly/3LPltcD to test Visitor now.
+
+If you'd like to unsubscribe click here https://bit.ly/3rD0G5c
+
+Only a quick message - the monikers and email utilized in this
+message, Floyd and Mcclary, are stand-ins and not really authentic
+contact information. We esteem honesty and wanted to ensure you are
+conscious! In case you aspire to communicate with the actual
+individual responsible for this communication, please go to our site,
+and we’ll link you with the appropriate individual.
+"
+
+You can contact Floyd Mcclary via email, mcclary.floyd6@gmail.com
+
+--1698977545-eximdsn-1864570451--

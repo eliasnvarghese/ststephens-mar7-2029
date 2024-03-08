@@ -1,0 +1,98 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 6CTpNmQbrWNKzwcAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 28 Dec 2022 21:45:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 28 Dec 2022 21:45:24 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pAknE-002GTT-My
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 28 Dec 2022 21:45:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pAkn9-002GO4-C6@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1672289124-eximdsn-1489664940
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pAknE-002GTT-My@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 28 Dec 2022 21:45:24 -0700
+
+--1672289124-eximdsn-1489664940
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 AknEpgY2OYaPW :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FrnDvUnq c=1 sm=1 tr=0 ts=63ad1b64 p=pD1z8JwvmOcA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=KiQriRHYwUEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=x7bEGLp0ZPQA:10 a=m_3ZLkGd8bAA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=MdLwr7kyL5LCRtzVnWEA:9 a=QEXdDO2ut3YA:10 a=M0AakIk5UFYA:10 a=xRvtYbIJzvEA:10 a=KyYZJfTCSdMA:10 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 a=xjuDbrdzE-Sa_xxYLniW:22 a=5TVUO9D3lkhsP1fq41As:22 a=Opjcf2rbXONI77XeNpWh:22 ::
+    100.00
+
+--1672289124-eximdsn-1489664940
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 AknEpgY2OYaPW :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FrnDvUnq c=1 sm=1 tr=0 ts=63ad1b64 p=pD1z8JwvmOcA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=KiQriRHYwUEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=x7bEGLp0ZPQA:10 a=m_3ZLkGd8bAA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=MdLwr7kyL5LCRtzVnWEA:9 a=QEXdDO2ut3YA:10 a=M0AakIk5UFYA:10 a=xRvtYbIJzvEA:10 a=KyYZJfTCSdMA:10 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 a=xjuDbrdzE-Sa_xxYLniW:22 a=5TVUO9D3lkhsP1fq41As:22 a=Opjcf2rbXONI77XeNpWh:22 :: 100.00
+
+--1672289124-eximdsn-1489664940
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pAkn9-002GO4-C6
+	for ginojohn@gmail.com;
+	Wed, 28 Dec 2022 21:45:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Carlos Peterson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.171.58
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.171.58
+From: peterson.carlos@gmail.com
+Reply-To: peterson.carlos@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pAkn9-002GO4-C6@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 28 Dec 2022 21:45:19 -0700
+
+You have been contacted by Carlos Peterson, and the message is as
+follows.
+
+"Do you love listening to music?  Do you have a favorite genre or
+artist you would like nothing more than to stream 24/7? If so, then I
+think we can help each other out.
+
+Introducing… SpotiCash! It’s a revolutionary software that pays
+users real cash for streaming their favorite songs! You won't believe
+how easy it is - just get the software, start listening and get real
+cash!
+
+I'm sure you're like most people and are always looking for ways to
+make a little extra cash. Wouldn't it be great if there was an easy
+way to make some money? Let’s talk.
+
+I would love to hear what you think, so let me know if you want to
+start earning.
+
+GET STARTED ==  https://warriorplus.com/o2/a/x6vb80/0
+"
+
+You can contact Carlos Peterson via email, peterson.carlos@gmail.com
+
+--1672289124-eximdsn-1489664940--

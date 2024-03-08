@@ -1,0 +1,14 @@
+DebugLog  | 2022-05-05 02:01:47 | guest | 167.71.92.27 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-05-05 02:01:47 | guest | 167.71.92.27 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-05-05' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-05-05 05:20:32 | guest | 104.131.34.56 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-05-05 05:20:32 | guest | 104.131.34.56 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-05-05' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-05-05 08:54:37 | guest | 104.131.60.103 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-05-05 08:54:37 | guest | 104.131.60.103 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-05-05' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-05-05 13:57:29 | guest | 114.119.142.43 | photogallery | Page No = 2
+DebugLog  | 2022-05-05 13:57:29 | guest | 114.119.142.43 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2022-05-05 13:57:29 | guest | 114.119.142.43 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2022-05-05 13:57:29 | guest | 114.119.142.43 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2022-05-05 18:54:55 | guest | 114.119.142.63 | photogallery | Page No = 1
+DebugLog  | 2022-05-05 18:54:55 | guest | 114.119.142.63 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2022-05-05 18:54:55 | guest | 114.119.142.63 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2022-05-05 18:54:55 | guest | 114.119.142.63 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9

@@ -1,0 +1,104 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id OHFfOJ2Ba2SbBDQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 22 May 2023 07:52:13 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 22 May 2023 07:52:13 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q16tR-00EJYF-Sx
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 22 May 2023 07:52:13 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q16tM-00EJX4-Ol@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1684767133-eximdsn-1335776990
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q16tR-00EJYF-Sx@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 22 May 2023 07:52:13 -0700
+
+--1684767133-eximdsn-1335776990
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 16tRqYR8brKX1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=cp1d0X0i c=1 sm=1 tr=0 ts=646b819d p=S_84jDK5QfNTpfXXblB4:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=kB0SJZws5pQA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=i2hhgl7YnvkA:10 a=ImDTgzG4AAAA:20 a=pGLkceISAAAA:8 a=uX7KdPn1YtlgugvuNrUA:9 a=QEXdDO2ut3YA:10 a=fmGnpT6mKJoA:10 a=iB8xb_Z6aAIA:10 a=XIXiVXTQTxhbi1rHfR9C:22 a=mAnzKO4RRjpY1eYlbDtO:22 a=acewEgQMpYTsClr9keMy:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    97.00
+
+--1684767133-eximdsn-1335776990
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 16tRqYR8brKX1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=cp1d0X0i c=1 sm=1 tr=0 ts=646b819d p=S_84jDK5QfNTpfXXblB4:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=kB0SJZws5pQA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=i2hhgl7YnvkA:10 a=ImDTgzG4AAAA:20 a=pGLkceISAAAA:8 a=uX7KdPn1YtlgugvuNrUA:9 a=QEXdDO2ut3YA:10 a=fmGnpT6mKJoA:10 a=iB8xb_Z6aAIA:10 a=XIXiVXTQTxhbi1rHfR9C:22 a=mAnzKO4RRjpY1eYlbDtO:22 a=acewEgQMpYTsClr9keMy:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 97.00
+
+--1684767133-eximdsn-1335776990
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q16tM-00EJX4-Ol
+	for ginojohn@gmail.com;
+	Mon, 22 May 2023 07:52:13 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Steve Glover.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 188.119.88.10
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 188.119.88.10
+From: gloversteve282@gmail.com
+Reply-To: gloversteve282@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q16tM-00EJX4-Ol@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 22 May 2023 07:52:08 -0700
+
+You have been contacted by Steve Glover, and the message is as
+follows.
+
+"Hi,
+
+Have you wondered if a better looking website could improve your
+business?
+
+While we offer hundreds of designs, take a look at a few of our
+samples:
+
+https://drive.google.com/drive/folders/18ZllnWz19KAS5WJHIb5W8kqEGlLLn680
+
+Our unique approach involves using pre-made designs that we have
+created, which allows us to offer our services at a fraction of the
+cost compared to other agencies, with prices from just $395. We take
+pride in delivering high-quality web design services that meet our
+client's expectations and budgets.
+
+We have a variety of designs to choose from and we can also offer
+custom solutions such as booking systems or anything else that your
+specific business needs.
+
+If this is of interest, don't hesitate to reply to this email.
+
+Kind Regards,
+Steve"
+
+You can contact Steve Glover via email, gloversteve282@gmail.com
+
+--1684767133-eximdsn-1335776990--

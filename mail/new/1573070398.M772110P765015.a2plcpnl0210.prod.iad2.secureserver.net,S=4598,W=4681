@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ILmEKT4mw11XrAsAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 06 Nov 2019 12:59:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 06 Nov 2019 12:59:58 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	id 1iSRTC-003TEf-J6
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Wed, 06 Nov 2019 12:59:58 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1573070398-eximdsn-1224591162
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iSRTC-003TEf-J6@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 06 Nov 2019 12:59:58 -0700
+
+--1573070398-eximdsn-1224591162
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 SRTCiX9uBIyvC :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=eZNDgIMH c=1 sm=1 tr=0 p=lrLhD99xfYkA:10 p=R-esA10zrVcA:10 p=tElzumhHTO4A:10 p=ml69J6vfzx3WqSyRAuDk:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=PO1vYHusv3IA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=MeAgGD-zjQ4A:10 a=dUXXzZzlAAAA:8 a=pGLkceISAAAA:8 a=n_jJsi30kqjVLUWYSskA:9 a=QEXdDO2ut3YA:10 a=Xhyz2zmIdtoA:10 a=EqhhctEwh7IA:10 a=D-EJgcLjp7cX3AkBbqVm:22 a=E6YDF9_5z-k39Lo0EsKq:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 ::
+    100.00
+
+--1573070398-eximdsn-1224591162
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 SRTCiX9uBIyvC :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=eZNDgIMH c=1 sm=1 tr=0 p=lrLhD99xfYkA:10 p=R-esA10zrVcA:10 p=tElzumhHTO4A:10 p=ml69J6vfzx3WqSyRAuDk:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=PO1vYHusv3IA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=MeAgGD-zjQ4A:10 a=dUXXzZzlAAAA:8 a=pGLkceISAAAA:8 a=n_jJsi30kqjVLUWYSskA:9 a=QEXdDO2ut3YA:10 a=Xhyz2zmIdtoA:10 a=EqhhctEwh7IA:10 a=D-EJgcLjp7cX3AkBbqVm:22 a=E6YDF9_5z-k39Lo0EsKq:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 :: 100.00
+
+--1573070398-eximdsn-1224591162
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1iSRTB-003TE7-PT
+	for ginojohn@gmail.com; Wed, 06 Nov 2019 12:59:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by StockTrading.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.93.3.105
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.93.3.105
+From: xyzreplyxyz@gmail.com
+Reply-To: xyzreplyxyz@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1iSRTB-003TE7-PT@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 06 Nov 2019 12:59:57 -0700
+
+You have been contacted by StockTrading, and the message is as
+follows.
+
+"Go to https://disciplinedtradingstrategies.com/free-stuff/ If you
+don't trust a link (smart) just google 'Disciplined' 'Trading'
+'Strategies' and we will be the top link, then click on the 'Free
+Stuff Page' on the left. 
+ 
+Email: Services@DisciplinedTradingStrategies.com"
+
+You can contact StockTrading via email, xyzreplyxyz@gmail.com
+
+--1573070398-eximdsn-1224591162--

@@ -1,0 +1,88 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OEvRLa31L2BbvwQAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 19 Feb 2021 10:30:21 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 19 Feb 2021 10:30:21 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.93)
+	id 1lD9bh-001QUw-MO
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 19 Feb 2021 10:30:21 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1lD9bh-001QUh-FI@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1613755821-eximdsn-1174446084
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lD9bh-001QUw-MO@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 19 Feb 2021 10:30:21 -0700
+
+--1613755821-eximdsn-1174446084
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 D9bhli97inZTP :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ffJod2cF c=1 sm=1 tr=0 ts=602ff5ad p=UKNm559cYcsA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=wPZdckFaFNQA:10 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=qa6Q16uM49sA:10 a=uPO7lSzh-iAA:10 a=x7bEGLp0ZPQA:10 a=mRkZTSFVGP8A:10 a=pGLkceISAAAA:8 a=50zEzptFKj2h7sghFDQA:9 a=QEXdDO2ut3YA:10 a=3-cMNfw4IdwA:10 a=z2I_higoVHMA:10 a=g70cjSMRhhUwHqzc9gel:22 a=wAXlbanSxS3Il2xkELW5:22 a=v2E1vN6rQyS1A6LmbqKs:22 a=pHzHmUro8NiASowvMSCR:22 a=6VlIyEUom7LUIeUMNQJH:22 ::
+    100.00
+
+--1613755821-eximdsn-1174446084
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 D9bhli97inZTP :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ffJod2cF c=1 sm=1 tr=0 ts=602ff5ad p=UKNm559cYcsA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=wPZdckFaFNQA:10 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=qa6Q16uM49sA:10 a=uPO7lSzh-iAA:10 a=x7bEGLp0ZPQA:10 a=mRkZTSFVGP8A:10 a=pGLkceISAAAA:8 a=50zEzptFKj2h7sghFDQA:9 a=QEXdDO2ut3YA:10 a=3-cMNfw4IdwA:10 a=z2I_higoVHMA:10 a=g70cjSMRhhUwHqzc9gel:22 a=wAXlbanSxS3Il2xkELW5:22 a=v2E1vN6rQyS1A6LmbqKs:22 a=pHzHmUro8NiASowvMSCR:22 a=6VlIyEUom7LUIeUMNQJH:22 :: 100.00
+
+--1613755821-eximdsn-1174446084
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.93)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1lD9bh-001QUh-FI
+	for ginojohn@gmail.com; Fri, 19 Feb 2021 10:30:21 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MR HO CHOI.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.9.115.117
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.9.115.117
+From: andrewyoung4545@gmail.com
+Reply-To: andrewyoung4545@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1lD9bh-001QUh-FI@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 19 Feb 2021 10:30:21 -0700
+
+You have been contacted by MR HO CHOI, and the message is as follows.
+
+"Greetings, I have been tasked with identifying, initiating and
+possibly developing a business partnership with you / your company. I
+checked recommendation sites, corporate social networking sites,
+interviewed a few list investors and made a list of potential partners
+that identified you and your business. I visited your website and saw
+your products. I have to say that I am very impressed with the quality
+of your products. Therefore, we would like your company to ship large
+quantities of your product to our country for commercial use. Please
+contact me for more information on our requirements / orders and
+shipping deadlines. Best regards. HO CHOI email .....
+hchoi382@gmail.com"
+
+You can contact MR HO CHOI via email, andrewyoung4545@gmail.com
+
+--1613755821-eximdsn-1174446084--

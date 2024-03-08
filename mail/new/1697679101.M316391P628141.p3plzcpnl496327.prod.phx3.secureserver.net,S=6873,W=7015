@@ -1,0 +1,142 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id GNl+Ev2GMGWtlQkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 18 Oct 2023 18:31:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 18 Oct 2023 18:31:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qtHsz-002dRf-8K
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 18 Oct 2023 18:31:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qtHsq-002dNF-Mn@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697679101-eximdsn-1946803761
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qtHsz-002dRf-8K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 18 Oct 2023 18:31:41 -0700
+
+--1697679101-eximdsn-1946803761
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 tHszqHxnTTa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=653086fd p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=TVd13ZX3BG4A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=1DPPnryor2gA:10 a=huvbmMDMAAAA:8 a=69EAbJreAAAA:8 a=SICZ-QZ-V81eTq3a7N4A:9 a=QEXdDO2ut3YA:10 a=0PhoAqROs7QA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=uTBH67nHU1A6FFiixUc5:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1697679101-eximdsn-1946803761
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 tHszqHxnTTa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=653086fd p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=TVd13ZX3BG4A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=1DPPnryor2gA:10 a=huvbmMDMAAAA:8 a=69EAbJreAAAA:8 a=SICZ-QZ-V81eTq3a7N4A:9 a=QEXdDO2ut3YA:10 a=0PhoAqROs7QA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=uTBH67nHU1A6FFiixUc5:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1697679101-eximdsn-1946803761
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qtHsq-002dNF-Mn
+	for ginojohn@gmail.com;
+	Wed, 18 Oct 2023 18:31:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Candelaria Lade.
+X-PHP-Script: ststephenssanjose.org/contact.php for 196.245.220.69
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.245.220.69
+From: candelaria.lade@hotmail.com
+Reply-To: candelaria.lade@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qtHsq-002dNF-Mn@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 18 Oct 2023 18:31:32 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Candelaria Lade, and the message is as
+follows.
+
+"To the ststephenssanjose.org Webmaster. This is Candelaria and I just
+ran across your site at ststephenssanjose.org...
+
+I discovered it after a swift searching, so your SEO’s working
+out…
+
+The content appears good…
+
+However, one thing’s missing though…
+
+A FAST, SIMPLE method to get in touch with you RIGHT NOW.
+
+Since research reveal that a visitor like me will only stay a few
+seconds – 7 out of 10 vanish almost instantly, Browse Browse
+Browse… then gone.
+
+I possess the solution:
+
+Web Visitors Into Leads is a software widget that’s functions on
+your site, prepared to grab any visitor’s Name, Email address, and
+Phone Number. You’ll know instantly they’re intrigued, and you can
+call them them directly to TALK with them - actually as they’re
+still on the web looking at your site.
+
+CLICK HERE https://bit.ly/LeadGena to test a Live Demo with Web
+Visitors Into Leads right now to see exactly how it works and even
+try… it could be big for your company.
+
+Plus, now that you’ve obtained that phone number, with our new SMS
+Text With Lead function you can immediately begin a text pronto…
+which is so strong, because connecting within 5 minutes is 100 times
+more efficient than waiting more later.
+
+The new texting feature enables you follow-up frequently with  offers
+even just follow-up notes to build a relationship.
+
+Everything I have just described is incredibly simple to put in place,
+cost-effective, and beneficial.
+
+CLICK HERE https://bit.ly/LeadGena to find out what Web Visitors Into
+Leads can make for your business, potentially converting up to 100X
+more eyeballs into leads now!
+
+Candelaria
+PS: Web Visitors Into Leads offers a FREE 14 days trial – and it
+even includes International Long Distance Calls. 
+There are customers eager to talk with you right now… don’t keep
+them waiting. 
+CLICK HERE https://bit.ly/LeadGena to try Web Visitors Into Leads
+today.
+
+If you'd like to unsubscribe click here https://bit.ly/3rD0G5c
+
+Only a quick note - the names and email used here, Candelaria and
+Lade, are not real and not genuine contact data. We respect
+transparency and wish to ensure sure you’re aware! If you want to
+get in touch with the genuine person behind this message, kindly visit
+our website, and we’ll associate you with the right individual.}
+"
+
+You can contact Candelaria Lade via email, candelaria.lade@hotmail.com
+
+--1697679101-eximdsn-1946803761--

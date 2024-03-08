@@ -1,0 +1,60 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id eKKTGspi3mPLBBIAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 04 Feb 2023 06:51:06 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 04 Feb 2023 06:51:06 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pOIwc-004y3i-AL
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sat, 04 Feb 2023 06:51:06 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pOIwX-004xnm-UV@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pOIwc-004y3i-AL@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 04 Feb 2023 06:51:06 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pOIwX-004xnm-UV
+	for ginojohn@gmail.com;
+	Sat, 04 Feb 2023 06:51:01 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Barb Taylor.
+X-PHP-Script: ststephenssanjose.org/contact.php for 204.217.217.110
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 204.217.217.110
+From: ultimatewritingtool@gmail.com
+Reply-To: ultimatewritingtool@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pOIwX-004xnm-UV@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 04 Feb 2023 06:51:01 -0700
+
+You have been contacted by Barb Taylor, and the message is as follows.
+
+"Tired of spending hours creating content? 
+Let ChatGPT Riches help! Our AI-powered live classes teach you how to
+monetize your content, freeing up time. 
+
+Click the link now to elevate your business.
+https://ultimatewritingtool.com
+
+
+Thank me later,
+Colin"
+
+You can contact Barb Taylor via email, ultimatewritingtool@gmail.com

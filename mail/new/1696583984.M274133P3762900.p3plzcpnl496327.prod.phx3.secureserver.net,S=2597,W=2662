@@ -1,0 +1,65 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id M9zxDzDRH2XUajkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 06 Oct 2023 02:19:44 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 06 Oct 2023 02:19:44 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qogzo-00Fmtp-6X
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 06 Oct 2023 02:19:44 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qogzj-00FmrT-M5@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qogzo-00Fmtp-6X@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 06 Oct 2023 02:19:44 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qogzj-00FmrT-M5
+	for ginojohn@gmail.com;
+	Fri, 06 Oct 2023 02:19:39 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by David Johnson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.26.41
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.26.41
+From: david.johnson@gmail.com
+Reply-To: david.johnson@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qogzj-00FmrT-M5@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 06 Oct 2023 02:19:39 -0700
+
+You have been contacted by David Johnson, and the message is as
+follows.
+
+"Unlock a world of profit with AIFlipBook! Act now to secure your
+exclusive, limited-time offer at its lowest price ever.
+
+Don't wait, watch the mesmerizing Demo: ===>>>
+https://bit.ly/AIFlipbook
+
+Elevate your business with AIFlipBook - click to seize the
+opportunity: ===>>> https://bit.ly/AIFlipbook
+
+Best,
+David
+
+
+"
+
+You can contact David Johnson via email, david.johnson@gmail.com

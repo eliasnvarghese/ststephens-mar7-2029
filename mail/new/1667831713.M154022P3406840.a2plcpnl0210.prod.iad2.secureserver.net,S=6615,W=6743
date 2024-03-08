@@ -1,0 +1,128 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id MGwKCaEXaWP4+zMAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 07:35:13 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 07:35:13 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os3DV-00EJxt-19
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 07:35:13 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os3DU-00EJvh-G8@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667831713-eximdsn-132159593
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os3DV-00EJxt-19@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 07:35:13 -0700
+
+--1667831713-eximdsn-132159593
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s3DUoglRXwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=636917a1 p=CyhBphT7diAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=GDK_EeUnXWsA:10 a=kpVTYQD7AAAA:8 a=RgBw9RmQAAAA:8 a=tNz6ZZFRVUgh1yOX458A:9 a=QEXdDO2ut3YA:10 a=VobXl5Puzz8A:10 a=Mo8tG_YSO-sA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=fp9V6mhuTF7y7hZudOBs:22 ::
+    100.00
+
+--1667831713-eximdsn-132159593
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s3DUoglRXwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=636917a1 p=CyhBphT7diAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=GDK_EeUnXWsA:10 a=kpVTYQD7AAAA:8 a=RgBw9RmQAAAA:8 a=tNz6ZZFRVUgh1yOX458A:9 a=QEXdDO2ut3YA:10 a=VobXl5Puzz8A:10 a=Mo8tG_YSO-sA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=fp9V6mhuTF7y7hZudOBs:22 :: 100.00
+
+--1667831713-eximdsn-132159593
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os3DU-00EJvh-G8
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 07:35:12 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Charlieneona.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.188.21.49
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.188.21.49
+From: viabimil_905@mail.ru
+Reply-To: viabimil_905@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os3DU-00EJvh-G8@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 07:35:12 -0700
+
+You have been contacted by Charlieneona, and the message is as
+follows.
+
+"
+Дальнейший план был такой: сесть в
+автобус, который довезет ее с малышкой
+до границы, затем – пешком через
+деревни https://ruscrystal.com/page/619
+   На случай, если ее задержат, Эбби
+напечатала на компьютере несколько
+удостоверений личности, надеясь на то,
+что никто не станет их внимательно
+рассматривать https://ruscrystal.com/page/168
+   Впрочем, документы не сильно
+беспокоили ее, так как в детстве много
+раз она путешествовала подобным
+образом со своей семьей
+https://ruscrystal.com/page/697
+   Во время недавней войны иногда это
+был единственный способ, чтобы из
+поместья дедушки и бабушки в Дарме
+снова вернуться в Карнетию
+https://ruscrystal.com/page/93
+   Дорогу она знала и также знала, каким
+образом обойти контрольно-пропускные
+пункты https://ruscrystal.com/page/740
+   Конечно, с ребенком на руках делать
+это будет труднее, но если повезет, то
+через пару часов она доберется до
+Дармы, а оттуда поездом до Северной
+Италии https://ruscrystal.com/page/90
+   А потом… Что потом? Ответа на этот
+вопрос она пока не знает
+https://ruscrystal.com/page/796
+ 
+https://ruscrystal.com/page/805
+ 
+
+
+Некоторые хозяйки предпочитают мыть
+хрустальную посуду с крахмалом
+https://ruscrystal.com/page/810
+   Это может оказаться полезным при
+сильных загрязнениях, присохших в
+рельефных прорезях и гранях
+https://ruscrystal.com/page/149
+   Крахмал выполняет роль мягкого
+абразива: он деликатно удаляет
+застарелые загрязнения из
+труднодоступных мест
+https://ruscrystal.com/page/721
+ 
+"
+
+You can contact Charlieneona via email, viabimil_905@mail.ru
+
+--1667831713-eximdsn-132159593--

@@ -1,0 +1,134 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 4OrZI62AYWXZmRMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 24 Nov 2023 22:05:49 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 24 Nov 2023 22:05:49 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r6krV-005OX3-Hh
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 24 Nov 2023 22:05:49 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r6krQ-005OVw-MR@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700888749-eximdsn-1237312053
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r6krV-005OX3-Hh@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 24 Nov 2023 22:05:49 -0700
+
+--1700888749-eximdsn-1237312053
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 6krVrPCob5SRd :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=NZEglUP4 c=1 sm=1 tr=0 ts=656180ad p=mnTjpfSRAAAA:8 p=EOlvqIK_vIC1leNs449f:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=v5rKKhms6wwA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=B7_dnF6EqI4A:10 a=huvbmMDMAAAA:8 a=UqCG9HQmAAAA:8 a=xAN1uCmWnC58pYOarmYA:9 a=QEXdDO2ut3YA:10 a=BY19yRlPTkwA:10 a=GpgGyJwAu1EA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=vG1CjOZ6gve_C9reCJw_:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1700888749-eximdsn-1237312053
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 6krVrPCob5SRd :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=NZEglUP4 c=1 sm=1 tr=0 ts=656180ad p=mnTjpfSRAAAA:8 p=EOlvqIK_vIC1leNs449f:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=v5rKKhms6wwA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=B7_dnF6EqI4A:10 a=huvbmMDMAAAA:8 a=UqCG9HQmAAAA:8 a=xAN1uCmWnC58pYOarmYA:9 a=QEXdDO2ut3YA:10 a=BY19yRlPTkwA:10 a=GpgGyJwAu1EA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=vG1CjOZ6gve_C9reCJw_:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1700888749-eximdsn-1237312053
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r6krQ-005OVw-MR
+	for ginojohn@gmail.com;
+	Fri, 24 Nov 2023 22:05:49 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Elana Silvers.
+X-PHP-Script: ststephenssanjose.org/contact.php for 194.36.96.132
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 194.36.96.132
+From: silvers.elana@outlook.com
+Reply-To: silvers.elana@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r6krQ-005OVw-MR@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 24 Nov 2023 22:05:44 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Elana Silvers, and the message is as
+follows.
+
+"Greetings ststephenssanjose.org Webmaster.
+
+My name is Elana and I’m guessing you would prefer your website
+ststephenssanjose.org to generate extra leads.
+
+Here is how:
+Web Visitors Into Leads is a software widget that’s operates on your
+website, ready to capture any user’s Name, Email address, and Phone
+Number. It signals you immediately when they declare they’re
+intrigued – so that you can converse with that lead while they’re
+still there at ststephenssanjose.org.
+
+Visitor to Lead Widget – CLICK HERE https://turboleadgeneration.com
+for a real-time demo at this moment.
+
+And now that you’ve got their phone number, our new SMS Text With
+Lead feature enables you to initiate a text (SMS) conversation –
+respond to questions, offer more info, and close a deal that way.
+
+If they don’t take you up on your deal then, just follow-up with
+text messages for new proposals, content links, or just how you doing?
+notes to develop a connection.
+
+CLICK HERE https://turboleadgeneration.com to discover what Lead
+Conversion Software can do for your enterprise.
+
+The distinction between contacting someone within 5 minutes compared
+to a half-hour indicates you might be changing up to 100X more leads
+today!
+
+Test Visitor to Lead Widget and get more leads now.
+
+Elana
+PS: The studies show 7 out of 10 visitors do not stick around – you
+can not afford to miss them!
+Web Visitors Into Leads offers a FREE 14 days trial – and it also
+includes International Long Distance Calling.
+You have clients eager to speak with you immediately… don’t keep
+them waiting.
+CLICK HERE https://turboleadgeneration.com to try Visitor to Lead
+Widget now.
+
+If you'd prefer to unsubscribe click here
+https://turboleadgeneration.com/unsubscribe.aspx?d=ststephenssanjose.org
+
+Merely a swift note - the names and email address applied here, Elana
+and Silvers, are substitutes and not actually genuine information. We
+value honesty and wished to make sure you’re aware of this! If you
+want to get in touch with the genuine one behind this memo, kindly
+visit our website, and we’ll associate you with the proper entity.
+"
+
+You can contact Elana Silvers via email, silvers.elana@outlook.com
+
+--1700888749-eximdsn-1237312053--

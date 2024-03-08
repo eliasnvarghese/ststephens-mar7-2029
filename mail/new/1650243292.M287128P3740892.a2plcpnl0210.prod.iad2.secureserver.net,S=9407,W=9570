@@ -1,0 +1,163 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 4FbPDdy2XGLcFDkAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 17 Apr 2022 17:54:52 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 17 Apr 2022 17:54:52 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1ngFfI-00Fifn-46
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sun, 17 Apr 2022 17:54:52 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1ngFfG-00Fif2-Sm@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1650243292-eximdsn-210785782
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ngFfI-00Fifn-46@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 17 Apr 2022 17:54:52 -0700
+
+--1650243292-eximdsn-210785782
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 gFfHnMT0Me8DT :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=GJfNrsBK c=1 sm=1 tr=0 ts=625cb6dc p=tL2C1D1I2ZAA:10 p=6AjG0rU-AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=z0gMJWrwH1QA:10 a=-W29iF81vXIA:10 a=x7bEGLp0ZPQA:10 a=PPDD72Tl4hIA:10 a=55jZN7dOAAAA:8 a=KQMkn8wqf0Pao-JzpDIA:9 a=QEXdDO2ut3YA:10 a=IrqYgsFfjdIA:10 a=sir6wfUGOj4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=uRloo-C8IaK6x__C2LJn:22 ::
+    100.00
+
+--1650243292-eximdsn-210785782
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 gFfHnMT0Me8DT :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=GJfNrsBK c=1 sm=1 tr=0 ts=625cb6dc p=tL2C1D1I2ZAA:10 p=6AjG0rU-AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=z0gMJWrwH1QA:10 a=-W29iF81vXIA:10 a=x7bEGLp0ZPQA:10 a=PPDD72Tl4hIA:10 a=55jZN7dOAAAA:8 a=KQMkn8wqf0Pao-JzpDIA:9 a=QEXdDO2ut3YA:10 a=IrqYgsFfjdIA:10 a=sir6wfUGOj4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=uRloo-C8IaK6x__C2LJn:22 :: 100.00
+
+--1650243292-eximdsn-210785782
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1ngFfG-00Fif2-Sm
+	for ginojohn@gmail.com; Sun, 17 Apr 2022 17:54:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Hermanvieno.
+X-PHP-Script: ststephenssanjose.org/contact.php for 178.168.203.172
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 178.168.203.172
+From: denisartemov4681@rambler.ru
+Reply-To: denisartemov4681@rambler.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1ngFfG-00Fif2-Sm@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 17 Apr 2022 17:54:50 -0700
+
+You have been contacted by Hermanvieno, and the message is as follows.
+
+"Токоограничивающая селективность.
+Одним из методов усовершенствования
+технологических процессов на
+машиностроительных заводах является
+применение высокопроизводительного
+станочного оборудования.
+Высокопроизводительными станками
+комплектуются целые автоматические
+линии. Создание таких линий
+становится приоритетом в развитии
+обрабатывающей промышленности. Среди
+крупных предприятий начали
+зарождаться тенденции развития
+многооперационных и агрегатных
+станков. Для внедрения новых
+технологий многие конструкторские
+учреждения усиленно работают над
+созданием новых моделей агрегатных
+станков. Особое широкое применение
+получили агрегатные станки с ЧПУ
+(числовым программным управлением).
+Теперь дается сводка объектов,
+основанная на ячеистой решетке MC1,
+чтобы показать включение банковских
+трансформаторов . Устройства в других
+углах аналогичны, но опускают работу
+оборудования, исключительно
+связанного с трансформаторами.
+ 
+ Метталообработка сложный
+промышленный процесс, мало кто знает
+как устроены все тех процессы,
+переходите на сайт <a
+href=https://parkgarten.ru/>parkgarten.ru</a> и вы узнаете
+много полезного об этом направлениии 
+Причиной может стать любой
+электроприбор. При пробитии на корпус,
+дифавтомат гарантировано отключится:
+это его одна из основных функций,
+защищать человека от поражения
+электротоком. Возможно, следствием
+стала старая электропроводка, вернее,
+ее изношенная изоляция: через
+микротрещины постепенно возникает
+утечка тока, на что и реагирует
+дифавтомат. Если проводка новая,
+утечка возможна в месте плохого
+контакта или если стена отсырела,
+например, вследствие затопления.
+Распространенной ошибкой неопытных
+электриков является замыкание
+нулевого провода с защитным
+заземлением. Это делать категорически
+запрещено, поскольку приводит к
+срабатыванию защитных устройств типа
+УЗО или дифференциального аппарата.
+Повреждение корпуса или западание
+кнопки тест также может стать
+причиной срабатывания устройства. В
+этом случае необходимо заменить
+неисправный прибор. Погодные условия,
+а именно сильная гроза, часто приводит
+к тому, что дифавтомат выбивает. Это
+происходит из-за сильных атмосферных
+разрядов, которые усиливают
+естественные утечки тока. В таком
+случае следует подождать, пока гроза
+стихнет, а после включить напряжение.
+Непрофессиональный монтаж или
+установка проводки на скорую руку,
+приводит к тому, что электрическая
+схема подключения дифференциального
+аппарата не соблюдена. Это и приводит
+к тому, что его периодически выбивает
+без видимых причин.
+Требуется среднее профессиональное
+образование.
+2. По роду станков различают
+автоматические линии, скомпонованные:
+из станков, специально построенных
+для данной линии; из агрегатных
+станков; из универсальных станков,
+специально модернизированных и
+автоматизированных для встройки в
+автоматическую линию.
+"
+
+You can contact Hermanvieno via email, denisartemov4681@rambler.ru
+
+--1650243292-eximdsn-210785782--

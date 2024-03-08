@@ -1,0 +1,109 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 8X2ENlGGT2QF+C8AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 01 May 2023 02:28:49 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 01 May 2023 02:28:50 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1ptPpx-00DBoN-Ap
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Mon, 01 May 2023 02:28:49 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1ptPpq-00DBkx-P3@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1682933329-eximdsn-1176266715
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ptPpx-00DBoN-Ap@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 01 May 2023 02:28:49 -0700
+
+--1682933329-eximdsn-1176266715
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 tPpxpwqfNnjmM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ZJwR213b c=1 sm=1 tr=0 ts=644f8651 p=r39KBJ0TFUQxvH3Ky9gA:9 p=jiA3_gSRrYuzZahXovYE:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=4w9gsIhaCHgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=DMru9ZWt-zAA:10 a=njEoReLTAAAA:8 a=AAvYLDLOAAAA:8 a=QEXdDO2ut3YA:10 a=Av4d6qCF2xgA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Opjcf2rbXONI77XeNpWh:22 ::
+    100.00
+
+--1682933329-eximdsn-1176266715
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 tPpxpwqfNnjmM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ZJwR213b c=1 sm=1 tr=0 ts=644f8651 p=r39KBJ0TFUQxvH3Ky9gA:9 p=jiA3_gSRrYuzZahXovYE:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=4w9gsIhaCHgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=DMru9ZWt-zAA:10 a=njEoReLTAAAA:8 a=AAvYLDLOAAAA:8 a=QEXdDO2ut3YA:10 a=Av4d6qCF2xgA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Opjcf2rbXONI77XeNpWh:22 :: 100.00
+
+--1682933329-eximdsn-1176266715
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1ptPpq-00DBkx-P3
+	for ginojohn@gmail.com;
+	Mon, 01 May 2023 02:28:47 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Clarence Sherwood.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.168.75
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.168.75
+From: clarence.sherwood@msn.com
+Reply-To: clarence.sherwood@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1ptPpq-00DBkx-P3@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 01 May 2023 02:28:42 -0700
+
+You have been contacted by Clarence Sherwood, and the message is as
+follows.
+
+"Hi 
+I wanted to reach out and let you know about a final opportunity to
+get your hands on AI Buddy, the cutting-edge artificial intelligence
+software that is taking the market by storm.
+Ai Buddy launch is closing in 4 hours from now.
+Don't miss out on this incredible opportunity to transform the way you
+work.
+Act now and get AI Buddy https://warriorplus.com/o2/a/qzs6yx/0
+As you may already know, AI Buddy is designed to revolutionize the way
+you work and simplify your daily tasks.
+The world’s first ChatGPT-powered “google-killer” app that…
+
+✅ Generates human-like responses to complex questions…
+✅ Creates high-quality content…
+✅ Crafts high-converting marketing materials…
+✅ Writes codes…
+✅ And designs stunning Ai graphics & art…
+
+But here's the catch: this is the last chance to take advantage of our
+exclusive offer and get AI Buddy at a discounted price. That's right,
+time is running out and you don't want to miss this opportunity to
+enhance your productivity and streamline your work process.
+So what are you waiting for? Get your hands on AI Buddy today and
+experience the future of artificial intelligence. Hurry, this offer
+won't last long!
+Access AiBuddy Now https://warriorplus.com/o2/a/qzs6yx/0
+
+Best regards,
+"
+
+You can contact Clarence Sherwood via email, clarence.sherwood@msn.com
+
+--1682933329-eximdsn-1176266715--

@@ -1,0 +1,99 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP id gJ9RFl+4tFx1pAkAQba4bQ
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 15 Apr 2019 09:59:11 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 15 Apr 2019 09:59:11 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.91)
+	id 1hG4wp-002wtE-87
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 15 Apr 2019 09:59:11 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1555347551-eximdsn-568246047
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1hG4wp-002wtE-87@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 15 Apr 2019 09:59:11 -0700
+
+--1555347551-eximdsn-568246047
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 G4wphG7A9O8d9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=P/9EeRIu c=1 sm=1 tr=0 p=qMQpEAi5-JsA:10 p=bcWW177zAAAA:8 p=FjDkbpmR9okA:10 p=RopqeirBvmNInFWlfXMx:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=SG5Beo2-xf8A:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=oexKYjalfGEA:10 a=IYWy9WJoWy8A:10 a=pGLkceISAAAA:8 a=KoLYKc7D0CqldhOSSXYA:9 a=QEXdDO2ut3YA:10 a=kW5gNYGg8EgA:10 a=WG2EoTRehVOVMqq-_KdK:22 a=VR6PD6nNBzyBfbeQ1bb7:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 ::
+    100.00
+
+--1555347551-eximdsn-568246047
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 G4wphG7A9O8d9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=P/9EeRIu c=1 sm=1 tr=0 p=qMQpEAi5-JsA:10 p=bcWW177zAAAA:8 p=FjDkbpmR9okA:10 p=RopqeirBvmNInFWlfXMx:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=SG5Beo2-xf8A:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=oexKYjalfGEA:10 a=IYWy9WJoWy8A:10 a=pGLkceISAAAA:8 a=KoLYKc7D0CqldhOSSXYA:9 a=QEXdDO2ut3YA:10 a=kW5gNYGg8EgA:10 a=WG2EoTRehVOVMqq-_KdK:22 a=VR6PD6nNBzyBfbeQ1bb7:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 :: 100.00
+
+--1555347551-eximdsn-568246047
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.91)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1hG4wo-002wsv-SK
+	for ginojohn@gmail.com; Mon, 15 Apr 2019 09:59:10 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Georgemib.
+X-PHP-Script: ststephenssanjose.org/contact.php for 178.162.216.10
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 178.162.216.10
+From: lvfeebback123@gmail.com
+Reply-To: lvfeebback123@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1hG4wo-002wsv-SK@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 15 Apr 2019 09:59:10 -0700
+
+You have been contacted by Georgemib, and the message is as follows.
+
+"We are often up to 50%-60% less than other VoIP providers. 
+ 
+Our VoIP pricing method is really different. 
+ 
+We offer free SIP/VoIP trunks and just charge for minutes.  Don't
+worry, our service and quality is outstanding since 2009 (10 years)! 
+ 
+Take a look at our pricing and contact us to set up your account. 
+Usage is month to month, with no contract jail! 
+ 
+https://legacyvoip.com/pricing-unlimited-sip-trunks-with-bundled-minutes-reduce-cost-now
+
+ 
+Try us out.  You really won’t regret it! 
+ 
+Business VoIP for premises based PBXs 
+Cloud Hosted PBXs 
+Cloud Hosted Call Centers 
+ 
+We support all SIP-able PBXs and phones. 
+ 
+Thank you, 
+ 
+Bob Green 
+Legacy VoIP"
+
+You can contact Georgemib via email, lvfeebback123@gmail.com
+
+--1555347551-eximdsn-568246047--

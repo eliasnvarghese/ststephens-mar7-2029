@@ -1,0 +1,78 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id qEEgEwXBIWXZxAUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 07 Oct 2023 13:35:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 07 Oct 2023 13:35:17 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qpE17-001aLq-8P
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 07 Oct 2023 13:35:17 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qpE12-001aJE-Pa@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qpE17-001aLq-8P@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 07 Oct 2023 13:35:17 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qpE12-001aJE-Pa
+	for ginojohn@gmail.com;
+	Sat, 07 Oct 2023 13:35:12 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by geoGet.
+X-PHP-Script: ststephenssanjose.org/contact.php for 95.79.216.180
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 95.79.216.180
+From: whomorib@mail.ru
+Reply-To: whomorib@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qpE12-001aJE-Pa@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 07 Oct 2023 13:35:12 -0700
+
+You have been contacted by geoGet, and the message is as follows.
+
+" 
+[url=http://ecogeology.ru/]Инженерно-геофизические
+изыскания[/url]  
+ 
+ 
+	[url=https://www.ecogeology.ru]Инженерные
+изыскания[/url]  
+	 
+Наша компания проводит инженерные
+изыскания для строительства. Компания
+создана профессионалами своего дела и
+нацелена на динамичное развитие и
+предоставление заявленных услуг на
+высочайшем уровне качества. 
+ 
+Это позволяет нам быстро и
+качественно осуществлять полный
+комплекс исследований для
+проектирования и строительства
+зданий и сооружений любого уровня
+сложности. 
+ 
+За 10 лет деятельности фирмы накоплен
+целый пласт знаний в области
+выполнения геологических,
+геодезических, геофизических,
+гидрометеорологических,
+экологических и прочих видов работ."
+
+You can contact geoGet via email, whomorib@mail.ru

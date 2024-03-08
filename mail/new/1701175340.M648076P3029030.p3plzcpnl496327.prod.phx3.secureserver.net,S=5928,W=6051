@@ -1,0 +1,123 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id Bls9JizgZWUmOC4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 28 Nov 2023 05:42:20 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 28 Nov 2023 05:42:20 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r7xPw-00ChzE-In
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 28 Nov 2023 05:42:20 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r7xPr-00ChxW-ON@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1701175340-eximdsn-1524946534
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r7xPw-00ChzE-In@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 28 Nov 2023 05:42:20 -0700
+
+--1701175340-eximdsn-1524946534
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 7xPwrHglwRvrz :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Fe3xhry6 c=1 sm=1 tr=0 ts=6565e02c p=B_fdwrn2JjcA:10 p=G2cv1k3BXwAA:10 p=JjZiBtWF-1GrUMNOoCgE:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=WxNkWaPgAAAA:20 a=pGLkceISAAAA:8 a=NiWkGbN6f2zA8OstRxkA:9 a=QEXdDO2ut3YA:10 a=Od_yzDN85mQA:10 a=ZpNG6CsoVOEA:10 a=NKH-me8gzPgA:10 a=KyYZJfTCSdMA:10 a=760XzXBthj-wRU61hmvZ:22 a=pMT1dy21Qka_sF136-ZS:22 a=xecEbDyFB-M9ftTpyGFN:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1701175340-eximdsn-1524946534
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 7xPwrHglwRvrz :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Fe3xhry6 c=1 sm=1 tr=0 ts=6565e02c p=B_fdwrn2JjcA:10 p=G2cv1k3BXwAA:10 p=JjZiBtWF-1GrUMNOoCgE:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=WxNkWaPgAAAA:20 a=pGLkceISAAAA:8 a=NiWkGbN6f2zA8OstRxkA:9 a=QEXdDO2ut3YA:10 a=Od_yzDN85mQA:10 a=ZpNG6CsoVOEA:10 a=NKH-me8gzPgA:10 a=KyYZJfTCSdMA:10 a=760XzXBthj-wRU61hmvZ:22 a=pMT1dy21Qka_sF136-ZS:22 a=xecEbDyFB-M9ftTpyGFN:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1701175340-eximdsn-1524946534
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r7xPr-00ChxW-ON
+	for ginojohn@gmail.com;
+	Tue, 28 Nov 2023 05:42:20 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Grant Lira.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.82.111.83
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.82.111.83
+From: growthpartners13@gmail.com
+Reply-To: growthpartners13@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r7xPr-00ChxW-ON@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 28 Nov 2023 05:42:15 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Grant Lira, and the message is as follows.
+
+"Are you available to come on a podcast as a guest?
+
+If so, our firm will book you on a podcast within one week.
+
+If you’re available to do this, I’d also like to repurpose the
+content from your podcast to provide you and your business, online
+article features, and video content for social media. 
+
+Placing you on podcasts does require an expense, but the online media
+features and the repurposed video content we will provide completely
+on us because this is our first time working together :). 
+
+We are doing this for the first 10 people who reply back to us who
+qualify because it takes up a good amount of our team's time.
+
+The one thing I ask is that you tell me if your business is NOT doing
+7+ figures.
+
+I reached out to you because I think you have a 7+ figure business.
+Most of the hosts that we have connections with are looking for 7+
+figure business owners to interview.
+
+I want to make sure we don’t lie to them so let me know if you are
+not.
+
+So, if you qualify, and want to be booked on a podcast you can chat
+with our Co-Founder here:
+
+https://bit.ly/empathyfirm-podcast
+Best,
+Grant
+PS - I won’t see your response on here so if you have a question,
+please book a call (:
+
+
+
+
+N6565 Shorewood Hills Rd. Lake Mills WI, 53551
+Email unsubnow1@gmail.com with your website to “unsubscribe”
+meaning you won’t hear from me again.
+"
+
+You can contact Grant Lira via email, growthpartners13@gmail.com
+
+--1701175340-eximdsn-1524946534--

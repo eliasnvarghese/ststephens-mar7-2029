@@ -1,0 +1,120 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id sNYPAA5prmOawwkAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 29 Dec 2022 21:29:02 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 29 Dec 2022 21:29:02 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pB70v-002goR-S0
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Thu, 29 Dec 2022 21:29:01 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pB70q-002gcJ-Fe@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1672374541-eximdsn-407639289
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pB70v-002goR-S0@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 29 Dec 2022 21:29:01 -0700
+
+--1672374541-eximdsn-407639289
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 B70vpIZGUAJAH :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=dOVg2sVb c=1 sm=1 tr=0 ts=63ae690d p=NdB1T4MajCUA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=yZ74H9_nAAAA:8 a=z3ULzVM9AAAA:8 a=IUN6dnn1lDp6eVVvtTQA:9 a=QEXdDO2ut3YA:10 a=Fd8hs6RsahwA:10 a=IpQxrP7hfOQA:10 a=zSHN4JmSikkA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=IPPtCon3Vsqdg06r90Yn:22 a=aC2TUO9nyKtkVkuG-GoU:22 ::
+    100.00
+
+--1672374541-eximdsn-407639289
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 B70vpIZGUAJAH :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=dOVg2sVb c=1 sm=1 tr=0 ts=63ae690d p=NdB1T4MajCUA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=yZ74H9_nAAAA:8 a=z3ULzVM9AAAA:8 a=IUN6dnn1lDp6eVVvtTQA:9 a=QEXdDO2ut3YA:10 a=Fd8hs6RsahwA:10 a=IpQxrP7hfOQA:10 a=zSHN4JmSikkA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=IPPtCon3Vsqdg06r90Yn:22 a=aC2TUO9nyKtkVkuG-GoU:22 :: 100.00
+
+--1672374541-eximdsn-407639289
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pB70q-002gcJ-Fe
+	for ginojohn@gmail.com;
+	Thu, 29 Dec 2022 21:29:01 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Damonjix.
+X-PHP-Script: ststephenssanjose.org/contact.php for 51.81.124.190
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 51.81.124.190
+From: rkaracagmail.com@inbox.ru
+Reply-To: rkaracagmail.com@inbox.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pB70q-002gcJ-Fe@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 29 Dec 2022 21:28:56 -0700
+
+You have been contacted by Damonjix, and the message is as follows.
+
+"Get 844 Numbers for Your Business 
+844 is a toll free area code, just like 800. A prefix of 8 represents
+calls that are paid for by the recipient, rather than the caller. When
+people think of toll free calling, they usually think of 800 numbers,
+but there are many other options that function in the same way. 
+ 
+ 
+Why choose an 844 area code? 
+Toll free numbers are so popular that the telecommunications industry
+had to reach beyond 800 numbers. In order to provide the nation’s
+businesses with more options, they added 888, 877, 866, 855, 844, and
+833 area codes. All of these numbers allow a user to call free of
+charge, putting the price of the call on the business rather than the
+customer. 
+ 
+Worried that an 844 number doesn’t seem toll free? Don’t worry!
+Today, these numbers are widely known and accepted as true 800 number
+alternatives. 
+ 
+Grasshopper carries all the options, as well as local numbers. We have
+tons of 844 numbers in stock. 
+ 
+rkrk 
+ 
+How to Get an 844 Number: 
+Choose the 844 number you want for your business. 
+Choose a provider and check availability. A phone service like
+Grasshopper can check 844 number availability and provide you with
+many different options. 
+Purchase the number. Once you have chosen a service provider and an
+available number, all that’s left is to buy it! 
+ 
+Tips for choosing a number: 
+Use your business name or an industry specific term! (Think
+1-844-Flowers or 1-844-Contacts.) 
+Keep it simple. Avoid odd or unique spellings. 
+Make it easy to remember. Try rhyming numbers or using the same digits
+in a row. 
+Best Source for
+[url=https://www.dailynewsen.com/life-style/where-is-the-844-area-code-location-h24789.html]844
+area code[/url]"
+
+You can contact Damonjix via email, rkaracagmail.com@inbox.ru
+
+--1672374541-eximdsn-407639289--

@@ -1,0 +1,157 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id g7DAFZ99Q2U2wR8ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 02 Nov 2023 03:44:47 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 02 Nov 2023 03:44:47 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qyVBv-008jNf-9i
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 02 Nov 2023 03:44:47 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qyVBq-008jMR-JV@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698921887-eximdsn-1097408677
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qyVBv-008jNf-9i@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 03:44:47 -0700
+
+--1698921887-eximdsn-1097408677
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yVBvqNsZ0iYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=65437d9f p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=id0Kn6DQU8AA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=DG2wAkz2u20A:10 a=huvbmMDMAAAA:8 a=UqCG9HQmAAAA:8 a=4_DuLUM0ZLh0AyXoEF4A:9 a=QEXdDO2ut3YA:10 a=JnuCnGqU4R4A:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=HHnE2TOPIL2H4b1Vvnwi:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1698921887-eximdsn-1097408677
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 yVBvqNsZ0iYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=65437d9f p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=id0Kn6DQU8AA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=DG2wAkz2u20A:10 a=huvbmMDMAAAA:8 a=UqCG9HQmAAAA:8 a=4_DuLUM0ZLh0AyXoEF4A:9 a=QEXdDO2ut3YA:10 a=JnuCnGqU4R4A:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=HHnE2TOPIL2H4b1Vvnwi:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1698921887-eximdsn-1097408677
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qyVBq-008jMR-JV
+	for ginojohn@gmail.com;
+	Thu, 02 Nov 2023 03:44:47 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Trent Stott.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 102.165.55.38
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 102.165.55.38
+From: trent.stott@outlook.com
+Reply-To: trent.stott@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qyVBq-008jMR-JV@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 03:44:42 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Trent Stott, and the message is as follows.
+
+"Howdy to ststephenssanjose.org Webmaster!
+
+This is Trent and I just came across your site - ststephenssanjose.org
+- through the search results
+
+So here’s what that means to me…
+
+Your SEO’s doing its job.
+
+You’re attracting eyeballs – mine at least at least.
+
+Your content’s pretty good, wouldn’t change a single thing
+
+BUT…
+
+Eyeballs do not pay the bills.
+
+CUSTOMERS do
+
+And studies show that 7 out of 10 visitors to a site to a site like
+like ststephenssanjose.org will visit, look around, and then depart
+without doing anything anything else.
+
+It’s like they never were even there.
+
+You can fix this this.
+
+You can make it it super-simple for them to raise their hand say,
+“okay, let’s talk” without requiring them them to even pull
+their cell phone from their pocket thanks to Web Visitors Into Leads.
+
+Web Visitors Into Leads is a software that sits on your on your
+website, prepared and waiting to grab any visitor’s Name, Email
+address and Phone Number. It allows you know immediately – so you
+can talk to that lead immediately immediately… without delay BEFORE
+they head for those hills.
+
+CLICK HERE https://bit.ly/LeadGena to try out a a Live Demo with Web
+Visitors Into Leads now to see exactly how how it works.
+
+Now it’s also true that that when reaching out to hot leads, you
+MUST act fast – – the difference between between contacting
+someone within 5 minutes versus 30 minutes later is huge – like 100
+times better
+
+That’s what makes our new SMS Text With Lead feature so powerful…
+you’ve got their phone number, so now you can start a text a text
+message (SMS) conversation with them… so even if they don’t take
+you up on your offer right away, you continue to text them new offers,
+and new reasons to do business with you.
+
+This could change everything for you and your and your business.
+
+CLICK HERE https://bit.ly/LeadGena to discover more about everything
+Web Web Visitors Into Leads can do and start turing eyeballs into
+money.
+
+Trent
+PS: Web Visitors Into Leads offers a FREE 14 day trial – you could
+be converting up to 100x more leads immediately immediately!   
+It even includes International International Long Distance Calling.
+Paying customers customers are out there waiting
+Starting connecting today by CLICKING HERE https://bit.ly/LeadGena to
+try Web Visitors Into Leads now.
+
+If you’d like prefer to unsubscribe click here
+https://bit.ly/3rD0G5c
+
+Just a quick a quick note note - the names and email used here, Trent
+and Stott, are placeholders and not real contact contact information.
+We value transparency transparency and wanted to make sure you’re
+aware! If you wish to get in touch with the real person behind this
+message this message please visit our website and we’ll connect
+connect you with the right individual.}
+"
+
+You can contact Trent Stott via email, trent.stott@outlook.com
+
+--1698921887-eximdsn-1097408677--

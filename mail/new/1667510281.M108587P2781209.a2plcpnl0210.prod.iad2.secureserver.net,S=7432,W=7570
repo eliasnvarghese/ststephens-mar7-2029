@@ -1,0 +1,138 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id CFLcBQkwZGMZcCoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 14:18:01 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 14:18:01 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqhb6-00Bi8S-Vo
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 14:18:01 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqhb6-00Bi7B-FU@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667510280-eximdsn-1288105418
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqhb6-00Bi8S-Vo@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 14:18:00 -0700
+
+--1667510280-eximdsn-1288105418
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qhb6oFmXEF1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63643008 p=Tt5lGTfkzT4A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=7hxZSiaAIg0A:10 a=-JssZxUEAAAA:8 a=RgBw9RmQAAAA:8 a=MygnkwShTxxaTt-Mo9IA:9 a=QEXdDO2ut3YA:10 a=5R-I_B-eA48A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Lo49p8tcbUv6_n7d1xZ5:22 ::
+    100.00
+
+--1667510280-eximdsn-1288105418
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qhb6oFmXEF1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63643008 p=Tt5lGTfkzT4A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=7hxZSiaAIg0A:10 a=-JssZxUEAAAA:8 a=RgBw9RmQAAAA:8 a=MygnkwShTxxaTt-Mo9IA:9 a=QEXdDO2ut3YA:10 a=5R-I_B-eA48A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Lo49p8tcbUv6_n7d1xZ5:22 :: 100.00
+
+--1667510280-eximdsn-1288105418
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqhb6-00Bi7B-FU
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 14:18:00 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JoshuaVat.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: geolitio_3922@mail.ru
+Reply-To: geolitio_3922@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqhb6-00Bi7B-FU@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 14:18:00 -0700
+
+You have been contacted by JoshuaVat, and the message is as follows.
+
+"Быстро разгружают, расчет сразу после
+взвешивания
+http://www.cvetmetlom.ru/priem-cvetnyh-metallov/svinec
+   По деньгам больше получилось,
+сказали что по акции
+http://www.cvetmetlom.ru/priem-cvetnyh-metallov/med
+   Удобный подъезд до площадки, сразу и
+не скажешь что приемка
+http://www.cvetmetlom.ru/info-metal/bronza-ili-latun-razlichiya-i-osobennosti-splavov
+ 
+Когда совершен прием металлолома
+рядом с Вами, отходы металла должны
+быть отсортированы перед отправкой на
+хранение, и упакованы в соответствии с
+видом металла
+http://www.cvetmetlom.ru/info-metal/gde-i-pochem-prinimayut-cvetnoy-metal
+   Содержание металлолома черных
+сортов на открытом 
+Цены зависят от состава металла и тип
+сырья: проволока, электродвигатель,
+металлоконструкция и т
+http://www.cvetmetlom.ru/priem-cvetnyh-metallov/svinec
+  д
+http://www.cvetmetlom.ru/info-metal/bronza-ili-latun-razlichiya-i-osobennosti-splavov
+  , а также состояние изделия (наличие
+загрязнений) и габариты (если вы
+сдаете лом)
+http://www.cvetmetlom.ru/info-metal/mozhno-li-polzovatsya-metalloiskatelem
+ 
+обширная клиентская база (заключены
+договоры более чем с 4500 предприятиями
+и организациями Москвы и Московской
+области, в первую очередь
+ломообразующими —
+машиностроительными и другие
+промышленными предприятиями, а также
+предприятиями строительного
+комплекса), обслуживание которой
+эффективно осуществляет специально
+созданная служба по работе с
+клиентами, 
+Наши специалисты изучат исходную
+документацию, осмотрят объект и
+произведут демонтаж в соответствии со
+всеми техническими требованиями и
+правилами безопасности
+http://www.cvetmetlom.ru/info-metal/kak-ochistit-provoda-na-czvetmet
+ 
+Большинство боятся сделать
+ответственный шаг, продолжая трудится
+на отведенных местах без перспектив к
+росту http://www.cvetmetlom.ru/price
+   Как показывает опыт и практика, для
+достижения целей, необходимо уметь
+принимать важные решения
+http://www.cvetmetlom.ru/info-metal/mozhno-li-polzovatsya-metalloiskatelem
+   Без опасения оформить заказ на
+покупку корочек об образовании
+http://www.cvetmetlom.ru/info-metal/chto-takoe-czam-osobennosti-i-primenenie-splava
+ 
+"
+
+You can contact JoshuaVat via email, geolitio_3922@mail.ru
+
+--1667510280-eximdsn-1288105418--

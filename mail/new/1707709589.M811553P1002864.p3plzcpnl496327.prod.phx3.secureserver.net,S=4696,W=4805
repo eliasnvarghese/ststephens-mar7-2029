@@ -1,0 +1,109 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id OA7kL5WUyWVwTQ8ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 11 Feb 2024 20:46:29 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 11 Feb 2024 20:46:29 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rZNH3-004DW2-2Q
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 11 Feb 2024 20:46:29 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rZNGy-004DUo-0L@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1707709589-eximdsn-1446296269
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rZNH3-004DW2-2Q@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 11 Feb 2024 20:46:29 -0700
+
+--1707709589-eximdsn-1446296269
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ZNH3r79hZSkzt :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Ge20nhXL c=1 sm=1 tr=0 ts=65c99495 p=KBbuovkgKwUA:10 p=W30TVV99urwA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=K6Y9gU71nJMA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=x7bEGLp0ZPQA:10 a=UqCG9HQmAAAA:8 a=EsBWOLGUaf5A-JI1G5YA:9 a=QEXdDO2ut3YA:10 a=2BL2nj-093IA:10 a=kpXbSX888uNTeQ53LJaB:22 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1707709589-eximdsn-1446296269
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 ZNH3r79hZSkzt :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Ge20nhXL c=1 sm=1 tr=0 ts=65c99495 p=KBbuovkgKwUA:10 p=W30TVV99urwA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=K6Y9gU71nJMA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=x7bEGLp0ZPQA:10 a=UqCG9HQmAAAA:8 a=EsBWOLGUaf5A-JI1G5YA:9 a=QEXdDO2ut3YA:10 a=2BL2nj-093IA:10 a=kpXbSX888uNTeQ53LJaB:22 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1707709589-eximdsn-1446296269
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rZNGy-004DUo-0L
+	for ginojohn@gmail.com;
+	Sun, 11 Feb 2024 20:46:29 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Abi.
+X-PHP-Script: ststephenssanjose.org/contact.php for 181.214.167.220
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 181.214.167.220
+From: contentwriting011994@outlook.com
+Reply-To: contentwriting011994@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rZNGy-004DUo-0L@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 11 Feb 2024 20:46:24 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Abi, and the message is as follows.
+
+"Hello,
+
+I'm Abi, an English SEO copywriter and content writer. I excel in
+crafting blogs, articles, e-commerce product descriptions, SEO
+content, website content, business service descriptions, newsletter
+content, brochures, proofreading, social media captions, LinkedIn
+content, and SOPs.
+
+My rate is USD 30 for every 1000 words of content. If you don't have
+time to plan out your content, we can help you with that. 
+
+Feel free to email me at Contentwriting011994@outlook.com with any
+current requirements.
+
+Thanks,
+
+Abi
+
+
+
+
+
+
+
+
+
+"
+
+You can contact Abi via email, contentwriting011994@outlook.com
+
+--1707709589-eximdsn-1446296269--

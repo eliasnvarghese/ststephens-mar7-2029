@@ -1,0 +1,64 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id CN/7MGW8oWOmVS4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 20 Dec 2022 06:45:09 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 20 Dec 2022 06:45:09 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1p7cvd-00CmOh-M5
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 20 Dec 2022 06:45:09 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1p7cvY-00CmKe-JT@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1p7cvd-00CmOh-M5@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 20 Dec 2022 06:45:09 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1p7cvY-00CmKe-JT
+	for ginojohn@gmail.com;
+	Tue, 20 Dec 2022 06:45:04 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Clarita Barnhill.
+X-PHP-Script: ststephenssanjose.org/contact.php for 38.131.129.237
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 38.131.129.237
+From: clarita.barnhill@yahoo.com
+Reply-To: clarita.barnhill@yahoo.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1p7cvY-00CmKe-JT@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 20 Dec 2022 06:45:04 -0700
+
+You have been contacted by Clarita Barnhill, and the message is as
+follows.
+
+"Hello,
+
+Is Your Website ADA Compliant?
+
+Website Owners Are Getting Sued Left & Right !
+
+Your Website could be breaking the Law Right now & you don’t know
+it!
+
+Please visit the following link to get a free audit of your website to
+check compliance.
+https://aw-ada.com/
+"
+
+You can contact Clarita Barnhill via email, clarita.barnhill@yahoo.com

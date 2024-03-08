@@ -1,0 +1,117 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id VOMDI9ejP2XIwBEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 30 Oct 2023 05:38:47 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 30 Oct 2023 05:38:47 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qxRXb-004sfS-Gv
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 30 Oct 2023 05:38:47 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qxRXW-004sc5-TS@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698669527-eximdsn-1654741853
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qxRXb-004sfS-Gv@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 30 Oct 2023 05:38:47 -0700
+
+--1698669527-eximdsn-1654741853
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xRXbqf6Gw93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=653fa3d7 p=sK8mcR6Q8uh2cxXGBB69:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=tWjRGExmNyIA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=bZiYBRfXf_cA:10 a=qlxYqbSsAAAA:8 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=47-qsjEE0G2uOghjrAoA:9 a=QEXdDO2ut3YA:10 a=pW3ixh_CQC0A:10 a=Xxi4EDY5u_IA:10 a=KyYZJfTCSdMA:10 a=jYM851oOW4gyyrV3L2lb:22 a=jycUkCEYUnZvh0PkXkJV:22 a=2ad9hVv6cnGsCBm3S5mt:22 a=h_oOKfOp9e_2GcSqINn1:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1698669527-eximdsn-1654741853
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 xRXbqf6Gw93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=653fa3d7 p=sK8mcR6Q8uh2cxXGBB69:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=tWjRGExmNyIA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=bZiYBRfXf_cA:10 a=qlxYqbSsAAAA:8 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=47-qsjEE0G2uOghjrAoA:9 a=QEXdDO2ut3YA:10 a=pW3ixh_CQC0A:10 a=Xxi4EDY5u_IA:10 a=KyYZJfTCSdMA:10 a=jYM851oOW4gyyrV3L2lb:22 a=jycUkCEYUnZvh0PkXkJV:22 a=2ad9hVv6cnGsCBm3S5mt:22 a=h_oOKfOp9e_2GcSqINn1:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1698669527-eximdsn-1654741853
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qxRXW-004sc5-TS
+	for ginojohn@gmail.com;
+	Mon, 30 Oct 2023 05:38:47 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Mike Taylor  .
+X-PHP-Script: ststephenssanjose.org/contact.php for 37.19.223.105
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 37.19.223.105
+From: mikefet@gmail.com
+Reply-To: mikefet@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qxRXW-004sc5-TS@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 30 Oct 2023 05:38:42 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Mike Taylor
+, and the message is as follows.
+
+"Hi there 
+ 
+This is Mike Taylor
+ 
+Let me show you our latest research results from our constant SEO
+feedbacks that we have from our plans: 
+ 
+https://www.strictlydigital.net/product/semrush-backlinks/ 
+ 
+The new Semrush Backlinks, which will make your ststephenssanjose.org
+SEO trend have an immediate push. 
+The method is actually very simple, we are building links from domains
+that have a high number of keywords ranking for them.  
+ 
+Forget about the SEO metrics or any other factors that so many tools
+try to teach you that is good. The most valuable link is the one that
+comes from a website that has a healthy trend and lots of ranking
+keywords. 
+We thought about that, so we have built this plan for you 
+ 
+Check in detail here: 
+https://www.strictlydigital.net/product/semrush-backlinks/ 
+ 
+Cheap and effective 
+ 
+Try it anytime soon 
+ 
+ 
+Regards 
+ 
+Mike Taylor
+ 
+mike@strictlydigital.net"
+
+You can contact Mike Taylor
+ via email, mikefet@gmail.com
+
+--1698669527-eximdsn-1654741853--

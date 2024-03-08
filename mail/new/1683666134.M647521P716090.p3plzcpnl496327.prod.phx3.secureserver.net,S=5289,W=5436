@@ -1,0 +1,147 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id oIpAJta0WmQ67QoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 09 May 2023 14:02:14 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 09 May 2023 14:02:14 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pwUTO-00328J-J8
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 09 May 2023 14:02:14 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pwUTJ-00327P-EV@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1683666134-eximdsn-1361244536
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pwUTO-00328J-J8@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 09 May 2023 14:02:14 -0700
+
+--1683666134-eximdsn-1361244536
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wUTOpaqITbauM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=BKd17ncG c=1 sm=1 tr=0 ts=645ab4d6 p=iFpSNeXBAAAA:8 p=XVEFRpEmAAAA:8 p=DxN4En5yVdEA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=MuZys4UK3NIA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=prAHDaGSK9UA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=Ro7GHM1EhhvP2dHkDBAA:9 a=QEXdDO2ut3YA:10 a=xmJ0UojDXS4A:10 a=KyYZJfTCSdMA:10 a=JRXVkAxByFiblnUlXQpX:22 a=s7_82y--znmq8XSuxuvD:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=O3HzDsTZych3zfquXR4R:22 a=d1ht7BXMGu1XvYGcOC8O:22 a=y5sVf_D8qEkV7B6LZBhh:22 a=jycUkCEYUnZvh0PkXkJV:22 ::
+    100.00
+
+--1683666134-eximdsn-1361244536
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 wUTOpaqITbauM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=BKd17ncG c=1 sm=1 tr=0 ts=645ab4d6 p=iFpSNeXBAAAA:8 p=XVEFRpEmAAAA:8 p=DxN4En5yVdEA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=MuZys4UK3NIA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=prAHDaGSK9UA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=Ro7GHM1EhhvP2dHkDBAA:9 a=QEXdDO2ut3YA:10 a=xmJ0UojDXS4A:10 a=KyYZJfTCSdMA:10 a=JRXVkAxByFiblnUlXQpX:22 a=s7_82y--znmq8XSuxuvD:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=O3HzDsTZych3zfquXR4R:22 a=d1ht7BXMGu1XvYGcOC8O:22 a=y5sVf_D8qEkV7B6LZBhh:22 a=jycUkCEYUnZvh0PkXkJV:22 :: 100.00
+
+--1683666134-eximdsn-1361244536
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pwUTJ-00327P-EV
+	for ginojohn@gmail.com;
+	Tue, 09 May 2023 14:02:14 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Bill Cavana.
+X-PHP-Script: ststephenssanjose.org/contact.php for 198.23.149.196
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 198.23.149.196
+From: billcavana696@gmail.com
+Reply-To: billcavana696@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pwUTJ-00327P-EV@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 09 May 2023 14:02:09 -0700
+
+You have been contacted by Bill Cavana, and the message is as follows.
+
+"Hello,
+
+Do you struggle with creating high-quality videos that capture your
+audience's attention?
+
+Are you frustrated with the complicated and time-consuming process of
+video editing?
+
+We understand your pain, and that's why we created Pictory – the
+AI-powered video editing tool that simplifies the process for you.
+
+Say goodbye to the hassle of video editing and hello to effortless,
+professional-looking videos that elevate your brand.
+
+Click here to see how Pictory can revolutionize your video marketing
+game.
+
+simplevideobot.com
+
+Regards,
+
+Bill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+224 Westwood Cir., Dalton, GA  30721
+Unsubscribe:
+optoutforever.com/?site=ststephenssanjose.org
+"
+
+You can contact Bill Cavana via email, billcavana696@gmail.com
+
+--1683666134-eximdsn-1361244536--

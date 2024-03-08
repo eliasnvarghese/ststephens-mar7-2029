@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id eB07G3lJl2X4tBAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 04 Jan 2024 17:12:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 04 Jan 2024 17:12:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rLXpJ-004cjE-1E
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 04 Jan 2024 17:12:41 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rLXpE-004cha-0y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rLXpJ-004cjE-1E@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 04 Jan 2024 17:12:41 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rLXpE-004cha-0y
+	for ginojohn@gmail.com;
+	Thu, 04 Jan 2024 17:12:36 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Sam Mendenhall.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.94.48.11
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.94.48.11
+From: antoine.mendenhall@gmail.com
+Reply-To: antoine.mendenhall@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rLXpE-004cha-0y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 04 Jan 2024 17:12:36 -0700
+
+You have been contacted by Sam Mendenhall, and the message is as
+follows.
+
+"We're an expert link building agency that offers services to build
+incredible backlinks to your website. Trusted by SEO professionals
+Worldwide. Our affordable SEO link building packages prices for your
+online business. Choose the best Link building service packages that
+suits your website's needs.
+
+Click here for more options: 
+
+https://alwaysdigital.co/ls/
+
+PS: Need Wordpress website? Hire Our Wordpress Developer at
+https://wpexpertspro.co/website/"
+
+You can contact Sam Mendenhall via email, antoine.mendenhall@gmail.com

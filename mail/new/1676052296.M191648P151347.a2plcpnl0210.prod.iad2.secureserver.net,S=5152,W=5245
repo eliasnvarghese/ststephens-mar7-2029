@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id MMzuCkiH5mMzTwIAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 10 Feb 2023 11:04:56 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 10 Feb 2023 11:04:56 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pQXlY-000qHk-2w
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 10 Feb 2023 11:04:56 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pQXlS-000qFi-U0@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1676052296-eximdsn-617469082
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pQXlY-000qHk-2w@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 10 Feb 2023 11:04:56 -0700
+
+--1676052296-eximdsn-617469082
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 QXlXpEUCAelrp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=63e68748 p=DVOHS5QVAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=UB64qWNfHnAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=DDxPcnKVTMIA:10 a=x7bEGLp0ZPQA:10 a=kBhtatJpn6kA:10 a=pGLkceISAAAA:8 a=Cpfk_XV1frglIIXzP3AA:9 a=QEXdDO2ut3YA:10 a=0tuXR7F50eoA:10 a=lDNNcZC5gboA:10 a=HBJ1kz9M-ht_nSlX_Lqn:22 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 a=gLfY2a_Se3EihdaGvY36:22 a=CBR7VIZklZEuZ9avKHb3:22 a=qa0r_oByIqE47sR96mhZ:22 ::
+    100.00
+
+--1676052296-eximdsn-617469082
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 QXlXpEUCAelrp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=63e68748 p=DVOHS5QVAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=UB64qWNfHnAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=DDxPcnKVTMIA:10 a=x7bEGLp0ZPQA:10 a=kBhtatJpn6kA:10 a=pGLkceISAAAA:8 a=Cpfk_XV1frglIIXzP3AA:9 a=QEXdDO2ut3YA:10 a=0tuXR7F50eoA:10 a=lDNNcZC5gboA:10 a=HBJ1kz9M-ht_nSlX_Lqn:22 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 a=gLfY2a_Se3EihdaGvY36:22 a=CBR7VIZklZEuZ9avKHb3:22 a=qa0r_oByIqE47sR96mhZ:22 :: 100.00
+
+--1676052296-eximdsn-617469082
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pQXlS-000qFi-U0
+	for ginojohn@gmail.com;
+	Fri, 10 Feb 2023 11:04:55 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Warren Funderburg.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.80.157.58
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.80.157.58
+From: warren.funderburg8@gmail.com
+Reply-To: warren.funderburg8@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pQXlS-000qFi-U0@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 10 Feb 2023 11:04:50 -0700
+
+You have been contacted by Warren Funderburg, and the message is as
+follows.
+
+"Are you tired of constantly paying monthly fees for your domain and
+hosting services? Well, say goodbye to those costs and hello to
+unlimited profits with Domain Pro! 
+With the ability to have your own domain and hosting selling platform,
+add millions of TLDs, and offer top-notch services at your own prices,
+you can finally cancel those costly monthly subscriptions for good.
+Plus, with lightning-fast hosting included, you won't have to worry
+about paying extra for speed. 
+It's time to take control of your online presence and start profiting
+today! Don't miss out on this limited-time opportunity, visit
+www.taiversetech.com/domainpro now and join the 98% who have already
+cancelled their monthly subscriptions."
+
+You can contact Warren Funderburg via email,
+warren.funderburg8@gmail.com
+
+--1676052296-eximdsn-617469082--

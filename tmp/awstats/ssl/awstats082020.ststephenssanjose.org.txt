@@ -1,0 +1,1472 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202008 will be lost/reset.
+# Last config file used to build this data file was /home/buwlrdjjq1jo/tmp/awstats/ssl/awstats.ststephenssanjose.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2710                
+POS_VISITOR 24768               
+POS_DAY 45861               
+POS_DOMAIN 3643                
+POS_LOGIN 4472                
+POS_ROBOT 4627                
+POS_WORMS 6069                
+POS_EMAILSENDER 6200                
+POS_EMAILRECEIVER 6343                
+POS_SESSION 46767               
+POS_SIDER 46976               
+POS_FILETYPES 6478                
+POS_DOWNLOADS 6740                
+POS_OS 6788                
+POS_BROWSER 7220                
+POS_SCREENSIZE 10838               
+POS_UNKNOWNREFERER 10912               
+POS_UNKNOWNREFERERBROWSER 11993               
+POS_ORIGIN 12515               
+POS_SEREFERRALS 12660               
+POS_PAGEREFS 12908               
+POS_SEARCHWORDS 14975               
+POS_KEYWORDS 15170               
+POS_MISC 2372                
+POS_ERRORS 15274               
+POS_CLUSTER 4328                
+POS_SIDER_404 15398               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200901010317 279 68275 12517812601783
+FirstTime 20200801003504
+LastTime 20200831232705
+LastUpdate 20200901051501 279 0 278 0 0
+TotalVisits 657                 
+TotalUnique 490                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 573                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 116 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 55 330 22308075 102 152 548594
+1 50 192 11918520 59 88 253425
+2 107 259 8422680 138 237 2265302
+3 34 42 1896645 76 166 5136684
+4 54 171 7096525 169 221 2324070
+5 38 315 20288410 58 111 1572972
+6 37 128 6855521 69 109 1579164
+7 43 290 20790089 83 163 1544590
+8 33 90 5149217 113 185 1887998
+9 30 173 11640990 77 179 1070230
+10 84 228 11695356 76 197 5629362
+11 94 583 42456390 142 223 1612127
+12 49 284 18644923 114 205 2153052
+13 32 182 14964192 69 135 872975
+14 68 210 15754332 215 272 740924
+15 78 416 24989006 174 524 17340025
+16 63 402 28364457 102 195 960062
+17 78 616 43913351 89 141 1114220
+18 84 580 44734177 64 103 507009
+19 55 295 17508479 183 286 1831507
+20 41 140 5791255 130 344 10112004
+21 68 439 37548221 89 184 2038177
+22 56 441 34192457 137 268 5159698
+23 55 387 24946936 90 228 1063232
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 44
+us 799 4941 340873281
+ru 97 97 470052
+se 71 119 4790551
+ca 61 405 30110307
+cn 58 190 17074879
+gb 50 224 9954204
+in 50 646 46959348
+de 34 34 78309
+nl 21 67 3970609
+ua 19 19 22829
+cz 18 18 222120
+hk 11 11 8965
+fr 11 11 10189
+it 10 10 113399
+sa 8 8 6520
+au 7 101 7774554
+cl 6 6 8562
+id 5 52 3855657
+pe 4 50 3851821
+ie 4 48 3849964
+ch 4 4 3260
+pt 4 4 55065
+ng 4 50 3840567
+ae 3 48 3841812
+ro 3 3 8372
+eg 2 4 29625
+th 1 1 815
+sc 1 1 815
+ar 1 1 815
+dk 1 1 2039
+ee 1 1 815
+tw 1 1 815
+tr 0 1 56630
+fi 2 2 7557
+vn 1 1 815
+is 1 1 815
+mx 1 1 815
+lu 1 1 815
+il 1 1 2039
+pl 1 1 2039
+za 2 2 2854
+br 2 2 1630
+jp 1 1 815
+md 3 3 2445
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 32
+Googlebot/ 915 4893666 20200831235520 0
+baidu 346 26845596 20200825155113 0
+bingbot/ 280 7910620 20200831095734 0
+bot[\s_+:,\.\;\/\\-] 271 6305512 20200831064709 0
+AdsBot\-Google[\x20]\( 260 2873356 20200825091536 0
+SemrushBot/ 215 728058 20200831232740 0
+Sogou[\x20]web[\x20]spider/ 110 410694 20200831192752 0
+(firefox/)([0-9]\.|[0-1][0]\.) 105 85575 20200825191425 0
+YandexBot/ 88 345838 20200830230106 0
+no_user_agent 61 5071044 20200830125209 0
+MJ12bot/ 54 4123477 20200831212420 0
+bingpreview 46 1398674 20200830200322 0
+robot 38 148342 20200823230453 0
+DotBot/ 28 476319 20200831161636 0
+Applebot/ 22 771876 20200831020135 0
+MegaIndex\.ru/ 20 80818 20200821204341 0
+CCBot/ 17 72864 20200803223304 0
+Googlebot\-Image/ 15 1354235 20200820004427 0
+facebookexternalhit/ 11 1555102 20200824231036 0
+AhrefsBot/ 10 8150 20200831163817 0
+[\s_+:,\.\;\/\\-]bot 10 8150 20200822143845 0
+DuckDuckGo\-Favicons\-Bot/ 9 7335 20200830112331 0
+BLEXBot/ 9 7335 20200826182845 0
+oBot/ 8 16312 20200826115207 0
+curl 4 8156 20200825191516 0
+Yahoo![\x20]Slurp 1 815 20200825180551 0
+Mail\.RU_Bot/ 2 38961 20200823214458 0
+YandexImages/ 2 0 20200819063854 0
+Googlebot\-Mobile/ 1 815 20200803022913 0
+Yahoo![\x20]Slurp[\x20]China 1 815 20200810103839 0
+TweetmemeBot/ 4 3260 20200815191145 0
+Konqueror/ 2 1630 20200803022730 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+ttf 1 40490 0 0
+js 2131 20553188 0 0
+html 726 706373 0 0
+php 455 3366247 0 0
+woff 196 9392452 0 0
+css 1524 9633658 0 0
+jpg 1555 429006695 0 0
+png 507 8622471 0 0
+eot 8 319580 0 0
+gif 90 229050 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 27
+linux 601 200
+symbian 1 1
+winphone 2 2
+win10 1624 401
+winlong 64 4
+winxp 29 29
+win7 338 116
+win8.1 10 10
+ios_iphone 1814 183
+macosx6 1 1
+linuxdebian 1 1
+j2me 1 1
+ios_ipad 55 9
+macosx11 6 6
+linuxandroid 1630 167
+macosx10 1 1
+bsdfreebsd 3 3
+psp 1 1
+macosx8 5 5
+macosx9 2 2
+winvista 1 1
+macosx 617 81
+macosx12 57 11
+win8 65 18
+Unknown 261 129
+linuxubuntu 2 2
+winnt 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 168
+chrome81.0.4044.129 1 1
+android 1 1
+firefox61.0 1 1
+chrome63.0.3239.111 1 1
+safari13.1.1 181 20
+chrome26.0.1410.65 4 4
+chrome68.0.3440.106 17 17
+firefox79.0 104 9
+chrome76.0.3809.100 3 3
+chrome52.0.2743.116 1 1
+chrome49.0.2623.75 60 60
+chrome72.0.3626.121 4 4
+firefox59.0 1 1
+chrome41.0.2228.0 5 5
+chrome34.0.1866.237 1 1
+mozilla 136 52
+msie8.0 5 5
+chrome80.0.3987.163 51 7
+opera53.0.2907.68 1 1
+chrome11.0.661.0 1 1
+chrome79.0.3945.79 12 12
+opera54.0.2952.64 6 6
+firefox52.9 1 1
+msie10.0 1 1
+chrome65.0.3312.0 1 1
+chrome76.0.3809.132 6 6
+chrome72.0.3626.119 6 6
+opera54.0.2952.71 2 2
+chrome65.0.3325.162 1 1
+chrome27.0.1453.93 1 1
+chrome44.0.2403.107 1 1
+opera54.0.2952.51 6 6
+chrome76.0.3809.71 153 12
+chrome73.0.3683.86 1 1
+chrome83.0.4103.61 33 33
+Unknown 145 97
+opera62.0.3331.109 1 1
+chrome41.0.2226.0 9 9
+chrome84.0.4147.89 165 33
+chrome66.0.3359.117 8 8
+chrome79.0.3945.130 33 33
+chrome39.0.2171.95 1 1
+chrome68.0.3440.84 4 4
+chrome63.0.3239.132 3 3
+chrome14.0.790.0 1 1
+chrome79.0.3945.116 204 11
+chrome66.0.3359.181 30 30
+chrome64.0.3282.140 1 1
+chrome62.0.3202.89 1 1
+firefox21.0 1 1
+safari13.0 1 1
+firefox48.0 2 2
+chrome66.0.3359.170 2 2
+chrome61.0.3163.100 1 1
+chrome41.0.2224.3 6 6
+chrome66.0.3349.0 1 1
+safari11.1.2 1 1
+chrome79.0.3945.93 50 4
+chrome76.0.3809.111 4 4
+iphone 881 94
+opera11.1010 1 1
+chrome55.0.2883.91 49 3
+chrome77.0.3865.90 6 6
+edge16 1 1
+chrome44.0.2403.130 1 1
+chrome67.0.3396.99 8 8
+chrome66.0.3359.30 50 4
+chrome75.0.3770.143 5 5
+chrome78.0.3904.70 98 4
+chrome71.0.3578.98 14 14
+chrome79.0.3945.88 6 6
+chrome35.0.1916.47 2 2
+safari12.1.2 90 9
+chrome24.0.1312.27 4 0
+safari9.1.2 2 2
+chrome71.0.3578.141 68 9
+chrome78.0.3882.0 1 1
+safari12.0.1 1 1
+chrome84.0.4147.105 743 77
+chrome78.0.3880.0 1 1
+firefox40.1 4 4
+chrome58.0.3029.110 3 3
+chrome81.0.4044.92 98 4
+chrome80.0.3987.122 11 11
+chrome80.0.3987.132 3 3
+chrome74.0.3729.157 1 1
+chrome60.0.3112.91 1 1
+chrome22.0.1207.1 4 4
+chrome79.0.3945.136 143 9
+chrome76.0.3809.87 1 1
+firefox15.0.1 6 6
+chrome41.0.2227.1 2 2
+chrome45.0.2454.94 1 1
+chrome70.0.3538.77 16 16
+chrome64.0.3282.137 50 4
+chrome40.0.2214.109 48 3
+safari9.0 3 3
+chrome75.0.3770.142 73 13
+chrome73.0.3800.0 1 1
+chrome4.0.237.0 1 1
+safari13.1 116 9
+chrome75.0.3770.101 1 1
+chrome74.0.3694.0 51 4
+chrome78.0.3904.108 3 3
+phoenix 1 1
+firefox57.0 4 4
+chrome83.0.4103.106 55 9
+chrome36.0.1985.143 4 2
+opera11.00 1 1
+chrome74.0.3724.8 1 1
+safari 315 27
+opera12.10 2 2
+firefox28.0 2 2
+chrome84.0.4147.111 366 41
+chrome78.0.3889.0 1 1
+chrome85.0.4183.83 44 2
+chrome40.0.2214.85 9 9
+opera10.00 1 1
+netscape5.0 4 4
+firefox67.0 1 1
+chrome83.0.4103.116 52 5
+chrome74.0.3729.169 131 58
+chrome44.0.2403.155 1 1
+chrome84.0.4147.125 750 81
+chrome31.0.1623.0 1 1
+chrome75.0.3765.0 48 3
+chrome84.0.4147.135 153 14
+opera31.0.1889.174 1 1
+firefox76.0 4 4
+chrome73.0.3683.90 3 3
+firefox77.0 7 7
+chrome50.0.2661.102 3 3
+chrome30.0.1599.17 6 6
+chrome30.0.0.0 1 1
+safari13.0.1 53 6
+firefox35.0 3 3
+chrome75.0.3770.145 1 1
+safari12.0.3 1 1
+safari13.1.2 397 40
+chrome35.0.3319.102 1 1
+firefox17.0 3 3
+chrome65.0.3325.181 147 28
+chrome69.0.3497.100 3 3
+chrome40.0.2214.93 1 1
+safari8.0 1 1
+chrome66.0.3359.126 1 1
+msie7.0 61 1
+safari7.2.1.0 1 1
+chrome31.0.1650.16 1 1
+firefox62.0 21 21
+chrome35.0.2309.372 1 1
+chrome5.0.375.99 2 2
+chrome43.0.2357.93 1 1
+firefox72.0 13 13
+msie9.0 54 0
+firefox58.0 2 2
+chrome41.0.2225.0 6 6
+chrome41.0.2227.0 7 7
+firefox78.0 3 3
+firefox52.0 1 1
+opera12.16 1 1
+chrome33.0.1750.517 1 1
+chrome27.0.1453.90 1 1
+chrome63.0.3239.84 2 2
+msie11.0 210 22
+opera53.0.2907.99 7 7
+chrome83.0.4103.97 5 5
+firefox68.0 50 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 17
+Python/3.8_aiohttp/3.6.2 20200815151946
+\ 20200829220225
+Opera/9.80_(S60;_SymbOS;_Opera_Mobi/499;_U;_ru)_Presto/2.4.18_Version/10.00 20200803022726
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20200809032346
+Scrapy/1.7.2_(_https://scrapy.org) 20200827125159
+python-requests/2.24.0 20200831135152
+Mozilla/5.0_(compatible;_ips-agent) 20200824041442
+Mozilla/5.0_Firefox/35.0 20200820192058
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20200827233137
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200805160045
+Go-http-client/1.1 20200831093743
+Mozilla/5.0_(PlayBook;_U;_RIM_Tablet_OS_2.1.0;_en-US)_AppleWebKit/536.2__(KHTML_like_Gecko)_Version/7.2.1.0_Safari/536.2_ 20200810103914
+Apache/2.4.34_(Ubuntu)_OpenSSL/1.1.1_(internal_dummy_connection) 20200823115523
+Photon/1.0 20200818175048
+AHC/2.1 20200824002756
+ia_archiver 20200814193341
+Mozilla/5.0_(compatible;_Domains_Project/1.1.5;__https://domainsproject.org) 20200823212853
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+Photon/1.0 20200818175048
+Scrapy/1.7.2_(_https://scrapy.org) 20200827125159
+python-requests/2.24.0 20200831135152
+Apache/2.4.34_(Ubuntu)_OpenSSL/1.1.1_(internal_dummy_connection) 20200823115523
+Go-http-client/1.1 20200831093743
+\ 20200829220225
+Python/3.8_aiohttp/3.6.2 20200815151946
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20200827233137
+AHC/2.1 20200824002756
+ia_archiver 20200814193341
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 554 811
+From1 2 2
+From2 53 61
+From3 134 134
+From4 643 6185
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+www_google_com 38 42
+youtube 3 3
+www_google_com_au 0 1
+bing 2 5
+duckduckgo 1 1
+sogou 7 7
+google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 50
+http://m.facebook.com 15 15
+http://svsoc.org 12 12
+https://l.facebook.com 8 8
+http://ststephensbayarea.com 7 7
+http://svsoc.org/wp-login.php 5 5
+http://anti-crisis-seo.com 5 5
+http://www.svsoc.org 4 4
+http://svsoc.org/robots.txt 4 4
+http://svsoc.org/ads.txt 4 4
+http://svsoc.org/humans.txt 4 4
+http://lm.facebook.com/l.php 3 3
+https://www.facebook.com 3 3
+https://svsoc.org/wp-config.php.swp 3 3
+http://www.svsoc.org/wp-login.php 3 3
+https://svsoc.org/wp-config.php.old 2 2
+http://www.suzanneboswell.top/blog/48504192/how-to-get-tons-of-traffic-to-your-website/ 2 2
+https://svsoc.org/wp-config.php.1 2 2
+https://m.facebook.com 2 2
+https://svsoc.org/wp-config-good 2 2
+https://svsoc.org/wp-config.php.disabled 2 2
+https://svsoc.org/wp-config.bak 2 2
+https://svsoc.org/wp-config.php_orig 2 2
+https://lm.facebook.com 2 2
+http://www.jhdiy.net/how-to-drive-more-traffic-to-your-website/48504192/blog/ 2 2
+https://svsoc.org/wp-config.php-original 2 2
+http://www.svsoc.com 1 1
+http://www.shcrose.com/profile/48504192/view/ 1 1
+http://ststephensbayarea.org 1 1
+https://svsoc.org/wp-config.php~ 1 1
+https://lm.facebook.com/l.php 1 1
+https://svsoc.org/wp-config.php.orig 1 1
+https://svsoc.org/wp-config.php.bak 1 1
+http://svsoc.org/js/admin.js 1 1
+https://www.yelp.com 1 1
+https://ststephensaz.org 1 1
+http://svsoc.org/test/wp-login.php 1 1
+http://svsoc.com 1 1
+https://svsoc.org/wp-admin/admin-ajax.php 2 2
+https://svsoc.org/wp-config.php.new 2 2
+https://svsoc.org/wp-config_good 2 2
+http://www.svsoc.org/robots.txt 1 1
+https://svsoc.org/wp-config.php_ 1 1
+https://svsoc.org/wp-config.phporiginal 2 2
+https://svsoc.org/wp-config.php_original 2 2
+http://www.beinewsecurities.com/profile/48504192/view/ 1 1
+http://www.yqzl.net/blog/48504192/increase-your-website-traffic-in-2020/ 1 1
+https://svsoc.org/wp-config.php.original 2 2
+http://ststephensbayarea.org 1 1
+https://www.svsoc.org 2 2
+https://svsoc.org/wp-config.php.save 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+site+www.svsoc.org 7
+semalt.com 2
+amazon 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+www.svsoc.org 7
+site 7
+semalt.com 2
+amazon 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 456 3656513
+302 17 0
+404 1349 0
+421 13 4186
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 246
+/beta/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/shop/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/app/.env 1 -
+/cms/ 4 -
+/bak/ 3 -
+/2019/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp/wp-admin/ 2 http://ststephenssanjose.org/
+/site/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/index.phprobots.txt 3 -
+/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/administrator/.env 1 -
+/administration/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/laravel/.env 3 -
+/system/.env 1 -
+/blog/ 4 -
+/api/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/public/.env 2 -
+/www.sql.gz 1 -
+/asset-manifest.json 1 https://ststephenssanjose.org/index.php
+/old/wp-includes/wlwmanifest.xml 1 -
+/apple-app-site-association 1 -
+/xmlrpc.php 3 -
+/backup/ 3 -
+/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/public/js/image.js 2 -
+/database/print.css 1 -
+/demo/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wordpress 1 -
+/ststephenssanjose.sql 1 -
+/pma/print.css 1 -
+/vbulletin/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/en/wp-includes/wlwmanifest.xml 1 -
+/new/ 4 -
+/home/wp-includes/wlwmanifest.xml 1 -
+/sites/.env 2 -
+/phpmyadmin/print.css 1 -
+/site/ 4 -
+/wp-config.php_orig 3 ststephenssanjose.org
+/2019/ 3 -
+/wp1/ 3 -
+/wp-config.php.1 2 ststephenssanjose.org
+/index.phplents.php 3 https://ststephenssanjose.org
+/new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/install/ 3 -
+/backup/wp-admin/ 4 http://ststephenssanjose.org/
+/ajax/render/widget_tabbedcontainer_tab_panel 2 -
+/pma/index.php 1 -
+/old/ 3 -
+/test/ 3 -
+/wp-config.php-original 3 ststephenssanjose.org
+/old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/robots.txt 728 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/new-site/ 3 -
+/wp-login.php 14 http://ststephenssanjose.org/wp-login.php
+/index.phporthodoxchurch.php 3 https://ststephenssanjose.org
+/old-site/ 3 -
+/wp-config.php_ 3 ststephenssanjose.org
+/wordpress/wp-admin/ 5 http://ststephenssanjose.org/
+/wp-config.php~ 3 ststephenssanjose.org
+/wp-config.php.new 2 ststephenssanjose.org
+/wp-admin/admin-ajax.php 4 ststephenssanjose.org
+/uploads/.env 1 -
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/web/.env 1 -
+/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/index.phpministries.php 3 https://ststephenssanjose.org
+/index.phplogin.php 3 https://ststephenssanjose.org
+/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/index.phpcontactus.php 3 https://ststephenssanjose.org
+/site/.env 1 -
+/core/.env 1 -
+/site/PortalEscolar/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/.well-known/apple-app-site-association 1 -
+/website-sitemap.xml 2 -
+/test/med-decision/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp/ 4 -
+/.well-known/assetlinks.json 30 -
+/test/.env 2 -
+/web/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-config.php.original 3 ststephenssanjose.org
+/blog/wp-login.php 2 http://ststephenssiliconvalley.net/blog/wp-login.php
+/system/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/sitemap.xml 6 -
+/admin/login.php 3 -
+/wordpress/wp-admin/install.php 1 -
+/admin/login.html 3 -
+/phpmyadmin/index.php 1 -
+/index.phpaboutourchurch.php 3 https://ststephenssanjose.org
+/dev/ 3 -
+/shop/.env 1 -
+/ads.txt 84 http://ststephensbayarea.com/ads.txt
+/cron/.env 1 -
+/admin/.env 3 -
+/assets/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/database/.env 1 -
+/wp-config.bak 3 ststephenssanjose.org
+/blog 1 -
+/dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/old/profile/register/ 1 -
+//.env 1 -
+/index.phpvideogallery.php 3 https://ststephenssanjose.org
+/temp/ 3 -
+/blog/wp-json/ 1 -
+/e/data/js/ajax.js 3 -
+/apple-touch-icon-precomposed.png 2 -
+/admin.html 3 -
+/test/wp-login.php 2 http://ststephenssanjose.org/test/wp-login.php
+/new/profile/register/ 1 -
+/tmp/ 3 -
+/old/wp-admin/ 3 http://ststephenssanjose.org/
+/wp-config.php.disabled 3 ststephenssanjose.org
+/blog/.env 2 -
+/public/js/wind.js 1 -
+/wp-admin/ 5 http://ststephenssanjose.org/
+/index.phpcalendar.php 3 https://ststephenssanjose.org
+/home/ 4 -
+/web/ 4 -
+/sitemap.html 1 -
+/blog/profile/register/ 1 -
+/index.phpphotogallery.php 3 https://ststephenssanjose.org
+/main/wp-includes/wlwmanifest.xml 1 -
+/wp 1 -
+/humans.txt 16 http://ststephenssiliconvalley.net/humans.txt
+/pms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-config.phporiginal 3 ststephenssanjose.org
+/protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/main/ 3 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+/wp-config-good 3 ststephenssanjose.org
+/vendor/.env 2 -
+/wp/profile/register/ 1 -
+/login/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp/wp-admin/install.php 1 -
+/platform/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/v1/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/en/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/router.php 1 -
+/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/id/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/v1/wp-includes/wlwmanifest.xml 1 -
+/wp-config.php.backup 3 ststephenssanjose.org
+/newsite/wp-includes/wlwmanifest.xml 1 -
+/.git/config 4 -
+/2018/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/v1/ 3 -
+/www.sql.zip 1 -
+/forum/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/VBulletin/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/api/.env 2 -
+/local/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/ststephenssanjose.sql.gz 1 -
+/laravel/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/demo/ 3 -
+/2020/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-includes/css/css.php 1 -
+/data/admin/allowurl.txt 10 -
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/profile/register/ 1 -
+/config/.env 1 -
+/administrator/index.php 3 -
+/modules/gamification/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/blog/xmlrpc.php 1 -
+/pro/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/news/ 1 -
+//sitemap.html 2 -
+/new/wp-includes/wlwmanifest.xml 2 -
+/vb/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/phpMyAdmin/print.css 1 -
+/wp-admin/install.php 1 -
+/wp-config_good 3 ststephenssanjose.org
+/modules/ps_facetedsearch/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/ststephenssanjose.sql.zip 1 -
+/www.sql.rar 1 -
+/wp-config.php.swp 2 ststephenssanjose.org
+/wp-config.php.orig 3 ststephenssanjose.org
+/core/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/mysql/print.css 1 -
+/wp-config.php.old 3 ststephenssanjose.org
+/ststephenssanjose.sql.rar 1 -
+/2020/ 3 -
+/portal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/lib/.env 1 -
+/myadmin/print.css 1 -
+/beta/wp-includes/wlwmanifest.xml 1 -
+/www.sql 1 -
+/favicon.png 1 -
+/xxsssseee 1 -
+/public/simpleboot/css/simplebootadmin.css 2 -
+/wordpress/profile/register/ 1 -
+/sitemap_index.xml 2 -
+/blogs/wp-includes/wlwmanifest.xml 1 -
+/css/album.css 1 -
+/all/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/class.php 3 -
+/modules/autoupgrade/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/phpminiadmin.php 1 -
+/old-wp/ 3 -
+/admin/ 9 -
+/admin/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/apps/.env 1 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-1ogin_bak.php 1 -
+/js/admin.js 5 http://www.ststephenssanjose.org/js/admin.js
+/wp-content/plugins/wp-file-manager/lib/files/uNFpbX.php 1 -
+/f0x.php 5 -
+/wp2/ 3 -
+/index.phppatrons.php 3 https://ststephenssanjose.org
+/wp-config.php_original 2 ststephenssanjose.org
+/wp-config.good 3 ststephenssanjose.org
+/2018/ 3 -
+/index.phplectionary.php 3 https://ststephenssanjose.org
+/wp-config.php.bak 3 ststephenssanjose.org
+/phpMyAdmin/index.php 1 -
+/wp-config.php.save 3 ststephenssanjose.org
+/.env 6 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/wordpress/xmlrpc.php 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 9 www.google.com
+/wp-includes/wlwmanifest.xml 1 -
+/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/admin.php 3 -
+/mahara/auth/saml/extlib/simplesamlphp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/staging/wp-admin/ 1 http://ststephenssanjose.org/
+/v1/.env 1 -
+/m/wp-login.php 1 http://www.ststephenssanjose.org/m/wp-login.php
+/mapa/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-json/ 1 -
+/demo/profile/register/ 1 -
+/concrete/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wordpress/ 4 -
+/OLD/wp-admin/ 3 http://ststephenssanjose.org/
+/static/.gitignore 2 -
+/apple-touch-icon.png 2 -
+/bk/ 3 -
+/test/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/index.phpindex.php 3 https://ststephenssanjose.org
+/v2/ 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 573
+73.189.36.15 38 296 22990818 20200826155154
+66.246.224.13 29 29 23635 20200831165113
+73.158.59.219 27 317 26522210 20200831173836
+69.160.160.51 21 115 7593840 20200815215428
+69.160.160.57 21 115 7593856 20200817150746
+176.74.192.99 18 66 4739079 20200825140537
+75.72.156.42 18 93 7451106 20200811185938
+99.234.194.251 14 83 7041190 20200814182338
+51.222.43.127 12 12 164273 20200805154627
+107.77.253.8 12 62 6131104 20200815111428
+64.233.172.17 12 12 44928 20200811134006
+131.220.6.156 12 12 9780 20200814014743
+73.189.39.12 11 105 7729714 20200808173904
+5.188.62.25 11 11 13697 20200831190353
+91.185.71.42 11 11 22429 20200802022305
+149.117.75.12 11 69 6881680 20200803114428
+64.233.172.9 10 10 43298 20200831205017
+73.71.244.184 10 71 4623732 20200815000300
+24.67.76.78 10 63 4189133 20200828003227
+73.231.83.134 10 74 4731931 20200809171526
+100.15.155.50 10 110 8306074 20200811092207
+3.101.0.4 10 10 20390 20200810123114
+24.6.79.223 10 98 5473018 20200815193615
+34.71.160.53 10 56 3862578 20200825191510
+131.106.54.202 9 68 4314676 20200820192350
+184.174.74.97 1 1 815 20200806031938
+51.89.230.56 1 1 815 20200827031604
+100.2.89.47 4 50 3851848 20200807165535
+192.71.3.26 5 5 4075 20200830071719
+190.235.54.245 4 50 3851821 20200831025249
+102.89.2.66 2 25 2174740 20200820184415
+69.165.11.160 1 1 2039 20200823120326
+34.213.42.16 1 1 815 20200812153328
+104.192.108.9 3 48 3841785 20200825155138
+73.231.230.149 3 50 3854049 20200822160611
+183.36.114.111 0 7 1428595 
+66.220.149.15 1 8 995422 20200816213739
+51.75.147.164 1 1 815 20200803022933
+192.36.53.165 5 5 4075 20200829202907
+54.38.75.42 1 1 815 20200803022726
+108.76.157.234 3 50 3854098 20200810103345
+150.129.8.7 2 2 1630 20200810103912
+103.104.45.17 8 61 4196453 20200809112004
+185.107.70.202 1 1 815 20200824015830
+185.187.30.14 2 2 7557 20200814082311
+138.197.152.122 2 2 0 20200831124434
+173.208.213.2 1 1 2039 20200810163210
+67.180.107.116 4 50 3851821 20200825235232
+183.36.114.161 0 1 207824 
+185.220.101.209 2 2 1630 20200810103900
+66.220.149.24 1 9 874851 20200816213736
+46.182.5.30 1 1 2039 20200822023810
+35.164.231.255 1 1 815 20200801212849
+54.188.31.131 1 1 815 20200806214105
+123.126.68.110 4 4 98717 20200820144242
+102.89.3.61 1 14 684382 20200820184238
+104.131.15.111 1 1 2039 20200809032346
+74.125.212.24 5 5 21698 20200828033120
+34.214.146.97 1 1 815 20200804142752
+45.41.142.188 2 2 7459 20200814082309
+111.7.100.25 1 1 815 20200810114107
+36.110.147.83 0 1 204085 
+42.104.120.139 4 50 3851848 20200831175504
+104.196.198.200 2 2 815 20200811010019
+123.126.68.145 4 4 98804 20200818144137
+123.176.33.197 4 51 3843561 20200831175605
+162.253.129.153 1 1 815 20200822121232
+3.81.245.94 7 7 14273 20200829220225
+39.101.150.29 2 2 7557 20200813211747
+101.4.60.64 1 1 815 20200826073132
+165.227.208.208 4 21 180302 20200809020812
+34.75.208.149 2 2 815 20200811003530
+51.15.254.133 1 1 815 20200806000356
+72.167.190.231 1 1 2039 20200822023300
+217.79.178.53 1 1 815 20200810103856
+109.102.226.186 1 1 6742 20200817204549
+18.236.113.10 1 1 815 20200827142500
+98.181.222.6 4 60 2224551 20200816223000
+207.46.13.234 0 3 9864 
+159.203.32.136 1 1 0 20200803043051
+89.187.168.151 4 4 55068 20200821231428
+34.216.213.192 1 1 815 20200823011822
+5.188.62.140 8 8 25448 20200825201902
+90.137.22.64 1 1 2039 20200825070809
+104.248.112.159 1 1 815 20200818094908
+183.36.115.147 0 1 207824 
+193.31.73.91 1 1 2039 20200828205608
+102.89.2.252 1 7 966037 20200820184451
+157.55.39.90 0 3 17003 
+123.126.68.138 0 2 415648 
+198.98.50.112 1 1 815 20200807190044
+191.101.89.95 1 1 815 20200804155651
+123.126.68.126 0 2 398275 
+145.239.10.50 1 1 2039 20200822023141
+123.183.224.162 0 14 217547 
+72.13.46.5 3 3 11441 20200824041442
+82.27.44.167 2 44 2199985 20200830041425
+89.187.168.181 4 4 55273 20200821080144
+192.71.126.175 2 2 1630 20200824140921
+198.143.158.82 4 4 3260 20200809214939
+40.77.167.143 0 1 3340 
+73.166.249.5 4 50 3851821 20200809085007
+2.58.12.206 1 1 2039 20200803033723
+51.158.109.172 1 1 815 20200802005820
+150.129.8.13 2 2 1630 20200810103930
+204.85.30.70 4 50 3851821 20200803114752
+187.253.120.107 1 1 815 20200803130128
+36.110.147.78 4 4 98706 20200829225138
+75.189.55.185 4 50 3851919 20200809171840
+104.131.57.95 1 1 815 20200827111455
+198.217.64.82 5 61 6194869 20200810123113
+5.189.185.171 1 1 2039 20200806063201
+207.46.13.102 0 1 3288 
+138.197.174.217 1 1 0 20200802184750
+38.18.49.71 1 1 815 20200818231814
+31.13.115.12 1 1 6655 20200805210210
+64.233.172.19 3 3 2445 20200807160641
+176.74.192.85 2 2 7459 20200827125159
+3.17.158.108 1 1 2039 20200808174439
+34.211.73.84 1 1 815 20200805142553
+123.183.224.163 0 5 72062 
+102.89.2.249 0 5 29683 
+72.52.131.41 1 1 2039 20200822023941
+51.15.56.119 1 1 2039 20200826061045
+138.197.4.214 2 19 173007 20200830132125
+195.74.38.173 1 1 2039 20200822023921
+35.222.2.210 1 1 815 20200812032126
+51.77.128.212 2 44 1601746 20200805155927
+106.66.133.94 0 1 52840 
+209.107.195.83 5 5 18730 20200817204630
+50.25.130.135 4 51 3854913 20200822173631
+142.93.69.194 1 1 815 20200828033009
+66.249.93.201 2 2 7470 20200823182352
+172.245.195.149 1 1 815 20200826032430
+192.71.225.127 1 1 815 20200808023636
+104.188.181.229 4 51 3854815 20200813164803
+38.18.33.189 1 1 815 20200815023504
+175.44.42.218 2 2 7557 20200825161550
+40.77.167.139 0 1 3340 
+100.19.23.6 0 2 59744 
+35.164.235.49 1 1 815 20200806050030
+108.177.213.215 1 1 815 20200805150609
+34.221.199.172 1 1 815 20200811213446
+185.190.16.70 1 1 2039 20200822023228
+72.167.226.88 1 1 815 20200814102142
+183.36.114.75 0 5 1091949 
+132.148.154.8 1 1 815 20200814081323
+77.165.2.78 4 50 3851919 20200801235425
+150.129.8.140 1 1 815 20200822011555
+220.249.46.100 4 4 98706 20200816141914
+69.50.235.56 1 1 815 20200820044524
+34.213.55.159 1 1 815 20200821142923
+123.183.224.165 0 7 76608 
+46.167.244.56 2 2 1630 20200821051105
+151.80.47.30 1 1 815 20200816081950
+84.17.47.47 4 4 55270 20200831144301
+183.36.114.28 0 16 3325184 
+52.35.66.86 2 2 1630 20200826143636
+35.222.83.197 5 5 4075 20200824143900
+202.164.131.229 6 53 3869590 20200821221442
+159.203.56.92 2 2 0 20200831124433
+31.13.115.13 1 1 815 20200805210209
+34.222.107.13 1 1 815 20200816210934
+150.129.8.12 1 1 815 20200803022725
+207.99.15.82 4 4 3260 20200831232705
+208.127.198.48 0 1 68488 
+36.110.147.91 0 1 274287 
+184.154.47.2 4 4 3260 20200810102626
+102.79.235.7 1 1 815 20200831094030
+206.180.173.61 1 1 815 20200821180903
+91.236.116.14 2 2 7459 20200826201742
+180.150.38.137 3 51 3922635 20200820191827
+142.93.65.227 2 19 173078 20200810045016
+218.77.69.45 1 1 815 20200824222852
+66.249.88.152 1 1 815 20200817033545
+73.189.86.152 1 1 815 20200814142306
+136.24.133.80 3 48 3758056 20200820211947
+82.165.253.73 1 1 815 20200831135152
+73.202.22.242 5 51 3858492 20200813025006
+81.92.206.168 4 4 55065 20200828034947
+106.206.9.24 5 86 7572355 20200825221540
+206.189.117.9 4 4 8156 20200822200805
+157.7.223.210 1 1 815 20200831182800
+150.129.8.26 1 1 815 20200810103853
+5.157.52.6 1 1 815 20200817080120
+35.164.246.163 2 2 1630 20200815211046
+72.52.238.79 4 4 3260 20200822105124
+38.18.52.170 1 1 815 20200809045540
+3.129.6.107 1 1 2039 20200803235058
+49.44.67.229 3 49 3851104 20200823054700
+138.197.160.158 1 1 0 20200803043052
+44.234.149.219 1 1 815 20200813022218
+217.182.192.217 1 1 815 20200803022948
+157.55.39.210 0 1 3688 
+183.36.114.15 0 1 207824 
+84.17.51.32 4 4 55275 20200811110457
+207.46.13.86 0 3 10716 
+159.65.254.8 2 19 172991 20200802121139
+24.190.82.53 8 61 4314950 20200807135507
+138.36.116.10 1 1 815 20200817102213
+46.187.61.144 8 8 200636 20200810165804
+36.110.147.105 0 7 1920009 
+24.146.221.84 4 50 3851832 20200805181353
+183.36.114.5 0 1 217016 
+36.227.174.4 1 1 815 20200803022743
+51.77.246.200 2 44 1601844 20200805160044
+107.77.212.109 1 1 6644 20200811134248
+66.220.149.117 1 8 358156 20200816213740
+66.220.149.27 1 9 1006214 20200816213738
+45.41.142.245 2 2 7557 20200828232255
+220.249.46.149 4 4 98706 20200811065451
+185.220.100.243 1 1 815 20200803022751
+148.72.158.226 2 2 4078 20200807153545
+18.27.125.172 0 2 59744 
+192.71.224.240 1 1 815 20200829202906
+40.77.167.160 0 1 3688 
+51.195.166.192 1 1 815 20200803022720
+49.65.135.103 1 1 815 20200831182551
+167.114.233.118 1 1 815 20200831065947
+54.39.16.73 3 3 2445 20200810103810
+134.209.145.228 1 1 815 20200818094853
+40.77.167.137 0 1 3688 
+192.42.116.13 2 2 1630 20200803022921
+67.227.47.129 1 1 815 20200818034545
+159.65.164.230 1 1 2039 20200818211905
+123.126.68.117 0 1 194190 
+183.36.115.13 0 1 274287 
+73.70.29.99 2 46 4043041 20200807002409
+34.73.131.25 2 2 815 20200824182520
+196.52.84.43 1 1 2039 20200820153308
+89.31.57.5 4 4 3260 20200821051118
+185.136.195.242 1 1 2039 20200822024152
+192.241.80.101 4 4 8156 20200818100357
+216.21.170.201 3 49 3851006 20200822072205
+174.225.9.145 4 50 3851848 20200811051454
+31.13.115.1 0 17 1653163 
+220.249.46.122 4 4 98733 20200824144007
+112.111.171.223 1 1 0 20200815225816
+89.187.168.146 4 4 55074 20200801162341
+93.159.230.28 5 5 4075 20200814104232
+23.95.224.82 1 1 815 20200812001517
+35.188.133.161 2 2 1630 20200814014128
+188.93.56.216 1 1 815 20200811070248
+185.12.45.115 1 1 815 20200810103917
+40.77.167.237 0 1 3688 
+74.125.212.8 1 1 6644 20200811230418
+195.176.3.23 3 3 2445 20200803023006
+105.112.55.46 4 50 3840567 20200821100312
+157.55.39.241 0 2 6680 
+77.74.177.114 3 3 2445 20200814085928
+82.118.23.112 2 2 4078 20200829120357
+173.92.128.111 4 50 3851832 20200815094117
+172.58.78.205 7 99 7702827 20200801181652
+138.246.253.15 9 9 0 20200830033922
+92.38.180.48 6 6 4890 20200830045543
+138.197.111.103 2 19 173078 20200820020428
+160.153.245.123 1 1 815 20200820194603
+51.15.235.211 1 1 815 20200828164025
+18.237.169.187 1 1 815 20200809151401
+64.233.172.15 7 7 34910 20200810152703
+62.210.25.243 2 2 1630 20200826011815
+172.245.52.120 1 1 815 20200831224149
+138.197.143.26 1 1 0 20200830195721
+145.239.140.148 1 1 2039 20200822023738
+85.208.22.182 2 2 1630 20200824071037
+185.21.41.145 1 1 2039 20200810013303
+199.167.76.25 1 1 2039 20200822024143
+207.46.13.183 0 1 3688 
+192.71.23.211 1 1 815 20200831093743
+107.180.95.149 1 1 815 20200822090315
+212.47.246.172 1 1 815 20200806034409
+24.23.134.87 3 48 4344698 20200822114045
+192.36.71.133 7 7 5705 20200830071718
+207.46.13.225 0 2 6680 
+64.233.172.5 8 8 24203 20200830165028
+92.238.126.8 5 52 4152855 20200819011126
+49.12.6.193 1 1 815 20200823115523
+74.125.212.28 4 4 9100 20200829080950
+195.234.109.4 1 1 2039 20200818175048
+69.165.11.143 1 1 2039 20200820095047
+34.222.209.109 1 1 815 20200814031701
+34.235.233.220 2 2 7557 20200812232121
+121.227.208.208 1 1 2039 20200814193341
+47.187.206.144 9 66 6573958 20200801181000
+99.126.184.53 4 51 3854815 20200804155628
+37.1.204.92 1 1 815 20200826151923
+192.71.38.71 1 1 815 20200824140922
+24.7.46.136 4 50 3851821 20200826182632
+123.183.224.164 0 29 400846 
+175.44.42.110 3 3 14201 20200806211647
+114.119.166.97 3 3 8301 20200809143141
+216.41.149.119 1 1 815 20200820163844
+178.174.149.117 1 1 815 20200825210337
+35.225.82.182 2 2 4078 20200810073039
+109.95.156.9 1 1 2039 20200822023244
+185.220.101.13 1 1 815 20200810103909
+35.229.76.22 2 2 815 20200830231808
+157.230.143.163 1 1 2039 20200822111802
+35.161.158.167 1 1 815 20200816141736
+40.77.167.37 0 2 7376 
+183.36.115.77 0 8 1553520 
+35.196.216.150 2 2 815 20200831202627
+191.101.79.49 1 1 815 20200804153900
+31.132.211.144 1 1 2039 20200801042158
+157.55.39.72 0 2 13299 
+74.14.86.59 0 1 56630 
+183.36.114.107 0 2 424840 
+69.164.131.92 4 50 3851919 20200801113055
+18.217.223.118 1 1 2039 20200804155628
+138.197.128.76 1 1 0 20200830195720
+38.18.51.236 1 1 815 20200813042527
+74.125.212.6 1 1 815 20200811230418
+87.98.156.136 1 1 815 20200808063828
+185.220.100.247 2 2 1630 20200803023015
+199.244.88.132 2 2 1630 20200831055402
+36.110.147.97 4 4 98733 20200816035445
+27.62.68.53 2 44 1601844 20200813201145
+117.251.58.94 2 44 2199985 20200802052240
+192.71.44.44 3 3 2445 20200826115352
+50.65.168.21 7 60 4311093 20200822045012
+137.74.176.171 1 1 815 20200816235250
+193.176.86.124 4 4 101042 20200820042642
+158.174.111.37 1 1 815 20200814001551
+183.36.114.153 0 1 204085 
+34.68.160.197 1 1 815 20200814014055
+162.253.129.170 1 1 815 20200822113507
+196.245.219.143 1 1 815 20200813044238
+14.177.234.133 1 1 815 20200813135721
+156.209.160.149 2 4 29625 20200829121354
+157.50.89.130 2 37 1916166 20200830051528
+74.125.212.26 1 1 6655 20200824215512
+46.187.25.61 2 2 50031 20200831185506
+159.89.178.195 1 1 815 20200818030657
+111.7.100.26 1 1 815 20200810114103
+159.203.12.19 2 2 0 20200831124434
+157.55.39.126 0 3 11064 
+39.101.65.235 1 1 6742 20200822150049
+18.191.198.30 6 36 259976 20200818062932
+94.130.167.248 2 2 4078 20200819223005
+175.44.42.147 3 3 14103 20200804154507
+157.55.39.51 0 1 6644 
+208.109.9.37 1 1 2039 20200822023415
+35.196.135.155 2 2 815 20200825063307
+104.140.80.141 1 1 815 20200826021528
+138.197.137.225 1 1 0 20200830195719
+223.150.173.101 1 1 815 20200822221125
+34.214.174.238 1 1 815 20200808141655
+212.47.229.4 2 2 1630 20200810103915
+157.55.39.189 0 1 3288 
+77.74.177.113 6 6 4890 20200829223622
+115.236.8.236 1 1 815 20200819134838
+207.241.225.159 2 3 50522 20200808172535
+40.77.167.11 0 1 6655 
+191.101.85.38 3 3 6117 20200817110738
+42.109.138.92 3 48 3656816 20200830074412
+138.197.3.188 4 21 180204 20200820020404
+64.233.172.7 4 4 14918 20200831205016
+46.187.22.208 2 2 50085 20200820083631
+183.36.115.75 0 3 582570 
+195.144.21.219 1 1 815 20200803022748
+73.241.122.57 6 53 4159526 20200816111721
+172.58.120.227 9 159 19446669 20200819222623
+73.136.213.6 4 50 3851881 20200807170830
+192.71.12.140 3 3 2445 20200830123315
+40.77.167.9 0 1 3688 
+185.220.101.144 1 1 815 20200802193904
+216.158.215.139 1 1 2039 20200815163038
+38.18.59.122 1 1 815 20200808031056
+62.149.15.172 1 1 815 20200815005608
+54.149.160.138 1 1 815 20200805210835
+52.154.170.113 1 1 815 20200829235130
+174.194.204.19 7 70 6999156 20200806223846
+185.220.100.251 1 1 815 20200808111241
+35.243.198.90 2 2 815 20200811211309
+123.126.68.114 0 1 207824 
+36.110.147.98 0 1 194190 
+51.159.30.34 1 1 815 20200824201356
+172.112.54.93 0 1 68488 
+157.55.39.108 0 1 3340 
+217.171.147.164 2 2 4078 20200824153209
+71.225.155.146 6 58 4006426 20200811182450
+54.38.75.44 2 2 1630 20200803022753
+107.77.225.232 4 50 3851848 20200808174242
+185.220.101.6 2 2 1630 20200810103958
+89.163.143.8 1 1 815 20200803022917
+73.225.160.97 8 64 4127862 20200813210044
+40.77.167.221 0 2 7028 
+72.13.46.6 3 3 11370 20200802121051
+54.171.232.116 1 1 2039 20200803070744
+66.220.149.1 0 9 240713 
+192.36.52.37 2 2 1630 20200808023635
+73.158.217.170 4 39 1440807 20200816001635
+175.44.42.60 2 2 7470 20200821040153
+44.234.33.218 1 1 815 20200826143638
+51.91.129.4 1 1 815 20200825025351
+192.71.30.89 2 2 1630 20200817170952
+185.81.157.177 1 1 815 20200829114044
+196.50.247.254 1 1 815 20200825102721
+3.128.247.117 2 2 4078 20200803135025
+34.216.37.71 1 1 815 20200803211231
+142.93.71.51 1 1 815 20200823033211
+185.220.101.140 1 1 815 20200804033731
+52.12.0.74 1 1 815 20200807141632
+192.71.42.108 3 3 2445 20200830071719
+186.20.155.146 1 1 815 20200801230438
+160.153.251.217 1 1 815 20200826104721
+148.72.209.9 1 1 815 20200825095947
+51.161.43.235 1 1 815 20200803022915
+190.225.173.35 1 1 815 20200803112223
+192.71.36.158 3 3 2445 20200829202905
+52.33.91.10 1 1 815 20200821212648
+34.222.113.187 1 1 815 20200804213033
+38.18.35.28 1 1 815 20200807010713
+51.158.66.185 1 1 815 20200806010605
+150.129.8.19 2 2 1630 20200810103834
+85.208.21.164 4 4 3260 20200827233137
+82.193.104.168 3 3 3669 20200823212853
+157.245.90.36 6 6 22486 20200804193103
+49.15.95.164 4 50 3851821 20200807102510
+159.89.198.37 1 1 2039 20200822024346
+72.137.95.184 4 51 3854826 20200817154626
+142.93.145.9 1 1 0 20200803043050
+73.136.130.151 4 50 3851821 20200807165250
+103.104.45.16 1 7 724096 20200814082041
+95.217.145.44 1 1 2039 20200824002756
+36.110.147.89 0 1 217016 
+91.235.136.197 1 1 815 20200823050547
+178.165.72.177 2 2 1630 20200810103814
+194.33.45.139 1 1 815 20200805072557
+183.36.115.5 0 1 204085 
+82.202.226.49 1 1 2039 20200830102507
+35.232.14.89 2 2 1630 20200819151401
+31.219.26.26 3 48 3841812 20200825115155
+85.10.207.246 2 2 4078 20200828114830
+160.153.147.142 1 1 2039 20200822023544
+193.169.252.34 6 6 4890 20200823061011
+177.222.61.136 1 1 815 20200817125614
+192.71.142.35 3 3 2445 20200829202906
+123.183.224.143 0 3 52628 
+51.79.180.213 1 1 815 20200828212922
+24.6.80.176 4 50 3851848 20200810234601
+142.44.139.12 1 1 815 20200827204353
+34.217.148.4 1 1 815 20200813213119
+198.98.52.182 1 1 815 20200810103803
+51.15.228.85 1 1 815 20200806010606
+192.71.2.171 1 1 815 20200816114139
+81.170.239.2 1 1 815 20200827200238
+104.131.49.133 1 1 2039 20200818180252
+142.93.145.204 1 1 0 20200802184751
+185.206.225.222 1 1 2039 20200803082750
+142.93.157.53 1 1 0 20200802184751
+115.248.59.6 3 50 3842659 20200820051518
+40.77.167.36 0 1 3340 
+207.46.13.48 0 2 6680 
+172.10.162.122 7 54 4171336 20200813064410
+51.159.30.87 1 1 815 20200825201342
+207.241.225.217 1 1 0 20200808171810
+178.32.123.99 1 1 815 20200810104003
+183.36.114.90 0 1 204085 
+192.71.10.105 2 2 1630 20200822225008
+183.36.114.171 0 1 274287 
+18.224.70.223 3 33 252096 20200816113624
+23.95.219.251 1 1 815 20200811085913
+157.55.39.104 0 1 3340 
+159.203.40.244 1 1 0 20200830195720
+73.202.99.150 5 53 4156570 20200813001219
+148.72.42.181 1 1 815 20200812191350
+160.153.147.155 2 2 4078 20200822023615
+183.36.115.105 0 3 651048 
+132.148.244.122 1 1 815 20200812193731
+192.42.116.24 2 2 1630 20200810103921
+104.238.94.60 1 1 815 20200817080852
+213.217.0.184 2 2 7557 20200815202235
+161.35.139.153 1 1 815 20200808011851
+123.183.224.145 0 1 1621 
+35.224.242.98 1 1 815 20200815151946
+95.81.208.162 2 2 50036 20200806012716
+172.58.95.58 5 28 3537202 20200801183100
+89.187.168.169 4 4 55075 20200814092024
+199.193.224.198 1 1 815 20200818231741
+17.58.56.4 1 1 815 20200828014902
+209.97.156.68 1 1 815 20200827094711
+159.203.111.221 2 2 1630 20200813054641
+138.197.11.160 4 21 180215 20200830125227
+166.70.207.2 1 1 815 20200821051110
+94.102.51.78 1 1 815 20200810103909
+185.100.87.241 1 1 815 20200810103744
+78.138.105.126 1 1 815 20200805114826
+44.234.64.148 4 51 3854842 20200810133700
+73.221.138.67 6 53 4159586 20200802081623
+207.46.13.116 0 1 3688 
+104.131.30.224 1 1 2039 20200809031801
+157.55.39.209 0 2 6576 
+157.55.39.161 0 2 6576 
+51.15.219.107 1 1 815 20200806040903
+104.198.63.17 1 1 815 20200814204044
+40.77.167.17 0 1 6742 
+91.219.194.15 1 1 815 20200828032815
+104.196.102.49 2 2 815 20200811213529
+40.77.167.53 0 1 3688 
+50.66.69.183 4 50 3851832 20200824001748
+54.214.124.79 1 1 815 20200810153347
+23.90.29.72 1 1 815 20200808233309
+185.81.157.132 1 1 815 20200815093849
+109.152.27.13 0 1 207824 
+49.44.67.70 4 51 3843561 20200801180113
+31.13.115.118 1 16 1105925 20200805210223
+89.46.105.178 1 1 2039 20200809050327
+192.36.248.249 1 1 815 20200805181634
+31.13.115.120 1 13 1083406 20200805210214
+34.209.151.109 1 1 815 20200825140154
+47.185.149.11 0 1 50823 
+34.220.177.175 1 1 815 20200814160819
+157.55.39.57 0 2 13310 
+82.221.131.5 1 1 815 20200822192913
+63.141.247.82 1 1 815 20200805154151
+66.220.149.11 0 8 379486 
+40.77.167.7 0 2 6680 
+35.243.214.125 2 2 815 20200831201104
+178.17.170.60 3 3 2445 20200803022942
+52.142.9.158 2 2 1630 20200817162145
+76.126.222.206 5 51 3852734 20200816024558
+192.187.108.18 1 1 2039 20200810165155
+50.62.208.182 1 1 2039 20200822023437
+185.234.218.42 6 6 4890 20200823042545
+176.88.149.167 0 1 56630 
+185.220.101.12 1 1 815 20200810103840
+183.36.114.114 0 1 194190 
+183.36.114.181 0 1 194190 
+35.180.20.168 2 2 7459 20200828232257
+104.131.49.227 1 1 2039 20200809030352
+65.154.226.109 8 102 7709728 20200818011138
+94.242.232.130 1 1 815 20200827033916
+123.183.224.142 0 1 2273 
+163.172.163.25 1 1 815 20200803013031
+145.239.7.56 5 5 4075 20200810103940
+157.55.39.198 0 1 3340 
+203.212.134.30 4 50 3851919 20200817140921
+192.255.88.192 1 1 815 20200810041140
+35.238.167.191 1 1 815 20200812030730
+104.236.168.190 1 1 2039 20200831011447
+212.47.231.158 1 1 815 20200806040903
+65.155.30.101 4 51 3854913 20200826235221
+37.58.58.229 4 4 55074 20200801003507
+195.254.134.194 1 1 815 20200803022959
+192.227.238.236 1 1 815 20200807115439
+35.167.250.237 1 1 815 20200826143638
+66.249.88.155 1 1 6742 20200817033545
+54.218.248.255 1 1 815 20200807210533
+172.56.11.2 2 45 3093523 20200819222559
+34.223.48.117 1 1 815 20200822040009
+23.92.127.66 1 1 2039 20200803051913
+73.241.8.239 5 52 3855728 20200810073049
+73.59.105.229 4 50 3851848 20200823165155
+185.220.101.2 2 2 1630 20200810103923
+157.230.143.28 1 1 2039 20200822101740
+34.219.8.139 1 1 815 20200802141835
+192.36.70.176 1 1 815 20200818102743
+124.206.180.133 3 3 6117 20200820192058
+185.225.136.211 1 1 815 20200829125829
+175.44.42.198 2 2 7470 20200829111628
+71.59.82.34 9 70 4612790 20200818054422
+180.183.122.72 1 1 815 20200805233711
+207.46.13.249 0 1 3340 
+104.227.121.203 1 1 815 20200813075329
+51.158.97.248 1 1 815 20200802235136
+20.191.112.177 1 1 815 20200808152800
+150.129.8.14 1 1 815 20200801105424
+40.77.167.204 0 1 3688 
+207.46.13.68 0 1 3288 
+80.82.68.71 1 1 2039 20200806191632
+172.56.39.153 1 1 6644 20200804105551
+85.208.21.170 2 2 1630 20200824025447
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200801 56 461 37598588 18
+20200802 34 144 6630773 16
+20200803 58 166 10840472 35
+20200804 26 73 3923180 16
+20200805 38 228 11224510 21
+20200806 28 95 7181575 17
+20200807 63 395 27679425 22
+20200808 54 300 20326878 25
+20200809 50 327 20801950 18
+20200810 99 494 30096246 42
+20200811 62 362 27123851 18
+20200812 34 81 3849664 12
+20200813 47 411 24830570 20
+20200814 54 142 7993806 29
+20200815 42 280 22173371 14
+20200816 40 274 16190180 20
+20200817 35 175 11532625 18
+20200818 44 197 10794293 22
+20200819 27 271 26767606 11
+20200820 48 343 22326232 23
+20200821 41 185 11720399 18
+20200822 56 305 23772116 36
+20200823 43 136 7969960 20
+20200824 35 91 6166683 23
+20200825 65 442 34323600 21
+20200826 33 151 10609555 20
+20200827 19 19 27154 16
+20200828 31 88 4334314 17
+20200829 25 50 2625584 18
+20200830 49 264 14789754 24
+20200831 50 243 15645290 27
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 13
+5mn-15mn 8
+30mn-1h 6
+0s-30s 590
+30s-2mn 32
+1h+ 1
+15mn-30mn 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/ 724 704743 579 440
+/index.php 251 2273560 44 99
+/font-awesome/fonts/fontawesome-webfont.woff 105 8710636 3 25
+/fonts/revicons/revicons.woff 91 681816 3 47
+/contactus.php 33 220755 1 5
+/photogallery.php 29 115949 3 6
+/aboutourchurch.php 26 95888 2 3
+/patrons.php 20 130661 4 2
+/login.php 17 79856 5 6
+/videogallery.php 16 72008 0 0
+/calendar.php 15 105366 7 2
+/orthodoxchurch.php 13 144157 1 2
+/lectionary.php 9 39345 0 4
+/ministries.php 8 38829 0 1
+/contact.php 8 1334 0 8
+/font-awesome/fonts/fontawesome-webfont.eot 4 289704 0 0
+/malayalam.php 4 13804 3 1
+/lents.php 4 21349 0 0
+/fonts/revicons/revicons.eot 4 29876 0 4
+//index.php 2 13386 0 2
+// 2 1630 2 0
+/font-awesome/fonts/fontawesome-webfont.ttf 1 40490 0 0
+END_SIDER

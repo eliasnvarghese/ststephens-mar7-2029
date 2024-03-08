@@ -1,0 +1,148 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id yIxDHBw+aWMdpT8AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 10:19:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 10:19:24 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os5mO-00HX5R-Bw
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 10:19:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os5mN-00HX4V-Tk@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667841564-eximdsn-1886448850
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os5mO-00HX5R-Bw@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 10:19:24 -0700
+
+--1667841564-eximdsn-1886448850
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s5mOoShxY4oIf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63693e1c p=nTWmFKIsziAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=XR1vHMl-hYsA:10 a=BWepwpgyAAAA:8 a=RgBw9RmQAAAA:8 a=G07eC17wiZYiO-SRdYAA:9 a=QEXdDO2ut3YA:10 a=FV9Ghw-2ww4A:10 a=qsGcqAXaHkMA:10 a=zyyLsILo4uUA:10 a=kcL_uCKs3f8A:10 a=BWACDaLMOYsA:10 a=EdMvtnL5vQwA:10 a=ZG8zxtilVk8A:10 a=XYjkbNpCzBIA:10 a=tlmtz0B3ETQA:10 a=Xv_jgtstfzcA:10 a=L23e-9FTyWgA:10 a=FXgMBFtP_6EA:10 a=ICuoP1ugErEA:10 a=5D30DVPEdXoA:10 a=wEmeb2YkaHkA:10 a=SyDjMH9muxwA:10 a=8WV14YGXA54A:10 a=48zbuPd8ff4A:10 a=q3eqUD2KAeEA:10 a=-pxORSd1C8sA:10 a=jjzCrr0ylPAA:10 a=JRzZkY46V1oA:10 a=EtRpYohmLb0A:10 a=UFLQupKWr8kA:10 a=_67stct2N60A:10 a=h0V9Q3OD0NoA:10 a=-QKPam4f8
+
+--1667841564-eximdsn-1886448850
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s5mOoShxY4oIf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63693e1c p=nTWmFKIsziAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=XR1vHMl-hYsA:10 a=BWepwpgyAAAA:8 a=RgBw9RmQAAAA:8 a=G07eC17wiZYiO-SRdYAA:9 a=QEXdDO2ut3YA:10 a=FV9Ghw-2ww4A:10 a=qsGcqAXaHkMA:10 a=zyyLsILo4uUA:10 a=kcL_uCKs3f8A:10 a=BWACDaLMOYsA:10 a=EdMvtnL5vQwA:10 a=ZG8zxtilVk8A:10 a=XYjkbNpCzBIA:10 a=tlmtz0B3ETQA:10 a=Xv_jgtstfzcA:10 a=L23e-9FTyWgA:10 a=FXgMBFtP_6EA:10 a=ICuoP1ugErEA:10 a=5D30DVPEdXoA:10 a=wEmeb2YkaHkA:10 a=SyDjMH9muxwA:10 a=8WV14YGXA54A:10 a=48zbuPd8ff4A:10 a=q3eqUD2KAeEA:10 a=-pxORSd1C8sA:10 a=jjzCrr0ylPAA:10 a=JRzZkY46V1oA:10 a=EtRpYohmLb0A:10 a=UFLQupKWr8kA:10 a=_67[truncated]
+
+--1667841564-eximdsn-1886448850
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os5mN-00HX4V-Tk
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 10:19:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Brianwak.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.188.21.49
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.188.21.49
+From: naphtloxua-5550@mail.ru
+Reply-To: naphtloxua-5550@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os5mN-00HX4V-Tk@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 10:19:23 -0700
+
+You have been contacted by Brianwak, and the message is as follows.
+
+"Давно уже никого не удивишь тем, что
+балконы современных домов
+собственники квартир присоединяют к
+жилым квадратным метрам и радуются
+появлению новой комнаты
+https://www.rvtv.ru/razreshen-stroika.html
+   Пусть она
+https://www.rvtv.ru/pereplanirovka-kvartir-kope.html
+   https://www.rvtv.ru/price4.html
+   https://www.rvtv.ru/kak-opredelit-nesushhie-steny-v-kvartire.html
+ 
+Но есть также понятие коллективная
+ответственность
+https://www.rvtv.ru/soglasovanie-pereplanirovki-nezhilyh-pomeschenii.html
+   В многоквартирных домах от
+состояния каждого жилого помещения
+так или иначе зависит целостность
+всего здания
+https://www.rvtv.ru/kak-ustroena-ventilyatsiya-domah-serii-155mm-539.html
+   Поэтому прежде чем вносить
+глобальные изменения и двигать стены,
+собственник обязан уведомить о
+предстоящей переделке
+https://www.rvtv.ru/remont-s-pereplanirovkoj.html
+ 
+Перепланировку могут разрешить
+сохранить, если она не нарушает прав
+граждан, проживающих в доме
+https://www.rvtv.ru/pereplan-kvartir-eskiz.html
+   Но согласовать ее в соответствии со
+всеми правилами все равно придется
+https://www.rvtv.ru/registratsiya-pereplanirovki.html
+ 
+GUBERNSKI https://www.rvtv.ru/nashe-sro.html
+  COM • В 3 подъезде ул
+https://www.rvtv.ru/pereplanirovka-kvartir-p30.html
+  Земская, д https://www.rvtv.ru/soglasovan-fasad.html
+  6 сидит очень голодная черная
+кошечка, может у кого-то убежала!?
+Сидит у лифтов в нише за батареями!
+Ждет новых или старых хозяев
+https://www.rvtv.ru/proekt-kvartiri.html
+   Либо смерти на улице
+https://www.rvtv.ru/tehobsled.html
+   • GUBERNSKI
+https://www.rvtv.ru/rasporyazhenie-moszhilinspekcii.html
+  COM 
+Наконец, после всей бумажной волокиты,
+можно приступать к ремонту
+https://www.rvtv.ru/pereplan-nezhil.html
+   Который необходимо закончить за
+определенный период времени, срок
+указывается в документах и может
+различаться в зависимости от региона
+https://www.rvtv.ru/razreshen-stroika.html
+   К примеру, в Москве он составляет 12
+месяцев https://www.rvtv.ru/nashi-proekti.html
+ 
+— получить технический паспорт на
+помещение- подготовить проект
+перепланировки или техническое
+заключение и согласовать данную
+документацию в соответствующих
+инстанциях- оплатить штраф за
+самовольную перепланировку- подать
+требуемый комплект документов с
+соответствующим заявлением на
+получение муниципальной услуги
+согласования перепланировки
+https://www.rvtv.ru/zakazchiki.html
+ 
+"
+
+You can contact Brianwak via email, naphtloxua-5550@mail.ru
+
+--1667841564-eximdsn-1886448850--

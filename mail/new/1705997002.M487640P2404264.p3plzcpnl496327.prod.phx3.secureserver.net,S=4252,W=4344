@@ -1,0 +1,92 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id YC+UHMpyr2WoryQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 23 Jan 2024 01:03:22 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 23 Jan 2024 01:03:22 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rSBkg-00A5SL-1L
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 23 Jan 2024 01:03:22 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rSBkb-00A5RK-2m@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1705997002-eximdsn-542436375
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rSBkg-00A5SL-1L@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 23 Jan 2024 01:03:22 -0700
+
+--1705997002-eximdsn-542436375
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 SBkgr5L9dQuZf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=aIRTqq9m c=1 sm=1 tr=0 ts=65af72ca p=y04VFbhnvR9UdnmEDgmP:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dEuoMetlWLkA:10 a=-wuKhKTYAAAA:8 a=AK2cLiOhAAAA:8 a=phxojPN2ztFWKJUta5YA:9 a=QEXdDO2ut3YA:10 a=6T9lJ1mdzKEA:10 a=_7RfyiUQNXaa0K7BB3I5:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1705997002-eximdsn-542436375
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 SBkgr5L9dQuZf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=aIRTqq9m c=1 sm=1 tr=0 ts=65af72ca p=y04VFbhnvR9UdnmEDgmP:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dEuoMetlWLkA:10 a=-wuKhKTYAAAA:8 a=AK2cLiOhAAAA:8 a=phxojPN2ztFWKJUta5YA:9 a=QEXdDO2ut3YA:10 a=6T9lJ1mdzKEA:10 a=_7RfyiUQNXaa0K7BB3I5:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1705997002-eximdsn-542436375
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rSBkb-00A5RK-2m
+	for ginojohn@gmail.com;
+	Tue, 23 Jan 2024 01:03:22 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by David Lopez.
+X-PHP-Script: ststephenssanjose.org/contact.php for 207.244.230.82
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 207.244.230.82
+From: davidlopez@davidlopez.com
+Reply-To: davidlopez@davidlopez.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rSBkb-00A5RK-2m@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 23 Jan 2024 01:03:17 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by David Lopez, and the message is as follows.
+
+"Hola,
+
+It's David from patreon .
+https://www.patreon.com/onlinestore/shop/pro-3d-logo-design-elevate-your-brand-110720
+Buy one and get 4 free logos.
+offer ends this weekend
+
+
+David Lopez
+Petreon Experts"
+
+You can contact David Lopez via email, davidlopez@davidlopez.com
+
+--1705997002-eximdsn-542436375--

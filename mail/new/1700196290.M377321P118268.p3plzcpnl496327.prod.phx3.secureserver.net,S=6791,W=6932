@@ -1,0 +1,141 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 2+ILFsLvVmX8zQEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 16 Nov 2023 21:44:50 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 16 Nov 2023 21:44:50 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r3qio-000UlQ-9u
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 16 Nov 2023 21:44:50 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r3qij-000Ujq-KB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700196290-eximdsn-412734966
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r3qio-000UlQ-9u@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 16 Nov 2023 21:44:50 -0700
+
+--1700196290-eximdsn-412734966
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 3qiorcwrCjLE1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=6556efc2 p=vVXHf1tnoyUmrqoSBu_3:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=zN8bs53jGFAA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=rij58HxlOXoA:10 a=huvbmMDMAAAA:8 a=U2Plp-BDAAAA:8 a=69EAbJreAAAA:8 a=Flaql2ue9ht-rKoGZfAA:9 a=QEXdDO2ut3YA:10 a=-Knip5BYKWkA:10 a=E3JengKWPXIA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=4qW6d3AUPwk9vKO5kFe-:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1700196290-eximdsn-412734966
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 3qiorcwrCjLE1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=6556efc2 p=vVXHf1tnoyUmrqoSBu_3:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=zN8bs53jGFAA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=rij58HxlOXoA:10 a=huvbmMDMAAAA:8 a=U2Plp-BDAAAA:8 a=69EAbJreAAAA:8 a=Flaql2ue9ht-rKoGZfAA:9 a=QEXdDO2ut3YA:10 a=-Knip5BYKWkA:10 a=E3JengKWPXIA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=4qW6d3AUPwk9vKO5kFe-:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1700196290-eximdsn-412734966
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r3qij-000Ujq-KB
+	for ginojohn@gmail.com;
+	Thu, 16 Nov 2023 21:44:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Clara Marsh.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 196.242.195.26
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.242.195.26
+From: marsh.clara@hotmail.com
+Reply-To: marsh.clara@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r3qij-000Ujq-KB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 16 Nov 2023 21:44:45 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Clara Marsh, and the message is as follows.
+
+"To the ststephenssanjose.org Webmaster. My name’s Clara and I’ve
+just ran across your site at ststephenssanjose.org...
+
+I located it after a swift look, so your SEO is performing well…
+
+Content seems good…
+
+However, one thing’s lacking though…
+
+A FAST, SIMPLE way to get in touch with you IMMEDIATELY.
+
+Because research reveal that a visitor like me will only stay a short
+time – 7 out of 10 vanish almost instantly, Click Browse Click…
+then disappeared.
+
+I’ve got the remedy:
+
+Web Visitors Into Leads is a tool that’s functions on your website,
+set to catch any visitor Name, Email address, and Phone Number.
+You’d know right away they’re intrigued, and you can phone 
+directly to CHAT with them - virtually while they’re still on the
+web browsing your site.
+
+CLICK HERE https://advanceleadgeneration.com to experience a Live Demo
+with Web Visitors Into Leads right now to see just how it functions
+and even go… it could be huge for your company.
+
+Moreover, now that you’ve got the phone number, with our new SMS
+Text With Lead feature you can instantly start a text conversation
+immediately… which is so powerful, because connecting in 5 minutes
+is 100 times more efficient than waiting 30 minutes or more later.
+
+The new texting function lets you follow up frequently with  content
+links, even just follow-up notes to forge a connection.
+
+All I’ve just outlined is very easy to put in place, cost-effective,
+and beneficial.
+
+CLICK HERE https://advanceleadgeneration.com to find out what Web
+Visitors Into Leads can achieve for your business, potentially up to
+100X more eyeballs into leads today!
+
+Clara
+PS: Web Visitors Into Leads provides a FREE 14 day trial – and it
+features International Long Distance Calls. 
+There are customers eager to speak with you right now… don’t leave
+them waiting. 
+CLICK HERE https://advanceleadgeneration.com to try out Web Visitors
+Into Leads today.
+
+Should you wish to unsubscribe click here
+https://advanceleadgeneration.com/unsubscribe.aspx?d=ststephenssanjose.org
+
+Merely a fast note - the names and email used here, Clara and Marsh,
+are placeholders and not real contact information. We appreciate
+transparency and want to ensure sure you’re aware! If you wish to
+reach out with the actual person behind this message, please visit our
+website, and we’ll link you with the right individual.}
+"
+
+You can contact Clara Marsh via email, marsh.clara@hotmail.com
+
+--1700196290-eximdsn-412734966--

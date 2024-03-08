@@ -1,0 +1,131 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id qI+6OtuTF2StJTAAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 19 Mar 2023 15:59:39 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 19 Mar 2023 15:59:39 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pe203-00DINx-Pn
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sun, 19 Mar 2023 15:59:39 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pe1zy-00DIHV-Au@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1679266779-eximdsn-2020917500
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pe203-00DINx-Pn@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 19 Mar 2023 15:59:39 -0700
+
+--1679266779-eximdsn-2020917500
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 e203pyZj5elrp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=641793db p=N64h4T1_uCMQsdhr2gwA:9 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=0u99E3YO6cUA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=-x2tLDgZ0H0A:10 a=njEoReLTAAAA:8 a=mK_AVkanAAAA:8 a=QEXdDO2ut3YA:10 a=3IKY2SKE2_QA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=q8F0RBQbOCbVIdAb4kzs:22 a=Opjcf2rbXONI77XeNpWh:22 a=3gWm3jAn84ENXaBijsEo:22 ::
+    100.00
+
+--1679266779-eximdsn-2020917500
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 e203pyZj5elrp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=641793db p=N64h4T1_uCMQsdhr2gwA:9 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=0u99E3YO6cUA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=-x2tLDgZ0H0A:10 a=njEoReLTAAAA:8 a=mK_AVkanAAAA:8 a=QEXdDO2ut3YA:10 a=3IKY2SKE2_QA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=q8F0RBQbOCbVIdAb4kzs:22 a=Opjcf2rbXONI77XeNpWh:22 a=3gWm3jAn84ENXaBijsEo:22 :: 100.00
+
+--1679266779-eximdsn-2020917500
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pe1zy-00DIHV-Au
+	for ginojohn@gmail.com;
+	Sun, 19 Mar 2023 15:59:39 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Thurman Truebridge.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.192.236
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.192.236
+From: thurman.truebridge@googlemail.com
+Reply-To: thurman.truebridge@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pe1zy-00DIHV-Au@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 19 Mar 2023 15:59:34 -0700
+
+You have been contacted by Thurman Truebridge, and the message is as
+follows.
+
+"Hey there!
+
+Have you heard about ChatGPT that has taken over the internet like a
+storm.
+
+Well, it's the new cutting-edge revolution that is skyrocketing the
+business & sales like never before…
+
+And seeing the endless possibilities and profit potential we
+developed…
+
+Ai Hub - The world’s first 20-In One ChatGPT-powered app Suite
+that…
+
+✅ Generates human-like responses to complex questions…
+✅ Creates high-quality Video…
+✅ Creates high-quality content…
+✅ Crafts high-converting marketing materials…
+✅ Writes codes…
+✅ And designs stunning Ai graphics & art…
+
+And much more..
+
+
+>>Click here to see AiHub DEMO Video
+https://warriorplus.com/o2/a/h95m06/0
+
+And the best part?
+
+When you have this 20-In One  ChatGPT-powered App Suite
+
+You don’t need to …
+
+❌Hire expensive Video creator Agency…
+❌Hire expensive copywriters and content writers…
+❌Spending money on website & funnel designers…
+❌Paying through your nose to expensive web developers & coders…
+
+Just cancel all your existing expensive tools & services…
+Simply because you’re getting a revolutionary one-stop-shop solution
+for all your marketing needs…
+
+Sounds like a deal breaker?
+
+>> Click here to activate your “20-In One” ChatGPT (OpenAi) 
+Powered App Suite
+https://warriorplus.com/o2/a/h95m06/0
+
+Regards,
+"
+
+You can contact Thurman Truebridge via email,
+thurman.truebridge@googlemail.com
+
+--1679266779-eximdsn-2020917500--

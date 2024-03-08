@@ -1,0 +1,94 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id QnLZGunAzmT/ojIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 05 Aug 2023 14:36:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 05 Aug 2023 14:36:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qSOwz-00DvPb-CL
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 05 Aug 2023 14:36:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qSOwu-00DvNZ-Qp@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1691271401-eximdsn-465520405
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qSOwz-00DvPb-CL@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 05 Aug 2023 14:36:41 -0700
+
+--1691271401-eximdsn-465520405
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 SOwzqt9VIb3ts :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64cec0e9 p=jj6XQFaVmj8A:10 p=180oe778i6Pp3WmOAg8f:22 p=yxvKO1Mq19dv-inFLp25:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=Pzg8vNy__M8A:10 a=I81zQO0CAAAA:8 a=RgBw9RmQAAAA:8 a=lDPlUZR2bnYiwyctTSQA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=OeeOAbBkZAUA:10 a=KyYZJfTCSdMA:10 a=oD0oiljh5vn_dTCGJr3m:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1691271401-eximdsn-465520405
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 SOwzqt9VIb3ts :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64cec0e9 p=jj6XQFaVmj8A:10 p=180oe778i6Pp3WmOAg8f:22 p=yxvKO1Mq19dv-inFLp25:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=Pzg8vNy__M8A:10 a=I81zQO0CAAAA:8 a=RgBw9RmQAAAA:8 a=lDPlUZR2bnYiwyctTSQA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=OeeOAbBkZAUA:10 a=KyYZJfTCSdMA:10 a=oD0oiljh5vn_dTCGJr3m:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1691271401-eximdsn-465520405
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qSOwu-00DvNZ-Qp
+	for ginojohn@gmail.com;
+	Sat, 05 Aug 2023 14:36:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Vodazep.
+X-PHP-Script: ststephenssanjose.org/contact.php for 5.227.31.166
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 5.227.31.166
+From: ossianowaleksandr19942956@mail.ru
+Reply-To: ossianowaleksandr19942956@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qSOwu-00DvNZ-Qp@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 05 Aug 2023 14:36:36 -0700
+
+You have been contacted by Vodazep, and the message is as follows.
+
+"Мы развозим питьевую воду как
+частным, так и юридическим лицам. Наша
+транспортная служба осуществляет
+доставку питьевой воды на следующий
+день после заказа. 	 
+ 
+[url=http://xn----7sbfi1cac.xn--p1ai]вода сестрица
+нижний новгород заказать воду личный
+кабинет[/url]        
+Срочная доставка в день заказа
+доступна для владельцев клубных карт.
+Доставка воды происходит во все
+районы Нижнего Новгорода, в верхнюю и
+нижнюю части города:
+[url=http://xn----7sbfi1cac.xn--p1ai]вода-нн.рф[/url]"
+
+You can contact Vodazep via email, ossianowaleksandr19942956@mail.ru
+
+--1691271401-eximdsn-465520405--

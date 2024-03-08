@@ -1,0 +1,151 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id mAx+D6oXaWP4+zMAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 07:35:22 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 07:35:22 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os3De-00EK3a-3j
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 07:35:22 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os3Dd-00EK36-L4@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667831722-eximdsn-1866593604
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os3De-00EK3a-3j@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 07:35:22 -0700
+
+--1667831722-eximdsn-1866593604
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s3Ddonvx9a2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=636917aa p=Jun19vQliOoA:10 p=tE5yuuuYAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=HvOsAiH-r3UA:10 a=mem--OOHAAAA:8 a=gmC_S-_mZdcCKpH5aPIA:9 a=QEXdDO2ut3YA:10 a=smM5wco3pgoA:10 a=Xa3LfcIGkrwA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=xHRg0vlsE3N3EBgpcYDY:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667831722-eximdsn-1866593604
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s3Ddonvx9a2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=636917aa p=Jun19vQliOoA:10 p=tE5yuuuYAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=HvOsAiH-r3UA:10 a=mem--OOHAAAA:8 a=gmC_S-_mZdcCKpH5aPIA:9 a=QEXdDO2ut3YA:10 a=smM5wco3pgoA:10 a=Xa3LfcIGkrwA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=xHRg0vlsE3N3EBgpcYDY:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667831722-eximdsn-1866593604
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os3Dd-00EK36-L4
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 07:35:21 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by KevinStaft.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.106
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.106
+From: shmelev.serega.1988.25.10@bk.ru
+Reply-To: shmelev.serega.1988.25.10@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os3Dd-00EK36-L4@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 07:35:21 -0700
+
+You have been contacted by KevinStaft, and the message is as follows.
+
+"1045108910831080 1088107210891089108410721090108810801074107210901100
+1076107210901095108010821080
+10901077108410871077108810721090109110881099 107610831103
+1087108810861084109910961083107710851085108610751086
+1087108810801084107710851077108510801103, 10901086
+10841086107810851086 10741099107610771083108010901100 10801093
+10861089108510861074108510991077 108210831072108910891099:
+1082108810771084108510801077107410991077 1076107210901095108010821080
+10901077108410871077108810721090109110881099,
+107310801084107710901072108310831080109510771089108210801077
+1076107210901095108010821080, 1078108010761082108610891090108510991077
+1080 1075107210791086107410991077
+1090107710881084108610841077109010881099,
+109010771088108410861080108510761080108210721090108610881099,
+1090107710881084108010891090108610881099,
+109010771088108410861087107210881099,
+10901077108810841086108710881077108610731088107210791086107410721090107710831080
+1089108610871088108610901080107410831077108510801103,
+108010851092108810721082108810721089108510991077
+1076107210901095108010821080 http://attblime.ru/
+ 
+Нивелиры подразделяются на три
+группы: высокоточные, точные и
+технические http://attblime.ru/
+  По названию групп видно, что основная
+характеристика для разделения
+оптических нивелиров на группы -
+точность http://attblime.ru/
+  Точность оптического нивелира
+определяется средней квадратической
+погрешностью измерения превышения на
+1 км двойного хода http://attblime.ru/
+  Значение погрешности приводится в
+миллиметрах http://attblime.ru/
+ 
+Управление процессом измерения
+обеспечивает­ся встроенной микро ЭВМ
+http://attblime.ru/
+  Результаты измерения с учетом
+по­правки на температуру воздуха и
+атмосферное давление высве­чиваются
+на цифровом табло и могут быть введены
+в регистриру­ющее устройство
+http://attblime.ru/
+  В приборе имеется звуковая
+сигнализация об­наружения
+отраженного сигнала, готовности
+результата измере­ния и
+разряженности источника питания
+http://attblime.ru/
+  В комплект светодаль­номера входят:
+отражатели, штативы, источники
+питания, за­рядное устройство,
+барометр, термометр, набор
+инструментов и принадлежностей
+http://attblime.ru/
+ 
+— в большинстве случаев гало слабо
+окрашено, присутствует только красныи
+и оранжевый цвета, остальные видны
+хуже в редких случаях гало бывает
+полноцветным 
+разработка и создание новых учебных
+методик для студентов 3-6 курсов МФТИ,
+включая постановку новых
+лабораторных работ по современным
+достижениям в Фотонике 
+Если избрать нашу планету центральной
+точкой в которой мы находимся СЕЙЧАС,
+то все что удалено  от нас в разные
+стороны Космоса мы видим в прошлом
+свете, а не в настоящем http://attblime.ru/
+ 
+"
+
+You can contact KevinStaft via email, shmelev.serega.1988.25.10@bk.ru
+
+--1667831722-eximdsn-1866593604--

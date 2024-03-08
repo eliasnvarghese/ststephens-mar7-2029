@@ -1,0 +1,171 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id xA/wF4EjF2UqmRIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 29 Sep 2023 12:20:33 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 29 Sep 2023 12:20:33 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qmJ2P-00574u-Ae
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 29 Sep 2023 12:20:33 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qmJ2K-0056dk-K6@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696015233-eximdsn-1612560317
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qmJ2P-00574u-Ae@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 29 Sep 2023 12:20:33 -0700
+
+--1696015233-eximdsn-1612560317
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 mJ2Pq9mMOWGna :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=B/5/kshM c=1 sm=1 tr=0 ts=65172381 p=cp3V1iHOov8A:10 p=u8g7T383eWcA:10 p=aegmnsKlAAAA:20 p=3fj6BTtdG4ZF1uKGl1gA:9 p=UmDeZTEGdd8gpPWMpdVV:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=XHxqdxw0wxcA:10 a=KyYZJfTCSdMA:10 a=WI0Wafrnt9FA9bXEOexq:22 a=nEfCj02ENx0XftfeKkc6:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1696015233-eximdsn-1612560317
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 mJ2Pq9mMOWGna :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=B/5/kshM c=1 sm=1 tr=0 ts=65172381 p=cp3V1iHOov8A:10 p=u8g7T383eWcA:10 p=aegmnsKlAAAA:20 p=3fj6BTtdG4ZF1uKGl1gA:9 p=UmDeZTEGdd8gpPWMpdVV:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=XHxqdxw0wxcA:10 a=KyYZJfTCSdMA:10 a=WI0Wafrnt9FA9bXEOexq:22 a=nEfCj02ENx0XftfeKkc6:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1696015233-eximdsn-1612560317
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qmJ2K-0056dk-K6
+	for ginojohn@gmail.com;
+	Fri, 29 Sep 2023 12:20:33 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Alex Holland.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.82.40.227
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.82.40.227
+From: alex.holland@gmail.com
+Reply-To: alex.holland@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qmJ2K-0056dk-K6@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 29 Sep 2023 12:20:28 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Alex Holland, and the message is as
+follows.
+
+"Hey Guys,
+
+In case you haven’t noticed, email marketing is getting a revamp.
+
+How? Thanks to this new-gen autoresponder that can handle email
+management better than you could ever do it yourself.
+ 
+We’re talking about 350 billion emails sent and received every day!
+
+That’s a clear sign you HAVE to step in and take your share.
+ 
+And what better way to do this than using an Ai-powered autoresponder
+that writes emails for you, finds you leads and comes with SMTP
+sending servers…all for a one-time price!
+ 
+=> Get started with this new “all inclusive” autoresponder
+===>>> https://bit.ly/EmailAIOffer
+  
+Today you can get stronger than ever before with your email marketing
+campaigns while leaving ALL hurdles behind.
+ 
+Introducing ProfitReply Ai – the best and only autoresponder
+you’ll ever need (99% uptime, 99% deliverability, 100%
+reliability!)
+ 
+It comes with built-in sending servers & dedicated IPs to get your
+offers inboxed in a matter of seconds.
+
+YES, smoothly send your emails to thousands of people at the same time
+without worrying about additional costs, restrictions or technical
+problems.
+ 
+Don’t have a list? Don’t know how to write an email? Ai to the
+rescue!
+ 
+Just watch it find top quality leads that you can upload, clean and
+start mailing from the very first moment.
+ 
+ProfitReply Ai even has an automated solution for email writing.
+
+No more racking your brains trying to become a copywriter overnight
+– let the Ai do the writing (subject lines included!)
+ 
+All these and more are waiting for you inside! 
+ 
+Go check it out HERE
+===>>> https://bit.ly/EmailAIOffer
+ 
+I bet you’re curious to know all about this cutting-edge cloud
+autoresponder so here are some of its main features:
+ 
+[+] Unlock the “unlimited” package – unlimited emails,
+leads, SMS texts, Instagram messages, email copy, imports
+[+] Dedicated SMTP sending servers already preconfigured
+[+] Dedicated IP pools preconfigured for optimal delivery
+[+] Ai gets you fresh leads to email right away
+[+] Ai does all the email writing for you on autopilot (no more
+stressing about being creative)
+[+] Proven top deliverability and uptime stats that never
+disappoint – watch the sales pour without restrictions
+[+] Highest list leads limit for an autoresponder (keep up to
+1 million leads!)
+[+] Instant import, no double opt-in/verification required
+[+] NEW: send SMS messages to ANYONE from the very same app
+[+] List cleaner included for high open rates
+[+] Zero monthly fees, pay once and enjoy the full benefits package
+FOREVER with no restrictions
+[+] Mobile responsive & newbie friendly (anyone can earn with it!)
+ 
+And there’s more but you really have to see it for yourself to
+believe it.
+ 
+ProfitReply Ai has exceeded all expectations.
+
+There are thousands of customers relying completely on this app for
+their email marketing needs and the feedback is incredible!
+ 
+The Ai component is taking everything to the next level: Zero work,
+maximum profit!
+ 
+Are you ready to enter this new age of email marketing with us?
+ 
+=> Secure your copy at the early bird price
+===>>> https://bit.ly/EmailAIOffer
+
+Good Luck, 
+Alex
+"
+
+You can contact Alex Holland via email, alex.holland@gmail.com
+
+--1696015233-eximdsn-1612560317--

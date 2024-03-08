@@ -1,0 +1,155 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id GAPKLqonPGWctBEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 27 Oct 2023 14:12:10 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 27 Oct 2023 14:12:10 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qwU7m-004std-NI
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 27 Oct 2023 14:12:10 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qwU7f-004srF-4Q@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698441130-eximdsn-1222362392
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qwU7m-004std-NI@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 27 Oct 2023 14:12:10 -0700
+
+--1698441130-eximdsn-1222362392
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wU7kqZUt6iYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=653c27aa p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Qr85x1lbGmMA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=1LUzzahBBoQA:10 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=KJBHZIG6NAzSrvdF8E8A:9 a=QEXdDO2ut3YA:10 a=bk9QSK4G-ggA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=aATcpMII4JXx1SYfMKtH:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1698441130-eximdsn-1222362392
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 wU7kqZUt6iYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=653c27aa p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Qr85x1lbGmMA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=1LUzzahBBoQA:10 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=KJBHZIG6NAzSrvdF8E8A:9 a=QEXdDO2ut3YA:10 a=bk9QSK4G-ggA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=aATcpMII4JXx1SYfMKtH:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1698441130-eximdsn-1222362392
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qwU7f-004srF-4Q
+	for ginojohn@gmail.com;
+	Fri, 27 Oct 2023 14:12:08 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Celeste Wentcher.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 196.245.159.12
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.245.159.12
+From: wentcher.celeste@msn.com
+Reply-To: wentcher.celeste@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qwU7f-004srF-4Q@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 27 Oct 2023 14:12:03 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Celeste Wentcher, and the message is as
+follows.
+
+"Dear to ststephenssanjose.org Webmaster.
+
+Great website!
+
+ name’s Celeste, and I recently found your site -
+ststephenssanjose.org - when surfing the net. Your site popped up at
+the very top of the search results, so I looked you out. Looks like
+what you’re doing is really interesting.
+
+But if you don’t mind me asking – after someone like me comes
+across ststephenssanjose.org, what typically happens?
+
+Is your site create leads for your business?
+
+I’m guessing a few, but I also assume you’d prefer more…
+research suggest that 7 out 10 who land on a site end up leaving
+without any interaction.
+
+That's unfortunate.
+
+Here’s a suggestion – what if there's an effortless way for each
+visitor to “raise their hand” to get a phone call from you
+INSTANTLY… the second they land on your site and expressed, “call
+me now.”
+
+You can –
+
+Web Visitors Into Leads is a tool widget that’s functions on your
+site, set to capture any visitor’s Name, Email address and Phone
+Number. It lets you be informed INSTANTLY – so that you can chat to
+that lead as they’re actually looking over your site.
+
+CLICK HERE https://bit.ly/LeadGena to experience a Live Demo with Web
+Visitors Into Leads now to see exactly how it works.
+
+Time is essential when it comes to connecting with leads – the
+difference between reaching out to someone in just 5 minutes versus 30
+minutes later can be huge – like 100 times more effective!
+
+That’s why we created out our new SMS Text With Lead capability…
+since after you’ve collected the visitor’s phone number, you can
+instantly start a text message (SMS) chat.
+
+Imagine about the opportunities – even if you don’t close a deal
+immediately, you can keep in touch with text messages for new
+promotions, content links, even just “how you doing?” notes to
+create a relationship.
+
+Wouldn’t that be fantastic?
+
+CLICK HERE https://bit.ly/LeadGena to find out what Web Visitors Into
+Leads can offer for your business.
+
+You might be turning up to 100X more leads today!
+Celeste
+
+PS: Web Visitors Into Leads provides a FREE 14 days trial – and it
+also includes International Long Distance Calling. 
+You have customers waiting to chat with you at this moment… don’t
+leave them waiting. 
+CLICK HERE https://bit.ly/LeadGena to try Web Visitors Into Leads
+today.
+
+If you'd prefer to unsubscribe click here https://bit.ly/3rD0G5c
+
+Only a quick note - the names and email used here, Celeste and
+Wentcher, are placeholders and not real contact details. We cherish
+transparency and wish to ensure sure you’re alerted! If you wish to
+come in touch with the genuine person responsible for this message,
+please visit our site, and we’ll associate you with the correct
+individual.
+"
+
+You can contact Celeste Wentcher via email, wentcher.celeste@msn.com
+
+--1698441130-eximdsn-1222362392--

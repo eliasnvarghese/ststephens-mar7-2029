@@ -1,0 +1,117 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 2D9IEqnG/GSCESoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 09 Sep 2023 12:25:29 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 09 Sep 2023 12:25:29 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qf3aD-00BZDX-7q
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 09 Sep 2023 12:25:29 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qf3a8-00BZCY-39@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1694287529-eximdsn-2122754720
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qf3aD-00BZDX-7q@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 09 Sep 2023 12:25:29 -0700
+
+--1694287529-eximdsn-2122754720
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 f3aDq2nHc2vUR :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IobYMpzg c=1 sm=1 tr=0 ts=64fcc6a9 p=r9TlYDKCYJQA:10 p=DUWKCrwoAAAA:20 p=UKX0Z812R10A:10 p=4birSYDEOPPMis71fXUH:22 p=TwbwwhQkIKT8aHcS99DR:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=M1YJyTkwy3gA:10 a=pGLkceISAAAA:8 a=YmDxjkAQ_SeJQRTmOD4A:9 a=QEXdDO2ut3YA:10 a=PTtBt2dwWNAA:10 a=KyYZJfTCSdMA:10 a=36IW4HArdRsVHQ4RoK1n:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1694287529-eximdsn-2122754720
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 f3aDq2nHc2vUR :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IobYMpzg c=1 sm=1 tr=0 ts=64fcc6a9 p=r9TlYDKCYJQA:10 p=DUWKCrwoAAAA:20 p=UKX0Z812R10A:10 p=4birSYDEOPPMis71fXUH:22 p=TwbwwhQkIKT8aHcS99DR:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=M1YJyTkwy3gA:10 a=pGLkceISAAAA:8 a=YmDxjkAQ_SeJQRTmOD4A:9 a=QEXdDO2ut3YA:10 a=PTtBt2dwWNAA:10 a=KyYZJfTCSdMA:10 a=36IW4HArdRsVHQ4RoK1n:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1694287529-eximdsn-2122754720
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qf3a8-00BZCY-39
+	for ginojohn@gmail.com;
+	Sat, 09 Sep 2023 12:25:29 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Adam Peck.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.19.76
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.19.76
+From: adam.peck@gmail.com
+Reply-To: adam.peck@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qf3a8-00BZCY-39@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 09 Sep 2023 12:25:24 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Adam Peck, and the message is as follows.
+
+"You can think me later for pointing this out to you. I should
+actually charge a finders fee for finding something with so much value
+and information that will increase your blog business X10.
+
+However, and it is a big however, you only have until Sunday to pick
+this up at the massively discounted price.
+
+So it’s this weekend or never I’m afraid.
+
+===>>> bit.ly/BloggerRoadMaps
+
+The urgency aside, the response has been great for The Bloggers
+Roadmap. It really is a well put together, highly informative book
+which you can go back to time and time again.
+
+I would be inclined to call it a survival manual.
+
+It covers just about everything you need to know including:
+
+Traffic
+Community Interaction
+Building Subscribers
+Monetizing
+And How to put it all together
+
+Check it out, you won’t be disappointed.
+
+===>>> bit.ly/BloggerRoadMaps
+
+Thanks for reading,
+
+Adam
+
+P.S. Remember, this is only available until Sunday night. 
+"
+
+You can contact Adam Peck via email, adam.peck@gmail.com
+
+--1694287529-eximdsn-2122754720--

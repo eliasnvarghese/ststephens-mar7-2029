@@ -1,0 +1,111 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 6EjGJmH7/2QOiQYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 11 Sep 2023 22:47:13 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 11 Sep 2023 22:47:13 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qfwEz-001nfJ-JG
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 11 Sep 2023 22:47:13 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qfwEu-001neP-N9@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1694497633-eximdsn-1644472573
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qfwEz-001nfJ-JG@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 11 Sep 2023 22:47:13 -0700
+
+--1694497633-eximdsn-1644472573
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 fwEzqRMzJzbc9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=64fffb61 p=IQhCAJ83Mz8A:10 p=8AE-dh-7AAAA:8 p=o8Ko6kEpup3OvBtEkCbo:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=DOJCkIrjZf4A:10 a=WgajDfuaAAAA:20 a=RgBw9RmQAAAA:8 a=axvZYlJ_tVHDQL0cM2cA:9 a=QEXdDO2ut3YA:10 a=rloTeh5xaU4A:10 a=KyYZJfTCSdMA:10 a=WbYZ5EyZ5ULQOI01wHdr:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1694497633-eximdsn-1644472573
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 fwEzqRMzJzbc9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=64fffb61 p=IQhCAJ83Mz8A:10 p=8AE-dh-7AAAA:8 p=o8Ko6kEpup3OvBtEkCbo:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=DOJCkIrjZf4A:10 a=WgajDfuaAAAA:20 a=RgBw9RmQAAAA:8 a=axvZYlJ_tVHDQL0cM2cA:9 a=QEXdDO2ut3YA:10 a=rloTeh5xaU4A:10 a=KyYZJfTCSdMA:10 a=WbYZ5EyZ5ULQOI01wHdr:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1694497633-eximdsn-1644472573
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qfwEu-001neP-N9
+	for ginojohn@gmail.com;
+	Mon, 11 Sep 2023 22:47:13 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Stefandow.
+X-PHP-Script: ststephenssanjose.org/contact.php for 111.90.140.111
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 111.90.140.111
+From: glasnowst@mail.ru
+Reply-To: glasnowst@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qfwEu-001neP-N9@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 11 Sep 2023 22:47:08 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Stefandow, and the message is as follows.
+
+"[center][size=4][b]í ¼í¾‰ Join the Crypto Revolution with
+AnubisSwap.xyz! í ½íº€í ¼í¼Œ[/b][/size][/center] 
+ 
+Are you ready for a trading experience like never before?
+AnubisSwap.xyz is here to take your crypto journey to the next level!
+We're thrilled to introduce the FIRST exchange with [b]Virtual Reality
+(VR)[/b] and [b]Augmented Reality (AR)[/b] features, adding a whole
+new dimension to crypto trading. 
+ 
+[b]í ¼í¼Ÿ Immerse Yourself in VR:[/b] Imagine trading in a virtual
+world, where every movement is synced with your crypto actions.
+Witness your portfolio growth like never before, surrounded by an
+engaging VR environment that makes trading an adventure. 
+ 
+[b]í ½íº€ Unleash the Power of AR:[/b] Augmented Reality overlays
+provide real-time insights and data right in front of your eyes.
+Visualize market trends, track assets, and make informed decisions
+with the power of AR technology. 
+ 
+Join our [url=https://t.me/cryptobrotherofficial]Telegram
+community[/url] to stay updated and be part of the innovation that's
+changing the game. And don't miss the opportunity to be part of our
+upcoming [b]Presale on PinkSale[/b] â€“ your chance to own a piece of
+the future! 
+ 
+Are you ready to embrace the future of crypto trading? Join us now and
+let's create history together! 
+ 
+[b]í ½í²Ží ½í´¥ #AnubisSwap #CryptoTrading #VR #AR #Innovation[/b]"
+
+You can contact Stefandow via email, glasnowst@mail.ru
+
+--1694497633-eximdsn-1644472573--

@@ -1,0 +1,127 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id OqJMJKvfXGWS/CgACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 21 Nov 2023 09:49:47 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 21 Nov 2023 09:49:47 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r5TwZ-00BGm2-Hk
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 21 Nov 2023 09:49:47 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r5TwU-00BGko-RK@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700585387-eximdsn-83863672
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r5TwZ-00BGm2-Hk@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 21 Nov 2023 09:49:47 -0700
+
+--1700585387-eximdsn-83863672
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 5TwZrn212iYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=655cdfab p=VD_o5YOSAh22HocdeaVh:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=qFJBljtaP_kA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=-hWfZCDHpZgA:10 a=2aMifrPhAAAA:20 a=69EAbJreAAAA:8 a=VtxI_2OrurfdHvs_MuUA:9 a=QEXdDO2ut3YA:10 a=QLwk4peo_O4A:10 a=tox7T2V0YSgA:10 a=_8TQhqeBM0oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1700585387-eximdsn-83863672
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 5TwZrn212iYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=655cdfab p=VD_o5YOSAh22HocdeaVh:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=qFJBljtaP_kA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=-hWfZCDHpZgA:10 a=2aMifrPhAAAA:20 a=69EAbJreAAAA:8 a=VtxI_2OrurfdHvs_MuUA:9 a=QEXdDO2ut3YA:10 a=QLwk4peo_O4A:10 a=tox7T2V0YSgA:10 a=_8TQhqeBM0oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1700585387-eximdsn-83863672
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r5TwU-00BGko-RK
+	for ginojohn@gmail.com;
+	Tue, 21 Nov 2023 09:49:47 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Shelia Whalen.
+X-PHP-Script: ststephenssanjose.org/contact.php for 154.12.210.130
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 154.12.210.130
+From: shelia.whalen@hotmail.com
+Reply-To: shelia.whalen@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r5TwU-00BGko-RK@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 21 Nov 2023 09:49:42 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Shelia Whalen, and the message is as
+follows.
+
+"Weight loss stuck? You may have a toxic fatty acid that blocks weight
+loss. 
+
+According to Newcastle University in England, this fatty acid forces
+fat cells to stream into your blood… 
+
+And causes your body to pack on internal visceral fat. 
+
+Click here for the details- https://tinyurl.com/3kd73x6k
+
+Once this happens, your fat-burning metabolism slows down to a
+crawl… your hormones completely shut down… and your body stores
+fat instead of burning them as energy. 
+
+Fortunately, a renegade doctor from Japan has uncovered a natural
+“belly fat Drāno” juice that flushes out this toxic fatty acid
+from your body. 
+
+Click here for the details- https://tinyurl.com/3kd73x6k
+
+ 67,129 folks are drinking this delicious juice every morning… 
+
+And they’re losing an average of 28 lbs – in as little as 21 days!
+
+
+>>> drink 1 cup every morning to lose “spare-tire” belly in record
+time 
+
+Click here for the details- https://tinyurl.com/3kd73x6k
+
+Robert lost 62 lbs of deadly fat clogging up his arteries and
+completely transformed his body in his 40s. 
+
+His wife Sonya also lost 38 lbs and 4 dress sizes… and it forced her
+to shop for a whole new wardrobe!
+
+Click here for the details- https://tinyurl.com/3kd73x6k
+
+To your good health,
+
+Thanks
+Jessica
+
+"
+
+You can contact Shelia Whalen via email, shelia.whalen@hotmail.com
+
+--1700585387-eximdsn-83863672--

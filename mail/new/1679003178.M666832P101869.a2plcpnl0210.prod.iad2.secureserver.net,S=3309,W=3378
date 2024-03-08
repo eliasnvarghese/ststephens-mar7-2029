@@ -1,0 +1,69 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id cJbsJSqOE2TtjQEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 16 Mar 2023 14:46:18 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 16 Mar 2023 14:46:18 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pcvQQ-000Su2-GO
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Thu, 16 Mar 2023 14:46:18 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pcvQL-000SsJ-UC@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pcvQQ-000Su2-GO@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 16 Mar 2023 14:46:18 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pcvQL-000SsJ-UC
+	for ginojohn@gmail.com;
+	Thu, 16 Mar 2023 14:46:13 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by TeplicaGet.
+X-PHP-Script: ststephenssanjose.org/contact.php for 95.79.217.158
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 95.79.217.158
+From: louratug@mail.ru
+Reply-To: louratug@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pcvQL-000SsJ-UC@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 16 Mar 2023 14:46:13 -0700
+
+You have been contacted by TeplicaGet, and the message is as follows.
+
+"Производство усиленных теплиц из
+поликарбоната в Арзамасе и области 
+Сейчас в частном сельском хозяйстве
+все более широкое распространение
+получают теплицы, сделанные из
+поликарбоната. Они стали настоящим
+спасением для всех, кто хочет
+выращивать у себя на даче натуральные
+продукты без химии и лишних затрат.
+Компания Омские теплицы всегда готова
+предложить Вам надежные и недорогие
+теплицы из поликарбоната. Предлагаем
+на выбор множество усиленных теплиц
+собственного производства, с
+гарантией качества. 
+	 
+[url=http://stroikann.ru/]Теплицы Нижний
+Новгород[/url]  - подробнее на сайте
+[url=http://stroikann.ru/]stroikann.ru[/url]"
+
+You can contact TeplicaGet via email, louratug@mail.ru

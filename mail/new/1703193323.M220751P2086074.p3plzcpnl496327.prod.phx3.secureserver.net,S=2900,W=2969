@@ -1,0 +1,69 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id zjCvDOuqhGW61B8ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 21 Dec 2023 14:15:23 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 21 Dec 2023 14:15:23 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rGQO3-008kgC-0S
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 21 Dec 2023 14:15:23 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rGQNy-008kf3-0j@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rGQO3-008kgC-0S@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 21 Dec 2023 14:15:23 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rGQNy-008kf3-0j
+	for ginojohn@gmail.com;
+	Thu, 21 Dec 2023 14:15:18 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Sammy Shupe.
+X-PHP-Script: ststephenssanjose.org/contact.php for 5.254.108.217
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 5.254.108.217
+From: shupe.dena@gmail.com
+Reply-To: shupe.dena@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rGQNy-008kf3-0j@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 21 Dec 2023 14:15:18 -0700
+
+You have been contacted by Sammy Shupe, and the message is as follows.
+
+"I hope this message finds you well. We'd like to highlight the
+advantages of outsourcing your web development to us:
+
+Specialized Expertise:
+Cost Efficiency:
+Focus on Core Functions:
+Flexibility and Scalability:
+Timely Delivery:
+Access to Latest Technologies:
+
+We'd love to discuss this further. When would be a convenient time for
+you? Looking forward to the possibility of partnering with you for
+your web development needs. Click here for more details:
+https://outsource-bpo.com/website/
+
+
+PS: If you are looking for high quality SEMRush links, we have
+handpicked/ selected links up for grabs at 
+https://alwaysdigital.co/ls/"
+
+You can contact Sammy Shupe via email, shupe.dena@gmail.com

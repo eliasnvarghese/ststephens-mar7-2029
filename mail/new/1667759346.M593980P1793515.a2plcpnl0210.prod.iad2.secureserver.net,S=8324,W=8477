@@ -1,0 +1,153 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id UF8bIfL8Z2PrXRsAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 06 Nov 2022 11:29:06 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 06 Nov 2022 11:29:06 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1orkOI-007ZOX-9U
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sun, 06 Nov 2022 11:29:06 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1orkOH-007ZNy-OC@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667759346-eximdsn-338167516
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1orkOI-007ZOX-9U@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 06 Nov 2022 11:29:06 -0700
+
+--1667759346-eximdsn-338167516
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rkOIoe8j7a2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=6367fcf2 p=pIpVNF8WAAAA:8 p=SAiCKnC1xNkA:10 p=_c_XAReUXSUA:10 p=xJK8DifFSTUA:10 p=M6dxvZYAMvgA:10 p=AtmlVQcjqQ4A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=z3ULzVM9AAAA:8 a=fop49tH9zniweslAgjYA:9 a=QEXdDO2ut3YA:10 a=JPs1t_Le7uYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=aJurOcoN9BXg0_Oufyv8:22 a=aC2TUO9nyKtkVkuG-GoU:22 ::
+    100.00
+
+--1667759346-eximdsn-338167516
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 rkOIoe8j7a2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=6367fcf2 p=pIpVNF8WAAAA:8 p=SAiCKnC1xNkA:10 p=_c_XAReUXSUA:10 p=xJK8DifFSTUA:10 p=M6dxvZYAMvgA:10 p=AtmlVQcjqQ4A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=z3ULzVM9AAAA:8 a=fop49tH9zniweslAgjYA:9 a=QEXdDO2ut3YA:10 a=JPs1t_Le7uYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=aJurOcoN9BXg0_Oufyv8:22 a=aC2TUO9nyKtkVkuG-GoU:22 :: 100.00
+
+--1667759346-eximdsn-338167516
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1orkOH-007ZNy-OC
+	for ginojohn@gmail.com; Sun, 06 Nov 2022 11:29:05 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by AlbertEpini.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.197.74.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.197.74.6
+From: zabirova_lena_1988_15_3@inbox.ru
+Reply-To: zabirova_lena_1988_15_3@inbox.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1orkOH-007ZNy-OC@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 06 Nov 2022 11:29:05 -0700
+
+You have been contacted by AlbertEpini, and the message is as follows.
+
+"Паркетная доска покрывается лаком (до
+7 слоев), причем не так, как паркет на
+объекте, в условиях , а еще на
+производстве
+https://floor-x.com/kovrolin/proizvoditeli_condor-carpets/
+  Это более износоустойчивый слой лака
+https://floor-x.com/kovrolin/brend_itc-balta-wild-luxury
+  Возможен другой вариант - когда
+дерево не покрывают лаком, а
+пропитывают смесью масла, воска и
+природных смол https://floor-x.com/nastennye-pokrytiya
+  Тогда цвет и фактура древесины
+получаются особенно интересными -
+проявляется насыщенный тон и четкий
+рисунок волокон https://floor-x.com/kovry
+ 
+Для создания красивого и ровного
+узора на паркете заранее разработаем
+его схему на листе бумаги
+https://floor-x.com/podlozhka
+  Будем брать правильные размеры
+комнаты и паркетин — в масштабе
+https://floor-x.com/brintons.html
+  Если на бумаге какой-либо ряд не
+помещается целыми планками, то схему
+переделываем таким образом, чтобы
+обрезные ряды располагались по
+периметру комнаты, а в центре — только
+целые https://floor-x.com/parket-i-parketnaya-doska
+  Начало укладывания паркетин тоже
+определяется узором
+https://floor-x.com/modulyss.html
+ 
+Перед укладкой паркета на теплый пол,
+необходимо проверить качество стяжки
+https://floor-x.com/brintons.html
+  Влажность стяжки должна составлять
+ниже 1,8%, прочность на сжатие – 30МПа и
+более, выровнена поверхность с
+перепадами не более 2мм на 2м
+https://floor-x.com/podlozhka
+ 
+поверхность покрытия выглядит
+несколько монотонно, с помощью планок
+направленных в одну сторону выложить,
+скажем, оригинальный орнамент не
+получится, зачастую паркетную доску
+укладывают так называемым  настилом, а
+диагональная укладка потребует много
+времени и затрат
+https://floor-x.com/index.php?route=product/manufacturer/info&manufacturer_id=24
+ 
+способ монтажа напольного покрытия
+позволяет в несколько раз быстрее
+выполнить работу https://floor-x.com/kovrovaya-plitka
+  Огромным плюсом есть использование
+замковой системы, что позволяет
+избежать возможной ошибки во время
+монтажа https://floor-x.com/object-carpet.html
+ 
+Вторым способом есть его посадка на
+клей https://floor-x.com/jacaranda-carpets.html
+  На лист фанеры или же ДСП наносится
+определенный слой клея и потом уже
+непосредственно на него крепиться
+напольное покрытие
+https://floor-x.com/kovrolin/cvet_biryuzoviy
+  Если вы решили уложить паркетную
+доску из бука, граба и некоторых
+экзотических пород древесины, то
+следите за тем, чтобы клей ни в коем
+случае не содержал воду
+https://floor-x.com/kovrolin/cvet_biryuzoviy
+ 
+"
+
+You can contact AlbertEpini via email,
+zabirova_lena_1988_15_3@inbox.ru
+
+--1667759346-eximdsn-338167516--

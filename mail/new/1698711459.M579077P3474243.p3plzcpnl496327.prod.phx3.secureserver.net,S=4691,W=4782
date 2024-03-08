@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 2MdvIqNHQGVDAzUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 30 Oct 2023 17:17:39 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 30 Oct 2023 17:17:39 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qxcRv-00EZtI-Gw
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 30 Oct 2023 17:17:39 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qxcRr-00EZs2-4J@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698711459-eximdsn-1108825860
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qxcRv-00EZtI-Gw@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 30 Oct 2023 17:17:39 -0700
+
+--1698711459-eximdsn-1108825860
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xcRvq3BkeiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=654047a3 p=Ug1X5VTHM5iZ5ZilRfTK:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=OFvYzBGzxAoA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=ljGeCViRq_gA:10 a=ag95yg4jAAAA:8 a=pGLkceISAAAA:8 a=UltZBJ7h7gXob93-S0MA:9 a=QEXdDO2ut3YA:10 a=aw-qkZnpnoIA:10 a=JMH9PztDAcQA:10 a=ReTcLrYgtZOfu6bAP0G9:22 a=hgNs7wpijuuhB6EgdliM:22 a=5iTD7Pz8Sw3vgo8lNc2a:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1698711459-eximdsn-1108825860
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 xcRvq3BkeiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=654047a3 p=Ug1X5VTHM5iZ5ZilRfTK:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=OFvYzBGzxAoA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=ljGeCViRq_gA:10 a=ag95yg4jAAAA:8 a=pGLkceISAAAA:8 a=UltZBJ7h7gXob93-S0MA:9 a=QEXdDO2ut3YA:10 a=aw-qkZnpnoIA:10 a=JMH9PztDAcQA:10 a=ReTcLrYgtZOfu6bAP0G9:22 a=hgNs7wpijuuhB6EgdliM:22 a=5iTD7Pz8Sw3vgo8lNc2a:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1698711459-eximdsn-1108825860
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qxcRr-00EZs2-4J
+	for ginojohn@gmail.com;
+	Mon, 30 Oct 2023 17:17:39 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Luisa Hodge.
+X-PHP-Script: ststephenssanjose.org/contact.php for 74.249.85.19
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 74.249.85.19
+From: luisa.hodge10@gmail.com
+Reply-To: luisa.hodge10@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qxcRr-00EZs2-4J@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 30 Oct 2023 17:17:35 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Luisa Hodge, and the message is as follows.
+
+"Hello St.Stephen's Jacobite Syriac Orthodox Church
+
+We noticed that your website is only listed in 8/2500+ directories.
+
+This will severely affect the clients you get for Peru
+
+Visit us on DirectoryBump.com to get listed in all the directories.
+
+"
+
+You can contact Luisa Hodge via email, luisa.hodge10@gmail.com
+
+--1698711459-eximdsn-1108825860--

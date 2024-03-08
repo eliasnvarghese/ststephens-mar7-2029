@@ -1,0 +1,71 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 8HRKGZeWd2U9CS4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 11 Dec 2023 16:09:11 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 11 Dec 2023 16:09:11 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rCpOh-00CfAP-1C
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 11 Dec 2023 16:09:11 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rCpOc-00Cf9P-0p@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rCpOh-00CfAP-1C@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 11 Dec 2023 16:09:11 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rCpOc-00Cf9P-0p
+	for ginojohn@gmail.com;
+	Mon, 11 Dec 2023 16:09:06 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by James Linville.
+X-PHP-Script: ststephenssanjose.org/contact.php for 149.88.19.5
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 149.88.19.5
+From: linville.rusty@outlook.com
+Reply-To: linville.rusty@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rCpOc-00Cf9P-0p@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 11 Dec 2023 16:09:06 -0700
+
+You have been contacted by James Linville, and the message is as
+follows.
+
+"Discover our latest research findings based on continuous SEO
+feedback from our strategies:
+
+Visit https://alwaysdigital.co/ls/ to explore the impact of the new
+Semrush Backlinks on boosting the SEO trend of your website
+instantly.
+
+Our approach is straightforward – we create links from domains with
+a substantial number of ranking keywords. Forget about conventional
+SEO metrics and other factors touted by numerous tools. The most
+valuable link is one from a website with a robust trend and numerous
+ranking keywords.
+
+To delve into the details, visit https://alwaysdigital.co/ls/.
+
+It's a cost-effective solution. Give it a try soon!
+
+
+P.S:  We are also experts in web development. Click here for more
+details: https://outsource-bpo.com/website/"
+
+You can contact James Linville via email, linville.rusty@outlook.com

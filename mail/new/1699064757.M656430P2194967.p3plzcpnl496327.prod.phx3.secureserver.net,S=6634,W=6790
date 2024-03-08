@@ -1,0 +1,156 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id eAfNJrWrRWUXfiEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 03 Nov 2023 19:25:57 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 03 Nov 2023 19:25:57 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qz6MH-009DRl-JC
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 03 Nov 2023 19:25:57 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qz6MC-009DQ9-N4@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699064757-eximdsn-996719700
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qz6MH-009DRl-JC@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 03 Nov 2023 19:25:57 -0700
+
+--1699064757-eximdsn-996719700
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 z6MHqcVlPiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=6545abb5 p=wMCaJeCiAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=OzavXvWFF60A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=Tbkpx1TDg9cA:10 a=pGLkceISAAAA:8 a=ROCGRZd1xH8rVM3iym0A:9 a=QEXdDO2ut3YA:10 a=4uQhz7qGRXAA:10 a=m_HQ8xrDw6AA:10 a=KyYZJfTCSdMA:10 a=Cq73Oz57mFVoJwi2v3Be:22 a=SaFpXVRxlr_AWwu1v5lZ:22 a=Se-cFOEW-8T7gFhzIEfp:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1699064757-eximdsn-996719700
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 z6MHqcVlPiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=6545abb5 p=wMCaJeCiAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=OzavXvWFF60A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=Tbkpx1TDg9cA:10 a=pGLkceISAAAA:8 a=ROCGRZd1xH8rVM3iym0A:9 a=QEXdDO2ut3YA:10 a=4uQhz7qGRXAA:10 a=m_HQ8xrDw6AA:10 a=KyYZJfTCSdMA:10 a=Cq73Oz57mFVoJwi2v3Be:22 a=SaFpXVRxlr_AWwu1v5lZ:22 a=Se-cFOEW-8T7gFhzIEfp:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1699064757-eximdsn-996719700
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qz6MC-009DQ9-N4
+	for ginojohn@gmail.com;
+	Fri, 03 Nov 2023 19:25:57 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by James Gordon.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.20.169
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.20.169
+From: james.gordon@gmail.com
+Reply-To: james.gordon@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qz6MC-009DQ9-N4@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 03 Nov 2023 19:25:52 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by James Gordon, and the message is as
+follows.
+
+"How would you like to have an AI assistant that can help you create
+high-quality videos, turns Cartoons into 3D Character Videos, and
+powered with human like voice over?
+
+>>Well, your wish has come true! 
+
+>>Introducing…
+
+World’s First AI Tech That Creates, Customizes & Sells World-Class
+Professional Looking AI Cartoon Videos, Doodle Videos & 3D Character
+Videos Using Done-For-You Video Templates In 180 Different
+Languages…
+
+Check it out here: https://bit.ly/AICartoonz 
+
+✅ Start saving and stop paying through your nose to outdated,
+expensive third party softwares and services...
+✅ Say goodbye to the hassle of creating & selling ai cartoon
+videos… 
+✅ Say goodbye to the struggles of hiring expensive video creators &
+freelancers…
+✅ Say goodbye to the expensive ai tools & servies for video
+creation…
+✅ Skyrocket your businesses to the next level...
+
+
+With Ai Cartoonz, you can now spend less time stressing about your
+creative videos and more time doing what you love!
+
+And the best part? 
+
+Ai Cartoonz is easy to use! 
+
+All you have to do is chat with it, and it will do the rest.
+So, why wait?
+
+>> Go & check it out before they take it down:
+https://bit.ly/AICartoonz 
+
+Special 30% Off Coupon- ‘CARTOONZ’ (Expires In An Hour Time)
+
+Here are our complimentary bonuses for you today:-
+
+Bonus#1 VERVE:
+Exclusive: The Incredible $8 BILLION LinkedIn Loophole That Pays us
+$500 Per Hour Working 1-2 Hours A Day With A Done For You Set & Forget
+System!
+
+Bonus#2 NFT Finder
+1 Click NFT App Lets You Find the Profitable NFTs and Sell On The
+Blockchain automatically Within Minutes!
+
+Bonus#3 CB Income Bot 
+1 Click Push Button App Creates AutoPilot ClickBank Sites with in
+build 2 million+ Articles That Make Us $53.62/Hour In 60 Seconds
+Flat!
+
+Bonus#4 PLR Plenty
+Get instant access to the World’s First PLR Website and mobile App
+Creator with over 400,000 PLR Products in 20+ niches. All at an
+incredibly low one-time price!
+
+Bonus#5 Music Maker
+Discover How You Can Ditch Spotify And Apple Music And Launch Your Own
+Music Service by Only Paying Once!! 
+
+
+>>Access All Bonuses Here: https://bit.ly/AICartoonz
+
+Regards,
+
+James
+"
+
+You can contact James Gordon via email, james.gordon@gmail.com
+
+--1699064757-eximdsn-996719700--

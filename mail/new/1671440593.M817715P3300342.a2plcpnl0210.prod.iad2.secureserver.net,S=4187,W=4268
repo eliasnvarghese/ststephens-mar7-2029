@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id yLmLLtEooGP2WzIAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 19 Dec 2022 02:03:13 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 19 Dec 2022 02:03:13 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1p7C3F-00E9Hj-Lm
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Mon, 19 Dec 2022 02:03:13 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1p7C3B-00E9Cr-4M@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1671440593-eximdsn-1196970950
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1p7C3F-00E9Hj-Lm@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 19 Dec 2022 02:03:13 -0700
+
+--1671440593-eximdsn-1196970950
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 7C3FptgEUjpWY :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KO2cTnJo c=1 sm=1 tr=0 ts=63a028d1 p=zEt5GdbbAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=tIJXMp8EI_IA:10 a=kviXuzpPAAAA:8 a=0SSwmoR_sU65aVZ0rV8A:9 a=QEXdDO2ut3YA:10 a=P7CMGM3g1eUA:10 a=no2Bu08QY4oA:10 a=UwkHPyF-QGkA:10 a=acewEgQMpYTsClr9keMy:22 a=t0roqPYjP9Pltq-jFi4u:22 ::
+    100.00
+
+--1671440593-eximdsn-1196970950
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 7C3FptgEUjpWY :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KO2cTnJo c=1 sm=1 tr=0 ts=63a028d1 p=zEt5GdbbAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=tIJXMp8EI_IA:10 a=kviXuzpPAAAA:8 a=0SSwmoR_sU65aVZ0rV8A:9 a=QEXdDO2ut3YA:10 a=P7CMGM3g1eUA:10 a=no2Bu08QY4oA:10 a=UwkHPyF-QGkA:10 a=acewEgQMpYTsClr9keMy:22 a=t0roqPYjP9Pltq-jFi4u:22 :: 100.00
+
+--1671440593-eximdsn-1196970950
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1p7C3B-00E9Cr-4M
+	for ginojohn@gmail.com;
+	Mon, 19 Dec 2022 02:03:13 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by CrytoGot.
+X-PHP-Script: ststephenssanjose.org/contact.php for 37.139.53.82
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 37.139.53.82
+From: weardo68@cox.net
+Reply-To: weardo68@cox.net
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1p7C3B-00E9Cr-4M@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 19 Dec 2022 02:03:09 -0700
+
+You have been contacted by CrytoGot, and the message is as follows.
+
+"Make thousands of bucks. Financial robot will help you to do it!
+https://newsworld.elk.pl"
+
+You can contact CrytoGot via email, weardo68@cox.net
+
+--1671440593-eximdsn-1196970950--

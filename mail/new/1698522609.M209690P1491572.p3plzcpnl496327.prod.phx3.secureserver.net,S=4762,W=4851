@@ -1,0 +1,89 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id kIxtDPFlPWV0whYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 28 Oct 2023 12:50:09 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 28 Oct 2023 12:50:09 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qwpJx-006G3H-57
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 28 Oct 2023 12:50:09 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qwpJq-006FyD-AW@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698522609-eximdsn-661698052
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qwpJx-006G3H-57@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 28 Oct 2023 12:50:09 -0700
+
+--1698522609-eximdsn-661698052
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wpJxq8AkATa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=653d65f1 p=qEajMGll0ZoA:10 p=8gPyC8Z-AAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=nInolr5l7LIA:10 a=UqCG9HQmAAAA:8 a=MHdvx22SQUsEQx_B73cA:9 a=QEXdDO2ut3YA:10 a=HBd_WenvDUgA:10 a=CrPVezu9dTsA:10 a=UzISIztuOb4A:10 a=zfcaBJRJRsnhRWA8WMGG:22 a=NRyMKryGeYt7aSi0meFj:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1698522609-eximdsn-661698052
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 wpJxq8AkATa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=653d65f1 p=qEajMGll0ZoA:10 p=8gPyC8Z-AAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=nInolr5l7LIA:10 a=UqCG9HQmAAAA:8 a=MHdvx22SQUsEQx_B73cA:9 a=QEXdDO2ut3YA:10 a=HBd_WenvDUgA:10 a=CrPVezu9dTsA:10 a=UzISIztuOb4A:10 a=zfcaBJRJRsnhRWA8WMGG:22 a=NRyMKryGeYt7aSi0meFj:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1698522609-eximdsn-661698052
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qwpJq-006FyD-AW
+	for ginojohn@gmail.com;
+	Sat, 28 Oct 2023 12:50:09 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by CanadPharmProzak.
+X-PHP-Script: ststephenssanjose.org/contact.php for 178.159.37.41
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 178.159.37.41
+From: marinatohin@outlook.com
+Reply-To: marinatohin@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qwpJq-006FyD-AW@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 28 Oct 2023 12:50:02 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by CanadPharmProzak, and the message is as
+follows.
+
+"Experienced Canadian Pharmacy https://drugs-canada.com/ 
+Canada Pharmacy Online has been a trusted source for Canadian
+medications and prescription drugs for over 15 years. Our experienced
+and knowledgeable team of doctors and pharmacists is always ready to
+provide you with prescriptions and refills, along with professional
+service, discreet shipping, and no hidden fees."
+
+You can contact CanadPharmProzak via email, marinatohin@outlook.com
+
+--1698522609-eximdsn-661698052--

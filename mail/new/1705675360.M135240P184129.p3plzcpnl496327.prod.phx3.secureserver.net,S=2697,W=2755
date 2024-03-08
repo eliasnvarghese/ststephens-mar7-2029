@@ -1,0 +1,58 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id e1WJB2CKqmVBzwIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 19 Jan 2024 07:42:40 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 19 Jan 2024 07:42:40 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rQq4u-000lti-0C
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 19 Jan 2024 07:42:40 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rQq4p-000lsQ-11@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rQq4u-000lti-0C@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 19 Jan 2024 07:42:40 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rQq4p-000lsQ-11
+	for ginojohn@gmail.com;
+	Fri, 19 Jan 2024 07:42:35 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Dotty Ricardo.
+X-PHP-Script: ststephenssanjose.org/contact.php for 98.159.224.68
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 98.159.224.68
+From: dotty.ricardo@gmail.com
+Reply-To: dotty.ricardo@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rQq4p-000lsQ-11@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 19 Jan 2024 07:42:35 -0700
+
+You have been contacted by Dotty Ricardo, and the message is as
+follows.
+
+"Earn up to $60,000 USD as a 4U2 Inc. Independent Contractor Agent!
+We're seeking individuals worldwide with computer access, fluent
+English communication skills, and a desire to save time and money for
+suppliers, buyers, and salespersons in our E-Commerce Marketplace.
+Join our mission to "Save Suppliers, Buyers, and Salespersons Time,
+Money, and make Money!" Contact us at 4u2inc123@gmail.com for more
+info.."
+
+You can contact Dotty Ricardo via email, dotty.ricardo@gmail.com

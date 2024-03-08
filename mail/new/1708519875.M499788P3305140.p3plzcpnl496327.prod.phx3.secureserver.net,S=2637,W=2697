@@ -1,0 +1,60 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id yPKpHcPx1WW0bjIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 21 Feb 2024 05:51:15 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 21 Feb 2024 05:51:15 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rcm4B-00Du5i-1N
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 21 Feb 2024 05:51:15 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rcm47-00Du18-0b@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rcm4B-00Du5i-1N@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 21 Feb 2024 05:51:15 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rcm47-00Du18-0b
+	for ginojohn@gmail.com;
+	Wed, 21 Feb 2024 05:51:11 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Valerie James.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 197.211.63.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 197.211.63.115
+From: valeriejames310@gmail.com
+Reply-To: valeriejames310@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rcm47-00Du18-0b@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 21 Feb 2024 05:51:11 -0700
+
+You have been contacted by Valerie James, and the message is as
+follows.
+
+"Hello I am giving away my late son's Yamaha YTR-9335NYS III Xeno
+Artist Model Professional Bb Trumpet to a passionate trumpeter. If you
+know of a fellow music lover, school, teacher, student, family,
+organization or church that might be interested, please forward this
+email to them.
+
+Best regards,
+Valerie James
+valeriejames310@gmail.com"
+
+You can contact Valerie James via email, valeriejames310@gmail.com

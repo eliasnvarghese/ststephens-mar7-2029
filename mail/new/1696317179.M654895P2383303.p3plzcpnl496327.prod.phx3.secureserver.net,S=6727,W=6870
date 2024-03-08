@@ -1,0 +1,143 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id JWOdJvu+G2XHXSQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 03 Oct 2023 00:12:59 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 03 Oct 2023 00:12:59 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qnZaV-00A00H-Ik
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 03 Oct 2023 00:12:59 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qnZaQ-009zyZ-Rr@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696317179-eximdsn-1694487097
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qnZaV-00A00H-Ik@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 03 Oct 2023 00:12:59 -0700
+
+--1696317179-eximdsn-1694487097
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 nZaVq2nJXpACF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ed/7PZIH c=1 sm=1 tr=0 ts=651bbefb p=1NoY_5eMd628Oo6tcqRq:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Qnr03PNWWmwA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=GU3aJWdWttAA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=Kt01c475g_g8Ad9lD_0A:9 a=QEXdDO2ut3YA:10 a=v4Yg_O18foAA:10 a=KyYZJfTCSdMA:10 a=Opjcf2rbXONI77XeNpWh:22 a=uiDLKtHiKmwkM4misv6_:22 a=5o-2eRT69YT7Q1m8jJ_H:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1696317179-eximdsn-1694487097
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 nZaVq2nJXpACF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ed/7PZIH c=1 sm=1 tr=0 ts=651bbefb p=1NoY_5eMd628Oo6tcqRq:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Qnr03PNWWmwA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=GU3aJWdWttAA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=Kt01c475g_g8Ad9lD_0A:9 a=QEXdDO2ut3YA:10 a=v4Yg_O18foAA:10 a=KyYZJfTCSdMA:10 a=Opjcf2rbXONI77XeNpWh:22 a=uiDLKtHiKmwkM4misv6_:22 a=5o-2eRT69YT7Q1m8jJ_H:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1696317179-eximdsn-1694487097
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qnZaQ-009zyZ-Rr
+	for ginojohn@gmail.com;
+	Tue, 03 Oct 2023 00:12:59 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Terrell Aplin.
+X-PHP-Script: ststephenssanjose.org/contact.php for 195.138.109.97
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 195.138.109.97
+From: aplin.terrell@gmail.com
+Reply-To: aplin.terrell@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qnZaQ-009zyZ-Rr@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 03 Oct 2023 00:12:54 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Terrell Aplin, and the message is as
+follows.
+
+"Are you tired of staring at a blank screen, struggling with writer's
+block, and feeling like your creativity has hit a dead end? You're not
+alone. Millions of people face the same challenge every day. But what
+if I told you there's a game-changing solution that can transform your
+writing process and take your content to the next level?
+
+Introducing ManyAds - Your Ultimate Copywriting Companion!
+
+í ½íº€ Imagine a tool that effortlessly generates captivating content
+ideas for your blogs, emails, descriptions, and more. Say goodbye to
+the frustration of writer's block and hello to a world of endless
+inspiration.
+í ¾í·  With ManyAds, you'll never have to worry about plagiarism or
+duplicate content again. Our cutting-edge copywriting app creates
+unique, high-converting, and compliant content that's perfect for your
+business.
+í ¼í¾‰ But here's the best part - it's incredibly easy to use! Just
+click on what you need, explore the dropdown options, and watch as
+your ideas come to life in the right order. It's like having a team of
+witty, talented writers at your fingertips.
+í ½í³ˆ Whether you're a seasoned pro or just starting your journey,
+ManyAds is the secret weapon you need to supercharge your writing.
+It's the same tool that I use to make writing the easiest part of my
+business.
+
+í ½í´¥ Here's why ManyAds is a game-changer:
+
+âœ… Crush Writer's Block: Say goodbye to creative ruts and hello to a
+world of inspiration.
+âœ… Unique Content Every Time: Never worry about duplicate content or
+plagiarism issues.
+âœ… High-Converting Copy: Watch your conversions soar with content
+that hits the mark every time.
+âœ… Compliant and Professional: Create content that not only engages
+but also meets all the necessary standards.
+
+Ready to unlock the power of ManyAds and revolutionize your writing
+process? Click the link below to get started now:
+https://warriorplus.com/o2/a/bq74z0/0
+
+Don't let writer's block hold you back any longer. With ManyAds, your
+writing challenges become a thing of the past. Join the ranks of
+successful content creators who are already reaping the rewards.
+
+Don't miss this opportunity to transform your writing and boost your
+business to new heights. Embrace the future of copywriting with
+ManyAds!
+
+To your writing success,
+
+
+
+
+
+
+
+
+
+
+"
+
+You can contact Terrell Aplin via email, aplin.terrell@gmail.com
+
+--1696317179-eximdsn-1694487097--

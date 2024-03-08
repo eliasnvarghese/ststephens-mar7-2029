@@ -1,0 +1,96 @@
+DebugLog  | 2020-11-26 00:57:20 | guest | 40.77.191.162 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 00:57:20 | guest | 40.77.191.162 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 01:27:29 | guest | 185.191.171.44 | photogallery | Page No = 1
+DebugLog  | 2020-11-26 01:27:29 | guest | 185.191.171.44 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2020-11-26 01:27:29 | guest | 185.191.171.44 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-11-26 01:27:29 | guest | 185.191.171.44 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2020-11-26 01:47:05 | guest | 42.236.10.78 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 01:47:05 | guest | 42.236.10.78 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 01:47:14 | guest | 27.115.124.6 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 01:47:14 | guest | 27.115.124.6 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 01:47:35 | guest | 180.163.220.4 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 01:47:35 | guest | 180.163.220.4 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 01:47:35 | guest | 27.115.124.70 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 01:47:35 | guest | 27.115.124.70 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 02:49:34 | guest | 111.202.101.27 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 02:49:34 | guest | 111.202.101.27 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 04:00:06 | guest | 5.188.62.140 | login_action | isUserExists: select userid from useraccount_t  where userid= 'adminu'
+DebugLog  | 2020-11-26 04:00:07 | guest | 5.188.62.140 | login_action | isUserExists: select userid from useraccount_t  where userid= 'editor'
+DebugLog  | 2020-11-26 05:20:17 | guest | 111.202.101.117 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 05:20:17 | guest | 111.202.101.117 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 06:23:06 | guest | 207.46.13.119 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 06:23:06 | guest | 207.46.13.119 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 07:04:39 | guest | 66.249.66.212 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 07:04:39 | guest | 66.249.66.212 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 07:34:49 | guest | 49.7.20.137 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 07:34:49 | guest | 49.7.20.137 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 07:36:46 | guest | 173.252.83.19 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 07:36:46 | guest | 173.252.83.19 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 07:36:47 | guest | 173.252.83.113 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 07:36:47 | guest | 173.252.83.113 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 07:36:47 | guest | 173.252.83.116 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 07:36:47 | guest | 173.252.83.116 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 07:36:47 | guest | 66.220.149.24 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 07:36:47 | guest | 66.220.149.24 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 07:36:47 | guest | 66.220.149.35 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 07:36:47 | guest | 66.220.149.35 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 07:36:47 | guest | 66.220.149.111 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 07:36:47 | guest | 66.220.149.111 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 07:36:47 | guest | 173.252.83.11 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 07:36:47 | guest | 173.252.83.19 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 07:36:47 | guest | 173.252.83.11 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 07:36:47 | guest | 173.252.83.19 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 08:29:34 | guest | 58.250.125.159 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 08:29:34 | guest | 58.250.125.159 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 11:59:38 | guest | 185.191.171.24 | photogallery | Page No = 1
+DebugLog  | 2020-11-26 11:59:38 | guest | 185.191.171.24 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2020-11-26 11:59:38 | guest | 185.191.171.24 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-11-26 11:59:38 | guest | 185.191.171.24 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2020-11-26 12:43:06 | guest | 66.249.66.142 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 12:43:07 | guest | 66.249.66.142 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 13:10:24 | guest | 111.202.101.111 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 13:10:24 | guest | 111.202.101.111 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 13:36:18 | guest | 111.202.101.111 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 13:36:18 | guest | 111.202.101.111 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 15:25:06 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'adminu'
+DebugLog  | 2020-11-26 15:25:07 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'admin'
+DebugLog  | 2020-11-26 16:04:48 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'adminu'
+DebugLog  | 2020-11-26 16:04:49 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'admin'
+DebugLog  | 2020-11-26 16:24:48 | guest | 34.71.96.59 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 16:24:48 | guest | 34.71.96.59 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 16:24:49 | guest | 34.71.96.59 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 16:24:49 | guest | 34.71.96.59 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 16:43:22 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'adminu'
+DebugLog  | 2020-11-26 16:43:23 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'admin@ststephenssanjose.org'
+DebugLog  | 2020-11-26 16:48:49 | guest | 66.249.66.138 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 16:48:49 | guest | 66.249.66.138 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 16:58:13 | guest | 185.191.171.43 | photogallery | Page No = 1
+DebugLog  | 2020-11-26 16:58:13 | guest | 185.191.171.43 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2020-11-26 16:58:13 | guest | 185.191.171.43 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-11-26 16:58:13 | guest | 185.191.171.43 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2020-11-26 17:21:58 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'adminu'
+DebugLog  | 2020-11-26 17:21:59 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'admin@ststephenssanjose.org'
+DebugLog  | 2020-11-26 18:01:07 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'adminu'
+DebugLog  | 2020-11-26 18:01:08 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'admin@ststephenssanjose.org'
+DebugLog  | 2020-11-26 18:15:42 | guest | 3.216.79.60 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 18:15:42 | guest | 3.216.79.60 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 18:41:06 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'adminu'
+DebugLog  | 2020-11-26 18:41:07 | guest | 5.188.62.214 | login_action | isUserExists: select userid from useraccount_t  where userid= 'admin@ststephenssanjose.org'
+DebugLog  | 2020-11-26 19:04:32 | guest | 3.216.79.60 | photogallery | Page No = 1
+DebugLog  | 2020-11-26 19:04:32 | guest | 3.216.79.60 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2020-11-26 19:04:32 | guest | 3.216.79.60 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-11-26 19:04:32 | guest | 3.216.79.60 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2020-11-26 19:10:24 | guest | 111.202.101.117 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 19:10:24 | guest | 111.202.101.117 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 19:15:36 | guest | 13.66.139.0 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 19:15:36 | guest | 13.66.139.0 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 22:22:25 | guest | 77.88.5.117 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 22:22:25 | guest | 77.88.5.117 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2020-11-26 22:43:48 | guest | 114.119.166.95 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2020-11-26 22:43:48 | guest | 114.119.166.95 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 0, 9
+DebugLog  | 2020-11-26 23:11:26 | guest | 114.119.147.129 | photogallery | Page No = 1
+DebugLog  | 2020-11-26 23:11:26 | guest | 114.119.147.129 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2020-11-26 23:11:26 | guest | 114.119.147.129 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2020-11-26 23:11:26 | guest | 114.119.147.129 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2020-11-26 23:51:05 | guest | 31.171.152.131 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2020-11-26 23:51:05 | guest | 31.171.152.131 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2020-11-26' order by fromdate asc ,todate asc limit 3

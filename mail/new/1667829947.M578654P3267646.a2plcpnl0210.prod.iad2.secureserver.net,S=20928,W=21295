@@ -1,0 +1,367 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 2Au+IbsQaWM+3DEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 07:05:47 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 07:05:47 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os2l1-00Di5H-DA
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 07:05:47 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os2l0-00Di4t-Sq@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667829947-eximdsn-791291044
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os2l1-00Di5H-DA@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 07:05:47 -0700
+
+--1667829947-eximdsn-791291044
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s2l1ondyza2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=636910bb p=alF4Q9OH76EA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=5_iWO6t260UA:10 a=S4p4vwjrAAAA:8 a=RgBw9RmQAAAA:8 a=wTwK-aDBP6UnLuqOzZoA:9 a=QEXdDO2ut3YA:10 a=IL3ulJI-rNQA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=UlrHxMrEIHD2TSfFKnTq:22 ::
+    100.00
+
+--1667829947-eximdsn-791291044
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s2l1ondyza2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=636910bb p=alF4Q9OH76EA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=5_iWO6t260UA:10 a=S4p4vwjrAAAA:8 a=RgBw9RmQAAAA:8 a=wTwK-aDBP6UnLuqOzZoA:9 a=QEXdDO2ut3YA:10 a=IL3ulJI-rNQA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=UlrHxMrEIHD2TSfFKnTq:22 :: 100.00
+
+--1667829947-eximdsn-791291044
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os2l0-00Di4t-Sq
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 07:05:47 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by BobbyAllon.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.125
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.125
+From: dima_zimin_2023@mail.ru
+Reply-To: dima_zimin_2023@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os2l0-00Di4t-Sq@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 07:05:46 -0700
+
+You have been contacted by BobbyAllon, and the message is as follows.
+
+"Предназначен для оперативного
+изготовления гофротары с целью
+упаковки собственной продукции
+https://prostor-k.ru/po-produktu/nepishchevaya-produktsiya/zhidkost-dlya-elektronnyh-sigaret
+  Станок будет очень актуален для
+мебельных фабрик, предприятий
+производящих бытовую технику,
+телевизоры, радиаторы, душевые кабины,
+двери, паркет, и для любых производств,
+где необходима транспортная гибкая
+тара из гофрокартона
+https://prostor-k.ru/po-produktu/stroitelnye-materialy/cement
+ 
+
+Производство упаковки из картона:
+технология и этапыОбъем производства
+бумаги и картона в масштабах всего
+мира приближается 500 миллионов тонн в
+год https://prostor-k.ru/oborudovanie/sashet-oborudovanie
+  Эти цифры с каждым годом растут за
+счет все более активного
+задействования вторсырья
+https://prostor-k.ru/po-produktu/khlebobulochnye-izdeliya/hleb
+  Кроме того, в отрасли все шире
+применяют химические реагенты и
+совершенствуют бумагоделательное
+оборудование
+https://prostor-k.ru/po-produktu/meditsinskie-izdeliya
+  Поговорим о тонкостях изготовления
+картонной упаковки и специфике
+производственного процесса
+https://prostor-k.ru/po-produktu/konditerskie-izdeliya/pirogi
+ Затем на картонные листы наносится
+маркировка с указанием условий
+безопасной транспортировки и
+хранения продукции
+https://prostor-k.ru/oborudovanie/upakovochnoe-oborudovanie-v-stik-pakety
+  Кроме того, на картон может
+наноситься логотип и название
+компании производителя, а также
+другие данные, для чего используется
+метод печати
+https://prostor-k.ru/po-produktu/konditerskie-izdeliya/ponchiki
+  Для придания упаковке максимально
+презентабельного вида нередко
+применяется лакирование,
+ламинирование и даже тиснение фольгой
+https://prostor-k.ru/po-produktu/khlebobulochnye-izdeliya/pirozhki
+ Производство изделий из картона
+ведется на специальных
+автоматизированных линиях
+https://prostor-k.ru/po-produktu/myasnaya-produktsiya
+  В состав таких линий входят
+высекальные прессы, клеенаносящие
+агрегаты и размоточные станки
+https://prostor-k.ru/po-produktu/bytovaya-khimiya/bombochki-dlya-vanny
+  Также следует вспомнить о
+гидроразбивателях, турбосепараторах,
+пульсационных мельницах и остальных
+установках для подготовки
+целлюлозной массы
+https://prostor-k.ru/video/upakovka-derevyannyh-aromatizatorov-dlya-avtomobilya
+ Производство гофрированного картона
+традиционно начинается с
+подготовительного этапа
+https://prostor-k.ru/novosti/vystavka-agroprodmash-2013
+  Суть подготовки заключается в
+кондиционировании листов картона,
+предназначенных для гофрирования
+https://prostor-k.ru/po-produktu/bytovaya-khimiya/bombochki-dlya-vanny
+  Для этого материал укладывают в
+теплое помещение, где оставляют на 24
+часа
+https://prostor-k.ru/oborudovanie/oborudovanie-dlya-rozliva/oborudovanie-rozliva-v-pakety-tipa-pyur-pak-pure-pak-gable-top
+ Для производства изделий из картона
+часто используется кашированный
+монокартон
+https://prostor-k.ru/oborudovanie/sistemy-kontrolya-kachestva-produktsii
+  Он также представляет собой
+многослойную конструкцию, но в
+отличие от гофрокартона для
+изготовления кашированного
+монокартона берутся только плоские
+листы https://prostor-k.ru/video/upakovka-postelnogo-belya
+  В качестве основы такого материала
+берется толстый картон, а поверх него
+наклеивается тонкий картон, винил или
+дизайнерская бумага
+https://prostor-k.ru/po-produktu/bakaleya/sahar
+  Соответственно, из цепочки
+производственных процессов в данном
+случае выпадает гофрирование
+https://prostor-k.ru/po-produktu/konditerskie-izdeliya
+ Гофрокартон – один из наиболее
+дешевых и популярных материалов,
+используемых в промышленности для
+упаковки товара
+https://prostor-k.ru/po-produktu/sredstva-gigieny/vlazhnye-salfetki
+  Его востребованность объясняется не
+только низкой ценой, но и хорошими
+эксплуатационными качествами: он
+имеет минимальный вес, кроме того,
+благодаря использованию новых
+производственных технологий,
+заключающихся в производстве
+материала из нескольких слоев,
+современный гофрокартон отличается
+повышенной прочностью
+https://prostor-k.ru/po-produktu/molochnaya-produktsiya/morozhenoe
+ Как и аренда любой территории,
+стоимость её зависит от многих
+факторов, начиная от города и
+заканчивая коммуникациями
+https://prostor-k.ru/lizing-upakovochnogo-oborudovaniya
+  Для примера можно рассматривать
+небольшой город с 200000 жителями, а
+расположение предусматривается на
+окраине
+https://prostor-k.ru/po-produktu/konditerskie-izdeliya/pechene
+  В таком случае примерная стоимость
+будет в районе 1 доллара за кв
+https://prostor-k.ru/po-produktu/nepishchevaya-produktsiya
+ м
+https://prostor-k.ru/oborudovanie/liniya-proizvodstva-sukharikov-sukhikh-zavtrakov-khlopev/dvuhshnekovyj-ekstruder
+  Чтобы арендовать помещение в 100
+квадратов, понадобится в месяц 1000
+долларов, грубо говоря
+https://prostor-k.ru/po-produktu/stroitelnye-materialy/cement
+ Успешная реализация товара,
+изготавливаемого предприятием,
+невозможна без грамотного
+продвижения компании
+https://prostor-k.ru/video/upakovka-halvy
+  Прежде всего нужно продумать, какими
+будут каналы сбыта продукции, и
+проанализировать, какие
+потенциальные клиенты будут
+заинтересованы в покупке продукции
+https://prostor-k.ru/po-produktu/konditerskie-izdeliya/pirogi
+  Поскольку упаковка из гофрокартона
+будет актуальна прежде всего для
+предприятий, производящих товары
+продовольственного и
+непродовольственного назначения,
+можно отправлять коммерческие
+предложения непосредственно по
+адресу потенциальных клиентов
+https://prostor-k.ru/oborudovanie/oborudovanie-dlya-rozliva
+  Обязательно и создание собственного
+интернет-сайта, на котором должна быть
+представлена вся необходимая
+информация относительно ассортимента
+и цен на продукцию
+https://prostor-k.ru/po-produktu/sneki/orehi
+ Один лист гофрокартона стоит
+приблизительно 20 рублей
+https://prostor-k.ru/video/avtomaticheskaya-termousadochnaya-mashina-dlya-upakovki-produkcii-v-termousadochnuyu-plenku-polurukav
+  На производство одной упаковки
+требуется 1/10 листа гофрокартона
+https://prostor-k.ru/po-produktu/konditerskie-izdeliya/pryaniki
+  Упаковочная коробка будет стоить 20
+рублей, то есть из одного листа
+получается 10 упаковок
+https://prostor-k.ru/po-produktu/sneki/chipsy
+  В сумме это 200 рублей
+https://prostor-k.ru/lizing-upakovochnogo-oborudovaniya
+  В день 5 работников могут изготовить
+минимум 150 штук каждый
+https://prostor-k.ru/oborudovanie/liniya-proizvodstva-sukharikov-sukhikh-zavtrakov-khlopev/dvuhshnekovyj-ekstruder
+  Ежедневная прибыль соответственно
+составляет 15 тысяч рублей,
+ежемесячная с учетом выходных дней –
+390 тысяч рублей
+https://prostor-k.ru/po-produktu/konditerskie-izdeliya/pryaniki
+  За вычетом всех вложений, владельцу
+на руки остается 140 тысяч рублей
+https://prostor-k.ru/po-produktu/khoztovary/odnorazovaya-posuda
+  При больших масштабах производства
+прибыль будет существенно выше
+https://prostor-k.ru/oborudovanie/liniya-proizvodstva-sukharikov-sukhikh-zavtrakov-khlopev/formovochnyj-apparat
+ Изготовление упаковки гармонично
+сосуществует с другими видами
+производства
+https://prostor-k.ru/lizing-upakovochnogo-oborudovaniya
+  Несмотря на обилие упаковочного
+материала из пластика, многие
+производители все же возвращаются к
+традиционному и надежному
+гофрокартону по причине его
+доступности и экологичности
+https://prostor-k.ru/oborudovanie/blisternye-mashiny/blisternaya-mashina-bpm-100-140
+ Свой бизнес по производству бумажных
+мешков и пакетовИзготовление
+заготовки по заранее разработанному
+проекту https://prostor-k.ru/oborudovanie/zapasnye-chasti
+  Заготовка мешка представляет собой
+многослойную склеенную бумажную
+трубку
+https://prostor-k.ru/oborudovanie/dozatory/linejnyj-vesovoj-dozator-jw-2-dvuhpotochnyj
+  При помощи специальной установки для
+размешивания растворимого клея
+заготовка проклеивается
+https://prostor-k.ru/po-upakovke/paket-flow-pack
+  Для некоторых видов бумажной
+упаковки требуется перфорация
+https://prostor-k.ru/po-produktu/sredstva-gigieny/salfetki
+  Этот процесс осуществляется
+автоматически или полуавтоматически
+при помощи перфоратора
+https://prostor-k.ru/po-produktu/ovoshchi-i-frukty
+ У производителя бумажных пакетов и
+мешков имеется практически
+неограниченный рекламный ресурс,
+который можно как продавать (то есть
+наносить рекламные материалы
+сторонних организаций на свою
+продукцию), так и использовать для
+собственных маркетинговых целей
+(печатать собственную рекламу)
+https://prostor-k.ru/po-produktu/bytovaya-khimiya/aromatizatory
+  В первом случае это обеспечивает
+немалый дополнительный доход, вполне
+сопоставимый с доходом от основной
+деятельности
+https://prostor-k.ru/po-produktu/nepishchevaya-produktsiya
+  Во втором – позволяет обходиться без
+затрат на продвижение своей продукции
+https://prostor-k.ru/video/shtuchnaya-upakovka-myla
+ Прежде чем начать непосредственно
+реализацию бизнес-идеи по
+изготовлению бумажных мешков и
+пакетов, следует определить
+потребность в данной продукции в
+местном регионе и изучить целевую
+аудиторию
+https://prostor-k.ru/video/upakovka-kolbasy-na-gorizontalnoj-upakovochnoj-mashine-ald-450x
+  Для этого необходимо разобраться,
+для чего используется и где
+применяется бумажная упаковка
+https://prostor-k.ru/po-produktu/konditerskie-izdeliya
+  Это:В зависимости от стартового
+капитала вы можете приобрести
+совершенно разные по цене и
+характеристикам производственные
+линии https://prostor-k.ru/po-produktu/myasnaya-produktsiya
+  Базовый минимум состоит из: станка
+для многослойного склеивания
+заготовок, оборудования для
+формирования и склеивания пакетов,
+прошивочных станков
+https://prostor-k.ru/oborudovanie/upakovka-v-pakety-tipa-doj-pak
+  С развитием бизнеса производство
+можно постепенно расширять, закупая
+дополнительное оборудование
+https://prostor-k.ru/oborudovanie/gorizontalnye-upakovochnye-mashiny-flow-pack
+  Для начального этапа можно
+организовать небольшой цех с объемом
+производства не более 250 пакетов в час
+https://prostor-k.ru/po-produktu/meditsinskie-izdeliya
+ Следует обратить внимание, что
+гидравлический пресс для кипирования
+и установку для размешивания клея
+целесообразно приобретать только для
+крупного производства
+https://prostor-k.ru/oborudovanie/vertikalnye-upakovochnye-apparaty/fasovochno-upakovochnaya-mashina-s-provarkoj-po-granyam-serii-prv
+  Если же планируется организовать
+небольшой цех, то можно обойтись без
+данного оборудования
+https://prostor-k.ru/video/upakovka-zelenogo-luka-na-podlozhke
+  Еще один важный момент:
+доукомплектовать станки
+дополнительным оборудованием
+возможно только маломощные лини а
+линии большой производительности, как
+правило, продаются укомплектованными,
+настроенными и отлаженными под
+определенные производственные
+параметры
+https://prostor-k.ru/po-produktu/sredstva-gigieny/vlazhnye-salfetki
+ 
+Линия экструзионного выдува
+пластиковой тары  Продам оборудование
+для экструзионного  выдува ПЭТ тары
+полностью автоматическое
+производства Китай
+https://prostor-k.ru/po-produktu/myasnaya-produktsiya/kolbasa
+  Подходящий материал PE,PP… 
+
+
+"
+
+You can contact BobbyAllon via email, dima_zimin_2023@mail.ru
+
+--1667829947-eximdsn-791291044--

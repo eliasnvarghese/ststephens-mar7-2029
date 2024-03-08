@@ -1,0 +1,116 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id eIhWFyU03GKeKzUAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 23 Jul 2022 10:47:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 23 Jul 2022 10:47:17 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oFJDh-00EfUb-8X
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sat, 23 Jul 2022 10:47:17 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oFJDg-00EfUF-QC@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1658598437-eximdsn-476951101
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oFJDh-00EfUb-8X@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 23 Jul 2022 10:47:17 -0700
+
+--1658598437-eximdsn-476951101
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 FJDho4IgN44O5 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=eNzWMFl1 c=1 sm=1 tr=0 ts=62dc3425 p=_-gwqqOGv1YA:10 p=IxNjeBWgnwYA:10 p=QTTCqQ5UEa_gVzxPqdbS:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RgO8CyIxsXoA:10 a=sYxnfSD81N8A:10 a=x7bEGLp0ZPQA:10 a=0lrei0W9VygA:10 a=TQ0tubnTAAAA:8 a=mkYYP5xYAAAA:8 a=x40EvCgFAAAA:8 a=EyrCTQPMAAAA:8 a=Lyz4aj4hAAAA:8 a=2iP5gYd2AAAA:8 a=pGLkceISAAAA:8 a=o_0ZeDHaqXHwM6FwvlIA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=jx2wI_69vXwA:10 a=u9xh6fsac04A:10 a=KyYZJfTCSdMA:10 a=G-NrCY8OgR60BMw_UEz_:22 a=acewEgQMpYTsClr9keMy:22 a=baKKhvssZ9sVy-jEpxZ_:22 a=S-BzHvTWaV0ludfnSWz7:22 a=qSdH-qpPRk6Z68vrNaRb:22 a=3xPVfwu8wL5oHP4XZlsS:22 a=VsrAqFW7Y3VzEcBP_M8e:22 a=OrRWR1Fw2IXppLFPR-2-:22 ::
+    100.00
+
+--1658598437-eximdsn-476951101
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 FJDho4IgN44O5 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=eNzWMFl1 c=1 sm=1 tr=0 ts=62dc3425 p=_-gwqqOGv1YA:10 p=IxNjeBWgnwYA:10 p=QTTCqQ5UEa_gVzxPqdbS:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RgO8CyIxsXoA:10 a=sYxnfSD81N8A:10 a=x7bEGLp0ZPQA:10 a=0lrei0W9VygA:10 a=TQ0tubnTAAAA:8 a=mkYYP5xYAAAA:8 a=x40EvCgFAAAA:8 a=EyrCTQPMAAAA:8 a=Lyz4aj4hAAAA:8 a=2iP5gYd2AAAA:8 a=pGLkceISAAAA:8 a=o_0ZeDHaqXHwM6FwvlIA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=jx2wI_69vXwA:10 a=u9xh6fsac04A:10 a=KyYZJfTCSdMA:10 a=G-NrCY8OgR60BMw_UEz_:22 a=acewEgQMpYTsClr9keMy:22 a=baKKhvssZ9sVy-jEpxZ_:22 a=S-BzHvTWaV0ludfnSWz7:22 a=qSdH-qpPRk6Z68vrNaRb:22 a=3xPVfwu8wL5oHP4XZlsS:22 a=VsrAqFW7Y3VzEcBP_M8e:22 a=OrRWR1Fw2IXppLFPR-2-:22 :: 100.00
+
+--1658598437-eximdsn-476951101
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oFJDg-00EfUF-QC
+	for ginojohn@gmail.com; Sat, 23 Jul 2022 10:47:16 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Kathryndrids.
+X-PHP-Script: ststephenssanjose.org/contact.php for 94.140.134.34
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 94.140.134.34
+From: andreyvpetrov132435@gmail.com
+Reply-To: andreyvpetrov132435@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oFJDg-00EfUF-QC@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 23 Jul 2022 10:47:16 -0700
+
+You have been contacted by Kathryndrids, and the message is as
+follows.
+
+"Приглашаем Ваше предприятие к
+взаимовыгодному сотрудничеству в
+сфере производства и поставки
+[url=https://redmetsplav.ru/store/nikel1/zarubezhnye_materialy/germaniya/cat2.4975/folga_2.4975/]Фольга
+2.4719[/url]. 
+-       Поставка тугоплавких и
+жаропрочных сплавов на основе
+(молибдена, вольфрама, тантала, ниобия,
+титана, циркония, висмута, ванадия,
+никеля, кобальта); 
+-	Поставка карбидов и оксидов 
+-	Поставка изделий
+производственно-технического
+назначения пруток, лист, проволока,
+сетка, тигли, квадрат, экран,
+нагреватель) штабик, фольга, контакты,
+втулка, опора, поддоны,
+затравкодержатели,
+формообразователи, диски, провод,
+обруч, электрод, детали,пластина,
+полоса, рифлёная пластина, лодочка,
+блины, бруски, чаши, диски, труба. 
+-       Любые типоразмеры, изготовление
+по чертежам и спецификациям
+заказчика. 
+-       Поставка изделий из сплавов: 
+ 
+[url=https://curiosa.se/henna-lips-cover/#comment-2181]Проволока
+2.0842[/url]
+[url=https://www.healthware.com/Blog/Entry/183#CommentSection]Проволока
+2.4855[/url]
+[url=https://manchesternewstoday.com/the-dangers-of-eating-raw-meat/#comment-2389]Проволока
+ХН78Т[/url]
+[url=http://www.ashishkanungo.com/comment-page-1#comment-14289]Лист
+молибденовый МШЧ-1[/url]
+[url=https://www.facil-immat.fr/blog/demande-de-certificat-dimmatriculation/#comment-185]Лента
+29НК-1[/url]
+ e7c1225 "
+
+You can contact Kathryndrids via email, andreyvpetrov132435@gmail.com
+
+--1658598437-eximdsn-476951101--

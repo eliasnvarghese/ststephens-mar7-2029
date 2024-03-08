@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id CLkJDc5gC2S2eyEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 10 Mar 2023 09:54:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 10 Mar 2023 09:54:38 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pag0s-009E4N-1L
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 10 Mar 2023 09:54:38 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pag0m-009Dpi-Rm@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1678467278-eximdsn-129340548
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pag0s-009E4N-1L@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 10 Mar 2023 09:54:38 -0700
+
+--1678467278-eximdsn-129340548
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ag0rpmDk8elrp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=640b60ce p=NN1R2fj1vvEA:10 p=f2mkQjYkXc_y39jWEkB9:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=A9as3s47QF4A:10 a=uEnLiVx8AAAA:8 a=vaJtXVxTAAAA:8 a=L2tTUNCOTw2x5rvjKm8A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=rW025VqBnl4A:10 a=0HAx0K6scLwA:10 a=3u7bm1Fdfj8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=rRxVQuyznywBhzRD4LSX:22 ::
+    100.00
+
+--1678467278-eximdsn-129340548
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 ag0rpmDk8elrp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=640b60ce p=NN1R2fj1vvEA:10 p=f2mkQjYkXc_y39jWEkB9:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=A9as3s47QF4A:10 a=uEnLiVx8AAAA:8 a=vaJtXVxTAAAA:8 a=L2tTUNCOTw2x5rvjKm8A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=rW025VqBnl4A:10 a=0HAx0K6scLwA:10 a=3u7bm1Fdfj8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=rRxVQuyznywBhzRD4LSX:22 :: 100.00
+
+--1678467278-eximdsn-129340548
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pag0m-009Dpi-Rm
+	for ginojohn@gmail.com;
+	Fri, 10 Mar 2023 09:54:37 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Masha_tup.
+X-PHP-Script: ststephenssanjose.org/contact.php for 91.218.131.214
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 91.218.131.214
+From: serpetrov11111@yandex.ru
+Reply-To: serpetrov11111@yandex.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pag0m-009Dpi-Rm@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 10 Mar 2023 09:54:32 -0700
+
+You have been contacted by Masha_tup, and the message is as follows.
+
+"<a href=https://prokansk.ru/payment/>доставка
+продуктов канск</a>"
+
+You can contact Masha_tup via email, serpetrov11111@yandex.ru
+
+--1678467278-eximdsn-129340548--

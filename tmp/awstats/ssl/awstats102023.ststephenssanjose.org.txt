@@ -1,0 +1,3143 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202310 will be lost/reset.
+# Last config file used to build this data file was /home/buwlrdjjq1jo/tmp/awstats/ssl/awstats.ststephenssanjose.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2710                
+POS_VISITOR 65853               
+POS_DAY 107703              
+POS_DOMAIN 3672                
+POS_LOGIN 4707                
+POS_ROBOT 4862                
+POS_WORMS 6460                
+POS_EMAILSENDER 6591                
+POS_EMAILRECEIVER 6734                
+POS_SESSION 108617              
+POS_SIDER 108827              
+POS_FILETYPES 6869                
+POS_DOWNLOADS 7116                
+POS_OS 7392                
+POS_BROWSER 8086                
+POS_SCREENSIZE 13447               
+POS_UNKNOWNREFERER 13521               
+POS_UNKNOWNREFERERBROWSER 15268               
+POS_ORIGIN 16732               
+POS_SEREFERRALS 16884               
+POS_PAGEREFS 17085               
+POS_SEARCHWORDS 29634               
+POS_KEYWORDS 29864               
+POS_MISC 2372                
+POS_ERRORS 29997               
+POS_CLUSTER 4563                
+POS_SIDER_404 30116               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231101003111 493 130742 8625632430000
+FirstTime 20231001003719
+LastTime 20231031234936
+LastUpdate 20231101051216 493 0 492 0 0
+TotalVisits 1267                
+TotalUnique 1018                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1132                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 151 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 218 411 11914539 156 344 3004048
+1 122 321 18367684 145 300 2759313
+2 115 307 16242058 215 302 809526
+3 72 222 12374393 214 428 3247475
+4 87 330 17592634 150 237 1094179
+5 88 143 4387863 137 322 1827598
+6 84 279 14910129 160 255 2302821
+7 74 167 4542366 155 387 7157120
+8 99 149 3989235 120 206 1787087
+9 135 421 18939199 176 370 3804236
+10 77 208 10010961 137 222 2041016
+11 125 369 20299433 260 546 8297459
+12 102 333 17983637 164 314 3173534
+13 140 361 18391324 328 593 3682569
+14 180 733 27802662 177 283 2223182
+15 102 316 15665383 259 392 1334976
+16 69 167 6722974 147 267 3483713
+17 77 176 8134189 183 339 2824501
+18 283 583 23914522 271 421 2645560
+19 109 476 30459839 446 769 3641555
+20 112 257 12720958 175 308 1990940
+21 82 238 10735548 141 268 1771596
+22 87 327 19942633 206 313 1539968
+23 65 115 4592041 356 549 5888232
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 56
+us 1448 4738 256845971
+ru 257 274 2168841
+bg 127 127 103505
+gb 127 361 9420778
+sc 113 113 212206
+cn 73 274 2294677
+de 61 61 79361
+se 56 56 122938
+ua 54 54 556587
+in 54 343 24268494
+fr 29 29 254456
+ca 28 118 7639862
+tw 24 24 172062
+pk 21 106 5823941
+gr 17 17 19177
+ie 17 217 16131662
+nl 15 15 47486
+no 13 13 10595
+cl 12 12 19214
+kr 11 11 48971
+sa 10 10 67914
+id 10 29 1247115
+il 9 9 15647
+hk 9 9 15068
+al 8 8 110847
+es 3 3 2316
+au 6 52 3860767
+lv 2 2 6276
+lb 2 2 4078
+ro 6 6 11748
+pl 5 5 10195
+pm 4 51 3856776
+fi 2 2 1372
+nz 6 10 115940
+br 1 1 686
+ma 2 2 1630
+ve 2 41 2941831
+hu 1 1 815
+ae 5 55 3947189
+vg 4 50 3853911
+zz 3 3 15801
+be 1 1 815
+md 4 4 17766
+by 4 4 28354
+kh 6 6 4890
+tr 1 2 58669
+cz 3 3 14992
+ch 2 2 1630
+it 8 8 173663
+lk 0 1 68488
+ir 2 2 12287
+eu 4 4 55485
+kz 4 50 3853815
+jp 2 2 1630
+za 5 5 14328
+la 1 1 686
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 37
+Googlebot/ 2509 16285621 20231031224928 0
+Sogou[\x20]web[\x20]spider/ 506 1981547 20231031200524 0
+Applebot/ 497 6775928 20231031140849 0
+bingbot/ 444 9294566 20231029073736 0
+feed 431 14382521 20231031123454 0
+bot[\s_+:,\.\;\/\\-] 345 2943773 20231031175250 0
+facebookexternalhit/ 288 9793352 20231031170702 0
+no_user_agent 147 319203 20231031184911 0
+AdsBot\-Google[\x20]\( 97 961921 20231029141728 0
+DotBot/ 42 5194002 20231031132430 0
+AhrefsBot/ 41 28126 20231031201103 0
+SemrushBot/ 38 140455 20231030033516 0
+Googlebot\-Image/ 29 1372445 20231031032812 0
+MJ12bot/ 28 70427 20231026211206 0
+Go\-http\-client/ 27 24453 20231031121249 0
+survey 21 414089 20231005083247 0
+crawl 21 82482 20231022191339 0
+zoominfobot 20 64172 20231023214428 0
+robot 19 74530 20231002123542 0
+YandexBot/ 19 70484 20231030185939 0
+BLEXBot/ 15 12225 20231028055859 0
+curl 14 26098 20231031225556 0
+DuckDuckGo\-Favicons\-Bot/ 10 8150 20231029102843 0
+(firefox/)([0-9]\.|[0-1][0]\.) 9 6520 20231027161058 0
+Dalvik/ 9 63150 20231030200400 0
+Screaming[\x20]Frog[\x20]SEO[\x20]Spider/ 2 7591 20231030200347 0
+Apache\-HttpClient/ 1 0 20231002170629 0
+link 1 815 20231016134000 0
+Velen 4 17125 20231029173053 0
+Wget/ 6 273272 20231006085416 0
+scanner 1 815 20231028060546 0
+spider 3 1630 20231017061154 0
+YandexImages/ 1 37775 20231001232006 0
+urllib 7 1287230 20231023162833 0
+[\s_+:,\.\;\/\\-]bot 7 8153 20231030165717 0
+nbot 6 4890 20231025220208 0
+Python\-urllib/ 1 815 20231020090722 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+js 1808 17011512 0 0
+php 1043 6232712 0 0
+html 1494 1429088 0 0
+png 416 8564595 0 0
+gif 74 180691 0 0
+jpg 1084 301851687 0 0
+woff 167 7794141 0 0
+css 1321 7511022 0 0
+pdf 2 60756 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/malayalam/beginner/malayalam_worksheet_2.pdf 8 0 263336
+/malayalam/beginner/malayalam_worksheet_3.pdf 7 0 237319
+/malayalam/beginner/malayalam_worksheet_4.pdf 7 0 201725
+/malayalam/beginner/malayalam_worksheet_1.pdf 5 0 159588
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 44
+linux 1084 297
+macosx9 12 12
+winxp 45 45
+macosx6 1 1
+macosx8 4 4
+bsdnetbsd 1 1
+winlong 6 6
+androidoreo 58 12
+win8 23 23
+macosx7 3 3
+macosx 107 107
+macosx12 4 4
+ios_iphone 2045 204
+linuxubuntu 66 47
+androidkitkat 5 5
+unix 59 11
+winvista 6 6
+winnt 9 9
+bsdopenbsd 3 3
+macosx10 34 34
+win10 1604 856
+wince 1 1
+androidpie 3 3
+macosx5 4 4
+macosx14 6 6
+win98 1 1
+win7 227 157
+macosx15 847 177
+androidhoneycomb 1 1
+macosx13 7 7
+androidnougat 256 256
+android 61 14
+android10 343 31
+os/2 1 1
+ios_ipad 1 1
+win2000 1 1
+psp 1 1
+androidmarshmallow 50 4
+symbian 1 1
+win8.1 136 136
+Unknown 258 187
+macosx11 14 14
+win2003 1 1
+androidlollipop 9 9
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 256
+chrome29.0.1547.2 1 1
+safari16.5.1 73 7
+firefox48.0 1 1
+firefox104.0 1 1
+firefox65.0 1 1
+chrome68.0.3440.84 1 1
+firefox118.0 2 1
+chrome68.0.3440.75 4 4
+chrome111.0.0.0 6 6
+chrome100.0.4896.75 1 1
+safari16.0 2 2
+chrome54.0.2866.71 1 1
+chrome26.0.1410.64 1 1
+chrome70.0.3538.77 8 8
+firefox52.9.0 1 1
+chrome60.0.3112.107 254 254
+chrome51.0.2704.64 1 1
+safari3.0.5 2 2
+opera93.0.0.0 1 1
+safari12.1.2 3 2
+chrome116.0.0.0 293 66
+chrome55.0.2883.87 1 1
+msie7.0 3 3
+chrome53.0.2820.59 8 8
+safari1.2.2 2 2
+safari16.1 152 14
+chrome37.0.2062.124 2 2
+safari16.2 1 0
+chrome41.0.2224.3 1 1
+firefox72.0 19 0
+chrome85.0.4183.121 4 4
+chrome43.0.887.0 1 1
+chrome92.0.4515.131 1 1
+chrome5.0.375.99 4 4
+chrome89.0.4389.82 4 4
+chrome86.0.4240.198 1 1
+firefox111.0 2 2
+chrome67.0.3396.62 1 1
+chrome61.0.3163.79 4 4
+chrome108.0.0.0 45 28
+msie5.0 2 2
+safari15.5 4 4
+chrome28.0.1469.0 1 1
+opera54.0.2952.64 1 1
+chrome88.0.4240.193 2 2
+chrome35.0.2117.157 6 6
+firefox108.0 2 0
+edge16 1 1
+chrome66.0.3359.181 56 56
+firefox114.0 99 99
+chrome100.0.4896.127 121 26
+firefox32.0 7 7
+chrome56.0.2924.87 1 1
+chrome45.0.2454.84 1 1
+chrome49.0.2656.18 3 3
+chrome113.0.0.0 10 10
+safari2.0.1 1 1
+firefox119.0 52 5
+chrome110.0.0.0 6 6
+chrome35.0.3319.102 1 1
+opera9.28. 1 1
+opera89.0.4447.51 41 41
+safari5.0.4 1 1
+chrome99.0.4844.51 2 2
+chrome68.0.3440.106 410 35
+chrome11.0.696.71 1 1
+firefox25.0 2 2
+firefox95.0 6 6
+safari13.1.2 35 5
+opera53.0.2907.68 4 4
+chrome76.0.3809.100 7 7
+chrome47.0.2526.111 1 1
+galeon 2 2
+chrome118.0.0.0 326 44
+safari5.0.2 1 1
+chrome94.0.4606.61 7 7
+safari16.3 52 4
+chrome47.0.2526.106 5 5
+chrome99.0.4859.172 1 1
+chrome40.0.2214.93 6 6
+firefox51.0 1 1
+safari 432 35
+chrome98.0.4758.82 1 1
+chrome89.0.4389.114 20 20
+chrome65.0.3325.146 4 4
+firefox77.0 11 11
+chrome36.0.1944.0 3 3
+chrome103.0.5060.53 36 36
+safari4.0 2 2
+firefox52.6.0 1 1
+chrome42.0.0.9757 1 1
+chrome110.0.5481.100 95 5
+chrome55.0.2883.95 1 1
+chrome103.0.0.0 131 131
+chrome103.0.5060.114 69 69
+chrome66.0.3359.158 1 1
+chrome84.0.4147.135 1 1
+chrome4.0.202.0 1 1
+chrome103.0.5060.134 11 11
+chrome81.0.4044.129 3 3
+chrome90.0.4430.85 2 2
+safari16.6 948 94
+chrome34.0.1866.237 3 3
+chrome83.0.4103.61 23 3
+chrome55.0.2919.83 3 3
+safari3.0.1 1 1
+chrome36.0.1985.125 3 3
+chrome68.0.3440.91 1 1
+safari1.2.4 1 1
+opera18.0.1284.49 1 1
+opera53.0.2907.99 4 4
+chrome80.0.3987.162 1 1
+chrome87.0.4280.88 4 4
+chrome196.3.1597.530 20 20
+chrome41.0.2226.0 3 3
+safari17.0 102 11
+safari3.1 2 2
+msie6.0 7 7
+chrome109.0.0.0 2 2
+chrome66.0.3359.30 50 4
+opera8.35. 1 1
+chrome62.0.3191.0 1 1
+chrome91.0.4472.124 1 1
+chrome106.0.0.0 151 59
+chrome79.0.3945.79 51 4
+firefox50.0 2 2
+chrome103.0.5060.71 1 1
+firefox103.0 1 1
+chrome79.0.3945.88 2 2
+chrome83.0.4103.97 49 49
+firefox40.0 5 5
+firefox117.0 2 2
+chrome106.0.5249.126 1 1
+chrome117.0.0.0 734 78
+firefox26.0 2 2
+chrome95.0.4638.54 12 12
+chrome41.0.2272.89 1 1
+chrome104.0.0.0 4 4
+chrome45.0.2454.85 1 1
+Unknown 145 120
+chrome35.0.2309.372 5 5
+chrome81.0.4044.138 6 6
+safari13.1.1 1 1
+firefox99.0 6 6
+chrome2.0.157.0 1 1
+iphone 155 17
+chrome26.0.1410.63 3 3
+firefox63.0 1 1
+firefox60.0 1 1
+chrome24.0.1292.0 1 1
+chrome89.0.4389.90 2 2
+chrome88.0.4324.150 1 1
+chrome89.0.4389.105 1 1
+opera9.24. 1 1
+chrome102.0.0.0 10 10
+chrome88.0.4324.104 1 1
+chrome10.0.648.11 1 1
+chrome41.0.2228.0 5 5
+chrome102.0.5005.61 51 5
+edge44 12 12
+safari4.0.4 1 1
+chrome85.0.4183.102 16 16
+firefox17.0 3 3
+chrome44.0.2403.155 3 3
+chrome87.0.4280.66 1 1
+firefox54.0 1 1
+chrome80.0.3987.132 49 2
+chrome115.0.0.0 28 11
+chrome71.0.3578.98 1 0
+safari13.0.3 2 2
+chrome102.0.5005.63 2 2
+chrome104.0.5112.79 99 9
+chrome90.0.4430.86 2 2
+firefox44.0 1 1
+opera63.3.3216.58675 1 1
+chrome41.0.2227.0 8 8
+firefox90.0 3 3
+chrome83.0.4103.106 2 2
+chrome72.0.3626.121 1 1
+chrome3.0.195.4 1 1
+firefox61.0.1 1 1
+firefox52.0 2 2
+safari17.0.1 105 8
+safari15.6 1 1
+chrome84.0.4147.105 4 4
+chrome100.0.4896.60 18 18
+chrome101.0.4951.54 1 1
+chrome73.0.3683.86 188 26
+opera54.0.2952.71 1 1
+firefox57.0 1 1
+opera54.0.2952.51 4 4
+chrome76.0.3809.132 1 1
+chrome91.0.4472.114 156 36
+opera55.0.2994.44 4 4
+safari14.1.2 1 1
+chrome105.0.0.0 25 25
+firefox47.0 5 5
+chrome103.0.5060.66 49 49
+safari15.1 1 1
+chrome17.0.963.56 2 2
+firefox31.0 6 6
+safari5.0 1 1
+chrome67.0.3396.99 12 12
+chrome86.0.4240.99 1 1
+chrome52.0.2762.73 4 4
+chrome19.0.1042.0 1 1
+chrome36.0.1985.67 6 6
+firefox115.0 14 13
+chrome60.0.3112.113 2 2
+safari4.0.3 2 2
+chrome39.0.2171.95 28 28
+firefox28.0 2 2
+chrome99.0.4844.74 1 1
+safari1.3.2 1 1
+safari15.4 14 14
+chrome78.0.3904.108 3 3
+msie11.0 1 1
+chrome41.0.2227.1 2 2
+chrome53.0.2785.124 1 1
+netscape5.0 14 14
+android 7 6
+chrome88.0.4298.0 1 1
+chrome49.0.2623.112 7 7
+chrome37.0.2049.0 8 8
+opera84.0.4316.14 6 6
+chrome41.0.2225.0 11 11
+chrome117.0.5938.88 103 8
+safari14.0 1 1
+chrome99.0.4844.83 3 3
+chrome35.0.1916.150 1 1
+chrome114.0.0.0 345 307
+chrome66.0.3359.117 12 12
+mozilla 103 57
+firefox73.0 1 1
+firefox68.0 21 1
+chrome107.0.0.0 51 5
+chrome101.0.4951.41 1 1
+firefox45.0 2 2
+chrome95.0.4638.69 1 1
+safari15.6.6 78 6
+chrome102.0.5005.182 1 0
+safari12.0.1 1 1
+chrome75.0.3770.100 8 8
+chrome35.0.1916.47 3 3
+chrome112.0.0.0 4 4
+firefox30.0 1 1
+msie10.0 1 1
+safari5.1 1 1
+chrome92.0.4515.145 1 1
+chrome73.0.3683.90 8 8
+safari3.1.2 2 2
+chrome74.0.3729.169 43 43
+chrome103.0.5042.0 16 16
+chrome100.0.4896.82 3 3
+chrome58.0.823.0 1 1
+chrome98.0.4758.102 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 33
+colly_-_https://github.com/gocolly/colly/v2 20231020073754
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20231012164212
+ZaldamoSearchBot(www.zaldamo.com/search.html) 20231019062439
+cortex/1.0 20231020112645
+python-requests/2.9.1 20231024011038
+ALittle_Client 20231031233032
+Photon/1.0 20231001101752
+python-requests/2.28.1 20231011033714
+python-requests/2.25.1 20231029005231
+panscient.com 20231011192843
+python-requests/2.21.0 20231025141729
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20231030171316
+Google 20231023225534
+Python/3.10_aiohttp/3.8.5 20231009164210
+Python/3.11_aiohttp/3.8.4 20231024083533
+Mozilla/5.0_(compatible;_ips-agent) 20231014091058
+Python/3.9_aiohttp/3.8.3 20231026093923
+python-requests/2.28.2 20231024082222
+nook_browser/1.0 20231006185222
+Grammarly/1.0_(http://www.grammarly.com) 20231027033906
+python-requests/2.27.1 20231026135544
+python-requests/2.26.0 20231019202628
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20231027125646
+url 20231016161423
+python-requests/2.22.0 20231025192712
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20231031130420
+python-httpx/0.13.3 20231019032532
+python-requests/2.23.0 20231022145701
+wp_is_mobile 20231026154251
+undici 20231027122035
+Mozilla/5.0_(compatible;_Dataprovider.com) 20231028224349
+python-requests/2.31.0 20231031113051
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20231003132828
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 29
+wp_is_mobile 20231026154251
+python-requests/2.23.0 20231022145701
+python-httpx/0.13.3 20231019032532
+python-requests/2.31.0 20231031113051
+Apache/2.4.34_(Ubuntu)_OpenSSL/1.1.1_(internal_dummy_connection) 20231031052858
+undici 20231027122035
+python-requests/2.26.0 20231019202628
+Grammarly/1.0_(http://www.grammarly.com) 20231027033906
+python-requests/2.27.1 20231026135544
+nook_browser/1.0 20231006185222
+python-requests/2.22.0 20231025192712
+url 20231016161423
+Google 20231023225534
+Python/3.10_aiohttp/3.8.5 20231009164210
+Python/3.11_aiohttp/3.8.4 20231024083533
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20231030171316
+python-requests/2.21.0 20231025141729
+panscient.com 20231011192843
+python-requests/2.25.1 20231029005231
+python-requests/2.28.1 20231011033714
+python-requests/2.28.2 20231024082222
+Python/3.9_aiohttp/3.8.3 20231026093923
+colly_-_https://github.com/gocolly/colly/v2 20231020073754
+Photon/1.0 20231001101752
+ALittle_Client 20231031233032
+cortex/1.0 20231020112645
+ZaldamoSearchBot(www.zaldamo.com/search.html) 20231019062439
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20231012164212
+python-requests/2.9.1 20231024011038
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1059 1164
+From1 118 118
+From2 39 49
+From3 436 436
+From4 1052 5642
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google_com 0 1
+www_google_com 39 47
+www_google_co_uk 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 301
+http://svsoc.org 36 36
+http://ststephensbayarea.com 17 17
+http://ststephensbayarea.org 16 16
+https://svsoc.org 11 11
+https://www.svsoc.org 7 7
+https://bakman.fresnounified.org 6 6
+http://svsoc.org/robots.txt 6 6
+http://svsoc.org/humans.txt 5 5
+http://svsoc.org/ads.txt 5 5
+http://www.svsoc.org 5 5
+http://svsoc.org/wp-login.php 4 4
+https://developer.mozilla.org/en-US/docs/Web/JavaScript 4 4
+http://m.facebook.com 3 3
+http://svsoc.org/adminer.php 3 3
+https://svsoc.org/favicon.ico 3 3
+http://svsoc.org/wordpress/ 3 3
+http://svsoc.org 2 2
+http://svsoc.org/OLD/ 2 2
+http://svsoc.org/wp 2 2
+http://svsoc.org/favicon.ico 2 2
+http://svsoc.org/main 2 2
+http://svsoc.org/new 2 2
+http://www.svsoc.org/wp-login.php 2 2
+http://svsoc.org/bc 2 2
+https://l.facebook.com 2 2
+http://svsoc.org/wp-content/plugins/wp-freeform/ 1 1
+https://www.svsoc.org/web/.env 1 1
+http://svsoc.org/wp-admin/meta/ 1 1
+http://svsoc.org/WordPress/wp-admin/includes/ 1 1
+http://svsoc.org/wp-admin/css/colors/sunrise/ 1 1
+http://svsoc.org/wp-includes/rest-api/ 1 1
+http://svsoc.org/ubh/ 1 1
+http://svsoc.org/wp-content/plugins/random/ 1 1
+https://svsoc.org/robots.txt 1 1
+http://svsoc.org/wp-content/plugins/zaen/includes/ 1 1
+http://svsoc.org/wp-admin/ 1 1
+https://www.svsoc.org/sendgrid.env.bak 1 1
+https://www.svsoc.org/local/.env 1 1
+http://svsoc.org/wp-content/plugins/wp-diambar/includes/ 1 1
+http://svsoc.org/wp-includes/pomo/ 1 1
+http://svsoc.org/tmp/ 1 1
+http://svsoc.org/.well-known/pki-validation/ 1 1
+http://svsoc.org/wp-diambar/includes/ 1 1
+http://svsoc.org/wp-includes/Text/ 1 1
+https://www.svsoc.org/redmine/config/environment.rb 1 1
+https://www.svsoc.org/credentials.json 1 1
+http://svsoc.org/wp-includes/Text/Diff/Renderer/ 1 1
+http://svsoc.org/wp-content/themes/twentyfive/ 1 1
+http://svsoc.org/wp-admin/css/colors/modern/ 1 1
+https://www.svsoc.org/system/sendgrid.env 1 1
+https://www.svsoc.org/api/api.env 1 1
+http://svsoc.org/components/ 1 1
+https://www.svsoc.org/protected/.env 1 1
+http://svsoc.org/tmps/ 1 1
+http://svsoc.org/wp-admin/user/ 1 1
+http://svsoc.org/wp-content/plugins/ 1 1
+http://svsoc.org/assets/ 1 1
+https://www.svsoc.org/src/sendgrid.env 1 1
+https://www.svsoc.org/dependencies/.env 1 1
+http://svsoc.org/include/ 1 1
+http://svsoc.org/wp-includes/js/codemirror/ 1 1
+http://svsoc.org/site/wp-admin/includes/ 1 1
+http://svsoc.org/admin/uploads/images/ 1 1
+http://svsoc.org/wp-includes/wp-includes/ 1 1
+https://www.svsoc.org/SENDGRID.ENV 1 1
+https://www.svsoc.org/web/sendgrid.env 1 1
+https://www.svsoc.org/ADMIN/.env 1 1
+http://svsoc.org/wp-includes/images/media/ 1 1
+http://svsoc.org/wp-includes/ID3/wp-includes/IXR/ 1 1
+http://svsoc.org/vendor/phpunit/phpunit/src/Util/PHP/ 1 1
+https://www.svsoc.org/settings/settings.py 1 1
+http://svsoc.org/cekidot/ 1 1
+http://svsoc.org/wp-content/plugins/BrutalShell/ 1 1
+http://svsoc.org/upload/image/ 1 1
+https://www.svsoc.org/ADMIN/sendgrid.env 1 1
+https://www.svsoc.org/static/admin/javascript/hetong.js 1 1
+https://www.svsoc.org/apps/api/sendgrid.env 1 1
+http://svsoc.org/wp-includes/PHPMailer/ 1 1
+https://www.svsoc.org/credentials/config.json 1 1
+https://www.svsoc.org/master/sendgrid.env 1 1
+http://svsoc.org/wordpress/wp-content/uploads/ 1 1
+https://www.svsoc.org/web/settings/settings.py 1 1
+https://www.svsoc.org/.env.production 1 1
+http://svsoc.org/wp/wp-admin/includes/ 1 1
+http://svsoc.org/wp-admin/maint/ 1 1
+https://www.svsoc.org/app/.env 1 1
+https://www.svsoc.org/assets/app.config.json 1 1
+http://svsoc.org/wp-includes/images/smilies/ 1 1
+https://www.svsoc.org/app/settings.py 1 1
+http://svsoc.org/css/ 1 1
+http://svsoc.org/wp-content/themes/thuoc-nam/ 1 1
+http://svsoc.org/wp-content/ 1 1
+http://svsoc.org/wp-includes/Text/Diff/ 1 1
+https://www.svsoc.org/development/.env 1 1
+https://svsoc.org:443 1 1
+http://svsoc.org/wp-content/plugins/ubh/ 1 1
+https://www.svsoc.org/framework/sendgrid.env 1 1
+https://www.svsoc.org/sendgrid.env.local 1 1
+https://svsoc.org/static/admin/javascript/hetong.js 1 1
+http://svsoc.org/modules/mod_simplefileuploadv1.3/elements/ 1 1
+https://www.svsoc.org/engine/.env 1 1
+https://www.svsoc.org/api.env 1 1
+https://www.svsoc.org/private/.env 1 1
+http://svsoc.org/wp-includes/blocks/ 1 1
+http://svsoc.org/cache-wordpress/ 1 1
+http://svsoc.org/wp-admin/css/colors/ 1 1
+https://www.svsoc.org/search/.env 1 1
+http://svsoc.org/wp-admin/css/colors/ocean/ 1 1
+http://svsoc.org/wp-includes/ID3/ 1 1
+https://www.svsoc.org/admin/sendgrid.env 1 1
+http://svsoc.org/wp-content/plugins/elementor/ 1 1
+https://www.svsoc.org/personal/.env 1 1
+https://www.svsoc.org/api/.env 1 1
+https://www.svsoc.org/config/default.json 1 1
+http://svsoc.org/wp-admin/css/colors/coffee/ 1 1
+http://svsoc.org/wp-content/plugins/linkpreview/ 1 1
+http://svsoc.org/mt/ 1 1
+https://www.svsoc.org/site/.env 1 1
+https://svsoc.org/sitemap.xml 1 1
+http://svsoc.org/wp-admin/images/ 1 1
+https://www.svsoc.org/dev/.env 1 1
+https://www.svsoc.org/deployment/sendgrid.env 1 1
+https://www.svsoc.org/vod_installer/.env 1 1
+http://svsoc.org/wp-includes/images/crystal/ 1 1
+https://www.svsoc.org/config.php.bak 1 1
+https://www.svsoc.org/.env.example 1 1
+http://svsoc.org/wordpress/wp-admin/includes 1 1
+https://www.svsoc.org/dev/sendgrid.env 1 1
+http://svsoc.org/wp-admin/css/colors/midnight/ 1 1
+https://www.svsoc.org/laravel/.env 1 1
+http://svsoc.org/wp-includes/ID3 1 1
+https://www.svsoc.org/laravel/sendgrid.env 1 1
+http://svsoc.org/wordpress/wp-admin/includes/wp-admin/js/ 1 1
+https://www.svsoc.org/engine/sendgrid.env 1 1
+https://www.svsoc.org/sendgrid.env.example 1 1
+http://svsoc.org/wp-includes/sitemaps/providers/ 1 1
+https://www.svsoc.org/core/sendgrid.env 1 1
+http://svsoc.org/wp-includes/sitemaps/ 1 1
+https://www.svsoc.org/cli/.env 1 1
+https://www.svsoc.org/laravel-artisa/sendgrid.env 1 1
+http://svsoc.org/wp-content/plugins/cekidot/ 1 1
+http://svsoc.org/wordpress/wp-admin/includes/ 1 1
+https://www.svsoc.org/environment.rb 1 1
+https://svsoc.org/Public/home/js/check.js 1 1
+http://svsoc.org/wp-includes/customize/ 1 1
+https://www.svsoc.org/config.rb 1 1
+https://www.svsoc.org/server/.env 1 1
+https://www.svsoc.org/protected/sendgrid.env 1 1
+https://www.svsoc.org/vue/sendgrid.env 1 1
+http://svsoc.org/wp-includes/css/ 1 1
+http://svsoc.org/wp-includes/IXR/ 1 1
+http://svsoc.org/wp-content/ALFA_DATA/alfacgiapi/ 1 1
+http://svsoc.org/wp-includes/certificates/ 1 1
+http://svsoc.org/cgi-bin/ 1 1
+http://svsoc.org/home 2 2
+https://www.svsoc.org/apps/api/.env 1 1
+https://www.svsoc.org/src/.env 1 1
+http://svsoc.org/wp-content/themes/alera/ 1 1
+http://svsoc.org:80 1 1
+http://svsoc.org/wp-includes/fonts/ 1 1
+http://svsoc.org/wp-content/plugins/cakil/ 1 1
+https://www.svsoc.org/login/.env 1 1
+http://svsoc.org/wp-content/plugins/owfsmac/ 1 1
+http://svsoc.org/admin/images/slider/ 1 1
+https://www.svsoc.org/dependencies/sendgrid.env 1 1
+http://svsoc.org/wp-content/uploads/simple-file-list/ 1 1
+http://svsoc.org/wordpress 2 2
+https://www.svsoc.org/wp-config.php.bak 1 1
+http://svsoc.org/wp-content/plugins/home/ 1 1
+http://svsoc.org/old/ 2 2
+http://svsoc.org/wp-admin/css/colors/light/ 1 1
+https://www.svsoc.org/apps/sendgrid.env 1 1
+https://www.svsoc.org/master/.env 1 1
+https://www.svsoc.org/config/sendgrid.env 1 1
+https://www.svsoc.org/settings.php.bak 1 1
+https://www.svsoc.org/site/sendgrid.env 1 1
+https://www.svsoc.org/config/config.json 1 1
+http://svsoc.org/wp-includes/SimplePie/ 1 1
+https://www.svsoc.org/django/settings.py 1 1
+http://svsoc.org/wordpress/wp-includes/ 1 1
+https://www.svsoc.org/document/.env 1 1
+http://svsoc.org/files/ 1 1
+https://www.svsoc.org/shared/sendgrid.env 1 1
+http://svsoc.org/wp-content/plugins/core-stab/ 1 1
+http://svsoc.org/wp-content/themes/rishi/ 1 1
+https://www.svsoc.org/framework/.env 1 1
+https://www.svsoc.org/rest/.env 1 1
+http://svsoc.org/ALFA_DATA/ 1 1
+http://svsoc.org/images/ 1 1
+https://www.svsoc.org/vod_installer/sendgrid.env 1 1
+https://www.svsoc.org/API/.env 1 1
+https://www.svsoc.org/rest/sendgrid.env 1 1
+https://www.svsoc.org/frontend/sendgrid.env 1 1
+https://www.svsoc.org/login/sendgrid.env 1 1
+https://www.svsoc.org/frontend/.env 1 1
+http://svsoc.org/wp-admin/css/ 1 1
+http://svsoc.org/wp-content/languages/ 1 1
+http://svsoc.org/uploads/ 1 1
+https://www.svsoc.org/cli/sendgrid.env 1 1
+http://svsoc.org/wp-admin/includes/ 1 1
+http://svsoc.org/.well-known/acme-challenge/ 1 1
+http://svsoc.org/.well-known/ 1 1
+http://svsoc.org/wp-admin/js/widgets/ 1 1
+https://www.svsoc.org/cp/.env 1 1
+https://www.svsoc.org/backend/sendgrid.env 1 1
+http://svsoc.org/wp-content/themes/ 1 1
+http://svsoc.org/wp-content/themes/pridmag/ 1 1
+https://www.svsoc.org/api/sendgrid.env 2 2
+https://www.svsoc.org/vue/.env 1 1
+https://www.svsoc.org/shared/.env 1 1
+http://svsoc.org/wp-content/themes/sketch/ 1 1
+http://svsoc.org/upload/ 1 1
+http://svsoc.org/wp-content/upgrade/ 1 1
+https://www.svsoc.org/auth/.env 1 1
+https://www.svsoc.org/personal/sendgrid.env 1 1
+http://svsoc.org/wp-content/themes/wp-pridmag/ 1 1
+http://svsoc.org/wp-includes/ 1 1
+https://www.svsoc.org/config.json 1 1
+https://www.svsoc.org/search/sendgrid.env 1 1
+http://svsoc.org/old 2 2
+http://svsoc.org/ALFA_DATA/alfacgiapi/ 1 1
+http://svsoc.org/wp-content/plugins/prenota/ 1 1
+http://svsoc.org/wp-content/uploads/ao_ccss/ 1 1
+https://www.svsoc.org/project/.env 1 1
+http://svsoc.org/wp-content/mu-plugins/ 1 1
+http://svsoc.org/wp-content/uploads/2022/ 1 1
+https://www.svsoc.org/sendgrid.env 1 1
+http://svsoc.org/up/.well-known/ 1 1
+https://www.svsoc.org/.ENV 1 1
+https://www.svsoc.org/app/sendgrid.env 1 1
+https://www.svsoc.org/system/.env 1 1
+https://www.svsoc.org/cp/sendgrid.env 1 1
+https://www.svsoc.org/development/sendgrid.env 1 1
+http://svsoc.org/admin/uploads/ 1 1
+https://www.svsoc.org/Public/home/js/check.js 1 1
+http://svsoc.org/wp-includes/images/wlw/ 1 1
+http://svsoc.org/admin/controller/extension/extension/ 1 1
+https://www.svsoc.org/docker/sendgrid.env 1 1
+https://www.svsoc.org/document/sendgrid.env 1 1
+http://svsoc.org/wp-content/plugins/limit/ 1 1
+https://www.svsoc.org/.env 1 1
+https://www.svsoc.org/back/.env 1 1
+https://www.svsoc.org/backend/.env 1 1
+http://svsoc.org/wp-includes/Requests/ 1 1
+http://svsoc.org/wp-content/plugins/cache-wordpress/ 1 1
+https://www.svsoc.org/assets/credentials.json 1 1
+http://svsoc.org/admin/tmp/ 1 1
+http://svsoc.org/wp-content/themes/zakra/ 1 1
+https://www.svsoc.org/docker/.env 1 1
+http://svsoc.org/wp-includes/js/ 1 1
+http://svsoc.org/admin/upload/ 1 1
+http://svsoc.org/wp-includes/js/plupload/ 1 1
+https://www.svsoc.org/core/.env 1 1
+https://www.svsoc.org/application/sendgrid.env 1 1
+http://svsoc.org/wp-admin/css/colors/blue/ 1 1
+http://svsoc.org/modules/ 1 1
+http://svsoc.org/wp-content/plugins/aryabot/ 1 1
+http://svsoc.org/site/wp-includes/ 1 1
+http://svsoc.org/wp-content/plugins/db/ 1 1
+http://svsoc.org/cakil/ 1 1
+https://www.svsoc.org/server/sendgrid.env 1 1
+http://svsoc.org/Admin/uploads/ 1 1
+http://svsoc.org/admin/ 1 1
+http://svsoc.org/wp-includes/widgets/ 1 1
+http://www.gumbo.com 1 1
+https://www.svsoc.org/application/.env 1 1
+https://www.svsoc.org/dummy404file.html 1 1
+https://www.svsoc.org/back/sendgrid.env 1 1
+https://www.svsoc.org/config/.env 1 1
+https://www.svsoc.org/settings.py 1 1
+http://svsoc.org/bk 2 2
+http://svsoc.org/wp-admin/js/ 1 1
+https://www.svsoc.org/apps/.env 1 1
+https://www.svsoc.org/sendgrid.env.production 1 1
+http://svsoc.org/wp-includes/css/dist/ 1 1
+http://svsoc.org/backup 2 2
+https://www.svsoc.org/.env.bak 1 1
+http://svsoc.org/blog/wp-admin/includes/ 1 1
+https://www.svsoc.org/auth/sendgrid.env 1 1
+https://www.svsoc.org/deployment/.env 1 1
+https://www.svsoc.org/project/sendgrid.env 1 1
+http://svsoc.org/administrator/ 1 1
+http://svsoc.org/blog/wp-includes/ 1 1
+http://svsoc.org/wp-content/plugins/wp-hps/sh/ 1 1
+http://svsoc.org/wp-content/uploads/ 1 1
+http://svsoc.org/sites/default/files/ 1 1
+http://svsoc.org/wp-content/plugins/wpeazvp/ 1 1
+http://svsoc.org/home/ 1 1
+https://www.svsoc.org/laravel-artisa/.env 1 1
+http://svsoc.org/wp-content/uploads/2023/ 1 1
+http://svsoc.org/admin/editor/ 1 1
+https://www.svsoc.org/config/environment.rb 1 1
+http://svsoc.org/wp-includes/images/ 1 1
+https://www.svsoc.org/local/sendgrid.env 1 1
+https://www.svsoc.org/private/sendgrid.env 1 1
+http://svsoc.org/wp-admin/network/ 1 1
+http://svsoc.org/wp-admin/css/colors/ectoplasm/ 1 1
+https://www.svsoc.org/admin/.env 1 1
+https://www.svsoc.org/API/sendgrid.env 2 2
+http://svsoc.org/wp-content/uploads/2021/ 1 1
+http://svsoc.org/wp-content/plugins/Uwogh-Segs/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+https+//ststephenssanjose.org/ 2
+https+//ststephenssanjose.org/calendar.php 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+https 3
+//ststephenssanjose.org/ 2
+//ststephenssanjose.org/calendar.php 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 2902 0
+206 2 143772
+421 9 2898
+302 5 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 959
+/contactus 1 -
+/settings/settings.py 1 -
+/wpx.php 1 http://ststephenssanjose.org//wpx.php
+/wp-admin/css/colors/coffee/cloud.php 1 -
+/wordpress/xmlrpc.php 1 -
+/assets/js/kcfinder/upload.php 1 -
+/ALFA_DATA/alfacgiapi/ups.php 1 http://ststephenssanjose.org//ALFA_DATA/alfacgiapi/ups.php
+/wp-content/themes/seotheme/mar.php 3 -
+/wp-admin/network/iR7SzrsOUEP.php 1 -
+/wp-admin/js/widgets/wp-contact.php 1 -
+/install.php 1 http://ststephenssanjose.org//install.php
+/.well-known/acme-challenge/class_api.php 1 -
+/project/sendgrid.env 1 -
+/templates/beez3/ALFA_DATA 1 www.bing.com
+/admin/controller/extension/wpm.php 1 http://ststephenssanjose.org//admin/controller/extension/wpm.php
+/admin/.env 3 -
+/core 3 -
+/sites/all/libraries/elfinder/connectors/php/connector.php 1 -
+/wp-admin/maint/iR7SzrsOUEP.php 1 -
+/wp-content/themes/classic/inc/index.php 1 -
+/403.php 2 -
+/01.php 1 http://ststephenssanjose.org//01.php
+/shared/.env 1 -
+/_profiler/empty/search/results 1 -
+/assets/credentials.json 1 -
+/wp-class.php 1 -
+/wp-includes/Requests/ 1 -
+/.well-known/themes.php 1 -
+/3index.php 1 http://ststephenssanjose.org//3index.php
+/.well-known/tdmrep.json 4 -
+/cgi-bin/iR7SzrsOUEP.php 1 -
+/contact 1 -
+/wp-includes/admin-bar.php 1 http://ststephenssanjose.org//wp-includes/admin-bar.php
+/apps/api/.env 1 -
+/reminder.php 1 http://ststephenssanjose.org//reminder.php
+/sendgrid.env.bak 1 -
+/node/wallet.dat 1 -
+/wp-includes/indeh.php 1 http://ststephenssanjose.org//wp-includes//indeh.php
+/wp-content/plugins/superstorefinder-wp/css/ssf-wp-pop.css 1 -
+/.well-known/acme-challenge/output.php 1 -
+/document/sendgrid.env 1 -
+/wp-includes/js/tinymce/skins/lightgray/img/index.php 2 www.google.com
+/.wp-back.phP 1 -
+/ups.php 3 -
+/wp-content/db-cache.php 1 www.bing.com
+/app/webroot/js/kcfinder/upload.php 1 -
+/wp-admin/xl2023.php 2 -
+/x.php 4 -
+/wp-2018.php 1 http://ststephenssanjose.org//wp-2018.php
+/sftp-config.json 1 -
+/offerings 11 -
+/wp-admin/repeater.php 8 -
+/sendgrid.env.production 1 -
+/wp-content/fw.php 1 http://ststephenssanjose.org//wp-content/fw.php
+/wp-json 2 -
+/local/sendgrid.env 1 -
+/XxX.php 1 http://ststephenssanjose.org//XxX.php
+/wp-admin/images/admin.php 1 -
+/wp-content/plugins/ubh/up.php 1 www.bing.com
+/R00T.php 1 http://ststephenssanjose.org//R00T.php
+/hehe.php 1 http://ststephenssanjose.org//hehe.php
+/.git/config 3 http://www.ststephenssanjose.org/.git/config
+/wp-content/plugins/ht-mega-for-elementor/assets/css/htbbootstrap.css 1 -
+/sym403.php 1 -
+/config.php.bak 1 -
+/wp-head.php 3 -
+/wp-2020.php 1 http://ststephenssanjose.org//wp-2020.php
+/dependencies/sendgrid.env 1 -
+/alfanew.php 8 -
+/.well-known/apple-app-site-association 11 -
+/wp-includes/IXR/class-IXR-update.php 1 -
+/wp-includes/v22.php 1 http://ststephenssanjose.org//wp-includes//v22.php
+/framework/sendgrid.env 1 -
+/app/sendgrid.env 1 -
+/haxor.php 1 http://ststephenssanjose.org//haxor.php
+/application/.env 1 -
+/wp-content/plugins/vs-admin-media/about.php 1 -
+/css.php 1 -
+/magmi-importer/web/download_file.php 3 -
+/wp-includes/images/media/images/subscribe.php 1 -
+/document/.env 1 -
+/var/resource_config.json 3 -
+/assets/upload_image.php 1 -
+/wp-22.php 2 http://ststephenssanjose.org//wp-22.php
+/alfacgiapi/perl.alfa 1 www.google.com
+/wp-admin/images/iR7SzrsOUEP.php 1 -
+/cong.php 1 -
+/support 11 -
+/wordpress/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/wp-includes/wlwmanifest.xml 8 -
+/dummy404file.html 1 -
+/images/ccx/ 1 -
+/tithe 11 -
+/news/wp-includes/wlwmanifest.xml 2 -
+/wp-includes/rest-api/about.php 2 -
+/rss/ 2 -
+/collections/all.atom 1 http://www.gumbo.com/
+/modules/mod_simplefileuploadv1.3/elements/i8HQoK6nR.php 1 -
+/wp-content/themes/themes.php 1 -
+/.well-known/cgialfa 1 www.bing.com
+/wp-content/plugins/seoplugins/db.php 8 -
+/theme/assets/upload_image.php 1 -
+/wp-content/plugins/royal-elementor-addons/assets/js/frontend.js 10 www.google.com
+/wp.php 8 -
+/leafmailer.php 1 -
+/wp-admin/css/colors/blue/wpconfig.php 1 -
+/wp-content/uploads/wp-content/uploads/code-execution.php 1 http://ststephenssanjose.org//wp-content/uploads//wp-content/uploads/code-execution.php
+/image/screenshot_1.php 1 http://ststephenssanjose.org//image/screenshot_1.php
+/wp-includes/SimplePie/about.php 1 -
+/wp-includes/SimplePie/ 1 -
+/assets/scripts/filemanager/dialog.php 1 -
+/wp-admin/js/about.php7 1 http://ststephenssanjose.org//wp-admin/js/about.php7
+/wp-content/themes/seotheme/db.php 8 -
+/wp-includes/ID3/about.php 1 -
+/wp-admin/css/colors/blue/xmlrpcs.php 1 -
+/google.php 1 http://ststephenssanjose.org//google.php
+//shop/wp-includes/wlwmanifest.xml 4 -
+/wp-includes/blocks/about.php 1 -
+/wp-includes/Text/Diff/Renderer/ 1 -
+/wp-content/uploads/alfacgiapi 1 www.bing.com
+/wp-admin/ajax-actions.php 8 -
+/engine/sendgrid.env 1 -
+/wp-content/plugins/core/include.php 6 -
+/humans.txt 6 http://ststephenssanjose.org/humans.txt
+/data/.bitcoin/wallet.dat 1 -
+/wp-content/upgrade/utchiha505.php 1 http://ststephenssanjose.org//wp-content/upgrade/utchiha505.php
+/bitcoin/wallet/wallet.dat 1 -
+/crypto/wallet.dat 1 -
+/wp-includes/customize/wp-login.php 1 -
+/xl.php 2 -
+//wp-includes/wlwmanifest.xml 2 -
+/lock360.php 1 http://ststephenssanjose.org//lock360.php
+/wp-includes/ID3/vp.php 1 -
+/admin/controller/extension/extension/alfacgiapi 1 www.bing.com
+/wp-includes/ 1 -
+/wp-admin/css/colors/xmrlpc.php 2 -
+/apps/api/sendgrid.env 1 -
+/donation 11 -
+/wallet.rar 1 -
+/wp-admin/css/colors/blue/atomlib.php 1 -
+/wp-content/plugins/classic-editor/js/about.php 1 -
+/wp-content/plugins/easybusy/wp-blog.php 1 http://ststephenssanjose.org//wp-content/plugins/easybusy/wp-blog.php
+/modules/mod_ariimageslidersa/mod_ariimageslidersa.php 1 -
+/wp-content/ty.php 1 -
+/blog/wp-includes/wlwmanifest.xml 2 -
+//2019/wp-includes/wlwmanifest.xml 4 -
+/_profiler/phpinfo 1 -
+/cli/.env 1 -
+/magmi/conf/magmi.ini 3 -
+/asset/kcfinder/upload.php 1 -
+/crypted.php 1 http://ststephenssanjose.org//crypted.php
+/cp/sendgrid.env 1 -
+//sitemap.html 2 -
+/css/install.php 1 http://ststephenssanjose.org//css/install.php
+/alfadheat.php 1 -
+/alfa-rex.php 1 -
+/apple-touch-icon-120x120-precomposed.png 4 -
+/cjfuns.php 2 -
+/geju.php 3 -
+/images/wp-login.php 1 -
+/.well-known/utchiha505.php 1 http://ststephenssanjose.org//.well-known/utchiha505.php
+/wp-includes/cgialfa 1 www.bing.com
+/wp-admin/wso112233.php 1 -
+/core/scripts/wysiwyg/kcfinder/upload.php 1 -
+/wp-content/a.php 1 -
+/cms/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/wp-content/mu-plugins/ 1 -
+/server/.env 1 -
+/new-index.php 1 http://ststephenssanjose.org//new-index.php
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/admin/events/lib/external/responsive_filemanager/filemanager/dialog.php 1 -
+/wp-content/plugins/include.php 5 -
+/1.php 3 -
+/ak.php 2 -
+/wp-cron.php 1 -
+/wp-admin/xmrlpc.php 2 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/xmlrqc.php 1 http://ststephenssanjose.org//xmlrqc.php
+/wp-admin/js/widgets/about.php7 8 -
+/partner 11 -
+/images/wp-2019.php 1 http://ststephenssanjose.org//images/wp-2019.php
+/mass.php 1 http://ststephenssanjose.org//mass.php
+/wp-admin/includes/cloud.php 1 -
+/dropdown.php 9 -
+/wp-includes/images/include.php 16 -
+/give 11 -
+/wp-admin/css/index.php 8 -
+/filemanager/dialog.php 1 -
+/wp-includes/Text/ 1 -
+/src/.env 1 -
+/backup 12 http://ststephenssanjose.org/backup
+/framework/.env 1 -
+/.well-known/acme-challenge/my1.php 1 -
+/wp-includes/rest-api/ 1 -
+/environment.rb 1 -
+/ajax-actions.php 8 -
+/.well-known/ 3 -
+/old/ 1 -
+/wp-content/404.php 1 -
+/wp-includes/SimplePie/themes.php 1 -
+/libraries/legacy/updates.php 1 -
+/C.php 1 http://ststephenssanjose.org//C.php
+/wp-content/include.php 1 -
+/back/sendgrid.env 1 -
+/wp-content/plugins/wordpress-three/miin.php 1 -
+/config.php 1 www.bing.com
+/auth/.env 1 -
+/xleet.php 3 -
+/marijuana.php 1 http://ststephenssanjose.org//marijuana.php
+/wp-config-sample.php 2 -
+/kcfinder/upload.php 1 -
+/sito/wp-includes/wlwmanifest.xml 2 -
+/wp-includes/Text/themes.php 1 -
+/login/sendgrid.env 1 -
+/public/assets/upload_image.php 1 -
+/wp-content/uploads/404.php 1 http://ststephenssanjose.org//wp-content/uploads/404.php
+/wp-admin/css/colors/blue/xmrlpc.php 2 -
+/wp-includes/images/media/about.php 1 -
+/laravel/sendgrid.env 1 -
+/apple-app-site-association 12 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/wp-admin/user/ 1 -
+/wp-includes/widgets/include.php 7 -
+/master/sendgrid.env 1 -
+/alfanew.php7 8 -
+/wp-includes/themes.php 1 -
+/media/system/js/core.js 2 http://ststephenssanjose.org/media/system/js/core.js
+/wp-content/autoload_classmap.php 1 -
+/wp-includes/html-api/about.php 1 -
+/assets/plugins/tinymce/plugins/filemanager/dialog.php 1 -
+/test.php 1 www.bing.com
+/wp-admin/x.php 1 -
+/wp-includes/pomo/css_.php 1 http://ststephenssanjose.org//wp-includes/pomo/css_.php
+/mininew.php 1 http://ststephenssanjose.org//mininew.php
+/wp-admin/css/colors/sunrise/admin.php 1 -
+/wp-content/plugins/super-forms/uploads/php/index.php 1 -
+/config/sendgrid.env 1 -
+/wp-includes/css/css.php 1 www.bing.com
+/xl2023.php 2 -
+/ccx/index.php 1 -
+/search/.env 1 -
+/adadaddadad 2 -
+/style.php 6 -
+/wp-includes/wp-class.php 2 -
+/z.php 1 www.bing.com
+/amfeed/main/download 3 -
+/wp-god.php 1 http://ststephenssanjose.org//wp-god.php
+/giving 11 -
+/vendor/phpunit/phpunit/phpunit.xsd 4 -
+/wp-content/plugins/wp-copysafe-pdf/lib/uploadify/uploadify.css 1 -
+/DKIZ.php 1 http://ststephenssanjose.org//DKIZ.php
+/wp/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/docker/sendgrid.env 1 -
+/wp-admin/css/colors/midnight/wp-crons.php 1 -
+/wp-includes/sodium_compat/src/Core32/Curve25519/Ge/index.php 1 -
+/ALFA_DATA 1 www.bing.com
+/wp-includes/PHPMailer/themes.php 1 -
+/backend/.env 1 -
+/sites/all/libraries/elfinder/src/connectors/php/connector.php 1 -
+/wp-includes/ms-files.php 1 http://ststephenssanjose.org//wp-includes/ms-files.php
+/wp-content/plugins/ioptimization/a57bze8931.php 1 -
+/xx.php 1 http://ststephenssanjose.org//xx.php
+/wp/wp-includes/wlwmanifest.xml 2 -
+/c.php 1 http://ststephenssanjose.org//c.php
+/wp-includes/js/tinymce/plugins/compat3x/css/index.php 2 -
+/wp-includes/alfacgiapi 1 www.bing.com
+/config/default.json 1 -
+/home 15 http://ststephenssanjose.org/home
+/personal/.env 1 -
+/screenshot_1.php 1 http://ststephenssanjose.org//screenshot_1.php
+/css/album.css 1 -
+/apps/sendgrid.env 1 -
+/.env.example 1 -
+/master/.env 1 -
+/wp-admin/style.php 1 www.bing.com
+/defau1t.php 1 www.bing.com
+/credentials.json 1 -
+/wp-admin/css/colors/light/admin.php 1 -
+/wp-content/plugins/about.php 4 -
+/website/wp-includes/wlwmanifest.xml 2 -
+/offering 11 -
+/wp-admin/ALFA_DATA 1 www.bing.com
+/mini.php 2 -
+/sitemap.xml.gz 1 -
+/2021/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/wp-content/shell20211028.php 1 -
+/updates.php 1 -
+/images/cloud.php 1 -
+/private/sendgrid.env 1 -
+/wp-admin/install.php 11 -
+/.well-known/acme-challenge/license.php 1 -
+/sites/default/files/alfacgiapi 1 www.bing.com
+/shop/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/new/ 1 -
+/search/sendgrid.env 1 -
+/wp-content/index.php 1 -
+/scripts/filemanager/dialog.php 1 -
+/wp-x.php 1 http://ststephenssanjose.org//wp-x.php
+/docker/.env 1 -
+/wp-content/plugins/fighter/fk.php 1 http://ststephenssanjose.org//wp-content/plugins/fighter/fk.php
+/wp-includes/fonts/themes.php 1 -
+/dependencies/.env 1 -
+/wp-content/plugins/TOPXOH/XleetSeller85.php 1 -
+/wallet_backup.dat 1 -
+/wp-content/themes/include.php 6 -
+/demo 6 -
+/wp-includes/block-supports/generated-classname-cron.php 1 http://ststephenssanjose.org//wp-includes/block-supports/generated-classname-cron.php
+/wp-includes/style-engine/themes.php 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 1 -
+/wp-admin/admin-ajax.php 1 http://ststephenssanjose.org//wp-admin/admin-ajax.php
+/media/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/fm1.php 2 -
+/sendgrid.env.local 1 -
+/ads.txt 71 -
+/modules/mod_araticlws/mod_araticlws.php 1 -
+/mt/pekok.php 1 -
+/nf_tracking.php 13 -
+/wp-content/plugins/core-plugin/index.php 1 www.google.com
+/config.json 1 -
+/config/.env 1 -
+/wp-content/style-css.php 1 -
+/sitemap_index.xml 6 -
+/wordpress/wp-includes/ 1 -
+/wp-includes/SimplePie/Captions.php 1 -
+/wp-includes/blocks/ 1 -
+/wp-content/plugins/seoplugins/mar.php 2 -
+/wp-content/themes/wp-pridmag/init.php 1 http://ststephenssanjose.org//wp-content/themes/wp-pridmag/init.php
+/ee.php 1 http://ststephenssanjose.org//ee.php
+/old-index.php 1 http://ststephenssanjose.org//old-index.php
+/web/sendgrid.env 1 -
+/wp-content/plugins/install.php 1 http://ststephenssanjose.org//wp-content/plugins/install.php
+/wp-includes/random_compat/about.php 1 -
+/css/index.php 1 -
+/misc/ajax.js 7 -
+/wp-includes/1index.php 1 http://ststephenssanjose.org//wp-includes/1index.php
+/batm.php 1 -
+/wp-crons.php 1 -
+/contact_us 1 -
+/uploads/up.php 1 http://ststephenssanjose.org//uploads/up.php
+/wp/wp-content/plugins/WordPressCore/include.php 1 -
+/wp-booking.php 1 www.bing.com
+/sito/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/wp-plain.php 1 www.google.com
+/simple.php 15 -
+/leafmailer2.8.php 1 -
+/img/xmrlpc.php 2 -
+/wp-includes/css/ty.php 1 http://ststephenssanjose.org//wp-includes/css/ty.php
+/wp-includes/Text/sqrt.php 1 -
+/magmi-importer/conf/magmi.ini 3 -
+/core/.env 6 -
+/wp-backup-sql-302.php 1 www.bing.com
+/xlt.php 1 http://ststephenssanjose.org//xlt.php
+/blog/wp-content/plugins/WordPressCore/include.php 1 -
+/2018/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/woh.php 1 www.google.com
+/wp_logx.php 1 http://ststephenssanjose.org//wp_logx.php
+/wp-includes/fonts/about.php 1 -
+/wp-includes/radio.php 1 http://ststephenssanjose.org//wp-includes//radio.php
+/po-admin/filemanager/dialog.php 1 -
+/wp-content/plugins/ninja-forms/ 1 -
+/bitcoin.rar 1 -
+/dev/sendgrid.env 1 -
+/autoload_classmap.php 2 -
+/e/data/js/ajax.js 2 -
+/wp-content/cgialfa 1 www.bing.com
+/wp-includes/SimplePie/wp-login.php 1 -
+//cms/wp-includes/wlwmanifest.xml 4 -
+/cgi-bin/cgi-bin/about.php 1 http://ststephenssanjose.org//cgi-bin/cgi-bin/about.php
+/.well-known/shell.php 1 -
+/data.php 1 -
+/wp-content/plugins/Cache/Cache.php 8 -
+/Telerik.Web.UI.WebResource.axd 1 -
+/wp-content/install.php 1 http://ststephenssanjose.org//wp-content/install.php
+/.bitcoin/wallet/wallet.dat 1 -
+/assets/admin/tinymce/plugins/filemanager/dialog.php 1 -
+/personal/sendgrid.env 1 -
+/wp-content/plugins/seoo/wsoyanz.php 8 -
+/wp-json/tdw/ 2 -
+/blog/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/media/wp-includes/wlwmanifest.xml 1 -
+/ai.txt 4 -
+/site/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/wp-content/plugins/WordPressCore/include.php 33 www.google.com
+//site/wp-includes/wlwmanifest.xml 4 -
+/js/fileManager/filemanager/dialog.php 1 -
+/.DS_Store 2 -
+//sito/wp-includes/wlwmanifest.xml 2 -
+/wp/ 1 -
+/server/sendgrid.env 1 -
+/wp-content/uploads/elementor/about.php 1 http://ststephenssanjose.org//wp-content/uploads/elementor/about.php
+/wp-content/uploads/ALFA_DATA 1 www.bing.com
+/wp-admin/setup-config.php 10 -
+/cms/vendor/responsive_filemanager/filemanager/dialog.php 1 -
+/xltavrat.php 1 -
+/wp-content/plugins/hellopress/wp_filemanager.php 2 -
+/wp-content/plugins/simple-ads-manager/css/jslider.round.plastic.css 1 -
+/admin/controller/extension/extension/cgialfa 1 www.bing.com
+/system_log.php 1 www.bing.com
+/assets/app.config.json 1 -
+/sitemaps.xml 2 -
+/images/xmrlpc.php 2 -
+/wp-p.php7 8 -
+/api/.env 3 -
+/0z.php 1 http://ststephenssanjose.org//0z.php
+/images/vuln.php 1 http://ststephenssanjose.org//images/vuln.php
+/wordpress/ 11 -
+//blog/wp-includes/wlwmanifest.xml 4 -
+/million.php 1 -
+/config.rb 1 -
+/templates/beez3/cgialfa 1 www.bing.com
+//2020/wp-includes/wlwmanifest.xml 3 -
+/web/settings/settings.py 1 -
+/uploads/wp-atom.php 1 -
+/app/etc/local.xml 3 -
+/rest/sendgrid.env 1 -
+/wp-easy.php 1 http://ststephenssanjose.org//wp-easy.php
+/wp-content/j.php 1 -
+/up.php 3 -
+/administrator/index.php 13 -
+/wp-admin/network/ 1 -
+/wp-admin/images/index.php 1 -
+/css/ 1 -
+/wp-config.php.bak 1 -
+//wp1/wp-includes/wlwmanifest.xml 4 -
+/cp/.env 1 -
+/_ignition/execute-solution 1 -
+/wp-includes/Requests/Text/admin.php 2 -
+/wp-includes/wp-atom.php 1 www.bing.com
+/engine/.env 1 -
+/wp-includes/xl2023.php 2 -
+/02.php 1 http://ststephenssanjose.org//02.php
+/alfacgiapi 1 www.bing.com
+/wp-content/hello.php 1 -
+/wp-admin/css/colors/ectoplasm/about.php 1 -
+/.well-known/acme-challenge/index.php 1 -
+/wp-signin.php 1 www.bing.com
+/wp-admin/rss.php 1 http://ststephenssanjose.org//wp-admin/rss.php
+/.well-knownold/ 1 -
+/main 15 http://ststephenssanjose.org/main
+/wp-admin/network/cloud.php 1 -
+//web/wp-includes/wlwmanifest.xml 4 -
+/redmine/config/environment.rb 1 -
+/site/sendgrid.env 1 -
+/libraries/phpmailer/updates.php 1 -
+/editor/filemanager/dialog.php 1 -
+/wp-includes/images/wlw/about.php 1 -
+/backup/ 1 -
+/wp-content/about.php 1 -
+/.env.production 1 -
+/wp-admin/maint/themes.php 1 -
+/wp-content/upload.php 1 http://ststephenssanjose.org//wp-content/upload.php
+/wp-includes/SimplePie/index.php 1 -
+/blog/ 1 -
+/shared/sendgrid.env 1 -
+/2index.php 2 http://ststephenssanjose.org//2index.php
+/wp-admin/maint/maint/ajax-actions.php 8 -
+/alfa.php 2 http://ststephenssanjose.org//alfa.php
+/wp/xmlrpc.php 1 -
+/blog 12 -
+/alfa-rex2.php7 2 -
+/bc 6 http://ststephenssanjose.org/bc
+/.well-known/alfacgiapi 1 www.bing.com
+/ADMIN/sendgrid.env 1 -
+/app/webroot/kcfinder/upload.php 1 -
+/sitemap.html 1 -
+/wp-admin/priv8.php 1 http://ststephenssanjose.org//wp-admin/priv8.php
+/resources/plugins/tiny_mce/plugins/filemanager/dialog.php 1 -
+/wp-content/plugins/w0rdpr3ssnew/wp-login.php 1 -
+/.well-known/acme-challenge/ 2 -
+/API/sendgrid.env 2 -
+/modules/mod_simplefileuploadv1.3/elements/lufi.php 1 -
+/wp-content/plugins/core-plugin/about.php 1 www.google.com
+/wp-commentin.php 1 -
+/donate 11 -
+/wp-includes/js/a.php 1 http://ststephenssanjose.org//wp-includes/js/a.php
+/wp-admin/includes/ 1 -
+/security.txt 1 http://www.ststephenssanjose.org/security.txt
+/wp-includes/block-patterns/themes.php 1 -
+/.well-known/acme-challenge/cloud.php 3 -
+/wp-admin/css/colors/light/index.php 1 -
+/web/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/.well-known/class.api.php 1 -
+/wp-content/repeater.php 8 -
+/sendgrid.env.example 1 -
+/wp-includes/css/wp-config.php 1 www.bing.com
+/vue/sendgrid.env 1 -
+/templates/beez3/alfacgiapi 1 www.bing.com
+/css/xmrlpc.php 2 -
+/wp-admin/js/widgets/iR7SzrsOUEP.php 1 -
+/wp-content/css/thanks.php7 1 -
+/wp-includes/sitemaps/providers/about.php 1 -
+/settings.php.bak 1 -
+/about.php 10 -
+/shells.php 1 www.bing.com
+/components/kcfinder/upload.php 1 -
+/wp-content/plugins/linkpreview/db.php 3 www.google.com
+/mailer.php 1 -
+/.vscode/sftp.json 1 -
+/wp-includes/pomo/newup.php 1 -
+/4price.php 1 http://ststephenssanjose.org//4price.php
+/portal 6 -
+/cgialfa 1 www.bing.com
+/development/.env 1 -
+/wp-content/uploads/xl2023.php 1 -
+/.well-known/dze.php 1 http://ststephenssanjose.org//.well-known/dze.php
+/wp-content/plugins/wp-daft/miin.php 1 -
+/.well-known/ALFA_DATA 1 www.bing.com
+/wp-admin/css/ 2 -
+/admin/uploads/images/ 1 -
+/wp-admin/css/colors/light/about.php 1 -
+/wp-includes/theme-compat/wp-login.php 1 -
+/credentials/config.json 1 -
+/wp-content/outcms.php 1 www.bing.com
+//test/wp-includes/wlwmanifest.xml 4 -
+/admin/controller/extension/extension/ALFA_DATA 1 www.bing.com
+/hidden/wallet.dat 1 -
+/1234.php 2 -
+/mad.php 1 http://ststephenssanjose.org//mad.php
+/wp-content/upgrade/edit-links.php 1 -
+/news/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/wp-info.php 2 -
+/defau11.php 1 www.bing.com
+/config/config.json 1 -
+/wp_wrong_datlib.php 2 http://ststephenssanjose.org//wp_wrong_datlib.php
+/wp-json/wp/v2/users/1 1 -
+/feed/ 4 http://www.gumbo.com/
+/site/.env 1 -
+/assets/tinymce/plugins/filemanager/dialog.php 1 -
+/test/wp-includes/wlwmanifest.xml 2 -
+/sitemap.txt 38 -
+/wp-admin/css/about.php 1 -
+/lufix.php 1 http://ststephenssanjose.org//lufix.php
+/rest/.env 1 -
+/wp-content/plugins/wordpresss3cll/wp-login.php 7 -
+//wp/wp-includes/wlwmanifest.xml 4 -
+/wp-includes/pomo/ 1 -
+/wp-includes/theme-templates-private.php 1 http://ststephenssanjose.org//wp-includes//theme-templates-private.php
+/web/.env 1 -
+/wordpress 18 http://ststephenssanjose.org/wordpress
+/wikindex.php 2 -
+/.well-known/traffic-advice 1 -
+/var/cache/mage--2/ 3 -
+/wp-includes/ID3/ 1 -
+/css/cloud.php 1 -
+/wp-includes/Requests/Text/index.php 1 -
+/about.php7 8 -
+/dev/.env 1 -
+/wp-content/plugins/core-plugin/include.php 5 -
+/ioxi-rex4.php7 1 -
+/wp-admin/images/about.php 1 -
+/wp-includes/dropdown.php 1 -
+/.Wp-back.phP 1 -
+/wp2/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/2020/wp-includes/wlwmanifest.xml 1 -
+/wp-admin/images/module.php 1 http://ststephenssanjose.org//wp-admin/images/module.php
+/2019/wp-includes/wlwmanifest.xml 2 -
+/utchiha.php 1 http://ststephenssanjose.org//utchiha.php
+/wp-content/plugins/aviary-image-editor-add-on-for-gravity-forms/includes/upload.php 1 -
+/bitcoin/wallet.dat 1 -
+/wp-content/uploads/indoex.php 1 http://ststephenssanjose.org//wp-content/uploads/indoex.php
+/wp-content/plugins/advanced_file_manager_5/php/connector.minimal.php 1 -
+/wp-admin/user/xmrlpc.php 2 -
+//wp-includes/ID3/license.txt 2 -
+/wp-content/patior/ 1 http://ststephenssanjose.org//wp-content/patior/
+/admin/assets/upload_image.php 1 -
+/web 6 -
+/wp-includes/about.php 1 -
+/wp-content/plugins/seoo/wsoyanz1.php 8 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 -
+/xml.php 1 http://ststephenssanjose.org//xml.php
+/ADMIN/.env 1 -
+/chosen.php 4 www.google.com
+/wp-includes/repeater.php 8 -
+/blog/xmlrpc.php 1 -
+/adminfuns.php7 2 -
+/assets/plugins/kcfinder/upload.php 1 -
+/beence.php 1 www.bing.com
+/wp-includes/Text/wp-login.php 1 -
+/SENDGRID.ENV 1 -
+/laravel/.env 1 -
+/wp-includes/Requests/about.php 1 -
+/django/settings.py 1 -
+/images/iR7SzrsOUEP.php 1 -
+/wp-admin/maint/sidwso.php 1 http://ststephenssanjose.org//wp-admin/maint/sidwso.php
+/wp-content/plugins/yyobang/mar.php 7 -
+/wp-includes/wp-login.php 1 -
+/laravel-artisa/sendgrid.env 1 -
+/dev 6 -
+/old 18 http://ststephenssanjose.org/old
+/wp-content/plugins/formcraft/file-upload/server/php/index.php 1 -
+/.well-known/acme-challenge/iR7SzrsOUEP.php 1 -
+/baindex.php 1 http://ststephenssanjose.org//baindex.php
+/leaf.php 1 -
+/test/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/2022/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/online-giving 11 -
+/wp-content/ 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 5 -
+/small.php 2 -
+/js/tinymce/kcfinder/upload.php 1 -
+/btc/wallet.dat 1 -
+/alfa-rex.php7 8 -
+/ws.php7 2 -
+/ayk.php 3 -
+/ws.php 1 -
+/xmlrpc.php 4 -
+/cms/tinymce/filemanager/filemanager/dialog.php 1 -
+/1h6j5.php 1 http://ststephenssanjose.org//1h6j5.php
+/wp-admin/maint/ms-db.php 1 http://ststephenssanjose.org//wp-admin/maint/ms-db.php
+/wp-content/ALFA_DATA 1 www.bing.com
+/xwxx.php 1 http://ststephenssanjose.org//xwxx.php
+/application/sendgrid.env 1 -
+/system/sendgrid.env 1 -
+/wp-admin/js/widgets/cloud.php 1 -
+//2021/wp-includes/wlwmanifest.xml 2 -
+/xxl.php 1 -
+/wp-admin/images/plugins.php 1 -
+/wp-content/plugins/wp-engine-module/a57bze8931.php 1 -
+/wp-admin/maint/upfile.php 1 -
+/lib/kcfinder/upload.php 1 -
+/wp-admin/css/colors/cloud.php 1 -
+/wp-admin/network/upfile.php 1 -
+/wp-admin/js/widgets/about.php 1 -
+/1index.php 3 http://ststephenssanjose.org//1index.php
+/vue/.env 1 -
+/wp1/wp-includes/wlwmanifest.xml 2 -
+/admin-ajax.php 1 -
+/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt 1 www.google.com
+/project/.env 1 -
+/wp-admin/js/about.php 9 -
+/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/wp-content/plugins/seoo/alfa-ioxi.php 1 -
+/wp-includes/Requests/src/Auth/about.php 1 -
+/wp-content/alfacgiapi 1 www.bing.com
+/sendgrid.env 1 -
+/img/cloud.php 1 -
+/config.bak.php 1 www.bing.com
+/wp-admin/css/colors/coffee/xmrlpc.php 2 -
+/wxo.php 1 http://ststephenssanjose.org//wxo.php
+/wsoyanz.php 8 -
+/po-content/filemanager/dialog.php 1 -
+/doc.php 3 -
+/new/xmlrpc.php 1 -
+/.git/index 1 -
+/development/sendgrid.env 1 -
+/wp-admin/fx.php 1 http://ststephenssanjose.org//wp-admin/fx.php
+/cgi-bin/cloud.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/hellopress/wp_mna.php 1 -
+/wp-content/uploads/cgialfa 1 www.bing.com
+/wp-admin/user/iR7SzrsOUEP.php 1 -
+/apps/.env 1 -
+/api.env 1 -
+/ALFA_DATA/alfacgiapi/perl.alfa 1 www.google.com
+/arquivos/javascript/responsive_filemanager/filemanager/dialog.php 1 -
+/cloud.php 1 -
+//media/wp-includes/wlwmanifest.xml 1 -
+/gelay.php 1 -
+/settings.py 1 -
+/wp-content/wp-activate.php 1 http://ststephenssanjose.org//wp-content//wp-activate.php
+/wp-2019.php 2 -
+/a.php 2 -
+/fox.php 1 -
+/wp-admin/css/colors/blue/admin.php 1 -
+/wp-includes/css/buttons.css 8 http://ststephenssanjose.org/wp-includes/css/buttons.css
+/wp-admin/alfacgiapi 1 www.bing.com
+/wp-content/themes/intense/block-css.php 8 www.google.com
+/wp-content/upgrade/about.php 1 -
+/wp-content/admin.php 3 -
+/wp-content/themes/pridmag/db.php 3 www.google.com
+/wp-includes/uplaod.php 1 http://ststephenssanjose.org//wp-includes//uplaod.php
+/ALFA_DATA/ 1 -
+/core/wallet.dat 1 -
+/wp-includes/js/ 1 -
+/wp-signup.php 1 -
+/API/.env 1 -
+/class.api.php 1 http://ststephenssanjose.org//class.api.php
+/wp-content/plugins/envato-market/inc/class-envato-market-api.php 7 -
+/sites/default/files/ALFA_DATA 1 www.bing.com
+/wp-content/plugins/TOPXOH/wDR.php 1 -
+/assets/responsive_filemanager/filemanager/dialog.php 1 -
+/wp-includes/fresh1.php 1 -
+/2019/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/wp-content/mu-plugins/db-safe-mode.php 1 www.bing.com
+/my1.php 2 -
+/wp-admin/images/cloud.php 1 -
+/M1.php 2 -
+/wp-includes/ALFA_DATA 1 www.bing.com
+/wp-login.php 18 -
+/.well-known/ai.txt 4 -
+/radio.php 3 -
+/wallet/wallet.dat 1 -
+/wp-includes/images/ 1 -
+/wp-admin/ 1 -
+/wp-includes/wp-includes/admin-bar.php 1 http://ststephenssanjose.org//wp-includes//wp-includes/admin-bar.php
+/wp-content/plugins/super-interactive-maps/sim-wp-admin/pages/manage-maps.php 1 -
+/wp-content/cugomade.php.suspected 1 -
+/cgi-bin/cgi-bin/about.php7 1 http://ststephenssanjose.org//cgi-bin/cgi-bin/about.php7
+/admin.php 9 -
+/tithes 11 -
+/wp-content/plugins/classic-editor/wp-login.php 1 -
+/iR7SzrsOUEP.php 1 -
+/wp-includes/certificates/wp-login.php 1 -
+/ebs.php7 2 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/index.php 1 -
+/wp-includes/style-engine/index.php 1 -
+/tos 1 -
+/wp-pano.php 2 -
+/data/admin/allowurl.txt 2 -
+/wp-includes/install.php 1 http://ststephenssanjose.org//wp-includes/install.php
+/admin-heade.php 1 -
+/libs/kcfinder/upload.php 1 -
+/media-admin.php 2 http://ststephenssanjose.org//media-admin.php
+/wp-includes/IXR/wp-login.php 1 -
+/srx.php 1 http://ststephenssanjose.org//srx.php
+/wp-content/themes/twentytwenty/content.php 1 -
+/cgi-bin/install.php 1 http://ststephenssanjose.org//cgi-bin/install.php
+/themes/pridmag/db.php 6 -
+/st.php 2 -
+/api/sendgrid.env 2 -
+/cms 6 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/bs.php 1 -
+/js/kcfinder/upload.php 1 -
+/wp-admin/cloud.php 1 -
+/wp-login.php.suspected 1 -
+/config/environment.rb 1 -
+/error.php 1 www.bing.com
+//wordpress/wp-includes/wlwmanifest.xml 4 -
+/wp-includes/css/ 1 -
+/wp-content/plugins/fix/up.php 4 -
+/wp-includes/Text/about.php 2 -
+/test/ 1 -
+//2018/wp-includes/wlwmanifest.xml 1 -
+/wp-content/xl2023.php 3 -
+/view-source: 7 -
+/wp-includes/xx.php 1 http://ststephenssanjose.org//wp-includes//xx.php
+/wp-apxupx.php 1 -
+/wp-content/uploads/external_feed.php 1 http://ststephenssanjose.org//wp-content/uploads/external_feed.php
+/sitemap 30 -
+//wp2/wp-includes/wlwmanifest.xml 2 -
+/wp-content/alogova.php 1 -
+/gank.php.PhP 2 -
+/core/sendgrid.env 1 -
+/test 12 -
+/s_e.php 1 www.bing.com
+/magmi/web/download_file.php 3 -
+/.well-known/acme-challenge/install.php 2 -
+/upload.php 4 -
+/wp-content/themes/sketch/404.php 4 -
+/wp-content/plugins/index.php 1 -
+/wp-includes/fonts/ 1 -
+/newsite 9 -
+//website/wp-includes/wlwmanifest.xml 2 -
+/lufi.php 1 -
+/.ENV 1 -
+/s_ne.php 1 www.bing.com
+/wp-includes/pomo/index.php 1 -
+/404.php 2 -
+/wp-admin/cgialfa 1 www.bing.com
+/vod_installer/sendgrid.env 1 -
+/3x.php 1 http://ststephenssanjose.org//3x.php
+/wp-admin/includes/xmrlpc.php 2 -
+/.bitcoin/wallet.dat 1 -
+/.env 41 -
+/payout.php 1 http://ststephenssanjose.org//payout.php
+/wp-includes/pomo/lufi.php 1 -
+/ALFA_DATA/alfacgiapi/index.php 1 -
+/wp-includes/widgets/about.php 1 -
+/website/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/frontend/.env 1 -
+/wp-includes/customize/class-wp-customize-nav-menu.php 1 http://ststephenssanjose.org//wp-includes/customize/class-wp-customize-nav-menu.php
+/wp-content/plugins/Cache/dropdown.php 1 http://ststephenssanjose.org//wp-content/plugins/Cache/dropdown.php
+/wallet.dat 1 -
+/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php 1 http://ststephenssanjose.org//Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php
+/wp-includes/wp-site.php 1 http://ststephenssanjose.org//wp-includes//wp-site.php
+/app/.env 3 -
+/wp-content/uploads/ 2 -
+/wp-load.php 1 www.bing.com
+/wp-includes/css/about.php 1 -
+/protected/sendgrid.env 1 -
+/wp-content/plugins/backup_index.php 1 www.bing.com
+/wp 18 http://ststephenssanjose.org/wp
+/wp-includes/blocks/table/int/tmpl/index.php 1 www.google.com
+/lib/filemanager/dialog.php 1 -
+/wp-admin/images/codemirror_controls.php 1 -
+/alfanew2.php7 2 -
+/wp-content/uploads/ac_assets/IndoSec.php 1 -
+/wp1/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/assets/filemanager/dialog.php 1 -
+/shop/wp-includes/wlwmanifest.xml 2 -
+/xmrlpc.php 1 -
+/wp-plugins.php 1 www.bing.com
+/admin-post.php 8 -
+/cache-compat.php 8 -
+/wp-admin/maint/moon.php 1 http://ststephenssanjose.org//wp-admin/maint/moon.php
+/site 6 -
+/wp-content/plugins/masterx/wpx.php 1 http://ststephenssanjose.org//wp-content/plugins//masterx/wpx.php
+/uploads/xleet.php 1 http://ststephenssanjose.org//uploads/xleet.php
+/wp-blog.php 3 -
+/wp-includes/customize/ 1 -
+/888.php 1 -
+/tmp 6 -
+/wp-content/uploads/4O4.php 1 http://ststephenssanjose.org//wp-content/uploads/4O4.php
+/edit.php 1 -
+/ini.php 1 http://ststephenssanjose.org//ini.php
+/core/scripts/kcfinder/upload.php 1 -
+/sitemap.xml 14 -
+/wp-admin/includes/media.php 1 http://ststephenssanjose.org//wp-admin/includes/media.php
+/wordpress/wp-content/plugins/WordPressCore/include.php 1 -
+/fvlqkbss.php 1 www.google.com
+/wp-admin/css/colors/index.php 1 -
+/wso.php 3 -
+/wp-content/plugins/WordPressCore/classwithtostring.php 1 www.google.com
+/robots.txt 682 -
+/wp-content/plugins/wp-file-manager-pro/lib/php/connector.minimal.php 1 -
+/wp-content/plugins/wpconfig.bak.php 1 www.bing.com
+/wp-2021.php 1 http://ststephenssanjose.org//wp-2021.php
+/1337.php 1 http://ststephenssanjose.org//1337.php
+/wp-content/mu-plugins-old/ 1 -
+/login/.env 1 -
+/bk 6 http://ststephenssanjose.org/bk
+/wp-includes/wp-2019.php 1 http://ststephenssanjose.org//wp-includes//wp-2019.php
+/xl2023x.php 1 -
+/staff 1 -
+/wp-admin/dropdown.php 9 -
+/testing 12 -
+/wp-content/plugins/superlogoshowcase-wp/sls-wp-admin/pages/exportAjax.php 1 -
+/auth/sendgrid.env 1 -
+/wp-admin/xleet.php 1 http://ststephenssanjose.org//wp-admin/xleet.php
+/responsive_filemanager/filemanager/dialog.php 1 -
+/back/.env 1 -
+/.env.bak 1 -
+/apple-touch-icon-precomposed.png 4 -
+/apple-touch-icon.png 4 -
+/laravel-artisa/.env 1 -
+/wp-admin/user/cloud.php 1 -
+/wp-content/updates.php 2 -
+/wp-content/themes/config.bak.php 1 www.bing.com
+/wallet.zip 1 -
+/wp-content/themes/twentyfive/include.php 3 -
+/docs/_sidebar.md 1 -
+/wp-content/themes/twenty/twenty.php 3 -
+/wp-admin/images/my1.php 1 -
+/wp-content/upgrade/iR7SzrsOUEP.php 1 -
+/wp-content/plugins/wordpresss3cll/includes.php 7 -
+/china.php 2 -
+/shell20211028.php 1 -
+/old/xmlrpc.php 1 -
+/wp-content/plugins/revslider/includes/external/page/index.php 1 -
+/export.php 1 www.bing.com
+/frontend/sendgrid.env 1 -
+/repeater.php 8 -
+/wp-admin/maint/ 1 -
+/wp-admin/network/xmrlpc.php 2 -
+/themes.php 1 -
+/wp-includes/widgets/ 1 -
+/wp-admin/alfa.php 1 -
+/deployment/.env 1 -
+/wp-json/ 2 -
+/wp-includes/sitemaps/random_bytes_dev_urandom.php 1 -
+/admin/index.php 10 -
+/admin/sendgrid.env 1 -
+/public/.env 2 -
+//news/wp-includes/wlwmanifest.xml 2 -
+/deployment/sendgrid.env 1 -
+/backend/sendgrid.env 1 -
+/wp-includes/assets/pi.php 1 http://ststephenssanjose.org//wp-includes/assets/pi.php
+/contact-us 1 -
+/wp-content/plugins/ 2 -
+/wp-includes/certificates/plugins.php 1 -
+//feed/ 2 -
+/private/.env 1 -
+/wp-content/themes/classic/inc/ 1 -
+/priv8.php 1 http://ststephenssanjose.org//priv8.php
+/good.php 1 http://ststephenssanjose.org//good.php
+/legion.php 1 www.bing.com
+/cgi-bin/xmrlpc.php 2 -
+/wp-includes/PHPMailer/about.php 1 -
+/coin/wallet.dat 1 -
+/admin/responsive_filemanager/filemanager/dialog.php 1 -
+/archives.php 1 www.bing.com
+/wp-includes/rest-api/search/about.php 1 -
+/wp-admin/images/ 1 -
+/wp-consar.php 8 -
+/libraries/vendor/updates.php 1 -
+/xleet-shell.php 1 -
+/Hhhknt-an9awlbkhhh.php 1 -
+/up-kon.php 1 http://ststephenssanjose.org//up-kon.php
+/website-sitemap.xml 2 -
+/system/.env 1 -
+/apple-touch-icon-120x120.png 4 -
+/resources/js/tinymce/plugins/filemanager/dialog.php 1 -
+/wp-content/upgrade/ 1 -
+/app/settings.py 1 -
+/wp-content/dropdown.php 1 http://ststephenssanjose.org//wp-content/dropdown.php
+/olux.php 1 www.bing.com
+/wp-admin/images/install.php 1 http://ststephenssanjose.org//wp-admin/images/install.php
+//xmlrpc.php 4 -
+/wp-includes/IXR/ 1 -
+/api/api.env 1 -
+/local/.env 1 -
+/wp-content/plugins/press/wp-class.php 2 -
+/phpformbuilder/plugins/filemanager/dialog.php 1 -
+/pi.php 1 http://ststephenssanjose.org//pi.php
+/wp-includes/xmrlpc.php 1 http://ststephenssanjose.org//wp-includes//xmrlpc.php
+/web/wp-includes/wlwmanifest.xml 2 -
+/new 18 http://ststephenssanjose.org/new
+/sites/default/files/cgialfa 1 www.bing.com
+/yanz.php 8 -
+/inputs.php 19 -
+/wp-includes/ms-pie.php 1 http://ststephenssanjose.org//wp-includes//ms-pie.php
+/bitcoin.dat 1 -
+/wp-includes/images/css.php 1 www.bing.com
+/wp-content/wso112233.php 1 -
+/css/4O4.php 1 http://ststephenssanjose.org//css//4O4.php
+/wp-content/plugins/apikey/a57bze8931.php 1 -
+/wp-content/plugins/column/miin.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 1 -
+/.well-known/security.txt 2 http://www.ststephenssanjose.org/.well-known/security.txt
+/wp-includes/pomo/alfa.php 1 http://ststephenssanjose.org//wp-includes/pomo/alfa.php
+/protected/.env 1 -
+/moduless.php 1 www.bing.com
+/plugins/responsive_filemanager/filemanager/dialog.php 1 -
+/wp-admin/meta/ 1 -
+/wp-includes/ID3/wp-login.php 1 -
+/.well-known/acme-challenge/xmrlpc.php 2 -
+/wp-includes/pomo/themes.php 1 -
+/wp-admin/images/xmrlpc.php 2 -
+/wp-content/uploads/elementor/css/class_api.php 1 -
+/wp-content/themes/themify-ultra/style.css 1 -
+/src/sendgrid.env 1 -
+/wp-includes/js/tinymce/skins/wordpress/images/index.php 1 -
+/templates/beez3/index.php 1 www.bing.com
+/wp-content/wso.php 1 -
+/wp-content/themes/ 1 -
+/wp-admin/includes/iR7SzrsOUEP.php 1 -
+/wp-includes/Text/Diff/about.php 1 -
+/wp-2022.php 1 http://ststephenssanjose.org//wp-2022.php
+/cli/sendgrid.env 1 -
+/temp/ 1 -
+/wp-includes/24.php 1 http://ststephenssanjose.org//wp-includes//24.php
+/cms/wp-includes/wlwmanifest.xml 2 -
+/.well-known/index.php 1 -
+/wp-admin/css/colors/blue/cloud.php 1 -
+/2020/wp-includes/css/admin-bar-rtl.css 1 ststephenssanjose.org
+/wp-includes/css/themes.php 1 -
+/cgi-bin/my1.php 1 -
+/wp-admin/js/widgets/xmrlpc.php 2 -
+/wp-includes/certificates/ 1 -
+/shell.php 2 http://ststephenssanjose.org//shell.php
+/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/index.php 1 -
+/wp-content/plugins/royal-elementor-addons/readme.txt 3 -
+/fw.php 2 -
+/bala.php 1 -
+/vod_installer/.env 1 -
+/wp-content/export.php 1 www.bing.com
+/admin/core/kcfinder/upload.php 1 -
+/wp-atom.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1132
+40.85.95.147 143 143 116545 20231031183450
+79.124.49.10 123 123 100245 20231009002838
+20.238.87.45 43 43 35045 20231016202202
+20.238.84.42 40 40 32600 20231024092445
+45.93.60.172 39 39 31785 20231029110914
+67.190.27.3 26 203 19145181 20231020055156
+194.38.22.71 20 20 40780 20231031233032
+54.201.153.223 19 19 67055 20231010015923
+104.182.238.255 17 164 12037586 20231007201931
+62.122.184.194 16 16 127479 20231029172237
+82.147.85.78 16 16 114704 20231029195344
+49.7.21.117 15 20 20330 20231030144446
+198.57.224.71 15 15 30585 20231002145945
+154.22.17.185 14 14 53510 20231006145442
+154.22.17.41 14 14 53319 20231028023535
+146.59.53.10 13 13 10595 20231029022943
+178.128.95.10 12 12 9780 20231016204202
+144.126.131.216 12 12 21553 20231016193602
+145.239.205.104 12 12 55963 20231023125112
+54.88.179.33 12 12 24468 20231026012531
+170.64.166.71 12 12 9780 20231019132831
+137.226.113.44 12 12 9780 20231027125646
+46.148.206.226 12 12 114032 20231019142226
+172.58.102.227 12 80 5905706 20231021182948
+128.90.136.54 12 12 0 20231006063157
+173.252.127.5 1 11 1037673 20231009003020
+3.88.198.73 1 1 815 20231015072427
+185.253.42.228 2 2 14267 20231011101502
+172.59.17.85 1 1 6041 20231005003930
+68.183.111.31 1 1 815 20231003002910
+34.217.66.47 1 1 815 20231003182409
+173.252.127.16 0 16 1045538 
+23.105.151.236 2 2 3587 20231015103945
+196.240.237.64 2 2 3592 20231025031719
+31.13.103.10 0 1 25320 
+8.222.170.97 2 2 14339 20231016030812
+178.184.47.103 2 2 14337 20231027050337
+165.232.73.18 1 1 815 20231011033714
+191.96.252.123 2 2 3592 20231011153304
+54.186.139.238 1 1 815 20231014181923
+178.248.115.54 3 48 3843789 20231005002500
+154.95.38.159 2 2 3488 20231014051304
+92.205.129.119 1 1 815 20231027175329
+8.219.67.124 1 1 815 20231031032452
+72.13.62.26 3 3 11460 20231014091058
+49.7.20.132 0 2 65542 
+37.139.53.94 4 4 28482 20231026044751
+85.215.39.198 1 1 3317 20231028192219
+51.20.82.167 1 1 815 20231011045039
+23.82.40.134 2 2 3586 20231007050141
+18.220.159.252 1 21 751178 20231017061154
+45.156.128.32 4 4 3260 20231012025949
+37.213.234.208 4 4 28354 20231013010514
+66.249.83.81 3 3 12897 20231020202208
+5.133.192.146 1 1 815 20231006045721
+5.62.62.123 2 2 14338 20231004092705
+193.32.87.41 1 1 2039 20231008003626
+198.235.24.123 1 1 2039 20231006053059
+196.245.220.43 2 2 3589 20231021172950
+51.15.62.151 1 1 815 20231024052316
+123.183.224.145 0 5 25285 
+196.242.57.38 2 2 3590 20231017181216
+64.140.135.171 1 1 2859 20231025005947
+35.90.255.246 1 1 815 20231024162921
+82.80.249.158 1 1 815 20231025162649
+35.86.114.226 1 1 2039 20231011083648
+62.146.235.153 1 1 2039 20231001143406
+186.166.151.197 2 41 2941831 20231004063050
+194.36.97.139 2 2 3588 20231010011207
+167.248.133.186 2 2 1630 20231015130022
+23.29.32.74 1 1 815 20231005234029
+54.245.77.80 1 1 815 20231007182627
+42.83.147.54 1 1 815 20231023114613
+192.36.109.129 1 1 815 20231014053656
+93.158.70.111 1 1 815 20231027160813
+162.142.125.217 2 2 1630 20231026122347
+23.106.24.74 2 2 3488 20231027062429
+192.71.44.44 1 1 815 20231026134037
+194.88.152.40 2 2 14338 20231022052032
+8.218.244.13 1 1 815 20231031044737
+31.171.152.135 4 4 55522 20231025103943
+35.91.160.118 1 1 815 20231018014815
+65.154.226.167 4 51 3856872 20231028172604
+123.125.109.113 3 3 22608 20231030144506
+194.36.98.112 4 4 7179 20231010014233
+173.252.127.6 3 23 1193506 20231009003019
+23.81.63.45 2 2 3588 20231004163502
+35.88.59.64 1 1 815 20231028181506
+173.234.225.8 2 2 3591 20231029134327
+34.42.146.33 9 55 3876284 20231017133425
+18.237.12.245 1 1 815 20231014180721
+18.237.13.57 1 1 815 20231012022224
+62.109.5.164 1 1 815 20231023115547
+54.190.29.119 1 1 815 20231001085137
+54.244.62.182 1 1 815 20231021181814
+173.252.127.10 2 8 881491 20231030092110
+173.252.83.6 0 1 3635 
+194.36.98.105 2 2 3587 20231024221403
+35.90.27.252 1 1 815 20231025114724
+196.242.20.75 2 2 3590 20231014004555
+194.36.98.154 2 2 3587 20231003062854
+51.158.237.112 1 1 686 20231012062917
+209.99.139.213 1 1 6074 20231018025526
+93.158.90.71 1 1 815 20231001115826
+192.36.109.115 1 1 815 20231014053656
+202.142.120.206 5 52 3857462 20231029114214
+31.13.115.7 0 16 1162922 
+196.199.104.246 2 2 3479 20231025143252
+103.225.201.91 2 2 3587 20231004104115
+209.97.146.43 1 1 6052 20231001162851
+49.7.20.148 0 5 18170 
+130.255.166.121 1 1 815 20231007221924
+23.106.19.89 2 2 3587 20231021132535
+75.119.150.22 1 1 2039 20231006202038
+3.131.181.208 0 6 288525 
+198.211.102.114 1 1 815 20231007001023
+17.58.59.7 1 1 2039 20231015022338
+141.255.23.247 1 1 815 20231026093923
+54.212.146.95 4 4 3260 20231003040225
+198.235.24.51 1 1 2039 20231017100628
+51.158.238.106 2 19 165877 20231012072158
+49.7.21.71 0 1 1616 
+74.249.85.19 4 4 10326 20231030171735
+52.25.133.33 1 1 815 20231017211221
+49.7.20.123 0 5 23280 
+35.171.144.152 5 5 10195 20231024174954
+199.244.88.231 2 2 1630 20231024135913
+134.209.153.158 1 1 815 20231018012338
+185.174.101.227 1 1 815 20231007133220
+85.203.32.18 2 2 3488 20231006154937
+54.201.188.90 1 1 815 20231028051012
+45.43.84.101 2 2 3488 20231010093843
+192.36.109.82 1 1 815 20231023133714
+123.215.113.84 4 4 28692 20231011143158
+167.94.145.54 1 1 815 20231013042803
+45.11.95.229 1 1 2039 20231009041208
+93.158.91.31 2 2 1630 20231014153755
+115.242.175.206 0 1 30378 
+23.108.45.181 1 1 686 20231004113023
+49.83.108.74 2 2 3488 20231005222708
+49.7.21.79 0 2 4212 
+23.110.173.69 2 2 3488 20231012124410
+54.189.57.228 1 1 815 20231011020103
+23.94.148.147 1 1 686 20231024113254
+194.26.192.79 1 1 815 20231028231124
+141.95.175.29 2 2 4078 20231010140401
+52.42.234.49 1 1 815 20231014181555
+173.252.95.6 1 14 1034116 20231008225631
+196.244.4.143 2 2 3587 20231019061133
+8.219.235.86 2 2 14338 20231022184134
+168.151.111.174 4 50 3853793 20231008022259
+18.246.62.32 1 1 815 20231003171719
+192.71.3.26 1 1 815 20231026134036
+107.173.185.200 2 2 3586 20231011220001
+146.190.89.250 1 1 815 20231031052858
+123.125.109.58 0 1 2273 
+52.88.62.225 1 1 815 20231019021658
+38.57.149.152 2 2 3589 20231022234547
+87.249.132.186 2 2 14177 20231025103445
+45.156.128.7 2 2 1630 20231026181726
+157.230.184.160 1 1 815 20231012173233
+35.90.14.170 1 1 815 20231001185658
+128.199.3.219 1 1 815 20231029234344
+54.245.145.23 1 1 2039 20231011024354
+41.140.167.201 1 1 815 20231015095708
+212.192.193.218 5 5 3430 20231013121555
+193.32.87.87 1 1 2039 20231010074840
+18.237.4.67 1 1 2039 20231011073043
+192.36.70.176 1 1 815 20231021033925
+35.91.115.163 1 1 815 20231002131112
+54.187.172.249 1 1 815 20231022043343
+85.254.42.34 1 1 3119 20231018025528
+192.185.179.112 2 2 4078 20231005160758
+178.32.143.124 3 3 2445 20231029103524
+183.136.225.45 1 1 2039 20231018192203
+185.189.114.122 4 4 55374 20231022224450
+130.255.166.97 1 1 815 20231007221925
+144.217.135.236 3 50 3763040 20231026191410
+77.83.170.93 2 2 3591 20231006124010
+192.71.38.71 1 1 815 20231026134037
+89.147.108.62 1 1 815 20231027104102
+93.158.90.147 1 1 815 20231002051349
+192.210.201.20 2 2 3588 20231022224253
+44.205.2.62 2 2 6760 20231007184908
+139.171.106.241 2 2 3587 20231027074956
+76.126.11.113 6 53 3873340 20231027122357
+199.45.154.17 2 2 1630 20231031114609
+185.220.101.174 1 1 815 20231026162925
+2.57.149.115 1 1 2039 20231005043300
+49.7.20.69 0 3 14949 
+159.223.170.120 2 2 1630 20231026135544
+172.233.80.125 2 2 4078 20231016234131
+51.81.167.146 1 1 2039 20231028063744
+45.81.39.34 2 2 1630 20231010234008
+31.13.115.9 0 6 43123 
+199.45.155.18 1 1 815 20231026094108
+185.209.196.230 1 1 686 20231028050346
+95.217.135.225 1 1 815 20231026034102
+35.162.6.192 2 2 1630 20231021034920
+198.91.86.106 1 1 815 20231005214844
+143.110.188.202 1 1 815 20231016003842
+52.149.25.43 1 1 815 20231001060040
+128.199.116.103 1 1 2039 20231021012630
+161.123.93.192 2 2 3488 20231024175342
+206.232.32.235 2 2 3488 20231004204234
+39.44.25.107 3 3 10216 20231008024522
+46.235.42.127 5 5 10195 20231002145044
+123.125.109.38 0 5 33190 
+167.94.145.58 1 1 815 20231011073939
+123.183.224.146 0 1 7679 
+146.70.184.79 1 1 686 20231028045507
+49.7.20.80 0 1 1118 
+207.90.21.22 1 1 3317 20231018025528
+31.13.127.23 3 24 1576959 20231028035308
+52.33.110.187 1 1 815 20231004131608
+123.183.224.174 0 6 24252 
+119.152.236.31 6 55 4158995 20231012105334
+123.183.224.14 0 1 13485 
+35.166.191.124 1 1 815 20231002085647
+18.236.132.134 1 1 815 20231021180801
+18.236.105.161 1 1 815 20231004131604
+123.183.224.18 1 1 6750 20231006144647
+156.59.237.148 0 4 108875 
+64.140.135.6 1 1 5441 20231018025529
+107.174.149.173 1 1 686 20231026102135
+18.118.85.160 8 98 713021 20231027143405
+93.158.90.151 1 1 815 20231005220119
+123.125.109.143 0 1 4983 
+52.4.104.152 1 1 6776 20231027033906
+198.98.50.199 1 1 815 20231004003450
+5.182.110.25 2 2 3586 20231027212917
+154.28.229.26 1 1 686 20231020073558
+199.45.155.35 1 1 815 20231028005349
+18.246.53.182 1 1 815 20231002125346
+54.187.51.51 1 1 815 20231001015537
+64.124.8.30 1 1 6041 20231005163826
+45.80.158.152 1 1 815 20231031135449
+34.222.108.221 1 1 815 20231001085508
+31.13.115.116 0 17 549481 
+68.178.145.238 1 1 815 20231026213347
+45.92.28.138 2 2 3587 20231025211057
+199.45.155.33 3 3 2445 20231028033632
+203.33.203.148 1 1 815 20231023031925
+207.90.20.37 1 1 6074 20231025005946
+167.94.146.59 3 3 2445 20231013073412
+196.242.195.81 2 2 3589 20231022041245
+35.91.108.200 1 1 815 20231014183328
+1.169.82.83 8 8 57354 20231029230628
+178.175.128.35 2 2 14177 20231011220404
+159.89.172.232 2 2 1630 20231016161423
+54.190.53.131 1 1 815 20231006030425
+35.93.57.111 1 1 815 20231014142445
+3.137.210.73 2 2 1630 20231013174832
+5.42.66.5 6 6 42531 20231026133935
+49.7.20.126 0 5 85780 
+167.248.133.187 1 1 815 20231013051745
+23.106.18.224 2 2 3588 20231008104853
+103.225.201.154 2 2 3587 20231007140004
+207.102.138.93 3 48 3843789 20231005140705
+64.124.8.55 0 7 193127 
+45.67.143.187 1 1 2990 20231025005948
+218.234.77.80 3 3 2445 20231024083533
+43.134.55.202 2 2 1630 20231013110607
+35.83.251.237 1 1 815 20231021185207
+69.63.184.6 0 1 3241 
+35.160.77.146 1 1 815 20231001125223
+31.131.8.42 2 2 3592 20231019223114
+85.254.42.105 1 1 3157 20231025005947
+95.79.88.235 1 1 686 20231019033624
+168.91.46.32 1 1 6137 20231023050313
+199.45.154.48 1 1 815 20231028023549
+2.57.169.58 2 2 4164 20231015222811
+34.135.135.58 0 1 202746 
+45.90.63.220 1 1 815 20231029121455
+206.189.7.95 1 1 815 20231024005102
+173.252.127.26 0 15 1439807 
+31.171.152.136 4 4 55325 20231014135206
+162.142.125.214 1 1 815 20231013073106
+35.88.194.209 1 1 815 20231009122225
+156.146.55.184 3 3 6117 20231027150010
+46.246.3.212 2 2 14177 20231030215919
+205.234.144.230 1 1 815 20231031222221
+35.161.0.71 1 1 815 20231016182421
+34.209.200.73 1 1 815 20231008034213
+23.105.159.124 2 2 3592 20231024082245
+23.21.18.238 1 1 815 20231023175449
+107.181.148.11 2 2 3488 20231010115538
+77.83.170.78 2 2 3488 20231002081008
+64.124.8.45 1 1 2955 20231004023626
+54.69.33.35 1 1 815 20231023215319
+134.122.24.246 1 1 815 20231001003719
+34.222.169.17 1 1 815 20231002101018
+172.241.168.161 2 2 3488 20231020114951
+54.198.57.155 1 1 815 20231023182906
+194.36.99.89 2 2 3587 20231022005239
+212.8.244.51 7 7 78002 20231024192539
+34.209.219.22 1 1 815 20231017194029
+185.119.48.15 4 21 169548 20231008210439
+107.181.142.96 2 2 3488 20231020014352
+34.217.80.238 1 1 815 20231021090423
+117.202.119.113 0 1 56630 
+173.252.127.29 2 30 1744789 20231030092108
+23.106.27.161 2 2 3488 20231010134616
+42.83.147.55 3 3 2445 20231030170510
+107.77.212.33 7 73 7903163 20231003134353
+37.77.111.162 2 2 14339 20231025070401
+77.74.177.119 1 1 815 20231020220850
+49.83.17.4 2 2 3488 20231024111838
+35.87.216.241 1 1 815 20231007180901
+23.81.81.147 2 2 3588 20231027085959
+66.249.83.83 2 2 6760 20231020215746
+72.14.201.61 1 1 686 20231026033007
+23.82.40.161 2 2 3588 20231012024714
+185.181.60.189 5 5 4075 20231026114738
+5.161.220.30 1 1 5441 20231014113533
+34.221.4.10 1 1 815 20231002085704
+103.94.25.118 1 1 686 20231031214450
+49.7.21.123 3 3 20302 20231030144447
+64.124.8.52 0 10 1673281 
+23.106.27.24 2 2 3488 20231026162415
+18.227.89.50 6 36 242225 20231027145253
+205.169.39.183 6 73 4608684 20231028045359
+119.42.148.122 1 1 815 20231004041624
+107.116.89.33 7 53 3871949 20231003173610
+117.60.153.11 2 2 3488 20231012114414
+173.70.47.53 0 1 68488 
+85.209.11.117 10 10 67914 20231031013214
+191.96.181.3 2 2 3588 20231017092923
+85.215.39.196 1 1 686 20231001055901
+196.242.114.146 2 2 3587 20231005095033
+65.109.146.167 1 1 2039 20231026143448
+162.247.74.27 1 1 815 20231001174825
+54.184.18.205 1 1 815 20231004150605
+178.184.228.244 11 11 137802 20231011015819
+23.236.135.147 1 1 2809 20231023050311
+5.133.192.131 2 2 1630 20231024220946
+154.12.127.213 9 9 37704 20231004191237
+167.99.209.96 1 1 815 20231019232238
+35.162.104.217 1 1 815 20231007021336
+104.248.168.191 1 1 815 20231028000626
+173.249.27.178 1 1 815 20231010032913
+94.131.49.13 2 2 3588 20231018110707
+212.12.20.202 2 2 14338 20231031022700
+38.15.140.56 1 1 686 20231011170537
+149.56.160.156 1 1 2039 20231027001705
+167.71.68.11 4 4 3260 20231005183637
+198.211.103.50 1 1 815 20231012223003
+196.242.195.143 2 2 3587 20231003015609
+162.156.254.51 1 1 686 20231022064441
+194.36.99.136 2 2 3591 20231026022506
+185.209.176.194 2 2 3587 20231009132854
+196.19.240.133 2 2 3589 20231014010436
+162.251.5.205 2 2 3588 20231003112930
+3.139.58.37 3 3 2445 20231006070045
+103.26.5.50 1 1 686 20231018041803
+199.45.154.18 1 1 815 20231029214155
+162.142.125.213 2 2 1630 20231012120845
+154.85.124.180 2 2 3488 20231005233316
+49.7.21.67 0 1 1616 
+51.159.160.77 1 1 815 20231025101407
+35.166.198.52 1 1 815 20231021060812
+52.36.227.120 2 2 1630 20231015075942
+23.19.82.28 2 2 3589 20231018002253
+101.128.98.249 2 2 3587 20231029161943
+155.130.12.208 1 1 815 20231019032532
+94.172.121.8 2 2 4078 20231022122025
+64.124.8.50 0 10 75751 
+69.63.189.120 0 1 3241 
+199.244.88.221 2 2 1630 20231019084346
+54.165.233.113 2 2 6760 20231004111024
+209.99.146.37 2 2 6738 20231018025452
+152.228.243.2 1 1 815 20231010185516
+198.13.43.216 1 1 815 20231017204435
+52.36.198.28 3 49 3859187 20231001015553
+195.2.67.237 9 9 85251 20231014193756
+14.22.11.165 0 1 31153 
+45.43.84.112 2 2 3488 20231027091817
+54.159.54.62 1 1 815 20231020175749
+31.13.127.25 1 17 1166363 20231028035305
+37.139.53.30 2 2 14177 20231009235010
+154.28.229.91 1 1 686 20231028045512
+185.181.60.12 3 3 2445 20231024064711
+194.36.97.241 2 2 3488 20231007044043
+123.215.113.170 2 2 14346 20231003014747
+194.36.99.34 2 2 3587 20231004135717
+199.45.154.51 2 2 1630 20231028004703
+23.158.72.195 1 1 14171 20231016024442
+35.92.94.208 1 1 815 20231003092132
+138.199.63.81 4 4 55485 20231018234547
+23.128.248.39 1 1 815 20231018004703
+5.42.65.19 2 2 53477 20231017183415
+23.106.26.41 2 2 3488 20231006021939
+199.45.155.34 1 1 815 20231026115427
+54.218.197.144 1 1 815 20231028180712
+31.13.115.3 3 18 1169285 20231019123125
+93.158.91.33 1 1 815 20231015081656
+173.67.34.50 7 60 4019459 20231013095841
+45.95.39.218 2 2 3595 20231014004808
+46.254.20.29 1 1 2039 20231005182919
+185.10.250.105 1 1 686 20231003094606
+93.159.230.89 1 1 815 20231006220424
+121.32.69.192 4 34 330189 20231008063723
+49.7.20.127 0 5 5715 
+37.19.223.23 4 4 55486 20231027185640
+54.212.134.94 1 1 2039 20231031121300
+54.196.211.86 2 2 6823 20231008125625
+130.255.166.79 2 2 1630 20231007221923
+107.186.67.143 2 2 3589 20231028140946
+92.97.207.108 5 52 3863882 20231018115518
+194.36.98.31 2 2 3589 20231019191014
+34.217.34.138 1 1 815 20231012161114
+34.220.17.5 1 1 815 20231003092143
+49.7.21.80 0 1 32771 
+49.7.21.88 0 4 6480 
+34.125.149.138 1 1 815 20231020130254
+174.194.129.128 2 44 1603741 20231031151329
+18.236.223.99 1 1 815 20231010113729
+49.7.20.77 0 1 1118 
+196.242.131.186 2 2 3488 20231008011445
+35.87.88.119 1 1 815 20231014183518
+137.97.108.221 0 1 30378 
+31.41.44.224 6 6 12234 20231014054340
+198.235.24.112 1 1 2039 20231030171316
+34.220.5.85 1 1 815 20231020212441
+76.133.119.21 4 51 3856859 20231025094629
+23.82.40.17 2 2 3587 20231007131137
+198.235.24.42 1 1 2039 20231021122135
+123.183.224.31 0 2 2236 
+34.220.23.5 1 1 815 20231028051006
+35.165.149.199 1 1 815 20231025114727
+1.169.89.138 8 8 57354 20231009115917
+34.78.102.219 1 1 815 20231023005311
+49.7.20.83 0 3 40577 
+69.171.230.10 0 1 31698 
+185.107.70.56 1 1 815 20231021041818
+167.248.133.34 1 1 815 20231007131528
+49.7.21.111 0 5 104800 
+102.89.41.133 2 21 1232187 20231013150653
+196.242.178.108 2 2 3591 20231020033338
+178.159.37.41 3 3 28515 20231028125009
+51.11.244.129 11 11 0 20231005150727
+183.136.225.5 1 1 2039 20231030215715
+51.254.18.88 5 5 4075 20231027141339
+47.254.85.182 1 1 815 20231020194353
+34.218.243.29 1 1 815 20231001125255
+5.62.63.227 2 2 14337 20231005093810
+104.244.72.115 1 1 2039 20231009232238
+188.65.18.207 2 2 3591 20231028115944
+49.7.20.90 0 5 1755 
+45.61.187.249 1 1 815 20231006091848
+68.232.175.107 1 1 815 20231021225633
+93.158.91.239 1 1 815 20231020110208
+138.229.104.152 1 1 3157 20231023050312
+104.250.238.11 2 2 1630 20231026225557
+35.161.102.191 1 1 815 20231013022205
+173.252.127.4 0 16 1622699 
+157.90.168.34 1 1 815 20231024082222
+87.121.221.210 2 2 1630 20231028171741
+52.39.22.244 1 1 815 20231020211330
+31.13.115.120 4 31 2386148 20231024111647
+65.154.226.168 4 52 4064600 20231028045340
+39.47.85.223 6 6 4890 20231001142231
+54.187.197.221 2 2 1630 20231018231302
+23.19.216.25 2 2 3588 20231024053920
+149.34.245.213 6 6 11683 20231005145619
+192.71.2.57 1 1 815 20231009015843
+69.164.220.126 1 1 686 20231016031850
+34.220.58.95 1 1 815 20231021184049
+196.245.220.75 2 2 3590 20231009043303
+185.158.106.228 4 4 7075 20231022011259
+34.29.140.102 0 1 419126 
+46.246.122.57 2 2 14177 20231006052813
+64.120.34.224 2 2 3589 20231016130008
+44.203.219.192 1 1 815 20231007095204
+123.125.109.41 0 4 8356 
+37.20.231.83 2 2 14337 20231004115034
+23.254.161.7 1 1 815 20231013212712
+141.237.15.79 1 1 815 20231014013722
+194.169.175.76 5 5 4075 20231008083037
+93.158.90.68 1 1 815 20231017095606
+172.58.99.185 4 50 3853878 20231021182532
+192.0.96.188 0 1 50823 
+196.244.4.70 2 2 3488 20231029151142
+103.146.177.12 1 1 815 20231021113610
+23.82.28.194 3 3 9594 20231009120305
+52.128.8.240 2 2 3591 20231001194814
+94.247.172.129 1 1 815 20231030080117
+199.244.88.224 1 1 815 20231026221458
+161.35.239.120 1 1 815 20231012035842
+109.248.142.166 2 2 53280 20231020224442
+24.104.64.50 7 55 4166851 20231004112806
+66.29.147.162 1 1 2039 20231005232745
+31.13.115.1 0 11 1402317 
+196.242.57.37 2 2 3588 20231005172158
+68.250.102.242 11 103 7725860 20231011171540
+199.45.155.32 1 1 815 20231029010117
+31.13.127.21 0 1 13641 
+212.227.175.149 1 1 815 20231015172932
+69.14.152.102 0 1 56630 
+95.164.233.162 1 1 686 20231015164137
+192.36.109.75 1 1 815 20231014053654
+185.34.33.2 1 1 815 20231018054011
+51.254.49.99 1 1 2039 20231027020004
+23.106.20.169 2 2 3589 20231028033920
+8.222.165.101 2 2 14338 20231015112457
+86.42.109.95 1 1 6052 20231006133836
+47.88.87.97 1 1 815 20231028213450
+188.68.41.191 1 1 815 20231004095511
+209.182.219.227 1 1 2039 20231018204245
+130.255.162.249 1 1 815 20231029163551
+23.80.167.225 2 2 3587 20231002095617
+123.183.224.27 0 1 1118 
+123.183.224.119 0 5 30845 
+183.136.225.46 2 2 4078 20231028205946
+143.198.105.37 3 3 2445 20231012164212
+205.210.31.204 1 1 2039 20231004060451
+37.139.53.13 2 2 1372 20231011154540
+173.211.26.92 1 1 3317 20231023050314
+146.70.161.230 4 4 106806 20231030200036
+157.245.0.6 1 1 815 20231012034454
+192.177.187.168 1 1 3227 20231023050310
+194.169.175.23 1 1 815 20231016070942
+191.101.118.139 1 1 686 20231012132524
+84.17.47.104 4 4 55477 20231031214337
+35.87.128.203 4 51 3869268 20231024162934
+172.241.243.215 2 2 3488 20231016130746
+216.24.216.85 4 4 55534 20231024152556
+54.201.128.59 1 1 815 20231021180652
+167.172.80.198 4 4 3260 20231025141729
+172.241.168.60 4 4 7075 20231030162121
+196.242.131.245 2 2 3588 20231022133947
+15.204.182.106 4 4 3260 20231021181938
+34.70.1.206 7 7 13049 20231024011045
+37.19.197.215 2 2 3585 20231025082315
+54.244.176.125 1 1 815 20231002125243
+23.108.4.209 2 2 3591 20231012115710
+124.156.129.26 2 2 7565 20231023231339
+94.156.253.162 2 2 1630 20231013070157
+35.80.14.149 1 1 2039 20231011032717
+123.125.109.84 0 5 13960 
+93.158.90.74 1 1 815 20231001115825
+79.137.65.46 3 3 117371 20231031003323
+196.245.220.69 2 2 3591 20231018183132
+107.181.132.108 2 2 3488 20231014102118
+51.89.227.251 1 1 815 20231005023637
+31.13.115.10 3 25 2102392 20231025030932
+52.27.167.178 1 1 815 20231021180901
+31.13.115.6 0 2 652339 
+14.22.11.161 0 2 45700 
+138.128.159.25 2 2 3589 20231023170533
+52.152.238.53 1 1 815 20231018083500
+209.146.23.178 1 1 2039 20231018221630
+205.234.181.111 2 2 14270 20231003215928
+182.71.238.62 4 51 3856809 20231009035859
+194.169.175.29 6 6 4890 20231028232147
+157.50.4.21 5 51 3859952 20231028042927
+34.210.30.159 1 1 815 20231007182739
+8.219.228.247 2 2 14337 20231016052328
+167.248.133.183 1 1 815 20231011083513
+154.21.171.189 2 2 3591 20231020192453
+51.15.193.40 1 18 165213 20231013181026
+104.192.3.74 1 1 815 20231027031430
+34.85.102.70 2 2 1630 20231006174748
+50.168.54.22 1 1 6041 20231022091139
+5.175.47.34 1 1 815 20231022002216
+192.36.109.108 1 1 815 20231014053655
+31.13.127.16 0 1 25320 
+185.158.106.44 4 4 7077 20231014022742
+35.81.80.154 4 51 3869268 20231017022953
+196.245.153.103 2 2 3590 20231017123041
+101.2.183.118 0 1 68488 
+82.147.85.79 6 6 43014 20231024070712
+54.187.135.174 1 1 815 20231001101041
+35.162.52.95 1 1 815 20231019021403
+194.36.99.44 4 4 7075 20231026141509
+14.116.239.36 0 2 45700 
+93.158.91.12 1 1 815 20231026182400
+149.57.16.3 3 3 3669 20231011192843
+185.220.100.249 1 1 815 20231006085410
+23.80.149.21 2 2 3587 20231008030230
+103.53.167.110 1 1 686 20231026060847
+142.132.250.173 1 1 686 20231026070716
+35.160.21.23 4 4 3260 20231023040110
+44.226.205.96 2 2 7591 20231011133002
+185.220.101.46 1 1 815 20231016012709
+3.226.252.225 1 1 815 20231006185222
+42.83.147.56 3 3 2445 20231019041000
+54.174.125.181 1 1 815 20231007193446
+45.90.63.168 2 2 1630 20231029121446
+196.242.178.230 2 2 3587 20231013001656
+94.172.122.105 2 2 4078 20231022155742
+173.252.127.116 0 2 197184 
+176.48.36.183 3 3 28510 20231027044401
+64.140.141.139 1 1 3119 20231025005945
+37.1.217.41 9 9 126339 20231014094234
+18.236.7.105 1 1 815 20231004112242
+196.247.160.184 2 2 3488 20231011012722
+37.187.215.253 1 1 2039 20231030231459
+172.105.92.185 1 1 815 20231022232445
+104.164.173.186 1 1 686 20231028052029
+45.41.143.52 1 1 3317 20231025005946
+103.180.206.1 8 56 4175247 20231019234311
+51.158.116.45 1 1 686 20231022104946
+5.35.33.3 4 4 42678 20231030091029
+54.244.149.36 1 1 815 20231003092106
+199.244.88.219 1 1 815 20231009074042
+104.46.33.202 1 1 815 20231020145405
+34.217.174.167 3 3 2445 20231020061702
+138.197.120.124 1 1 815 20231031073440
+139.162.114.136 1 1 2039 20231023174252
+51.158.236.128 1 18 165276 20231012092250
+54.149.112.71 1 1 815 20231021090409
+66.220.149.16 0 1 32022 
+123.125.109.50 0 5 99925 
+178.128.232.114 1 1 6137 20231014201054
+31.13.127.9 0 11 1114974 
+45.79.196.195 1 1 815 20231025030245
+18.207.152.116 2 2 6738 20231004165232
+34.218.7.99 7 7 5705 20231029095536
+172.58.89.91 1 2 7566 20231001211353
+141.157.211.21 0 1 37775 
+216.173.111.84 2 2 3488 20231019173139
+52.38.68.34 1 1 815 20231002101124
+185.132.125.10 1 1 815 20231031052009
+45.133.173.124 2 2 14177 20231029103428
+192.126.155.159 1 1 3478 20231009111933
+50.168.54.23 1 1 0 20231028151359
+93.158.91.247 1 1 815 20231021132039
+196.245.181.155 2 2 3587 20231025003313
+178.254.29.124 2 2 1630 20231023084858
+199.45.154.49 2 2 1630 20231028033840
+123.183.224.5 0 2 36813 
+172.56.208.71 4 50 3859244 20231009142324
+106.205.76.31 2 2 4078 20231006002626
+34.222.1.68 1 1 815 20231020212334
+64.124.8.53 1 3 491541 20231022111331
+123.183.224.166 0 1 33856 
+27.63.224.59 4 50 3853782 20231001105314
+34.220.232.59 1 1 815 20231021182812
+52.5.70.31 2 2 13511 20231006051349
+178.176.73.27 6 6 66229 20231015032151
+68.194.223.86 3 3 6966 20231018144235
+20.42.57.227 2 2 1630 20231014130320
+38.121.43.104 8 8 6520 20231031131423
+49.7.21.70 0 5 37875 
+188.163.124.88 10 10 71335 20231011155653
+185.253.42.246 2 2 14267 20231022162410
+196.244.4.201 2 2 3488 20231008213905
+123.183.224.160 1 2 8377 20231024144609
+196.245.250.150 2 2 3592 20231017123902
+3.138.156.40 1 1 815 20231013205541
+103.114.210.54 2 2 4078 20231029115902
+192.36.109.105 1 1 815 20231002151849
+196.240.51.34 4 4 7078 20231031062951
+14.116.239.35 0 1 32022 
+93.158.90.66 1 1 815 20231001115824
+49.83.23.118 2 2 3488 20231019140504
+185.253.42.222 2 2 14267 20231007203334
+66.220.149.13 0 1 32022 
+23.82.40.2 2 2 3590 20231011152820
+173.208.28.183 2 2 3488 20231027145007
+61.147.15.67 3 3 2445 20231019141731
+45.92.28.151 2 2 3593 20231025073525
+104.250.237.78 1 1 815 20231031171234
+76.72.173.4 2 2 4078 20231007234849
+163.172.255.9 1 1 815 20231018014506
+181.215.100.245 1 1 686 20231023050306
+184.169.184.138 1 1 815 20231018144036
+107.21.13.44 1 1 815 20231023170336
+49.7.20.147 0 4 6484 
+123.183.224.22 0 5 7108 
+2.57.169.62 1 1 110 20231015222812
+205.210.31.205 1 1 2039 20231027122836
+31.13.115.8 2 25 2103671 20231025030928
+5.133.192.88 2 2 1630 20231004085449
+185.225.74.169 1 1 815 20231022101721
+65.109.158.114 1 1 2039 20231004101924
+146.190.34.156 1 1 6074 20231014021138
+95.179.212.84 1 1 815 20231030170807
+23.83.88.243 4 4 7182 20231013002910
+2.57.122.86 2 2 1630 20231019035857
+158.69.247.77 3 3 2445 20231009163009
+20.125.149.109 1 1 815 20231019175819
+35.88.0.96 4 51 3869268 20231003171733
+123.183.224.10 1 1 83760 20231006144703
+93.73.179.112 2 2 14336 20231008151943
+54.212.57.136 4 51 3869198 20231006120421
+199.45.155.19 1 1 815 20231031130420
+149.56.150.82 3 3 6117 20231026191348
+165.22.107.158 1 1 2039 20231022130511
+196.242.57.64 2 2 3587 20231010063949
+34.221.142.243 1 1 815 20231001101028
+123.183.224.151 1 2 88743 20231030144503
+37.27.15.254 1 1 6846 20231026154251
+14.116.239.33 0 1 31153 
+162.244.145.254 1 1 2859 20231023050321
+54.244.106.53 1 1 815 20231006030121
+66.220.149.8 0 1 3241 
+192.71.2.171 1 1 815 20231026134035
+178.70.79.136 2 2 14177 20231006184258
+199.244.88.225 1 1 815 20231003014857
+35.90.73.168 1 1 815 20231001085114
+65.154.226.169 1 1 815 20231018025819
+109.252.48.7 1 1 2039 20231006093348
+196.245.159.12 2 2 3592 20231027141203
+64.124.8.51 0 4 339782 
+65.109.2.139 1 1 815 20231025072555
+52.89.106.99 1 1 815 20231013191211
+34.221.54.82 1 1 815 20231007184127
+178.23.189.67 1 1 14171 20231025175417
+156.96.44.184 1 1 815 20231012110312
+69.171.251.16 0 1 1492 
+191.96.181.137 2 2 3587 20231002055441
+34.219.127.73 1 1 815 20231006120407
+54.151.217.245 2 2 1630 20231029005231
+49.7.20.68 0 10 190770 
+49.7.20.86 1 1 83760 20231018144622
+196.196.255.54 4 4 7182 20231027063100
+35.86.35.183 1 1 815 20231028181832
+194.35.116.174 3 33 246512 20231006040314
+223.15.245.170 1 1 815 20231002140747
+64.140.141.186 1 1 3227 20231018025526
+165.231.182.131 1 1 2039 20231021092140
+123.183.224.154 0 1 2273 
+156.146.62.194 2 2 14337 20231003043704
+174.140.215.164 1 1 6074 20231023050309
+35.93.80.163 1 1 815 20231028182958
+123.183.224.12 0 1 2273 
+141.95.172.149 5 52 3857473 20231027122110
+54.90.188.249 1 1 815 20231031151024
+46.246.122.59 4 4 55464 20231028192831
+123.183.224.167 0 1 32771 
+47.251.15.21 1 1 815 20231028213448
+170.178.154.232 1 1 5441 20231025005946
+192.241.87.235 2 2 6738 20231002111103
+18.237.149.159 1 1 815 20231020212522
+35.93.64.254 1 1 815 20231021090252
+196.242.131.201 4 4 7080 20231028181321
+142.91.118.127 2 2 3587 20231006161041
+64.124.8.37 1 1 0 20231027165859
+62.141.44.236 6 6 4890 20231031000603
+209.163.118.98 1 1 6074 20231023050307
+45.95.39.108 2 2 3488 20231012170423
+108.196.201.96 4 51 3856872 20231029113905
+31.13.127.17 0 1 13641 
+37.187.215.255 1 1 2039 20231026222647
+94.56.103.180 0 3 83307 
+167.248.133.39 1 1 815 20231011073951
+35.92.179.208 1 1 815 20231007094356
+138.68.170.128 1 1 815 20231001204016
+93.158.91.252 1 1 815 20231020110206
+34.217.212.124 1 1 815 20231024112623
+185.228.194.231 3 3 9946 20231004191122
+199.244.88.232 1 1 815 20231013042951
+139.59.248.185 1 1 6074 20231001163405
+184.94.240.88 1 1 2039 20231009115322
+34.213.151.93 1 1 815 20231001185605
+52.43.34.189 1 1 815 20231002085650
+209.99.158.132 1 1 10427 20231025005946
+172.171.252.177 2 2 1630 20231022184436
+54.213.147.167 1 1 815 20231020043217
+54.175.232.236 1 1 815 20231015085323
+37.19.223.105 4 4 55484 20231030053842
+64.124.8.75 0 1 178523 
+35.174.71.101 1 1 686 20231014154914
+52.11.26.123 1 1 815 20231014180630
+1.202.249.94 1 1 0 20231031075022
+73.63.247.240 6 54 4160731 20231013222525
+14.116.239.37 0 1 32022 
+205.210.31.20 1 1 2039 20231014115359
+196.51.197.83 1 1 3478 20231009012628
+54.202.78.195 1 1 815 20231021181931
+23.19.82.209 2 2 3591 20231005110419
+178.184.140.86 2 2 14337 20231028072628
+39.44.27.162 3 3 11449 20231030172206
+107.3.159.244 6 52 3870346 20231021010347
+70.51.245.166 1 1 6137 20231028183622
+23.82.40.128 2 2 3588 20231024142926
+54.184.41.222 1 1 815 20231021181203
+167.94.138.34 1 1 815 20231013080642
+199.244.88.223 2 2 1630 20231013123504
+73.165.100.113 2 37 1636812 20231015100850
+18.236.208.52 1 1 815 20231003092108
+94.103.95.141 1 1 14171 20231030151056
+123.183.224.165 0 1 1621 
+35.90.109.200 1 1 815 20231017022934
+178.239.198.22 1 1 686 20231020192235
+194.169.175.24 4 4 3260 20231012000110
+35.93.93.163 4 51 3869183 20231015185846
+69.149.43.48 4 50 3853878 20231014073727
+95.214.27.11 1 1 815 20231029150619
+34.218.78.177 1 1 2039 20231001014310
+54.204.215.208 4 4 3260 20231017184506
+174.249.149.115 3 38 1640909 20231031124208
+94.172.220.209 4 4 55681 20231030104724
+104.250.238.203 1 1 815 20231019032822
+5.133.192.87 1 1 815 20231016113555
+102.165.55.253 2 2 3590 20231028210600
+45.95.39.201 2 2 3587 20231001174215
+152.58.201.253 4 50 3853815 20231009112755
+77.246.98.202 6 6 59558 20231005210605
+196.245.181.32 2 2 3591 20231011153848
+66.249.88.161 1 1 686 20231023225534
+54.200.253.17 1 1 815 20231001185803
+95.70.179.42 0 1 56630 
+49.7.21.64 0 1 4983 
+199.244.88.229 2 2 1630 20231023075232
+51.158.237.190 1 1 815 20231022183136
+95.79.216.180 4 4 28515 20231019195619
+167.248.133.188 1 1 815 20231007101016
+77.232.43.193 4 4 106806 20231026112638
+193.32.87.42 1 1 2039 20231006113455
+76.132.23.246 4 50 3853878 20231007090808
+192.71.103.173 1 1 815 20231024161256
+34.222.44.167 2 2 1630 20231016231358
+185.118.166.155 1 1 2039 20231018161823
+35.81.77.253 1 1 2039 20231011041606
+23.105.145.97 2 2 3488 20231003093907
+35.87.111.98 1 1 815 20231013173040
+66.249.83.82 1 1 686 20231020215746
+72.69.47.132 4 51 3856809 20231030182543
+196.245.152.116 2 2 3587 20231002141902
+52.168.54.231 1 1 815 20231011013317
+38.170.171.206 2 2 3488 20231031152411
+191.96.181.167 4 4 7075 20231016185858
+167.248.133.125 2 2 1630 20231013084645
+69.171.251.13 0 3 212305 
+205.210.31.54 1 1 2039 20231023161348
+196.242.57.9 2 2 3589 20231012213521
+42.83.147.34 9 9 7335 20231031191904
+54.212.124.13 1 1 815 20231027062322
+99.174.169.15 4 50 3853782 20231022153720
+44.206.242.242 2 2 6727 20231008160520
+142.202.48.16 1 1 815 20231025012427
+104.236.7.73 1 1 815 20231026081845
+158.220.92.203 1 1 815 20231025131927
+123.183.224.159 0 5 67425 
+103.225.201.67 4 4 7079 20231022024329
+54.218.119.53 2 2 1630 20231015185843
+185.200.240.65 1 1 2039 20231018122725
+82.35.42.185 0 1 137720 
+134.209.29.237 1 1 815 20231010151247
+95.79.143.49 1 1 686 20231016002600
+167.94.146.56 1 1 815 20231011070019
+45.154.138.54 1 1 70 20231020042857
+66.220.149.3 0 1 3635 
+68.235.43.150 1 1 2039 20231013145456
+46.8.34.46 3 3 28507 20231004105543
+37.187.215.245 2 2 41197 20231031011342
+64.233.172.202 2 2 6727 20231020230742
+198.235.24.242 1 1 2039 20231011053641
+193.109.120.16 5 5 70855 20231031113538
+119.82.252.109 6 6 4890 20231014041205
+136.144.147.242 3 3 2445 20231029111406
+167.248.133.190 1 1 815 20231021122316
+198.105.101.92 2 2 3588 20231003040404
+5.227.27.105 5 5 32587 20231020204403
+69.160.160.52 2 49 3765552 20231013083231
+34.224.173.80 0 6 288525 
+99.162.86.54 5 49 4037381 20231016101220
+23.83.87.182 3 3 9540 20231030151640
+93.158.90.69 2 2 1630 20231018130414
+54.185.137.94 1 1 815 20231001085418
+188.121.3.115 5 5 10195 20231019062533
+64.124.8.74 0 10 424074 
+149.56.150.15 1 1 2039 20231028224349
+89.252.178.79 1 1 2039 20231024010515
+34.220.189.37 1 1 815 20231014183947
+157.245.79.233 1 1 815 20231010002511
+35.163.228.240 2 2 1630 20231019191514
+176.53.216.226 2 2 1630 20231020211521
+173.252.127.17 4 36 2812725 20231009050139
+23.108.45.20 1 1 686 20231009120303
+172.245.81.154 1 1 686 20231002133916
+58.211.23.183 3 3 2445 20231030184015
+34.221.160.114 1 1 815 20231025192712
+185.180.143.12 4 4 3260 20231028042557
+109.228.39.109 1 1 815 20231021234857
+134.209.64.137 1 1 815 20231001050612
+209.99.148.166 3 3 7542 20231025005910
+35.89.83.19 1 1 815 20231003020249
+110.235.170.161 1 1 686 20231012110711
+69.171.251.11 3 35 2521049 20231030141022
+183.136.225.44 1 1 2039 20231031041858
+23.106.16.200 2 2 3488 20231019103838
+31.13.127.120 0 1 32022 
+176.31.253.157 6 6 46661 20231009161538
+172.241.168.213 2 2 3586 20231026171508
+47.89.195.210 2 2 1630 20231028213452
+54.184.196.255 1 1 815 20231002125259
+34.221.67.186 2 2 1630 20231001234959
+66.249.88.163 1 1 6052 20231023225534
+178.239.198.25 1 1 686 20231018221249
+109.107.176.19 2 2 14336 20231030164825
+199.244.88.226 1 1 815 20231025093313
+64.124.8.36 0 2 11275 
+35.161.24.169 1 1 815 20231024222735
+35.193.12.27 1 1 815 20231017133352
+196.240.51.4 2 2 3488 20231024231604
+147.182.142.163 1 1 815 20231014005740
+194.35.117.233 3 33 246597 20231007072534
+54.201.35.134 4 51 3869172 20231010145038
+13.49.68.153 1 1 815 20231018085013
+176.124.32.138 4 4 56684 20231031171818
+45.192.148.253 2 2 3589 20231025124252
+165.231.182.29 2 2 14177 20231030150845
+142.252.198.126 2 2 3618 20231027081216
+5.133.192.203 2 2 1630 20231014225449
+130.255.166.115 1 1 815 20231027062416
+196.242.178.82 2 2 3589 20231014091325
+35.89.3.105 1 1 815 20231014185002
+196.51.90.37 1 1 3478 20231012030114
+45.81.39.204 1 1 815 20231028090807
+54.149.43.146 1 1 815 20231004022506
+54.202.84.103 1 1 815 20231021182915
+167.94.146.55 1 1 815 20231013000243
+52.26.83.151 1 1 815 20231014181732
+172.241.168.102 2 2 3587 20231014063903
+34.223.4.165 1 1 815 20231027062334
+167.248.133.182 1 1 815 20231013040927
+51.254.49.106 1 1 2039 20231031012617
+54.221.28.90 1 1 815 20231014180140
+102.165.55.164 2 2 3587 20231025213031
+79.166.186.46 1 1 815 20231008044423
+154.37.64.139 2 2 3589 20231002205238
+94.25.168.19 6 6 66230 20231001023652
+81.16.124.169 1 1 815 20231006140236
+192.158.238.210 2 2 3592 20231013093347
+34.217.15.29 1 1 815 20231007183253
+54.198.149.117 4 50 3853815 20231007223932
+46.228.199.158 6 6 4890 20231031214755
+196.242.57.117 2 2 3592 20231011154024
+128.90.144.234 1 1 0 20231031054004
+34.216.58.45 1 1 815 20231014021931
+35.168.132.30 1 1 815 20231007223930
+154.12.253.248 1 1 815 20231009195722
+164.92.138.75 1 1 815 20231004001453
+139.59.29.144 1 1 815 20231022004342
+54.200.222.139 1 1 815 20231008132214
+119.12.182.95 4 50 3853878 20231008010630
+45.90.63.249 2 2 1630 20231022122546
+184.73.4.154 2 2 6760 20231001170130
+87.236.176.104 1 1 815 20231003132828
+83.220.170.145 1 1 2039 20231014134857
+65.154.226.166 2 2 1630 20231025005858
+52.34.34.95 1 1 815 20231015140222
+123.183.224.101 0 5 64780 
+206.189.155.141 1 1 815 20231020073754
+107.175.34.56 3 3 9640 20231026102138
+23.82.40.151 2 2 3488 20231004152307
+194.169.175.31 1 1 815 20231009015737
+69.171.251.14 1 14 1331337 20231030141024
+95.79.132.140 2 2 1372 20231027123752
+196.242.178.39 4 4 7179 20231028052800
+111.240.204.169 8 8 57354 20231017153445
+35.162.249.234 1 1 815 20231003015452
+196.51.197.234 2 2 3488 20231005043623
+196.245.152.74 4 4 7076 20231025045921
+176.10.107.180 1 1 815 20231009173633
+35.92.44.77 1 1 815 20231023024151
+173.252.95.8 0 1 25320 
+167.94.138.35 1 1 815 20231011084220
+50.84.48.188 2 2 1630 20231018143125
+149.102.235.74 2 2 3589 20231003164634
+168.151.91.129 1 1 3157 20231018025529
+199.244.88.220 9 101 7708401 20231020134645
+168.151.93.40 1 1 2990 20231018025530
+165.22.245.129 4 4 3260 20231022133515
+23.81.63.253 2 2 3587 20231011015508
+23.80.166.140 2 2 3587 20231014065236
+173.252.83.5 0 1 3635 
+34.106.112.94 1 1 2039 20231002143445
+45.154.138.99 1 1 14171 20231020042848
+173.252.95.116 0 9 1228633 
+176.124.220.137 2 2 14177 20231026181923
+173.252.79.1 0 2 27282 
+198.98.48.128 1 1 815 20231022162400
+74.207.237.228 1 1 815 20231028025215
+196.244.4.84 4 4 7176 20231030002014
+66.220.149.12 0 1 13641 
+199.45.154.50 1 1 815 20231030015046
+23.105.142.227 2 2 3587 20231015160037
+189.4.186.141 1 1 686 20231017153240
+45.66.230.189 5 5 4075 20231031113051
+165.154.225.68 1 1 815 20231003151115
+207.55.244.15 1 1 2039 20231019124359
+95.79.140.79 1 1 686 20231009115614
+20.120.74.197 4 4 9005 20231023165830
+41.216.203.64 1 1 3884 20231008185501
+47.254.16.187 1 1 815 20231020194356
+202.137.142.38 1 1 686 20231001123552
+37.139.53.191 2 2 50875 20231020170219
+45.154.98.137 1 1 815 20231028073755
+216.163.199.226 1 1 10427 20231023050322
+37.187.215.249 1 1 39109 20231027002551
+194.67.198.250 5 5 94785 20231029210909
+69.171.249.116 0 1 31698 
+193.242.205.73 3 3 28515 20231031141840
+107.175.156.61 3 3 9639 20231024113258
+123.183.224.155 0 1 4983 
+27.57.26.176 8 57 4177388 20231026041026
+123.57.5.63 1 1 815 20231015154356
+196.244.4.233 2 2 3590 20231030143832
+123.183.224.4 0 1 2273 
+45.95.39.22 2 2 3488 20231026023634
+77.90.150.249 4 4 3260 20231015084726
+199.244.88.222 2 2 1630 20231026033831
+35.91.138.128 2 2 1630 20231017193907
+79.110.62.185 1 1 815 20231025003509
+54.184.50.18 1 1 815 20231010145025
+185.12.250.104 1 1 815 20231004174854
+23.83.87.195 3 3 9594 20231012132528
+23.229.64.153 3 3 9644 20231011170558
+209.59.228.189 1 1 3478 20231023050316
+178.218.144.51 3 3 28438 20231003070505
+54.226.104.201 1 1 815 20231020182527
+37.19.223.102 4 4 55537 20231005130248
+23.81.227.22 4 4 10291 20231030151638
+23.105.2.33 2 2 3590 20231010225012
+107.166.6.49 1 1 815 20231004223935
+172.245.157.224 2 2 3488 20231024093539
+173.252.127.9 0 1 1487 
+24.6.126.112 1 1 0 20231031100035
+102.129.153.212 1 1 3478 20231023193118
+49.83.20.111 2 2 3553 20231030122440
+54.201.21.48 1 1 815 20231001015926
+178.208.169.76 1 1 0 20231031033917
+93.158.91.242 2 2 1630 20231020110208
+159.89.81.17 1 1 815 20231031234936
+196.242.57.127 2 2 3588 20231021085651
+172.58.182.106 1 1 6137 20231013083655
+51.158.238.84 1 1 6074 20231012065625
+209.99.158.248 1 1 10427 20231018025531
+185.254.37.8 1 1 815 20231021122738
+18.212.168.73 2 2 6727 20231031143308
+34.216.109.32 1 1 815 20231017180930
+173.49.72.243 0 1 56630 
+37.115.198.125 2 2 14337 20231029020045
+67.220.86.160 5 5 4075 20231030045303
+52.39.35.90 2 2 7565 20231031174139
+54.203.12.176 1 1 815 20231007181248
+92.46.70.74 4 50 3853815 20231015192843
+123.125.109.33 0 1 1620 
+194.26.192.122 2 2 1630 20231002165636
+52.89.228.169 1 1 815 20231005093929
+37.187.215.250 1 1 39104 20231023085641
+23.81.61.61 2 2 3588 20231013055005
+31.13.115.5 0 8 585692 
+161.35.40.168 2 2 6727 20231013170021
+54.213.26.40 1 1 815 20231002025332
+49.7.21.89 0 5 32195 
+104.249.29.62 2 2 3488 20231027154715
+52.32.34.178 1 1 815 20231022081324
+54.184.186.232 1 1 815 20231005015020
+23.80.167.234 2 2 3588 20231004073439
+45.76.47.160 1 1 815 20231019202628
+35.205.76.72 1 1 815 20231012132556
+149.20.240.149 1 1 5441 20231023050317
+44.200.180.29 6 36 333773 20231015094627
+52.143.95.204 1 1 815 20231020045228
+122.178.116.35 6 55 4159016 20231027023249
+167.172.54.40 1 1 815 20231017005116
+167.94.146.57 1 1 815 20231011065240
+162.142.125.224 1 1 815 20231011085517
+123.125.109.63 0 11 49194 
+65.154.226.170 3 3 2445 20231027000007
+73.70.132.13 5 52 3862850 20231012013045
+104.131.163.227 2 2 6760 20231007145112
+196.240.237.35 2 2 3488 20231016072828
+51.254.49.97 1 1 2039 20231023094058
+18.237.155.253 1 1 815 20231009023813
+172.124.234.12 10 102 7719775 20231015221524
+89.39.107.201 4 50 3853911 20231002201111
+123.183.224.13 0 1 33856 
+84.54.44.252 2 2 4078 20231012141538
+95.182.126.159 2 2 53477 20231022135712
+37.19.223.35 4 4 55522 20231016023818
+20.168.59.57 1 1 0 20231010025904
+52.13.100.127 1 1 815 20231007180635
+73.179.11.250 11 232 12275292 20231013091048
+23.108.48.166 1 1 686 20231018132925
+39.44.25.118 3 39 1638391 20231011131913
+185.220.101.169 1 1 815 20231005182120
+34.214.115.36 1 1 815 20231002235611
+123.125.109.125 0 2 34207 
+46.8.57.184 2 2 14177 20231009034730
+134.16.97.35 6 78 5801161 20231031180837
+34.221.118.140 1 1 815 20231003015430
+204.101.161.32 2 47 3760024 20231005141148
+50.84.48.187 1 1 815 20231019062439
+35.89.10.229 1 1 815 20231028051018
+44.203.61.151 1 1 815 20231003133825
+185.107.44.108 2 2 14333 20231013000119
+54.189.69.57 1 1 815 20231002085702
+84.16.238.95 3 3 2058 20231006075922
+18.144.17.104 1 1 815 20231015062544
+185.17.106.152 1 1 815 20231010153419
+205.210.31.57 1 1 2039 20231007071505
+167.94.138.125 1 1 815 20231021125627
+34.125.180.229 1 1 815 20231017202136
+172.234.73.221 7 7 5705 20231017010855
+23.81.231.142 3 3 9690 20231018132928
+24.5.192.99 4 50 3853815 20231031153953
+51.15.17.105 1 1 815 20231003134757
+35.165.191.8 1 1 815 20231011162028
+196.199.104.142 2 2 3589 20231028140409
+82.80.249.214 1 1 815 20231025162635
+194.35.117.226 3 33 246512 20231001193149
+192.36.109.114 1 1 815 20231012065942
+111.92.73.30 0 1 56630 
+35.92.116.85 1 1 815 20231001020535
+198.252.62.63 1 1 2859 20231018025529
+14.116.239.34 0 1 32022 
+195.138.109.97 2 2 3589 20231003001254
+196.242.20.243 2 2 3488 20231009105901
+209.99.139.186 1 1 3227 20231025005946
+70.36.0.133 4 51 3856776 20231015192830
+35.88.83.221 4 51 3869198 20231011020118
+162.247.74.200 1 1 815 20231017110645
+196.244.4.100 2 2 3591 20231030223945
+196.242.57.232 2 2 3587 20231003084104
+54.189.190.45 1 1 815 20231007180921
+176.111.174.153 4 4 8156 20231027231649
+2.57.169.250 1 1 6074 20231015222810
+34.214.197.226 1 1 815 20231021184957
+65.108.5.186 4 4 42682 20231028201436
+167.248.133.52 1 1 815 20231015132313
+185.209.28.93 6 6 59559 20231004150959
+173.252.95.17 3 29 1595610 20231008225630
+144.91.106.14 4 4 3260 20231017052433
+105.157.131.142 1 1 815 20231006072250
+196.245.159.229 4 4 7083 20231027093829
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20231001 76 209 8772215 50
+20231002 68 115 4085619 35
+20231003 70 231 15882667 37
+20231004 82 259 12460805 41
+20231005 78 217 11798508 37
+20231006 93 207 5204231 42
+20231007 83 459 31496671 41
+20231008 65 310 14795007 33
+20231009 208 499 24725775 42
+20231010 70 215 12020010 30
+20231011 81 216 9113808 52
+20231012 71 242 9122363 41
+20231013 73 301 15951104 43
+20231014 88 228 11924298 46
+20231015 102 307 13725026 36
+20231016 101 108 535221 30
+20231017 63 176 8651953 28
+20231018 76 219 11263182 47
+20231019 76 241 13414494 36
+20231020 70 122 4200593 48
+20231021 65 225 13677704 40
+20231022 63 109 4085368 36
+20231023 59 61 397966 46
+20231024 108 236 8445232 39
+20231025 74 170 8118581 46
+20231026 77 219 12019121 50
+20231027 91 356 13387501 41
+20231028 109 368 21178010 58
+20231029 75 169 8037436 32
+20231030 73 250 12718995 38
+20231031 216 365 9426740 46
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 30
+0s-30s 1204
+5mn-15mn 8
+15mn-30mn 5
+2mn-5mn 13
+1h+ 2
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/ 1494 1429088 860 739
+/contactus.php 382 3009427 296 42
+/contact.php 311 30424 2 285
+/index.php 227 2599329 58 87
+/font-awesome/fonts/fontawesome-webfont.woff 87 7203725 6 22
+/fonts/revicons/revicons.woff 80 590416 7 51
+/photogallery.php 19 56517 5 6
+/patrons.php 16 87523 10 5
+/login.php 16 126001 1 4
+/videogallery.php 13 42279 3 6
+/orthodoxchurch.php 12 126448 4 6
+/ministries.php 11 35128 3 4
+/aboutourchurch.php 11 36487 4 4
+/calendar.php 10 28981 4 3
+/lents.php 9 36053 3 2
+/lectionary.php 6 18115 1 1
+END_SIDER

@@ -1,0 +1,130 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id UBsYL5k3JmXHLC4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 10 Oct 2023 22:50:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 10 Oct 2023 22:50:17 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qqS6r-00ChEG-NR
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 10 Oct 2023 22:50:17 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qqS6m-00ChDD-Cs@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697003417-eximdsn-38859976
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qqS6r-00ChEG-NR@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 10 Oct 2023 22:50:17 -0700
+
+--1697003417-eximdsn-38859976
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qS6rqZqLHiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=65263799 p=j3mvi58k1dUA:10 p=YT2PLw-xAAAA:20 p=V37yYmIUMqE7pf6DSuRQ:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=Hw6pORl51uEA:10 a=pGLkceISAAAA:8 a=Rxf0wltXOVagDSHmC-sA:9 a=QEXdDO2ut3YA:10 a=byD6gGF7X-QA:10 a=ou6lkrJzHgOfoqyabtKM:22 a=AZeWJEIrji0q2u0HFZKl:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1697003417-eximdsn-38859976
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 qS6rqZqLHiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=65263799 p=j3mvi58k1dUA:10 p=YT2PLw-xAAAA:20 p=V37yYmIUMqE7pf6DSuRQ:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=Hw6pORl51uEA:10 a=pGLkceISAAAA:8 a=Rxf0wltXOVagDSHmC-sA:9 a=QEXdDO2ut3YA:10 a=byD6gGF7X-QA:10 a=ou6lkrJzHgOfoqyabtKM:22 a=AZeWJEIrji0q2u0HFZKl:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1697003417-eximdsn-38859976
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qqS6m-00ChDD-Cs
+	for ginojohn@gmail.com;
+	Tue, 10 Oct 2023 22:50:17 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Sonya Shifflett.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.105.2.33
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.105.2.33
+From: 10xtriplethreat@gmail.com
+Reply-To: 10xtriplethreat@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qqS6m-00ChDD-Cs@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 10 Oct 2023 22:50:12 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Sonya Shifflett, and the message is as
+follows.
+
+"Hey,
+
+Are you ready to skyrocket your sales and take your business to the
+next level? I'm Sonya from Triple Threat Success-10X Coaching,
+reaching out with an incredible opportunity to transform your
+business.
+
+As a business owner or coach, you understand the importance of closing
+more sales, increasing attention, and generating a consistent flow of
+leads. That's where we come in. Our 10X the Triple Threat Success
+program is designed to help you do just that - close more deals,
+attract more clients, and get the attention your business deserves.
+
+You may be thinking, "Closing deals and getting more leads is easier
+said than done." But trust me, it doesn't have to be. Many people
+believe that selling is hard and that getting leads costs too much.
+But here's the truth: with our proven 10X system, you can close on
+average 30% more by simply implementing our strategies.
+
+Imagine the impact on your business - more revenue, more clients, and
+more success. You'll see results almost immediately, as long as you're
+an "action taker." Act now and schedule FREE 10X strategy call to
+receive valuable insights tailored to your business and a clear
+roadmap to boosting your sales. If you qualify, there's a limited-time
+50% discount on our group coaching package.
+
+Don't let the hurdle of closing more deals hold you back. Leverage our
+10X system to overcome this obstacle and thrive in your industry. Book
+your FREE 10X strategy call now:
+
+Click here: --> https://bit.ly/triplethreatsuccess 
+
+Ready to say goodbye to stagnant sales and hello to explosive growth?
+Book your FREE 10X strategy call now and let us show you how to talk
+to more people and close more deals.
+
+Looking forward to helping you achieve your business goals!
+
+Sonya
+Triple Threat Success-10X Coaching
+
+P.S. For less than the price of a fancy dinner out, gain access to the
+secrets of closing more deals, attracting clients, and getting the
+attention your business deserves.
+
+Click here: --> https://bit.ly/triplethreatsuccess 
+"
+
+You can contact Sonya Shifflett via email, 10xtriplethreat@gmail.com
+
+--1697003417-eximdsn-38859976--

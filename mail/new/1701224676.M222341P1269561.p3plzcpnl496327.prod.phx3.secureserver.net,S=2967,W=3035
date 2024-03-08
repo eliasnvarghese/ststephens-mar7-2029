@@ -1,0 +1,68 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id ORciDeSgZmU5XxMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 28 Nov 2023 19:24:36 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 28 Nov 2023 19:24:36 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r8AFg-005KGg-51
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 28 Nov 2023 19:24:36 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r8AFb-005KBf-MD@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1r8AFg-005KGg-51@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 28 Nov 2023 19:24:36 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r8AFb-005KBf-MD
+	for ginojohn@gmail.com;
+	Tue, 28 Nov 2023 19:24:31 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jim Rubio.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 135.181.188.8
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 135.181.188.8
+From: erna.rubio@gmail.com
+Reply-To: erna.rubio@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r8AFb-005KBf-MD@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 28 Nov 2023 19:24:31 -0700
+
+You have been contacted by Jim Rubio, and the message is as follows.
+
+"Is your website making the right first impression? In today's digital
+age, a well-designed website is essential for success.
+
+At https://wpexpertspro.co/website/ , we specialize in crafting
+custom, user-friendly websites that captivate your audience. Here's
+why you should choose us:
+
+Tailored Designs: Unique to your brand and goals.
+User-Centric: Ensuring an enjoyable experience for your visitors.
+Mobile Optimization: Seamless performance on all devices.
+SEO-Friendly: Enhancing visibility and rankings.
+Timely Delivery: Quality without compromise, on schedule.
+
+Ready to elevate your online presence? Contact us at
+https://wpexpertspro.co/website/ to discuss your requirements.
+
+Best regards,
+Sam"
+
+You can contact Jim Rubio via email, erna.rubio@gmail.com

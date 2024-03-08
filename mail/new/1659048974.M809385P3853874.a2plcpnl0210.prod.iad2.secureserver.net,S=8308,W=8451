@@ -1,0 +1,143 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OIIkMA4U42IyzjoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 28 Jul 2022 15:56:14 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 28 Jul 2022 15:56:14 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oHCQQ-00GB4q-HY
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 28 Jul 2022 15:56:14 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oHCQQ-00GB4R-40@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1659048974-eximdsn-734777444
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oHCQQ-00GB4q-HY@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 28 Jul 2022 15:56:14 -0700
+
+--1659048974-eximdsn-734777444
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 HCQQotI9VkxYm :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=H58ef8Ui c=1 sm=1 tr=0 ts=62e3140e p=_l_I53DSTl0A:10 p=lUOWhVyNebsA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RgO8CyIxsXoA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=L-YWdyXqtu4A:10 a=kqdOk73CAAAA:8 a=mem--OOHAAAA:8 a=izlTGc_GXrQKix2rXWAA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=ZGnSbAi-79YA:10 a=DIUN93dtSN0A:10 a=DxpmskvvYR0A:10 a=WM8pTOkmipgA:10 a=2YlnYYCX5m8A:10 a=URbd_xlXZZcA:10 a=RiRAqLPPaI8A:10 a=PzYCcjbtXrsA:10 a=InNWZiyLC4IA:10 a=q1yhGoqDiRAA:10 a=IjEsK6nD3-UA:10 a=vf3aAzC_nWEA:10 a=nE05svs7R4AA:10 a=xaNjrtjEn2cA:10 a=YnbNJNvflZQA:10 a=OVhAeFC_7GYA:10 a=upslLCX2sNwA:10 a=b35Resq5ma4A:10 a=ONg9Sqvr5vUA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Hm-rK8Owrai46nGSS2ZT:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    10
+
+--1659048974-eximdsn-734777444
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 HCQQotI9VkxYm :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=H58ef8Ui c=1 sm=1 tr=0 ts=62e3140e p=_l_I53DSTl0A:10 p=lUOWhVyNebsA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RgO8CyIxsXoA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=L-YWdyXqtu4A:10 a=kqdOk73CAAAA:8 a=mem--OOHAAAA:8 a=izlTGc_GXrQKix2rXWAA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=ZGnSbAi-79YA:10 a=DIUN93dtSN0A:10 a=DxpmskvvYR0A:10 a=WM8pTOkmipgA:10 a=2YlnYYCX5m8A:10 a=URbd_xlXZZcA:10 a=RiRAqLPPaI8A:10 a=PzYCcjbtXrsA:10 a=InNWZiyLC4IA:10 a=q1yhGoqDiRAA:10 a=IjEsK6nD3-UA:10 a=vf3aAzC_nWEA:10 a=nE05svs7R4AA:10 a=xaNjrtjEn2cA:10 a=YnbNJNvflZQA:10 a=OVhAeFC_7GYA:10 a=upslLCX2sNwA:10 a=b35Resq5ma4A:10 a=ONg9Sqvr5vUA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Hm-rK8Owrai46[truncated]
+
+--1659048974-eximdsn-734777444
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oHCQQ-00GB4R-40
+	for ginojohn@gmail.com; Thu, 28 Jul 2022 15:56:14 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Carltonfew.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: syoma_shults_1982@bk.ru
+Reply-To: syoma_shults_1982@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oHCQQ-00GB4R-40@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 28 Jul 2022 15:56:14 -0700
+
+You have been contacted by Carltonfew, and the message is as follows.
+
+"
+Если вы хотите купить готовую
+столешницу в Москве, то мы предлагаем
+вам изделия из массива разных пород
+дерева по низким ценам
+[url=https://www.raidstone.ru/services/oblicovka-interera/oblicovka-hamama.html]интерьер
+из [/url]
+   Мы организуем доставку продукции во
+все регионы России и города СНГ
+[url=https://www.raidstone.ru/services/oblicovka-interera.html]оникс
+с [/url]
+   Для этого мы сотрудничаем с самыми
+быстрыми и надежными транспортными
+компаниями, что делает доставку ни
+такой дорогой
+[url=https://www.raidstone.ru/services/montazhnye-raboty/montazh-pola-iz-granita-gidroabrazivnaya-rezka.html]столешница
+на кухню [/url]
+   Для жителей Москвы и Московской
+области доставки по минимальным ценам
+и срокам
+[url=https://www.raidstone.ru/services/oblicovka-interera/oblicovka-pola.html]столешница
+для кухни [/url]
+   Для оптовых покупателей доставка по
+Москве и Московской области бесплатно
+[url=https://www.raidstone.ru/services/montazhnye-raboty/montazh-mramornyh-slebov-na-steny-i-pol-vannoj.html]столешницы
+из искусственного камня [/url]
+ 
+
+
+Легкий уход
+[url=https://www.raidstone.ru/services/montazhnye-raboty/oblicovka-kruglyh-sten-lestnichnogo-marsha-mramorom.html]столешницы
+из камня [/url]
+   Такую столешницу легко
+поддерживать в чистоте – для этого
+достаточно самых обычных чистящих
+средств, которые имеются у каждой
+хозяйки
+[url=https://www.raidstone.ru/services/montazhnye-raboty/oblicovka-parapeta-magnezitom.html]столешница
+[/url]
+   Гладкая поверхность кафеля не
+позволяет загрязнениям
+накапливаться, а если вы желаете
+придать ему вид нового – просто
+хорошенько очистите швы между
+плитками
+[url=https://www.raidstone.ru/katalog-kamnya/slanec.html]скульптуры
+из [/url]
+ 
+Сейчас топы из искусственного камня
+среди потребителей очень популярны
+[url=https://www.raidstone.ru/services/oblicovka-interera/oblicovka-hamama.html]интерьер
+из [/url]
+   Основой столешницы служит фанера, на
+которую и приклеивается
+искусственный камень толщиной в 12
+миллиметров
+[url=https://www.raidstone.ru/katalog-kamnya/iskusstvennyj-kamen.html]столешница
+в кухню [/url]
+   Искусственный камень изготавливают
+из полимерного клея и разноцветных
+гранул для имитации состава
+натурального камня
+[url=https://www.raidstone.ru/services/montazhnye-raboty/oblicovka-parapeta-magnezitom.html]скульптуры
+из [/url]
+ 
+"
+
+You can contact Carltonfew via email, syoma_shults_1982@bk.ru
+
+--1659048974-eximdsn-734777444--

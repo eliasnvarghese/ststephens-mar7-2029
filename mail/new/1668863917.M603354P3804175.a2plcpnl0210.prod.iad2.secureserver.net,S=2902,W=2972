@@ -1,0 +1,70 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id yFNnIq3XeGMPDDoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 19 Nov 2022 06:18:37 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 19 Nov 2022 06:18:37 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1owNjx-00G3of-E9
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sat, 19 Nov 2022 06:18:37 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1owNjt-00G3hk-5q@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1owNjx-00G3of-E9@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 19 Nov 2022 06:18:37 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1owNjt-00G3hk-5q
+	for ginojohn@gmail.com;
+	Sat, 19 Nov 2022 06:18:33 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jamika Hersh.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.171.172
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.171.172
+From: jamika.hersh@gmail.com
+Reply-To: jamika.hersh@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1owNjt-00G3hk-5q@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 19 Nov 2022 06:18:33 -0700
+
+You have been contacted by Jamika Hersh, and the message is as
+follows.
+
+"Attention Business Owners: This Is The New BEST Way To Create
+Websites, Build Funnels And Sell Digital Products Online!
+
+Forget complicated software. Say goodbye to clunky websites. Cancel
+all your monthly fees.
+
+GrooveFunnels is your complete digital products and services online
+sales system… And it’s FREE!
+
+Unlimited products and funnels
+Brand websites with full navigation
+Custom domain names
+1-click upsell capabilities
+Upsells, downsells and order bumps
+The world’s most powerful affiliate program
+And so much more…
+
+Sign up for your FREE Groove account and get lifetime access (for a
+limited time only!): https://fiverrfixserices.systeme.io/groove"
+
+You can contact Jamika Hersh via email, jamika.hersh@gmail.com

@@ -1,0 +1,157 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id /zLIK7axPWVCdSYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 28 Oct 2023 18:13:26 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 28 Oct 2023 18:13:26 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qwuMo-00AZep-LK
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 28 Oct 2023 18:13:26 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qwuMj-00AZEt-Ua@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698542006-eximdsn-535491999
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qwuMo-00AZep-LK@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 28 Oct 2023 18:13:26 -0700
+
+--1698542006-eximdsn-535491999
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wuMoqkoujiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=653db1b6 p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 p=07uzKHKe3m-UPcXWEQhW:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=9_DNdrFhOBEA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=TUp2fVbg214A:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=YVB5o_UlCUUi1BhaP40A:9 a=QEXdDO2ut3YA:10 a=E5ER-fXSjTcA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=Z0Lm28IlYPk47cL4fjvI:22 a=jj5SeagXpC07H_miybfw:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1698542006-eximdsn-535491999
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 wuMoqkoujiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=653db1b6 p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 p=07uzKHKe3m-UPcXWEQhW:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=9_DNdrFhOBEA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=TUp2fVbg214A:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=YVB5o_UlCUUi1BhaP40A:9 a=QEXdDO2ut3YA:10 a=E5ER-fXSjTcA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=Z0Lm28IlYPk47cL4fjvI:22 a=jj5SeagXpC07H_miybfw:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1698542006-eximdsn-535491999
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qwuMj-00AZEt-Ua
+	for ginojohn@gmail.com;
+	Sat, 28 Oct 2023 18:13:26 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Leopoldo Lombardo.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 196.242.131.201
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.242.131.201
+From: leopoldo.lombardo@gmail.com
+Reply-To: leopoldo.lombardo@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qwuMj-00AZEt-Ua@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 28 Oct 2023 18:13:21 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Leopoldo Lombardo, and the message is as
+follows.
+
+"Hello ststephenssanjose.org Webmaster
+
+I am Leopoldo and I just came across your webpage -
+ststephenssanjose.org - in the search listings.
+
+This is what that implies to me…
+
+Your SEO’s working.
+
+You’re getting eyeballs – mine at least.
+
+Your content’s not bad, wouldn’t change a thing.
+
+BUT…
+
+Eyeballs do not pay the bills.
+
+CUSTOMERS do pay the bills.
+
+And surveys show that 7 out of 10 visitors to a site to
+ststephenssanjose.org will drop by, take a gander, and then head for
+the hills without doing anything else.
+
+It’s like they never even were even there there.
+
+You can rectify this.
+
+You can make it extremely easy for them to raise their hand, say,
+“okay, let’s talk” without requiring them to even pull their
+mobile from their pocket… due to Visitor to Lead Widget.
+
+Lead Conversion Software is a tool that sits on your site, prepared
+and waiting to seize any viewer’s Name, Email address, and Phone
+Number. It allows you know immediately – so you can converse with
+that lead without delay… without delay they head for those hills.
+
+CLICK HERE https://bit.ly/3LPltcD to experience a Live Demo with Lead
+Conversion Software right now to see exactly how it works.
+
+Now it’s also true that when contacting to potential customers, you
+MUST act fast fast – the difference between contacting someone
+within 5 minutes 5 minutes versus is huge – like 100 times better!
+
+That’s what makes our new SMS Text With Lead feature so powerful so
+effective… you’ve got their phone number, so now you can start a
+text message (SMS) conversation with them… so even if if they
+don’t take you up take you up on your offer right away immediately,
+you continue to text them them new offers, content links, and new
+reasons to do business with you to do business with you with you.
+
+This could change everything change everything for you and your
+business for you and your business.
+
+CLICK HERE https://bit.ly/3LPltcD to learn more about everything Web
+Visitors Into Leads can do Visitor to Lead Widget can do and start
+turing turing eyeballs into cash.
+
+Leopoldo
+PS: Lead Conversion Software offers a FREE 14 days trial!
+It even includes International Long Distance Calling.
+Paying customers are waiting.
+Starting connecting today by CLICKING HERE by CLICKING HERE
+https://bit.ly/3LPltcD to try Lead Conversion Software now.
+
+If you'd like to unsubscribe click here https://bit.ly/3rD0G5c
+
+Merely a rapid remark - the monikers and email address used in this
+note, Leopoldo and Lombardo, are placeholders and not real contact
+information. We esteem openness and wished to make sure you’re
+informed! In case you wish to make contact with the true entity
+responsible for this note, please check out our site, and we’ll
+associate you with the appropriate person.
+"
+
+You can contact Leopoldo Lombardo via email,
+leopoldo.lombardo@gmail.com
+
+--1698542006-eximdsn-535491999--

@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id iASxF79+02T07R0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 09 Aug 2023 04:55:43 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 09 Aug 2023 04:55:43 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qThmx-008EXq-BC
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 09 Aug 2023 04:55:43 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qThms-008EWc-Ak@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qThmx-008EXq-BC@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 09 Aug 2023 04:55:43 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qThms-008EWc-Ak
+	for ginojohn@gmail.com;
+	Wed, 09 Aug 2023 04:55:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Tina Manning.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 49.83.17.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 49.83.17.115
+From: gptdash@databaseen.com
+Reply-To: gptdash@databaseen.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qThms-008EWc-Ak@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 09 Aug 2023 04:55:38 -0700
+
+You have been contacted by Tina Manning, and the message is as
+follows.
+
+"Hi,
+
+Are you struggling to create content that not only engages your
+audience but also drives profits for your business?
+
+Look no further than this new AI solution:
+https://www.databaseen.com/gptdash 
+
+This dashboard was designed by top internet marketers and copywriters
+who know how to leverage ChatGPT to create profitable content. With
+GPTDash, all you have to do is enter a few keywords and let the engine
+do the rest.
+
+The result? Original, engaging, and profitable content that will set
+you apart from your competition. Plus, with this easy-to-use
+dashboard, you'll save valuable time and resources.
+
+Don't just take my word for it. I encourage you to try GPTDash today
+and see the results for yourself. There is a launch special today that
+I don't want you to miss: https://www.databaseen.com/gptdash 
+
+Stay ahead of the game with this new AI dashboard. As always, I'm here
+to help you succeed.
+
+To your success,
+
+Tina Manning 
+
+UNSUBSCRIBE: https://www.databaseen.com/unsubscribe
+
+Address: 1951 W 5600 S #1, Roy, UT 84067"
+
+You can contact Tina Manning via email, gptdash@databaseen.com

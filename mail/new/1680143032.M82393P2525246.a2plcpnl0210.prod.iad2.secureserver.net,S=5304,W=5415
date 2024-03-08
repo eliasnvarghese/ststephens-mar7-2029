@@ -1,0 +1,111 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id uFQYNbfyJGQ+iCYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 29 Mar 2023 19:23:51 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 29 Mar 2023 19:23:52 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1phhx9-00Abiq-O3
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 29 Mar 2023 19:23:51 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1phhwv-00Abbd-Dj@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1680143031-eximdsn-1338817571
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1phhx9-00Abiq-O3@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 29 Mar 2023 19:23:51 -0700
+
+--1680143031-eximdsn-1338817571
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 hhx9prghubx9d :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=LqtUiFRc c=1 sm=1 tr=0 ts=6424f2b7 p=qiT6fcKBAAAA:8 p=62LGu6rJAAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=6ZmKJTjMsbAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=jZCZo18YERcA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=PehG0J8iFpVgf5ZKmbkA:9 a=QEXdDO2ut3YA:10 a=BUD-0eqj5HkA:10 a=pqiCX37NMfMA:10 a=KyYZJfTCSdMA:10 a=vl8vssr0TQgqdQuRnPJO:22 a=030Ft6yQfdw9aC6LZ668:22 a=acewEgQMpYTsClr9keMy:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=VFA3u7zP9CbhiejXc-6N:22 a=jycUkCEYUnZvh0PkXkJV:22 a=1YyxBE34uNs8VMy68d5d:22 ::
+    100.00
+
+--1680143031-eximdsn-1338817571
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 hhx9prghubx9d :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=LqtUiFRc c=1 sm=1 tr=0 ts=6424f2b7 p=qiT6fcKBAAAA:8 p=62LGu6rJAAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=6ZmKJTjMsbAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=jZCZo18YERcA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=PehG0J8iFpVgf5ZKmbkA:9 a=QEXdDO2ut3YA:10 a=BUD-0eqj5HkA:10 a=pqiCX37NMfMA:10 a=KyYZJfTCSdMA:10 a=vl8vssr0TQgqdQuRnPJO:22 a=030Ft6yQfdw9aC6LZ668:22 a=acewEgQMpYTsClr9keMy:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=VFA3u7zP9CbhiejXc-6N:22 a=jycUkCEYUnZvh0PkXkJV:22 a=1YyxBE34uNs8VMy68d5d:22 :: 100.00
+
+--1680143031-eximdsn-1338817571
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1phhwv-00Abbd-Dj
+	for ginojohn@gmail.com;
+	Wed, 29 Mar 2023 19:23:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Dianne Sligo.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.105.145.205
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.105.145.205
+From: dianne.sligo91@gmail.com
+Reply-To: dianne.sligo91@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1phhwv-00Abbd-Dj@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 29 Mar 2023 19:23:37 -0700
+
+You have been contacted by Dianne Sligo, and the message is as
+follows.
+
+"I am not sure that can help you, but a big number of your
+competitors, or websites just like ststephenssanjose.org use this
+brand new FREE Traffic approach successfully to grow their business
+and double their revenue: beginnersblueprints.com.
+
+This could very well be just what you are hoping for to grow your
+business…You might be surprised.
+
+
+
+
+
+
+
+
+Dianne, Sligo
+
+4976 Reynolds Alley, Los Angeles, CA 90014, United States.
+
+ 044 243 55 40
+
+If you do not wish to receive further emails from us, you may opt-out
+by filling this form: 
+https://forms.gle/M6hgGDqhAuRKwxS18.
+
+Please note that it may take up to 10 business days for your request
+to be processed.
+
+If you have received this communication in error, please delete it and
+notify the sender immediately.
+"
+
+You can contact Dianne Sligo via email, dianne.sligo91@gmail.com
+
+--1680143031-eximdsn-1338817571--

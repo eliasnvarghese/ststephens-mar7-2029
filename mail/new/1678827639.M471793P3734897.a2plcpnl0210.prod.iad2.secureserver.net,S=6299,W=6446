@@ -1,0 +1,147 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id XXbFGnfgEGRx/TgAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 14 Mar 2023 14:00:39 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 14 Mar 2023 14:00:39 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pcBl9-00Ffc0-6x
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 14 Mar 2023 14:00:39 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pcBl3-00FfSw-9Y@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1678827639-eximdsn-2036354456
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pcBl9-00Ffc0-6x@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 14 Mar 2023 14:00:39 -0700
+
+--1678827639-eximdsn-2036354456
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 cBl8peIfbfgEG :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=I5KjBvsg c=1 sm=1 tr=0 ts=6410e077 p=p_S0EKFWAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=huvbmMDMAAAA:8 a=r8Rt19lHAAAA:8 a=pVBjoEEG9ThnLxT_yt4A:9 a=QEXdDO2ut3YA:10 a=fMjoE6fuA7cA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=1BQUewqKQ2efecFAjXB_:22 a=jycUkCEYUnZvh0PkXkJV:22 a=vvgWg_SSip1PoAqf3CK9:22 a=d-Fnz9VDF74wM12Vlz3U:22 ::
+    100.00
+
+--1678827639-eximdsn-2036354456
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 cBl8peIfbfgEG :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=I5KjBvsg c=1 sm=1 tr=0 ts=6410e077 p=p_S0EKFWAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=huvbmMDMAAAA:8 a=r8Rt19lHAAAA:8 a=pVBjoEEG9ThnLxT_yt4A:9 a=QEXdDO2ut3YA:10 a=fMjoE6fuA7cA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=1BQUewqKQ2efecFAjXB_:22 a=jycUkCEYUnZvh0PkXkJV:22 a=vvgWg_SSip1PoAqf3CK9:22 a=d-Fnz9VDF74wM12Vlz3U:22 :: 100.00
+
+--1678827639-eximdsn-2036354456
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pcBl3-00FfSw-9Y
+	for ginojohn@gmail.com;
+	Tue, 14 Mar 2023 14:00:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by David Barrett.
+X-PHP-Script: ststephenssanjose.org/contact.php for 179.43.138.216
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 179.43.138.216
+From: david3@videossoftwareclub.com
+Reply-To: david3@videossoftwareclub.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pcBl3-00FfSw-9Y@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 14 Mar 2023 14:00:33 -0700
+
+You have been contacted by David Barrett, and the message is as
+follows.
+
+"Hi,
+
+Do you have a business? Wanted to create an engaging video for your
+website? If the answer is YES, then I'm in the right place. 
+
+My name is David and I work for VideosSoftwareClub. 
+
+I’m mailing you because I found your site: ststephenssanjose.org,
+and was wondering if you are interested in adding a cinematic video
+for your website and marketing campaign? If you are not the person to
+contact I would be very grateful if you could pass this message to
+them.
+
+Aside from cinematic video. Here are some of the video styles I
+create:
+
+Logo Animation Video
+
+Social Media Video
+
+Product Showcase Video
+
+If you are interested please let me know, and if none of them speak to
+your imagination I do many other styles as well, so please do reach
+out to me personally.
+
+If you want to learn more about our service, simply click
+www.videossoftwareclub.com and click on video sample tab to see our
+interesting and engaging videos. 
+
+Cinematic video is a video that resembles a film. Over the years, the
+movie industry changed quite a lot in terms of aspect ratio, colour,
+and lighting styles. When we use the term “cinematic,” this means
+it looks like an actual film we see in theatres. Attract experts with
+quality cinematic content head over to www.videossoftwareclub.com
+now.
+
+
+Regards,
+
+David Barrett
+
+Content Creator
+
+VideoSoftwareClub
+
+
+PS:
+
+1. If you want to create video content fast, jump straight to it here
+www.videossoftwareclub.com and be sure to use coupon APP10 to get 10%
+off today. We look forward to working with you soon.
+
+2. If you are interested please either visit the link above or reply
+with the number 2 in the message subject and we we will get back to
+you.
+
+3. If you are interested, but not yet, please reply to this message
+with the number 3 in the subject line, and we will contact you again
+in three months.
+
+4. Finally, if you are not interested, please either click this link
+to opt out www.tiny1.co/unsub, or reply to this message with the
+number 4 in the subject line.
+
+
+Have a great day!"
+
+You can contact David Barrett via email, david3@videossoftwareclub.com
+
+--1678827639-eximdsn-2036354456--

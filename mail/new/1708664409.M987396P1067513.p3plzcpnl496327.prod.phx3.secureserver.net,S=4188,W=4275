@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id OBqgOlkm2GX5SRAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 22 Feb 2024 22:00:09 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 22 Feb 2024 22:00:09 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rdNfN-004c5G-2x
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 22 Feb 2024 22:00:09 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rdNfI-004boC-1y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1708664409-eximdsn-734530426
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rdNfN-004c5G-2x@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 22 Feb 2024 22:00:09 -0700
+
+--1708664409-eximdsn-734530426
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 dNfNrztdbIM0u :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Qur93kyd c=1 sm=1 tr=0 ts=65d82659 p=M0Ys6iyMZCoA:10 p=W5dEn6GSlugA:10 p=YGVnJMxa4nEJ8qvljIlI:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=Pf48eeFNAAAA:8 a=f8WGA2Lqb7_s1z2eH3kA:9 a=QEXdDO2ut3YA:10 a=kpFY7M75H-E-Ddy-exE4:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1708664409-eximdsn-734530426
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 dNfNrztdbIM0u :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Qur93kyd c=1 sm=1 tr=0 ts=65d82659 p=M0Ys6iyMZCoA:10 p=W5dEn6GSlugA:10 p=YGVnJMxa4nEJ8qvljIlI:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=Pf48eeFNAAAA:8 a=f8WGA2Lqb7_s1z2eH3kA:9 a=QEXdDO2ut3YA:10 a=kpFY7M75H-E-Ddy-exE4:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1708664409-eximdsn-734530426
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rdNfI-004boC-1y
+	for ginojohn@gmail.com;
+	Thu, 22 Feb 2024 22:00:09 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by DonaldWaini.
+X-PHP-Script: ststephenssanjose.org/contact.php for 63.141.226.91
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 63.141.226.91
+From: prrelease@chroniclenewstoday.com
+Reply-To: prrelease@chroniclenewstoday.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rdNfI-004boC-1y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 22 Feb 2024 22:00:04 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by DonaldWaini, and the message is as follows.
+
+"Get the latest breaking news, sports, entertainment from Chronicle
+News Today. 
+ 
+https://www.chroniclenewstoday.com/"
+
+You can contact DonaldWaini via email,
+prrelease@chroniclenewstoday.com
+
+--1708664409-eximdsn-734530426--

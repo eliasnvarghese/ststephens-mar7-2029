@@ -1,0 +1,160 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id +MI5FbdPZGOxMzQAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 16:33:11 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 16:33:11 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqjhv-00ESYk-6x
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 16:33:11 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqjhu-00ESYF-Mb@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667518391-eximdsn-474238943
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqjhv-00ESYk-6x@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 16:33:11 -0700
+
+--1667518391-eximdsn-474238943
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qjhvoxkYrwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63644fb7 p=Jun19vQliOoA:10 p=tE5yuuuYAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=HvOsAiH-r3UA:10 a=mem--OOHAAAA:8 a=IFSr_628_FrZgKPEpuQA:9 a=QEXdDO2ut3YA:10 a=smM5wco3pgoA:10 a=Xa3LfcIGkrwA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=xHRg0vlsE3N3EBgpcYDY:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667518391-eximdsn-474238943
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qjhvoxkYrwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63644fb7 p=Jun19vQliOoA:10 p=tE5yuuuYAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=HvOsAiH-r3UA:10 a=mem--OOHAAAA:8 a=IFSr_628_FrZgKPEpuQA:9 a=QEXdDO2ut3YA:10 a=smM5wco3pgoA:10 a=Xa3LfcIGkrwA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=xHRg0vlsE3N3EBgpcYDY:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667518391-eximdsn-474238943
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqjhu-00ESYF-Mb
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 16:33:10 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by KevinStaft.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.106
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.106
+From: shmelev.serega.1988.25.10@bk.ru
+Reply-To: shmelev.serega.1988.25.10@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqjhu-00ESYF-Mb@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 16:33:10 -0700
+
+You have been contacted by KevinStaft, and the message is as follows.
+
+"                 Создан
+учебно-научный центр  http://attblime.ru/
+  Основные цели и зада Основные цели и
+задачи центра: 
+Араго понимал, что при такой толщине
+слоя жидкости наблюдатель вряд ли
+сможет заметить изображение искры,
+видимое в течение очень короткого
+промежутка времени http://attblime.ru/
+  Однако ситуация может существенно
+измениться, если увеличить скорость
+вращения зеркала http://attblime.ru/
+  Кроме того, с помощью зрительной
+трубы в действительности можно
+фиксировать угловые расстояния
+меньше 1 http://attblime.ru/
+  Араго высказал и другие предложения
+по усовершенствованию опыта
+http://attblime.ru/
+  В целом заключение Араго звучит
+оптимистично: решающий опыт для
+выбора между двумя теориями света
+может быть осуществлен! 
+Фильтры с высокими показателями
+оптической плотности выполняют
+важные задачи в разнообразных
+продуктах потребительского и
+промышленного назначения http://attblime.ru/
+  Такие фильтры применяются в
+средствах индивидуальной защиты,
+например в солнцезащитных и сварочных
+очках в устройствах для оптиче­ских
+измерений, в которых управление
+рассеянным световым излучением имеет
+важнейшее значение для работы системы
+http://attblime.ru/
+ 
+107110881082108610891090108510991077
+(1086108710901080109510771089108210801077)
+108710801088108610841077109010881099
+108010891087108610831100107910911102109010891103 107610831103
+108010791084107710881077108510801103
+1090107710841087107710881072109010911088 10861090 500 10761086 4000
+01057 http://attblime.ru/
+  105410851080 10861089108510861074107210851099 10851072
+108910881072107410851077108510801080 1074 10911079108210861084
+1091109510721089109010821077 1089108710771082109010881072
+1103108810821086108910901080
+108010891089108310771076109110771084108610751086
+1086107310981077108210901072 1089 11031088108210861089109011001102
+10861073108810721079109410861074108610751086
+1080107910831091109510721090107710831103
+(109210861090108610841077109010881080109510771089108210861081
+10831072108410871099) http://attblime.ru/
+ 
+роботизированный комплекс
+оборудования прецизионной лазерной
+резки и сварки конструкций в
+различных пространственных
+положениях (Диплом I степени
+http://attblime.ru/
+  Лучший инновационный проект в
+области машиностроения и металлургии
+http://attblime.ru/
+  ПТЯ 2014г http://attblime.ru/
+ ) 
+2 http://attblime.ru/
+  Лазерный локатор по п http://attblime.ru/
+ 1, отличающийся тем, что в нем блок
+сдвига частоты лазерного излучения
+содержит последовательно
+установленные на оптической оси
+оптически связанные входную
+диафрагму, акустооптическую ячейку с
+блоком управления, первую линзу,
+точечную диафрагму, вторую линзу и
+выходную диафрагму, при этом
+управляющий электрод
+акустооптической ячейки подключен к
+блоку управления акустооптической
+ячейкой http://attblime.ru/
+ 
+"
+
+You can contact KevinStaft via email, shmelev.serega.1988.25.10@bk.ru
+
+--1667518391-eximdsn-474238943--

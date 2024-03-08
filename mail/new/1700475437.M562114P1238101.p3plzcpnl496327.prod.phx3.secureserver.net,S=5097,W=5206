@@ -1,0 +1,109 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id OaAVIS0yW2VV5BIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 20 Nov 2023 03:17:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 20 Nov 2023 03:17:17 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r51LB-005C5H-Fu
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 20 Nov 2023 03:17:17 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r51L6-005C4C-UM@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700475437-eximdsn-174383209
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r51LB-005C5H-Fu@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 20 Nov 2023 03:17:17 -0700
+
+--1700475437-eximdsn-174383209
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 51LBr356tTa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=655b322d p=-mqVU2gq3XisC1jLEdvh:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=4pXAxUpJGhEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=1GeXxxaNNOoA:10 a=KAhSdYSMAAAA:20 a=AAvYLDLOAAAA:8 a=nP9M0lge8XmFdy56zOEA:9 a=QEXdDO2ut3YA:10 a=NJY9nHhUC-8A:10 a=ZXulRonScM0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1700475437-eximdsn-174383209
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 51LBr356tTa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=655b322d p=-mqVU2gq3XisC1jLEdvh:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=4pXAxUpJGhEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=1GeXxxaNNOoA:10 a=KAhSdYSMAAAA:20 a=AAvYLDLOAAAA:8 a=nP9M0lge8XmFdy56zOEA:9 a=QEXdDO2ut3YA:10 a=NJY9nHhUC-8A:10 a=ZXulRonScM0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1700475437-eximdsn-174383209
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r51L6-005C4C-UM
+	for ginojohn@gmail.com;
+	Mon, 20 Nov 2023 03:17:17 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Tegan Puglisi.
+X-PHP-Script: ststephenssanjose.org/contact.php for 52.128.14.202
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 52.128.14.202
+From: tegan.puglisi@msn.com
+Reply-To: tegan.puglisi@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r51L6-005C4C-UM@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 20 Nov 2023 03:17:12 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Tegan Puglisi, and the message is as
+follows.
+
+"BLACK FRIDAY 95% OFF
+
+í ¼í¼Ÿ Introducing the Ultimate Cleaning Planner! í ¾í·¹âœ¨
+
+Tired of juggling household chores and struggling to keep your space
+clean? í ¼í¿¡ Say goodbye to cleaning stress with our EDITABLE
+Cleaning Planner! í ½í³‹âœ¨
+
+Get Yours Now -https://bit.ly/cleaningplanner
+
+
+âœ… Customize Your Cleaning: Personalize your tasks with our editable
+checklist to perfectly match your routine. Choose from pre-filled or
+blank templates!
+
+âœ¨ Easy Organization: Split tasks by daily, weekly, and monthly
+chores, while tracking quarterly and annual cleaning to-dos
+effortlessly.
+
+Get your hands on this game-changer and take control of your cleaning
+routine! âœ¨
+
+Get Yours Now -https://bit.ly/cleaningplanner
+
+
+"
+
+You can contact Tegan Puglisi via email, tegan.puglisi@msn.com
+
+--1700475437-eximdsn-174383209--

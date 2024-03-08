@@ -1,0 +1,162 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id kPqPJhNFZGNUJzEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 15:47:47 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 15:47:47 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqizz-00DYMZ-4A
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 15:47:47 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqizy-00DYM5-KP@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667515667-eximdsn-1657944521
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqizz-00DYMZ-4A@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 15:47:47 -0700
+
+--1667515667-eximdsn-1657944521
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qizyoGiVqF1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63644513 p=zF7s0ytZdlMA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=j2SSi9HoOtcA:10 a=9BkXXYRtAAAA:8 a=RgBw9RmQAAAA:8 a=cTSyX-2ohNZ8F9YZbzsA:9 a=QEXdDO2ut3YA:10 a=kArRjQTGFT8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=R_N0rKcpFNLjA7o5o40x:22 ::
+    100.00
+
+--1667515667-eximdsn-1657944521
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qizyoGiVqF1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63644513 p=zF7s0ytZdlMA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=j2SSi9HoOtcA:10 a=9BkXXYRtAAAA:8 a=RgBw9RmQAAAA:8 a=cTSyX-2ohNZ8F9YZbzsA:9 a=QEXdDO2ut3YA:10 a=kArRjQTGFT8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=R_N0rKcpFNLjA7o5o40x:22 :: 100.00
+
+--1667515667-eximdsn-1657944521
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqizy-00DYM5-KP
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 15:47:46 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Davidimigo.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.106
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.106
+From: mosoce-416@mail.ru
+Reply-To: mosoce-416@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqizy-00DYM5-KP@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 15:47:46 -0700
+
+You have been contacted by Davidimigo, and the message is as follows.
+
+"инструкция есть как подключить
+лампочку,там всё понятно а как
+подключить мотор с реверсом с
+использованием концевиков не понятно
+https://mosvrata.ru/tovar/doorhan-ruchnoj-tsepnoj-privod-dlya-sektsionnyh/
+  начертите схему если можно,заранее
+спасибо
+https://mosvrata.ru/tovar/avtomatika-dlya-otkatnyh-vorot-an-motors-asl500-full-kit/
+     заказывал на алиэкспрэс, хотел
+вставить ссылку не выходит
+https://mosvrata.ru/catalog/bollardy/
+  у вас с верху есть ссылка на 4 канала,у
+меня на 1канал, нагрузить можно до 1,5кВ
+https://mosvrata.ru/remont-shlagbaumov/
+ 
+откатное — перемещение (вверх или в
+стороны) полотен осуществляется
+согласно направляющим
+https://mosvrata.ru/tovar/antenna-bft-ael-433/
+   Устройство включает электрический
+привод, встроенную систему управления
+и составляющие доступ 
+Прежде всего будет рассмотрен метод
+работы автоматики от пульта
+https://mosvrata.ru/tovar/ruchnoj-shlagbaum-fantom-4000/
+   В данном случае используется
+незначительное дополнение предыдущей
+схемы
+https://mosvrata.ru/tovar/privod-dlya-otkatnyh-vorot-roger-r30-1204/
+   Оно заключается в подсоединении
+параллельно с клавишами управления
+электронного ключа
+https://mosvrata.ru/catalog/aksessuary/komplektuyushhie-dlya-shlagbaumov/
+   Он работает от сигналов
+принимающего устройства, которое
+получает команды по радиоволнам с
+передатчика в виде пульта
+https://mosvrata.ru/catalog/aksessuary/komplektuyushhie-dlya-shlagbaumov/
+   Приборы представлены в широком
+ассортименте и могут иметь различный
+функционал и внешний вид, однако
+принцип функционирования остаётся
+неизменным https://mosvrata.ru/tovar/nice-mof-fotoelementy/
+ 
+Все подвижные детали должны свободно
+передвигаться по направляющим
+https://mosvrata.ru/catalog/videodomofon/videodomofon-dlya-doma/
+   Хозяин должен периодически их
+контролировать
+https://mosvrata.ru/tovar/antenna-came-dd-1ta868/
+   Важно регулярно проводить чистку и
+смазывание передвижных деталей
+конструкции
+https://mosvrata.ru/tovar/nice-pul-a924-blok-upravleniya/
+   Если створки будут тяжело
+передвигаться, то может произойти
+увеличение нагрузки на привод и
+электрический двигатель
+https://mosvrata.ru/catalog/aksessuary/posty-upravleniya/
+   В таком случае могут возникнуть
+неполадки механизмов
+https://mosvrata.ru/tovar/nice-s-bar-shlagbaum-avtomaticheskij/
+ 
+Оснастить автоматикой возможно и
+старые ворота, имеющие историческую и
+художественную ценность
+https://mosvrata.ru/tovar/antenna-faac-868-mgts/
+   Для этого необходимо выбрать
+оборудование, имеющее минимальные
+размеры и разместить его таким
+образом, чтобы ценные ворота не были
+повреждены воздействием мощных
+приводов
+https://mosvrata.ru/tovar/privod-dlya-otkatnyh-vorot-roger-g30-1804/
+ 
+К приводам откатных ворот может
+подключатся система автоматического
+открытия/закрытия
+https://mosvrata.ru/tovar/alutech-kronshtejn-bokovoj/
+   Она не раз выручит Вас в темное время
+суток или плохую погоду, например в
+метель
+https://mosvrata.ru/tovar/doorhan-karetka-dlya-napravlyayushhej-sk-3600sk-4600/
+ 
+"
+
+You can contact Davidimigo via email, mosoce-416@mail.ru
+
+--1667515667-eximdsn-1657944521--

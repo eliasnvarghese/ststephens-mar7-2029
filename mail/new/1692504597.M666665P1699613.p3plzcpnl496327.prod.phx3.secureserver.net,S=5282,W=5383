@@ -1,0 +1,101 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id xD+fJxWS4WQd7xkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 19 Aug 2023 21:09:57 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 19 Aug 2023 21:09:57 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qXZlF-007890-J6
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 19 Aug 2023 21:09:57 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qXZl6-00786c-0b@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1692504597-eximdsn-104888429
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qXZlF-007890-J6@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 19 Aug 2023 21:09:57 -0700
+
+--1692504597-eximdsn-104888429
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 XZlFqd7WHS0vV :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=PMnJu9mC c=1 sm=1 tr=0 ts=64e19215 p=vXP3Cw9r-DAA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=tu9orQNqLdwA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=5G5MtOf6KpsA:10 a=PjWAzMSBAAAA:8 a=pGLkceISAAAA:8 a=aLzdaFjqUydi8pR1xsYA:9 a=QEXdDO2ut3YA:10 a=qhXkB-BpY60A:10 a=KyYZJfTCSdMA:10 a=XryqTErcK0HwOhsGAKes:22 a=J4zB5QUrLRG0H88ECl0m:22 a=-2niGAGpFcaQKNMSGBOs:22 a=O8rbgRuygiYnpL2npyPZ:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1692504597-eximdsn-104888429
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 XZlFqd7WHS0vV :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=PMnJu9mC c=1 sm=1 tr=0 ts=64e19215 p=vXP3Cw9r-DAA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=tu9orQNqLdwA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=5G5MtOf6KpsA:10 a=PjWAzMSBAAAA:8 a=pGLkceISAAAA:8 a=aLzdaFjqUydi8pR1xsYA:9 a=QEXdDO2ut3YA:10 a=qhXkB-BpY60A:10 a=KyYZJfTCSdMA:10 a=XryqTErcK0HwOhsGAKes:22 a=J4zB5QUrLRG0H88ECl0m:22 a=-2niGAGpFcaQKNMSGBOs:22 a=O8rbgRuygiYnpL2npyPZ:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1692504597-eximdsn-104888429
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qXZl6-00786c-0b
+	for ginojohn@gmail.com;
+	Sat, 19 Aug 2023 21:09:52 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Steve Collins.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.247.105.120
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.247.105.120
+From: stevecollins@gmail.com
+Reply-To: stevecollins@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qXZl6-00786c-0b@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 19 Aug 2023 21:09:48 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Steve Collins, and the message is as
+follows.
+
+"Hey there, my name is Steve and I am a remote recruitment agent for
+AISocial, I checked out your website and I am impressed. I am
+currently looking for a couple more app reviewers to join our team.
+The position is flexible so you can work it a couple hours a day on
+the side of your main business, it pays a minimum of $200 per day and
+would involve writing a couple app reviews a day.
+
+We currently are hiring 3 more people from your location, if you are
+interested you can view the details of the job by clicking my hiring
+link below, it isn't the hardest job but we are looking for the most
+qualified candidates to proceed.
+
+https://hop.clickbank.net/?affiliate=aisocial&vendor=writeapps&pid=joblandingpage
+
+Thank you for your time, we hope to see you on our team!
+
+Talk soon,
+Steve from AISocial"
+
+You can contact Steve Collins via email, stevecollins@gmail.com
+
+--1692504597-eximdsn-104888429--

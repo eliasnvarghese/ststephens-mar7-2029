@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id WS9nC3hA1mTIwzIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 11 Aug 2023 07:06:48 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 11 Aug 2023 07:06:48 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qUSmu-00DxTs-4F
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 11 Aug 2023 07:06:48 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qUSmp-00DxQd-9S@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1691762808-eximdsn-1883089938
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qUSmu-00DxTs-4F@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 11 Aug 2023 07:06:48 -0700
+
+--1691762808-eximdsn-1883089938
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 USmuqxsI69SRa :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=N4bvVUxB c=1 sm=1 tr=0 ts=64d64078 p=GLHoFj0BAAAA:8 p=p7yqMyEkJqAJBcXjDNQa:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=eMLh-Jgs_DHdw01GQl4A:9 a=QEXdDO2ut3YA:10 a=Jr8Uo4y4hccA:10 a=KyYZJfTCSdMA:10 a=Lk_t14R_ewCs_xFTCNWl:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1691762808-eximdsn-1883089938
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 USmuqxsI69SRa :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=N4bvVUxB c=1 sm=1 tr=0 ts=64d64078 p=GLHoFj0BAAAA:8 p=p7yqMyEkJqAJBcXjDNQa:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=eMLh-Jgs_DHdw01GQl4A:9 a=QEXdDO2ut3YA:10 a=Jr8Uo4y4hccA:10 a=KyYZJfTCSdMA:10 a=Lk_t14R_ewCs_xFTCNWl:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1691762808-eximdsn-1883089938
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qUSmp-00DxQd-9S
+	for ginojohn@gmail.com;
+	Fri, 11 Aug 2023 07:06:48 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by LizzieRen.
+X-PHP-Script: ststephenssanjose.org/contact.php for 94.41.202.54
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 94.41.202.54
+From: info@requipment.ru
+Reply-To: info@requipment.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qUSmp-00DxQd-9S@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 11 Aug 2023 07:06:43 -0700
+
+You have been contacted by LizzieRen, and the message is as follows.
+
+"[url=][/url] 
+[url=][/url] 
+[url=][/url]"
+
+You can contact LizzieRen via email, info@requipment.ru
+
+--1691762808-eximdsn-1883089938--

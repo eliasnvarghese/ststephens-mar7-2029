@@ -1,0 +1,155 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id wbA6HXMvGmVPaTAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 01 Oct 2023 19:48:19 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 01 Oct 2023 19:48:19 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qn8yp-00DJMG-Dm
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 01 Oct 2023 19:48:19 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qn8yk-00DJL6-Ok@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696214899-eximdsn-1354868922
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qn8yp-00DJMG-Dm@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 01 Oct 2023 19:48:19 -0700
+
+--1696214899-eximdsn-1354868922
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 n8ypqHULOIKdu :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=651a2f73 p=okVMnkRr3DvspSyvHWtv:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=mlIju-JJH7IA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=HAx0gVdkloUA:10 a=njEoReLTAAAA:8 a=mK_AVkanAAAA:8 a=lWwKVIP2BNSaAFw3AwoA:9 a=QEXdDO2ut3YA:10 a=lTnRWd04WWYA:10 a=KyYZJfTCSdMA:10 a=Opjcf2rbXONI77XeNpWh:22 a=3gWm3jAn84ENXaBijsEo:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    96.00
+
+--1696214899-eximdsn-1354868922
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 n8ypqHULOIKdu :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=651a2f73 p=okVMnkRr3DvspSyvHWtv:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=mlIju-JJH7IA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=HAx0gVdkloUA:10 a=njEoReLTAAAA:8 a=mK_AVkanAAAA:8 a=lWwKVIP2BNSaAFw3AwoA:9 a=QEXdDO2ut3YA:10 a=lTnRWd04WWYA:10 a=KyYZJfTCSdMA:10 a=Opjcf2rbXONI77XeNpWh:22 a=3gWm3jAn84ENXaBijsEo:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 96.00
+
+--1696214899-eximdsn-1354868922
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qn8yk-00DJL6-Ok
+	for ginojohn@gmail.com;
+	Sun, 01 Oct 2023 19:48:19 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Alvaro Lafferty.
+X-PHP-Script: ststephenssanjose.org/contact.php for 52.128.8.240
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 52.128.8.240
+From: alvaro.lafferty@googlemail.com
+Reply-To: alvaro.lafferty@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qn8yk-00DJL6-Ok@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 01 Oct 2023 19:48:14 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Alvaro Lafferty, and the message is as
+follows.
+
+"Are you ready to embark on a journey towards financial freedom and
+success? Imagine making a consistent ten to fifteen thousand dollars
+every single month by creating your first digital eBook product. It's
+not a dreamâ€”it's the promise of the 8 Figure Formula System.
+
+í ¼í¼Ÿ Introducing the 8 Figure Formula System
+
+In a world full of grandiose promises, this course stands out for its
+proven track record. In just the last 12 months, I've generated an
+astonishing eight figures in revenue by selling one digital eBook. And
+now, I'm sharing the exact formula that propelled me to this
+remarkable achievement.
+
+Here's what the 8 Figure Formula System will empower you to do:
+
+1.	í ½í³˜ Create Your eBook: We'll guide you through the process of
+creating an eBook from start to finish.
+2.	í ½íº€ Master eBook Marketing: Discover the secrets to effective
+eBook marketing that will set you up for success.
+3.	í ½íº€ Launch Like a Pro: Learn how to launch your eBook with
+precision and impact.
+4.	í ¾í·© Funnel Integration: Understand how to seamlessly incorporate
+your eBook into a sales funnel for maximum results.
+5.	í ¼í¾§ Audiobook Conversion: Explore the valuable skill of
+converting your eBook into an audiobook, expanding your reach and
+income potential.
+
+But wait, there's more! Enroll today and you'll receive two incredible
+bonuses worth a total of $2,000:
+
+í ½í²Ž Bonus #1: Unlock the power of FREE Facebook traffic with our
+exclusive toolkit. Say goodbye to paid promotional ads and hello to
+organic growth.
+í ½í²Ž Bonus #2: Access additional free bonuses that will supercharge
+your journey towards financial success.
+
+This opportunity is available for a limited timeâ€”only today and for
+the next 48 hours at a discounted rate that you won't want to miss.
+
+í ½í´— https://warriorplus.com/o2/a/cxjsvx/0
+
+í ½í±‰ Don't delay, because this could be the decision that changes
+your life forever. Click the link above and seize your chance to join
+the ranks of successful eBook creators who are enjoying the benefits
+of passive income.
+
+í ¼í¼Ÿ Real Results, Real Students
+
+But don't just take my word for it. Over 154 students from around the
+world have already benefited from this course, creating their first
+eBooks and generating passive income. Now, it's your turn.
+
+í ½í±‰ Click the link above to get started. As soon as you enroll in
+the 8 Figure Formula System, you'll gain access to the knowledge and
+tools that can turn your financial dreams into reality.
+
+í ½íº€ This Is Your Moment
+
+Your journey to eight figures starts here. Take action today, and I'll
+see you on the inside.
+
+To your success,
+
+
+
+
+
+
+
+
+"
+
+You can contact Alvaro Lafferty via email,
+alvaro.lafferty@googlemail.com
+
+--1696214899-eximdsn-1354868922--

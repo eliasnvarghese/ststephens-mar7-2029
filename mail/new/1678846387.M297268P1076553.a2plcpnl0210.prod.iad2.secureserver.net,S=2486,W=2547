@@ -1,0 +1,61 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id QIqXEbMpEWRJbRAAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 14 Mar 2023 19:13:07 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 14 Mar 2023 19:13:07 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pcGdX-004alW-5w
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 14 Mar 2023 19:13:07 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pcGdN-004aJq-Lf@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pcGdX-004alW-5w@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 14 Mar 2023 19:13:07 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pcGdN-004aJq-Lf
+	for ginojohn@gmail.com;
+	Tue, 14 Mar 2023 19:12:57 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jack Feducci.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.117.139
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.117.139
+From: myairanker@gmail.com
+Reply-To: myairanker@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pcGdN-004aJq-Lf@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 14 Mar 2023 19:12:57 -0700
+
+You have been contacted by Jack Feducci, and the message is as
+follows.
+
+"Have you heard of ChatGPT? This is ChatGPT but on steroids. 
+
+Built specifically to help you get organic traffic and pop up on
+Google's First Page.
+
+Click here and try it for free, visit https://www.MyAIranker.com
+
+
+Thank you for your time!
+Jack Feducci"
+
+You can contact Jack Feducci via email, myairanker@gmail.com

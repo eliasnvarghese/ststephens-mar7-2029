@@ -1,0 +1,59 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 4FaZFhSLoGUUEjMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 11 Jan 2024 17:43:00 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 11 Jan 2024 17:43:00 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rO5dU-00E2kR-0z
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 11 Jan 2024 17:43:00 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rO5dP-00E2ie-2w@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rO5dU-00E2kR-0z@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 11 Jan 2024 17:43:00 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rO5dP-00E2ie-2w
+	for ginojohn@gmail.com;
+	Thu, 11 Jan 2024 17:42:55 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Johny McCourt.
+X-PHP-Script: ststephenssanjose.org/contact.php for 87.249.134.176
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 87.249.134.176
+From: mccourt.mariam@outlook.com
+Reply-To: mccourt.mariam@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rO5dP-00E2ie-2w@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 11 Jan 2024 17:42:55 -0700
+
+You have been contacted by Johny McCourt, and the message is as
+follows.
+
+"7 page static website/ Contact form/ Slider - starts from $80
+Unlimited categories/ products/ Slider/ Contact form/ Payment gateway
+integration/ Ecommerce website - stats from $300
+
+All websites are mobile responsive and SEO friendly. Professional and
+afforable website design and development 
+
+Hire our developers at https://speedexpert.co/wp-development/"
+
+You can contact Johny McCourt via email, mccourt.mariam@outlook.com

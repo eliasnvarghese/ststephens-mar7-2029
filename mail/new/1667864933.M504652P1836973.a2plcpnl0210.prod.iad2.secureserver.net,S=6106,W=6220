@@ -1,0 +1,114 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id YIIQHGWZaWOtBxwAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 16:48:53 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 16:48:53 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1osBrJ-007m2H-86
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 16:48:53 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1osBrI-007m1k-PX@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667864933-eximdsn-1901404170
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1osBrJ-007m2H-86@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 16:48:53 -0700
+
+--1667864933-eximdsn-1901404170
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 sBrJow5QrYVlN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=63699965 p=IGfLJKK9O2UA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=OV1xOHBUpHYA:10 a=fn6uihWnAAAA:8 a=RgBw9RmQAAAA:8 a=M7CuE4DSMMYDAOFCJ-kA:9 a=QEXdDO2ut3YA:10 a=stu5vBMG_D4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=9CKu76ocsatlcrQyD9fo:22 ::
+    100.00
+
+--1667864933-eximdsn-1901404170
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 sBrJow5QrYVlN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=63699965 p=IGfLJKK9O2UA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=OV1xOHBUpHYA:10 a=fn6uihWnAAAA:8 a=RgBw9RmQAAAA:8 a=M7CuE4DSMMYDAOFCJ-kA:9 a=QEXdDO2ut3YA:10 a=stu5vBMG_D4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=9CKu76ocsatlcrQyD9fo:22 :: 100.00
+
+--1667864933-eximdsn-1901404170
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1osBrI-007m1k-PX
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 16:48:52 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Tommygib.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: vadimka.bocharov.01@mail.ru
+Reply-To: vadimka.bocharov.01@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1osBrI-007m1k-PX@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 16:48:52 -0700
+
+You have been contacted by Tommygib, and the message is as follows.
+
+"Вальпроевая кислота при лактации
+выделяется с грудным молоком в
+концентрациях 1–10%, в связи с чем на
+время приема Конвулекса
+рекомендуется прекращать грудное
+вскармливание https://convulex.com.ru/blog
+ 
+
+Образование: Диплом по специальности 
+Экскреция: в основном неизмененная
+вальпроевая кислота (1–3% от дозы) и ее
+метаболиты выводятся почками и только
+в небольших количествах – с
+фекалиями, а также с выдыхаемым
+воздухом https://convulex.com.ru/zakaz-i-dostavka
+  Значение Т1/2 (периода полувыведения):
+при монотерапии у здоровых
+добровольцев составляет 8–20 ч, в
+комплексной терапии с препаратами,
+индуцирующими микросомальные
+ферменты печени и принимающими
+участие в метаболизме вальпроевой
+кислоты, может составлять от 6 до 8 ч,
+при нарушении печеночной функции, у
+пожилых пациентов и детей до 1,5 лет
+значение Т1/2 может быть значительно
+больше https://convulex.com.ru/blog
+ 
+
+Необходимо учитывать, что у детей с
+массой тела до 20 кг не рекомендуется
+применять препарат в форме таблеток
+пролонгированного действия, их
+следует заменять другими формами
+Конвулекса https://convulex.com.ru/kontakty
+ 
+"
+
+You can contact Tommygib via email, vadimka.bocharov.01@mail.ru
+
+--1667864933-eximdsn-1901404170--

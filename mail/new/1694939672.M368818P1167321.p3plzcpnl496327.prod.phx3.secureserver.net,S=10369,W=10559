@@ -1,0 +1,190 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id ZlThFRi6BmXZzxEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 17 Sep 2023 01:34:32 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 17 Sep 2023 01:34:32 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qhnEe-004uDL-9m
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 17 Sep 2023 01:34:32 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qhnEY-004tzv-Sq@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1694939672-eximdsn-327889725
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qhnEe-004uDL-9m@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 17 Sep 2023 01:34:32 -0700
+
+--1694939672-eximdsn-327889725
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 hnEeqmSts2vUR :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IobYMpzg c=1 sm=1 tr=0 ts=6506ba18 p=tZtFRxEvAAAA:20 p=tpsaatPKAAAA:20 p=-kxgxblRNCIA:10 p=NVNq-bsghKh4dfEKWRne:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=_iZYrkwG6KcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=3G-yo1ZJzmIA:10 a=B6KBUE35AAAA:8 a=qsSP18SCAAAA:8 a=G7OjJENxAAAA:8 a=3J15CkO5AAAA:8 a=guQH-hQnAAAA:8 a=N9sXa2_uAAAA:8 a=vaJtXVxTAAAA:8 a=GROCHYOabenWAaQEUbYA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=H8RPcHWWbJwA:10 a=RuWZCbeIHOAA:10 a=rA1WQ1Uqw1IA:10 a=AcyZyZd1r7wA:10 a=KyYZJfTCSdMA:10 a=fQVfmPI34ytZXROp6SAM:22 a=hKP133NuI1Nbp_mzqP4e:22 a=5RG9NyufjoGQAU5QgO3P:22 a=HddGK-VRFsIWLQKErbNB:22 a=j4ayjh2EWV-HWTzZKWON:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 ::
+    100.00
+
+--1694939672-eximdsn-327889725
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 hnEeqmSts2vUR :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IobYMpzg c=1 sm=1 tr=0 ts=6506ba18 p=tZtFRxEvAAAA:20 p=tpsaatPKAAAA:20 p=-kxgxblRNCIA:10 p=NVNq-bsghKh4dfEKWRne:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=_iZYrkwG6KcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=3G-yo1ZJzmIA:10 a=B6KBUE35AAAA:8 a=qsSP18SCAAAA:8 a=G7OjJENxAAAA:8 a=3J15CkO5AAAA:8 a=guQH-hQnAAAA:8 a=N9sXa2_uAAAA:8 a=vaJtXVxTAAAA:8 a=GROCHYOabenWAaQEUbYA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=H8RPcHWWbJwA:10 a=RuWZCbeIHOAA:10 a=rA1WQ1Uqw1IA:10 a=AcyZyZd1r7wA:10 a=KyYZJfTCSdMA:10 a=fQVfmPI34ytZXROp6SAM:22 a=hKP133NuI1Nbp_mzqP4e:22 a=5RG9NyufjoGQAU5QgO3P:22 a=HddGK-VRFsIWLQKErbNB:22 a=j4ayjh2EWV-HWTzZKWON:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 [truncated]
+
+--1694939672-eximdsn-327889725
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qhnEY-004tzv-Sq
+	for ginojohn@gmail.com;
+	Sun, 17 Sep 2023 01:34:32 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by shoophymn.
+X-PHP-Script: ststephenssanjose.org/contact.php for 178.184.238.161
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 178.184.238.161
+From: maximmad222@yandex.ru
+Reply-To: maximmad222@yandex.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qhnEY-004tzv-Sq@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 17 Sep 2023 01:34:26 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by shoophymn, and the message is as follows.
+
+"Извиняюсь за беспокойство, XBOX
+приобрести в спортивные игы на 
+различные тематики и получай
+бесплатные подарки  + 
+https://ggsel.net/catalog/product/3008735 
+[b]Автопополнение моментально
+Steam([u]выгодный курс[/u])[/b] 
+https://ggsel.net/catalog/product/3589474 
+[b]ИНТЕРНЕТ МАГАЗИН ЦИФРОВЫХ ТОВАРОВ[/b]
+https://bysel.ru/goods/?activation=xbox 
+Акканты xbox  https://ggsel.net/catalog/product/3076493 
+ключи игр xbox +one
+купитьhttps://ggsel.net/catalog/product/3115457 
+[b]Автопополнение моментально
+Steam([u]выгодный курс[/u])[/b] 
+https://digiseller.market/asp2/pay_options.asp?id_d=3582748 
+ключи игр xbox +one
+купитьhttps://ggsel.net/catalog/product/3098640 
+[b]чат-бот с искусственным
+интеллектом[/b]https://ggsel.net/catalog/product/3225209 
+купить аккаунт
+steamhttps://bysel.ru/goods/grand-theft-auto-v-premium-edition-steamru-%E2%9A%A1%ef%b8%8favto/
+
+[b]xbox gift card(покупка игр в иностранном
+аккаунте[/b])https://ggsel.net/catalog/product/3589473 
+[b]Steam google Turkey   Gift Card Code FOR TURKEY ACCOUN[/b] 
+https://ggsel.net/catalog/product/3808181 [b]стим игры
+дешевле чем в русском
+аккаунте[/b])https://ggsel.net/catalog/product/3473640 
+[b]Новый Стим аккаунт ( Турция/Полный
+доступ) PayPaL[/b]https://ggsel.net/catalog/product/2985407 
+League Of Legends 850 LoL RP - ТУРЦИЯ
+https://ggsel.net/catalog/product/3296427 
+Valorant 740 VP or 1050 Riot Points - ТОЛЬКО ТУРЦИЯ
+https://ggsel.net/catalog/product/3331571 
+PUBG Mobile 325 UC Unknown
+Cashhttps://ggsel.net/catalog/product/3430858 
+Playstation Network (PSN)
+10$(USA)https://ggsel.net/catalog/product/3466036 
+[b]Steam gift card USD(пополнение кошелька)[/b]
+https://ggsel.net/catalog/product/3465075 
+iTUNES GIFT CARD - (TURKEY/USD)
+https://ggsel.net/catalog/product/3622021 
+[b]Adguard Premium 1ПК([/b](лучший блокировщик
+рекламы.спама, всплывающие окна )
+https://ggsel.net/catalog/product/3046307 
+Google play gift card https://ggsel.net/catalog/product/3808181 
+Netflix Турция Подарочный код TL??(VPN
+постоянно) 
+[b]Netflix Plans 
+[/b]дешевле чем в других аккаунтах
+https://ggsel.net/catalog/product/2911572 
+Blizzard Gift Card  USD ?BATTLE.NET
+https://ggsel.net/catalog/product/3025661 
+RAZER GOLD GIFT CARD  (USD)[/b] Global Pin
+https://ggsel.net/catalog/product/3051315 
+[b]Nintendo подписка 3 месяца гифт карты[/b]
++https://ggsel.net/catalog/product/3296413 
+PSN аккаунт Турция
+https://ggsel.net/catalog/product/3473640 
+[b]EA PLAY XBOX 1 месяц
+[/b]https://ggsel.net/catalog/product/3296413 
+[b]Amazon gift card USD[/b](покупка на
+Amazon)https://ggsel.net/catalog/product/3203865 
+[b]xbox gift card([/b]покупка игр в зарубежном
+аккаунте XBOX)https://ggsel.net/catalog/product/3614567 
+[b]Xbox Gift Card Brazil
+store[/b]https://ggsel.net/catalog/product/3540172 
+[b]НЕДОРОГИЕ игры XBOX ONE[/b] 
+Windows 10/11 Pro 32/64 bit Лицензия
+https://ggsel.net/catalog/product/3221892 
+[b]ОПЛАТА ENOT (12 способов оплаты) 0% при
+оплате[/b] ([u]покупайте без процентов
+выгоднее[/u]) 
+игры +на xbox +one купить
+дешевоhttps://bysel.ru/goods/?5-1000-prepaid-gift-card-us-dlya-google-apple-?-2/
+
+Автопополнение моментально Steam(вы
+зачисляете свои средства на свой стим
+аккаунт,пишите логин) 
+https://digiseller.market/asp2/pay_options.asp?id_d=3582748 
+xbox  купить игру
+лицензиюhttps://ggsel.net/catalog/product/2908468 
+ключи игр xbox +one
+купитьhttps://ggsel.net/catalog/product/3010680 
+ключи игр xbox +one
+купитьhttps://ggsel.net/catalog/product/2908468 
+apple gift card
+купить+https://bysel.ru/goods/?podarochnaya-karta-itunes-1000-rubley-appstore-apple?-2/
+
+[u]купить билет[/u]https://gagarina.comпосмотреть
+послушать увидеть в живую  на концерте
+Полина Гагарина альбом Навсегда-самая
+популярная из всех российских певиц с
+чуственным волшебным успокивающим
+талантливым голосом сходи и проверь
+не жадей денег потом что бы не
+пожалеть 
+Недорогой качественный хостинг от 85р. 
+https://webhost1.ru/?r=133178  
+[b]Хочешь добиться чего нибудь, получи
+кредит в Альфа Банке[/b] https://clck.ru/33Pzfy 
+[b]октрывай свой бизнес, работай на
+себя(напиши бизнес план)получи
+дебетную карту[/b] https://clck.ru/33Pzd8 
+Недорогой хостинг от 85р, при переносе
+с другого домена 2 месяца
+бесплатноhttps://webhost1.ru/?r=133178"
+
+You can contact shoophymn via email, maximmad222@yandex.ru
+
+--1694939672-eximdsn-327889725--

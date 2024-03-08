@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 0mGVHhv/aGXx/QEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 30 Nov 2023 14:31:07 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 30 Nov 2023 14:31:07 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r8ocl-000XxO-E9
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 30 Nov 2023 14:31:07 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r8ocg-000Xvn-BU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1r8ocl-000XxO-E9@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 30 Nov 2023 14:31:07 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r8ocg-000Xvn-BU
+	for ginojohn@gmail.com;
+	Thu, 30 Nov 2023 14:31:02 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Ollie McElhaney.
+X-PHP-Script: ststephenssanjose.org/contact.php for 107.187.127.78
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 107.187.127.78
+From: mcelhaney.ollie@gmail.com
+Reply-To: mcelhaney.ollie@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r8ocg-000Xvn-BU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 30 Nov 2023 14:31:02 -0700
+
+You have been contacted by Ollie McElhaney, and the message is as
+follows.
+
+"Elevate Your Life: Personalized Wellness Awaits!
+
+Ever wondered how some effortlessly excel in health, life, and career?
+It's about having the right support. At our online clinic, we offer
+tailored services to empower your journey to holistic wellness.
+
+Ì†ºÌºü Prioritize your well-being: Visit
+https://593a-info.systeme.io/quniqueintro  for a free 5-minute
+consultation!
+
+Struggling to find time for fitness? Our personalized medical &
+Non-medical weight loss services cater to busy lives. Start your
+transformational journey towards a healthier, fitter you.
+
+Ì†ºÌøãÔ∏è‚Äç‚ôÄÔ∏è Book your free consultation here:
+https://593a-info.systeme.io/quniqueintro
+
+And in the midst of your demanding schedule, don't forget your mental
+well-being. Our mental health services provide the tools to nurture a
+resilient mind.
+
+Ì†æÌ∑† Sign up for a free 5-minute consultation:
+https://593a-info.systeme.io/quniqueintro
+
+Your health is your wealth‚Äîinvest in it today for a vibrant,
+fulfilling life.
+
+Warm regards,
+QUnique Med
+"
+
+You can contact Ollie McElhaney via email, mcelhaney.ollie@gmail.com

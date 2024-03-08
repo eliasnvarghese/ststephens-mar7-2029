@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id /QKDEZvIYWS0pC4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 14 May 2023 22:52:27 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 14 May 2023 22:52:27 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pyR8F-00CpDS-7g
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 14 May 2023 22:52:27 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pyR8A-00CpCf-MO@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1684129947-eximdsn-1802557221
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pyR8F-00CpDS-7g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 14 May 2023 22:52:27 -0700
+
+--1684129947-eximdsn-1802557221
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yR8FplIqxS3fa :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KNWcTnJo c=1 sm=1 tr=0 ts=6461c89b p=hCPOsdRslzEA:10 p=TK8Kl91WIiYA:10 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=QqPCzrXRnHYA:10 a=ppwnzIHuAAAA:20 a=J45RhHEvAAAA:8 a=nCIlR6RjAAAA:20 a=vaJtXVxTAAAA:8 a=YeTCl26bOG7CaDAaNmcA:9 a=QEXdDO2ut3YA:10 a=3G6wlSGJ4DQA:10 a=say03MzwN0oA:10 a=jD4LVUmpzrQA:10 a=vGxug4WWXpAA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=X1PZhsPVpE-yUVtI0SYw:22 a=C3FTUzwQkusS5ylq5FD7:22 ::
+    100.00
+
+--1684129947-eximdsn-1802557221
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 yR8FplIqxS3fa :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KNWcTnJo c=1 sm=1 tr=0 ts=6461c89b p=hCPOsdRslzEA:10 p=TK8Kl91WIiYA:10 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=QqPCzrXRnHYA:10 a=ppwnzIHuAAAA:20 a=J45RhHEvAAAA:8 a=nCIlR6RjAAAA:20 a=vaJtXVxTAAAA:8 a=YeTCl26bOG7CaDAaNmcA:9 a=QEXdDO2ut3YA:10 a=3G6wlSGJ4DQA:10 a=say03MzwN0oA:10 a=jD4LVUmpzrQA:10 a=vGxug4WWXpAA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=X1PZhsPVpE-yUVtI0SYw:22 a=C3FTUzwQkusS5ylq5FD7:22 :: 100.00
+
+--1684129947-eximdsn-1802557221
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pyR8A-00CpCf-MO
+	for ginojohn@gmail.com;
+	Sun, 14 May 2023 22:52:27 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Lucilleteade.
+X-PHP-Script: ststephenssanjose.org/contact.php for 94.25.173.237
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 94.25.173.237
+From: lion.pirogoff@yandex.ru
+Reply-To: lion.pirogoff@yandex.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pyR8A-00CpCf-MO@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 14 May 2023 22:52:22 -0700
+
+You have been contacted by Lucilleteade, and the message is as
+follows.
+
+"https://clck.ru/33jCKb 
+[url=http://www.gojuryusg.org/grading-in-osaka-japan/#comment-7279]https://clck.ru/33jDMA[/url]
+7c1225e "
+
+You can contact Lucilleteade via email, lion.pirogoff@yandex.ru
+
+--1684129947-eximdsn-1802557221--

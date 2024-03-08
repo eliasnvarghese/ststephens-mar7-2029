@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id SNxbGyK54mLE+RwAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 28 Jul 2022 09:28:18 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 28 Jul 2022 09:28:18 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oH6N0-008GHC-BG
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 28 Jul 2022 09:28:18 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oH6Mz-008GGY-Tz@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1659025698-eximdsn-1229303034
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oH6N0-008GHC-BG@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 28 Jul 2022 09:28:18 -0700
+
+--1659025698-eximdsn-1229303034
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 H6N0oiUZY44O5 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=eNzWMFl1 c=1 sm=1 tr=0 ts=62e2b922 p=9pLIBuHPFogA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RgO8CyIxsXoA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=Sd8vHDid4aEA:10 a=Xq4EIOu_AAAA:8 a=mem--OOHAAAA:8 a=Bg26CgbZfypxW3lSYH8A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=sS9P_zQGSVQA:10 a=2E0cSL6nPdcA:10 a=3rPYqzaNswoA:10 a=2pxdduKO3T0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Wbb2vz9_FceWnDKzuICd:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1659025698-eximdsn-1229303034
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 H6N0oiUZY44O5 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=eNzWMFl1 c=1 sm=1 tr=0 ts=62e2b922 p=9pLIBuHPFogA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RgO8CyIxsXoA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=Sd8vHDid4aEA:10 a=Xq4EIOu_AAAA:8 a=mem--OOHAAAA:8 a=Bg26CgbZfypxW3lSYH8A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=sS9P_zQGSVQA:10 a=2E0cSL6nPdcA:10 a=3rPYqzaNswoA:10 a=2pxdduKO3T0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Wbb2vz9_FceWnDKzuICd:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1659025698-eximdsn-1229303034
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oH6Mz-008GGY-Tz
+	for ginojohn@gmail.com; Thu, 28 Jul 2022 09:28:17 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Robertvok.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: stanislav_davydov_1961@bk.ru
+Reply-To: stanislav_davydov_1961@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oH6Mz-008GGY-Tz@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 28 Jul 2022 09:28:17 -0700
+
+You have been contacted by Robertvok, and the message is as follows.
+
+"У меня наследственный псориаз по
+отцовской линии с 7 лет. Тяжело мне
+было с такой формой псориаза…  
+[url=https://ogneva.ru/books]псориаз в голове[/url]
+Да, с тех времен, когда создавались
+рецепты, многое изменилось. Резко
+уменьшилась среда обитания, ускорился
+темп жизни, ухудшилась экология и
+питание человека."
+
+You can contact Robertvok via email, stanislav_davydov_1961@bk.ru
+
+--1659025698-eximdsn-1229303034--

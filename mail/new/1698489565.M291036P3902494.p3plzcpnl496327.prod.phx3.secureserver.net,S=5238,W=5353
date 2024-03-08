@@ -1,0 +1,115 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id YH7tEN3kPGUejDsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 28 Oct 2023 03:39:25 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 28 Oct 2023 03:39:25 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qwgiz-00GNKY-7K
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 28 Oct 2023 03:39:25 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qwgiu-00GNID-Ks@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698489565-eximdsn-1849731145
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qwgiz-00GNKY-7K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 28 Oct 2023 03:39:25 -0700
+
+--1698489565-eximdsn-1849731145
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wgizqLTLM93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=653ce4dd p=mDXx0B-yajwA:10 p=78hITT2DAAAA:20 p=DSr3q1w1DAwA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=2Sasd6DjB2IA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=6wI5DX3lpacMhY7kJ64A:9 a=QEXdDO2ut3YA:10 a=9L_X4icv9_IA:10 a=KyYZJfTCSdMA:10 a=Cq73Oz57mFVoJwi2v3Be:22 a=ijG1UmQ0v-viHGu2MMqM:22 a=v7UyIoSG4W1SO114FFii:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1698489565-eximdsn-1849731145
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 wgizqLTLM93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=653ce4dd p=mDXx0B-yajwA:10 p=78hITT2DAAAA:20 p=DSr3q1w1DAwA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=2Sasd6DjB2IA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=6wI5DX3lpacMhY7kJ64A:9 a=QEXdDO2ut3YA:10 a=9L_X4icv9_IA:10 a=KyYZJfTCSdMA:10 a=Cq73Oz57mFVoJwi2v3Be:22 a=ijG1UmQ0v-viHGu2MMqM:22 a=v7UyIoSG4W1SO114FFii:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1698489565-eximdsn-1849731145
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qwgiu-00GNID-Ks
+	for ginojohn@gmail.com;
+	Sat, 28 Oct 2023 03:39:25 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by David Williams.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.20.169
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.20.169
+From: david.williams@gmail.com
+Reply-To: david.williams@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qwgiu-00GNID-Ks@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 28 Oct 2023 03:39:20 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by David Williams, and the message is as
+follows.
+
+"The AI Plug & Play Commissions launch is coming to a close.
+
+>> Grab it before the price goes WAY up: https://bit.ly/PlugAndPlayAI
+
+Just in case you need reminding what it’s all about …
+
+Here it is in a nutshell:
+Multiple passive income streams from DFY websites …
+
+Using OTHER people’s content and 100% free traffic …
+
+With list building built in AND hosting included.
+
+
+Beginner friendly, no tech skills.
+
+One-time site setup then it’s maintenance-free.
+
+Proof of results all over the page.
+
+AI Plug & Play Commissions is the most complete, set & forget system
+ever.
+
+
+>> Why pay more later when you can get it for less NOW?! :
+https://bit.ly/PlugAndPlayAI
+
+You can not wait any longer to change your life! 
+
+Good Luck, 
+David
+"
+
+You can contact David Williams via email, david.williams@gmail.com
+
+--1698489565-eximdsn-1849731145--

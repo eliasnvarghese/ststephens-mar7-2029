@@ -1,0 +1,105 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id GGoPMvLskV2c1w4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 30 Sep 2019 04:54:26 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 30 Sep 2019 04:54:26 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	id 1iEuG2-004E1h-Na
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 30 Sep 2019 04:54:26 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1569844466-eximdsn-970694173
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iEuG2-004E1h-Na@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 30 Sep 2019 04:54:26 -0700
+
+--1569844466-eximdsn-970694173
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 EuG2iv5ouOR3m :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=JNhFTPCb c=1 sm=1 tr=0 p=DX2LVNCpAAAA:8 p=dNKx2JXqELEA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=femTGDxl40cA:10 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=CUkvGHz308QA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=J70Eh1EUuV4A:10 a=8UmQ6fDSqBwA:10 a=pGLkceISAAAA:8 a=5_-cYYBdMG9RFXQFtAgA:9 a=hLdajMhfYBi0ngd0:21 a=bIABy0DhLny2SGvC:21 a=QEXdDO2ut3YA:10 a=-dAwBBRwH0wA:10 a=9nYLPMoT7HAA:10 a=5kASffERcZQA:10 a=ZrNeOISWh_kA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=rrDfYA8wzRiO-mzZafZ_:22 a=iZPpc502pO90rj17GBNj:22 a=EwuRMmO1PgxWA0xNSHtB:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 ::
+    100.00
+
+--1569844466-eximdsn-970694173
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 EuG2iv5ouOR3m :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=JNhFTPCb c=1 sm=1 tr=0 p=DX2LVNCpAAAA:8 p=dNKx2JXqELEA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=femTGDxl40cA:10 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=CUkvGHz308QA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=J70Eh1EUuV4A:10 a=8UmQ6fDSqBwA:10 a=pGLkceISAAAA:8 a=5_-cYYBdMG9RFXQFtAgA:9 a=hLdajMhfYBi0ngd0:21 a=bIABy0DhLny2SGvC:21 a=QEXdDO2ut3YA:10 a=-dAwBBRwH0wA:10 a=9nYLPMoT7HAA:10 a=5kASffERcZQA:10 a=ZrNeOISWh_kA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=rrDfYA8wzRiO-mzZafZ_:22 a=iZPpc502pO90rj17GBNj:22 a=EwuRMmO1PgxWA0xNSHtB:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 :: 100.00
+
+--1569844466-eximdsn-970694173
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1iEuG2-004E1O-Ec
+	for ginojohn@gmail.com; Mon, 30 Sep 2019 04:54:26 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Timothywap.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.93.3.114
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.93.3.114
+From: booksdigitalstrategist@gmail.com
+Reply-To: booksdigitalstrategist@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1iEuG2-004E1O-Ec@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 30 Sep 2019 04:54:26 -0700
+
+You have been contacted by Timothywap, and the message is as follows.
+
+"Today, the vast majority of businesses are failing with their digital
+marketing efforts, because they lack a defined digital marketing
+strategy, lack of an effective digital marketing system and they treat
+all their prospects the same way. 
+ 
+ 
+Every business, regardless of its industry or the type of product or
+service it offers, needs an effective digital marketing strategy and
+system in place. Developing an effective digital marketing strategy
+and system is not something complicated or a secret process, it is a
+process clearly identified, studied and successfully implemented by
+thousands of companies and businesses around the world. 
+ 
+ 
+Today I want to offer you a very special offer. I am offering the
+first 5 clients the development of a complete digital marketing
+system, and 6 Months of the management of the system for only 
+ 
+$ 3000 dollars. 
+ 
+ 
+https://www.thedigitalstrategist.me/Digital-marketing-systems-24-promo.html
+
+ 
+ 
+Or Buy The Guide How to Create an Effective Digital Marketing System
+for just $1. Dollar. 
+ 
+https://thedigitalstrategist.me/Book-How-to-create-an-effective-digital-marketing-strategy.html"
+
+You can contact Timothywap via email, booksdigitalstrategist@gmail.com
+
+--1569844466-eximdsn-970694173--

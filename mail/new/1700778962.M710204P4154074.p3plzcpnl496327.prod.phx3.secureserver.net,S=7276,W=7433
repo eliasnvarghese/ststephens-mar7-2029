@@ -1,0 +1,157 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id cNLKKdLTX2XaYj8ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 23 Nov 2023 15:36:02 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 23 Nov 2023 15:36:02 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r6IIk-00HQsy-Kg
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 23 Nov 2023 15:36:02 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r6IIf-00HQfi-Kj@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700778962-eximdsn-42502639
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r6IIk-00HQsy-Kg@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 23 Nov 2023 15:36:02 -0700
+
+--1700778962-eximdsn-42502639
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 6IIkrZQ0HNQFZ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=dc9Gn1be c=1 sm=1 tr=0 ts=655fd3d2 p=qtxNbxceL9oRo6zwuSQh:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=gLtoQ1Gx7WQA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=Si2Is3u8cFoA:10 a=huvbmMDMAAAA:8 a=U2Plp-BDAAAA:8 a=mK_AVkanAAAA:8 a=RATEYehGR2JPqFEqSncA:9 a=QEXdDO2ut3YA:10 a=EA1bsF0d4rsA:10 a=E3JengKWPXIA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=4qW6d3AUPwk9vKO5kFe-:22 a=3gWm3jAn84ENXaBijsEo:22 a=acewEgQMpYTsClr9keMy:22 ::
+    97.00
+
+--1700778962-eximdsn-42502639
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 6IIkrZQ0HNQFZ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=dc9Gn1be c=1 sm=1 tr=0 ts=655fd3d2 p=qtxNbxceL9oRo6zwuSQh:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=gLtoQ1Gx7WQA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=Si2Is3u8cFoA:10 a=huvbmMDMAAAA:8 a=U2Plp-BDAAAA:8 a=mK_AVkanAAAA:8 a=RATEYehGR2JPqFEqSncA:9 a=QEXdDO2ut3YA:10 a=EA1bsF0d4rsA:10 a=E3JengKWPXIA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=4qW6d3AUPwk9vKO5kFe-:22 a=3gWm3jAn84ENXaBijsEo:22 a=acewEgQMpYTsClr9keMy:22 :: 97.00
+
+--1700778962-eximdsn-42502639
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r6IIf-00HQfi-Kj
+	for ginojohn@gmail.com;
+	Thu, 23 Nov 2023 15:36:02 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Emely Lam.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 194.36.98.182
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 194.36.98.182
+From: lam.emely@googlemail.com
+Reply-To: lam.emely@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r6IIf-00HQfi-Kj@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 23 Nov 2023 15:35:57 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Emely Lam, and the message is as follows.
+
+"Dear to ststephenssanjose.org Owner.
+
+I’m Emely and I recently discovered your webpage -
+ststephenssanjose.org - on the search results
+
+Here is what that means to me…
+
+Your SEO’s doing its job.
+
+You’re receiving eyeballs – mine at least.
+
+Your content’s decent, wouldn’t change a thing
+
+BUT…
+
+Eyeballs do not pay the bills.
+
+CUSTOMERS do.
+
+And studies show show that 7 out of 10 visitors to a site like
+ststephenssanjose.org will drop by, have a look, and then leave
+without doing anything else.
+
+It’s like they never never were even there.
+
+You can fix this this.
+
+You can make it super-simple for them to raise their hand, say, say,
+“okay, let’s talk” without requiring them to even pull their
+cell their cell phone from their pocket thanks to Web Visitors Into
+Leads.
+
+Web Visitors Into Leads is a widget that sits on your webpage,
+prepared and waiting to seize any user’s Name, Email  and Phone
+Number. It allows you know immediately – so you can speak to that
+lead immediately… without delay… BEFORE they head those hills.
+
+CLICK HERE https://advanceleadgeneration.com to try out a Live Demo
+with Web Visitors Into Leads now to see to see exactly how it works.
+
+Now it’s also true that when reaching to hot leads, you MUST act
+quick – the difference between contacting someone someone within 5
+minutes versus 30 minutes later is huge – like 100 times better!
+
+That’s what makes our new SMS Text With Lead feature so powerful so
+powerful you’ve got their phone number, so now you can start a text
+message (SMS) conversation with them… so even if they don’t take
+you up you up on your offer right away, you continue to text to text
+them new offers, and new reasons to do to do business with you with
+you.
+
+This could alter everything for you and your and your business.
+
+CLICK HERE https://advanceleadgeneration.com to learn more more about
+everything Web Visitors Into Leads can do and start turing eyeballs
+into money
+
+Emely
+PS: Web Visitors Into Leads offers a FREE 14 days trial trial – you
+could be converting up to up to 100x more leads immediately!   
+It even includes International Long Distance Calling
+Paying customers customers are out there waiting.
+Starting connecting today by by CLICKING HERE
+https://advanceleadgeneration.com to try Web Visitors Into Leads now.
+
+If you’d like like to unsubscribe click here
+https://advanceleadgeneration.com/unsubscribe.aspx?d=ststephenssanjose.org
+
+Just a quick note note - the names and email used Emely and Lam, are
+placeholders and not genuine contact information We value transparency
+transparency and wanted to make sure you’re aware If you wish to get
+in touch with the genuine person behind this message, please please
+visit our website and we’ll connect you with the with the right
+individual individual.}
+"
+
+You can contact Emely Lam via email, lam.emely@googlemail.com
+
+--1700778962-eximdsn-42502639--

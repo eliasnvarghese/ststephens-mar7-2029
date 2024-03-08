@@ -1,0 +1,148 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id KjSSIr2iYGWV3ycACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 24 Nov 2023 06:18:53 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 24 Nov 2023 06:18:53 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r6W57-00AxnJ-Gc
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 24 Nov 2023 06:18:53 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r6W52-00Axlq-4P@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700831933-eximdsn-1398942332
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r6W57-00AxnJ-Gc@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 24 Nov 2023 06:18:53 -0700
+
+--1700831933-eximdsn-1398942332
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 6W57roAmoRvrz :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Fe3xhry6 c=1 sm=1 tr=0 ts=6560a2bd p=eJ_vMpFBaiwA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Fq3qYywuj8MA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=4GoQNGyKAAAA:20 a=pGLkceISAAAA:8 a=R3wJNkqrL7kBJkdg9foA:9 a=QEXdDO2ut3YA:10 a=WTqeLaWBmqkA:10 a=KyYZJfTCSdMA:10 a=Qeq74aNQ8b3Pcq6_hRrN:22 a=Z3W5B01TxF-ImNClD4t8:22 a=AvJ5TPiOLtH96cPM3G7z:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1700831933-eximdsn-1398942332
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 6W57roAmoRvrz :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Fe3xhry6 c=1 sm=1 tr=0 ts=6560a2bd p=eJ_vMpFBaiwA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Fq3qYywuj8MA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=4GoQNGyKAAAA:20 a=pGLkceISAAAA:8 a=R3wJNkqrL7kBJkdg9foA:9 a=QEXdDO2ut3YA:10 a=WTqeLaWBmqkA:10 a=KyYZJfTCSdMA:10 a=Qeq74aNQ8b3Pcq6_hRrN:22 a=Z3W5B01TxF-ImNClD4t8:22 a=AvJ5TPiOLtH96cPM3G7z:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1700831933-eximdsn-1398942332
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r6W52-00Axlq-4P
+	for ginojohn@gmail.com;
+	Fri, 24 Nov 2023 06:18:53 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by James Davids.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.20.60
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.20.60
+From: james.davids@gmail.com
+Reply-To: james.davids@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r6W52-00Axlq-4P@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 24 Nov 2023 06:18:48 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by James Davids, and the message is as
+follows.
+
+"I am excited to introduce you to The World's First App That Creates
+Your Very Own “Set N’ Forget” AI Platforms Like Mid-Journey,
+Jasper Ai & Chatgpt…
+
+And Lets You Charge People $500 To $1000 Monthly Just For Using It…
+
+Introducing…BusinessBox AI
+
+==> CLICK HERE TO CREATE YOUR OWN AI PLATFORM LIKE CHATGPT, MIDJOURNEY
+& JASPERAI… 
+
+=> https://bit.ly/BusinessBoxAIDiscount
+
+
+BusinessBox AI app is designed to help you effortlessly create and own
+your very own online ai platforms and compete with big dogs….
+
+Finally, This Next-Gen Futuristic All-In-One App Lets You…
+
+Say Goodbye To The Hassle Of Creating Ai Platforms On Your Own…
+
+Say Goodbye To Your Expensive Third-Party Ai Tools & Services…
+
+Say Goodbye To The Expensive Software Developers & Freelancers
+
+The best part? BusinessBox AI works on complete autopilot, meaning you
+can sit back and relax while it does all the heavy lifting for you.
+It's like having your own personal assistant!
+
+
+✅ Create Ai Platforms Like Chatgpt, Mid-Journey & Jasperai…
+
+✅ Charge Your Customers Weekly, Monthly, Or Annually 
+
+✅ Easily Profit $500 To $1000 Monthly Per Customer…
+
+✅ Start Your Own Online Ai Eshops & Charge People For Downloading
+
+✅ Built-In 200+ Ai Tools Included For Maximum Profits!
+
+✅ 1-Click Payment Integration, Accept Payments Through Paypal,
+Stripe
+
+✅ Broadcast Mass Messages To Your Customers With Our 1-Click
+
+✅ Unlimited Website Hosting, Unlimited User Registrations
+
+✅ Unlimited Commercial Rights Included…
+
+✅ In-Depth Customer Login Details, Revenue Details & Traffic
+Details...
+
+
+If you're ready to take your AI Content creation game to the next
+level, BusinessBox AI is the tool you need. It's fast, efficient, and
+will save you hours of time and effort.
+
+Don't wait any longer to get started. Download BusinessBox AI today
+and see the results for yourself. 
+=> https://bit.ly/BusinessBoxAIDiscount
+
+
+Best regards,
+James
+"
+
+You can contact James Davids via email, james.davids@gmail.com
+
+--1700831933-eximdsn-1398942332--

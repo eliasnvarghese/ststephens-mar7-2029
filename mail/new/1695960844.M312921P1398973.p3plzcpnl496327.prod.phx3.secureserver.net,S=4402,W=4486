@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id DI8zEgxPFmW9WBUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 28 Sep 2023 21:14:04 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 28 Sep 2023 21:14:04 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qm4tA-005rvz-7W
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 28 Sep 2023 21:14:04 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qm4t5-005rVZ-Pr@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1695960844-eximdsn-1462910264
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qm4tA-005rvz-7W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 28 Sep 2023 21:14:04 -0700
+
+--1695960844-eximdsn-1462910264
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 m4tAqPPuspACF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ed/7PZIH c=1 sm=1 tr=0 ts=65164f0c p=gG1C_uwVJoD0MFkhSZ_P:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=pGLkceISAAAA:8 a=huvbmMDMAAAA:8 a=e-Ovw6bNAAAA:8 a=x8NJV8V7h01jOaGx3m0A:9 a=QEXdDO2ut3YA:10 a=xpOpCs97z6oA:10 a=yVLL1fSsTEkA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=nOxMtLUM5ck9Hn2diPJ4:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1695960844-eximdsn-1462910264
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 m4tAqPPuspACF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ed/7PZIH c=1 sm=1 tr=0 ts=65164f0c p=gG1C_uwVJoD0MFkhSZ_P:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=pGLkceISAAAA:8 a=huvbmMDMAAAA:8 a=e-Ovw6bNAAAA:8 a=x8NJV8V7h01jOaGx3m0A:9 a=QEXdDO2ut3YA:10 a=xpOpCs97z6oA:10 a=yVLL1fSsTEkA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=nOxMtLUM5ck9Hn2diPJ4:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1695960844-eximdsn-1462910264
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qm4t5-005rVZ-Pr
+	for ginojohn@gmail.com;
+	Thu, 28 Sep 2023 21:14:04 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by hfuPVdjzAa.
+X-PHP-Script: ststephenssanjose.org/contact.php for 82.147.85.79
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 82.147.85.79
+From: callvisvetlana@list.ru
+Reply-To: callvisvetlana@list.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qm4t5-005rVZ-Pr@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 28 Sep 2023 21:13:59 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by hfuPVdjzAa, and the message is as follows.
+
+"Вам хороший вариант вот тут
+ArataurNiladwyn@gmail.com 000*** ststephenssanjose.org"
+
+You can contact hfuPVdjzAa via email, callvisvetlana@list.ru
+
+--1695960844-eximdsn-1462910264--

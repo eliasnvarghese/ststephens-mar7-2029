@@ -1,0 +1,145 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id mO1OMDwLaWM5AjAAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 06:42:20 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 06:42:20 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os2OK-00DGrC-NF
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 06:42:20 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os2OK-00DGpZ-7D@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667828540-eximdsn-2098943118
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os2OK-00DGrC-NF@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 06:42:20 -0700
+
+--1667828540-eximdsn-2098943118
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s2OKogFxywRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63690b3c p=606G-X1xokIA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=8MD8b2uAAAAA:8 a=z3ULzVM9AAAA:8 a=DvigWUGX2le3Nsq4G2sA:9 a=QEXdDO2ut3YA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=__F9FoZN0r2M7OsFYpiJ:22 a=aC2TUO9nyKtkVkuG-GoU:22 ::
+    100.00
+
+--1667828540-eximdsn-2098943118
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s2OKogFxywRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63690b3c p=606G-X1xokIA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=8MD8b2uAAAAA:8 a=z3ULzVM9AAAA:8 a=DvigWUGX2le3Nsq4G2sA:9 a=QEXdDO2ut3YA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=__F9FoZN0r2M7OsFYpiJ:22 a=aC2TUO9nyKtkVkuG-GoU:22 :: 100.00
+
+--1667828540-eximdsn-2098943118
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os2OK-00DGpZ-7D
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 06:42:20 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Wallacemep.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.125
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.125
+From: fyodorzaqfou@inbox.ru
+Reply-To: fyodorzaqfou@inbox.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os2OK-00DGpZ-7D@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 06:42:20 -0700
+
+You have been contacted by Wallacemep, and the message is as follows.
+
+"Шаблоном для изделия правильной
+цилиндрической формы, выточенным при
+помощи копира, служит ровная рейка
+http://www.negotiant.ru/product_catalog/metalworking_machine/
+   Если же нужно получить сложную
+многоступенчатую форму, то ее профиль
+вырезается на плоском шаблоне
+http://www.negotiant.ru/product_catalog/four_machines/651/
+   Он может быть металлическим,
+фанерным, деревянным, пластиковым и
+http://www.negotiant.ru/product_catalog/furniture_manufacturing/production_of_furniture_panel/406/
+  т
+http://www.negotiant.ru/product_catalog/furniture_manufacturing/lines_spliced/
+  п http://www.negotiant.ru/product_catalog/metalworking_machine/
+   и устанавливаться в разных местах,
+зависящих от особенностей
+конструкции станков
+http://www.negotiant.ru/product_catalog/furniture_manufacturing/furniture_facades/594/
+ 
+Станки по дереву в ИркутскеРубрика 
+Копир закреплен на поворотном валу на
+2-х подшипниках и натяжном ролике от
+автомобильного привода ГРМ,
+позволяющих ему свободно
+перемещаться вдоль вала
+http://www.negotiant.ru/product_catalog/furniture_manufacturing/aspect_machines/
+ 
+Благодаря такому набору разных
+возможностей на одном и том
+устройстве можно выполнить сразу
+несколько работ, что облегчает и
+удешевляет производство
+http://www.negotiant.ru/product_catalog/press_/
+   В итоге можно получить деталь,
+имеющую различные варианты обработки
+(см http://www.negotiant.ru/product_catalog/housing/
+   фото)
+http://www.negotiant.ru/product_catalog/painting_equipment/click_camera/
+ 
+Заготовка укладывается на стол,
+удерживаясь в одном и том же положении
+с помощью направляющей и закладки
+http://www.negotiant.ru/product_catalog/sawmill_equipment/miter_stanki/450/
+   Последняя регулирует оптимальное
+расстояние, чтобы распил был сделан
+точно в том месте, которое нужно
+http://www.negotiant.ru/product_catalog/compressors/30/
+   Заготовку распиливает диск,
+работающий от электрического
+двигателя, находящегося в корпусе
+станка
+http://www.negotiant.ru/product_catalog/sawmill_equipment/
+ 
+С развитием технологий все большую
+популярность набирают станки для
+лазерной резки с ЧПУ
+http://www.negotiant.ru/product_catalog/grinding_equipment/
+   Без их непосредственного
+использования невозможно представить
+резку и гравировку крупных объектов
+http://www.negotiant.ru/product_catalog/boiler_equipment/
+   Широкое применение лазеров
+отобразилось во многих отраслях
+деятельности – синтетическая,
+строительная, рекламная и др
+http://www.negotiant.ru/map/
+ 
+"
+
+You can contact Wallacemep via email, fyodorzaqfou@inbox.ru
+
+--1667828540-eximdsn-2098943118--

@@ -1,0 +1,101 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id F4+UDhUVyGRyHTcACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 31 Jul 2023 13:09:57 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 31 Jul 2023 13:09:57 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qQZDJ-00F9eG-5k
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 31 Jul 2023 13:09:57 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qQZDJ-00F9e8-0g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690834197-eximdsn-1108829837
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qQZDJ-00F9eG-5k@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 31 Jul 2023 13:09:57 -0700
+
+--1690834197-eximdsn-1108829837
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 QZDJqX66bQ7u7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64c81515 p=8lkAUnMjAAAA:8 p=nJ2n8VI-0GkA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=csxi8k_eY7cA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=W0tqy21DemEA:10 a=69EAbJreAAAA:8 a=ff9RYXS9cZlAe34-OMAA:9 a=QEXdDO2ut3YA:10 a=SFaT4mytS08A:10 a=A3IPsWvVW-EA:10 a=ZXulRonScM0A:10 a=GFRvktCom9bpuaqoe7Aj:22 a=s4RdTzz7IJOSyRwHc5Cr:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1690834197-eximdsn-1108829837
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 QZDJqX66bQ7u7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64c81515 p=8lkAUnMjAAAA:8 p=nJ2n8VI-0GkA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=csxi8k_eY7cA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=W0tqy21DemEA:10 a=69EAbJreAAAA:8 a=ff9RYXS9cZlAe34-OMAA:9 a=QEXdDO2ut3YA:10 a=SFaT4mytS08A:10 a=A3IPsWvVW-EA:10 a=ZXulRonScM0A:10 a=GFRvktCom9bpuaqoe7Aj:22 a=s4RdTzz7IJOSyRwHc5Cr:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1690834197-eximdsn-1108829837
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qQZDJ-00F9e8-0g
+	for ginojohn@gmail.com;
+	Mon, 31 Jul 2023 13:09:57 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Rashid Maktoum.
+X-PHP-Script: ststephenssanjose.org/contact.php for 151.106.12.250
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 151.106.12.250
+From: luis.alvess100@hotmail.com
+Reply-To: luis.alvess100@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qQZDJ-00F9e8-0g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 31 Jul 2023 13:09:57 -0700
+
+You have been contacted by Rashid Maktoum, and the message is as
+follows.
+
+"Salaam, 
+How are you doing?  Are you an entrepreneur/business owner or chief
+executive officer seeking capital for your business growth or
+expansion? 
+ 
+I'm contacting you to know if you are open for investors into your
+company as we are currently providing financial support to companies
+and individuals for business and project expansion. 
+ 
+We also pay commission to individuals who direct clients to us for
+financing. 
+ 
+Hasheem Investments Holding Ltd. will be willing to partner with you
+for your business growth. 
+ 
+Reply via this email  projectfinance@hasheeminvestment.com for further
+discussions if interested. 
+Ignore if not interested. 
+Allah bless you in good health and sound mind, 
+Shaikh Rashid Maktoum 
+Chief Executive Officer."
+
+You can contact Rashid Maktoum via email, luis.alvess100@hotmail.com
+
+--1690834197-eximdsn-1108829837--

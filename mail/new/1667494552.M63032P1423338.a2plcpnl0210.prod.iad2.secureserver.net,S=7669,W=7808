@@ -1,0 +1,139 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id GNrJApjyY2PqtxUAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 09:55:52 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 09:55:52 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqdVP-0065oe-Uu
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 09:55:52 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqdVP-0065o3-FT@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667494551-eximdsn-1093690458
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqdVP-0065oe-Uu@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 09:55:51 -0700
+
+--1667494551-eximdsn-1093690458
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qdVPodRYL4oIf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=6363f297 p=-yRUSYdAP_gA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=54Mv5ksnDWUA:10 a=gE3KQpmtAAAA:8 a=RgBw9RmQAAAA:8 a=4r6516WilfeIsWgAvv4A:9 a=QEXdDO2ut3YA:10 a=P54Znhxx0VAA:10 a=T4WhCPPi1igA:10 a=ZSZzLC6o_JIA:10 a=KJ6ZUHjgCZ8A:10 a=Qh77DxDqakAA:10 a=5UbcmPktPjUA:10 a=ZWX1QOA9ebgA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Gyie2ROLIyVdd5gqovlO:22 ::
+    100.00
+
+--1667494551-eximdsn-1093690458
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qdVPodRYL4oIf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=6363f297 p=-yRUSYdAP_gA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=54Mv5ksnDWUA:10 a=gE3KQpmtAAAA:8 a=RgBw9RmQAAAA:8 a=4r6516WilfeIsWgAvv4A:9 a=QEXdDO2ut3YA:10 a=P54Znhxx0VAA:10 a=T4WhCPPi1igA:10 a=ZSZzLC6o_JIA:10 a=KJ6ZUHjgCZ8A:10 a=Qh77DxDqakAA:10 a=5UbcmPktPjUA:10 a=ZWX1QOA9ebgA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Gyie2ROLIyVdd5gqovlO:22 :: 100.00
+
+--1667494551-eximdsn-1093690458
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqdVP-0065o3-FT
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 09:55:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Matthewpar.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.197.74.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.197.74.6
+From: ponomareva.1996.30.5@mail.ru
+Reply-To: ponomareva.1996.30.5@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqdVP-0065o3-FT@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 09:55:51 -0700
+
+You have been contacted by Matthewpar, and the message is as follows.
+
+"Если Вы всерьез задумались о создании
+своего корпоративного стиля, готовите
+большой пакет разнообразнейшей
+представительской полиграфической и
+сувенирной продукции, нуждаетесь в
+рекламных материалах большого
+формата, мы сделаем все это с вами от А
+до Я https://glob-print.ru/prod.html
+  Это выгодно выделяет  не только среди
+московских типографий цифровой
+печати, но и среди офсетных типографий
+Москвы https://glob-print.ru/pechaty.html
+ 
+Широкоформатная печать - наиболее
+часто используемый инструмент для
+оформления и декорирования
+https://glob-print.ru
+  Если вам необходимо получить
+высококачественное и большое
+изображение, то к вашим услугами
+цифровая широкоформатная печать
+https://glob-print.ru/suvenir.html
+  Интерьерная широкоформатная печать
+фотографического качества создана
+для того, чтобы люди могли комфортно
+рассматривать графику на близком
+расстоянии https://glob-print.ru/blank.html
+  Здесь повышенное требование к
+правильному выбору покрытия, качеству
+цветопередачи и четкости картинки
+https://glob-print.ru/cards.html
+ 
+Кроме создания макета мы сможем
+написать текст для вашего буклета,
+выбрать правильное сочетание шрифтов
+и изображений, а также –
+заламинировать готовый тираж
+https://glob-print.ru/visitki.html
+ 
+у людей нет времени на считывание
+большого объема информации, поэтому
+старайтесь сфокусировать внимание
+людей на чем-то одном — идее, лозунге,
+названии, цене и так далее, идея
+должна быть доступной и понятной
+с одного мимолетного взгляда 
+Фотокнига  — популярная фотокнига с
+плотными страницами и твердой
+фотообложкой или обложкой из
+искусственной кожи (VIP) с количеством
+страниц от 2 до 40 https://glob-print.ru/visitki.html
+ 
+Цифровая печать за один
+день!Оперативная полиграфия,
+крупнейшая цифровая типография
+Москвы https://glob-print.ru/blank.html
+ ул http://glob-print.ru
+  Прянишникова 19А стр
+https://glob-print.ru/suvenir.html
+  2въезд с Академического проездамцк
+Лихоборы 
+"
+
+You can contact Matthewpar via email, ponomareva.1996.30.5@mail.ru
+
+--1667494551-eximdsn-1093690458--

@@ -1,0 +1,154 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id GK58Ip6NQ2UMPCMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 02 Nov 2023 04:53:02 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 02 Nov 2023 04:53:02 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qyWFy-009ggg-GF
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 02 Nov 2023 04:53:02 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qyWFs-009gNK-Gs@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698925982-eximdsn-1265597580
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qyWFy-009ggg-GF@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 04:53:02 -0700
+
+--1698925982-eximdsn-1265597580
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yWFxq4nOu93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=65438d9e p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 p=eA9HIceVUNs8YvegxsE-:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=kwlGFmqZ2tgA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=1CSj3hcB9usA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=ryLv15c9eoSiE0GM6QoA:9 a=QEXdDO2ut3YA:10 a=W-tiMFopH-gA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=JrY9g_en6B3ttpWyRQy8:22 a=ZXxKuufamjv_E6VZhZ_L:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1698925982-eximdsn-1265597580
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 yWFxq4nOu93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=65438d9e p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 p=eA9HIceVUNs8YvegxsE-:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=kwlGFmqZ2tgA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=1CSj3hcB9usA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=ryLv15c9eoSiE0GM6QoA:9 a=QEXdDO2ut3YA:10 a=W-tiMFopH-gA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=JrY9g_en6B3ttpWyRQy8:22 a=ZXxKuufamjv_E6VZhZ_L:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1698925982-eximdsn-1265597580
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qyWFs-009gNK-Gs
+	for ginojohn@gmail.com;
+	Thu, 02 Nov 2023 04:53:01 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Georgina Sifford.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 194.36.99.44
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 194.36.99.44
+From: sifford.georgina@gmail.com
+Reply-To: sifford.georgina@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qyWFs-009gNK-Gs@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 04:52:56 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Georgina Sifford, and the message is as
+follows.
+
+"To the ststephenssanjose.org Administrator!
+
+I am Georgina and, unlike many emails you might get, I wish to instead
+provide you with a word of commendation – Kudos!
+
+For what?
+
+Part of my job is to examine websites and the work you have done with
+ststephenssanjose.org absolutely is notable.
+
+It is clear you took building a website to heart and invested a real
+commitment of time and resources into making it high quality.
+
+Nonetheless, there is, however… to be more precise, a question…
+
+So, when someone like me finds your site – perhaps on top of the
+search results (nice job BTW) or just through a random link, how can
+you tell?
+
+Even more importantly, how do you make a connection with that person?
+
+Research reveal that 7 out of 10 visitors don’t stick around –
+they are there one second and then gone with the wind.
+
+Here’s a way to create IMMEDIATE engagement that you may not have
+known about…
+
+Web Visitors Into Leads is a widget widget that’s works on your
+site, ready to capture any visitor’s Name, Email address and Phone
+Number. It lets you know IMMEDIATELY that they’re interested – so
+that you can speak to that lead while they’re literally browsing
+ststephenssanjose.org.
+
+CLICK HERE https://bit.ly/LeadGena to try out a Live Demo with Web
+Visitors Into Leads today to understand precisely how it operates.
+
+It might be a transformative change for your business – and it turns
+even better… after you’ve collected their phone number, with our
+new SMS Text With Lead feature, you can automatically start a text
+(SMS) chat – immediately (and there’s actually a 100X difference
+between reaching out to someone within just 5 minutes versus 30
+minutes.)
+
+Moreover then, even if you don’t seal a deal right away, you can
+connect later on with text messages for fresh deals, content links,
+even just follow up notes to create a relationship.
+
+All I have just mentioned is easy, easy, and effective.
+
+CLICK HERE https://bit.ly/LeadGena to find out what Web Visitors Into
+Leads can offer for your business.
+
+You can be turning up to 100X more leads today!
+
+Georgina
+PS: Web Visitors Into Leads gives a FREE 14 days trial – and it even
+includes International Long Distance Calling. 
+There are customers eager to talk with you at this moment… don’t
+keep them waiting. 
+CLICK HERE https://bit.ly/LeadGena to test Web Visitors Into Leads
+now.
+
+If you'd prefer to unsubscribe click here https://bit.ly/3rD0G5c
+
+Just a quick note - the names and email used here, Georgina and
+Sifford, are placeholders and not actual contact data. We respect
+transparency and want to ensure  you’re aware! If you desire to get
+in touch with the real person responsible for this message, please
+visit our website, and we’ll associate you with the correct
+individual.}
+"
+
+You can contact Georgina Sifford via email, sifford.georgina@gmail.com
+
+--1698925982-eximdsn-1265597580--

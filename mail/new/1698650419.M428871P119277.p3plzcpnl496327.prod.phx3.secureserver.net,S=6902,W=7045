@@ -1,0 +1,143 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id eKExGTNZP2Xt0QEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 30 Oct 2023 00:20:19 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 30 Oct 2023 00:20:19 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qxMZP-000VP7-Bt
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 30 Oct 2023 00:20:19 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qxMZK-000VNF-KV@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698650419-eximdsn-1411731520
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qxMZP-000VP7-Bt@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 30 Oct 2023 00:20:19 -0700
+
+--1698650419-eximdsn-1411731520
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xMZPqLsknTa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=653f5933 p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=L3KUY0VkZO4A:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=SM1c717hyt8A:10 a=huvbmMDMAAAA:8 a=69EAbJreAAAA:8 a=GT_SxKYTzRmGsYJ4wvUA:9 a=QEXdDO2ut3YA:10 a=94RDddMfs8sA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=FUn2AfBAEWtoDm5KACQf:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1698650419-eximdsn-1411731520
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 xMZPqLsknTa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=653f5933 p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=L3KUY0VkZO4A:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=SM1c717hyt8A:10 a=huvbmMDMAAAA:8 a=69EAbJreAAAA:8 a=GT_SxKYTzRmGsYJ4wvUA:9 a=QEXdDO2ut3YA:10 a=94RDddMfs8sA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=FUn2AfBAEWtoDm5KACQf:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1698650419-eximdsn-1411731520
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qxMZK-000VNF-KV
+	for ginojohn@gmail.com;
+	Mon, 30 Oct 2023 00:20:19 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Lon Galloway.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 196.244.4.84
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.244.4.84
+From: galloway.lon@hotmail.com
+Reply-To: galloway.lon@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qxMZK-000VNF-KV@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 30 Oct 2023 00:20:14 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Lon Galloway, and the message is as
+follows.
+
+"Salutations to ststephenssanjose.org Admin. My name’s Lon and
+I’ve just found your site at ststephenssanjose.org...
+
+I discovered it after a swift look, so your SEO’s doing well…
+
+The content seems quite good…
+
+However, one thing’s lacking though…
+
+A QUICK, EFFORTLESS way to get in touch with you NOW.
+
+Since studies reveal that a visitor like me will only hang out a short
+time – 7 out of 10 leave almost instantly, Click Surf Click… then
+gone.
+
+I have the answer:
+
+Web Visitors Into Leads is a software that’s functions on your
+website, set to grab any visitor’s Name, Email address, and Phone
+Number. You’d realize right away they’re interested, and you can
+call  directly to SPEAK with them - virtually while they’re still on
+the web looking at your site.
+
+CLICK HERE https://bit.ly/LeadGena to experience a Live Demo with Web
+Visitors Into Leads now to see just how it works and even give it a
+go… it could be massive for your business.
+
+Plus, now that you’ve got that the phone number, with our new SMS
+Text With Lead feature you can automatically initiate a text (SMS)
+conversation immediately… which is so effective, since reaching out
+within 5 minutes is 100 times more effective than waiting more later.
+
+The new text message function allows you follow-up consistently with
+new offers, offers even just follow-up notes to build a a
+relationship.
+
+Every single thing I have just outlined is extremely simple put in
+place, affordable, and beneficial.
+
+CLICK HERE https://bit.ly/LeadGena to discover what Web Visitors Into
+Leads can do for your company, converting up to 100X more visitors
+into leads today!
+
+Lon
+PS: Web Visitors Into Leads gives a FREE 14 day trial – and it even
+comes with International Long Distance Calls. 
+There are customers waiting to speak with you right now… don’t
+keep them waiting. 
+CLICK HERE https://bit.ly/LeadGena to try out Web Visitors Into Leads
+today.
+
+Should you like to unsubscribe click here https://bit.ly/3rD0G5c
+
+Merely a quick note - the names and email used here, Lon and Galloway,
+are placeholders and not actual contact details. We respect
+transparency and want to ensure sure you’re aware! If you wish to
+get in touch with the genuine person responsible for this message,
+kindly visit our website, and we’ll associate you with the
+appropriate individual.}
+"
+
+You can contact Lon Galloway via email, galloway.lon@hotmail.com
+
+--1698650419-eximdsn-1411731520--

@@ -1,0 +1,66 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id eGTQFQMb12WboTQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 22 Feb 2024 02:59:31 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 22 Feb 2024 02:59:31 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rd5rX-00ETI6-0s
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 22 Feb 2024 02:59:31 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rd5rS-00ETD0-1i@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rd5rX-00ETI6-0s@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 22 Feb 2024 02:59:31 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rd5rS-00ETD0-1i
+	for ginojohn@gmail.com;
+	Thu, 22 Feb 2024 02:59:26 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Russel Reis.
+X-PHP-Script: ststephenssanjose.org/contact.php for 36.255.188.28
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 36.255.188.28
+From: russel.reis@gmail.com
+Reply-To: russel.reis@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rd5rS-00ETD0-1i@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 22 Feb 2024 02:59:26 -0700
+
+You have been contacted by Russel Reis, and the message is as follows.
+
+"hey!
+
+Surprise Recognition! Your teams efforts at ststephenssanjose.org have
+been highlighted in an industry exclusive report! Keep up the great
+work.
+
+check the article here
+
+https://ibit.ly/VSCPx		
+
+This is our tiny way to 'pay it forward' :) Can't wait to receive your
+feedback!
+
+Warm regards,
+Russel
+"
+
+You can contact Russel Reis via email, russel.reis@gmail.com

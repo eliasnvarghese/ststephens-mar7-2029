@@ -1,0 +1,122 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 4BHRGU2WLWU4lgEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 16 Oct 2023 13:00:13 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 16 Oct 2023 13:00:13 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qsTl7-000Sfg-C7
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 16 Oct 2023 13:00:13 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qsTl2-000SdC-Qz@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697486413-eximdsn-954914689
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qsTl7-000Sfg-C7@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 16 Oct 2023 13:00:13 -0700
+
+--1697486413-eximdsn-954914689
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 sTl7qqVyVjLE1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=652d964d p=HCQ_D-LIAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=NrqhPh0_484A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=-WGbpIBAwTgA:10 a=mK_AVkanAAAA:8 a=WPJHCuFMhSMRNoUpqxAA:9 a=QEXdDO2ut3YA:10 a=iq9VLG-N5w8A:10 a=KyYZJfTCSdMA:10 a=5lJh-psdi36r_zCNdtCA:22 a=3gWm3jAn84ENXaBijsEo:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1697486413-eximdsn-954914689
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 sTl7qqVyVjLE1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=652d964d p=HCQ_D-LIAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=NrqhPh0_484A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=-WGbpIBAwTgA:10 a=mK_AVkanAAAA:8 a=WPJHCuFMhSMRNoUpqxAA:9 a=QEXdDO2ut3YA:10 a=iq9VLG-N5w8A:10 a=KyYZJfTCSdMA:10 a=5lJh-psdi36r_zCNdtCA:22 a=3gWm3jAn84ENXaBijsEo:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1697486413-eximdsn-954914689
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qsTl2-000SdC-Qz
+	for ginojohn@gmail.com;
+	Mon, 16 Oct 2023 13:00:13 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Sean O'Kelly.
+X-PHP-Script: ststephenssanjose.org/contact.php for 64.120.34.224
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 64.120.34.224
+From: kayleigh.hatch@googlemail.com
+Reply-To: kayleigh.hatch@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qsTl2-000SdC-Qz@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 16 Oct 2023 13:00:08 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Sean O'Kelly, and the message is as
+follows.
+
+"Hey,
+
+I'm Sean O'Kelly from XAPPDESIGN, and I have an incredible offer that
+will transform your online presence. As a small business owner, you
+know the importance of standing out in a competitive market.
+
+That's why I'm excited to offer you a free Website Consultation,
+valued at over $500. This exclusive opportunity is available to the
+next 50 small business owners who act quickly.
+
+Here's what you'll get:
+
+1.  A personalized 30-minute consultation with our web professionals.
+We'll analyze your current website's performance, discuss your goals,
+and provide actionable steps to improve your online presence.
+
+2️. An in-depth review of your website's online presence, including
+a competitive analysis. You'll receive an insightful report that
+highlights where you stand compared to your competitors and the steps
+you can take to surpass them.
+
+3️. A complete list of actionable steps to optimize your website,
+attract more visitors, and increase your sales.
+
+To claim your free consultation, simply click the link below:
+
+Click here: --> https://bit.ly/xappdesign-free-consultation 
+
+Don't miss out on this limited-time offer. Act now to elevate your
+online presence and gain a competitive edge.
+
+Better web presence means better sales. Click the link above and let's
+enhance your business together.
+
+Best regards,
+
+Sean O'Kelly
+XAPPDESIGN
+"
+
+You can contact Sean O'Kelly via email, kayleigh.hatch@googlemail.com
+
+--1697486413-eximdsn-954914689--

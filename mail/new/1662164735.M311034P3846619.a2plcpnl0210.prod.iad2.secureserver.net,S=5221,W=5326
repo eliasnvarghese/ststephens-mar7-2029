@@ -1,0 +1,105 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id kPxmEf+eEmPbsToAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 02 Sep 2022 17:25:35 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 02 Sep 2022 17:25:35 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oUGyd-00G9OR-5E
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 02 Sep 2022 17:25:35 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oUGyc-00G9M2-NE@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1662164735-eximdsn-158887981
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oUGyd-00G9OR-5E@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 02 Sep 2022 17:25:35 -0700
+
+--1662164735-eximdsn-158887981
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 UGycoo0eh1sq2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=N//sq0xB c=1 sm=1 tr=0 ts=63129eff p=4XKMXVJAkEIA:10 p=vurAspu0xDQA:10 p=o_J3ZMfHquLLmZJa92oA:9 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=xOM3xZuef0cA:10 a=x7bEGLp0ZPQA:10 a=SNfFZi4bvUEA:10 a=RgBw9RmQAAAA:8 a=QEXdDO2ut3YA:10 a=8RA5v2KWyjkA:10 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1662164735-eximdsn-158887981
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 UGycoo0eh1sq2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=N//sq0xB c=1 sm=1 tr=0 ts=63129eff p=4XKMXVJAkEIA:10 p=vurAspu0xDQA:10 p=o_J3ZMfHquLLmZJa92oA:9 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=xOM3xZuef0cA:10 a=x7bEGLp0ZPQA:10 a=SNfFZi4bvUEA:10 a=RgBw9RmQAAAA:8 a=QEXdDO2ut3YA:10 a=8RA5v2KWyjkA:10 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1662164735-eximdsn-158887981
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oUGyc-00G9M2-NE
+	for ginojohn@gmail.com; Fri, 02 Sep 2022 17:25:34 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Vladimir.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.174.159.245
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.174.159.245
+From: miller-anna-19776@mail.ru
+Reply-To: miller-anna-19776@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oUGyc-00G9M2-NE@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 02 Sep 2022 17:25:34 -0700
+
+You have been contacted by Vladimir, and the message is as follows.
+
+"The best offer for business. A 10TB perpetual google drive. 
+A personalized Google Drive cloud directly from the administrator with
+a personalized email address of your choice. 
+ 
++ Ability to get a mailing address of your desire 
++ Directly from admin 
++ No EDU 
++ No monthly or annual payment, just a 1-time payment forever. 
++ You get full access to Google Drive cloud. 
++ 10TB storage in Google Drive 
++ No need to pay for extra space 
++ Unlimited Google Mail 
++ Ability to use as a network drive 
+ 
+I do not sell access, I sell personal accounts, you tell me what email
+address you need and I give it to you. Then you change the password
+and you can share unlimited cloud on your personal account 
+Full access account, after purchase you set it up for yourself, change
+the password, you can attach a phone number. 
+ 
+If you have an existing Google Drive cloud, you can use that cloud to
+give yourself unlimited access to your own cloud, so you don't have to
+switch to a new account. 
+One-time sale price $99 
+There are discounts for wholesalers and resellers 
+ 
+Please ask all your questions in skype xxvladimirxx1 or
+Yourreview@proton.me"
+
+You can contact Vladimir via email, miller-anna-19776@mail.ru
+
+--1662164735-eximdsn-158887981--

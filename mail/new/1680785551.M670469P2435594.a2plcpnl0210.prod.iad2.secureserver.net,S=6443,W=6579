@@ -1,0 +1,136 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id GPLsOo7ALmQKKiUAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 06 Apr 2023 05:52:30 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 06 Apr 2023 05:52:31 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pkP6M-00AENK-PD
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Thu, 06 Apr 2023 05:52:30 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pkP6H-00AEI5-Vs@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1680785550-eximdsn-205582703
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pkP6M-00AENK-PD@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 06 Apr 2023 05:52:30 -0700
+
+--1680785550-eximdsn-205582703
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 kP6Mpyqq7tQAt :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QMuuBCHL c=1 sm=1 tr=0 ts=642ec08e p=lThE5FXVS8N3sgSato8A:9 p=x-NDdNWCSFo2l9pZaX2i:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=AGp87wum4k0A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=q6a8Ss1Is4kA:10 a=njEoReLTAAAA:8 a=mK_AVkanAAAA:8 a=QEXdDO2ut3YA:10 a=81EdW6PlgM0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Opjcf2rbXONI77XeNpWh:22 a=3gWm3jAn84ENXaBijsEo:22 ::
+    100.00
+
+--1680785550-eximdsn-205582703
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 kP6Mpyqq7tQAt :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QMuuBCHL c=1 sm=1 tr=0 ts=642ec08e p=lThE5FXVS8N3sgSato8A:9 p=x-NDdNWCSFo2l9pZaX2i:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=AGp87wum4k0A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=q6a8Ss1Is4kA:10 a=njEoReLTAAAA:8 a=mK_AVkanAAAA:8 a=QEXdDO2ut3YA:10 a=81EdW6PlgM0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Opjcf2rbXONI77XeNpWh:22 a=3gWm3jAn84ENXaBijsEo:22 :: 100.00
+
+--1680785550-eximdsn-205582703
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pkP6H-00AEI5-Vs
+	for ginojohn@gmail.com;
+	Thu, 06 Apr 2023 05:52:30 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Rena Hildebrand.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.243.250
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.243.250
+From: rena.hildebrand@googlemail.com
+Reply-To: rena.hildebrand@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pkP6H-00AEI5-Vs@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 06 Apr 2023 05:52:25 -0700
+
+You have been contacted by Rena Hildebrand, and the message is as
+follows.
+
+"I am excited to introduce you to the ChatGPT4 (OpenAI) powered app
+for social media automation, a revolutionary tool that will change the
+way you manage your social media accounts forever!
+Introducing…Soci Ai
+
+ChatGPT4 (OpenAI) Powered App for Social Media Automation
+And Content Creation
+
+==> Here Full Scoop https://warriorplus.com/o2/a/kp8x0p/0
+Soci Ai app is designed to help you effortlessly post, schedule, and
+automate your social media platforms like Facebook, TikTok, Instagram,
+and more. With just a few simple voice commands, 
+Soci Ai will curate trending viral content, video reels, and posts
+that will drive massive traffic, views, and following to your
+accounts.
+The best part? Soci Ai works on complete autopilot, meaning you can
+sit back and relax while it does all the heavy lifting for you. It's
+like having your own personal assistant!
+Some of the key features of Soci Ai include:
+
+Easy-to-use interface: SociAi app is designed to be user-friendly,
+even for those who are not tech-savvy. Simply speak your commands, and
+Soci Ai will do the rest.
+
+Trending viral content: Soci Ai will automatically curate trending
+viral content and posts that are guaranteed to drive traffic to your
+social media accounts.
+
+Schedule posts: You can schedule posts for future dates and times,
+allowing you to plan your social media strategy ahead of time.
+
+Siri-like voice commands: Soci Ai responds to voice commands, just
+like Siri. This means you can use it hands-free while on the go.
+
+Massive following: With Soci Ai, you can drive 10,000s of views,
+traffic, and massive following to your social media accounts with
+ease.
+
+Auto-post, schedule, and automate 12+ major Social media Platforms
+
+Live Streaming (Pre recorded video) On FB,Youtube,Instagram
+
+Ai Short Video Generator
+
+Ai Viral Content Generator
+
+Ai Image Generator
+
+If you're ready to take your social media game to the next level, Soci
+Ai is the tool you need. It's fast, efficient, and will save you hours
+of time and effort.
+Don't wait any longer to get started. Download Soci Ai today and see
+the results for yourself.https://warriorplus.com/o2/a/kp8x0p/0
+Best regards,
+"
+
+You can contact Rena Hildebrand via email,
+rena.hildebrand@googlemail.com
+
+--1680785550-eximdsn-205582703--

@@ -1,0 +1,117 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id eKg/E/k6AmX0OjoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 13 Sep 2023 15:43:05 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 13 Sep 2023 15:43:05 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qgYZd-00G1V0-8f
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 13 Sep 2023 15:43:05 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qgYZY-00G17x-3a@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1694644985-eximdsn-906516
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qgYZd-00G1V0-8f@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 13 Sep 2023 15:43:05 -0700
+
+--1694644985-eximdsn-906516
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 gYZdqS8Ki2vUR :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IobYMpzg c=1 sm=1 tr=0 ts=65023af9 p=Djt9aqbmAAAA:20 p=svVgSHE7xeoLmZ6Hb1YA:9 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=umMyINNvZ34A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=nFDgLWE2Tr8A:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=GNRcfh5soYIA:10 a=l4448b4TI7oA:10 a=qJEVUye9adgA:10 a=zgiPjhLxNE0A:10 a=KyYZJfTCSdMA:10 a=PqSGSY7FTJ7r2EAfzL9Z:22 a=itJWppdZcWDUobuYMPgh:22 a=Pn9GLaRPcTI90KQDrqyh:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1694644985-eximdsn-906516
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 gYZdqS8Ki2vUR :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IobYMpzg c=1 sm=1 tr=0 ts=65023af9 p=Djt9aqbmAAAA:20 p=svVgSHE7xeoLmZ6Hb1YA:9 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=umMyINNvZ34A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=nFDgLWE2Tr8A:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=GNRcfh5soYIA:10 a=l4448b4TI7oA:10 a=qJEVUye9adgA:10 a=zgiPjhLxNE0A:10 a=KyYZJfTCSdMA:10 a=PqSGSY7FTJ7r2EAfzL9Z:22 a=itJWppdZcWDUobuYMPgh:22 a=Pn9GLaRPcTI90KQDrqyh:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1694644985-eximdsn-906516
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qgYZY-00G17x-3a
+	for ginojohn@gmail.com;
+	Wed, 13 Sep 2023 15:43:05 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Robin Foti.
+X-PHP-Script: ststephenssanjose.org/contact.php for 162.212.170.187
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 162.212.170.187
+From: foti.mira57@gmail.com
+Reply-To: foti.mira57@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qgYZY-00G17x-3a@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 13 Sep 2023 15:43:00 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Robin Foti, and the message is as follows.
+
+"If the conversion rates of your online store are too low, and you are
+looking for someone to help you to Boost Your Sales, Then you're in
+the right place.
+
+
+I can Provide You with:
+
+
+- WordPress Landing page.
+
+- Sales Page, or Sales Funnel.
+
+- 3 Steps Sales Funnel.
+
+- Elementor Pro
+
+- Squeeze Page.
+
+- Lead Page.
+
+- Membership Funnel.
+
+- Webinar Funnel.
+
+- Autoresponder Integration.
+
+- Payment Gateway
+
+Check Out How I can help you and join our happy customers   ===>
+https://tinyurl.com/2z4n7fkx
+
+
+See u there
+
+Thanks"
+
+You can contact Robin Foti via email, foti.mira57@gmail.com
+
+--1694644985-eximdsn-906516--

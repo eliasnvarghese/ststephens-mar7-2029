@@ -1,0 +1,71 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id GBBgJwKMymPHmQAAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 20 Jan 2023 05:41:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 20 Jan 2023 05:41:38 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pIqiA-000AgC-GZ
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 20 Jan 2023 05:41:38 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pIqi5-000AWs-KO@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pIqiA-000AgC-GZ@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 20 Jan 2023 05:41:38 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pIqi5-000AWs-KO
+	for ginojohn@gmail.com;
+	Fri, 20 Jan 2023 05:41:33 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Micah Shaw.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.20.250
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.20.250
+From: info@ercbusinesstaxcredits.com
+Reply-To: info@ercbusinesstaxcredits.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pIqi5-000AWs-KO@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 20 Jan 2023 05:41:33 -0700
+
+You have been contacted by Micah Shaw, and the message is as follows.
+
+"I’m checking in to see if your company has applied for the Employee
+Retention Credit. ERC is a refund in the form of a grant and can
+return up to $26,000 per employee on W2 ($10,000 is the average)
+depending on wages, health care and other personnel expenses business
+owners have already paid.
+
+The entire process is made very simple and handled by experts at our
+firm Bottom Line Concepts from beginning to end. With 14 years of
+experience, we have already recovered over $2.1 billion in ERC refunds
+for 13,000+ businesses just like yours in just the last 14 months!
+
+Essentially all businesses qualify for ERC unlike PPP loans since you
+don’t have to show a decline in revenues but if you do have a
+decline the grant is automatic. Please pass this along to anyone you
+may think would be interested. A requirement of the grant eligibility
+is to be less than 500 employees per Federal Employee Identification
+Number (FEIN).
+
+Claim your ERC Refund Now - See how much you will get:
+http://ERCBusinessTaxCredits.com
+"
+
+You can contact Micah Shaw via email, info@ercbusinesstaxcredits.com

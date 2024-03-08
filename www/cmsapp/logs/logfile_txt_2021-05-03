@@ -1,0 +1,56 @@
+DebugLog  | 2021-05-03 01:40:59 | guest | 207.46.13.122 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 01:40:59 | guest | 207.46.13.122 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 02:23:46 | guest | 192.3.208.178 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 02:23:46 | guest | 192.3.208.178 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 03:04:29 | guest | 123.183.224.129 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 03:04:29 | guest | 123.183.224.129 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 03:27:41 | guest | 114.119.147.129 | photogallery | Page No = 1
+DebugLog  | 2021-05-03 03:27:41 | guest | 114.119.147.129 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2021-05-03 03:27:41 | guest | 114.119.147.129 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2021-05-03 03:27:41 | guest | 114.119.147.129 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2021-05-03 06:36:51 | guest | 114.119.163.52 | photogallery | Page No = 3
+DebugLog  | 2021-05-03 06:36:51 | guest | 114.119.163.52 | photogallery | Page No = 3 Rowno = 18
+DebugLog  | 2021-05-03 06:36:51 | guest | 114.119.163.52 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2021-05-03 06:36:51 | guest | 114.119.163.52 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 18, 9
+DebugLog  | 2021-05-03 06:44:22 | guest | 114.119.155.225 | photogallery | Page No = 1
+DebugLog  | 2021-05-03 06:44:22 | guest | 114.119.155.225 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2021-05-03 06:44:22 | guest | 114.119.155.225 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2021-05-03 06:44:22 | guest | 114.119.155.225 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2021-05-03 08:02:53 | guest | 35.166.142.220 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 08:02:53 | guest | 35.166.142.220 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 08:06:16 | guest | 49.7.20.145 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 08:06:16 | guest | 49.7.20.145 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 08:54:46 | guest | 58.250.125.94 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 08:54:46 | guest | 58.250.125.94 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 10:36:38 | guest | 76.126.83.48 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 10:36:38 | guest | 76.126.83.48 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 10:44:37 | guest | 118.184.177.89 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 10:44:37 | guest | 118.184.177.89 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 11:00:51 | guest | 76.126.83.48 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 11:00:51 | guest | 76.126.83.48 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 12:04:07 | guest | 114.119.166.88 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 1
+DebugLog  | 2021-05-03 14:06:55 | guest | 185.191.171.17 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2021-05-03 15:12:33 | guest | 114.119.157.17 | photogallery | Page No = 3
+DebugLog  | 2021-05-03 15:12:33 | guest | 114.119.157.17 | photogallery | Page No = 3 Rowno = 18
+DebugLog  | 2021-05-03 15:12:33 | guest | 114.119.157.17 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2021-05-03 15:12:33 | guest | 114.119.157.17 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 18, 9
+DebugLog  | 2021-05-03 18:10:18 | guest | 114.119.133.253 | photogallery | Page No = 3
+DebugLog  | 2021-05-03 18:10:18 | guest | 114.119.133.253 | photogallery | Page No = 3 Rowno = 18
+DebugLog  | 2021-05-03 18:10:18 | guest | 114.119.133.253 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2021-05-03 18:10:18 | guest | 114.119.133.253 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 18, 9
+DebugLog  | 2021-05-03 19:04:22 | guest | 66.249.89.69 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 19:04:22 | guest | 66.249.89.69 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 19:25:18 | guest | 66.249.64.245 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 19:25:18 | guest | 66.249.64.245 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 20:46:37 | guest | 207.46.13.97 | photogallery | Page No = 3
+DebugLog  | 2021-05-03 20:46:37 | guest | 207.46.13.97 | photogallery | Page No = 3 Rowno = 18
+DebugLog  | 2021-05-03 20:46:37 | guest | 207.46.13.97 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2021-05-03 20:46:37 | guest | 207.46.13.97 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 18, 9
+DebugLog  | 2021-05-03 22:27:05 | guest | 49.7.20.137 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 22:27:05 | guest | 49.7.20.137 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 23:16:38 | guest | 118.184.177.89 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-05-03 23:16:38 | guest | 118.184.177.89 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-05-03' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-05-03 23:57:33 | guest | 114.119.128.44 | photogallery | Page No = 2
+DebugLog  | 2021-05-03 23:57:33 | guest | 114.119.128.44 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2021-05-03 23:57:34 | guest | 114.119.128.44 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2021-05-03 23:57:34 | guest | 114.119.128.44 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9

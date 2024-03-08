@@ -1,0 +1,103 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 4cqRHfJj7mS4bCsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 29 Aug 2023 14:32:34 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 29 Aug 2023 14:32:34 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qb6KA-00BwLB-E9
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 29 Aug 2023 14:32:34 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qb6K5-00Bw6p-3f@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1693344754-eximdsn-1115923978
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qb6KA-00BwLB-E9@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 29 Aug 2023 14:32:34 -0700
+
+--1693344754-eximdsn-1115923978
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 b6KAqRbDeAGP9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ZdvbdOZA c=1 sm=1 tr=0 ts=64ee63f2 p=sMe_60WEwpgA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=kSboQid7AAAA:8 a=9RYszta8AAAA:8 a=uBOTVzsNFvWXgdiTzbUA:9 a=QEXdDO2ut3YA:10 a=es4MB_mmd14A:10 a=-FEs8UIgK8oA:10 a=Xg9ZMfoFv5etZymihUeU:22 a=qiE_66AI9anJ4rHjd8gK:22 a=qrQZzKvpe8saIUdTs2r_:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1693344754-eximdsn-1115923978
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 b6KAqRbDeAGP9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ZdvbdOZA c=1 sm=1 tr=0 ts=64ee63f2 p=sMe_60WEwpgA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=kSboQid7AAAA:8 a=9RYszta8AAAA:8 a=uBOTVzsNFvWXgdiTzbUA:9 a=QEXdDO2ut3YA:10 a=es4MB_mmd14A:10 a=-FEs8UIgK8oA:10 a=Xg9ZMfoFv5etZymihUeU:22 a=qiE_66AI9anJ4rHjd8gK:22 a=qrQZzKvpe8saIUdTs2r_:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1693344754-eximdsn-1115923978
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qb6K5-00Bw6p-3f
+	for ginojohn@gmail.com;
+	Tue, 29 Aug 2023 14:32:34 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JP Corsi.
+X-PHP-Script: ststephenssanjose.org/contact.php for 104.224.90.169
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 104.224.90.169
+From: hi@jpcorsi.com
+Reply-To: hi@jpcorsi.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qb6K5-00Bw6p-3f@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 29 Aug 2023 14:32:29 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by JP Corsi, and the message is as follows.
+
+"JP Corsi with Exit Node Corp.
+
+I hope that you are having a good day.
+
+I am doing a bit of outreach to owner of companies similar to yours as
+we are seeing increased sales with a number of our clients in the past
+few months.
+
+We have a core focus in helping companies increase online inbound and
+outreach sales and sell out capacity with incredibly effective and
+economical strategies.
+
+Let me know if increasing online sales is a priority right now and if
+I can get on your calendar for a short introduction in the next week
+or two?
+
+---
+JP Corsi
++1 954-833-5563	
+https://exitnode.co
+2339 Glades Pkwy, Weston FL"
+
+You can contact JP Corsi via email, hi@jpcorsi.com
+
+--1693344754-eximdsn-1115923978--

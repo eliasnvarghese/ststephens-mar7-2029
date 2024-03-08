@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id sLxeOSswA2MeeTsAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 22 Aug 2022 00:28:43 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 22 Aug 2022 00:28:44 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oQ1rX-00GQ4N-R0
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 22 Aug 2022 00:28:43 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oQ1rX-00GQ3M-Bt@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1661153323-eximdsn-1854943115
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oQ1rX-00GQ4N-R0@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 22 Aug 2022 00:28:43 -0700
+
+--1661153323-eximdsn-1854943115
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Q1rXoQga744O5 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=eNzWMFl1 c=1 sm=1 tr=0 ts=6303302b p=McJYAQcwuEYA:10 p=pv2eYw8lP7oA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=biHskzXt2R4A:10 a=HfC_lRsWAAAA:8 a=0kzM3CcBAAAA:8 a=3rG3wtTPQEjSWvble14A:9 a=QEXdDO2ut3YA:10 a=8d01cKNcv9AA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=nt530KWq26fnUBiFONi2:22 a=CE9uLJsCu-G7ENrl3HQA:22 ::
+    100.00
+
+--1661153323-eximdsn-1854943115
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Q1rXoQga744O5 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=eNzWMFl1 c=1 sm=1 tr=0 ts=6303302b p=McJYAQcwuEYA:10 p=pv2eYw8lP7oA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=biHskzXt2R4A:10 a=HfC_lRsWAAAA:8 a=0kzM3CcBAAAA:8 a=3rG3wtTPQEjSWvble14A:9 a=QEXdDO2ut3YA:10 a=8d01cKNcv9AA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=nt530KWq26fnUBiFONi2:22 a=CE9uLJsCu-G7ENrl3HQA:22 :: 100.00
+
+--1661153323-eximdsn-1854943115
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oQ1rX-00GQ3M-Bt
+	for ginojohn@gmail.com; Mon, 22 Aug 2022 00:28:43 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Craigcob.
+X-PHP-Script: ststephenssanjose.org/contact.php for 161.117.10.46
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 161.117.10.46
+From: ih8kb@course-fitness.com
+Reply-To: ih8kb@course-fitness.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oQ1rX-00GQ3M-Bt@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 22 Aug 2022 00:28:43 -0700
+
+You have been contacted by Craigcob, and the message is as follows.
+
+"窩百態室內裝修設計|台中系統家具訂製-系統家具規劃
+台中-台中系統家具裝潢-台中系統家具規劃-台中系統櫃裝潢-台中系統櫃廠商
+
+ 
+https://woobetter-fuchu.com/"
+
+You can contact Craigcob via email, ih8kb@course-fitness.com
+
+--1661153323-eximdsn-1854943115--

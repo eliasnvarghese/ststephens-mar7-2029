@@ -1,0 +1,171 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id QBp5JwLjZ2M2IBMAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 06 Nov 2022 09:38:26 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 06 Nov 2022 09:38:26 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1orifC-005SQe-Gl
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sun, 06 Nov 2022 09:38:26 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1orifB-005SQ7-VV@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667752706-eximdsn-325974728
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1orifC-005SQe-Gl@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 06 Nov 2022 09:38:26 -0700
+
+--1667752706-eximdsn-325974728
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rifCoW6BEwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=6367e302 p=1I8LGFciAlwA:10 p=NRt6HND7ZYdcdoDYUm8i:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=_ydkAXfsGqQA:10 a=x7bEGLp0ZPQA:10 a=yLgOkxOUd54A:10 a=RgBw9RmQAAAA:8 a=QJvDNZYBAAAA:8 a=sF-TDx1YomYHJWKE0psA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=NieXIQP3UbcA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=4fgPjrhTYegqmOgYSSRm:22 ::
+    100.00
+
+--1667752706-eximdsn-325974728
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 rifCoW6BEwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=6367e302 p=1I8LGFciAlwA:10 p=NRt6HND7ZYdcdoDYUm8i:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=_ydkAXfsGqQA:10 a=x7bEGLp0ZPQA:10 a=yLgOkxOUd54A:10 a=RgBw9RmQAAAA:8 a=QJvDNZYBAAAA:8 a=sF-TDx1YomYHJWKE0psA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=NieXIQP3UbcA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=4fgPjrhTYegqmOgYSSRm:22 :: 100.00
+
+--1667752706-eximdsn-325974728
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1orifB-005SQ7-VV
+	for ginojohn@gmail.com; Sun, 06 Nov 2022 09:38:26 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Wesleyvucky.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.232.186
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.232.186
+From: pencucon_97@mail.ru
+Reply-To: pencucon_97@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1orifB-005SQ7-VV@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 06 Nov 2022 09:38:25 -0700
+
+You have been contacted by Wesleyvucky, and the message is as follows.
+
+"Для выпекания изделий применяются
+ротационные, подовые и модульные печи
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/stellazh-dlya-razmorozki-aisi-304
+   Первые представляют собой подвижные
+или стационарные стеллажи, оснащенные
+полками для размещения будущей
+выпечки
+https://пищевоеоборудование.рф/katalog/sanpropuskniki-doz-200/
+   Подовые печи имеют несколько
+автономно работающих камер, в каждой
+из которых могут задаваться
+определенная программа и температура
+https://пищевоеоборудование.рф/katalog/kamera-df/
+ 
+Обновлено 14 фев 2022 
+https://пищевоеоборудование.рф/katalog/oprokidyvateli-kontejnerov-i-telezhek/oprokidyvateli-bochek-ob-250
+  
+https://пищевоеоборудование.рф/katalog/sanpropuskniki-doz-200/dezbarery-dlya-avtotransporta-doz-m-5000
+  
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/kopiya-konvejer-s-priemnym-bunkerom-elevator-20001
+    БП - Универсальное беспенное
+средство мойки пищевого оборудования
+(CIP)
+https://пищевоеоборудование.рф/katalog/oprokidyvateli-kontejnerov-i-telezhek/
+   Кислотная мойка технологического
+оборудования, емкостей, резервуаров,
+трубопроводов автоматических линий 
+https://пищевоеоборудование.рф/katalog/mashina-mojki/mashina-mojki-ryby-orehov-mm-2000
+  
+https://пищевоеоборудование.рф/moskva/katalog/bunkera-nakopitelnye-priemnye/bunker-smesitelnyj-bs-80-aisi-304/bunker-smesitelnyj-tip-bs-80-aisi-304
+  
+https://пищевоеоборудование.рф/moskva/katalog/bunkera-nakopitelnye-priemnye/bunker-smesitelnyj-bs-80-aisi-304/bunker-smesitelnyj-tip-bs-80-aisi-304
+ 
+Реакторы термические применяются для
+термической обработки продукции во
+всех отраслях пищевой промышленности
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/
+   Изготавливаются различного объема,
+комплектации по техническому заданию
+или чертежам заказчика заданной
+производительности
+https://пищевоеоборудование.рф
+ 
+УДК 631
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/konvejer-obvalki-myasa-kom-8
+  363
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/kopiya-konvejer-s-priemnym-bunkerom-elevator-2000
+  258/638
+https://пищевоеоборудование.рф/katalog/bunkera-nakopitelnye-priemnye/farshemeshalka-smesitel-tip-farsh-150-aisi-304
+  178 ЭНЕРГО- И РЕСУРСОСБЕРЕГАЮЩАЯ
+ТЕХНОЛОГИЯ ИЗВЛЕЧЕНИЯ ПЕРГИ ИЗ
+ПЧЕЛИНЫХ СОТОВ И ЭКОНОМИЧЕСКИЕ
+АСПЕКТЫ ЕЁ ПРОИЗВОДСТВА Некрашевич В
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/promyshlennye-filtra-aisi-304
+  Ф
+https://пищевоеоборудование.рф/katalog/mashina-mojki/mashina-mojki-barabannogo-tipa-mmb-20001
+  , Торженова Т
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/stol-inspekcionnyj-san-1500/
+  В
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/konvejer-podemnyj-skrebkovyj-kps-3400
+  , Мамонов Р
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/rolgangi-rolikovye-aisi-304
+  А
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/protivni-dlya-kopcheniya-sushki-aisi-304
+  , Афанасьев А
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/konvejer-cepnoj-dlya-banok-kcb-z
+  М
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/butara-ikra-1000h1000-aisi-304/
+  , 
+Эксплуатируются холодильные камеры в
+цикличном режиме, чередуя загрузку и
+выгрузку продукции
+https://пищевоеоборудование.рф/katalog/glazirovshhiki-pogruzhnoj/
+   Процесс термообработки занимает от
+нескольких часов до нескольких суток
+https://пищевоеоборудование.рф/katalog/oprokidyvateli-kontejnerov-i-telezhek/oprokidyvatel-cepnoj-orc-3000
+ 
+УДК 664
+https://пищевоеоборудование.рф/katalog/defroster-vodyanoj-dvg-1000/mashina-mojki-banki-s-obduvom-mmbo-2000
+  785 РАЗРАБОТКА ТЕХНОЛОГИИ И
+ОБОРУДОВАНИЯ ДЛЯ ПРОПАРИВАНИЯ ОВСА
+Безъязыков Д
+https://пищевоеоборудование.рф
+  С
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/stol-dlya-inektirovaniya-ryby-aisi-304
+  , Невзоров В
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/konvejer-razdelochnyj-odno-urovnevyj-k1-4000
+  Н
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/protivni-dlya-kopcheniya-sushki-aisi-304
+   Красноярский государственный
+аграрный, университет, Красноярск,
+Россия В статье описывается
+технологический 
+"
+
+You can contact Wesleyvucky via email, pencucon_97@mail.ru
+
+--1667752706-eximdsn-325974728--

@@ -1,0 +1,124 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id +PdbO35nc2ReLzAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 28 May 2023 07:38:54 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 28 May 2023 07:38:54 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q3HXq-00DFmU-Ub
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 28 May 2023 07:38:54 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q3HXm-00DFlg-03@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1685284734-eximdsn-1210959259
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q3HXq-00DFmU-Ub@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 28 May 2023 07:38:54 -0700
+
+--1685284734-eximdsn-1210959259
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 3HXqq3v931CLM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QoOYn3+d c=1 sm=1 tr=0 ts=6473677e p=Hqmz8LmCAAAA:20 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=BgXFOdGdAAAA:8 a=MT79eMn6wH8JsUmi0c4A:9 a=QEXdDO2ut3YA:10 a=iy8f3ImTo-8A:10 a=zgiPjhLxNE0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=SYYPgl9BuKqwXobVeksR:22 a=99_Gf06OsJVuSnrHyveU:22 ::
+    100.00
+
+--1685284734-eximdsn-1210959259
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 3HXqq3v931CLM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QoOYn3+d c=1 sm=1 tr=0 ts=6473677e p=Hqmz8LmCAAAA:20 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=BgXFOdGdAAAA:8 a=MT79eMn6wH8JsUmi0c4A:9 a=QEXdDO2ut3YA:10 a=iy8f3ImTo-8A:10 a=zgiPjhLxNE0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=SYYPgl9BuKqwXobVeksR:22 a=99_Gf06OsJVuSnrHyveU:22 :: 100.00
+
+--1685284734-eximdsn-1210959259
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q3HXm-00DFlg-03
+	for ginojohn@gmail.com;
+	Sun, 28 May 2023 07:38:54 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Adam Johnson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 63.161.77.235
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 63.161.77.235
+From: adam.johnson@phoenix.com
+Reply-To: adam.johnson@phoenix.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q3HXm-00DFlg-03@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 28 May 2023 07:38:50 -0700
+
+You have been contacted by Adam Johnson, and the message is as
+follows.
+
+"Hey, 
+
+
+I discovered something incredible â€“ Phoenix! It can make you $1000
+daily passively! í ½í²¸âœ¨
+
+
+Imagine waking up, seeing your bank account grow, and enjoying your
+day without a 9-to-5 job. With Phoenix, that dream can come true.
+í ¼í¼…í ¼í¼ˆ
+
+
+í ½í´¥ No experience needed! Phoenix empowers anyone to succeed. Join
+now! í ½í´¥
+
+í ½í±‰  bit.ly/3OJypD5  í ½í±ˆ
+
+
+í ½í²¼ Phoenix leverages affiliate marketing for consistent passive
+income. Get step-by-step training and optimized funnels. í ½í²¼
+
+
+í ¼í¼Ÿ Ready to change your life? Discover Phoenix here! í ¼í¼Ÿ
+
+
+í ¼í¾‰ Join Phoenix for exclusive support and a thriving community.
+Don't miss out! í ¼í¾‰
+
+í ½í±‰   bit.ly/3OJypD5   í ½í±ˆ
+
+
+í ½í²¥ Act now! Secure your spot and earn $1000 daily passively! 
+í ½í²¥
+
+í ½í±‰   bit.ly/3OJypD5  í ½í±ˆ
+
+
+To your success,
+
+Adam 
+
+
+P.S. Limited spots available! Join Phoenix now for financial freedom!
+í ¾í¶…í ½í²«"
+
+You can contact Adam Johnson via email, adam.johnson@phoenix.com
+
+--1685284734-eximdsn-1210959259--

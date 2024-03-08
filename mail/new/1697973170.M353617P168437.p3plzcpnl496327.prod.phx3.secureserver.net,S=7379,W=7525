@@ -1,0 +1,146 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id TQXYE7IDNWX1kQIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 22 Oct 2023 04:12:50 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 22 Oct 2023 04:12:50 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1quWO2-000hob-8X
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 22 Oct 2023 04:12:50 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1quWNx-000hmi-4l@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697973170-eximdsn-430147711
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1quWO2-000hob-8X@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 22 Oct 2023 04:12:50 -0700
+
+--1697973170-eximdsn-430147711
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 uWO2qtvCWTa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=653503b2 p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=ZvEu6WQwicYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=3vnW5oVWOQcA:10 a=huvbmMDMAAAA:8 a=69EAbJreAAAA:8 a=hB3XBY_aFXBfxV7aghUA:9 a=QEXdDO2ut3YA:10 a=-psfhM78noMA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=PhZ4WmEQbQZK5l4rQGCB:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1697973170-eximdsn-430147711
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 uWO2qtvCWTa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=653503b2 p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=ZvEu6WQwicYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=3vnW5oVWOQcA:10 a=huvbmMDMAAAA:8 a=69EAbJreAAAA:8 a=hB3XBY_aFXBfxV7aghUA:9 a=QEXdDO2ut3YA:10 a=-psfhM78noMA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=PhZ4WmEQbQZK5l4rQGCB:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1697973170-eximdsn-430147711
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1quWNx-000hmi-4l
+	for ginojohn@gmail.com;
+	Sun, 22 Oct 2023 04:12:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Muoi Copland.
+X-PHP-Script: ststephenssanjose.org/contact.php for 196.242.195.81
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.242.195.81
+From: copland.muoi@hotmail.com
+Reply-To: copland.muoi@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1quWNx-000hmi-4l@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 22 Oct 2023 04:12:45 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Muoi Copland, and the message is as
+follows.
+
+"ststephenssanjose.org Admin, Greetings! I just discovered your site,
+brief question…
+
+ name’s Muoi, I found ststephenssanjose.org post performing a quick
+searching – your site showed up close to the top of the rankings, so
+whatsoever you’re doing for SEO, appears like it’s working well.
+
+So here’s my query – what occurs AFTER an individual lands on your
+website? Anything at all?
+
+Studies informs us at least 70% of the people who discover your site,
+post a quick once-over, they vanish… permanently.
+
+This indicates that all the hard work and effort you put in into
+getting them to appear, goes the drain.
+
+Why would you desire all of that good work and effort – and the
+excellent website you’ve built – go to waste away?
+
+Because the probabilities are they’ll just skip calling or even
+pulling out their mobile phone, leaving you high and dry.
+
+However, here is a thought for you… what if you could make extremely
+simple for someone raise their hand, “okay, let’s talk” without
+needing them to even pull out their cell phone from their pocket,
+thanks to groundbreaking new software can literally that first ever
+call NOW.
+
+Web Visitors Into Leads is a software that sits your site, ready and
+waiting capture any visitor’s Name, Email address and Phone Number.
+It lets know IMMEDIATELY – so that you can talk to that lead while
+they’re still there at your site, strike the iron’s hot!
+
+CLICK HERE https://bit.ly/LeadGena to try out a Live Demo with Web
+Visitors Into Leads now to see exactly how it works targeting, you
+HAVE to act – the difference between contacting within 5 minutes 30
+minutes is huge – like 100 times!
+
+That’s why you should check out our new SMS Text With Lead feature
+as well… once you’ve captured the phone number of the website, you
+can automatically off a text with them.
+
+Imagine powerful this could be – even if they don’t you up on your
+offer, you can stay in touch with them using text messages to make
+offers links great content, and build your credibility, just this
+alone could be a game changer to make your website more effective when
+the iron’s!
+
+CLICK HERE https://bit.ly/LeadGena to learn about everything Visitors
+Into Leads can do your business be amazed and keep the great!
+
+Muoi
+PS: Web Visitors Into Leads offers FREE 14 days trial – you could be
+converting to 100x more leads! It even includes International Long
+Distance Calling wasting chasing that don’t turn into paying. CLICK
+HERE https://bit.ly/LeadGena to try Visitors Into Leads now you'd like
+unsubscribe here https://bit.ly/3rD0G5c
+
+Just quick - the names and email used here, are placeholders and not
+real contact information. We value and wanted to make you’re aware
+you wish get touch the real behind this message visit website, and
+we’ll connect with the right.}
+"
+
+You can contact Muoi Copland via email, copland.muoi@hotmail.com
+
+--1697973170-eximdsn-430147711--

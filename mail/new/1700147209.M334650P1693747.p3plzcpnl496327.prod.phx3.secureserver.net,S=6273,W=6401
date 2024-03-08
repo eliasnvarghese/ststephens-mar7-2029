@@ -1,0 +1,128 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id M4GDEwkwVmUz2BkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 16 Nov 2023 08:06:49 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 16 Nov 2023 08:06:49 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r3dxB-0076cG-8H
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 16 Nov 2023 08:06:49 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r3dx6-0076aM-Kv@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700147209-eximdsn-183844517
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r3dxB-0076cG-8H@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 16 Nov 2023 08:06:49 -0700
+
+--1700147209-eximdsn-183844517
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 3dxBrb8c6Ta2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=65563009 p=g9cfr9pplCYA:10 p=FG-qwisjfDUA:10 p=Y3bnrHBlAAAA:20 p=Uf6FnGDbaizTEPtMEFGb:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=aO1tNGDTafgDhFL3SEgA:9 a=QEXdDO2ut3YA:10 a=6yAFIISB3rQA:10 a=tikSZFVMFAHfGxZeLk9P:22 a=Pt1uHmoR5qVr9I44xGod:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1700147209-eximdsn-183844517
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 3dxBrb8c6Ta2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=65563009 p=g9cfr9pplCYA:10 p=FG-qwisjfDUA:10 p=Y3bnrHBlAAAA:20 p=Uf6FnGDbaizTEPtMEFGb:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=aO1tNGDTafgDhFL3SEgA:9 a=QEXdDO2ut3YA:10 a=6yAFIISB3rQA:10 a=tikSZFVMFAHfGxZeLk9P:22 a=Pt1uHmoR5qVr9I44xGod:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1700147209-eximdsn-183844517
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r3dx6-0076aM-Kv
+	for ginojohn@gmail.com;
+	Thu, 16 Nov 2023 08:06:49 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by EnriqueUpdap.
+X-PHP-Script: ststephenssanjose.org/contact.php for 109.107.176.19
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 109.107.176.19
+From: 1213@gmail.com
+Reply-To: 1213@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r3dx6-0076aM-Kv@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 16 Nov 2023 08:06:44 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by EnriqueUpdap, and the message is as
+follows.
+
+"Are you tired of spending countless hours crafting content that just
+doesn't seem to hit the mark? Do you want to slash your costs and
+increase efficiency while generating content that not only captures
+attention but also converts like crazy? Look no further! 
+ 
+Introducing our revolutionary AI-powered content creation tool that
+will transform your content creation process. With our
+state-of-the-art language AI, you can generate content with ease,
+compelling copy that connects with your target audience, regardless of
+the subject or language. 
+ 
+?? What's in it for you? 
+ 
+? Bid farewell to creative blocks: From blogs to emails to ad copies,
+our AI can auto-generate catchy, original, and high-converting copies
+in various tones and languages in just a few seconds. 
+ 
+? A wide range of options: Choose from over 40 use cases and templates
+to cover all your writing needs, ensuring you have the perfect copy
+for every scenario. 
+ 
+? Reach a global audience: Select from over 30 languages to write in
+your chosen language or cater to a wide customer base. 
+ 
+? Consistent and appropriate tone: Craft your content with the right
+emotion using our library of 20+ tones of voice, ensuring your message
+resonates effectively. 
+ 
+? Proven results: Our AI uses advanced copywriting techniques like
+AIDA and PAS to provide the highest quality content, requiring little
+to no post-production work. Get ready to see your conversion rates
+skyrocket! 
+ 
+Ready to transform the way you create content and take your writing to
+the next level? Try our AI-powered content generation tool today and
+experience the difference for yourself. 
+ 
+Start Your Content Revolution -> https://tinyurl.com/yraicontent 
+ 
+Don't miss out on this chance to save time, money, and frustration.
+Join the ranks of successful content creators who have unlocked the
+power of AI. 
+ 
+ 
+Best regards,your content manager"
+
+You can contact EnriqueUpdap via email, 1213@gmail.com
+
+--1700147209-eximdsn-183844517--

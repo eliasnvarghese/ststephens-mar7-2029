@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id kCxSKIzYRmXbRysACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 04 Nov 2023 16:49:32 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 04 Nov 2023 16:49:32 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qzQOS-00BuFy-K1
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 04 Nov 2023 16:49:32 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qzQOO-00Bu08-13@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699141772-eximdsn-2075343055
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qzQOS-00BuFy-K1@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 04 Nov 2023 16:49:32 -0700
+
+--1699141772-eximdsn-2075343055
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 zQOSqQBlI93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=6546d88c p=l24yeuXwJk8A:10 p=39M04_7idyufK17TNdR1:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=HqE3DAyKeOoA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=rSoXE4g__tAA:10 a=idbViqekAAAA:8 a=zhARoXc6AAAA:8 a=AAvYLDLOAAAA:8 a=o8P-QdNB1MBfFdy8YrQA:9 a=QEXdDO2ut3YA:10 a=7K89eSumdU8A:10 a=-FEs8UIgK8oA:10 a=zgiPjhLxNE0A:10 a=_tP2eQg68eRl16EDrUef:22 a=VqzR4gPQrouRrx9v5G0W:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1699141772-eximdsn-2075343055
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 zQOSqQBlI93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=6546d88c p=l24yeuXwJk8A:10 p=39M04_7idyufK17TNdR1:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=HqE3DAyKeOoA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=rSoXE4g__tAA:10 a=idbViqekAAAA:8 a=zhARoXc6AAAA:8 a=AAvYLDLOAAAA:8 a=o8P-QdNB1MBfFdy8YrQA:9 a=QEXdDO2ut3YA:10 a=7K89eSumdU8A:10 a=-FEs8UIgK8oA:10 a=zgiPjhLxNE0A:10 a=_tP2eQg68eRl16EDrUef:22 a=VqzR4gPQrouRrx9v5G0W:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1699141772-eximdsn-2075343055
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qzQOO-00Bu08-13
+	for ginojohn@gmail.com;
+	Sat, 04 Nov 2023 16:49:32 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by James Newell.
+X-PHP-Script: ststephenssanjose.org/contact.php for 146.70.212.87
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 146.70.212.87
+From: newell.mason72@msn.com
+Reply-To: newell.mason72@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qzQOO-00Bu08-13@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 04 Nov 2023 16:49:28 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by James Newell, and the message is as
+follows.
+
+"Hi there!
+Top Rated SEO Agency. Personalized Service from Dedicated Account
+Team. ROI Driven. Relationship Focused. Custom SEO Strategy. 95%
+Client Retention Rate. Services: Analytics, Back-end Development,
+Competitive Research, Consulting.  Buy now:
+https://alwaysdigital.co/la/ 
+
+Psst. If you have web development/ designing requirements, feel free
+to see more details at: https://outsource-bpo.com/website/
+"
+
+You can contact James Newell via email, newell.mason72@msn.com
+
+--1699141772-eximdsn-2075343055--

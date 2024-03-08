@@ -1,0 +1,140 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id xUOPHhJRRWWRVAwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 03 Nov 2023 12:59:14 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 03 Nov 2023 12:59:14 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qz0K2-003ODS-EU
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 03 Nov 2023 12:59:14 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qz0Jv-003OBe-O1@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699041554-eximdsn-783331082
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qz0K2-003ODS-EU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 03 Nov 2023 12:59:14 -0700
+
+--1699041554-eximdsn-783331082
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 z0K2qzu9hTa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=65455112 p=prAdgOzYAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=-vpqDe2W59AA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=cWzqdmqsggsA:10 a=pGLkceISAAAA:8 a=vjbba-zMM0CbAbDEq6IA:9 a=QEXdDO2ut3YA:10 a=-6S7L5vjf6YA:10 a=KyYZJfTCSdMA:10 a=vfvR4eLZ62DtnK3Z803L:22 a=g1Kzz0Auqb2uscGqcrIn:22 a=ry9b4MO6NQcQsWHdIeyp:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1699041554-eximdsn-783331082
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 z0K2qzu9hTa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=65455112 p=prAdgOzYAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=-vpqDe2W59AA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=cWzqdmqsggsA:10 a=pGLkceISAAAA:8 a=vjbba-zMM0CbAbDEq6IA:9 a=QEXdDO2ut3YA:10 a=-6S7L5vjf6YA:10 a=KyYZJfTCSdMA:10 a=vfvR4eLZ62DtnK3Z803L:22 a=g1Kzz0Auqb2uscGqcrIn:22 a=ry9b4MO6NQcQsWHdIeyp:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1699041554-eximdsn-783331082
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qz0Jv-003OBe-O1
+	for ginojohn@gmail.com;
+	Fri, 03 Nov 2023 12:59:14 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Douglas Camarena.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.82.109.87
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.82.109.87
+From: miyagtrading73@gmail.com
+Reply-To: miyagtrading73@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qz0Jv-003OBe-O1@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 03 Nov 2023 12:59:07 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Douglas Camarena, and the message is as
+follows.
+
+"Hey there!
+
+You seek to make profits in the market, but struggle like a clumsy
+crane. Miyagi Trading is here to guide you on the path of trading
+success, young grasshopper!
+
+Miyagi Trading, Wax on, trade off. Paint the charts with precision and
+accuracy, and discover your true trading potential with Miyagi!
+
+Picture this: You consistently make good profits in the market, month
+after month. You master risk management, protecting your investments
+while maximizing gains. You effortlessly stay informed about market
+trends, adjusting your strategies with the wisdom of a seasoned
+trader.
+
+The market is like a wild beast, young grasshopper. It seems complex
+and volatile, working against you. But fear not! Miyagi Trading brings
+you the tools to conquer this beast and find success.
+
+Our powerful suite of TradingView indicators, Miyagi 10in1, gives you
+the power to tailor your trading strategies to your unique style and
+risk tolerance. With real-time insights and actionable signals, you
+will make well-informed decisions, young grasshopper.
+
+Patience, young grasshopper, for there is more. Act now, and receive a
+14-day free access to ALL of our scripts and trading products. Explore
+our arsenal of tools and unleash your trading potential! This
+limited-time offer is your chance to experience the full power of
+Miyagi Trading completely for free.
+
+Time is of the essence, young grasshopper. The market moves swiftly,
+and opportunities come and go like the wind. Delay no more – visit
+our site now to sign up and gain access to ALL of our scripts and
+trading products for 14 days, completely free!
+
+You may have been led to believe that the market is rigged against
+you, young grasshopper. But Miyagi Trading will show you the way. Many
+have found success, and you can too.
+
+Do not hesitate, young grasshopper. Sign up now and embark on a
+journey towards consistent profits, masterful risk management, and
+heightened market awareness. Visit our site and unlock the true power
+of Miyagi Trading!
+
+Click here: --> https://bit.ly/miyagitrading 
+
+If you have any questions, do not hesitate to reach out. Miyagi
+Trading is here to support you on your path to trading mastery.
+
+Remember, young grasshopper, the market is yours to conquer. Seize
+this opportunity and let Miyagi Trading unleash your true trading
+potential!
+
+Wax on, trade off!
+
+The Miyagi Trading Team
+"
+
+You can contact Douglas Camarena via email, miyagtrading73@gmail.com
+
+--1699041554-eximdsn-783331082--

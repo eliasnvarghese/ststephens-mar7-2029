@@ -1,0 +1,148 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id +GE5MAP3NmT6UBQAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 12 Apr 2023 11:22:59 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 12 Apr 2023 11:22:59 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pmf7T-005efB-Lu
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 12 Apr 2023 11:22:59 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pmf7O-005ec9-Ls@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1681323779-eximdsn-1439496223
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pmf7T-005efB-Lu@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 12 Apr 2023 11:22:59 -0700
+
+--1681323779-eximdsn-1439496223
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 mf7TpGxyZNK4D :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Eo4U7wQA c=1 sm=1 tr=0 ts=6436f703 p=5B0zipl0AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=pD60ZvtFqWUA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=LjJuCpNETGoA:10 a=UqCG9HQmAAAA:8 a=4v-Tb3dBe2FtpFHA-FkA:9 a=QEXdDO2ut3YA:10 a=So6SEwTu4YYA:10 a=0h4SgS0TjwEA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=l-Z8_3Gtrgj-h3vtrhTr:22 a=ofurT7SATtNjPQ9eXsZE:22 ::
+    100.00
+
+--1681323779-eximdsn-1439496223
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 mf7TpGxyZNK4D :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Eo4U7wQA c=1 sm=1 tr=0 ts=6436f703 p=5B0zipl0AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=pD60ZvtFqWUA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=LjJuCpNETGoA:10 a=UqCG9HQmAAAA:8 a=4v-Tb3dBe2FtpFHA-FkA:9 a=QEXdDO2ut3YA:10 a=So6SEwTu4YYA:10 a=0h4SgS0TjwEA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=l-Z8_3Gtrgj-h3vtrhTr:22 a=ofurT7SATtNjPQ9eXsZE:22 :: 100.00
+
+--1681323779-eximdsn-1439496223
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pmf7O-005ec9-Ls
+	for ginojohn@gmail.com;
+	Wed, 12 Apr 2023 11:22:59 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Grady Storey.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.83.81.46
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.83.81.46
+From: storey.grady@outlook.com
+Reply-To: storey.grady@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pmf7O-005ec9-Ls@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 12 Apr 2023 11:22:54 -0700
+
+You have been contacted by Grady Storey, and the message is as
+follows.
+
+"As a small business owner who was in business during 2020 or 2021,
+you could be eligible for the Employee Retention Credit (ERC) that
+expires on April 15th, 2025. This valuable tax credit was designed to
+help businesses like yours recover from the challenges of the last
+several years.
+
+Ì†ΩÌ∫Ä Up to $26,000 per employee: That's right! You could receive up
+to $26,000 per employee as a refundable tax credit. Imagine the impact
+this could have on your business.
+
+Ì†ΩÌ≤∞ Use your refund for any purpose: Whether you want to invest in
+new equipment, expand your team, or launch a new product, the refund
+from your ERC Tax Credit can be used however you see fit to support
+your business.
+
+Ì†ºÌæØ Qualify with disruption or revenue decline: If your business
+experienced a disruption in operations or a decline in revenue during
+the pandemic, you might be eligible for the ERC.
+
+‚úÖ Refunds available even if you received PPP: Good news! You can
+still receive ERC refunds even if you received a Paycheck Protection
+Program (PPP) loan.
+
+Ì†ΩÌ≤º No upfront fees: There's no need to worry about additional
+expenses, as our service comes with absolutely no upfront fees.
+
+Don't let this opportunity pass you by. Time is running out, and the
+ERC Tax Credit expires on April 15th, 2025. Check your eligibility
+today and give your business the financial boost it deserves.
+
+Go here to start your ERC eligibility assessment ‚û°Ô∏è
+www.ComprehensiveERCHelp.com
+
+To your success,
+
+Grady Storey
+Comprehensive ERC, LLC
+
+
+Ì†ΩÌ±â www.ComprehensiveERCHelp.com Ì†ΩÌ±à
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To unsubscribe from any future martketing messages, please reply with
+"UNSUBSCRIBE" in the subject line:
+
+1207 Delaware Ave, SUITE 349
+"
+
+You can contact Grady Storey via email, storey.grady@outlook.com
+
+--1681323779-eximdsn-1439496223--

@@ -1,0 +1,56 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id kHv8BgdwZWRqSQEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 17 May 2023 17:23:35 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 17 May 2023 17:23:35 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pzRQd-000MAE-24
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 17 May 2023 17:23:35 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pzRQY-000Lz6-5n@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pzRQd-000MAE-24@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 17 May 2023 17:23:35 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pzRQY-000Lz6-5n
+	for ginojohn@gmail.com;
+	Wed, 17 May 2023 17:23:30 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by iseville.
+X-PHP-Script: ststephenssanjose.org/contact.php for 93.100.155.5
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 93.100.155.5
+From: irkutsk@new-era-irk.ru
+Reply-To: irkutsk@new-era-irk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pzRQY-000Lz6-5n@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 17 May 2023 17:23:30 -0700
+
+You have been contacted by iseville, and the message is as follows.
+
+"Оформляйте единоразовую вечную
+подписку за 1000 руб. и получите доступ к
+150 тыс. платных курсов. Прекрасный
+повод чтобы освоить новый навык или
+профессию. Упомянутый саит вы можете
+найти по ссылке https://cutt.us/9A0zL"
+
+You can contact iseville via email, irkutsk@new-era-irk.ru

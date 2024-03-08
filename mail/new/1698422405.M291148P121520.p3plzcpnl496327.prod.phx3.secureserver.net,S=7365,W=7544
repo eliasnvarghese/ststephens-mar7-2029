@@ -1,0 +1,179 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id fdg2EYXeO2Ww2gEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 27 Oct 2023 09:00:05 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 27 Oct 2023 09:00:05 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qwPFl-000Vbf-6v
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 27 Oct 2023 09:00:05 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qwPFf-000VJF-Uf@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698422405-eximdsn-1801873402
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qwPFl-000Vbf-6v@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 27 Oct 2023 09:00:05 -0700
+
+--1698422405-eximdsn-1801873402
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wPFlqDVBp93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=653bde85 p=KwCyl1VhDoaxSxXYVmUA:9 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=DyWyCFwqmj4A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=zeF8RFte6dwA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=yRvf4qNdUB8A:10 a=KyYZJfTCSdMA:10 a=F8XNc0haxvA-8pWhkl0P:22 a=Opjcf2rbXONI77XeNpWh:22 a=u3dfqW3zDfh1GgXHDTdB:22 a=kPLkjXgHnqxHfVLPdWrA:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1698422405-eximdsn-1801873402
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 wPFlqDVBp93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=653bde85 p=KwCyl1VhDoaxSxXYVmUA:9 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=DyWyCFwqmj4A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=zeF8RFte6dwA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=yRvf4qNdUB8A:10 a=KyYZJfTCSdMA:10 a=F8XNc0haxvA-8pWhkl0P:22 a=Opjcf2rbXONI77XeNpWh:22 a=u3dfqW3zDfh1GgXHDTdB:22 a=kPLkjXgHnqxHfVLPdWrA:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1698422405-eximdsn-1801873402
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qwPFf-000VJF-Uf
+	for ginojohn@gmail.com;
+	Fri, 27 Oct 2023 09:00:05 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Vernell Utter.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.81.81.147
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.81.81.147
+From: vernell.utter@gmail.com
+Reply-To: vernell.utter@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qwPFf-000VJF-Uf@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 27 Oct 2023 08:59:59 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Vernell Utter, and the message is as
+follows.
+
+"Hi there,
+
+Today, My friend Ashwath has released another premium Software that
+can get you Unlimited Backlinks for your website & Youtube Channel
+With the push of a button - without any manual work.
+
+
+Yes, you read that right. 
+
+You Can Now Easily Get Unlimited HQ Backlinks & Real Buyers Traffic
+… With Commercial EVEN FOR A LIFETIME!!
+
+=> Click Here to Get It Now Before Deal Ends
+https://warriorplus.com/o2/a/jww0tp/0 
+Special $4 Off - ‘BLINK4’ (Expires in an hour time)
+
+Let me introduce you to AI Backlinks…
+"Award Winning" ChatGPT4 Powered Software Gets You UNLIMITED REAL
+BACKLINKS & FREE BUYER TRAFFIC On Autopilot With Zero Monthly Fee 
++ 
+“Guaranteed” Rank Your Site on Top of Google, Yahoo & Bing…
+
+How cool is that?
+
+Now you won’t have to pay for Backlinks & Other SEO Services On
+Other Online Platforms Like Fiverr, Upwork etc
+
+So let me ask you…
+
+Aren’t you tired of Spending 1000’s Of Dollars for getting non
+related backlinks or fake traffic even ?
+
+Thanks to the brand new AI-powered software AI Backlinks you’ll get
+Unlimited Backlinks & Real Human Traffic to your website & Youtube
+channels.
+
+This is a professional cloud-based platform that comes with a
+Commercial.
+
+For Evergreen Income WITHOUT Any Special Skills, Experience, Or
+Learning Curve.
+
+=> Grab AI Backlinks With Exclusive Bonuses Now
+https://warriorplus.com/o2/a/jww0tp/0
+Special $4 Off - ‘BLINK4’ (Expires in an hour time)
+
+This is an irresistible offer, with AI Backlinks you’ll be able to:
+
+Create Unlimited HQ Backlinks For Your Blogs, Website Etc On
+Autopilot
+Get Higher Rank Easily On Google, Bing & yahoo etc With No Extra
+Efforts
+Get Unlimited Real & Related Buyer Traffic & Sales 
+Fully Autopilot.. No Manual Work
+Get Faster Indexing For Your All Webpages  
+Automatic Updates With No Extra Installation Hassels 
+UNLIMITED COMMERCIAL LICENCE Included
+No Limitations - Completely Free
+Sell Unlimited Backlinks & Rest Services to Earn Like The Big Boys
+No Special Skills or Experience Required
+Step By Step Training & Videos  
+$200 Refund If It Doesn’t Work For You
+
+And much more...
+
+
+
+=> Get Your AI Backlinks Lifetime Account + Commercial  Licence at a
+One-Time Price https://warriorplus.com/o2/a/jww0tp/0
+Special $4 Off - ‘BLINK4’ (Expires in an hour time)
+
+This is turning into monthly recurring very soon.
+
+AI Backlinks is very easy to use, Trust me, once you have AI Backlinks
+you’ll be able to Rank #1 On Google, Bing & yahoo etc  in 3 easy
+steps:
+
+Step 1 - Login & Enter to the Friendly Dashboard 
+
+Step 2 - Enter Your Website Or Youtube Link & Click “Get
+Backlinks” & DONE!
+
+Step 3 - AI Backlinks Will Send Automatically Send Backlinks To The
+Most High Authority Websites 
+
+
+150 TOP Agency Owners, Marketers & more than 2000 customers have
+started making money with AI Backlinks.
+Till Now AI Backlinks Has Successfully Sent 18M+ Real & High Quality
+Backlinks To Customers Website, Blogs & Youtube Channels. 
+IT’S HUGE!!
+
+
+
+
+"
+
+You can contact Vernell Utter via email, vernell.utter@gmail.com
+
+--1698422405-eximdsn-1801873402--

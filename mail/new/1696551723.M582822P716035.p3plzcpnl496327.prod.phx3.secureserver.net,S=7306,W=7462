@@ -1,0 +1,156 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id oHJcIitTH2UD7QoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 05 Oct 2023 17:22:03 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 05 Oct 2023 17:22:03 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qoYbT-0031TM-Ge
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 05 Oct 2023 17:22:03 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qoYbO-00311D-Bi@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696551723-eximdsn-1774896660
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qoYbT-0031TM-Ge@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 05 Oct 2023 17:22:03 -0700
+
+--1696551723-eximdsn-1774896660
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 oYbTqWoXHryh2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=GajR3ybL c=1 sm=1 tr=0 ts=651f532b p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 p=UK_UiEvFfWNoNDPo1UeH:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=AUkyo8V1z20A:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=9Nu2nXFyJLEA:10 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=d85IZcNd8sQ5Ly7LGTAA:9 a=QEXdDO2ut3YA:10 a=RirsP09qbiEA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1696551723-eximdsn-1774896660
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 oYbTqWoXHryh2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=GajR3ybL c=1 sm=1 tr=0 ts=651f532b p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 p=UK_UiEvFfWNoNDPo1UeH:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=AUkyo8V1z20A:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=9Nu2nXFyJLEA:10 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=d85IZcNd8sQ5Ly7LGTAA:9 a=QEXdDO2ut3YA:10 a=RirsP09qbiEA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1696551723-eximdsn-1774896660
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qoYbO-00311D-Bi
+	for ginojohn@gmail.com;
+	Thu, 05 Oct 2023 17:22:03 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Tahlia Dyal.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 196.242.57.37
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.242.57.37
+From: tahlia.dyal@msn.com
+Reply-To: tahlia.dyal@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qoYbO-00311D-Bi@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 05 Oct 2023 17:21:58 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Tahlia Dyal, and the message is as follows.
+
+"Hi ststephenssanjose.org Administrator.
+
+I am Tahlia and I recently discovered your webpage -
+ststephenssanjose.org - in the searches.
+
+Here is what that means to me…
+
+Your SEO’s doing its job.
+
+You’re getting eyeballs – at least mine.
+
+Your content’s pretty good, would not change a thing.
+
+BUT…
+
+Eyeballs don’t pay the invoices.
+
+CUSTOMERS do.
+
+And surveys show that 7 out of 10 visitors to a site to
+ststephenssanjose.org will drop by, have a look, and then depart
+without doing anything else.
+
+It’s like they never were even there there.
+
+You can fix this.
+
+You can make it extremely easy for them to show interest, say,
+“okay, let’s talk” without needing them to even so much as pull
+their cell phone from their pocket… thanks to Lead Conversion
+Software.
+
+Web Visitors Into Leads is a tool that resides on your site, ready and
+waiting to grab any user’s Name, Email address, and Phone Number. It
+allows you know immediately immediately – so you can talk to that
+potential customer immediately… BEFORE they head for those hills.
+
+CLICK HERE https://bit.ly/3LPltcD to experience a Live Demo with Web
+Visitors Into Leads today to see exactly how it functions.
+
+Now it’s also true that when contacting to potential customers, you
+MUST act fast – the difference between contacting someone within 5
+minutes versus 30 minutes later is huge – like 100 times better!
+
+That’s what makes our new SMS Text With Lead feature so powerful so
+potent… you’ve got their number, so now you can begin a text
+message (SMS) conversation with them with them… so even if if they
+don’t take you up take you up on your offer immediately, you
+continue to text them to text them them new offers, new content, and
+new reasons to do business with you to do business with you.
+
+This could change everything change everything for you and your
+company.
+
+CLICK HERE https://bit.ly/3LPltcD to discover about everything Lead
+Conversion Software can do and start turing eyeballs into revenue.
+
+Tahlia
+PS: Lead Conversion Software offers a FREE 14 days trial period!
+It even includes includes International Long Distance Calling.
+Paying customers customers are waiting.
+Starting connecting today by CLICKING HERE by CLICKING HERE
+https://bit.ly/3LPltcD to try Web Visitors Into Leads right now.
+
+If you'd like to unsubscribe to unsubscribe click here
+https://bit.ly/3rD0G5c
+
+Only a swift notification - the monikers and email address applied in
+this communication, Tahlia and Dyal, are stand-ins and not actual
+contact information. We appreciate transparency and desired to assure
+you are conscious! In case you want to make contact with the genuine
+one responsible for this message, please check out our site, and
+we’ll associate you with the proper entity.
+"
+
+You can contact Tahlia Dyal via email, tahlia.dyal@msn.com
+
+--1696551723-eximdsn-1774896660--

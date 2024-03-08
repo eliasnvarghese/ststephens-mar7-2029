@@ -1,0 +1,57 @@
+DebugLog  | 2022-08-21 02:39:06 | guest | 61.135.159.162 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 02:39:06 | guest | 61.135.159.162 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 03:06:25 | guest | 185.191.171.26 | photogallery | Page No = 1
+DebugLog  | 2022-08-21 03:06:25 | guest | 185.191.171.26 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2022-08-21 03:06:25 | guest | 185.191.171.26 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2022-08-21 03:06:25 | guest | 185.191.171.26 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2022-08-21 04:40:57 | guest | 157.55.39.205 | photogallery | Page No = 1
+DebugLog  | 2022-08-21 04:40:57 | guest | 157.55.39.205 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2022-08-21 04:40:57 | guest | 157.55.39.205 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2022-08-21 04:40:57 | guest | 157.55.39.205 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2022-08-21 04:44:12 | guest | 157.55.39.45 | photogallery | Page No = 1
+DebugLog  | 2022-08-21 04:44:12 | guest | 157.55.39.45 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2022-08-21 04:44:12 | guest | 157.55.39.45 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2022-08-21 04:44:12 | guest | 157.55.39.45 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2022-08-21 05:20:18 | guest | 101.68.211.2 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 05:20:18 | guest | 101.68.211.2 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 05:24:21 | guest | 114.119.144.233 | photogallery | Page No = 2
+DebugLog  | 2022-08-21 05:24:21 | guest | 114.119.144.233 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2022-08-21 05:24:21 | guest | 114.119.144.233 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2022-08-21 05:24:21 | guest | 114.119.144.233 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2022-08-21 05:31:51 | guest | 114.119.147.0 | photogallery | Page No = 3
+DebugLog  | 2022-08-21 05:31:51 | guest | 114.119.147.0 | photogallery | Page No = 3 Rowno = 18
+DebugLog  | 2022-08-21 05:31:51 | guest | 114.119.147.0 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2022-08-21 05:31:51 | guest | 114.119.147.0 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 18, 9
+DebugLog  | 2022-08-21 06:18:20 | guest | 114.119.147.0 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 06:18:20 | guest | 114.119.147.0 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 10:19:08 | guest | 65.154.226.167 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 10:19:08 | guest | 65.154.226.167 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 11:14:47 | guest | 65.154.226.109 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 11:14:47 | guest | 65.154.226.109 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 12:32:00 | guest | 66.249.66.41 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 12:32:00 | guest | 66.249.66.41 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 13:01:15 | guest | 123.125.109.55 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 13:01:15 | guest | 123.125.109.55 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 13:05:29 | guest | 66.249.66.38 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 13:05:29 | guest | 66.249.66.38 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 15:36:45 | guest | 123.125.109.55 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 15:36:45 | guest | 123.125.109.55 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 17:34:13 | guest | 146.70.120.28 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 17:34:13 | guest | 146.70.120.28 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 17:34:17 | guest | 146.70.120.28 | login_action | isUserExists: select userid from useraccount_t  where userid= 'dharrima1990@mail.ru'
+DebugLog  | 2022-08-21 20:13:55 | guest | 98.248.229.224 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 20:13:55 | guest | 98.248.229.224 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 20:16:33 | guest | 98.248.229.224 | photogallery | Page No = 1
+DebugLog  | 2022-08-21 20:16:33 | guest | 98.248.229.224 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2022-08-21 20:16:33 | guest | 98.248.229.224 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2022-08-21 20:16:33 | guest | 98.248.229.224 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2022-08-21 20:26:43 | guest | 98.248.229.224 | photogallery | Page No = 2
+DebugLog  | 2022-08-21 20:26:43 | guest | 98.248.229.224 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2022-08-21 20:26:43 | guest | 98.248.229.224 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2022-08-21 20:26:43 | guest | 98.248.229.224 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2022-08-21 20:27:23 | guest | 98.248.229.224 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2022-08-21 20:27:23 | guest | 98.248.229.224 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 0, 9
+DebugLog  | 2022-08-21 23:49:52 | guest | 114.119.142.39 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 23:49:52 | guest | 114.119.142.39 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-08-21 23:52:11 | guest | 58.250.125.114 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-08-21 23:52:11 | guest | 58.250.125.114 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-08-21' order by fromdate asc ,todate asc limit 3

@@ -1,0 +1,55 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id SAw9CoWadGU1/CEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 09 Dec 2023 09:49:09 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 09 Dec 2023 09:49:09 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rC0Vp-009M1i-0N
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 09 Dec 2023 09:49:09 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rC0Vf-009Llt-0W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rC0Vp-009M1i-0N@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 09 Dec 2023 09:49:09 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rC0Vf-009Llt-0W
+	for ginojohn@gmail.com;
+	Sat, 09 Dec 2023 09:48:59 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by HaroldMap.
+X-PHP-Script: ststephenssanjose.org/contact.php for 1.169.95.35
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 1.169.95.35
+From: 2amw@course-fitness.com
+Reply-To: 2amw@course-fitness.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rC0Vf-009Llt-0W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 09 Dec 2023 09:48:59 -0700
+
+You have been contacted by HaroldMap, and the message is as follows.
+
+"歐客佬精品咖啡 ｜OKLAO
+COFFEE｜蝦皮商城｜咖啡豆｜掛耳｜精品咖啡｜咖啡禮盒
+專賣｜精品麵包 
+ 
+https://first-cafe.com/"
+
+You can contact HaroldMap via email, 2amw@course-fitness.com

@@ -1,0 +1,2664 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202210 will be lost/reset.
+# Last config file used to build this data file was /home/buwlrdjjq1jo/tmp/awstats/ssl/awstats.ststephenssanjose.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2708                
+POS_VISITOR 70489               
+POS_DAY 107411              
+POS_DOMAIN 3636                
+POS_LOGIN 4712                
+POS_ROBOT 4867                
+POS_WORMS 6185                
+POS_EMAILSENDER 6316                
+POS_EMAILRECEIVER 6459                
+POS_SESSION 108312              
+POS_SIDER 108516              
+POS_FILETYPES 6594                
+POS_DOWNLOADS 6861                
+POS_OS 7137                
+POS_BROWSER 7466                
+POS_SCREENSIZE 11416               
+POS_UNKNOWNREFERER 11490               
+POS_UNKNOWNREFERERBROWSER 12864               
+POS_ORIGIN 13760               
+POS_SEREFERRALS 13906               
+POS_PAGEREFS 14177               
+POS_SEARCHWORDS 15496               
+POS_KEYWORDS 15670               
+POS_MISC 2371                
+POS_ERRORS 15754               
+POS_CLUSTER 4568                
+POS_SIDER_404 15873               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221101003510 200 44295 8473726313601
+FirstTime 20221001021222
+LastTime 20221031224730
+LastUpdate 20221101050724 200 0 199 0 0
+TotalVisits 1163                
+TotalUnique 846                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1012                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 96 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 79 361 20899834 80 176 1316494
+1 70 228 11954821 57 94 225968
+2 88 567 40710371 102 178 1460112
+3 94 380 25553745 294 457 1925669
+4 103 253 10893801 81 167 1491762
+5 66 154 5679221 68 201 2276449
+6 68 105 2548234 65 117 758972
+7 81 224 12274658 159 265 692647
+8 79 273 15841055 120 197 1501908
+9 91 240 12110924 94 190 752331
+10 76 218 12241128 79 152 944666
+11 121 170 3005950 668 1289 2230709
+12 81 184 11599018 132 291 3361499
+13 93 258 16395417 87 222 1226216
+14 169 1084 44136226 106 282 2300778
+15 92 438 18521042 155 300 1521548
+16 87 88 350940 80 178 1482137
+17 66 85 1881624 56 110 401178
+18 58 106 4132141 51 109 797819
+19 92 270 15047617 108 233 4954857
+20 88 173 5643531 152 227 872545
+21 140 670 46912911 70 369 4478854
+22 88 139 4645186 106 185 1581208
+23 76 78 693859 166 252 1542914
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 61
+us 883 3827 238476884
+ru 513 755 20699470
+cn 152 835 22853795
+de 53 54 219668
+se 51 51 41565
+cl 47 96 5754012
+in 44 205 11511991
+jp 34 128 7737496
+ua 31 31 300805
+gb 30 33 620802
+ca 28 77 4400582
+ch 26 26 112912
+sc 23 23 93780
+fr 19 157 11589607
+bh 16 17 312755
+at 15 15 142981
+by 15 61 3952910
+hk 13 13 67838
+au 12 47 1973842
+be 10 10 85698
+tw 10 10 58722
+lt 10 10 85700
+vn 8 8 31548
+ro 7 7 71115
+nl 7 7 58983
+om 0 1 68488
+ee 1 1 3884
+il 3 3 2445
+ph 1 1 815
+pe 1 1 686
+my 3 3 11354
+id 5 52 3844527
+uz 1 1 686
+ae 0 1 217254
+kz 2 2 14267
+ve 1 1 815
+br 1 1 815
+eu 5 5 30710
+es 2 2 1630
+bg 1 1 2039
+md 2 2 14338
+al 4 50 3839494
+za 3 3 11441
+zz 2 2 28342
+lb 3 3 28412
+gr 1 1 3884
+cz 6 6 69417
+kr 2 2 1372
+it 5 5 55814
+sa 6 6 4890
+do 0 1 31153
+rs 1 1 686
+th 3 3 15034
+qa 0 1 52840
+iq 2 2 686
+cw 4 4 28666
+bz 1 1 815
+ir 4 4 3260
+pl 6 6 40237
+no 3 3 6117
+ie 4 61 3980480
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 29
+bingbot/ 607 15140302 20221031232941 0
+Googlebot/ 536 3026615 20221031142351 0
+bot[\s_+:,\.\;\/\\-] 485 3964933 20221031233100 0
+Sogou[\x20]web[\x20]spider/ 211 828762 20221031193748 0
+YandexBot/ 150 809615 20221031193744 0
+AdsBot\-Google[\x20]\( 111 1090210 20221024035432 0
+bingpreview 100 4763576 20221030125909 0
+SemrushBot/ 90 354844 20221031042011 0
+crawl 63 3941842 20221030193224 0
+DotBot/ 53 4485404 20221031230654 0
+AhrefsBot/ 44 30184 20221031193450 0
+aiHitBot/ 35 224168 20221027161532 0
+Applebot/ 35 267982 20221024235223 0
+netEstate[\x20]NE[\x20]Crawler 23 89092 20221010080132 0
+robot 19 74250 20221007154049 0
+BLEXBot/ 18 14670 20221030013925 0
+MJ12bot/ 12 10405 20221031211504 0
+Dalvik/ 10 8150 20221030175833 0
+Googlebot\-Image/ 10 3635 20221029030541 0
+no_user_agent 8 16312 20221030181805 0
+facebookexternalhit/ 8 436525 20221031023032 0
+curl 6 12234 20221023104417 0
+(firefox/)([0-9]\.|[0-1][0]\.) 5 4484 20221024125257 0
+oBot/ 3 1630 20221028225842 0
+Mail\.RU_Bot/ 2 6576 20221025061912 0
+Yahoo![\x20]Slurp 1 815 20221011084700 0
+Python\-urllib/ 1 2039 20221031201259 0
+Apache\-HttpClient/ 1 815 20221015211854 0
+DuckDuckGo\-Favicons\-Bot/ 1 815 20221022120359 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+js 1546 14712568 0 0
+Unknown 8 53430 0 0
+php 1130 9015406 0 0
+css 1555 8943648 0 0
+woff 157 8573383 0 0
+ttf 1 141564 0 0
+gif 65 165425 0 0
+png 433 7694543 0 0
+html 850 826179 0 0
+jpg 1001 293547108 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/malayalam/beginner/malayalam_worksheet_4.pdf 4 0 117852
+/malayalam/beginner/malayalam_worksheet_1.pdf 4 0 131776
+/malayalam/beginner/malayalam_worksheet_2.pdf 3 0 100728
+/malayalam/beginner/malayalam_worksheet_3.pdf 3 0 104025
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+ios_iphone 442 85
+macosx9 2 2
+macosx10 7 7
+winvista 1 1
+macosx8 5 5
+macosx 858 156
+win8.1 175 122
+macosx11 17 17
+ios_ipad 6 6
+win10 1746 728
+macosx12 3 3
+win98 1 1
+winxp 15 15
+linuxandroid 785 130
+win7 1263 353
+linux 1159 328
+winnt 2 2
+Unknown 218 144
+win8 41 41
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 185
+firefox77.0 322 42
+chrome85.0.4183.121 24 24
+firefox33.0 1 1
+msie6.0 5 5
+safari15.3 40 4
+chrome57.0.2987.110 4 4
+chrome106.0.5249.91 51 4
+chrome91.0.4472.114 114 24
+chrome103.0.5060.114 1 1
+android 13 13
+safari16.0 50 4
+chrome80.0.3987.132 2 2
+chrome80.0.3987.122 1 1
+safari12.0 3 3
+safari13.1.1 1 1
+chrome100.0.4896.127 546 49
+chrome81.0.4044.138 32 32
+chrome74.0.3729.131 52 5
+chrome55.0.2883.87 4 4
+chrome83.0.4098.0 14 14
+firefox47.0 6 6
+chrome74.0.3694.0 52 5
+chrome94.0.4606.81 19 2
+chrome92.0.4515.131 1 1
+safari10.0 1 1
+chrome54.0.2878.86 1 1
+firefox105.0 99 20
+chrome89.0.4389.114 8 8
+chrome45.0.2454.85 1 1
+chrome63.0.3239.132 23 6
+chrome65.0.3325.109 21 19
+firefox53.0 2 2
+firefox73.0.1 1 1
+safari15.6 52 5
+chrome87.0.4280.88 2 2
+chrome100.0.4896.75 150 12
+chrome68.0.3440.84 1 1
+safari12.1.1 1 1
+safari11.0 1 1
+chrome37.0.2049.0 2 2
+chrome102.0.0.0 51 4
+chrome88.0.4324.190 5 5
+chrome90.0.4430.93 72 72
+chrome32.0.1667.0 2 2
+chrome80.0.3987.163 49 2
+firefox56.0 1 1
+msie10.0 3 3
+chrome105.0.5173.0 102 8
+safari14.0.3 2 2
+chrome60.0.3112.107 8 8
+chrome75.0.3770.100 6 6
+edge17 1 1
+chrome41.0.2225.0 1 1
+safari15.1 59 5
+chrome83.0.4103.61 70 70
+safari 119 14
+firefox 1 1
+firefox35.0 1 1
+chrome29.0.1547.2 1 1
+safari15.6.1 185 16
+chrome61.0.3163.128 201 15
+chrome87.0.4280.66 1 1
+chrome103.0.5060.53 1 1
+chrome90.0.4430.86 9 9
+chrome72.0.3626.121 1 1
+chrome92.0.4515.107 49 2
+firefox21.0 2 2
+msie11.0 7 7
+chrome67.0.3396.87 2 2
+firefox38.0 3 3
+chrome85.0.4183.127 1 1
+chrome80.0.3987 1 1
+chrome83.0.4100.3 10 10
+msie5.00 1 1
+chrome67.0.3396.79 2 2
+chrome83.0.4089.0 14 14
+chrome107.0.0.0 63 7
+chrome83.0.4103.97 155 155
+netscape5.0 7 7
+safari13.1 2 2
+chrome66.0.3359.181 4 4
+firefox55.0 2 2
+chrome105.0.5195.136 1 0
+chrome49.0.2623.112 4 4
+firefox83.0 3 3
+chrome66.0.3359.30 50 4
+safari9.0 10 10
+firefox25.0 5 5
+chrome106.0.5249.79 1 0
+chrome71.0.3578.98 11 11
+firefox65.0 6 6
+chrome83.0.4103.106 3 3
+chrome47.0.2526.106 9 9
+chrome27.0.1500.55 1 1
+chrome69.0.3497.81 3 3
+netscape8.0 2 2
+chrome98.0.4758.102 45 3
+firefox96 11 11
+opera89.0.4447.51 47 47
+opera55.0.2955.0 2 2
+chrome80.0.3987.117 1 1
+firefox17.0 3 3
+safari15.5 1 1
+chrome66.0.3359.117 8 8
+chrome26.0.1410.65 5 5
+chrome63.0.3239.84 15 15
+chrome100.0.4896.60 21 2
+Unknown 123 91
+chrome90.0.4427.0 9 9
+firefox100.0 1 1
+chrome83.0.4103.34 34 34
+firefox103.0 4 4
+chrome104.0.0.0 232 21
+chrome103.0.5060.71 6 6
+chrome81.0.4044.129 4 4
+safari6.0 1 1
+chrome84.0.4147.105 79 7
+opera69.0.3686.7 6 6
+chrome83.0.4093.3 6 6
+iphone 50 4
+chrome74.0.3729.169 563 66
+firefox57.0 2 2
+chrome83.0.4103.116 1 1
+chrome99.0.4844.88 38 3
+safari13.0.3 15 15
+chrome105.0.0.0 230 44
+chrome102.0.5005.63 2 2
+chrome61.0.3163.79 47 47
+chrome93.0.4577.82 1 1
+mozilla 91 49
+chrome83.0.4087.0 2 2
+chrome90.0.4430.72 199 199
+safari5.0.4 2 2
+firefox104.0 7 7
+chrome24.0.1292.0 2 2
+chrome27.0.1453.90 2 2
+firefox106.0 2 2
+safari14.0 2 1
+chrome78.0.3904.70 98 4
+chrome99.0.4844.83 45 3
+chrome62.0.3202.94 2 2
+opera53.0.2907.99 9 9
+chrome96.0.4664.45 51 4
+chrome83.0.4103.14 6 6
+firefox75.0 1 1
+firefox102.0 22 22
+chrome99.0.4844.84 20 2
+chrome83.0.4103.0 10 10
+msie8.0 2 2
+chrome98.0.4758.80 1 1
+chrome106.0.5249.126 1 0
+chrome95.0.4638.69 3 3
+chrome83.0.4099.2 6 6
+safari14.0.1 1 1
+chrome105.0.5195.79 1 0
+firefox45.0 3 3
+chrome91.0.4472.120 2 2
+chrome65.0.3325.181 4 4
+msie9.0 26 1
+chrome83.0.4096.0 8 8
+chrome90.0.4430.85 154 154
+chrome91.0.4472.124 1 1
+chrome88.0.4298.0 50 4
+chrome83.0.4103.24 8 8
+chrome87.0.4280.67 4 4
+chrome85.0.4183.102 2 2
+chrome103.0.0.0 113 90
+chrome71.0.3542.0 44 2
+chrome57.0.2987.108 1 1
+chrome91.0.4472.77 1 1
+chrome39.0.2171.95 6 6
+edge12 2 2
+chrome83.0.4103.44 4 4
+firefox52.0 2 2
+chrome83.0.4086.0 26 26
+chrome103.0.5060.134 1 1
+safari13.1.2 1 1
+chrome90.0.4400.8 22 22
+edge44 1 1
+chrome106.0.0.0 749 70
+chrome99.0.4844.51 53 4
+chrome68.0.3440.106 8 8
+chrome100.0.4896.88 114 7
+chrome79.0.3945.130 24 24
+chrome45.0.2454.94 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 22
+Mozilla/5.0_Firefox/35.0 20221026161235
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_https://domini.cat/catexplorador/) 20221001220121
+got_(https://github.com/sindresorhus/got) 20221031195736
+Python/3.8_aiohttp/3.8.3 20221021223123
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20221007225920
+Mozilla/5.0 20221029040538
+python-requests/2.18.4 20221028234046
+Go-http-client/1.1 20221010061822
+Python/3.10_aiohttp/3.8.1 20221002110657
+Mozilla/5.0_zgrab/0.x 20221016051553
+Mozilla/5.0_(compatible;_Dataprovider.com) 20221017115252
+Mozilla/8.0 20221029040720
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221031124030
+Go-http-client/2.0 20221026100645
+WhatStuffWhereBot 20221007131650
+cortex/1.0 20221031023538
+ALittle_Client 20221018160326
+python-requests/2.27.1 20221028232402
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/http;__http://researchscan.comsys.rwth-aachen.de) 20221028044655
+okhttp/3.3.1 20221010110916
+wp_is_mobile 20221025071037
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221030171132
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 14
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_https://domini.cat/catexplorador/) 20221001220121
+got_(https://github.com/sindresorhus/got) 20221031195736
+Python/3.10_aiohttp/3.8.1 20221002110657
+Go-http-client/1.1 20221010061822
+python-requests/2.18.4 20221028234046
+Python/3.8_aiohttp/3.8.3 20221021223123
+Go-http-client/2.0 20221026100645
+cortex/1.0 20221031023538
+WhatStuffWhereBot 20221007131650
+python-requests/2.27.1 20221028232402
+ALittle_Client 20221018160326
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221030171132
+wp_is_mobile 20221025071037
+okhttp/3.3.1 20221010110916
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 761 826
+From1 6 6
+From2 48 67
+From3 165 165
+From4 1166 5682
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 8
+www_google_ca 0 1
+www_google_co_in 0 1
+www_google_com 33 48
+www_google_gr 1 1
+www_google_de 0 1
+baidu 4 4
+sogou 10 10
+bing 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 39
+http://ststephensbayarea.com 27 27
+http://svsoc.org 25 25
+http://ststephensbayarea.org 25 25
+http://svsoc.org/wp-login.php 11 11
+http://svsoc.org/favicon.ico 11 11
+http://www.svsoc.org 6 6
+http://107.180.21.57:80 5 5
+https://www.svsoc.org 4 4
+http://www.gumbo.com 4 4
+https://svsoc.org/favicon.ico 4 4
+http://svsoc.org/robots.txt 4 4
+http://svsoc.org/humans.txt 4 4
+http://svsoc.org/ads.txt 4 4
+http://www.ststephensbayarea.org 4 4
+https://m.facebook.com 3 3
+http://svsoc.org 1 1
+http://svsoc.org/blogs/wp-includes/js/wp-pointer.js 1 1
+http://svsoc.org/new 1 1
+http://svsoc.org/wordpress/ 1 1
+http://svsoc.org/old 1 1
+http://svsoc.org/main 1 1
+http://svsoc.org/home 1 1
+http://m.facebook.com 1 1
+http://svsoc.org:80 1 1
+http://svsoc.org/backup 1 1
+http://svsoc.org/bc 1 1
+http://svsoc.org/wp 1 1
+http://svsoc.org/blog/ 1 1
+https://svsoc.org:443 1 1
+http://svsoc.org/bk 1 1
+https://svsoc.org 1 1
+http://svsoc.org/wordpress 1 1
+http://www.ststephensbayarea.com 1 1
+http://STSTEPHENSBAYAREA.COM 1 1
+https://addishiwotevangelicalchurch.com/about 1 1
+https://www.wpstart.xyz 1 1
+http://STSTEPHENSBAYAREA.ORG 1 1
+http://svsoc.org/blog/readme.html 1 1
+http://svsoc.org/wp/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+site+www.svsoc.org 10
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+site 10
+www.svsoc.org 10
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 6 0
+404 3420 0
+421 1 322
+206 66 391346
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 977
+/defau1t.php 4 www.bing.com
+/ctl/login.php 2 https://ststephenssanjose.org/ctl/login.php
+/ALFA_DATA/alfacgiapi 1 -
+/wp-content/plugins/nd-booking/readme.txt 2 https://www.google.com
+/getConfig/getArticle.do 4 https://ststephenssanjose.org/getConfig/getArticle.do
+/wp-includes/wp-shield-icon-manager.php 2 -
+/wp-class-xml.php 2 -
+/fox.php 2 -
+/wp-includes/wso.php 2 -
+/static/m_text.png 2 https://ststephenssanjose.org/static/m_text.png
+/ok.php 1 -
+/views/commData/commonSite.js 2 https://ststephenssanjose.org/views/commData/commonSite.js
+/kkrps/im_group/show_members 2 https://ststephenssanjose.org/kkrps/im_group/show_members
+/Content/Wap/base.css 2 https://ststephenssanjose.org/Content/Wap/base.css
+/api/v8.common/speed 2 https://ststephenssanjose.org/api/v8.common/speed
+/100.php 3 -
+/api/customerServiceLink 2 https://ststephenssanjose.org/api/customerServiceLink
+/static/home/imgs/jkjl.png 2 https://ststephenssanjose.org/static/home/imgs/jkjl.png
+/wp-content/plugins/wpconfig.bak.php 5 www.bing.com
+/wp-admin/alfacgiapi 4 www.bing.com
+/v.php 1 -
+/mobile21/js/index/gameManagement.js 2 https://ststephenssanjose.org/mobile21/js/index/gameManagement.js
+/Public/home/js/fukuang.js 2 https://ststephenssanjose.org/Public/home/js/fukuang.js
+/loan/css/index.css 2 https://ststephenssanjose.org/loan/css/index.css
+/wp-includes/class-wp-page-icon.php 13 -
+/b.php 3 -
+/wp-load.php 4 www.bing.com
+/res/kuai/21.css 2 https://ststephenssanjose.org/res/kuai/21.css
+/index.php 1 https://ststephenssanjose.org/index.php
+/index/images/tradeicon.png 2 https://ststephenssanjose.org/index/images/tradeicon.png
+/static/customer/js/xiaotian.cli.v2.js 2 https://ststephenssanjose.org/static/customer/js/xiaotian.cli.v2.js
+/js/main.js 2 https://ststephenssanjose.org/js/main.js
+/new.php 1 -
+/m/env.js 2 https://ststephenssanjose.org/m/env.js
+/detail6/image/sjrz.png 2 https://ststephenssanjose.org/detail6/image/sjrz.png
+/s.php 1 -
+/index/open/login.html 2 https://ststephenssanjose.org/index/open/login.html
+/wp-includes/class-wp-query-href.php 2 -
+/wp-file.php 1 -
+/index_files/bankCheck.js 2 https://ststephenssanjose.org/index_files/bankCheck.js
+/wp-content/uploads/alfacgiapi 3 www.bing.com
+/v2/block/home/app/hot 2 https://ststephenssanjose.org/v2/block/home/app/hot
+/wap 2 https://ststephenssanjose.org/wap
+/static/home/css/css.css 2 https://ststephenssanjose.org/static/home/css/css.css
+/detaila/images/logo.png 2 https://ststephenssanjose.org/detaila/images/logo.png
+/api/contactWay 2 https://ststephenssanjose.org/api/contactWay
+/bapi/st/news/ 2 https://ststephenssanjose.org/bapi/st/news/
+/wap/static//images/index_tzjr.png 1 https://ststephenssanjose.org/wap/static//images/index_tzjr.png
+/static/data/thirdgames.json 2 https://ststephenssanjose.org/static/data/thirdgames.json
+/404.php 4 -
+/website-sitemap.xml 2 -
+/q.php 1 -
+/static/home/css/new_cfb.css 2 https://ststephenssanjose.org/static/home/css/new_cfb.css
+/home/banner/getLogo 2 https://ststephenssanjose.org/home/banner/getLogo
+/apiApp/app/site/info 2 https://ststephenssanjose.org/apiApp/app/site/info
+/wp-includes/class-wordpress-cloud.php 2 -
+/2.php 3 -
+/api/v1/about 2 https://ststephenssanjose.org/api/v1/about
+/api/config/getwebsitename 2 https://ststephenssanjose.org/api/config/getwebsitename
+/shells.php 4 www.bing.com
+/wp-content/alfacgiapi 3 www.bing.com
+/api/mstock/getsystemprivate 2 https://ststephenssanjose.org/api/mstock/getsystemprivate
+/wp-content/wordpress-index-keyword.php 3 -
+/proxy/games 2 https://ststephenssanjose.org/proxy/games
+/static/v2/css/index.css 2 https://ststephenssanjose.org/static/v2/css/index.css
+/wp-login.php 16 http://ststephenssanjose.org/wp-login.php
+/wp-includes/cwp-jespos.php 2 -
+/zz2/address.php 2 https://ststephenssanjose.org/zz2/address.php
+//test/wp-includes/wlwmanifest.xml 5 -
+/media/system/js/core.js 9 http://ststephenssanjose.org/media/system/js/core.js
+/phpinfo.php 3 -
+/wp-config.txt 1 -
+/getConfig/listPopFrame.do 4 https://ststephenssanjose.org/getConfig/listPopFrame.do
+/api/system/system/config/get 2 https://ststephenssanjose.org/api/system/system/config/get
+/static/common/js/vant/vant.min.js 2 https://ststephenssanjose.org/static/common/js/vant/vant.min.js
+/sites/default/files/ALFA_DATA 4 www.bing.com
+/xianyu/image/jiantou.png 2 https://ststephenssanjose.org/xianyu/image/jiantou.png
+/jym-wn/ 2 https://ststephenssanjose.org/jym-wn/
+/bypass.php 3 -
+/Content/common/web/CommonActivity.css 2 https://ststephenssanjose.org/Content/common/web/CommonActivity.css
+/uploads/20210928/01737e4f85f971bdf4d892dfaee6579c.png 2 https://ststephenssanjose.org/uploads/20210928/01737e4f85f971bdf4d892dfaee6579c.png
+/service 2 https://ststephenssanjose.org/service
+/wp-includes/wp-shield-icon-managed.php 2 -
+/x.php 6 -
+/wordpress/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/larva.php 1 anonymousfox.co
+//wp/wp-includes/wlwmanifest.xml 5 -
+/wp-admin/fx.php 1 -
+/wp-includes/lfx.php 1 anonymousfox.co
+/u.php 1 -
+/lanren/css/global.css 2 https://ststephenssanjose.org/lanren/css/global.css
+/mobile 2 https://ststephenssanjose.org/mobile
+/dist/images/mask/bg1.jpg 2 https://ststephenssanjose.org/dist/images/mask/bg1.jpg
+/assets/shebao/banner.png 2 https://ststephenssanjose.org/assets/shebao/banner.png
+/index/gzid.js 2 https://ststephenssanjose.org/index/gzid.js
+/blog/ 1 http://ststephenssanjose.org/blog/
+/index/ 2 https://ststephenssanjose.org/index/
+/humans.txt 4 http://ststephenssanjose.org/humans.txt
+/public/static/index/picture/img_33.png 2 https://ststephenssanjose.org/public/static/index/picture/img_33.png
+/wp-includes/wp-atom.php 4 www.bing.com
+/backup 1 http://ststephenssanjose.org/backup
+/wap/ 4 https://ststephenssanjose.org/wap/
+/api/GetConfigByKeys 2 https://ststephenssanjose.org/api/GetConfigByKeys
+/adminer.php 4 -
+/mtja.html 2 https://ststephenssanjose.org/mtja.html
+/js/options.js 2 https://ststephenssanjose.org/js/options.js
+/index/login/index.html 2 https://ststephenssanjose.org/index/login/index.html
+/wp-content/themes/seotheme/mar.php 5 -
+/.sitemap.xml 1 -
+/css/nsc/reset.css 2 https://ststephenssanjose.org/css/nsc/reset.css
+/wp-includes/class-wp-double.php 2 -
+/img/xxing.png 2 https://ststephenssanjose.org/img/xxing.png
+/assets/images/dy.jpg 2 https://ststephenssanjose.org/assets/images/dy.jpg
+/wp-includes/wp-class.php 8 www.bing.com
+/blog/readme.html 1 http://ststephenssanjose.org/blog/readme.html
+/n/news/banner 2 https://ststephenssanjose.org/n/news/banner
+/sitemap/sitemap-index.xml 1 -
+/cms/wp-admin/install.php 1 -
+/js/bk.min.js 2 https://ststephenssanjose.org/js/bk.min.js
+/e.php 2 -
+/wp-includes/wlwmanifest.xml 4 http://ststephenssanjose.org/wp-includes/wlwmanifest.xml
+/wp-content/uploads/ALFA_DATA 3 www.bing.com
+/wp-content/plugins/e-signature/page-template/default/style.css 2 https://www.google.com
+/index/police/index.html 2 https://ststephenssanjose.org/index/police/index.html
+/api/link/platform 4 https://ststephenssanjose.org/api/link/platform
+/mobile/css/base.css 2 https://ststephenssanjose.org/mobile/css/base.css
+/sites/default/files/alfacgiapi 4 www.bing.com
+/1index.php 15 -
+/index/user/get_server_info 2 https://ststephenssanjose.org/index/user/get_server_info
+/wp-content/plugins/superlogoshowcase-wp/css/sls-wp-admin.css 2 https://www.google.com
+/css/skin/ymPrompt.css 2 https://ststephenssanjose.org/css/skin/ymPrompt.css
+/ads.txt 69 http://ststephenssanjose.org/ads.txt
+/moduless.php 5 www.bing.com
+/doc.php 7 -
+/wp-content/plugins/config.bak.php 1 anonymousfox.co
+/a.php 7 www.bing.com
+/wp-content/export.php 3 www.bing.com
+/js/config.js 2 https://ststephenssanjose.org/js/config.js
+/wordpress 1 http://ststephenssanjose.org/wordpress
+/melody/api/v1/pageconfig/list 2 https://ststephenssanjose.org/melody/api/v1/pageconfig/list
+/img/zllqdk.png 2 https://ststephenssanjose.org/img/zllqdk.png
+/mobile/lists.html 2 https://ststephenssanjose.org/mobile/lists.html
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/resources/main/common.js 2 https://ststephenssanjose.org/resources/main/common.js
+/step1.asp 2 https://ststephenssanjose.org/step1.asp
+/wp-info.php 2 -
+/wp-content/plugins/shortcode-addons/readme.txt 2 https://www.google.com
+/phpinfo.php.bak 2 -
+/wp-1ogin_bak.php 1 anonymousfox.co
+/proxy/settings 2 https://ststephenssanjose.org/proxy/settings
+/wp-system-opencloud.php 2 -
+/xl.php 1 -
+/app/ 4 https://ststephenssanjose.org/app/
+/api/getconfig.aspx 2 https://ststephenssanjose.org/api/getconfig.aspx
+/wp-includes/wp-shiel-icon-managed.php 2 -
+/static/home/csjs/bankCheck.js 2 https://ststephenssanjose.org/static/home/csjs/bankCheck.js
+/Home/Bind/binding 2 https://ststephenssanjose.org/Home/Bind/binding
+/static/common/icon/shimin.png 2 https://ststephenssanjose.org/static/common/icon/shimin.png
+/Template/Mobile/js/main.js 2 https://ststephenssanjose.org/Template/Mobile/js/main.js
+/wp-content/plugins/wp-file-manager-pro/lib/php/connector.minimal.php 1 www.google.com
+/wp-admin/css/fw.php 1 -
+/phone/images/icon_01.png 2 https://ststephenssanjose.org/phone/images/icon_01.png
+/wp-commentin.php 10 -
+/wp-content/plugins/t_file_wp/t_file_wp.php 1 anonymousfox.co
+/api/help_documents/nitice_list 2 https://ststephenssanjose.org/api/help_documents/nitice_list
+/wp-content/themes/satoshi/styles/functions.css 2 -
+/api/site/getInfo.do 2 https://ststephenssanjose.org/api/site/getInfo.do
+/v6/getAppContent 2 https://ststephenssanjose.org/v6/getAppContent
+//feed/ 1 -
+/wp-content/themes/workreap/style.css 1 https://www.google.com
+/source/20220119/static/wap/css/trade-history.css 2 https://ststephenssanjose.org/source/20220119/static/wap/css/trade-history.css
+/api/v1/member/kefu 2 https://ststephenssanjose.org/api/v1/member/kefu
+/wp-includes/class-wp-session-href.php 2 -
+/jiaoyimao/default.css 2 https://ststephenssanjose.org/jiaoyimao/default.css
+/detaila/js/ntkfstat.js 2 https://ststephenssanjose.org/detaila/js/ntkfstat.js
+/Public/Home/js/common.js 2 https://ststephenssanjose.org/Public/Home/js/common.js
+/wp-content/plugins/ait-csv-import-export/changelog.txt 2 https://www.google.com
+/Scripts/common.js 2 https://ststephenssanjose.org/Scripts/common.js
+/index/wodedingdan.png 2 https://ststephenssanjose.org/index/wodedingdan.png
+/dup-installer/main.installer.php 1 http://ststephenssanjose.org/dup-installer/main.installer.php
+/js/lang.js 2 https://ststephenssanjose.org/js/lang.js
+/xy/image/jiantou.png 2 https://ststephenssanjose.org/xy/image/jiantou.png
+/admin/.env 4 -
+/login.html 4 https://ststephenssanjose.org/login.html
+/Content/css/wzwstylel.css 2 https://ststephenssanjose.org/Content/css/wzwstylel.css
+/public/wap/js/basis.js 2 https://ststephenssanjose.org/public/wap/js/basis.js
+/static/images/login_bg.jpg 2 https://ststephenssanjose.org/static/images/login_bg.jpg
+/wp-content/config.bak.php 1 anonymousfox.co
+/app/common/getRegisterSet 2 https://ststephenssanjose.org/app/common/getRegisterSet
+/im/h5/ 2 https://ststephenssanjose.org/im/h5/
+/images/remen.png 2 https://ststephenssanjose.org/images/remen.png
+/wp-admin/maint/about.php 1 -
+/static/js/config.js 2 https://ststephenssanjose.org/static/js/config.js
+/wp-admin/xleet.php 1 -
+/wp-admin/setup-config.php 1 -
+/wp-content/plugins/vc-tabs/readme.txt 2 https://www.google.com
+/blogs/wp-includes/js/wp-pointer.js 1 http://ststephenssanjose.org/blogs/wp-includes/js/wp-pointer.js
+/logo.png 2 https://ststephenssanjose.org/logo.png
+/css/main.css 2 https://ststephenssanjose.org/css/main.css
+/blog/xmlrpc.php 1 -
+/template/css/login.css 2 https://ststephenssanjose.org/template/css/login.css
+/wp-includes/class-wp-post-link.php 2 -
+/wp-includes/css/css.php 5 www.bing.com
+/w.php 1 -
+/alf.php 3 -
+/p.php 1 -
+/wp-content/plugins/quiz-master-next/readme.txt 2 https://www.google.com
+/Public/initJs.php 2 https://ststephenssanjose.org/Public/initJs.php
+/anquan/qgga.asp 2 https://ststephenssanjose.org/anquan/qgga.asp
+/assets/source/list.css 2 https://ststephenssanjose.org/assets/source/list.css
+/site/get-hq 2 https://ststephenssanjose.org/site/get-hq
+/api/vue/transaction/config 2 https://ststephenssanjose.org/api/vue/transaction/config
+/new/wp-admin/install.php 1 -
+/wp-content/ 1 -
+/y.php 1 -
+/view-source: 1 -
+/wp-admin/priv8.php 1 -
+/Public/Home/ecshe_css/main.css 2 https://ststephenssanjose.org/Public/Home/ecshe_css/main.css
+/Alfa.php 3 -
+/stock2c1/api/site/getInfo.do 2 https://ststephenssanjose.org/stock2c1/api/site/getInfo.do
+/wp-plain.php 3 www.google.com
+/mobile/config.js 2 https://ststephenssanjose.org/mobile/config.js
+/wp-content/wp-1ogin_bak.php 1 anonymousfox.co
+/other/codepay/js/codepay_util.js 2 https://ststephenssanjose.org/other/codepay/js/codepay_util.js
+/static/config.js 2 https://ststephenssanjose.org/static/config.js
+/saconfig/secure/yunwei.js 2 https://ststephenssanjose.org/saconfig/secure/yunwei.js
+/mstock 2 https://ststephenssanjose.org/mstock
+/api/hevent 2 https://ststephenssanjose.org/api/hevent
+/client/static/icon/hangqingicon.png 2 https://ststephenssanjose.org/client/static/icon/hangqingicon.png
+/alfacgiapi/perl.alfa 3 www.google.com
+/wso1.php 1 -
+/wp-content/plugins/woocommerce-jetpack/readme.txt 2 https://www.google.com
+/api/uploads/apimap 2 https://ststephenssanjose.org/api/uploads/apimap
+/ws.php 1 -
+/resources/css/headernav.css 2 https://ststephenssanjose.org/resources/css/headernav.css
+/wp-content/fw.php 2 -
+/api/client/home_project_list 2 https://ststephenssanjose.org/api/client/home_project_list
+/alfindex.php 1 anonymousfox.co
+/wp-content/0z.php 1 -
+/wp-content/plugins/wp-file-manager/readme.txt 2 https://www.google.com
+/static/index/css/iindex.css 2 https://ststephenssanjose.org/static/index/css/iindex.css
+/static/common/js/common.js 2 https://ststephenssanjose.org/static/common/js/common.js
+/wp-content/plugins/nd-restaurant-reservations/readme.txt 2 https://www.google.com
+/client/api/findConfigByKey 2 https://ststephenssanjose.org/client/api/findConfigByKey
+/o.php 1 -
+/aws.yml 2 -
+/s_e.php 3 www.bing.com
+/js/base1.js 2 https://ststephenssanjose.org/js/base1.js
+/js/pups.js 2 https://ststephenssanjose.org/js/pups.js
+/v1/management/tenant/getSpeedDomain 2 https://ststephenssanjose.org/v1/management/tenant/getSpeedDomain
+/api/config/info 2 https://ststephenssanjose.org/api/config/info
+/wikindex.php 5 -
+/ph_acquireSession 2 https://ststephenssanjose.org/ph_acquireSession
+//wp-includes/ID3/license.txt 1 -
+/alfashell.php 3 -
+/static/mobile/user.html 2 https://ststephenssanjose.org/static/mobile/user.html
+/config 2 https://ststephenssanjose.org/config
+/wp-content/plugins/advanced-import/readme.txt 2 https://www.google.com
+/wap/static/images/index_tzjr.png 1 http://ststephenssanjose.org/wap/static//images/index_tzjr.png
+/config/aws.yml 2 -
+/im/ 2 https://ststephenssanjose.org/im/
+/wp-content/uploads/cgialfa 4 www.bing.com
+/haxor.php 2 -
+/assets/extension/market/css/mt4.css 2 https://ststephenssanjose.org/assets/extension/market/css/mt4.css
+/wp-admin/ALFA_DATA 4 www.bing.com
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 2 https://www.google.com
+/wp-admin/admin-post.php 2 www.google.com
+/main 3 https://ststephenssanjose.org/main
+/api/linkPF 4 https://ststephenssanjose.org/api/linkPF
+/wp-content/plugins/ubh/up.php 5 www.bing.com
+/403.php 4 -
+/.well-known/cgialfa 3 www.bing.com
+/admin/config/search/xmlsitemap 1 -
+/homes/ 4 https://ststephenssanjose.org/homes/
+/img/login.png 2 https://ststephenssanjose.org/img/login.png
+/api/message/webInfo 2 https://ststephenssanjose.org/api/message/webInfo
+/wp-content/plugins/super-interactive-maps/css/sim-wp-admin.css 2 https://www.google.com
+/api/mobile/checkStrategyHistory 2 https://ststephenssanjose.org/api/mobile/checkStrategyHistory
+/wap/trading/lastKlineParameter 2 https://ststephenssanjose.org/wap/trading/lastKlineParameter
+/xindex.php 1 www.bing.com
+/static/wap/css/common.css 2 https://ststephenssanjose.org/static/wap/css/common.css
+/api/shares/hqStrList 2 https://ststephenssanjose.org/api/shares/hqStrList
+/wp-content/plugins/simply-schedule-appointments/readme.txt 1 https://www.google.com
+/site/api/v1/site/vipExclusiveDomain/getGuestDomain 2 https://ststephenssanjose.org/site/api/v1/site/vipExclusiveDomain/getGuestDomain
+/js/tvConfig.js 2 https://ststephenssanjose.org/js/tvConfig.js
+/wp-includes/system-reboot.php 2 -
+/wp-includes/alfacgiapi 4 www.bing.com
+/wp-admin/css/ 12 binance.com
+/home/login.jpg 2 https://ststephenssanjose.org/home/login.jpg
+/phalapi/public/ 4 https://ststephenssanjose.org/phalapi/public/
+/style.php 6 www.bing.com
+/sitemap.xml.gz 1 -
+/style.css 2 https://ststephenssanjose.org/style.css
+/api/product/topRank 2 https://ststephenssanjose.org/api/product/topRank
+/root.php 1 -
+/lock360.php 1 www.bing.com
+/public/web/css/add/index.css 1 http://ststephenssanjose.org/public/web/css/add//index.css
+/api/currency/quotation_new 2 https://ststephenssanjose.org/api/currency/quotation_new
+/wp-config.inc 1 -
+/wp-includes/shell20211028.php 3 www.google.com
+/wp/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 4 www.google.com
+/wp-content/themes/theagency/includes/uploadify/uploadify.css 2 -
+/admin/controller/extension/extension/cgialfa 3 www.bing.com
+/data/json/config.json 2 https://ststephenssanjose.org/data/json/config.json
+/utchiha.php 1 -
+/skin/main/onload.js 2 https://ststephenssanjose.org/skin/main/onload.js
+//website/wp-includes/wlwmanifest.xml 4 -
+/apple-app-site-association 5 -
+/wp-blog.php 1 -
+//.env 3 -
+/blog/wp-admin/install.php 1 -
+/wso.php 6 -
+/wp-includes/config.bak.php 1 anonymousfox.co
+/template/js/comm/Confrim.js 2 https://ststephenssanjose.org/template/js/comm/Confrim.js
+/wordpress/wp-admin/install.php 2 -
+/wp-content/plugins/all-in-one-video-gallery/readme.txt 1 https://www.google.com
+/wp-includes/class-wp-http-socket.php 2 -
+/static/home/imgs/pico.png 2 https://ststephenssanjose.org/static/home/imgs/pico.png
+/Pc/Lang/index.html 2 https://ststephenssanjose.org/Pc/Lang/index.html
+/km.asmx/getPlatParam 2 https://ststephenssanjose.org/km.asmx/getPlatParam
+/test/wp-admin/install.php 1 -
+/shell.php 5 www.bing.com
+/static/css/index.css 2 https://ststephenssanjose.org/static/css/index.css
+/img/phonetrackeronline.png 2 https://ststephenssanjose.org/img/phonetrackeronline.png
+/static/content.html 2 https://ststephenssanjose.org/static/content.html
+/newApp/winMessTopQuery.php 2 https://ststephenssanjose.org/newApp/winMessTopQuery.php
+/wp-content/plugins/armember-membership/readme.txt 2 https://www.google.com
+/_ignition/health-check/ 3 http://ststephenssanjose.org/_ignition/health-check/
+/goods.php 2 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/.vscode/sftp.json 1 -
+/site/wp-admin/install.php 1 -
+//sito/wp-includes/wlwmanifest.xml 4 -
+/login/img/nyyh/chkjs.js 2 https://ststephenssanjose.org/login/img/nyyh/chkjs.js
+/static/home/css/feiqi-ee5401a8e6.css 2 https://ststephenssanjose.org/static/home/css/feiqi-ee5401a8e6.css
+/wp-content/plugins/capability-manager-enhanced/readme.txt 2 https://www.google.com
+/k.php 1 -
+/appxz/index.html 2 https://ststephenssanjose.org/appxz/index.html
+/admin.php 3 -
+/s_api/basic/download/info 2 https://ststephenssanjose.org/s_api/basic/download/info
+/oldsite/wp-admin/install.php 1 -
+/lottery/lottery_list 2 https://ststephenssanjose.org/lottery/lottery_list
+/images/about.php 1 -
+/portal/index/protocol.html 2 https://ststephenssanjose.org/portal/index/protocol.html
+/l.php 1 -
+/.well-known/ 12 binance.com
+/index/psbc/signText 2 https://ststephenssanjose.org/index/psbc/signText
+/wp-content/plugins/emails-verification-for-woocommerce/readme.txt 2 https://www.google.com
+/dist/images/mask/guide/cn/step1.jpg 2 https://ststephenssanjose.org/dist/images/mask/guide/cn/step1.jpg
+/api/user/ismustmobile 4 https://ststephenssanjose.org/api/user/ismustmobile
+//news/wp-includes/wlwmanifest.xml 4 -
+/static/wap/css/index.css 2 https://ststephenssanjose.org/static/wap/css/index.css
+/.well-known/traffic-advice 3 -
+/wp/ 1 http://ststephenssanjose.org/wp/
+/api/Index/getLottery 2 https://ststephenssanjose.org/api/Index/getLottery
+/api/default/login-page 2 https://ststephenssanjose.org/api/default/login-page
+//2019/wp-includes/wlwmanifest.xml 5 -
+/wp-content/wp-file-config-examples.php 1 -
+/media-admin.php 4 www.bing.com
+/wp-includes/wp-system-cloud.php 11 -
+/WSO.php 3 -
+/cgialfa 3 www.bing.com
+/mmj/index.html 2 https://ststephenssanjose.org/mmj/index.html
+/skin/js/common.js 2 https://ststephenssanjose.org/skin/js/common.js
+/assets/mstock/newimg/guid-info.png 2 https://ststephenssanjose.org/assets/mstock/newimg/guid-info.png
+/app/config/getConfig 2 https://ststephenssanjose.org/app/config/getConfig
+/public/css/style.css 2 https://ststephenssanjose.org/public/css/style.css
+/wp-admin/install.php 2 -
+/api/v1/cocos/version 2 https://ststephenssanjose.org/api/v1/cocos/version
+/api/apps 2 https://ststephenssanjose.org/api/apps
+/wp-content/themes/purevision/scripts/admin/uploadify/uploadify.css 4 -
+/static/common/icon/zhuanru.png 2 https://ststephenssanjose.org/static/common/icon/zhuanru.png
+/wp-config.old 1 -
+/static/img/logo.1a41f6387d69.svg 37 -
+/wp-admin/radio.php 1 -
+/api/config 2 https://ststephenssanjose.org/api/config
+/ALFA_DATA/alfacgiapi/perl.alfa 3 www.google.com
+/wp-content/plugins/seoplugins/mar.php 2 -
+/public/web/css/add//index.css 1 https://ststephenssanjose.org/public/web/css/add//index.css
+/administrator/index.php 1 -
+/wp_wrong_datlib.php 7 -
+/radio.php 14 -
+/wp-content/cgialfa 3 www.bing.com
+/Home/GetInitSource 2 https://ststephenssanjose.org/Home/GetInitSource
+/home/help 2 https://ststephenssanjose.org/home/help
+/common.js 2 https://ststephenssanjose.org/common.js
+/wp-admin/config.bak.php 1 anonymousfox.co
+//wordpress/wp-includes/wlwmanifest.xml 5 -
+/2index.php 10 -
+/m/ 4 https://ststephenssanjose.org/m/
+/m 2 https://ststephenssanjose.org/m
+/qindex.php 1 www.bing.com
+/13.php 3 -
+/test.php 5 www.bing.com
+/wp-content/plugins/tatsu/changelog.md 2 https://www.google.com
+//blog/wp-includes/wlwmanifest.xml 5 -
+/wp-includes/fonts/css.php 1 anonymousfox.co
+/files/pub_reset.css 2 https://ststephenssanjose.org/files/pub_reset.css
+/us/img/nyyh/chkjs.js 2 https://ststephenssanjose.org/us/img/nyyh/chkjs.js
+/ajax 2 https://ststephenssanjose.org/ajax
+/static/local/img/userCenter/hourlyPrivilege.svg 2 https://ststephenssanjose.org/static/local/img/userCenter/hourlyPrivilege.svg
+/resource/home/js/common.js 2 https://ststephenssanjose.org/resource/home/js/common.js
+/yinjian/ 2 https://ststephenssanjose.org/yinjian/
+/assets/mstock/newimg/guid-title.png 2 https://ststephenssanjose.org/assets/mstock/newimg/guid-title.png
+/res/kuai/1.css 2 https://ststephenssanjose.org/res/kuai/1.css
+/wp-admin/fw.php 1 -
+/Public/Home/js/cls.js 2 https://ststephenssanjose.org/Public/Home/js/cls.js
+/public/403.php 1 -
+/resource/home/css/person.css 2 https://ststephenssanjose.org/resource/home/css/person.css
+/new/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/wp-content/plugins/mapsvg-lite-interactive-vector-maps/gm_download.php 2 https://www.google.com
+/wp 1 http://ststephenssanjose.org/wp
+/Public/Wchat/js/cvphp.js 2 https://ststephenssanjose.org/Public/Wchat/js/cvphp.js
+/images/src_images_but_dianz_s.png 2 https://ststephenssanjose.org/images/src_images_but_dianz_s.png
+/small.php 1 -
+/sftp-config.json 1 -
+/f.php 2 -
+/assets/AssetManifest.json 2 https://ststephenssanjose.org/assets/AssetManifest.json
+/static/idcard3.png 2 https://ststephenssanjose.org/static/idcard3.png
+/xxx.php 1 -
+/api/ht/xy1 2 https://ststephenssanjose.org/api/ht/xy1
+/static/admincp/js/common.js 2 https://ststephenssanjose.org/static/admincp/js/common.js
+/s_api/basic/config_js 2 https://ststephenssanjose.org/s_api/basic/config_js
+/api/v/index/queryOfficePage 2 https://ststephenssanjose.org/api/v/index/queryOfficePage
+/public/static/css/public.css 2 https://ststephenssanjose.org/public/static/css/public.css
+/wp-content/plugins/nd-donations/readme.txt 2 https://www.google.com
+/standalone.html 2 https://ststephenssanjose.org/standalone.html
+/template/mb/lang/text-zh.json 2 https://ststephenssanjose.org/template/mb/lang/text-zh.json
+/template/tmp1/js/common.js 2 https://ststephenssanjose.org/template/tmp1/js/common.js
+/new/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/detaila/images/h_v33_i.png 2 https://ststephenssanjose.org/detaila/images/h_v33_i.png
+/biz/server/config 2 https://ststephenssanjose.org/biz/server/config
+/api/.env 4 -
+//wp-22.php 1 -
+/leftDao.php 2 https://ststephenssanjose.org/leftDao.php
+/Buy/Index/getCardListByType 2 https://ststephenssanjose.org/Buy/Index/getCardListByType
+/wp-content/plugins/masterstudy-lms-learning-management-system/readme.txt 2 https://www.google.com
+/common/template/lottery/lecai/css/style.css 2 https://ststephenssanjose.org/common/template/lottery/lecai/css/style.css
+/sh.php 1 -
+/api/index/webconfig 2 https://ststephenssanjose.org/api/index/webconfig
+/Home/GetAllGameCategory 2 https://ststephenssanjose.org/Home/GetAllGameCategory
+//site/wp-includes/wlwmanifest.xml 5 -
+/code/js/config.js 2 https://ststephenssanjose.org/code/js/config.js
+/home/main/login 2 https://ststephenssanjose.org/home/main/login
+/archives.php 4 www.bing.com
+/entry/login 2 https://ststephenssanjose.org/entry/login
+/blog/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/css/all.css 2 https://ststephenssanjose.org/css/all.css
+/0.php 3 -
+/beence.php 4 www.bing.com
+/static/css/mobile.css 2 https://ststephenssanjose.org/static/css/mobile.css
+/wp-content/wp-admin.php 1 -
+/.env.bak 2 -
+/Public/home/wap/css/qdgame.css 2 https://ststephenssanjose.org/Public/home/wap/css/qdgame.css
+/static/wap/js/common.js 2 https://ststephenssanjose.org/static/wap/js/common.js
+/login/kefuxian.mvc 2 https://ststephenssanjose.org/login/kefuxian.mvc
+/olux.php 4 www.bing.com
+/blog.php 3 -
+/index/login/reg.html 2 https://ststephenssanjose.org/index/login/reg.html
+/checktoken 2 https://ststephenssanjose.org/checktoken
+/error.php 4 www.bing.com
+/api/Index/getLangCfg 2 https://ststephenssanjose.org/api/Index/getLangCfg
+/wp-2019.php 1 -
+/js/common.js 2 https://ststephenssanjose.org/js/common.js
+/s_ne.php 4 www.bing.com
+/api/apps/config 2 https://ststephenssanjose.org/api/apps/config
+/wp-class.php 1 -
+/api/web/user/getIndexData.php 2 https://ststephenssanjose.org/api/web/user/getIndexData.php
+/1.php 8 -
+/api/user/dataDictionaryService/list 2 https://ststephenssanjose.org/api/user/dataDictionaryService/list
+/0byte 3 -
+/wp-includes/wp-license.php 2 -
+/static/js/user.js 2 https://ststephenssanjose.org/static/js/user.js
+/site/info 2 https://ststephenssanjose.org/site/info
+//xmlrpc.php 5 -
+/wp-backup-sql-302.php 3 www.bing.com
+/Public/home/js/check.js 2 https://ststephenssanjose.org/Public/home/js/check.js
+/legal/currency/set 2 https://ststephenssanjose.org/legal/currency/set
+/wp-admin/rss.php 1 -
+/uploads/xleet.php 1 -
+/template/920ka/js/woodyapp.js 2 https://ststephenssanjose.org/template/920ka/js/woodyapp.js
+/index/login/login 2 https://ststephenssanjose.org/index/login/login
+/C.php 1 -
+/wp-content/plugins/ulisting/readme.txt 2 https://www.google.com
+/wp-content/about.php 1 -
+/js/post.js/ 2 https://ststephenssanjose.org/js/post.js/
+/wp-admin/includes/ 1 -
+/wp-includes/class-detect-spam.php 2 -
+/member/js/lang_zh_CN.js 2 https://ststephenssanjose.org/member/js/lang_zh_CN.js
+/js/bankCheck.js 2 https://ststephenssanjose.org/js/bankCheck.js
+/wp-includes/rss-meta.php 2 -
+/edit-form.php 2 -
+/api/index/setting 2 https://ststephenssanjose.org/api/index/setting
+/static/js/main.js 2 https://ststephenssanjose.org/static/js/main.js
+/index/login 2 https://ststephenssanjose.org/index/login
+/index/newapi/api 2 https://ststephenssanjose.org/index/newapi/api
+/index/home/login.html 2 https://ststephenssanjose.org/index/home/login.html
+/date.php 3 -
+/products.json 2 -
+/wp-includes/ALFA_DATA 4 www.bing.com
+/wp-content/mu-plugins-old/index.php 1 -
+/blog/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/about.php 8 -
+/magento_version 1 -
+/assets/app-manifest.json 2 https://ststephenssanjose.org/assets/app-manifest.json
+/client/api/findFreeTrade 2 https://ststephenssanjose.org/client/api/findFreeTrade
+/sdk.html 2 https://ststephenssanjose.org/sdk.html
+/admin/webadmin.php 2 https://ststephenssanjose.org/admin/webadmin.php
+/bc 1 http://ststephenssanjose.org/bc
+/otc/ 2 https://ststephenssanjose.org/otc/
+/mari.php 1 -
+/admin/controller/extension/extension/ALFA_DATA 4 www.bing.com
+/static/img/bitbeb-logo.png 2 https://ststephenssanjose.org/static/img/bitbeb-logo.png
+/assets/images/mobile/ic_launcher.png 2 https://ststephenssanjose.org/assets/images/mobile/ic_launcher.png
+/detail1/js/add.js 2 https://ststephenssanjose.org/detail1/js/add.js
+/pages/console/js/common.js 2 https://ststephenssanjose.org/pages/console/js/common.js
+/Recruit/download_url 2 https://ststephenssanjose.org/Recruit/download_url
+/wp-content/plugins/wp-live-chat-support-pro/css/wplc_styles_pro.css 2 https://www.google.com
+/api/ApiHub/fetchJinse 2 https://ststephenssanjose.org/api/ApiHub/fetchJinse
+/config.php 5 www.bing.com
+//wp2/wp-includes/wlwmanifest.xml 4 -
+/wp-content/plugins/wp-time-capsule/readme.txt 2 https://www.google.com
+/gtighmdo.php 1 www.google.com
+/getLocale 2 https://ststephenssanjose.org/getLocale
+/wp2.php 1 -
+/wp-content/plugins/dzs-zoomsounds/admin/admin.css 2 https://www.google.com
+/index/api/getconfig 2 https://ststephenssanjose.org/index/api/getconfig
+/202110/images/public.css 2 https://ststephenssanjose.org/202110/images/public.css
+/Application/Buy/Static/js/if.js 2 https://ststephenssanjose.org/Application/Buy/Static/js/if.js
+/export.php 3 www.bing.com
+/wp-plugins.php 3 www.bing.com
+/wp-admin/includes/class-wp-media-list-data.php 4 -
+/api/st/index/ 2 https://ststephenssanjose.org/api/st/index/
+/wap/trading/get_newallorder_ajax 2 https://ststephenssanjose.org/wap/trading/get_newallorder_ajax
+/wp-content/wp-include-map.php 3 -
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 1 anonymousfox.co
+/up.php 7 -
+/wp-content/plugins/udraw/readme.txt 2 https://www.google.com
+/home/GetQrCodeInfo 2 https://ststephenssanjose.org/home/GetQrCodeInfo
+/static/img/notices.png 2 https://ststephenssanjose.org/static/img/notices.png
+/rss.php 1 -
+/wp-admin/Fox-C404 1 -
+//web/wp-includes/wlwmanifest.xml 5 -
+/wp-content/wp-files-conficg.php 3 -
+/wp-content/plugins/mstore-api/readme.txt 2 https://www.google.com
+/1h6j5.php 1 -
+/wp-content/plugins/post-pdf-export/dompdf/dompdf.php 2 https://www.google.com
+/wp-content/plugins/image-hover-effects-ultimate/readme.txt 2 https://www.google.com
+/hetong/yq 2 https://ststephenssanjose.org/hetong/yq
+/static/imgs/game/green2.png 2 https://ststephenssanjose.org/static/imgs/game/green2.png
+/xianyu/ 2 https://ststephenssanjose.org/xianyu/
+/.well-known/apple-app-site-association 5 -
+/blog/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 4 www.google.com
+/wp-content/plugins/sitemap-by-click5/readme.txt 2 https://www.google.com
+/xmlrpc.php 4 -
+/sitemap-index.xml.gz 1 -
+/wp-content/themes/holding_pattern/admin/options-tab-sample.txt 2 -
+/web/wp-admin/install.php 1 -
+/1-200611214053U8.jpg 2 https://ststephenssanjose.org/1-200611214053U8.jpg
+/infe/rest/fig/advertise/common.json 2 https://ststephenssanjose.org/infe/rest/fig/advertise/common.json
+/old-index.php 2 www.bing.com
+/6/ 2 https://ststephenssanjose.org/6/
+/langConfig.js 2 https://ststephenssanjose.org/langConfig.js
+/sitemap_index.xml.gz 1 -
+/new/xmlrpc.php 1 -
+/wp-booking.php 5 www.bing.com
+/wp-includes/class-wordpress-license.php 13 -
+/banner.do 2 https://ststephenssanjose.org/banner.do
+/wp-content/db-cache.php 4 www.bing.com
+/wp-admin/cgialfa 4 www.bing.com
+/config.js 4 https://ststephenssanjose.org/config.js
+/assets/images/mobile/dou_charge_money_icon.png 2 https://ststephenssanjose.org/assets/images/mobile/dou_charge_money_icon.png
+/js/json.js 2 https://ststephenssanjose.org/js/json.js
+/admin/controller/extension/extension/alfacgiapi 3 www.bing.com
+/m.php 1 -
+/v1/getConfig 2 https://ststephenssanjose.org/v1/getConfig
+/c99.php 3 -
+/wp-content/plugins/wpcargo/readme.txt 2 https://www.google.com
+/templates/beez3/alfacgiapi 4 www.bing.com
+/detail5/css/details.css 2 https://ststephenssanjose.org/detail5/css/details.css
+/mobile/v3/appSuperDownload.do 2 https://ststephenssanjose.org/mobile/v3/appSuperDownload.do
+/wp-content/plugins/indeed-membership-pro/wpml-config.xml 1 -
+/_ignition/execute-solution 1 -
+/gank.php.PhP 4 www.bing.com
+/im/App/config 2 https://ststephenssanjose.org/im/App/config
+/index/webapi/service 2 https://ststephenssanjose.org/index/webapi/service
+/wp-content/plugins/wpgateway/images/lead-menu-icon.png 1 https://www.google.com
+/hello.php 2 -
+/site/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/wp-content/x.php 1 -
+/wp-includes/cwp-class-searcher.php 2 -
+/robots.txt 774 http://ststephenssanjose.org/robots.txt
+/wp-admin/admin-ajax.php 10 -
+/static/guide/ab.css 2 https://ststephenssanjose.org/static/guide/ab.css
+/fx.php 8 www.google.com
+/detaila/images/header_v1b.css 2 https://ststephenssanjose.org/detaila/images/header_v1b.css
+/xleet.php 5 www.bing.com
+/api/stock/getSingleStock.do 2 https://ststephenssanjose.org/api/stock/getSingleStock.do
+/static/data/configjs.js 2 https://ststephenssanjose.org/static/data/configjs.js
+/site/api/v1/configuration/onlinecustomservice 2 https://ststephenssanjose.org/site/api/v1/configuration/onlinecustomservice
+/wp-content/plugins/ioptimization/IOptimize.php 35 www.google.com
+/wp-content/uploads/upload_index.php 1 -
+/wp-includes/1index.php 1 -
+/hg556/js/main.js 2 https://ststephenssanjose.org/hg556/js/main.js
+/Public/css/hall.css 2 https://ststephenssanjose.org/Public/css/hall.css
+/m/ticker/usdtqc 2 https://ststephenssanjose.org/m/ticker/usdtqc
+/wp-includes/css/wp-config.php 4 www.bing.com
+/license.php 1 -
+/wp-includes/cgialfa 4 www.bing.com
+/wp-content/mu-plugins/db-safe-mode.php 5 www.bing.com
+/base/exchange_article/index/classid/1/id/1 2 https://ststephenssanjose.org/base/exchange_article/index/classid/1/id/1
+/Public/js/common.js 2 https://ststephenssanjose.org/Public/js/common.js
+/css/other.css 2 https://ststephenssanjose.org/css/other.css
+/sitemap.html 1 -
+/wp-admin/Panels.txt 1 -
+/mar.php 1 -
+/wp-content/ALFA_DATA 3 www.bing.com
+/im/in/GetUuid 2 https://ststephenssanjose.org/im/in/GetUuid
+/Home/Get/getJnd28 2 https://ststephenssanjose.org/Home/Get/getJnd28
+/trade/mobile/login.php 2 https://ststephenssanjose.org/trade/mobile/login.php
+/js/home.js 2 https://ststephenssanjose.org/js/home.js
+/wp-includes/class-wp-tanonomy.php 2 -
+/static/diff_worker.js 2 https://ststephenssanjose.org/static/diff_worker.js
+/assets/dist/static/js/vendor_prod.js 2 https://ststephenssanjose.org/assets/dist/static/js/vendor_prod.js
+/upload.php 6 -
+/index/index/login.html 2 https://ststephenssanjose.org/index/index/login.html
+/wp-content/plugins/nd-shortcodes/readme.txt 2 https://www.google.com
+/user/login.html 2 https://ststephenssanjose.org/user/login.html
+/.well-known/alfacgiapi 3 www.bing.com
+/room/script/face.js 2 https://ststephenssanjose.org/room/script/face.js
+/wp-content/plugins/directorist/readme.txt 1 https://www.google.com
+/api/index/grailindex 2 https://ststephenssanjose.org/api/index/grailindex
+/wordpress/xmlrpc.php 1 -
+/wp-content/plugins/mapsvg/gm_download.php 2 https://www.google.com
+/T9sA/static/image/t-06.jpg 2 https://ststephenssanjose.org/T9sA/static/image/t-06.jpg
+/wp-includes/class-wp-smtp-bar.php 2 -
+/_profiler/phpinfo 2 -
+/zxkj/js/customer-chat-widget.min.js 2 https://ststephenssanjose.org/zxkj/js/customer-chat-widget.min.js
+/assets/yibao/Nweshebao/img/icon2.png 2 https://ststephenssanjose.org/assets/yibao/Nweshebao/img/icon2.png
+/wp-includes/class-json-ajax-session.php 2 -
+/friendGroup/list 2 https://ststephenssanjose.org/friendGroup/list
+/h5/static/tabbar/txl.png 2 https://ststephenssanjose.org/h5/static/tabbar/txl.png
+/c.php 4 -
+/3index.php 2 www.bing.com
+/fePublicInfo/ 2 https://ststephenssanjose.org/fePublicInfo/
+/wp-content/wp.php 1 -
+/.well-known/ALFA_DATA 3 www.bing.com
+/api/im/conf 2 https://ststephenssanjose.org/api/im/conf
+/uis/app/get/config 2 https://ststephenssanjose.org/uis/app/get/config
+/static/v/v2/image/star.png 2 https://ststephenssanjose.org/static/v/v2/image/star.png
+/home/ 2 https://ststephenssanjose.org/home/
+/api/Game/getAppConfig 2 https://ststephenssanjose.org/api/Game/getAppConfig
+/csjs/bankCheck.js 2 https://ststephenssanjose.org/csjs/bankCheck.js
+/apiapp/Ygn_Girl.CityList 2 https://ststephenssanjose.org/apiapp/Ygn_Girl.CityList
+/Public/css/_pk10.css 2 https://ststephenssanjose.org/Public/css/_pk10.css
+/wp/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/test/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/thriveGame.css 2 https://ststephenssanjose.org/thriveGame.css
+/m/allticker/1 2 https://ststephenssanjose.org/m/allticker/1
+/Public/css/errorCss.css 2 https://ststephenssanjose.org/Public/css/errorCss.css
+/public/static/home/js/moblie/login.js 2 https://ststephenssanjose.org/public/static/home/js/moblie/login.js
+/a/other/codepay/js/codepay_util.js 2 https://ststephenssanjose.org/a/other/codepay/js/codepay_util.js
+/static/home/css/common.css 2 https://ststephenssanjose.org/static/home/css/common.css
+/misc/ajax.js 1 -
+/mg/other/codepay/js/codepay_util.js 2 https://ststephenssanjose.org/mg/other/codepay/js/codepay_util.js
+/api/lottery/color 2 https://ststephenssanjose.org/api/lottery/color
+/css/scanner.css 2 https://ststephenssanjose.org/css/scanner.css
+/Home/Index/ajaxTJ 2 https://ststephenssanjose.org/Home/Index/ajaxTJ
+/uploads/up.php 1 -
+/images/no.jpg 2 https://ststephenssanjose.org/images/no.jpg
+/alfa.php 9 -
+/bet/lotteryinfo/allLotteryInfoList 2 https://ststephenssanjose.org/bet/lotteryinfo/allLotteryInfoList
+/asset-manifest.json 1 https://ststephenssanjose.org/index.php
+/uploader.php 1 -
+/login 4 https://ststephenssanjose.org/login
+/wp-content/db_cache.php 1 anonymousfox.co
+/wp-content/plugins/woocommerce-upload-files/js/wcuf-admin-menu.js 2 https://www.google.com
+/api/notice 4 https://ststephenssanjose.org/api/notice
+/fw.php 10 -
+//wp-includes/wlwmanifest.xml 4 -
+/wp-admin/ALFA_DATA/alfacgiapi/ 1 -
+/wp-includes/small.php 1 anonymousfox.co
+/wp.php 8 -
+/defaul1.php 1 -
+/wp/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/wp-admin/Fox-C 1 -
+/api/im/v2/app/t 2 https://ststephenssanjose.org/api/im/v2/app/t
+/wp-content/wp-old-index.php 1 anonymousfox.co
+/source/20220119/static/wap/js/order.js 2 https://ststephenssanjose.org/source/20220119/static/wap/js/order.js
+/old/wp-admin/install.php 1 -
+/ajax/allcoin_a/id/0 2 https://ststephenssanjose.org/ajax/allcoin_a/id/0
+/assets/etc/query.css 2 https://ststephenssanjose.org/assets/etc/query.css
+/defau11.php 4 www.bing.com
+/site.js 2 https://ststephenssanjose.org/site.js
+/sitemap 59 -
+/assets/images/redian.jpg 2 https://ststephenssanjose.org/assets/images/redian.jpg
+/n.php 1 -
+/legion.php 5 www.bing.com
+/api/user/mobilelogin 2 https://ststephenssanjose.org/api/user/mobilelogin
+/static/Mobile/js/common.js 2 https://ststephenssanjose.org/static/Mobile/js/common.js
+/api/config-init 2 https://ststephenssanjose.org/api/config-init
+//shop/wp-includes/wlwmanifest.xml 5 -
+/wp-includes/css/buttons.css 14 http://ststephenssanjose.org/wp-includes/css/buttons.css
+/api/other/appSetting 2 https://ststephenssanjose.org/api/other/appSetting
+/4.php 3 -
+/wp-content/themes/seotheme/db.php 9 www.google.com
+/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 4 www.google.com
+/wpindex.php 1 anonymousfox.co
+/stock/mzhishu 2 https://ststephenssanjose.org/stock/mzhishu
+/wp-content/plugins/backup_index.php 5 www.bing.com
+/Templates/user/finance/css/userPay.css 2 https://ststephenssanjose.org/Templates/user/finance/css/userPay.css
+/kust/img/nyyh/chkjs.js 2 https://ststephenssanjose.org/kust/img/nyyh/chkjs.js
+//2020/wp-includes/wlwmanifest.xml 5 -
+/wp-content/plugins/themegrill-demo-importer/readme.txt 2 https://www.google.com
+/static/tabBar/trade.png 2 https://ststephenssanjose.org/static/tabBar/trade.png
+/js/xz.js 2 https://ststephenssanjose.org/js/xz.js
+/static/download/style.css 2 https://ststephenssanjose.org/static/download/style.css
+/backup/wp-admin/install.php 1 -
+/wp-includes/class-json-dependency-session.php 2 -
+/index 2 https://ststephenssanjose.org/index
+/api/index/config 2 https://ststephenssanjose.org/api/index/config
+/vuln.php 1 -
+/old 1 http://ststephenssanjose.org/old
+/.aws/credentials 2 -
+/zz/address.php 2 https://ststephenssanjose.org/zz/address.php
+/static/js/jump/go.js 2 https://ststephenssanjose.org/static/js/jump/go.js
+/.env 34 -
+/install.inc/vipsignInstall.css 2 https://ststephenssanjose.org/install.inc/vipsignInstall.css
+/02.php 1 -
+/kkrp/site/info 2 https://ststephenssanjose.org/kkrp/site/info
+/phpinfo 4 -
+/api/v2/config/index 2 https://ststephenssanjose.org/api/v2/config/index
+/index/aurl 2 https://ststephenssanjose.org/index/aurl
+/stock/search.html 2 https://ststephenssanjose.org/stock/search.html
+/views/home/home.js 2 https://ststephenssanjose.org/views/home/home.js
+/wp-includes/991176.php 1 -
+/jindex.php 1 -
+/uploads/admin/202103/60584c5b88017.png 2 https://ststephenssanjose.org/uploads/admin/202103/60584c5b88017.png
+/mindex.html 2 https://ststephenssanjose.org/mindex.html
+/files/pub_rem.js 2 https://ststephenssanjose.org/files/pub_rem.js
+/infe/rest/flash/getServerIP.json 2 https://ststephenssanjose.org/infe/rest/flash/getServerIP.json
+/core.php 2 -
+/wp-content/plugins/nd-learning/readme.txt 2 https://www.google.com
+/index/login/register 2 https://ststephenssanjose.org/index/login/register
+/wp/xmlrpc.php 1 -
+/user/Login 2 https://ststephenssanjose.org/user/Login
+/api/index/index 2 https://ststephenssanjose.org/api/index/index
+/i.php 2 -
+/static/index/js/lk/order.js 2 https://ststephenssanjose.org/static/index/js/lk/order.js
+/templates/beez3/ALFA_DATA 3 www.bing.com
+/ipl/app/flash/publicbmw/ball/FigLeaf.js 2 https://ststephenssanjose.org/ipl/app/flash/publicbmw/ball/FigLeaf.js
+/public/_ignition/health-check/ 3 http://ststephenssanjose.org/public/_ignition/health-check/
+/0byte.php 3 -
+/manager/js/left.js 2 https://ststephenssanjose.org/manager/js/left.js
+/sitemap.xml 10 -
+/wp-content/plugins/iwp-client/readme.txt 2 https://www.google.com
+/index/index/ajaxdata 2 https://ststephenssanjose.org/index/index/ajaxdata
+/wp-content/plugins/wp-user-avatar/changelog.txt 2 https://www.google.com
+/Res/font/font.css 2 https://ststephenssanjose.org/Res/font/font.css
+/images/12.png 2 https://ststephenssanjose.org/images/12.png
+/config.bak.php 5 www.bing.com
+/good.php 1 -
+/wp-content/plugins/scripts-organizer/plugins/meta-box/readme.txt 1 https://www.google.com
+/api/Index/getconfig 2 https://ststephenssanjose.org/api/Index/getconfig
+/wp-dbs.php 1 -
+/register/trader/ 2 https://ststephenssanjose.org/register/trader/
+/Public/Wchat/css/index.css 2 https://ststephenssanjose.org/Public/Wchat/css/index.css
+/class-wp-widget-archives.php 1 -
+/static/wap/css/tipmask.css 2 https://ststephenssanjose.org/static/wap/css/tipmask.css
+/common/member/js/user.util.js 2 https://ststephenssanjose.org/common/member/js/user.util.js
+/test/.env 4 -
+/api/im/v2/app/config 2 https://ststephenssanjose.org/api/im/v2/app/config
+/templates/beez3/index.php 4 www.bing.com
+/wp-content/plugins/capabilities-pro/readme.txt 2 https://www.google.com
+/wp-content/plugins/ninja-forms/readme.txt 2 https://www.google.com
+/wap/api/exchangerateuserconfig!get.action 2 https://ststephenssanjose.org/wap/api/exchangerateuserconfig!get.action
+/detaila/js/unified_service.js 2 https://ststephenssanjose.org/detaila/js/unified_service.js
+/wp-content/plugins/wp-user-extra-fields/js/wpuef-configurator.js 2 https://www.google.com
+/images/logo-default-400x46.png 2 https://ststephenssanjose.org/images/logo-default-400x46.png
+/static/home/js/rooms.js 2 https://ststephenssanjose.org/static/home/js/rooms.js
+/projectConfig 2 https://ststephenssanjose.org/projectConfig
+/static/css/reset.css 2 https://ststephenssanjose.org/static/css/reset.css
+/t000/login-img-3.svg 2 https://ststephenssanjose.org/t000/login-img-3.svg
+/verification.asp 2 https://ststephenssanjose.org/verification.asp
+/market/market-ws/iframe.html 2 https://ststephenssanjose.org/market/market-ws/iframe.html
+/wp-content/wp-file-conficg.php 3 -
+/home 1 http://ststephenssanjose.org/home
+/site/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/wp-content/plugins/wp-automatic/css/wp-automatic.css 2 https://www.google.com
+/th3_err0r.php 1 anonymousfox.co
+/jiaoyimao/ 2 https://ststephenssanjose.org/jiaoyimao/
+/wp-content/themes/config.bak.php 4 www.bing.com
+/wp-includes/images/css.php 4 www.bing.com
+/wp-uploads.php 1 -
+//sitemap.html 2 -
+/marijuana.php 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 14 -
+/static/js/common.js 2 https://ststephenssanjose.org/static/js/common.js
+/index/user/login.html 2 https://ststephenssanjose.org/index/user/login.html
+/wap/banner/details 2 https://ststephenssanjose.org/wap/banner/details
+/app/js/base.js 2 https://ststephenssanjose.org/app/js/base.js
+/openApi/systemConfig/findSystemConfigById 2 https://ststephenssanjose.org/openApi/systemConfig/findSystemConfigById
+/wp-22.php 1 -
+/kefu.php 2 https://ststephenssanjose.org/kefu.php
+/Pay_Index.html 2 https://ststephenssanjose.org/Pay_Index.html
+/h.php 2 -
+/wap.html 2 https://ststephenssanjose.org/wap.html
+/xmlrp.php 1 anonymousfox.co
+/Makhdamxshell.php 4 -
+/g.php 2 -
+/wp-includes/wp-class-404-icon.php 2 -
+/user/getAllNicknames 2 https://ststephenssanjose.org/user/getAllNicknames
+/data/ticker_24hr 2 https://ststephenssanjose.org/data/ticker_24hr
+/ups.php 7 www.bing.com
+/wp-content/plugins/ultimate-member/readme.txt 2 https://www.google.com
+/api/getUserCertificationStatus 2 https://ststephenssanjose.org/api/getUserCertificationStatus
+/images/tg/appStore/top.png 2 https://ststephenssanjose.org/images/tg/appStore/top.png
+/assets/res/mods/room.js 2 https://ststephenssanjose.org/assets/res/mods/room.js
+/v2/start/config 2 https://ststephenssanjose.org/v2/start/config
+/wp-includes/wp-info.php 2 -
+/blog/fw.php 3 -
+/api/lastestBetLog 2 https://ststephenssanjose.org/api/lastestBetLog
+//wp1/wp-includes/wlwmanifest.xml 5 -
+/alwso.php 3 -
+/w3llstore.php 1 -
+/mytio/config/base 2 https://ststephenssanjose.org/mytio/config/base
+/Public/Mobile/ecshe_css/wapmain.css 2 https://ststephenssanjose.org/Public/Mobile/ecshe_css/wapmain.css
+/wp-admin/style.php 4 www.bing.com
+/Public/home/common/js/index.js 2 https://ststephenssanjose.org/Public/home/common/js/index.js
+/5.php 3 -
+/wp-includes/class-index-wordpress.php 11 -
+/front/index/getSiteSetting 2 https://ststephenssanjose.org/front/index/getSiteSetting
+/api/app-info 2 https://ststephenssanjose.org/api/app-info
+/system_log.php 4 www.bing.com
+/4price.php 1 -
+/wp-admin/0z.php 1 -
+/Templates/user/js/global.js 2 https://ststephenssanjose.org/Templates/user/js/global.js
+/static/f_title.png 2 https://ststephenssanjose.org/static/f_title.png
+/wap/assets/images/icon1/12306.png 2 https://ststephenssanjose.org/wap/assets/images/icon1/12306.png
+/new 1 http://ststephenssanjose.org/new
+/css/m.css 2 https://ststephenssanjose.org/css/m.css
+/api/backstageManagement/system/systemConfigForPlatform 2 https://ststephenssanjose.org/api/backstageManagement/system/systemConfigForPlatform
+/sites/default/files/cgialfa 4 www.bing.com
+/Fox-C40 1 -
+/public/img/cz1.png 2 https://ststephenssanjose.org/public/img/cz1.png
+/wp-content/plugins/wpdiscuz/themes/default/style-rtl.css 1 anonymousfox.co
+/api/exclude/siteConfig/webSiteConfig 2 https://ststephenssanjose.org/api/exclude/siteConfig/webSiteConfig
+/haders.php 1 anonymousfox.co
+/templates/beez3/cgialfa 4 www.bing.com
+/ugbzlzpo.php 1 www.google.com
+/h5 4 https://ststephenssanjose.org/h5
+/wp-last-entry.php 2 -
+/content.php 3 -
+/h5.html 2 https://ststephenssanjose.org/h5.html
+/wp-admin/includes/class-wp.php 2 -
+/Public/uploads/web/step1.png 2 https://ststephenssanjose.org/Public/uploads/web/step1.png
+/r.php 1 -
+/admin 6 https://ststephenssanjose.org/admin
+/api/product/info/1 2 https://ststephenssanjose.org/api/product/info/1
+/public/h5static/js/main.js 2 https://ststephenssanjose.org/public/h5static/js/main.js
+/11index.php 3 -
+/web/api/getBanner 2 https://ststephenssanjose.org/web/api/getBanner
+/10.php 3 -
+/0z.php 1 -
+/static/wap/js/order.js 2 https://ststephenssanjose.org/static/wap/js/order.js
+/wp-content/langar.php 1 anonymousfox.co
+/old/xmlrpc.php 1 -
+/test/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 www.google.com
+/wp-content/themes/greyd_suite/style.css 1 https://www.google.com
+/api/content_bottom 2 https://ststephenssanjose.org/api/content_bottom
+/priv8.php 1 -
+/static/css/public.css 2 https://ststephenssanjose.org/static/css/public.css
+/wp-content/plugins/wp-pinterest-automatic/changelog 2 https://www.google.com
+/PSBC-1 2 https://ststephenssanjose.org/PSBC-1
+/xy/ 2 https://ststephenssanjose.org/xy/
+/sites/.env 2 -
+/Promotions/list.mvc 2 https://ststephenssanjose.org/Promotions/list.mvc
+/01.php 4 -
+/js/a.script 2 https://ststephenssanjose.org/js/a.script
+/template/920ka/css/lsy.css 2 https://ststephenssanjose.org/template/920ka/css/lsy.css
+/assets/js/dmshub.js 2 https://ststephenssanjose.org/assets/js/dmshub.js
+/z.php 5 www.bing.com
+/1337.php 3 -
+/xx.php 1 -
+/wso2.php 1 -
+/wp-content/wp-config-example.php 1 -
+/nyyh/game.css 2 https://ststephenssanjose.org/nyyh/game.css
+/alfacgiapi 3 www.bing.com
+/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php 7 -
+/Content/m_1/js/m_1_Jquery.js 2 https://ststephenssanjose.org/Content/m_1/js/m_1_Jquery.js
+/403.shtml 8 -
+/wp-admin/js/widgets/wp-login.php 11 -
+/h5/ 6 https://ststephenssanjose.org/h5/
+/wp-signin.php 3 www.bing.com
+/shx.php 1 -
+/assets/room/css/room_mobile.css 2 https://ststephenssanjose.org/assets/room/css/room_mobile.css
+/assets/images/mobile/dou_icon_money.png 2 https://ststephenssanjose.org/assets/images/mobile/dou_icon_money.png
+/masterControl/getSystemSetting 2 https://ststephenssanjose.org/masterControl/getSystemSetting
+/JS/loginstatus.js 2 https://ststephenssanjose.org/JS/loginstatus.js
+//2021/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/class-db-managed.php 2 -
+/ws/index/getTheLotteryInitList 2 https://ststephenssanjose.org/ws/index/getTheLotteryInitList
+/img/close.png 2 https://ststephenssanjose.org/img/close.png
+/templates/beez5/index.php 1 -
+//cms/wp-includes/wlwmanifest.xml 5 -
+/api/system/systemConfigs/getCustomerServiceLink 2 https://ststephenssanjose.org/api/system/systemConfigs/getCustomerServiceLink
+/static/index/3.png 2 https://ststephenssanjose.org/static/index/3.png
+/mobile/login.html 2 https://ststephenssanjose.org/mobile/login.html
+/static/image/logo.png 2 https://ststephenssanjose.org/static/image/logo.png
+/wordpress/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 4 www.google.com
+/images/myjs.js 2 https://ststephenssanjose.org/images/myjs.js
+/wp-content/plugins/web-portal-lite-client-portal-secure-file-sharing-private-messaging/includes/libs/pdf/dompdf.php 2 https://www.google.com
+/wp-content/plugins/wpgateway/css/style.css 1 https://www.google.com
+/autoload_classmap.php 4 -
+/Panels.txt/ 1 -
+/wp-includes/wpconfig.bak.php 1 anonymousfox.co
+/FoxWSO.php 3 -
+/jhwvtisi.php 1 www.google.com
+/boom.php 1 anonymousfox.co
+/3.php 3 -
+/wp-content/outcms.php 4 www.bing.com
+/wp-content/themes/u-design/scripts/admin/uploadify/uploadify.css 6 -
+/wp-admin.php 1 -
+/myConfig.js 2 https://ststephenssanjose.org/myConfig.js
+/cindex.php 1 anonymousfox.co
+/base/exchange_index/changepwdfirst 2 https://ststephenssanjose.org/base/exchange_index/changepwdfirst
+/res/common/addfriend.png 2 https://ststephenssanjose.org/res/common/addfriend.png
+/wp-includes/class-wp-xmlrpc-client.php 2 -
+/static/wap/css/trade-history.css 2 https://ststephenssanjose.org/static/wap/css/trade-history.css
+/api/public/ 2 https://ststephenssanjose.org/api/public/
+/wp-content/plugins/superstorefinder-wp/css/ssf-wp-admin.css 2 https://www.google.com
+/info.php 2 -
+/9.php 3 -
+/wordpress/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/room/getRoomBangFans 2 https://ststephenssanjose.org/room/getRoomBangFans
+/js/subsidy/bk.min.js 2 https://ststephenssanjose.org/js/subsidy/bk.min.js
+/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php 2 https://www.google.com
+/blog/.env 2 -
+/static/index/css/trade-history.css 2 https://ststephenssanjose.org/static/index/css/trade-history.css
+/wp-includes/cwp-cleaner.php 2 -
+/wp-content/plugins/alphabetic-pagination/readme.txt 1 https://www.google.com
+/h5/static/cert/icon_yanzhengma.png 2 https://ststephenssanjose.org/h5/static/cert/icon_yanzhengma.png
+/api/v1/app-info 2 https://ststephenssanjose.org/api/v1/app-info
+/.git/config 29 -
+/bk 1 http://ststephenssanjose.org/bk
+/waplogin.php 2 https://ststephenssanjose.org/waplogin.php
+/mini.php 2 -
+/Css/Hm.css 2 https://ststephenssanjose.org/Css/Hm.css
+/wp-content/plugins/woo-product-table/readme.txt 2 https://www.google.com
+/wp-content/plugins/wp-automatic/changelog 2 https://www.google.com
+/js/basic.js 2 https://ststephenssanjose.org/js/basic.js
+/wp-includes/about.php 1 -
+/sucai/zxkf.png 2 https://ststephenssanjose.org/sucai/zxkf.png
+/reg.php 2 https://ststephenssanjose.org/reg.php
+/laravel/.env 4 -
+/nyyh/chkjs.js 2 https://ststephenssanjose.org/nyyh/chkjs.js
+/static/common/js/global.js 2 https://ststephenssanjose.org/static/common/js/global.js
+/statics/js/API.js 2 https://ststephenssanjose.org/statics/js/API.js
+/wap/forward 2 https://ststephenssanjose.org/wap/forward
+/ 2 https://ststephenssanjose.org/
+/wp/wp-admin/install.php 1 -
+/.git/HEAD 1 -
+/sitemap.txt 58 -
+/ALFA_DATA 4 www.bing.com
+/wp-content/plugins/angwp/__%20UPDATES.txt 2 https://www.google.com
+/home/login/login_index.html 2 https://ststephenssanjose.org/home/login/login_index.html
+/css.php 1 www.bing.com
+/wp-includes/wp-system-opencloud.php 2 -
+/api/grame/getHomePtLottery 2 https://ststephenssanjose.org/api/grame/getHomePtLottery
+/sitemap_index.xml 3 -
+/wp-includes/class-wp-link-loss.php 2 -
+/img/subsidy/kh.png 2 https://ststephenssanjose.org/img/subsidy/kh.png
+/api/index 2 https://ststephenssanjose.org/api/index
+/api/config/proxy_servers 2 https://ststephenssanjose.org/api/config/proxy_servers
+/static/data/gamedatas.js 2 https://ststephenssanjose.org/static/data/gamedatas.js
+/gaga/city.php 2 https://ststephenssanjose.org/gaga/city.php
+/sitemap-index.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1012
+37.139.53.82 224 224 1605632 20221031193331
+128.1.136.126 25 27 152533 20221010110930
+152.89.198.50 21 21 70140 20221028161349
+195.201.164.116 21 205 15410920 20221022225101
+69.160.160.60 18 65 3817125 20221027193342
+46.148.206.226 18 18 171048 20221030120939
+42.83.147.34 18 18 14670 20221031183554
+75.80.182.77 16 136 12461927 20221009140419
+123.125.186.100 16 18 477587 20221012141645
+24.47.176.111 15 94 8821888 20221011141818
+98.42.194.54 13 83 8135679 20221017211527
+68.69.184.202 13 13 8918 20221031195736
+137.226.113.44 12 12 9780 20221028044655
+149.56.150.213 12 12 186741 20221017115150
+163.116.136.254 12 150 11518422 20221020083033
+45.185.6.35 12 12 128047 20221024140134
+64.124.8.56 11 11 43611 20221022151514
+5.189.171.179 11 11 0 20221025212328
+64.124.8.54 11 11 46430 20221026031731
+62.112.9.167 10 10 85698 20221029101143
+184.94.240.88 10 10 57246 20221008003519
+23.88.77.150 10 27 290726 20221029094527
+136.143.177.62 10 10 42428 20221012223102
+95.79.88.211 10 10 87826 20221031212538
+44.228.64.221 10 10 51112 20221021223123
+54.38.77.145 1 1 3884 20221021055725
+54.85.194.242 1 1 815 20221016205848
+34.221.71.199 1 1 815 20221024100054
+183.36.115.113 0 1 6638 
+18.188.114.70 1 1 815 20221007131650
+46.3.197.37 2 2 14338 20221028192952
+167.248.133.47 2 2 1630 20221016110021
+206.232.118.156 2 2 4034 20221031175404
+183.36.114.30 0 2 20123 
+34.209.67.108 1 1 815 20221019090443
+54.39.29.64 6 6 158996 20221024042244
+128.1.49.54 1 1 815 20221016052625
+183.36.114.24 0 1 1616 
+185.76.77.160 1 1 815 20221029234523
+173.252.79.3 0 1 13641 
+183.36.114.81 0 3 952142 
+109.248.144.68 2 2 14267 20221010041342
+93.158.90.143 1 1 815 20221007163737
+45.141.215.206 1 1 2039 20221012063710
+183.36.114.126 0 12 237102 
+52.19.22.91 4 4 3260 20221028234046
+185.101.200.130 1 1 11774 20221013230208
+168.90.199.97 2 2 10626 20221011191922
+183.36.115.11 0 31 495861 
+198.235.24.163 1 1 2039 20221016174517
+160.202.86.39 1 1 3884 20221023203654
+209.99.150.49 2 20 1477738 20221021031502
+172.241.153.240 1 1 3884 20221012211306
+208.126.199.84 1 1 3478 20221029082951
+183.36.114.162 0 2 22074 
+168.151.227.84 1 1 3884 20221021072108
+35.88.130.8 1 1 815 20221001213342
+93.158.90.136 1 1 815 20221007163737
+178.168.198.207 3 3 28508 20221031112816
+176.124.206.137 2 2 14337 20221031032816
+35.195.199.169 1 1 815 20221028120008
+114.107.225.150 1 1 815 20221027133648
+162.247.73.192 1 1 14171 20221022020349
+185.244.192.175 1 1 815 20221003045254
+54.218.206.177 1 1 815 20221008074657
+34.209.153.109 1 1 815 20221020190654
+35.91.66.130 1 1 815 20221016234008
+107.116.89.118 8 83 4168105 20221014153125
+209.99.146.119 2 27 2028912 20221021031459
+161.117.9.99 2 2 14339 20221016091049
+34.213.51.53 1 1 815 20221015080744
+183.36.115.105 0 1 4042 
+123.125.186.87 0 4 20509 
+123.125.186.14 0 3 8545 
+64.227.41.249 4 4 8156 20221014015524
+160.20.9.212 1 1 815 20221030132039
+123.125.186.101 0 1 4983 
+15.235.12.96 2 2 1630 20221016051553
+130.255.166.122 1 1 815 20221001042329
+74.128.203.228 7 63 7266532 20221030184200
+35.92.210.142 1 1 815 20221015103552
+185.27.99.137 2 2 1630 20221015152655
+31.13.115.8 0 1 31698 
+185.100.85.22 3 3 28438 20221019133505
+217.117.248.140 4 4 11801 20221030142036
+109.106.254.84 1 1 686 20221024110250
+199.244.88.223 2 2 1630 20221026044712
+64.124.8.35 2 2 6938 20221001145259
+199.244.88.224 1 1 815 20221006112922
+185.244.195.103 3 3 28505 20221022150438
+1.169.134.231 6 6 43014 20221003195212
+182.43.148.98 1 1 815 20221012050918
+49.7.21.22 7 7 188411 20221024142058
+124.223.197.105 2 2 1630 20221013134014
+104.153.83.177 1 1 3884 20221019214146
+69.171.251.13 0 1 17820 
+157.97.121.54 2 2 14340 20221031103738
+84.17.43.164 4 4 55128 20221010071248
+5.152.129.189 1 1 686 20221024115106
+154.12.99.3 1 1 3884 20221017114225
+123.125.186.88 0 10 327710 
+183.36.114.12 0 2 36382 
+183.36.114.75 0 2 37652 
+123.125.186.105 0 13 18289 
+1.85.216.50 1 1 815 20221011132209
+34.216.86.207 1 1 815 20221019034646
+23.80.164.110 1 1 3884 20221007082320
+54.202.17.157 1 1 815 20221002231825
+107.189.30.86 1 1 815 20221011214230
+23.81.62.178 1 1 3884 20221029033803
+35.87.232.201 1 1 2039 20221012133305
+64.140.135.8 1 26 1429591 20221011005555
+183.36.115.82 0 2 9025 
+35.192.164.215 2 2 7557 20221016013831
+104.179.103.202 1 1 3884 20221030112517
+217.79.178.53 1 1 14171 20221018182313
+34.212.131.95 1 1 815 20221002231959
+34.220.109.186 1 1 815 20221023144514
+183.136.225.44 4 4 8156 20221029222843
+18.236.151.242 1 1 815 20221012071546
+146.59.70.80 3 3 6117 20221026090613
+35.91.148.4 1 1 815 20221029142615
+188.170.83.192 1 1 815 20221031190846
+52.229.115.240 1 1 6671 20221010031429
+173.252.127.3 2 21 1221910 20221017092818
+138.199.29.50 2 2 14338 20221023093831
+181.214.218.41 2 2 4078 20221026003632
+52.41.59.43 1 1 815 20221003211125
+45.84.204.101 1 1 686 20221024114621
+223.29.253.5 1 1 815 20221018082120
+23.105.147.158 1 1 3884 20221007073719
+190.2.131.157 4 4 28666 20221028203501
+109.239.58.107 2 2 1630 20221031050639
+199.244.88.226 1 1 815 20221027101620
+113.172.145.34 1 1 686 20221022232745
+35.90.169.180 1 1 815 20221017041247
+139.170.203.166 1 1 815 20221013174816
+196.196.53.56 2 2 14336 20221028135930
+34.219.2.108 1 1 815 20221018101804
+191.101.209.15 2 2 14338 20221025052228
+111.207.155.211 1 1 2039 20221026161235
+69.171.251.10 0 1 3635 
+23.82.44.86 1 1 3884 20221013122131
+172.241.152.62 2 2 4036 20221030210718
+150.249.214.254 2 2 7459 20221022203930
+61.221.176.89 1 1 686 20221018175630
+69.160.160.51 4 98 7502528 20221025150809
+191.101.209.27 1 1 14171 20221026113431
+185.220.101.21 8 8 122903 20221030181709
+198.235.24.19 1 1 2039 20221015035756
+137.74.27.104 1 1 815 20221008204349
+46.3.199.159 2 2 14338 20221030091332
+183.36.115.100 0 5 12725 
+128.1.49.205 1 1 815 20221013090949
+194.38.20.161 8 8 16312 20221018160326
+14.116.150.68 1 1 815 20221026044929
+5.255.99.205 1 1 14171 20221002200602
+31.13.127.6 0 1 17820 
+111.175.7.204 1 1 815 20221009113255
+123.125.186.30 0 2 4258 
+14.29.231.172 1 1 815 20221023232522
+183.36.115.77 0 1 1143 
+183.36.114.5 0 15 110453 
+183.36.114.74 0 12 10030 
+52.163.184.70 2 2 1630 20221022180429
+64.140.134.52 2 19 1180268 20221019022315
+104.241.0.10 1 1 686 20221029204009
+106.198.20.157 0 1 431747 
+34.212.174.166 1 1 815 20221015103606
+94.154.179.169 2 21 1059782 20221019022359
+160.20.10.10 6 6 22811 20221011165223
+18.236.84.135 1 1 815 20221025204633
+209.99.139.185 2 20 1477673 20221021031459
+34.217.174.254 1 1 815 20221018024541
+223.29.253.185 3 3 11343 20221025062423
+69.171.251.24 0 2 17276 
+101.68.211.2 4 4 11564 20221013140237
+185.180.143.12 4 4 3260 20221002060733
+183.36.114.88 0 11 17781 
+209.99.150.115 3 31 3670334 20221011005537
+20.164.225.190 2 2 4078 20221024092402
+5.252.194.59 2 2 14267 20221018212505
+123.125.186.110 0 13 20571 
+54.148.171.41 1 1 815 20221015080504
+52.38.157.170 1 1 815 20221029033044
+35.160.154.3 1 1 815 20221025133105
+46.39.249.181 2 2 14337 20221013042108
+178.176.74.181 3 3 28513 20221028095000
+18.237.250.149 2 2 1630 20221001212201
+104.41.129.161 3 3 6117 20221007230211
+4.240.105.129 2 2 1630 20221016060154
+35.86.117.78 1 1 815 20221001221717
+5.227.27.161 2 2 14336 20221001140154
+123.125.186.83 0 2 1742 
+35.91.92.53 1 1 815 20221003001321
+193.235.141.181 2 2 1630 20221029105638
+172.241.153.102 2 2 4035 20221029005245
+95.52.51.254 6 6 57014 20221031014327
+77.35.191.79 2 2 14336 20221014145302
+35.88.237.153 1 1 815 20221014214636
+123.125.186.84 0 11 67324 
+123.125.186.25 0 2 11721 
+218.75.61.130 1 1 686 20221025064030
+18.237.134.206 1 1 815 20221017040919
+185.220.101.4 3 3 28502 20221007052000
+123.125.186.17 0 2 43606 
+123.125.186.95 0 1 33856 
+20.229.225.188 1 1 815 20221011080027
+123.125.186.71 0 1 6169 
+34.217.175.54 1 1 815 20221019090552
+196.19.249.167 3 3 11370 20221010014902
+123.125.186.8 0 6 9726 
+78.29.100.116 2 2 14338 20221025164852
+134.236.70.186 1 1 686 20221024062125
+44.193.15.51 1 1 686 20221020094354
+93.158.92.13 1 1 815 20221023150316
+35.92.2.201 1 1 815 20221005031122
+14.241.225.93 1 1 815 20221025102425
+199.244.88.227 1 1 815 20221012113225
+196.18.225.13 3 3 11343 20221025055334
+93.177.66.15 3 3 28508 20221011062931
+221.14.175.228 1 1 815 20221010095850
+78.29.92.51 2 2 14339 20221005105211
+123.125.186.109 4 7 103856 20221030142721
+65.154.226.109 2 2 1630 20221021155500
+161.97.95.158 1 1 2039 20221007194909
+202.88.249.36 0 1 52840 
+162.247.74.217 2 2 14339 20221011134154
+92.118.40.246 1 1 3884 20221027040543
+123.125.186.18 0 1 1616 
+103.167.84.15 1 1 815 20221022123110
+79.126.92.63 2 2 14337 20221014174222
+104.227.30.134 1 1 3884 20221020222624
+183.36.114.102 0 3 37164 
+193.235.141.171 1 1 815 20221019051114
+173.252.127.24 0 1 3241 
+73.222.26.247 4 51 3842488 20221024072734
+64.225.24.161 2 2 40732 20221004181307
+183.36.114.133 0 2 8961 
+27.63.203.246 4 50 3839494 20221031211350
+172.241.118.241 1 1 3884 20221018125207
+183.36.115.190 0 1 19985 
+176.226.147.81 2 2 14336 20221031035314
+195.208.3.209 1 1 815 20221005120945
+45.10.167.241 2 2 50472 20221003203247
+103.221.234.138 3 3 11343 20221009171131
+196.196.53.109 2 2 14336 20221027190621
+123.125.186.113 0 3 9377 
+3.16.218.64 8 98 712885 20221024151513
+199.244.88.228 2 2 1630 20221010190203
+223.247.179.42 1 1 815 20221003035853
+183.36.115.83 0 11 139506 
+85.208.21.171 2 2 1630 20221001155754
+192.3.4.95 3 3 11370 20221011161113
+192.71.2.171 2 2 1630 20221017014301
+198.54.119.149 1 1 2039 20221028161401
+196.18.225.32 3 3 11343 20221018085725
+123.125.186.65 0 1 1620 
+20.150.219.192 1 1 815 20221004053030
+183.36.114.134 0 3 4513 
+198.235.24.132 1 1 2039 20221015052003
+20.169.54.190 2 2 1630 20221003233551
+77.87.194.93 1 1 686 20221024113930
+198.235.24.134 1 1 2039 20221023200925
+35.239.248.4 1 1 815 20221011175116
+37.139.53.92 6 6 57014 20221029232119
+202.83.56.229 0 1 56630 
+183.36.114.10 0 10 49830 
+45.39.45.153 1 1 3884 20221010153839
+37.211.90.69 0 1 52840 
+64.140.136.90 2 28 1906462 20221019022318
+69.160.160.58 2 49 3751247 20221025150916
+185.243.218.110 3 3 28438 20221009105117
+138.197.107.133 1 1 2039 20221007220022
+34.215.178.130 1 1 815 20221018024524
+4.231.18.107 1 1 815 20221016021358
+34.219.92.4 1 1 815 20221015103649
+123.125.186.86 0 1 1118 
+186.234.80.243 1 1 815 20221003094554
+35.92.139.55 1 1 815 20221020190640
+54.184.4.223 1 1 815 20221003001257
+123.125.186.90 0 1 2089 
+183.36.114.104 0 2 12335 
+34.213.143.112 1 1 815 20221014073328
+64.124.8.40 2 2 6624 20221024033807
+45.138.5.68 2 2 28342 20221013230210
+172.245.25.114 2 2 3991 20221027112228
+123.125.186.112 0 12 40824 
+122.199.71.2 1 1 686 20221014155034
+181.214.218.38 2 2 14337 20221007050518
+154.13.252.84 2 2 3884 20221010042934
+64.124.8.47 2 2 6641 20221022205036
+178.168.207.185 3 3 28508 20221007000930
+176.205.105.180 0 1 217254 
+34.254.170.140 2 2 1630 20221021050026
+193.118.53.138 4 4 3260 20221015224013
+171.77.146.134 4 50 3839564 20221015211816
+34.208.216.113 1 1 815 20221031142001
+54.186.93.221 1 1 815 20221005031010
+91.193.179.89 2 2 14340 20221023173203
+23.82.41.23 1 1 3884 20221025191308
+23.105.145.5 1 1 3884 20221027174217
+104.168.84.235 1 1 3884 20221018115637
+35.205.122.103 2 2 1630 20221028123144
+183.36.115.131 0 2 20531 
+35.86.82.64 2 2 1630 20221023144027
+222.253.128.55 1 1 686 20221011123147
+23.106.216.16 1 1 3884 20221016141822
+116.52.105.28 1 1 815 20221006171749
+212.30.36.16 3 3 28412 20221031085518
+109.174.114.110 3 3 28412 20221018224834
+185.220.101.18 1 1 14171 20221026075620
+18.191.11.209 5 52 3843157 20221007131657
+161.35.105.75 1 1 815 20221017112945
+123.125.186.115 0 2 294272 
+183.36.114.176 0 2 56016 
+64.124.8.45 3 3 7327 20221025123815
+54.188.115.66 1 1 815 20221027234045
+34.221.44.192 1 1 815 20221014031257
+185.220.101.20 3 3 28507 20221026120546
+157.245.140.35 1 1 815 20221014000141
+23.81.70.126 2 2 4036 20221028170613
+157.55.39.74 0 1 11089 
+213.159.38.90 4 4 28676 20221028071106
+104.218.164.86 1 1 815 20221007084958
+185.27.99.132 1 1 815 20221013040225
+193.235.141.170 1 1 815 20221009022515
+191.101.209.45 2 2 14338 20221021062033
+5.161.103.197 1 1 815 20221026075409
+185.220.102.252 3 3 28509 20221027190436
+209.99.152.242 2 20 1477738 20221019022324
+104.251.84.137 2 2 4037 20221030183733
+174.194.135.100 4 50 3839468 20221002104256
+193.186.4.204 1 1 686 20221002104554
+124.220.171.218 1 1 815 20221001131452
+38.131.128.149 2 2 4031 20221027182313
+54.212.223.7 1 1 815 20221021072310
+183.36.114.4 0 1 1620 
+43.142.249.119 3 3 2445 20221019205349
+93.158.91.251 1 1 815 20221029044202
+116.0.20.51 1 1 2039 20221026033108
+185.27.99.113 1 1 815 20221015152655
+92.124.160.177 2 2 14337 20221028012748
+185.27.99.125 1 1 815 20221015152654
+138.128.118.130 5 5 18212 20221017115654
+37.20.213.117 2 2 14340 20221014035332
+65.21.245.230 1 1 6671 20221016195955
+2.57.122.217 2 2 1630 20221008062935
+34.209.213.49 1 1 815 20221008074710
+185.196.220.26 5 5 4075 20221029224223
+128.199.21.138 1 1 815 20221010105740
+51.15.82.149 1 1 815 20221010065713
+59.36.163.204 1 1 815 20221026044922
+128.1.49.112 2 2 1630 20221014185938
+156.146.63.142 2 2 14338 20221001120151
+216.24.213.42 2 2 14336 20221020212734
+144.168.227.87 3 3 11354 20221020004753
+175.44.42.110 1 1 5955 20221009105209
+183.36.114.173 0 1 32771 
+161.117.5.252 2 2 14336 20221030152709
+103.41.206.160 1 1 2039 20221025151333
+193.235.141.172 5 5 4075 20221028132150
+209.99.139.94 2 20 1744888 20221011005553
+31.13.127.120 0 1 3635 
+185.27.99.136 1 1 815 20221009024012
+156.146.63.158 2 2 14267 20221004131614
+34.217.101.222 1 1 815 20221014031439
+52.38.123.46 1 1 815 20221005031033
+34.66.95.252 9 55 3861970 20221018002347
+23.95.81.212 1 1 815 20221026100750
+54.187.131.135 2 2 1630 20221012071817
+183.36.114.181 0 2 6272 
+23.97.245.240 2 2 4078 20221018090907
+113.31.105.130 3 3 2445 20221030175829
+120.17.184.196 3 38 1914454 20221017044007
+95.216.204.226 1 1 2039 20221009070920
+193.235.141.173 4 4 3260 20221007225247
+193.188.21.9 8 8 71357 20221027022140
+103.36.19.166 1 1 815 20221026194058
+167.248.133.60 2 2 1630 20221012124921
+60.4.210.25 1 1 686 20221028111217
+193.188.22.181 8 8 73489 20221025051511
+160.202.90.44 1 1 3884 20221024135956
+188.170.72.197 1 1 815 20221031132351
+2.57.151.183 1 1 815 20221001205227
+185.27.99.140 1 1 815 20221031162525
+34.209.244.98 1 1 815 20221019034610
+185.181.60.39 2 2 1630 20221027230745
+101.71.208.189 1 1 815 20221007182844
+209.99.139.178 6 62 7340755 20221019022310
+209.99.148.116 3 31 3670325 20221021031411
+95.84.128.225 1 1 686 20221021023232
+144.172.118.84 2 2 14337 20221018182318
+54.186.58.238 1 1 815 20221015080822
+161.117.10.46 2 2 14336 20221030152705
+20.67.233.120 1 1 815 20221026024132
+141.98.252.251 1 1 815 20221003053547
+74.208.118.205 1 1 815 20221010041255
+194.55.186.98 1 1 815 20221028232402
+170.83.176.218 1 1 815 20221009154737
+134.122.2.91 1 1 2039 20221007225920
+185.220.101.25 1 1 14171 20221014142012
+123.125.186.111 0 3 6029 
+77.220.192.182 1 1 686 20221019100628
+94.198.43.10 1 1 815 20221015035349
+51.83.143.198 0 2 361891 
+34.223.4.75 1 1 815 20221016144355
+93.158.90.73 1 1 815 20221024130834
+185.181.60.12 9 9 7335 20221028092713
+64.124.8.39 1 1 5929 20221022113514
+183.36.115.121 0 1 6638 
+123.125.186.103 0 1 7575 
+47.196.153.76 0 1 419126 
+45.83.220.186 1 1 2039 20221005205641
+212.50.66.227 1 1 2039 20221020030235
+205.210.31.184 1 1 2039 20221021042918
+109.70.100.29 1 1 14171 20221010041335
+183.36.114.94 0 11 48099 
+181.214.218.74 2 2 14340 20221012015042
+107.150.106.130 1 1 815 20221010054846
+152.32.149.142 1 1 815 20221017054359
+205.210.31.171 1 1 2039 20221022232529
+95.84.248.246 6 6 43017 20221029073349
+150.255.89.195 1 1 815 20221006163759
+146.19.213.76 1 1 14171 20221022000440
+156.146.63.148 2 2 14339 20221007053825
+27.115.124.109 8 102 7709853 20221027122815
+54.200.61.232 1 1 815 20221020004638
+35.89.127.187 1 1 815 20221001221711
+113.125.51.198 3 3 2445 20221031205517
+128.1.49.123 1 1 815 20221011220529
+209.99.146.159 2 24 1848830 20221021031459
+185.101.200.34 2 2 11941 20221013230210
+172.58.35.86 1 1 10427 20221006202211
+40.77.167.51 0 4 15536 
+45.57.157.18 1 1 3884 20221027231148
+185.129.62.62 2 2 14338 20221014142007
+123.125.186.21 0 2 38913 
+128.1.42.90 1 1 815 20221005045206
+123.125.186.102 0 1 2273 
+93.158.90.161 1 1 815 20221007163738
+51.81.33.120 3 3 14228 20221016160152
+194.15.113.22 3 3 28509 20221003033740
+63.247.143.209 1 1 2039 20221002124541
+93.158.90.153 1 1 815 20221016133210
+73.222.19.27 4 50 3839477 20221029015914
+31.13.127.40 0 1 3241 
+20.86.6.84 1 1 2039 20221017031709
+23.82.41.221 1 1 3884 20221024144625
+209.99.139.61 2 20 1744888 20221021031457
+49.7.21.10 4 4 97865 20221018142530
+107.152.140.117 3 3 11343 20221023072629
+140.246.164.95 1 1 815 20221024222926
+183.36.115.147 0 4 30730 
+34.77.253.49 1 1 815 20221028123148
+183.36.114.28 0 1 6169 
+173.252.127.7 2 21 1216767 20221003083408
+42.236.10.114 2 2 1630 20221027123025
+183.36.114.140 0 2 8259 
+194.5.53.236 3 3 28412 20221025022638
+107.150.112.114 1 1 815 20221008004351
+35.188.6.99 1 1 815 20221006170956
+54.213.255.6 1 1 815 20221015220442
+23.106.30.135 1 1 3884 20221003120314
+185.27.99.112 1 1 815 20221015152654
+54.188.238.160 1 1 815 20221018222508
+79.110.55.3 2 2 14340 20221007040007
+130.255.166.97 1 1 815 20221021032541
+35.93.24.150 1 1 815 20221025204619
+144.168.225.71 1 1 815 20221024151233
+124.223.197.100 3 3 2445 20221029111957
+192.241.137.43 1 1 815 20221026231214
+93.158.91.244 1 1 815 20221023150317
+172.241.153.18 1 1 3884 20221008111408
+162.222.177.191 1 1 815 20221018002309
+207.32.135.53 1 25 315759 20221021031512
+79.126.105.196 4 4 28678 20221008151407
+35.88.213.194 1 1 815 20221014214605
+35.189.201.126 1 1 815 20221028011001
+35.88.248.209 1 1 815 20221018101839
+172.224.242.188 4 50 3839477 20221009084230
+168.151.91.181 2 24 1848830 20221019022321
+160.20.8.76 1 1 815 20221018081027
+73.71.24.225 3 51 2585226 20221002174335
+69.171.251.17 0 1 3635 
+85.206.163.145 6 6 57024 20221029074153
+221.14.169.238 1 1 815 20221018182949
+123.125.186.70 0 4 958451 
+37.19.223.106 4 4 55128 20221031111951
+183.36.114.169 0 10 48445 
+54.186.175.89 1 1 815 20221002232015
+185.207.105.124 3 3 28438 20221015182647
+185.220.101.1 2 2 14332 20221025222622
+124.117.194.189 1 1 815 20221005181237
+5.227.24.26 4 4 28671 20221012141743
+27.47.26.71 1 1 815 20221007231801
+173.252.111.111 0 1 13641 
+183.36.115.9 0 3 35978 
+34.68.68.2 2 2 7470 20221015233645
+207.90.21.168 2 29 3872004 20221019022315
+141.95.18.207 3 3 28507 20221010204121
+123.125.186.19 0 1 4983 
+27.76.221.152 2 2 14339 20221031040816
+35.93.21.89 1 1 815 20221010214516
+162.212.131.45 1 1 2039 20221004020155
+159.65.84.178 1 1 815 20221013035617
+38.109.244.98 1 1 3884 20221013102335
+181.177.111.119 1 1 815 20221011170145
+23.231.32.25 3 3 11354 20221023082812
+61.147.15.65 2 2 1630 20221025205132
+167.94.138.63 2 2 1630 20221008150703
+209.99.148.190 2 20 1744888 20221019022318
+173.252.107.6 0 1 3635 
+199.244.88.229 2 2 1630 20221025102409
+24.47.242.86 0 2 88598 
+37.139.53.7 4 4 14929 20221029133723
+121.4.105.222 4 4 3260 20221025210734
+27.76.211.116 2 2 14336 20221006203545
+27.47.26.161 1 1 815 20221015011423
+173.252.127.12 1 12 1454848 20221003083407
+66.98.77.122 0 1 31153 
+123.125.186.10 0 1 7679 
+69.63.184.116 0 1 3241 
+34.216.193.30 1 1 815 20221005031525
+27.227.187.243 1 1 815 20221014145948
+66.220.149.119 1 17 1501512 20221031023001
+35.88.143.88 1 1 815 20221014073313
+159.65.38.204 2 2 40786 20221005061243
+181.215.176.68 2 2 14338 20221017233352
+168.151.227.205 1 1 815 20221011145004
+67.169.61.188 4 51 3842488 20221030081842
+123.125.186.104 0 1 351 
+52.25.97.62 1 1 815 20221018101848
+102.89.33.180 4 51 3842488 20221010105509
+35.247.14.240 1 1 0 20221002110657
+168.90.199.200 1 1 815 20221020201324
+27.227.187.126 1 1 815 20221012162211
+113.206.179.82 1 1 815 20221014180050
+35.92.92.164 1 1 815 20221016040617
+35.93.47.141 1 1 815 20221031142042
+124.223.193.80 3 3 2445 20221014075440
+183.36.114.182 0 13 67845 
+60.13.138.181 1 1 815 20221010170323
+191.96.252.142 4 4 11589 20221031032042
+54.212.221.242 1 1 815 20221012142509
+156.146.63.136 2 2 14339 20221002144232
+43.142.237.137 1 1 815 20221007103559
+199.244.88.218 1 1 815 20221011171849
+24.45.216.78 4 51 3842471 20221016181300
+45.8.203.154 1 1 815 20221019155902
+52.13.41.18 1 1 815 20221029073948
+23.82.44.196 1 1 3884 20221012093936
+76.188.228.184 0 1 431747 
+94.230.208.147 2 2 14334 20221010204623
+185.181.60.189 3 3 2445 20221018131720
+20.194.36.19 2 2 1630 20221016082604
+123.125.186.67 0 9 32130 
+124.121.138.192 2 2 14348 20221001072152
+65.100.175.98 4 51 3842558 20221013073746
+183.36.114.99 0 1 2273 
+47.204.215.181 4 51 3842617 20221007154636
+123.125.186.98 0 4 12835 
+172.241.153.248 2 2 4034 20221031163405
+34.69.242.143 2 2 7470 20221016043642
+76.132.171.63 4 51 3842462 20221005140120
+185.122.170.177 2 2 10539 20221011170147
+35.160.115.189 1 1 815 20221003212105
+104.144.28.161 2 2 7470 20221025193757
+185.27.99.129 1 1 815 20221031162524
+123.125.186.28 0 2 10825 
+137.184.8.161 4 4 3260 20221013200958
+45.154.98.29 2 2 1372 20221012040825
+183.36.114.18 0 1 1143 
+183.36.114.171 0 10 129560 
+109.70.100.30 3 3 28438 20221011090623
+5.143.34.240 2 2 14336 20221004030151
+146.70.52.40 2 2 52869 20221030231444
+123.125.186.68 0 2 20531 
+141.138.200.25 1 1 2039 20221002050836
+183.36.114.96 0 2 7072 
+185.27.99.126 1 1 815 20221031162525
+185.220.102.249 3 3 28438 20221026203150
+27.115.124.6 1 1 815 20221018143326
+37.19.217.218 4 4 55274 20221021100544
+15.235.168.187 1 1 815 20221021210040
+183.36.114.118 0 2 6678 
+35.89.107.240 1 1 815 20221021134254
+172.58.36.242 1 3 1250769 20221013193200
+136.143.177.61 5 5 21190 20221012024138
+191.101.217.26 2 2 14337 20221009060625
+95.214.24.92 1 1 815 20221009143138
+34.208.71.176 1 1 815 20221019042536
+205.210.31.59 1 1 2039 20221030171132
+123.125.186.27 0 1 1621 
+168.151.93.70 2 20 1477673 20221011005556
+123.163.114.119 1 1 815 20221005102606
+64.44.102.23 2 2 28342 20221027080934
+46.242.38.14 1 1 686 20221021102240
+34.217.125.44 1 1 815 20221003143119
+185.220.100.255 3 3 28506 20221010195102
+40.77.167.52 0 3 11652 
+123.125.186.97 0 1 32771 
+66.220.149.23 2 18 1372558 20221010025400
+123.125.186.15 0 2 7926 
+82.207.175.52 1 1 815 20221028023107
+193.35.48.118 5 5 52059 20221014084100
+20.171.75.4 5 5 4075 20221024112359
+185.174.136.220 3 3 28509 20221031134231
+173.252.127.16 1 17 1013362 20221017092817
+161.117.10.233 2 2 14338 20221030152705
+37.146.244.105 2 2 14336 20221011132828
+162.247.74.204 3 3 28438 20221003092751
+207.32.128.172 1 17 146985 20221011005619
+54.184.39.208 2 2 1630 20221023144025
+34.222.249.100 1 1 815 20221025133215
+45.61.188.200 1 1 14171 20221011134157
+223.29.253.113 4 4 12256 20221026110013
+93.158.91.249 1 1 815 20221019163421
+66.220.149.20 1 22 1387547 20221010025357
+109.70.100.19 3 3 28438 20221015132502
+183.36.114.83 0 1 4656 
+91.208.75.3 1 1 14171 20221026232203
+183.36.115.127 0 10 75750 
+43.143.68.98 3 3 2445 20221016012518
+210.117.109.37 1 1 686 20221024192526
+54.187.131.220 1 1 2039 20221026100645
+176.31.115.13 6 6 57014 20221023173919
+31.13.127.116 3 36 2779191 20221031023502
+46.166.139.111 3 3 28506 20221009163331
+183.36.114.186 0 2 15106 
+103.221.234.170 3 3 11441 20221030134733
+54.202.87.211 1 1 815 20221015080539
+183.36.115.163 0 11 26225 
+23.81.82.42 1 1 3884 20221019221457
+183.36.114.67 0 3 34094 
+198.204.230.162 1 1 6742 20221025071037
+185.220.103.114 2 2 14340 20221022020357
+207.32.139.170 2 50 2916540 20221019022350
+54.191.99.71 1 1 815 20221016040727
+94.154.179.143 1 23 437622 20221011005621
+89.41.190.34 3 3 11343 20221011194549
+151.138.13.148 1 1 815 20221017122631
+209.99.152.207 2 20 1477738 20221011005558
+183.36.114.86 0 2 18468 
+80.73.244.208 1 1 815 20221001230621
+196.16.223.119 3 3 11370 20221024183832
+111.224.7.205 1 1 815 20221006205632
+85.208.21.170 4 4 3260 20221001220121
+54.214.227.147 1 1 815 20221019090430
+153.0.124.29 1 1 815 20221005065212
+181.215.176.24 2 2 14267 20221015205216
+217.146.2.41 1 1 14171 20221022000506
+160.202.90.196 2 2 4038 20221030180525
+23.81.122.124 1 1 3884 20221028223732
+107.150.117.69 1 1 815 20221018072901
+191.96.252.161 1 1 815 20221031014009
+66.220.149.14 0 1 3241 
+104.237.228.139 1 1 14171 20221007011535
+35.189.205.220 1 1 815 20221028120007
+93.158.90.72 1 1 815 20221025012617
+193.235.141.177 3 3 2445 20221024085728
+183.36.114.90 0 2 7781 
+87.249.132.37 4 4 55077 20221011141041
+3.144.34.206 1 1 815 20221015163727
+34.219.81.49 1 1 815 20221016234310
+104.199.111.215 2 2 1630 20221028123144
+54.212.80.225 5 52 3848400 20221005015453
+54.89.21.110 1 1 815 20221015211854
+35.87.118.211 1 1 815 20221023061147
+207.141.87.16 4 39 1016116 20221030204015
+54.149.201.10 1 1 815 20221012212929
+65.108.0.169 4 4 105935 20221031151303
+98.47.140.50 4 50 3839494 20221013213218
+185.27.99.134 1 1 815 20221027173629
+35.87.45.137 1 1 815 20221017203808
+178.168.199.113 6 6 57016 20221020151759
+168.151.93.161 2 29 3872004 20221011005551
+192.210.187.141 1 1 3884 20221021062530
+71.19.251.160 1 1 3884 20221018055519
+54.202.52.211 1 1 815 20221016040339
+52.12.164.76 1 1 815 20221021134311
+94.247.172.129 1 1 815 20221016175925
+68.198.222.35 2 2 1630 20221021073503
+5.45.98.12 2 2 14267 20221017221639
+194.165.17.8 1 1 6742 20221015200646
+69.171.251.117 1 18 1067629 20221013193605
+107.152.140.88 1 1 815 20221025042601
+84.255.185.24 0 1 167909 
+173.252.127.8 2 36 2844275 20221017092817
+123.191.151.206 1 1 815 20221010090914
+109.107.184.211 4 4 28678 20221028222640
+54.188.205.236 1 1 815 20221024100135
+154.13.1.19 2 2 14338 20221031194759
+176.74.192.85 2 2 1630 20221011171207
+35.93.58.148 1 1 815 20221008074647
+183.36.114.113 0 12 47653 
+172.58.33.37 4 50 3839477 20221028141222
+217.73.128.196 4 50 3839494 20221020190810
+123.125.186.64 0 9 14589 
+95.158.43.8 2 2 14337 20221027070100
+123.125.186.118 0 2 40494 
+5.157.60.160 1 1 3884 20221008120450
+185.27.99.123 1 1 815 20221031162526
+171.22.30.104 1 1 815 20221009095149
+209.182.216.138 1 1 2039 20221015033709
+185.190.24.23 1 1 815 20221021154607
+198.235.24.55 1 1 2039 20221016132658
+107.174.108.152 1 1 3884 20221020122422
+93.92.200.179 4 4 42689 20221019093053
+35.88.139.161 1 1 815 20221014073332
+31.13.127.15 0 1 17820 
+63.246.128.17 2 33 1318319 20221021031533
+18.237.229.211 1 1 815 20221025120220
+134.134.139.70 0 2 850873 
+81.88.222.68 2 2 14339 20221030160147
+1.169.102.59 2 2 14336 20221024204402
+63.34.179.201 1 1 686 20221002204639
+188.170.74.150 1 1 815 20221031172356
+198.235.24.130 1 1 2039 20221013232724
+181.214.206.127 1 1 815 20221002165543
+217.182.97.112 1 1 3884 20221022135321
+43.142.179.19 2 2 1630 20221031094527
+119.8.0.25 1 1 2039 20221008044107
+73.158.171.120 6 88 5746585 20221031035953
+65.21.248.85 1 1 815 20221026212551
+34.77.114.155 1 1 815 20221017134637
+20.25.47.57 1 1 815 20221001085830
+167.94.138.46 2 2 1630 20221031124030
+199.249.230.175 1 1 14171 20221030061039
+185.244.192.155 2 2 14267 20221002200556
+103.160.233.95 0 1 52840 
+123.125.186.93 0 1 13485 
+23.81.49.104 1 1 3884 20221010023403
+5.36.172.81 0 1 68488 
+43.130.72.30 8 102 7685029 20221027013826
+47.74.152.79 2 2 14336 20221015125035
+123.125.186.23 0 2 8714 
+54.202.246.41 1 1 815 20221018222426
+123.125.186.85 0 3 52926 
+20.48.225.210 2 2 1630 20221021040925
+34.222.60.63 1 1 815 20221017041357
+50.236.104.50 5 52 3843157 20221024091916
+5.161.96.57 3 3 2445 20221026010806
+123.125.186.94 0 1 7679 
+109.195.85.80 2 2 52869 20221012193305
+123.125.186.92 0 2 5663 
+13.57.23.44 2 44 1601844 20221026055043
+35.86.145.124 3 3 2445 20221025035459
+20.249.58.93 2 2 4078 20221007102903
+149.102.153.59 2 2 4034 20221027072951
+123.125.186.22 0 1 4042 
+183.36.114.159 0 1 36031 
+35.93.12.36 1 1 815 20221015220412
+37.139.53.90 6 6 57016 20221029221218
+82.165.115.89 1 1 3884 20221019182104
+80.82.78.13 2 2 14267 20221026232207
+35.93.41.13 1 1 815 20221016234033
+160.202.89.11 2 2 4034 20221031114444
+49.7.21.145 4 4 97839 20221006140850
+46.46.116.200 4 4 42609 20221013085934
+205.210.31.21 1 1 2039 20221024125853
+142.54.173.138 2 2 14337 20221005135914
+158.69.63.54 1 1 14171 20221017221629
+54.185.183.55 1 1 815 20221010143230
+88.206.121.137 3 3 28510 20221004015510
+181.214.218.71 2 2 14340 20221009134743
+183.36.114.130 0 9 55521 
+42.236.10.125 2 48 3901772 20221027123051
+107.175.206.199 6 53 3861075 20221022210852
+42.63.253.185 1 1 815 20221007054613
+123.125.186.66 0 1 32771 
+20.39.197.30 2 2 4078 20221028115635
+193.186.4.206 2 2 11113 20221019203455
+109.70.100.25 3 3 28438 20221003085014
+113.125.140.19 2 2 1630 20221027064946
+202.94.175.183 3 3 11354 20221018084238
+113.108.9.38 1 1 815 20221018135705
+15.235.97.24 1 1 815 20221005132120
+198.235.24.45 1 1 2039 20221012004240
+31.13.127.4 0 1 31698 
+54.184.108.224 1 1 815 20221028031402
+20.150.212.184 2 2 1630 20221019044857
+89.58.30.164 1 1 14171 20221030061027
+54.184.154.206 1 1 815 20221015103702
+35.92.251.72 1 1 815 20221024100052
+207.32.128.243 1 25 315759 20221011005622
+69.171.251.8 2 19 1322641 20221013193605
+91.224.178.228 6 6 43014 20221031145735
+37.19.223.115 4 4 55131 20221026221457
+103.251.167.10 4 4 42609 20221027211253
+138.199.7.137 2 2 14333 20221021215233
+170.83.177.231 3 3 11441 20221020220524
+198.244.152.59 1 1 815 20221016090918
+107.122.189.77 2 37 1637431 20221014062252
+180.109.50.106 1 1 815 20221017162236
+183.36.114.152 0 2 4881 
+123.125.186.29 0 1 1621 
+77.74.177.119 4 4 3260 20221025054510
+20.127.112.228 2 2 1630 20221022174644
+123.125.186.99 0 1 6169 
+66.220.149.120 2 31 2377060 20221031023000
+123.125.186.117 0 4 61490 
+54.214.55.33 1 1 815 20221029213719
+139.170.203.219 1 1 815 20221013204102
+27.61.40.224 1 24 808222 20221005044846
+207.46.13.6 0 1 5796 
+123.145.6.105 1 1 815 20221013141338
+183.36.114.97 0 12 34346 
+94.16.116.81 3 3 28508 20221003064111
+173.252.95.119 0 1 17820 
+198.235.24.152 1 1 2039 20221030020645
+149.62.41.13 1 1 815 20221011185100
+206.72.206.62 3 3 9525 20221023213840
+23.105.4.254 1 1 3884 20221009215747
+183.36.114.153 0 1 1621 
+35.90.138.199 1 1 815 20221025120214
+195.201.139.48 1 1 815 20221009050941
+176.118.32.20 1 1 815 20221019161013
+198.235.24.20 2 2 4078 20221028223019
+165.231.130.63 1 1 815 20221011191921
+185.220.101.22 2 2 14338 20221026075611
+174.88.90.191 0 1 56630 
+161.97.76.4 1 1 2039 20221019160728
+185.39.144.147 1 1 815 20221017181212
+27.115.124.70 1 47 3837324 20221018143337
+181.67.111.137 1 1 686 20221010120730
+52.186.179.222 1 1 815 20221027095638
+61.147.15.67 6 6 4890 20221030101609
+34.209.136.16 2 2 1630 20221012071531
+54.213.231.159 1 1 815 20221020004610
+93.158.91.253 1 1 815 20221023150315
+35.88.159.65 1 1 815 20221031142327
+191.101.31.40 2 2 14338 20221012201512
+185.100.85.25 3 3 28506 20221031224730
+183.36.114.9 0 3 20866 
+18.236.150.201 1 1 815 20221023061115
+191.101.217.76 1 1 2039 20221023111002
+35.91.68.6 1 1 815 20221018101816
+199.244.88.221 1 1 815 20221024102320
+172.58.35.187 1 36 1893600 20221006202037
+46.253.131.49 2 2 686 20221019100624
+72.167.51.34 1 1 815 20221012105055
+112.66.105.87 1 1 815 20221006194241
+185.179.214.36 1 1 14171 20221031081058
+179.61.242.230 7 56 5452599 20221022210907
+34.214.188.56 1 1 815 20221016144336
+173.208.153.34 2 2 14336 20221006225944
+176.95.243.137 5 5 4075 20221029040720
+45.155.68.3 1 1 815 20221019153755
+36.106.166.53 1 1 815 20221011115524
+205.210.31.132 1 1 2039 20221019095010
+64.124.8.32 7 7 22579 20221026112316
+123.125.186.77 0 11 64055 
+103.143.111.156 1 1 686 20221012114841
+93.159.230.89 4 4 3260 20221005194433
+54.187.140.219 1 1 815 20221001222254
+144.76.159.163 2 2 14340 20221028142333
+138.199.36.192 1 1 2039 20221020140732
+160.202.86.189 2 2 4036 20221031172542
+223.247.178.167 2 2 1630 20221024222522
+64.140.131.54 2 29 3872004 20221021031451
+37.139.53.50 7 7 191780 20221031004716
+31.13.127.26 0 1 13641 
+23.106.193.47 1 1 3884 20221024033005
+207.90.20.180 2 30 3669639 20221021031456
+20.14.99.78 1 1 815 20221020040526
+159.203.98.19 2 2 40732 20221004232152
+123.125.186.114 0 1 7679 
+183.36.114.161 0 3 53538 
+93.158.90.169 1 1 815 20221007163738
+64.124.8.25 3 3 7301 20221024222758
+38.131.129.231 1 1 3884 20221026213505
+51.81.32.179 3 3 8274 20221019071700
+194.53.176.252 1 1 686 20221027103113
+45.169.70.9 3 3 28508 20221029064438
+194.32.122.56 2 2 14339 20221015131806
+188.28.74.184 0 1 68488 
+40.77.167.25 0 2 22178 
+178.69.100.107 1 1 686 20221010214901
+61.178.138.10 1 1 686 20221016091531
+93.158.91.250 1 1 815 20221023150316
+162.55.81.190 3 3 6117 20221030163312
+209.127.17.135 3 3 11441 20221020233933
+165.227.187.207 2 2 40786 20221005233711
+46.114.139.104 0 1 68488 
+209.99.146.242 2 20 1477673 20221019022322
+107.150.112.128 1 1 815 20221013045853
+35.92.1.156 1 1 815 20221006235112
+34.217.119.72 1 1 815 20221008233540
+95.27.42.37 2 2 14339 20221004150317
+18.237.223.235 1 1 815 20221003212101
+35.165.201.38 1 1 815 20221014073310
+35.86.146.125 1 1 815 20221023050350
+124.220.171.131 1 1 815 20221005135440
+34.213.112.9 1 1 815 20221017203831
+181.214.218.46 2 2 14337 20221004072502
+142.93.170.99 1 1 815 20221009121708
+150.255.183.241 1 1 815 20221008015407
+196.19.244.5 3 3 11441 20221026111947
+183.36.114.156 0 1 4983 
+165.22.100.105 1 1 2039 20221014015413
+31.13.127.14 1 16 1064854 20221031023505
+123.125.186.116 0 1 6638 
+109.70.100.21 3 3 28510 20221019190924
+64.137.9.111 6 52 3859356 20221022210901
+45.151.167.11 3 3 28509 20221022051132
+205.210.31.33 1 1 2039 20221025205428
+35.92.193.111 1 1 815 20221019042520
+66.220.149.6 2 17 1080937 20221031023003
+181.214.218.196 4 4 55128 20221020135058
+185.16.38.112 3 3 28438 20221004042733
+70.119.163.16 0 1 431747 
+185.220.101.15 3 3 28438 20221001184429
+54.190.129.117 1 1 815 20221029213701
+104.198.167.226 2 2 7486 20221016042230
+27.115.124.45 1 1 6671 20221018143331
+183.36.114.69 0 1 4042 
+34.77.35.161 1 1 815 20221028120012
+123.125.186.76 0 10 64390 
+18.236.186.70 1 1 815 20221003142148
+54.184.206.3 1 1 815 20221029142619
+34.209.39.87 1 1 815 20221023050327
+34.244.194.178 4 4 3260 20221027014605
+107.116.89.59 4 50 3839468 20221016134532
+113.161.62.81 1 1 686 20221004044839
+35.90.31.57 1 1 815 20221001213038
+104.227.71.53 1 1 3884 20221026013559
+181.214.218.47 2 2 14340 20221015090430
+35.163.168.220 1 1 815 20221023105535
+54.184.105.245 1 1 2039 20221026100646
+66.220.149.2 0 1 13641 
+172.58.35.151 2 13 1945278 20221006202122
+183.36.114.157 0 2 4666 
+34.212.209.192 1 1 815 20221027234050
+73.223.181.70 4 50 3839564 20221015020622
+178.175.129.43 2 2 14338 20221004042008
+195.222.64.235 3 49 3838878 20221009052253
+45.130.228.206 1 1 686 20221024121114
+38.131.129.141 1 1 3884 20221013081210
+165.227.124.161 2 2 40732 20221006211637
+51.132.223.167 1 1 6742 20221008151841
+35.91.112.173 1 1 815 20221025133052
+44.234.64.99 3 3 6117 20221031021707
+64.124.8.55 1 1 3558 20221008200031
+54.202.84.186 1 1 815 20221025035508
+172.241.234.64 1 1 3884 20221009161735
+212.74.203.4 2 2 14340 20221029090922
+173.252.127.21 0 1 13641 
+100.38.227.144 5 59 4136922 20221010140316
+183.36.114.146 0 1 17156 
+52.12.211.168 1 1 815 20221010232112
+69.171.251.15 0 1 13641 
+54.202.117.236 1 1 815 20221029074010
+95.55.155.44 2 2 14335 20221029032445
+160.20.11.5 1 1 815 20221020003304
+176.124.223.175 4 4 28676 20221029052408
+54.186.81.204 1 1 815 20221006145744
+149.62.41.22 1 1 815 20221023050624
+93.159.230.83 3 3 2445 20221013225824
+52.12.91.171 1 1 815 20221010105839
+185.224.185.4 3 20 169328 20221019015405
+5.254.230.157 2 2 14339 20221016121703
+69.171.251.9 1 15 1483986 20221013193606
+149.56.150.136 2 44 1589425 20221017115252
+36.32.2.93 1 1 815 20221013154720
+106.197.16.33 2 44 2188051 20221029212727
+64.140.134.41 2 24 1848830 20221011005556
+76.127.198.107 5 52 3848391 20221017154518
+18.236.82.22 1 1 815 20221019090429
+207.46.13.138 0 4 22741 
+185.207.107.106 3 3 28438 20221013145644
+190.169.30.9 1 1 815 20221011154557
+37.139.53.10 1 1 686 20221005071839
+183.36.114.142 0 13 229031 
+54.186.44.163 1 1 815 20221025133246
+172.241.160.41 1 1 3884 20221018151504
+165.231.130.27 1 1 815 20221009235228
+207.46.13.57 0 5 41035 
+34.215.192.106 1 1 815 20221029142534
+193.235.141.168 2 2 1630 20221023093507
+217.21.84.177 1 1 686 20221024120400
+176.122.23.61 3 3 2445 20221022000842
+192.210.165.123 3 3 11354 20221009173937
+31.13.127.8 0 2 16882 
+196.240.58.53 2 2 6611 20221001121002
+20.216.151.99 8 8 71357 20221031171720
+35.89.193.247 1 1 815 20221008233505
+117.140.189.68 2 2 1630 20221010061822
+34.221.217.127 1 1 815 20221031142341
+172.58.35.97 3 4 307962 20221006202408
+34.123.154.129 2 2 7557 20221015233001
+195.176.3.23 3 3 28438 20221007211752
+128.14.227.202 1 1 815 20221012075612
+183.36.114.143 0 1 6439 
+18.221.16.23 2 2 1630 20221017185228
+191.96.168.10 4 4 55128 20221006112720
+123.125.186.108 0 14 380871 
+20.163.0.150 2 2 1630 20221026090511
+124.221.248.242 1 1 815 20221001121715
+35.93.2.154 1 1 815 20221010143239
+183.36.114.14 0 2 7528 
+34.217.115.89 1 1 815 20221024100109
+123.125.186.72 0 1 4983 
+198.20.173.10 2 2 7768 20221008124104
+35.91.203.111 1 1 815 20221010231944
+123.194.184.204 1 1 686 20221004013628
+34.216.197.185 1 1 815 20221014031515
+173.252.95.22 0 1 13641 
+205.210.31.151 1 1 2039 20221021144104
+193.169.254.184 4 4 56684 20221021005729
+207.46.13.16 0 5 21332 
+94.130.167.248 2 2 4078 20221029180835
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20221001 45 81 2114791 28
+20221002 31 90 4620052 19
+20221003 59 166 8630652 34
+20221004 40 41 345540 22
+20221005 50 168 9108820 35
+20221006 51 190 8937486 29
+20221007 54 149 8123346 32
+20221008 38 85 3959643 26
+20221009 66 278 20349088 31
+20221010 99 256 12360129 45
+20221011 96 394 25610789 52
+20221012 76 329 2933435 34
+20221013 68 210 13069145 40
+20221014 62 174 6185318 39
+20221015 73 170 8460720 45
+20221016 67 176 8014284 44
+20221017 79 364 21720458 35
+20221018 79 313 17948730 48
+20221019 77 363 25193611 48
+20221020 49 142 7929329 27
+20221021 64 303 21632032 44
+20221022 91 417 28952031 32
+20221023 49 49 187101 31
+20221024 86 376 9746304 48
+20221025 82 179 8698822 46
+20221026 72 116 2181508 39
+20221027 85 273 16103090 38
+20221028 102 166 4951107 43
+20221029 72 160 6374351 40
+20221030 79 262 13094403 35
+20221031 105 306 16137139 54
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+15mn-30mn 2
+30s-2mn 25
+30mn-1h 7
+0s-30s 1114
+2mn-5mn 4
+5mn-15mn 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/ 848 812869 706 586
+/contactus.php 493 5938966 368 166
+/contact.php 300 47743 5 235
+/index.php 190 2226173 28 62
+/font-awesome/fonts/fontawesome-webfont.woff 97 8125150 6 40
+/fonts/revicons/revicons.woff 60 448233 2 44
+/lectionary.php 25 82730 2 3
+/photogallery.php 19 74644 3 1
+/orthodoxchurch.php 17 201339 9 4
+/login.php 15 98157 4 5
+/ministries.php 15 59324 6 3
+/aboutourchurch.php 15 61465 5 4
+/patrons.php 13 101174 8 3
+/videogallery.php 10 47678 3 1
+/calendar.php 10 29763 4 3
+/lents.php 6 17908 3 0
+/index.php/User/sendsmscode 2 13310 0 0
+/index.php/Wap/Api/getSystemNotice 2 13413 0 1
+/index.php/Wap/Api/getBanner 2 13310 0 0
+/contactus.php/wp-content/plugins/dzs-zoomsounds/savepng.php 2 28342 1 1
+/index.php/Home/Public/login.html 2 13310 0 0
+/index.php/sign 2 13397 0 0
+/font-awesome/fonts/fontawesome-webfont.ttf 1 141564 0 1
+END_SIDER

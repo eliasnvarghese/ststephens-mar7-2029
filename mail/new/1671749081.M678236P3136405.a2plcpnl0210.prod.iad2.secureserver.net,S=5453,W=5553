@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id kCZTKNndpGOV2y8AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 22 Dec 2022 15:44:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 22 Dec 2022 15:44:41 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1p8UIr-00DFZ7-J1
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Thu, 22 Dec 2022 15:44:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1p8UIm-00DFVk-RK@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1671749081-eximdsn-1318219000
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1p8UIr-00DFZ7-J1@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 22 Dec 2022 15:44:41 -0700
+
+--1671749081-eximdsn-1318219000
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 8UIrpB9cHA5eq :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=F/mRNItN c=1 sm=1 tr=0 ts=63a4ddd9 p=31hs7-Ki0cQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=e2qxaKWlJI4A:10 a=EUeiGK48AAAA:8 a=DAKao-sCAAAA:8 a=JCChmdLiAAAA:8 a=akiWT92cAAAA:8 a=8st7pk2pAAAA:8 a=GzLAGCCAEwhyXFGsZaMA:9 a=QEXdDO2ut3YA:10 a=cCQ_zFRNXqsA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=9DFRT8GF1qCvmyTx31Jh:22 a=_HZRPMLfCHnyMRduI9M1:22 a=DxqrnUkb_tilatthKxwT:22 a=Ok0hBUvI7zcEAUtE5j1G:22 a=MYWCqv0SJBwfc0_LEIKu:22 ::
+    100.00
+
+--1671749081-eximdsn-1318219000
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 8UIrpB9cHA5eq :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=F/mRNItN c=1 sm=1 tr=0 ts=63a4ddd9 p=31hs7-Ki0cQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=e2qxaKWlJI4A:10 a=EUeiGK48AAAA:8 a=DAKao-sCAAAA:8 a=JCChmdLiAAAA:8 a=akiWT92cAAAA:8 a=8st7pk2pAAAA:8 a=GzLAGCCAEwhyXFGsZaMA:9 a=QEXdDO2ut3YA:10 a=cCQ_zFRNXqsA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=9DFRT8GF1qCvmyTx31Jh:22 a=_HZRPMLfCHnyMRduI9M1:22 a=DxqrnUkb_tilatthKxwT:22 a=Ok0hBUvI7zcEAUtE5j1G:22 a=MYWCqv0SJBwfc0_LEIKu:22 :: 100.00
+
+--1671749081-eximdsn-1318219000
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1p8UIm-00DFVk-RK
+	for ginojohn@gmail.com;
+	Thu, 22 Dec 2022 15:44:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by frorM.
+X-PHP-Script: ststephenssanjose.org/contact.php for 192.71.172.210
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 192.71.172.210
+From: 28.351.sb9x.m@dynainbox.com
+Reply-To: 28.351.sb9x.m@dynainbox.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1p8UIm-00DFVk-RK@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 22 Dec 2022 15:44:36 -0700
+
+You have been contacted by frorM, and the message is as follows.
+
+"pokerdom android 
+<a
+href="http://www.interface.ru/iservices/messages.asp?forumId=1550&topicId=419
+http://www.webviki.ru/jag-sochi.ru
+https://fastdomain.shop/2022-10-29/80
+">http://www.interface.ru/iservices/messages.asp?forumId=1550&topicId=419
+http://www.webviki.ru/jag-sochi.ru
+https://fastdomain.shop/2022-10-29/80
+</a> 
+Онлайн-казино добились успеха в
+создании уникального опыта для своих
+пользователей, предлагая игры,
+адаптированные для их целевой
+аудитории. Эти игры включают игровые
+автоматы, покер, блэкджек и рулетку.
+Кроме того, эти казино также
+предлагают различные акции, такие как
+бесплатные вращения на игровых
+автоматах или бесплатные деньги на
+столах для рулетки.
+"
+
+You can contact frorM via email, 28.351.sb9x.m@dynainbox.com
+
+--1671749081-eximdsn-1318219000--

@@ -1,0 +1,105 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id sWAlNCrM1WUrBCUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 21 Feb 2024 03:10:50 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 21 Feb 2024 03:10:50 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rcjYw-00AB5E-2Y
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 21 Feb 2024 03:10:50 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rcjYq-00AAzt-38@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1708510250-eximdsn-497311760
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rcjYw-00AB5E-2Y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 21 Feb 2024 03:10:50 -0700
+
+--1708510250-eximdsn-497311760
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 cjYwrofCSLt0G :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=NNd2+F6g c=1 sm=1 tr=0 ts=65d5cc2a p=UhkTuZx_AAAA:8 p=EQyjdwTgAAAA:8 p=Y588P1u3CUlpND14RDdP:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=tGPTXEthAAAA:8 a=JzISZjfAAAAA:8 a=4XCIhOMrAAAA:8 a=hU6AjQESAAAA:8 a=hBvTTNUhAAAA:8 a=Nlusd7aRAAAA:8 a=YaXA_xT8pDKsOdqHhzIA:9 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=sefPoV3bEmYA:10 a=558ZOeBoPPoA:10 a=3EXw4TuG0RgA:10 a=vJ7-C0Gs-C0A:10 a=2_VmAKGezJMA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=7fvj2p7AK5mYgCSePxuF:22 a=ZdrsegbkyFfiLvPfnyfu:22 a=gbKx-oAOrI0y0ve0z0gT:22 a=y9Ikcmity2t9ArvvaSP5:22 a=CeyybfYbQA-ZnFCyUdml:22 a=GY55ae_JeWmONRYkHbJB:22 a=K92uVhD-VshOIbF8DqXS:22 a=IwWFOEd7i68qOwAxCo3r:22 ::
+    100.00
+
+--1708510250-eximdsn-497311760
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 cjYwrofCSLt0G :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=NNd2+F6g c=1 sm=1 tr=0 ts=65d5cc2a p=UhkTuZx_AAAA:8 p=EQyjdwTgAAAA:8 p=Y588P1u3CUlpND14RDdP:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=tGPTXEthAAAA:8 a=JzISZjfAAAAA:8 a=4XCIhOMrAAAA:8 a=hU6AjQESAAAA:8 a=hBvTTNUhAAAA:8 a=Nlusd7aRAAAA:8 a=YaXA_xT8pDKsOdqHhzIA:9 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=sefPoV3bEmYA:10 a=558ZOeBoPPoA:10 a=3EXw4TuG0RgA:10 a=vJ7-C0Gs-C0A:10 a=2_VmAKGezJMA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=7fvj2p7AK5mYgCSePxuF:22 a=ZdrsegbkyFfiLvPfnyfu:22 a=gbKx-oAOrI0y0ve0z0gT:22 a=y9Ikcmity2t9ArvvaSP5:22 a=CeyybfYbQA-ZnFCyUdml:22 a=GY55ae_JeWmONRYkHbJB:22 a=K92uVhD-VshOIbF8DqXS:22 a=IwWFOEd7i68qOwAxCo3r:22 :: 100.00
+
+--1708510250-eximdsn-497311760
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rcjYq-00AAzt-38
+	for ginojohn@gmail.com;
+	Wed, 21 Feb 2024 03:10:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Sownqgw.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.186.78.160
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.186.78.160
+From: segif18200@shirulo.com
+Reply-To: segif18200@shirulo.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rcjYq-00AAzt-38@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 21 Feb 2024 03:10:44 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Sownqgw, and the message is as follows.
+
+" Привет, отлично веб-сайт у вас есть
+сейчас. Посетите также мою страничку 
+ 
+посмотрите и эту страничку и дайте ей
+оценку 
+ 
+https://anotepad.com/note/read/k9t5pw6e часова разлика
+тайланд българия 
+http://pirooztak.ir/?option=com_k2&view=itemlist&task=user&id=721594
+тайланд вилидж 
+http://www.fantasyroleplay.co/wiki/index.php/Three_Essential_Elements_For_%D0%9F%D0%BB%D0%B0%D0%B6%D0%BE%D0%B2%D0%B5%D1%82%D0%B5_%D0%9D%D0%B0_%D0%9A%D1%80%D0%B0%D0%B1%D0%B8
+почивка тайланд краби 
+http://www.stes.tyc.edu.tw/xoops/modules/profile/userinfo.php?uid=1221061
+цени на дестинациите в краби 
+http://multi-net.su/user/CorineElyard657/ патая жени 
+http://hanglemezkereso.hu/author/letasteven/ билет до
+патая 
+https://anotepad.com/note/read/q9tpijr4 къщи под наем в
+пукет тайланд 
+https://audiwiki.bitt-c.at/index.php?title=Benutzer:AudryCastellanos
+фестивалът на остров пукет тайланд 
+ 
+=pat="
+
+You can contact Sownqgw via email, segif18200@shirulo.com
+
+--1708510250-eximdsn-497311760--

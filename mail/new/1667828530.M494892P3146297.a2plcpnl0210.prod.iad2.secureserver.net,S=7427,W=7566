@@ -1,0 +1,139 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id KP5mHTILaWM5AjAAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 06:42:10 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 06:42:10 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os2OA-00DGkl-Bh
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 06:42:10 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os2O9-00DGjR-TU@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667828530-eximdsn-2080380404
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os2OA-00DGkl-Bh@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 06:42:10 -0700
+
+--1667828530-eximdsn-2080380404
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s2OAoQZUr4oIf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63690b32 p=C9n_5a507pYA:10 p=-NXN3c7gAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=3EGolyqytNYA:10 a=RgBw9RmQAAAA:8 a=IidNcDtLHJlWVapN7_QA:9 a=QEXdDO2ut3YA:10 a=LPiqpBzCyVUA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=SpTJf8ur8GFEimrawnup:22 ::
+    100.00
+
+--1667828530-eximdsn-2080380404
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s2OAoQZUr4oIf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63690b32 p=C9n_5a507pYA:10 p=-NXN3c7gAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=3EGolyqytNYA:10 a=RgBw9RmQAAAA:8 a=IidNcDtLHJlWVapN7_QA:9 a=QEXdDO2ut3YA:10 a=LPiqpBzCyVUA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=SpTJf8ur8GFEimrawnup:22 :: 100.00
+
+--1667828530-eximdsn-2080380404
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os2O9-00DGjR-TU
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 06:42:10 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JosephJuips.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.125
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.125
+From: grachev_slava_1977_17_11@mail.ru
+Reply-To: grachev_slava_1977_17_11@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os2O9-00DGjR-TU@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 06:42:09 -0700
+
+You have been contacted by JosephJuips, and the message is as follows.
+
+"Широкий выбор моделей https://profildoorskzn.ru/
+  Все изделия, выставленные в каталоге,
+распределены по цвету, материалу,
+дизайну и отлично подходят для
+монтажа в загородных домах, квартирах,
+гостиницах, ресторанах или офисах
+https://profildoorskzn.ru/alyuminievye-dveri
+  Каждая модель сопровождается
+описанием и качественными фото
+https://profildoorskzn.ru/
+ 
+
+Стекло может быть армированным для
+увеличения прочности конструкции или
+закаленным, в случае разбития
+которого стекло распадается
+на множество кусочков с неострыми
+краями https://profildoorskzn.ru/alyuminievye-dveri
+  Может быть использовано и цветное
+стекло, для производства которого
+краска добавляется в сырье на этапе
+плавления https://profildoorskzn.ru/
+ 
+Именно поэтому многие модели обладают
+звукоизоляционными свойствами
+https://profildoorskzn.ru/alyuminievye-dveri
+  Наличие межкомнатных дверей в доме
+подчеркивает статус хозяина и его
+хороший вкус https://profildoorskzn.ru/
+  Ведь они выступают частью интерьера
+отдельно взятой комнаты и даже всего
+дома https://profildoorskzn.ru/alyuminievye-dveri
+ 
+Полотно размером 200х70 как правило
+необходимо для проема на кухню
+https://profildoorskzn.ru/
+ 90% квартир в Москве и МО имеют именно
+такие параметры https://profildoorskzn.ru/
+  Это означает, что если Вы собрались
+заменить дверь на кухню, то Вам нужно
+приобрести дверь высотой 2 метра и
+шириной 70см https://profildoorskzn.ru/
+ Оптимальный размер чистого проема
+при этом такой: высот https://profildoorskzn.ru/
+  https://profildoorskzn.ru/
+ 
+Для их создания применяются
+современные материалы, обладающие
+высоким уровнем износа и безопасные
+для человека https://profildoorskzn.ru/
+  Способны на протяжении длительного
+времени сохранять внешний вид
+https://profildoorskzn.ru/alyuminievye-dveri
+  Широкий модельный ряд позволяет без
+труда купить межкомнатные двери ПВХ
+https://profildoorskzn.ru/alyuminievye-dveri
+  Отдельного внимания заслуживает
+возможность проведения ламинирования
+поверхности https://profildoorskzn.ru/
+ 
+"
+
+You can contact JosephJuips via email,
+grachev_slava_1977_17_11@mail.ru
+
+--1667828530-eximdsn-2080380404--

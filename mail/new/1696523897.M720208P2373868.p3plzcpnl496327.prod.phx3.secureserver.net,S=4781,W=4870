@@ -1,0 +1,89 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id MKoQKXnmHmXsOCQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 05 Oct 2023 09:38:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 05 Oct 2023 09:38:17 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qoRMf-009yD5-KF
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 05 Oct 2023 09:38:17 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qoRMY-009yA6-HK@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696523897-eximdsn-369230174
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qoRMf-009yD5-KF@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 05 Oct 2023 09:38:17 -0700
+
+--1696523897-eximdsn-369230174
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 oRMfqXpP0PElO :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Lu1UiFRc c=1 sm=1 tr=0 ts=651ee679 p=rxNMp1VqAAAA:8 p=m8Hkqb74Am4A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Yc7EnSAL2uQA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=sgxDE5c_q0IA:10 a=UqCG9HQmAAAA:8 a=t3OBRBseeO64S_M4jKsA:9 a=QEXdDO2ut3YA:10 a=lrxV90ot04kA:10 a=-FEs8UIgK8oA:10 a=zZCYzV9kfG8A:10 a=KyYZJfTCSdMA:10 a=siJO6rcripzFm3eehIWS:22 a=qF2f_hRFdv3-TpTtup-3:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1696523897-eximdsn-369230174
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 oRMfqXpP0PElO :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Lu1UiFRc c=1 sm=1 tr=0 ts=651ee679 p=rxNMp1VqAAAA:8 p=m8Hkqb74Am4A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Yc7EnSAL2uQA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=sgxDE5c_q0IA:10 a=UqCG9HQmAAAA:8 a=t3OBRBseeO64S_M4jKsA:9 a=QEXdDO2ut3YA:10 a=lrxV90ot04kA:10 a=-FEs8UIgK8oA:10 a=zZCYzV9kfG8A:10 a=KyYZJfTCSdMA:10 a=siJO6rcripzFm3eehIWS:22 a=qF2f_hRFdv3-TpTtup-3:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1696523897-eximdsn-369230174
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qoRMY-009yA6-HK
+	for ginojohn@gmail.com;
+	Thu, 05 Oct 2023 09:38:17 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Josephlog.
+X-PHP-Script: ststephenssanjose.org/contact.php for 5.62.63.227
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 5.62.63.227
+From: jessica.paul.403@outlook.com
+Reply-To: jessica.paul.403@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qoRMY-009yA6-HK@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 05 Oct 2023 09:38:10 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Josephlog, and the message is as follows.
+
+"We present for you a new Russian dating site for sex 
+[url=https://rudating.pro] Best Russia Sex Dating[/url] Only we have
+real and verified user profiles 
+The most liberated users of your region are directly accessible 
+Register with a promo code - 74916 and get an entrance to a private
+club! 
+See you soon at - www.rudating.pro"
+
+You can contact Josephlog via email, jessica.paul.403@outlook.com
+
+--1696523897-eximdsn-369230174--

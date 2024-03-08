@@ -1,0 +1,110 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id sMIKMhiraWMhliAAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 18:04:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 18:04:24 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1osD2O-009I5v-Mg
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 18:04:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1osD2O-009I5N-7H@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667869464-eximdsn-66674905
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1osD2O-009I5v-Mg@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 18:04:24 -0700
+
+--1667869464-eximdsn-66674905
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 sD2OomLGJwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=6369ab18 p=wM8EBYZOcTEA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=KWBYhXKsmuAA:10 a=_g7-gzFSAAAA:8 a=RgBw9RmQAAAA:8 a=pfAZ5EHtGGddPLd-4bUA:9 a=7Zwj6sZBwVKJAoWSPKxL6X1jA+E=:19 a=QEXdDO2ut3YA:10 a=EyFPjFFrL6QA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=CJOawDorOLD-jYrzWiwd:22 ::
+    100.00
+
+--1667869464-eximdsn-66674905
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 sD2OomLGJwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=6369ab18 p=wM8EBYZOcTEA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=KWBYhXKsmuAA:10 a=_g7-gzFSAAAA:8 a=RgBw9RmQAAAA:8 a=pfAZ5EHtGGddPLd-4bUA:9 a=7Zwj6sZBwVKJAoWSPKxL6X1jA+E=:19 a=QEXdDO2ut3YA:10 a=EyFPjFFrL6QA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=CJOawDorOLD-jYrzWiwd:22 :: 100.00
+
+--1667869464-eximdsn-66674905
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1osD2O-009I5N-7H
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 18:04:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Carlossaf.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: valya.valeev.01@mail.ru
+Reply-To: valya.valeev.01@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1osD2O-009I5N-7H@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 18:04:24 -0700
+
+You have been contacted by Carlossaf, and the message is as follows.
+
+"Practical experience in the development of specialized microcomputers
+(in parallel with his studies, he worked in the department of hardware
+development of the Novosibirsk Research Institute of Applied Geodesy
+and wrote his thesis there) http://dianex.co.uk/our_services
+ 
+вЂў вЂ”a survey of colleagues on how to interpret a certain
+provision of the document вЂ” a selection of publications in the
+electronic library and expert advice are already contained in the
+system, and you will find the answer to your question in seconds 
+
+In this section, you will get acquainted with the lists of standards
+that ensure compliance with the requirements of the technical
+regulations of the Customs Union and necessary for assessing
+(confirming) compliance, as well as with a detailed explanation of the
+procedure for their application https://dianex.co.uk/
+  Immediately from the section, you can go to the relevant regulatory
+document, for convenience, all standards are grouped
+https://dianex.co.uk/about
+  You do not have to analyze a large selection of legislation on your
+own - all the clarifications and necessary documents are in one place!
+
+A large number of normative, normative and technical documents
+regulating various provisions of the industry are issued and adopted
+monthly https://dianex.co.uk/about
+  And many requirements of normative documents are ambiguous
+http://dianex.co.uk/our_services
+  It is difficult to understand which document to apply
+https://dianex.co.uk/
+  How to act in a specific situation that you are faced with at work
+https://dianex.co.uk/
+ 
+
+"
+
+You can contact Carlossaf via email, valya.valeev.01@mail.ru
+
+--1667869464-eximdsn-66674905--

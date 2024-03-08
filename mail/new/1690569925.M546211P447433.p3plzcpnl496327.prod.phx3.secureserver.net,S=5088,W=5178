@@ -1,0 +1,90 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id I7MhIMUMxGTJ0wYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 28 Jul 2023 11:45:25 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 28 Jul 2023 11:45:25 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qPSSr-001sOZ-FL
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 28 Jul 2023 11:45:25 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qPSSn-001sNr-2m@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690569925-eximdsn-1583053208
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qPSSr-001sOZ-FL@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 28 Jul 2023 11:45:25 -0700
+
+--1690569925-eximdsn-1583053208
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 PSSrqH1lMQ7u7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64c40cc5 p=f40sCO5u-0MA:10 p=GIhUmwmtv02wSjftDGM5:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=SEhsdFt-oHEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=YFIDWdK8GoYA:10 a=Vc14F_5OAAAA:8 a=pGLkceISAAAA:8 a=gPRor0Bvx45bk3WTdb8A:9 a=QEXdDO2ut3YA:10 a=DSxypae9ANsA:10 a=KHuMolVp_UwA:10 a=ugPMZD70YvC8l-tv-cNM:22 a=-hDYbkxHkxLxuNq8mJX1:22 a=LYicXcDfgFlGAxzJUJtV:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1690569925-eximdsn-1583053208
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 PSSrqH1lMQ7u7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64c40cc5 p=f40sCO5u-0MA:10 p=GIhUmwmtv02wSjftDGM5:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=SEhsdFt-oHEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=YFIDWdK8GoYA:10 a=Vc14F_5OAAAA:8 a=pGLkceISAAAA:8 a=gPRor0Bvx45bk3WTdb8A:9 a=QEXdDO2ut3YA:10 a=DSxypae9ANsA:10 a=KHuMolVp_UwA:10 a=ugPMZD70YvC8l-tv-cNM:22 a=-hDYbkxHkxLxuNq8mJX1:22 a=LYicXcDfgFlGAxzJUJtV:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1690569925-eximdsn-1583053208
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qPSSn-001sNr-2m
+	for ginojohn@gmail.com;
+	Fri, 28 Jul 2023 11:45:25 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Omar Kater.
+X-PHP-Script: ststephenssanjose.org/contact.php for 45.35.194.137
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 45.35.194.137
+From: kater.omar@gmail.com
+Reply-To: kater.omar@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qPSSn-001sNr-2m@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 28 Jul 2023 11:45:21 -0700
+
+You have been contacted by Omar Kater, and the message is as follows.
+
+"Hi there, my name is Cody Griner. I apologize for using your contact
+form, but I wasn't sure who the right person was to speak with in your
+company. We have a patented application that creates Local Area pages
+that rank on top of Google within weeks, we call it Local Magic.  Here
+is a link to the product page
+https://www.mrmarketingres.com/local-magic/ . The product leverages
+technology where these pages are managed dynamically by AI and it is
+ideal for promoting businesses on Google.  Can I share a testimonial
+from one of our clients with you?  I can also do a short zoom to
+illustrate their full case study if you have time for it?
+cody@mrmarketingres.com 843-720-7301"
+
+You can contact Omar Kater via email, kater.omar@gmail.com
+
+--1690569925-eximdsn-1583053208--

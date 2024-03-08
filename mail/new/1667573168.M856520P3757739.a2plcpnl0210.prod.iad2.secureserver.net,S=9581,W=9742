@@ -1,0 +1,161 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id AJ/sMrAlZWOrVjkAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 04 Nov 2022 07:46:08 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 04 Nov 2022 07:46:08 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqxxQ-00Fp4M-NA
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 04 Nov 2022 07:46:08 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqxxQ-00Fp3e-4Z@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667573168-eximdsn-1410461288
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqxxQ-00Fp4M-NA@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 04 Nov 2022 07:46:08 -0700
+
+--1667573168-eximdsn-1410461288
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qxxQo6OvuwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=636525b0 p=cs8gf37ADIYA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=7hIBbAKoStsA:10 a=6_QihwcNAAAA:8 a=RgBw9RmQAAAA:8 a=FePxYeTBlhDFxrLoEkMA:9 a=QEXdDO2ut3YA:10 a=ugb6AYb8TpUA:10 a=eGOzD36znpwA:10 a=xLsYi2Pkn_UA:10 a=cY4fkRSU71kA:10 a=-eM-OCCda50A:10 a=sZCcoMxCMJ4A:10 a=JsZ4PIZL7bwA:10 a=by_mQucj9foA:10 a=JitmFYolTlMA:10 a=KBAWw6pWK3UA:10 a=YnoFh2uSoOgA:10 a=ocTkLcIfjiEA:10 a=FKu4FvZcsxwA:10 a=L6C2Ap-MBQAA:10 a=5oDmFG0AXCoA:10 a=9cMtEpzIOzkA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=d9IQMi0ovIPTbKr8UT6T:22 ::
+    100.00
+
+--1667573168-eximdsn-1410461288
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qxxQo6OvuwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=636525b0 p=cs8gf37ADIYA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=7hIBbAKoStsA:10 a=6_QihwcNAAAA:8 a=RgBw9RmQAAAA:8 a=FePxYeTBlhDFxrLoEkMA:9 a=QEXdDO2ut3YA:10 a=ugb6AYb8TpUA:10 a=eGOzD36znpwA:10 a=xLsYi2Pkn_UA:10 a=cY4fkRSU71kA:10 a=-eM-OCCda50A:10 a=sZCcoMxCMJ4A:10 a=JsZ4PIZL7bwA:10 a=by_mQucj9foA:10 a=JitmFYolTlMA:10 a=KBAWw6pWK3UA:10 a=YnoFh2uSoOgA:10 a=ocTkLcIfjiEA:10 a=FKu4FvZcsxwA:10 a=L6C2Ap-MBQAA:10 a=5oDmFG0AXCoA:10 a=9cMtEpzIOzkA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=d9IQMi0ovIPTbKr8UT6T:22 :: 100.00
+
+--1667573168-eximdsn-1410461288
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqxxQ-00Fp3e-4Z
+	for ginojohn@gmail.com; Fri, 04 Nov 2022 07:46:08 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Stevenmaw.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.38.235.158
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.38.235.158
+From: pavel.sitdikov.88@mail.ru
+Reply-To: pavel.sitdikov.88@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqxxQ-00Fp3e-4Z@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 04 Nov 2022 07:46:08 -0700
+
+You have been contacted by Stevenmaw, and the message is as follows.
+
+"Толщиномер ультразвуковой ТТ100
+предназначен для ручного контактного
+измерения толщины изделий из металлов
+и их сплавов, пластмасс, керамик и
+других материалов, имеющих две
+параллельные поверхности
+https://www.ndt-club.com/product-118-vd-70-defektoskop-vihretokovii.htm
+  Контролируемые изделия должны иметь
+две параллельные поверхности с
+максимальной шероховатостью до Rz = 80
+мкм со стороны вводы ультразвукового
+сигнала и до Rz = 160 мкм с
+противоположной стороны
+https://www.ndt-club.com/product-450-disto-d810-touch-leica-lazernii-dalnomer.htm
+ 
+Толщиномер ТЭМП-УТ1 используется для
+высокоточного измерения толщины
+различных объектов из однородных
+материалов, как металлического
+происхождения, так и неметаллического
+https://www.ndt-club.com/product-585-korsar-16-sistema-nizkochastotnogo-elektromagnitnogo-kontrolya.htm
+  Доступ к объектам - односторонний
+https://www.ndt-club.com/product-715-ystanovka-kontrolya-germetichnosti.htm
+  Также прибор может эффективно
+применяться для измерения скорости
+распространения ультразвуковых
+колебаний в материале изделия
+https://www.ndt-club.com/product-38-vektor-50-yniversalnii-vihretokovii-defektoskop.htm
+  Корпус прибора выполнен из металла
+https://www.ndt-club.com/product-268-sp5-75kys-yltrazvykovoi-preobrazovatel-tipa-sparennii-tandem.htm
+ 
+Влияние оксидной пленки на
+поверхности металла
+https://www.ndt-club.com/proizvoditeli-8-raycraft.htm
+  Некоторые металлы, например
+алюминий, могут образовывать на
+поверхности плотную оксидную пленку
+https://www.ndt-club.com/product-700-resipod-izmeritel-ydelnogo-soprotivleniya-betona.htm
+  Оксидная пленка плотно связана с
+основой, и очевидная линия раздела
+между ними отсутствует
+https://www.ndt-club.com/product-723-yltrazvykovoi-defektoskop-a1212-master.htm
+  Однако скорость передачи
+ультразвуковых волн в этих двух
+веществах различна, что приводит к
+возникновению ошибок
+https://www.ndt-club.com/product-472-plex-p121-naklonnie-yltrazvykovie-preobrazovateli.htm
+  Неравномерность толщины оксидной
+пленки приводит к возникновению
+ошибок, и пользователь должен
+обращать внимание на этот аспект
+https://www.ndt-club.com/product-36-tm-4t-tolshinomer-tolstih-zashitnih-pokritii-do-70-mm.htm
+  Вы можете вырезать кусок данного
+материала, измерить его толщину с
+помощью микрометра или
+штангенциркуля и использовать его для
+калибровки прибора
+https://www.ndt-club.com/produkcija-81-postoyannie-magniti-namagnichivaushie-ystroistva.htm
+ 
+Данный прибор используется для
+измерения толщины различных
+конструкций, как надводных, так и
+подводных
+https://www.ndt-club.com/product-45-temp-4-tverdomer-dinamicheskii.htm
+  Сами конструкции могут являться и
+металлическими, и не металличекими, а
+также могут быть подвергнуты
+корродированнию, изъеданию, накипи,
+гранулированнию и так далее, в
+процессе эксплуатации для
+определения их коррозионного
+состояния или после изготовления
+https://www.ndt-club.com/product-441-klever-kbf-fonovaya-kontrastnaya-belaya-kraska.htm
+ 
+Ультразвуковой толщиномер ТУЗ-1
+предназначен для измерения толщины
+различных изделий из металлов и
+неметаллов, включая изделия, доступ к
+которым имеется только с одной
+стороны
+https://www.ndt-club.com/product-422-klever-1-magnitnaya-syspenziya.htm
+ 
+
+"
+
+You can contact Stevenmaw via email, pavel.sitdikov.88@mail.ru
+
+--1667573168-eximdsn-1410461288--

@@ -1,0 +1,105 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 8C6wA4Mvl2V0RwsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 04 Jan 2024 15:21:55 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 04 Jan 2024 15:21:55 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rLW66-0036d7-2y
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 04 Jan 2024 15:21:55 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rLW61-0036aB-1X@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1704406914-eximdsn-219157859
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rLW66-0036d7-2y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 04 Jan 2024 15:21:54 -0700
+
+--1704406914-eximdsn-219157859
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 LW66rF8ruAGhr :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=XvI8e3J9 c=1 sm=1 tr=0 ts=65972f82 p=rHVa-INBaXbCWfX3FO-2:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dEuoMetlWLkA:10 a=0O2aVY2OAAAA:8 a=CMAkzeULolAhxQbsjzUA:9 a=QEXdDO2ut3YA:10 a=oNgQ_VVSHmUA:10 a=zgiPjhLxNE0A:10 a=-HrVfIFpqiDRrmhLlq2C:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1704406914-eximdsn-219157859
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 LW66rF8ruAGhr :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=XvI8e3J9 c=1 sm=1 tr=0 ts=65972f82 p=rHVa-INBaXbCWfX3FO-2:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dEuoMetlWLkA:10 a=0O2aVY2OAAAA:8 a=CMAkzeULolAhxQbsjzUA:9 a=QEXdDO2ut3YA:10 a=oNgQ_VVSHmUA:10 a=zgiPjhLxNE0A:10 a=-HrVfIFpqiDRrmhLlq2C:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1704406914-eximdsn-219157859
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rLW61-0036aB-1X
+	for ginojohn@gmail.com;
+	Thu, 04 Jan 2024 15:21:54 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Paul Benson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 107.158.116.19
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 107.158.116.19
+From: paul@expresscapitalcorp.com
+Reply-To: paul@expresscapitalcorp.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rLW61-0036aB-1X@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 04 Jan 2024 15:21:49 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Paul Benson, and the message is as follows.
+
+"Happy Holidays,
+
+As you make plans for the new year, have you given any thought to how
+some additional working capital could supercharge those plans?
+
+What if we could offer you that capital RIGHT NOW with a rate and
+terms that would be acceptable to you. Is that
+something you would consider?
+
+Our revolutionary automated process guarantees a funding decision in
+less than 30 seconds, 
+eliminating the need for credit checks or document submissions.
+
+Whether you need working capital now or foresee it in your future,
+explore the possibilities
+at expresscapitalcorp.com. Visit us, and you'll have a funding
+decision in less time than it took to read this holiday message.
+
+
+Wishing you the very best,
+
+Paul Benson
+Express Capital"
+
+You can contact Paul Benson via email, paul@expresscapitalcorp.com
+
+--1704406914-eximdsn-219157859--

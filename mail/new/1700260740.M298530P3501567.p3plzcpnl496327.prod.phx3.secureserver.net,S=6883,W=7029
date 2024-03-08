@@ -1,0 +1,146 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id JGVvEYTrV2X/bTUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 17 Nov 2023 15:39:00 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 17 Nov 2023 15:39:00 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r47UK-00Egun-7S
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 17 Nov 2023 15:39:00 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r47UF-00Egry-0g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700260740-eximdsn-1346977176
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r47UK-00Egun-7S@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 17 Nov 2023 15:39:00 -0700
+
+--1700260740-eximdsn-1346977176
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 47UKrifS8jLE1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=6557eb84 p=GJbc3jSo6BEr4R2YiPYv:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=0UY7W1axPn4A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=0w7LDDiXtr0A:10 a=huvbmMDMAAAA:8 a=U2Plp-BDAAAA:8 a=UqCG9HQmAAAA:8 a=31lR1V_IT0gN9ag-HPIA:9 a=QEXdDO2ut3YA:10 a=QnpkfynIPSQA:10 a=E3JengKWPXIA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=4qW6d3AUPwk9vKO5kFe-:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1700260740-eximdsn-1346977176
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 47UKrifS8jLE1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=6557eb84 p=GJbc3jSo6BEr4R2YiPYv:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=0UY7W1axPn4A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=0w7LDDiXtr0A:10 a=huvbmMDMAAAA:8 a=U2Plp-BDAAAA:8 a=UqCG9HQmAAAA:8 a=31lR1V_IT0gN9ag-HPIA:9 a=QEXdDO2ut3YA:10 a=QnpkfynIPSQA:10 a=E3JengKWPXIA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=4qW6d3AUPwk9vKO5kFe-:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1700260740-eximdsn-1346977176
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r47UF-00Egry-0g
+	for ginojohn@gmail.com;
+	Fri, 17 Nov 2023 15:39:00 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Gerald Sheppard.
+X-PHP-Script: ststephenssanjose.org/contact.php for 102.165.55.49
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 102.165.55.49
+From: sheppard.gerald@outlook.com
+Reply-To: sheppard.gerald@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r47UF-00Egry-0g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 17 Nov 2023 15:38:55 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Gerald Sheppard, and the message is as
+follows.
+
+"To the ststephenssanjose.org Administrator. This is Gerald, and for
+just a moment, envision this…
+
+- A person does a search and lands at ststephenssanjose.org.
+
+- They linger for a moment to check it out.  “I am intrigued…
+but… perhaps…”
+
+- And then they click the back button and look at the other search
+results instead.
+
+- Ultimately – you got an eyeball, but nothing else to show for it.
+
+- Away they go.
+
+This situation isn’t actually your fault – it happens a lot –
+studies indicate 7 out of 10 visitors to any site disappear without
+leaving a trace.
+
+But you can actually fix that.
+
+Web Visitors Into Leads is a tool that’s works on your site, ready
+to seize any visitor’s Name, Email address, and Phone Number.  It
+lets you know right then and there – permitting you to call that
+lead while they’re actually browsing your site.
+
+CLICK HERE https://advanceleadgeneration.com to experience a Live Demo
+with Web Visitors Into Leads today to see exactly how it works.
+
+Time is money when it comes to contacting leads – the difference
+between reaching out to someone within 5 minutes compared to 30
+minutes later can be massive – like 100 times better!
+
+Moreover, now that you have their phone number, with our new SMS Text
+With Lead function, you can automatically start a text (SMS)
+discussion… so even if you don’t make a sale then, you can
+follow-up with text messages for fresh offers, content links, even
+just “how you doing?” notes to build a relationship.
+
+Powerful stuff.
+
+CLICK HERE https://advanceleadgeneration.com to find out what Web
+Visitors Into Leads can do for your business.
+
+You could be turning up to 100X more leads today!
+
+Gerald
+PS: Web Visitors Into Leads gives a FREE 14 days trial – and it even
+comes with International Long Distance Calls. 
+There are customers eager to speak with you at this moment… don’t
+leave them waiting. 
+CLICK HERE https://advanceleadgeneration.com to try Web Visitors Into
+Leads now.
+
+If you'd wish to unsubscribe click here
+https://advanceleadgeneration.com/unsubscribe.aspx?d=ststephenssanjose.org
+
+Only a fast note - the names and email used here, Gerald and Sheppard,
+are not real and not genuine contact details. We respect transparency
+and wish to ensure sure you’re aware! If you want to reach out with
+the actual person responsible for this message, kindly visit our
+website, and we’ll connect you with the appropriate individual.}
+"
+
+You can contact Gerald Sheppard via email, sheppard.gerald@outlook.com
+
+--1700260740-eximdsn-1346977176--

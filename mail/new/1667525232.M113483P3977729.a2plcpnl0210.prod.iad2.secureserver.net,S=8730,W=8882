@@ -1,0 +1,152 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id uAKZBnBqZGMBsjwAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 18:27:12 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 18:27:12 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqlUF-00Gkoz-VB
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 18:27:12 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqlUF-00GkoD-Fy@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667525231-eximdsn-1497444253
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqlUF-00Gkoz-VB@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:27:11 -0700
+
+--1667525231-eximdsn-1497444253
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qlUFoyuFMwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63646a6f p=vzT8piN6DPEA:10 p=AJ3vqmXqw98A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=c55D3JUznXkA:10 a=osK6fKjMAAAA:8 a=mem--OOHAAAA:8 a=HLmwZkpr9gMA3IVNmNUA:9 a=QEXdDO2ut3YA:10 a=kSvdBSnlvDAA:10 a=4b8yXQWdlssA:10 a=BCzW3G8-Vz0A:10 a=AxIy0Yr2SCcA:10 a=_igwDysk2hoA:10 a=dbKAX8DkgqwA:10 a=Oa-t0BNzXvwA:10 a=R3dmM6YkmS0A:10 a=oBL1de8gkk8A:10 a=qT67goXxAW8A:10 a=8KqSabU6VykA:10 a=rroRNJcw8p8A:10 a=Aaa4sDOtbdgA:10 a=QtrbEdg7eGIA:10 a=ODGUGc_2PFcA:10 a=DxZlVzEL9_sA:10 a=JY_-snjsAwYA:10 a=ibbXy9Y4jnoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=JH0zSnVsBgrumyR2Sozt:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667525231-eximdsn-1497444253
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qlUFoyuFMwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63646a6f p=vzT8piN6DPEA:10 p=AJ3vqmXqw98A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=c55D3JUznXkA:10 a=osK6fKjMAAAA:8 a=mem--OOHAAAA:8 a=HLmwZkpr9gMA3IVNmNUA:9 a=QEXdDO2ut3YA:10 a=kSvdBSnlvDAA:10 a=4b8yXQWdlssA:10 a=BCzW3G8-Vz0A:10 a=AxIy0Yr2SCcA:10 a=_igwDysk2hoA:10 a=dbKAX8DkgqwA:10 a=Oa-t0BNzXvwA:10 a=R3dmM6YkmS0A:10 a=oBL1de8gkk8A:10 a=qT67goXxAW8A:10 a=8KqSabU6VykA:10 a=rroRNJcw8p8A:10 a=Aaa4sDOtbdgA:10 a=QtrbEdg7eGIA:10 a=ODGUGc_2PFcA:10 a=DxZlVzEL9_sA:10 a=JY_-snjsAwYA:10 a=ibbXy9Y4jnoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=JH0zSnVsBgrumyR2Sozt:22 a=QSv8LDXNDX-_6yN9_DLc:22[truncated]
+
+--1667525231-eximdsn-1497444253
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqlUF-00GkoD-Fy
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 18:27:11 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Kirbyfum.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.125
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.125
+From: agafonov.maksim.1985.17.1@bk.ru
+Reply-To: agafonov.maksim.1985.17.1@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqlUF-00GkoD-Fy@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:27:11 -0700
+
+You have been contacted by Kirbyfum, and the message is as follows.
+
+"Для работы вахтовым методом в
+Нижегородской области г
+https://ribpromkomplekt.ru/
+  Заволжье на завод по производству
+оптоволокна, кабелей,
+электропроводки, требуются
+операторы-сборщики без опыта работы
+https://www.ribpromkomplekt.ru/sections/product3.php
+ Требования: ответственность, без
+физических отклонений, работа стоя у
+конвейера
+https://ribpromkomplekt.ru/sections/listproduction.php?pid=2&rid=1367652578
+  Развитая моторика пальцев (мелкие
+провода)
+https://www.ribpromkomplekt.ru/sections/konservniyceh.php
+  Способность различать цвета
+https://www.ribpromkomplekt.ru/sections/washmachine.php
+ Обязанности: работа стоя у конвейера,
+сборка проводов в пучок по схеме
+https://www.ribpromkomplekt.ru/sections/sitemap.php
+ Заработная плата от 32
+https://www.ribpromkomplekt.ru/sections/minifactory.php
+  000 (почасовая 130 р/час)
+https://ribpromkomplekt.ru/sections/product13.php?pid=1&rid=1360340602
+ Вахта 60/30, 12 -ти часовой рабочий день, 1
+час обед, воскресенье выходной
+https://ribpromkomplekt.ru/sections/listproduction.php?pid=1&rid=1367566336
+ Принимаем граждан РФ, РБ
+https://www.ribpromkomplekt.ru/sections/prodribfarsh.php
+ Официальное трудоустройство,
+своевременная заработная плата,
+социальный пакет
+https://www.ribpromkomplekt.ru/sections/product12.php
+  Проживание бесплатное в съемных
+квартирах
+https://www.ribpromkomplekt.ru/sections/product13.php
+ Питание самостоятельное, стоимость в
+заводской столовой в пределах 50- 100
+рублей за комплексный обед, либо можно
+готовить самим
+https://ribpromkomplekt.ru/sections/product1.php
+ От жилья до завода 10-15 минут пешком
+https://ribpromkomplekt.ru/sections/product10.php
+ С собой иметь:, 2 фото на пропуск,
+замочек на шкафчик в душевую, предметы
+личной гигиены и постельное белье
+https://ribpromkomplekt.ru/sections/preservniyceh.php
+ Трудоустройство и заселение в день
+обращения https://ribpromkomplekt.ru/sections/product12.php
+ 
+
+Юридическое лицо ООО  и присвоены
+такие реквизиты: основной
+государственный регистрационный
+номер (ОГРН) 1166501057491, индивидуальный
+номер налогоплательщика (ИНН) 6501286070 и
+код причины постановки на учет (КПП)
+650101001, по которым можно 
+https://ribpromkomplekt.ru/sections/product4.php?pid=1&rid=1359998491
+ 
+
+Мы предлагаем вам вкуснейших вареных
+раков с доставкой по Тюмени
+https://ribpromkomplekt.ru/sections/minifactory.php
+  Также мы предлагаем вам вареных
+замороженных раков, которые можно
+хранить в морозилке до 6 месяцев
+https://www.ribpromkomplekt.ru/sections/product3.php
+  А потом чтобы приготовить 
+https://ribpromkomplekt.ru/sections/prodribfarsh.php?pid=1&rid=1362079683
+  https://ribpromkomplekt.ru/
+  https://www.ribpromkomplekt.ru/sections/product3.php
+ 
+
+"
+
+You can contact Kirbyfum via email, agafonov.maksim.1985.17.1@bk.ru
+
+--1667525231-eximdsn-1497444253--

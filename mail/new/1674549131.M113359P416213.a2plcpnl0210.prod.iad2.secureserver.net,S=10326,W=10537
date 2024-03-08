@@ -1,0 +1,211 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ANMnBYuXz2PVWQYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 24 Jan 2023 01:32:11 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 24 Jan 2023 01:32:11 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pKEiw-001kib-Un
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 24 Jan 2023 01:32:11 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pKEiq-001kXo-43@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1674549130-eximdsn-311077991
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pKEiw-001kib-Un@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 24 Jan 2023 01:32:10 -0700
+
+--1674549130-eximdsn-311077991
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 KEiwpgiU1lA5Y :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=63cf978a p=UfC88b9wRJYA:10 p=Z9m4-wezAAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=gUnQND_Y6PYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RvmDmJFTN0MA:10 a=x7bEGLp0ZPQA:10 a=zEgQlEit0gsA:10 a=JSTPi1lgAAAA:8 a=pGLkceISAAAA:8 a=COu4C-i2u0SdEBj071EA:9 a=QEXdDO2ut3YA:10 a=lGn7FlMmpvkA:10 a=2rVQLWT2CQIA:10 a=KyYZJfTCSdMA:10 a=wn0B9tHeFSp-EGyjOE_v:22 a=acewEgQMpYTsClr9keMy:22 a=-QjuHUE4ooiTRE-cRJgW:22 a=Hyf_MG8KmbLVRg57ZKqP:22 a=bxTiAofFNRg7SPO_5jiu:22 ::
+    100.00
+
+--1674549130-eximdsn-311077991
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 KEiwpgiU1lA5Y :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=63cf978a p=UfC88b9wRJYA:10 p=Z9m4-wezAAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=gUnQND_Y6PYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RvmDmJFTN0MA:10 a=x7bEGLp0ZPQA:10 a=zEgQlEit0gsA:10 a=JSTPi1lgAAAA:8 a=pGLkceISAAAA:8 a=COu4C-i2u0SdEBj071EA:9 a=QEXdDO2ut3YA:10 a=lGn7FlMmpvkA:10 a=2rVQLWT2CQIA:10 a=KyYZJfTCSdMA:10 a=wn0B9tHeFSp-EGyjOE_v:22 a=acewEgQMpYTsClr9keMy:22 a=-QjuHUE4ooiTRE-cRJgW:22 a=Hyf_MG8KmbLVRg57ZKqP:22 a=bxTiAofFNRg7SPO_5jiu:22 :: 100.00
+
+--1674549130-eximdsn-311077991
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pKEiq-001kXo-43
+	for ginojohn@gmail.com;
+	Tue, 24 Jan 2023 01:32:10 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by ALLPOWERSTut.
+X-PHP-Script: ststephenssanjose.org/contact.php for 46.216.179.85
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 46.216.179.85
+From: jannajuk98@gmail.com
+Reply-To: jannajuk98@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pKEiq-001kXo-43@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 24 Jan 2023 01:32:04 -0700
+
+You have been contacted by ALLPOWERSTut, and the message is as
+follows.
+
+"ALLPOWERS portable charging station, 78000mAh (288Wh) capacity,
+wireless charging, solar panel, AC/DC inverter:
+[url=]https://t.co/lpnt2Bdn9U[/url] 
+[url=https://t.co/lpnt2Bdn9U][img]https://pbs.twimg.com/media/FnBtLVoXoAAVBFw?format=jpg&name=small[/img][/url]
+
+ 
+ALLPOWERS high power generator meets all your needs 
+ 
+(Please note that since our link is global, we can only send one main
+picture. Products in the EU and Russia are round sockets, the UK is a
+standard three-plug, and the US and Japan are also local standard
+sockets. If the buyers from other countries or regions have
+requirements, please contact us) 
+ 
+About item: 
+ 
+?Charge 9 Devices Simultaneously?: The allpower portable power station
+is equipped with 288W per hour Li-ion battery. The portable power
+supply has 2 * AC ports (110V/60Hz or 220V/50Hz, 300W, peak 500W), 1 *
+Type-C port (5V-20V/60W max, QC3.0), 3 * USB ports (5V/ 3A), 2 * DC
+ports (12V/ 5A), 1 * car socket (12V/10A) and wireless charger
+(5V/2.1A) on top of the entire picture area. Allpowers Portable Solar
+Generator gives you the ports you need to charge all your devices at
+the same time. 
+?4 Ways to Recharge?: Allpower portable power supply has 4 ways to
+charge the emergency battery. It takes 5-6 hours to fully charge the
+portable power station from a 110V AC outlet; About 5-6 hours under
+direct sunlight with solar panel (DC 100W MPPT and sold separately,
+not included), 6-7 hours by 12V/24V car cigarette lighter (sold
+separately), 6-7 hours at 60 Watts (max.) Type C socket (not
+included). 
+?Wide Range of Applications?: The battery backup power supply is
+powerful enough to meet various kinds of electricity requirements. Use
+for emergency, outdoor, home, travel, camping, road trips. The
+portable power supply supports charging mobile phones, laptops,
+computers, GPS, walkie-talkies, GoPros, cameras, drones, party lights,
+car appliances and more. The portable power station uses a pure sine
+wave inverter, which is faster, quieter and more stable. Protect the
+safety of the device you are charging, completely healthy and
+environmentally friendly. 
+?Phone Remote Control?: AiPower APP for all power portable solar
+generator supports iOS 9.0 or above / Android 4.3 or above. The
+ultimate wireless stability, with Bluetooth technology that connects
+your devices in a wink. The portable power station is easy and
+convenient to operate. 
+?Portable Power Supply & Emergency Light?: The rechargeable portable
+solar generator only weighs 7.5 pounds and the sturdy handle design
+makes it easy to take the battery backup power supply anywhere.
+Built-in with two white LED flashlights, which can give out 2 lighting
+modes (steady light, SOS flashing light mode) to meet your different
+needs. Press the light button for 3 seconds to turn on the light, and
+then press again to switch to flashing/SOS mode. When you're out
+camping or experiencing a power outage, this portable solar generator
+can help. 
+ 
+ALLPOWERS Large Capacity Portable Solar Generator Meets All Your Needs
+
+With a remarkable 288 watt-hours of power, using only premium
+components and the most advanced power management technologies, the
+full power portable power station packs enough power to fully charge
+your personal electronic devices, consumer electronics and appliances,
+jump start your cars, power your tools, and helping you keep the
+lights on for emergency use, charging laptops, cell phones. Portable
+power supply is great for your RV, camping, camping, hunting, farm or
+jobs. Portable generator can be controlled by AiPower app 
+Bluetooth connection: 
+A new application that makes work easier. Bluetooth technology ensures
+stable and reliable performance. The ALLPOWERS portable power station
+works almost anywhere without a key or transceiver to play from office
+to travel. 
+ 
+Specification: 
+Battery capacity: 288Wh/78000mAh 
+Rated power: 300W, peak power 500W 
+Output waveform: Pure sine wave 
+Protection circuit: short circuit, over current, overload, over
+charge, over temperature, etc. 
+Size: 20.6x16.5x11cm/8.1x6.5x4.33inch 
+Weight: 3.41 kg / 7.51 lbs 
+Input voltage: 
+AC Input: AC 110V/60Hz or 220V/50Hz 3A (Max) (Use the adapter included
+with this generator) 
+Solar charger input / Anderson solar power input: 16.6V-22V 3A (Max) 
+Car charger: 12V-22V (Attention: for children over 12V battery only,
+not 24V battery, please use this charging method while driving) 
+Output current: 
+AC output x 2: AC 110V/60Hz or 220V/50Hz 300W(Max) 
+USB output x 3: 5V3A (Max) 
+Type-C in (out): PD5-20V (60W at max.) 
+DC5525 output: 12V/5A (Max) 
+Cigarette output port: 12V/10A (Max) 
+Fast wireless charging: 5V2.1A 
+Package Contents 
+1x portable power station ALLPOWERS 
+1x AC charger < 
+1x User Manual< 
+Guarantee: 
+18 months warranty from ALLPOWERS portable charger 
+ 
+Payment 
+We support credit cards, WebMoney, TT, Western Union, Qiwi wallet,
+Boleto. 
+ 
+ 
+SOFORT Banking, etc. Some countries may support PayPal. 
+ 
+cooperation 
+Welcome to dropshipping and agency who place an order in our store. By
+the way, we also do not include advertising or invoices in the
+package. So please don't worry. 
+ 
+Delivery 
+Fast delivery, ship within 24 hours during business day after payment
+is received, we do not arrange delivery on weekends and holidays. 
+If you don't receive your items within expected time, please contact
+us firstly, we will check it and do our best to satisfy your
+requirement, thanks. 
+ 
+Guarantee 
+All our products are guaranteed for 18 months. 
+Please contact us if you have any quality questions. 
+ 
+Please contact us 
+If you have any questions, please feel free to contact us, we will
+reply to you as soon as possible. 
+ 
+Speaking of responses 
+We greatly appreciate your 5 star positive feedback. 
+Please don't leave negative or neutral feedback without any contact. 
+We will work with you until you are satisfied. We sincerely hope that
+you will leave us a positive comment."
+
+You can contact ALLPOWERSTut via email, jannajuk98@gmail.com
+
+--1674549130-eximdsn-311077991--

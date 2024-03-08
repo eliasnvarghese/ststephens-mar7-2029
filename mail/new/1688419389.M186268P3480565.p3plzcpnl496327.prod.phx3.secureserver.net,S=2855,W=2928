@@ -1,0 +1,73 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id oGSbCj08o2T1GzUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 03 Jul 2023 14:23:09 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 03 Jul 2023 14:23:09 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qGR0n-00EcKp-43
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 03 Jul 2023 14:23:09 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qGR0i-00EcJi-5S@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qGR0n-00EcKp-43@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 03 Jul 2023 14:23:09 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qGR0i-00EcJi-5S
+	for ginojohn@gmail.com;
+	Mon, 03 Jul 2023 14:23:04 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Mike Bradberry  .
+X-PHP-Script: ststephenssanjose.org/contact.php for 37.19.223.237
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 37.19.223.237
+From: mikeevish@gmail.com
+Reply-To: mikeevish@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qGR0i-00EcJi-5S@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 03 Jul 2023 14:23:04 -0700
+
+You have been contacted by Mike Bradberry
+, and the message is as follows.
+
+"Hi there, 
+ 
+I have recently conducted an analysis of ststephenssanjose.org for
+onsite errors and discovered that your website presents several issues
+that require attention. 
+ 
+Regardless of the product or service you are offering or selling,
+possessing a site that is inadequately optimized and rife with errors
+and bugs will not aid in boosting your rankings. 
+ 
+Let us fix your WordPress website problems today and improve your
+search engine rankings. 
+ 
+More info: 
+https://www.digital-x-press.com/product/wordpress-seo-audit-and-fix-service/
+
+ 
+ 
+Regards 
+Mike Bradberry
+"
+
+You can contact Mike Bradberry
+ via email, mikeevish@gmail.com

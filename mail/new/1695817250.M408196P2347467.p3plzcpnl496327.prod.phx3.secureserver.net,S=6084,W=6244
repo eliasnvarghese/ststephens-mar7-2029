@@ -1,0 +1,160 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id yG/OFyIeFGXL0SMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 27 Sep 2023 05:20:50 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 27 Sep 2023 05:20:50 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qlTX8-009sEU-AT
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 27 Sep 2023 05:20:50 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qlTX3-009sC3-Pn@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1695817250-eximdsn-1399801079
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qlTX8-009sEU-AT@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 27 Sep 2023 05:20:50 -0700
+
+--1695817250-eximdsn-1399801079
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 lTX8qlPjMm6l8 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ROV1Xau+ c=1 sm=1 tr=0 ts=65141e22 p=TooY9yfxAAAA:20 p=SVLJExoucrOzjvSduq-H:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=PZ6CkYaWwBgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=3QzaeKjTw8wA:10 a=pGLkceISAAAA:8 a=KP1P4BtFrfaoRY4zKQ8A:9 a=QEXdDO2ut3YA:10 a=SgrLrTwuRosA:10 a=vGdwh39WV1wA:10 a=KyYZJfTCSdMA:10 a=pC-tsY8YZpUjoqMVXIKw:22 a=w1tX6utQde8xjnQztdeb:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1695817250-eximdsn-1399801079
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 lTX8qlPjMm6l8 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ROV1Xau+ c=1 sm=1 tr=0 ts=65141e22 p=TooY9yfxAAAA:20 p=SVLJExoucrOzjvSduq-H:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=PZ6CkYaWwBgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=3QzaeKjTw8wA:10 a=pGLkceISAAAA:8 a=KP1P4BtFrfaoRY4zKQ8A:9 a=QEXdDO2ut3YA:10 a=SgrLrTwuRosA:10 a=vGdwh39WV1wA:10 a=KyYZJfTCSdMA:10 a=pC-tsY8YZpUjoqMVXIKw:22 a=w1tX6utQde8xjnQztdeb:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1695817250-eximdsn-1399801079
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qlTX3-009sC3-Pn
+	for ginojohn@gmail.com;
+	Wed, 27 Sep 2023 05:20:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Chris Johnson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.27.116
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.27.116
+From: landreneau.todd@gmail.com
+Reply-To: landreneau.todd@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qlTX3-009sC3-Pn@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 27 Sep 2023 05:20:45 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Chris Johnson, and the message is as
+follows.
+
+"You're just one click...
+
+From plugging Chat-GPT…
+
+Into Amazon, ClickBank…
+
+Product launches, Warrior…
+
+In fact: ANY affiliate program making $100k pm!
+
+LOOK:
+
+⇒  bit.ly/AICashCow
+
+OK, so..
+
+I’m sure you’ve heard the hype about Chat-GPT.
+
+How it’s changing everything we do as marketers.
+
+BUT… THERE’S A PROBLEM WITH CHAT-GPT.
+
+Basically, Chat GPT’s training data ENDS in 2021.
+
+That means it has NO idea about anything in 2023.
+
+That’s BAD news for marketers like us, who want to..
+
+- Promote the hottest affiliate programs
+- Sell today’s new hot product
+- Jump on new trending niches
+- Crush new ecom opportnities
+- Profit on the bleeding-edge
+
+So, what’s the solution?
+
+Well, up until now there wasn’t one.
+
+You were stuck trying to shoe-horn “2021 GPT” into your 2023
+use-case.
+
+But today, all that changes.
+
+Now, you can give the most powerful AI LIVE access to EVERYTHING.
+
+How? By plugging Chat-GPT into 1000s of affiliate programs:
+
+⇒  bit.ly/AICashCow
+
+
+This new AI tool plugs your copy of GPT…
+
+Into EVERY new and top-selling affiliate program…
+
+On ClickBank, Amazon, Digi, Warrior and more…
+
+Simply load the app and browse 1000s of affiliate programs…
+
+Then click on one and watch as GPT builds your campaign!
+
+The feed refreshes EVERY DAY - as does your AI CASH FLOW!
+
+If you are looking for a HUGE edge over even other GPT users?
+
+Then upgrade your copy of Chat-GPT NOW!
+
+⇒ bit.ly/AICashCow
+
+
+PS. Do it now, the price jumps IN THE NEXT FEW MINUTES.
+
+And then again.. and AGAIN.. EVERY hour after that!
+
+
+⇒  bit.ly/AICashCow
+
+CJ,"
+
+You can contact Chris Johnson via email, landreneau.todd@gmail.com
+
+--1695817250-eximdsn-1399801079--

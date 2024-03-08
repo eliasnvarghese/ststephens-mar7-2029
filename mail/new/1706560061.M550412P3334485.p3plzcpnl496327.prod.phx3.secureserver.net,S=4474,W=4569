@@ -1,0 +1,95 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id CFFPID0KuGVV4TIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 29 Jan 2024 13:27:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 29 Jan 2024 13:27:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rUYEH-00E01l-1a
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 29 Jan 2024 13:27:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rUYEC-00E00N-2B@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1706560061-eximdsn-111948850
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rUYEH-00E01l-1a@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 29 Jan 2024 13:27:41 -0700
+
+--1706560061-eximdsn-111948850
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 UYEHrjK9FJmZz :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=S8l6w5sP c=1 sm=1 tr=0 ts=65b80a3d p=eq8Fi338AAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dEuoMetlWLkA:10 a=eJInP-nwAAAA:8 a=1cV8Z6UYJru1UjCzcHMA:9 a=QEXdDO2ut3YA:10 a=B2DMtJ_vANoA:10 a=zgiPjhLxNE0A:10 a=Z7Nj5V7j_DFs_N9K-mgn:22 a=acewEgQMpYTsClr9keMy:22 a=IMiPDKOlhLfFlYf_jBsD:22 a=FfVxklG2kA427gr_AoYs:22 ::
+    100.00
+
+--1706560061-eximdsn-111948850
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 UYEHrjK9FJmZz :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=S8l6w5sP c=1 sm=1 tr=0 ts=65b80a3d p=eq8Fi338AAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dEuoMetlWLkA:10 a=eJInP-nwAAAA:8 a=1cV8Z6UYJru1UjCzcHMA:9 a=QEXdDO2ut3YA:10 a=B2DMtJ_vANoA:10 a=zgiPjhLxNE0A:10 a=Z7Nj5V7j_DFs_N9K-mgn:22 a=acewEgQMpYTsClr9keMy:22 a=IMiPDKOlhLfFlYf_jBsD:22 a=FfVxklG2kA427gr_AoYs:22 :: 100.00
+
+--1706560061-eximdsn-111948850
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rUYEC-00E00N-2B
+	for ginojohn@gmail.com;
+	Mon, 29 Jan 2024 13:27:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Briana Taylor.
+X-PHP-Script: ststephenssanjose.org/contact.php for 207.244.118.163
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 207.244.118.163
+From: briana@capitalfundngstore.com
+Reply-To: briana@capitalfundngstore.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rUYEC-00E00N-2B@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 29 Jan 2024 13:27:36 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Briana Taylor, and the message is as
+follows.
+
+"I just wanted to make you aware of a new revenue based Line of Credit
+available to small business owners. We offer you an unsecured Line of
+Credit up to twice your monthly sales. Max loan size is 250k. Get your
+free quote today at www.capitalfundingstore.com and funding in just a
+few days.
+
+
+Best Regards,
+
+Briana
+
+"
+
+You can contact Briana Taylor via email, briana@capitalfundngstore.com
+
+--1706560061-eximdsn-111948850--

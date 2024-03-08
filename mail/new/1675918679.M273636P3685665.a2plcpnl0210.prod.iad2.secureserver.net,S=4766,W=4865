@@ -1,0 +1,99 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id cEn3DVd95GMhPTgAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 08 Feb 2023 21:57:59 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 08 Feb 2023 21:57:59 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pPz0R-00FY31-2z
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 08 Feb 2023 21:57:59 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pPz0I-00FXyC-65@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1675918679-eximdsn-1099780426
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pPz0R-00FY31-2z@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 08 Feb 2023 21:57:59 -0700
+
+--1675918679-eximdsn-1099780426
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Pz0Qp1cZJelrp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=63e47d57 p=AwGdr1iNAAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=OKgdokNLWzcA:10 a=LfWm5EquAAAA:8 a=b4Kgww5xcpH99N5a_FcA:9 a=QEXdDO2ut3YA:10 a=UovE_wH7qiUA:10 a=QwiInzKp7ssV1MOUFF9b:22 a=acewEgQMpYTsClr9keMy:22 a=DhY7hDyYOzbcXI1Uwz7U:22 ::
+    100.00
+
+--1675918679-eximdsn-1099780426
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Pz0Qp1cZJelrp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=63e47d57 p=AwGdr1iNAAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=OKgdokNLWzcA:10 a=LfWm5EquAAAA:8 a=b4Kgww5xcpH99N5a_FcA:9 a=QEXdDO2ut3YA:10 a=UovE_wH7qiUA:10 a=QwiInzKp7ssV1MOUFF9b:22 a=acewEgQMpYTsClr9keMy:22 a=DhY7hDyYOzbcXI1Uwz7U:22 :: 100.00
+
+--1675918679-eximdsn-1099780426
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pPz0I-00FXyC-65
+	for ginojohn@gmail.com;
+	Wed, 08 Feb 2023 21:57:57 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Oliver Guammi.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.105.151.16
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.105.151.16
+From: oliver@guammi.com
+Reply-To: oliver@guammi.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pPz0I-00FXyC-65@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 08 Feb 2023 21:57:50 -0700
+
+You have been contacted by Oliver Guammi, and the message is as
+follows.
+
+"Hi, I checked your website and noticed that your online presence
+could be way better on Facebook and Google, that's why I'm reaching
+out to you today.
+
+We'd love to help you with this and offer you a free 30-minute
+consultation to discuss your unique needs and share some tips on how
+to improve your online presence. 
+
+After the call, if you decide you can work with us, or you can use
+tips for free and apply them yourself, so I think it's a win win
+situation for both of us. 
+
+If this is something you're interested in, please reply to this email,
+or book a discovery call with us:
+https://calendly.com/guammi-marketing/30min
+
+Best regards,
+
+Oliver from Guammi.com"
+
+You can contact Oliver Guammi via email, oliver@guammi.com
+
+--1675918679-eximdsn-1099780426--

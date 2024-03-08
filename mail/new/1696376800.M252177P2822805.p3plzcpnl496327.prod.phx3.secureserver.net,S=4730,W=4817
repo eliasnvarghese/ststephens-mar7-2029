@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 4U+MDuCnHGWVEisACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 03 Oct 2023 16:46:40 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 03 Oct 2023 16:46:40 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qnp68-00BqKz-5q
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 03 Oct 2023 16:46:40 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qnp63-00BqJl-1n@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696376800-eximdsn-1837405585
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qnp68-00BqKz-5q@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 03 Oct 2023 16:46:40 -0700
+
+--1696376800-eximdsn-1837405585
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 np68qFQmmPElO :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Lu1UiFRc c=1 sm=1 tr=0 ts=651ca7e0 p=E7pktCyV1qVKi8Rn5sQm:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=ql5QLT93tW8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=xJDnf4yjA04A:10 a=m7mf1vpOAAAA:8 a=pGLkceISAAAA:8 a=oWdy0GPSOysuTjGrTLAA:9 a=QEXdDO2ut3YA:10 a=_CQlOCYIXC0A:10 a=OqWcGPUa0KwA:10 a=8KLRBrEVUZqwncfOOKSH:22 a=b3JpLOb572O34NtFb7z1:22 a=GxbwVPZTnh6R5ei_masS:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1696376800-eximdsn-1837405585
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 np68qFQmmPElO :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Lu1UiFRc c=1 sm=1 tr=0 ts=651ca7e0 p=E7pktCyV1qVKi8Rn5sQm:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=ql5QLT93tW8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=xJDnf4yjA04A:10 a=m7mf1vpOAAAA:8 a=pGLkceISAAAA:8 a=oWdy0GPSOysuTjGrTLAA:9 a=QEXdDO2ut3YA:10 a=_CQlOCYIXC0A:10 a=OqWcGPUa0KwA:10 a=8KLRBrEVUZqwncfOOKSH:22 a=b3JpLOb572O34NtFb7z1:22 a=GxbwVPZTnh6R5ei_masS:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1696376800-eximdsn-1837405585
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qnp63-00BqJl-1n
+	for ginojohn@gmail.com;
+	Tue, 03 Oct 2023 16:46:40 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Kris Fraley.
+X-PHP-Script: ststephenssanjose.org/contact.php for 149.102.235.74
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 149.102.235.74
+From: projectleadsblue@gmail.com
+Reply-To: projectleadsblue@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qnp63-00BqJl-1n@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 03 Oct 2023 16:46:35 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Kris Fraley, and the message is as follows.
+
+"Want to start getting 10x  more customers today? Reach the exact
+customer inbox like I reached you and boost sales for your service or
+products, and I'll show you how it's done: Check out:
+https://leadsblue.net/    once to find more. We are offering an 80%
+discount today."
+
+You can contact Kris Fraley via email, projectleadsblue@gmail.com
+
+--1696376800-eximdsn-1837405585--

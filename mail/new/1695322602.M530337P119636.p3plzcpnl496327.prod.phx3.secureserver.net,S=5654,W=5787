@@ -1,0 +1,133 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id e/I0H+qRDGVU0wEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 21 Sep 2023 11:56:42 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 21 Sep 2023 11:56:42 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qjOqw-000V7W-Ev
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 21 Sep 2023 11:56:42 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qjOqr-000V6P-HU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1695322602-eximdsn-1328333400
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qjOqw-000V7W-Ev@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 21 Sep 2023 11:56:42 -0700
+
+--1695322602-eximdsn-1328333400
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 jOqwqPKpIzbc9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=650c91ea p=ERTkYlo3AAAA:20 p=QIwRNH7LHMgA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=vSyfsC9JwccA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=qKss73O7h40A:10 a=pGLkceISAAAA:8 a=UN7COkbHvMrosYt6-64A:9 a=QEXdDO2ut3YA:10 a=xRy-769WS50A:10 a=KyYZJfTCSdMA:10 a=5VhZwESUfm0aKNjyg2_a:22 a=5jl72KRN8zoTsYA9W6UK:22 a=YMxVYoZBSsCqj9vY34oR:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1695322602-eximdsn-1328333400
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 jOqwqPKpIzbc9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=650c91ea p=ERTkYlo3AAAA:20 p=QIwRNH7LHMgA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=vSyfsC9JwccA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=qKss73O7h40A:10 a=pGLkceISAAAA:8 a=UN7COkbHvMrosYt6-64A:9 a=QEXdDO2ut3YA:10 a=xRy-769WS50A:10 a=KyYZJfTCSdMA:10 a=5VhZwESUfm0aKNjyg2_a:22 a=5jl72KRN8zoTsYA9W6UK:22 a=YMxVYoZBSsCqj9vY34oR:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1695322602-eximdsn-1328333400
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qjOqr-000V6P-HU
+	for ginojohn@gmail.com;
+	Thu, 21 Sep 2023 11:56:42 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by David Johnson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.26.190
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.26.190
+From: david.johnson@gmail.com
+Reply-To: david.johnson@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qjOqr-000V6P-HU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 21 Sep 2023 11:56:37 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by David Johnson, and the message is as
+follows.
+
+"$40 per hour, regular work
+
+
+Have you ever written short email messages before? We need to talk if
+you have that skill set.
+
+We are currently looking for new beginner-paid remote workers who want
+to start work right away!
+
+All employers hiring through our company are looking for people with
+no previous experience but are willing to learn. These are remote
+positions, meaning that as long as you can work the required hours,
+you can work from home.
+
+
+Click here to complete your application if interested.
+
+===>>> bit.ly/RemoteJobOffer
+
+
+
+In this position, you will be assigned tasks related to sending
+promotional email messages 
+
+about various products and services. You must write in clear English
+with no errors and 
+
+
+provide consistency so we can rely on you to produce many weekly
+messages.
+
+
+The rate we offer varies depending on what kind of assignment(s)
+you'll take. 
+
+
+
+Still, generally speaking, it ranges between $40-$80 per hour
+depending on what service(s) they entail and your level of expertise.
+
+
+Interested? Check out this page before completing an application to
+get everything important!
+
+===>>> bit.ly/RemoteJobOffer
+
+
+Best of luck!
+
+David"
+
+You can contact David Johnson via email, david.johnson@gmail.com
+
+--1695322602-eximdsn-1328333400--

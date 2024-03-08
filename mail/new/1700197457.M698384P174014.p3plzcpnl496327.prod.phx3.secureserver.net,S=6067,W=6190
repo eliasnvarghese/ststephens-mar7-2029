@@ -1,0 +1,123 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id gdSAKVH0VmW+pwIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 16 Nov 2023 22:04:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 16 Nov 2023 22:04:17 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r3r1d-000jGW-KR
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 16 Nov 2023 22:04:17 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r3r1Z-000jFN-2e@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700197457-eximdsn-300474646
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r3r1d-000jGW-KR@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 16 Nov 2023 22:04:17 -0700
+
+--1700197457-eximdsn-300474646
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 3r1drH0wdiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=6556f451 p=bjQ7azenAAAA:20 p=RoaE9Sl2AAAA:20 p=TejMAi00AAAA:20 p=2N1e_8N2c5vb-pNkUVky:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=2Z6SXb0LIhAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=yNgzdIOXeG0A:10 a=pGLkceISAAAA:8 a=QJ39rUTh6xuAaZcYxSgA:9 a=QEXdDO2ut3YA:10 a=wvh9yJwSw_MA:10 a=n23yFyU-7XsA:10 a=w4ZhvwbK9qQA:10 a=NE_0QeAwlz4A:10 a=zdPlK32CjPAA:10 a=KyYZJfTCSdMA:10 a=2HqteTYJy9CVa04zVSvD:22 a=5qpPijpUz7u2Gp0-vdcA:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1700197457-eximdsn-300474646
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 3r1drH0wdiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=6556f451 p=bjQ7azenAAAA:20 p=RoaE9Sl2AAAA:20 p=TejMAi00AAAA:20 p=2N1e_8N2c5vb-pNkUVky:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=2Z6SXb0LIhAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=yNgzdIOXeG0A:10 a=pGLkceISAAAA:8 a=QJ39rUTh6xuAaZcYxSgA:9 a=QEXdDO2ut3YA:10 a=wvh9yJwSw_MA:10 a=n23yFyU-7XsA:10 a=w4ZhvwbK9qQA:10 a=NE_0QeAwlz4A:10 a=zdPlK32CjPAA:10 a=KyYZJfTCSdMA:10 a=2HqteTYJy9CVa04zVSvD:22 a=5qpPijpUz7u2Gp0-vdcA:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1700197457-eximdsn-300474646
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r3r1Z-000jFN-2e
+	for ginojohn@gmail.com;
+	Thu, 16 Nov 2023 22:04:17 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Titus Gaunson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 154.29.108.44
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 154.29.108.44
+From: titus.gaunson@gmail.com
+Reply-To: titus.gaunson@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r3r1Z-000jFN-2e@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 16 Nov 2023 22:04:13 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Titus Gaunson, and the message is as
+follows.
+
+"Secure Your Business Travel: Insider Tips for a Healthier Journey
+
+
+Traveling for business can be exhilarating yet precarious, especially
+when it comes to health. As someone deeply passionate about wellness
+during travel, I've crafted a series of videos that could immensely
+benefit you and your colleagues.
+
+Title 1: "Dreadful Destinations: Winter Travel's 15 Most Dangerous
+Diseases!" 
+Title 2: "Packing for Health: Essential Items for Disease-Free
+Travel"
+
+These videos aren't just about awareness; they're a toolkit for
+ensuring your business trips are safer and more secure, allowing you
+to focus on what truly matters—your ventures.
+
+Discover crucial insights on navigating winter travel hazards by
+clicking below to watch "Dreadful Destinations" now!
+
+Click >>>>  https://tinyurl.com/y2d4adfr
+
+
+For an essential guide on packing for health and disease prevention
+during travels, click below to watch "Packing for Health" now!
+
+Click >>>>  https://tinyurl.com/mtxvd848
+
+Moreover, I invite you to subscribe and share these videos with your
+network of fellow business owners and travelers. Your insights and
+experiences could be invaluable in shaping a healthier, more informed
+travel community.
+
+Your time is precious, and these insights are designed to optimize
+your business journeys. I hope you find them as valuable as I have.
+
+Warm regards,
+
+TravelShieldGuide 
+https://tinyurl.com/jtmjpdat"
+
+You can contact Titus Gaunson via email, titus.gaunson@gmail.com
+
+--1700197457-eximdsn-300474646--

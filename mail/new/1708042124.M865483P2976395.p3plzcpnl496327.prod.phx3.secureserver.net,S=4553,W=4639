@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id OLwyM4ynzmWLai0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 15 Feb 2024 17:08:44 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 15 Feb 2024 17:08:44 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1ralmW-00CWvU-2b
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 15 Feb 2024 17:08:44 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1ralmR-00CWu4-1A@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1708042124-eximdsn-547356807
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ralmW-00CWvU-2b@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 15 Feb 2024 17:08:44 -0700
+
+--1708042124-eximdsn-547356807
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 almWryFuwswBL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=f/DrB/yM c=1 sm=1 tr=0 ts=65cea78c p=ABdv7zWTBosA:10 p=eLTdMZrbmjvNeCi9X3Va:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=1oyc8cYNRW8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=x7bEGLp0ZPQA:10 a=S94jkh8YKtQA:10 a=PXuv_LT7AAAA:8 a=UqCG9HQmAAAA:8 a=bTspivnkKU5zmR8HpkQA:9 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=J98iPzVqNrEA:10 a=KyYZJfTCSdMA:10 a=_nMEjotx455ZOodnqUOL:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1708042124-eximdsn-547356807
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 almWryFuwswBL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=f/DrB/yM c=1 sm=1 tr=0 ts=65cea78c p=ABdv7zWTBosA:10 p=eLTdMZrbmjvNeCi9X3Va:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=1oyc8cYNRW8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=x7bEGLp0ZPQA:10 a=S94jkh8YKtQA:10 a=PXuv_LT7AAAA:8 a=UqCG9HQmAAAA:8 a=bTspivnkKU5zmR8HpkQA:9 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=J98iPzVqNrEA:10 a=KyYZJfTCSdMA:10 a=_nMEjotx455ZOodnqUOL:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1708042124-eximdsn-547356807
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1ralmR-00CWu4-1A
+	for ginojohn@gmail.com;
+	Thu, 15 Feb 2024 17:08:44 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by EvelynDrell.
+X-PHP-Script: ststephenssanjose.org/contact.php for 93.82.140.223
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 93.82.140.223
+From: inet4747@outlook.com
+Reply-To: inet4747@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1ralmR-00CWu4-1A@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 15 Feb 2024 17:08:39 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by EvelynDrell, and the message is as follows.
+
+"[url=https://www.shoutout.global/signup?id=tqocm&affref=c8GxGd5Gm]
+Aminoboosters (YTE® Young Tissue Extract = Laminine, but 2 times
+cheaper) is a world-famous health product. Buy or register. They pay
+great commissions. Click here to get started[/url]"
+
+You can contact EvelynDrell via email, inet4747@outlook.com
+
+--1708042124-eximdsn-547356807--

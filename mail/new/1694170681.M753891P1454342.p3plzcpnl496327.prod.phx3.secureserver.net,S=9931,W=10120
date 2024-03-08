@@ -1,0 +1,189 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id waxsLDn++mQGMRYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 08 Sep 2023 03:58:01 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 08 Sep 2023 03:58:01 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qeZBZ-0066Kb-Ku
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 08 Sep 2023 03:58:01 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qeZBU-0066BP-4C@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1694170681-eximdsn-1822491821
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qeZBZ-0066Kb-Ku@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 08 Sep 2023 03:58:01 -0700
+
+--1694170681-eximdsn-1822491821
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 eZBZqNDjiS0vV :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=PMnJu9mC c=1 sm=1 tr=0 ts=64fafe39 p=m1vlWyexciEA:10 p=5v8G_IVMAAAA:20 p=t55PaG7ZvPUA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=hb7ZTsUEr7sA:10 a=UqCG9HQmAAAA:8 a=QM2Nyhtamos1GFhiqCcA:9 a=QEXdDO2ut3YA:10 a=3fPwaMvK0koA:10 a=KyYZJfTCSdMA:10 a=jd7YdVP9Dhmlna8aeo8W:22 a=acewEgQMpYTsClr9keMy:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1694170681-eximdsn-1822491821
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 eZBZqNDjiS0vV :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=PMnJu9mC c=1 sm=1 tr=0 ts=64fafe39 p=m1vlWyexciEA:10 p=5v8G_IVMAAAA:20 p=t55PaG7ZvPUA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=hb7ZTsUEr7sA:10 a=UqCG9HQmAAAA:8 a=QM2Nyhtamos1GFhiqCcA:9 a=QEXdDO2ut3YA:10 a=3fPwaMvK0koA:10 a=KyYZJfTCSdMA:10 a=jd7YdVP9Dhmlna8aeo8W:22 a=acewEgQMpYTsClr9keMy:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1694170681-eximdsn-1822491821
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qeZBU-0066BP-4C
+	for ginojohn@gmail.com;
+	Fri, 08 Sep 2023 03:58:01 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by RonaldJourb.
+X-PHP-Script: ststephenssanjose.org/contact.php for 178.168.193.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 178.168.193.115
+From: lemlenubia1993@outlook.com
+Reply-To: lemlenubia1993@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qeZBU-0066BP-4C@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 08 Sep 2023 03:57:56 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by RonaldJourb, and the message is as follows.
+
+"В эру быстрого доступа к информации и
+интернета стали незаменимым
+источником знаний и данных. Однако, в
+этой беспрецедентной эпохе цифровой
+свободы, важно осознавать, что не
+всякая информация, представленная в
+сети, является достоверной и точной.
+Следовательно, умение критически
+оценивать и выбирать подходящие
+веб-ресурсы становится неотъемлемой
+частью личной грамотности. В данной
+статье мы рассмотрим, почему умение
+выбирать сайты важно, какие критерии
+следует учитывать и как развивать
+этот навык. На странице
+https://telegra.ph/Virtuoznoe-iskusstvo-vybora-Zachem-vam-nuzhno-umet-razlichat-nadezhnye-sajty-v-ehpohu-informacionnogo-shuma-08-31
+подробно об этом также рассказано. 
+ 
+Информационный шум и потребность в
+оценке источников 
+ 
+С ростом числа сайтов и
+онлайн-платформ каждый день, мы
+сталкиваемся с информационным шумом
+— избытком неконтролируемой и
+нередко противоречивой информации. В
+такой ситуации способность различать
+надежные источники от множества
+поддельных или неточных становится
+ключевой. Наивное принятие всего
+написанного может привести к
+неправильным выводам, а иногда даже к
+опасным ошибкам. 
+ 
+Критерии выбора достоверных
+источников 
+ 
+Выбор надежных источников требует
+применения определенных критериев.
+Прежде всего, следует обращать
+внимание на авторитетность. Сайты,
+принадлежащие уважаемым
+организациям, экспертам в
+определенной области, научным
+журналам, обычно более достоверны.
+Кроме того, важно оценивать
+актуальность информации и наличие
+ссылок на источники. Проверяемость и
+доказуемость фактов также играют
+важную роль. 
+ 
+Борьба с информационным популизмом и
+предвзятостью 
+ 
+Сеть также часто становится площадкой
+для распространения информационного
+популизма и предвзятой информации.
+Некоторые ресурсы могут сознательно
+искажать факты, чтобы поддержать
+определенные взгляды или цели.
+Критическое мышление и анализ
+мотиваций авторов помогут избежать
+влияния манипулятивной информации. 
+ 
+Обучение навыкам оценки информации 
+ 
+Умение выбирать сайты является
+навыком, который можно развивать.
+Обучение навыкам критической оценки
+информации и проверки фактов должно
+стать неотъемлемой частью
+образовательной программы. Важно
+научить людей распознавать типичные
+признаки недостоверных источников,
+такие как недостаток ссылок, явные
+ошибки или слишком сенсационные
+заголовки. 
+ 
+Значение ответственности в
+информационной эпохе 
+ 
+С увеличением количества
+пользователей интернета возрастает
+ответственность каждого из нас за
+распространение правдивой и точной
+информации. Выбирая надежные
+источники при проведении
+исследований, поддерживая факты и
+делая осознанные выводы, мы можем
+способствовать созданию более
+надежного информационного ландшафта.
+
+ 
+ 
+В эпоху, когда информация доступна на
+щелчок пальца, умение выбирать
+подходящие сайты становится
+критически важным навыком. Это
+помогает нам оставаться
+информированными, избегать
+манипуляций и принимать обоснованные
+решения на основе фактов. Все мы,
+будучи активными участниками
+цифровой среды, должны стремиться
+развивать этот навык, чтобы сделать
+интернет более надежным и ценным
+ресурсом."
+
+You can contact RonaldJourb via email, lemlenubia1993@outlook.com
+
+--1694170681-eximdsn-1822491821--

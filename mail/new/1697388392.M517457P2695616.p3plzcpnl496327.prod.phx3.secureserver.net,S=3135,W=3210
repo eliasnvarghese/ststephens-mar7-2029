@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 6Mt4HmgXLGXAISkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 15 Oct 2023 09:46:32 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 15 Oct 2023 09:46:32 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qs4G8-00BJXt-EK
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 15 Oct 2023 09:46:32 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qs4G3-00BJLA-Qv@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qs4G8-00BJXt-EK@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 15 Oct 2023 09:46:32 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qs4G3-00BJLA-Qv
+	for ginojohn@gmail.com;
+	Sun, 15 Oct 2023 09:46:27 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Cynthia Campbell.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 44.200.180.29
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 44.200.180.29
+From: info@companiescityhonor.com
+Reply-To: info@companiescityhonor.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qs4G3-00BJLA-Qv@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 15 Oct 2023 09:46:27 -0700
+
+You have been contacted by Cynthia Campbell, and the message is as
+follows.
+
+"I'm writing to you today on behalf of the San Jose Award Program.
+We're the organization that puts on the annual "Best of San Jose
+Award", and I'm pleased to inform you that your company has been
+selected as the winner in the category of Orthodox Church.
+
+I know we've tried to reach you a few times before, but we've finally
+been able to get in touch with you through your website contact form.
+We wanted to make sure you were aware of this exciting news as soon as
+possible.
+
+We've included a link to our website below that more fully describes
+your recognition. We hope you'll look at it and share it with your
+staff.
+
+https://sanjose.companiescityhonor.com/SU8NXTFW
+
+Congratulations again on this well-deserved honor!
+
+Sincerely,
+
+Cynthia
+
+https://sanjose.companiescityhonor.com/su8nxtfw_ST-STEPHENS-JACOBITE-SYRIAC-ORTHODO"
+
+You can contact Cynthia Campbell via email,
+info@companiescityhonor.com

@@ -1,0 +1,154 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id cG2eBkTKY2PadgkAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 07:03:48 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 07:03:48 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqaot-002dFR-VD
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 07:03:48 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqaor-002dCn-D2@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667484227-eximdsn-180863591
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqaot-002dFR-VD@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 07:03:47 -0700
+
+--1667484227-eximdsn-180863591
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qaotoB0H9F1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=6363ca43 p=pIpVNF8WAAAA:8 p=SAiCKnC1xNkA:10 p=xJK8DifFSTUA:10 p=_c_XAReUXSUA:10 p=AtmlVQcjqQ4A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=z3ULzVM9AAAA:8 a=wM0fa2mtNOGZSv6Zw0UA:9 a=QEXdDO2ut3YA:10 a=JPs1t_Le7uYA:10 a=pczLo65tFdcA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=aJurOcoN9BXg0_Oufyv8:22 a=aC2TUO9nyKtkVkuG-GoU:22 ::
+    100.00
+
+--1667484227-eximdsn-180863591
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qaotoB0H9F1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=6363ca43 p=pIpVNF8WAAAA:8 p=SAiCKnC1xNkA:10 p=xJK8DifFSTUA:10 p=_c_XAReUXSUA:10 p=AtmlVQcjqQ4A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=z3ULzVM9AAAA:8 a=wM0fa2mtNOGZSv6Zw0UA:9 a=QEXdDO2ut3YA:10 a=JPs1t_Le7uYA:10 a=pczLo65tFdcA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=aJurOcoN9BXg0_Oufyv8:22 a=aC2TUO9nyKtkVkuG-GoU:22 :: 100.00
+
+--1667484227-eximdsn-180863591
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqaor-002dCn-D2
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 07:03:45 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by AlbertEpini.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.197.74.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.197.74.6
+From: zabirova_lena_1988_15_3@inbox.ru
+Reply-To: zabirova_lena_1988_15_3@inbox.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqaor-002dCn-D2@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 07:03:45 -0700
+
+You have been contacted by AlbertEpini, and the message is as follows.
+
+"Обновлено 7 апреля 2020Укладка
+паркетной доски и инженерной доски в
+жилых помещениях и офисах
+https://floor-x.com/kovry/brend_ligne-pure/
+  Укладку проводим 
+https://floor-x.com/kovrolin/kollekciya_invictus-sirius/
+  https://floor-x.com/kovry/brend_ligne-pure/
+  https://floor-x.com/kovrolin/cvet_biryuzoviy
+  основе
+https://floor-x.com/kovrolin/brend_itc-balta-wild-luxury
+  Возможно последующее покрытие
+уложенной доски защитными составами
+или средствами по   https://floor-x.com/brintons.html
+  https://floor-x.com/brintons.html
+  https://floor-x.com/object-carpet.html
+ 
+4-х сторонняя 3/3543V-образная 8/2143Да
+8/4397Нет 9/16482-х сторонняя 5/324V-GROOVE
+0/69U-образная 0/398WV4 0/30дополнительно за
+фаску 250 руб/м2 0/18МикроФаска 0/469 
+Паркетная доска подходит для укладки
+на “теплый пол”
+https://floor-x.com/kovrolin/cvet_biryuzoviy
+  Может быть уложена “плавающим”
+способом, а затем, при необходимости,
+разобрана и уложена вновь в другом
+месте https://floor-x.com/kovrolin/cvet_biryuzoviy
+ 
+Конструкция без присоединения к
+основанию называется  пол, который
+может иметь несколько слоев под
+лицевым покрытием
+https://floor-x.com/kovrovaya-plitka-airmaster-8501
+  В случае с паркетной доской
+применяется подложка, которая
+выполняет функцию компенсатора
+динамических нагрузок
+https://floor-x.com/podlozhka
+  Вместе с основной функцией подложка
+может выступать тепло-, звуко- и
+гидроизоляцией, но это не всегда
+уместно
+https://floor-x.com/kovrovaya-plitka/proizvoditeli_desso/
+ 
+Паркетная доска может быть уложена
+как “плавающим” способом, так и с
+помощью клея https://floor-x.com
+  В первом случае требуется
+дополнительная прослойка из пробки
+или другой подложки под паркет
+https://floor-x.com/index.php?route=product/manufacturer/info&manufacturer_id=24
+  Она выполняет шумоизоляционные и
+звукопоглощающие функции
+https://floor-x.com/kovry
+  Приклеивать паркетную доску можно
+как непосредственно к бетонному
+основанию, так и на фанеру https://floor-x.com
+ 
+Популярность штучного паркета
+довольно велика
+https://floor-x.com/kauchukovoe-pokrytie-nora-noraplan-sentica-6529
+  Он состоит из плашек небольших
+размеров https://floor-x.com/modulyss.html
+  Плашка паркета являет собой
+многослойную конструкцию, состоящую
+из одного или нескольких нижних
+вспомогательных слоев и верхнего
+лицевого слоя, имеющего декоративный
+вид характерной древесной структуры
+https://floor-x.com/parket-i-parketnaya-doska
+  По периметру каждая планка снабжена
+замковыми элементами в виде шипа и
+паза для соединения планок друг с
+другом https://floor-x.com/services.html
+ 
+"
+
+You can contact AlbertEpini via email,
+zabirova_lena_1988_15_3@inbox.ru
+
+--1667484227-eximdsn-180863591--

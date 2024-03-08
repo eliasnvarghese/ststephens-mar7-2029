@@ -1,0 +1,149 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id l3KbIStsZGNkdz0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 18:34:35 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 18:34:35 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqlbP-00Gtvi-DH
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 18:34:35 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqlbP-00Gtuw-0O@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667525675-eximdsn-217666106
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqlbP-00Gtvi-DH@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:34:35 -0700
+
+--1667525675-eximdsn-217666106
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qlbPoIQUGF1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63646c2b p=-NXN3c7gAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=C9n_5a507pYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=3EGolyqytNYA:10 a=RgBw9RmQAAAA:8 a=2xg76vyqRhCnLSqIpyAA:9 a=QEXdDO2ut3YA:10 a=LPiqpBzCyVUA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=SpTJf8ur8GFEimrawnup:22 ::
+    100.00
+
+--1667525675-eximdsn-217666106
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qlbPoIQUGF1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63646c2b p=-NXN3c7gAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=C9n_5a507pYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=3EGolyqytNYA:10 a=RgBw9RmQAAAA:8 a=2xg76vyqRhCnLSqIpyAA:9 a=QEXdDO2ut3YA:10 a=LPiqpBzCyVUA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=SpTJf8ur8GFEimrawnup:22 :: 100.00
+
+--1667525675-eximdsn-217666106
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqlbP-00Gtuw-0O
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 18:34:35 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JosephJuips.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.125
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.125
+From: grachev_slava_1977_17_11@mail.ru
+Reply-To: grachev_slava_1977_17_11@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqlbP-00Gtuw-0O@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:34:35 -0700
+
+You have been contacted by JosephJuips, and the message is as follows.
+
+"Стиль лофт нередко называют
+индустриальным, промышленным
+https://profildoorskzn.ru/alyuminievye-dveri
+  Его главными особенностями является
+нарочитая грубоватость форм и
+простота линий https://profildoorskzn.ru/
+  Большое значение придается деталям,
+подчеркивающим принадлежность
+изделий к данному стилевому
+направлению https://profildoorskzn.ru/
+ 
+Ламинированные межкомнатные двери
+обычно устанавливаются в офисах и
+прочих общественных помещениях с
+большой проходимостью https://profildoorskzn.ru/
+  Они удобны, обходятся недорого, не
+требуют специального ухода и
+сохраняют отличный внешний вид весь
+срок эксплуатации
+https://profildoorskzn.ru/alyuminievye-dveri
+ 
+https://profildoorskzn.ru/
+  https://profildoorskzn.ru/
+  https://profildoorskzn.ru/alyuminievye-dveri
+   эксклюзивных гардеробных   дверей  
+https://profildoorskzn.ru/
+  Уникальность   межкомнатных     дверей
+  в том, что в них могут использоваться
+дизайнерские полотна других серий
+https://profildoorskzn.ru/alyuminievye-dveri
+  Такая   дверь   подойдет к обычному
+дверному проему, так как у нее такие же
+размеры полотна
+https://profildoorskzn.ru/alyuminievye-dveri
+  Самое главное –   дверь   не имеет
+проблем со столкновениями в
+помещении, а при закрытии   двери 
+-книжки запросто превращаются 
+https://profildoorskzn.ru/alyuminievye-dveri
+  https://profildoorskzn.ru/
+  https://profildoorskzn.ru/alyuminievye-dveri
+ 
+
+Недостатки продукции также очевидны,
+что находит отражение в отзывах
+клиентов https://profildoorskzn.ru/
+  Прежде всего, качество шпона не
+всегда удовлетворяет потребностям
+покупателя, а также, в случае заказа
+дополнительных элементов – доборов
+или наличников, их срезы не всегда
+идеальны, из-за чего обрамление
+изделия может иметь неплотные
+примыкания https://profildoorskzn.ru/alyuminievye-dveri
+ 
+Полотно размером 200х70 как правило
+необходимо для проема на кухню
+https://profildoorskzn.ru/alyuminievye-dveri
+ 90% квартир в Москве и МО имеют именно
+такие параметры
+https://profildoorskzn.ru/alyuminievye-dveri
+  Это означает, что если Вы собрались
+заменить дверь на кухню, то Вам нужно
+приобрести дверь высотой 2 метра и
+шириной 70см https://profildoorskzn.ru/alyuminievye-dveri
+ Оптимальный размер чистого проема
+при этом такой: высот
+https://profildoorskzn.ru/alyuminievye-dveri
+  https://profildoorskzn.ru/alyuminievye-dveri
+ 
+"
+
+You can contact JosephJuips via email,
+grachev_slava_1977_17_11@mail.ru
+
+--1667525675-eximdsn-217666106--

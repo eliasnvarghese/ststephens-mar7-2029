@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id nMgoG3m9ymW5TwsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 12 Feb 2024 17:53:13 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 12 Feb 2024 17:53:13 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rZh2v-0036qQ-1F
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 12 Feb 2024 17:53:13 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rZh2q-0036pP-1K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rZh2v-0036qQ-1F@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 12 Feb 2024 17:53:13 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rZh2q-0036pP-1K
+	for ginojohn@gmail.com;
+	Mon, 12 Feb 2024 17:53:08 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Danielle Simpson.
+X-PHP-Script: www.ststephenssanjose.com/contact.php for 108.62.102.7
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 108.62.102.7
+From: simpsondanielle800@gmail.com
+Reply-To: simpsondanielle800@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rZh2q-0036pP-1K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 12 Feb 2024 17:53:08 -0700
+
+You have been contacted by Danielle Simpson, and the message is as
+follows.
+
+"Hi,
+
+We'd like to introduce to you our explainer video service, which we
+feel can benefit your site ststephenssanjose.com.
+
+Check out some of our existing videos here:
+https://www.youtube.com/watch?v=bWz-ELfJVEI
+https://www.youtube.com/watch?v=Y46aNG-Y3rM
+https://www.youtube.com/watch?v=hJCFX1AjHKk
+
+All of our videos are in a similar animated format as the above
+examples, and we have voice over artists with US/UK/Australian
+accents. We can also produce voice overs in languages other than
+English.
+
+They can show a solution to a problem or simply promote one of your
+products or services. They are concise, can be uploaded to video sites
+such as YouTube, and can be embedded into your website or featured on
+landing pages.
+
+Our prices are as follows depending on video length:
+Up to 1 minute = $259
+1-2 minutes = $379
+2-3 minutes = $489
+
+*All prices above are in USD and include a full script, voice-over and
+video.
+
+If this is something you would like to discuss further, don't hesitate
+to reply.
+
+Kind Regards,
+Danielle"
+
+You can contact Danielle Simpson via email,
+simpsondanielle800@gmail.com

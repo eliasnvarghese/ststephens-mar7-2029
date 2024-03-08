@@ -1,0 +1,110 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id eCs0AOUqrWO0yg0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 28 Dec 2022 22:51:33 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 28 Dec 2022 22:51:33 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pAlpE-003sgb-RI
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 28 Dec 2022 22:51:32 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pAlp7-003sSC-KU@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1672293092-eximdsn-5112277
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pAlpE-003sgb-RI@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 28 Dec 2022 22:51:32 -0700
+
+--1672293092-eximdsn-5112277
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 AlpEpgvCKYaPW :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FrnDvUnq c=1 sm=1 tr=0 ts=63ad2ae4 p=LgNK7Dh4w48A:10 p=mhSEPLPfQ3kA:10 p=Fs64mVebOGnIxSPwOgsr:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=MwZ_Wt5sat8A:10 a=x7bEGLp0ZPQA:10 a=mSV7YWVQAm8A:10 a=NNpj81zlAAAA:8 a=iU_u1L9eAAAA:8 a=PEfSFepkAAAA:8 a=yDHi9mE-AAAA:8 a=4KW3P5ceAAAA:8 a=pd7nfUg_AAAA:8 a=GhyvZy6AAAAA:8 a=Lr3Sy_muAAAA:8 a=gl7w-tDrAAAA:8 a=o-MOgxfwAAAA:8 a=fWZl56FrAAAA:8 a=pGLkceISAAAA:8 a=tIvJ2UVtmQFIuQLzc5EA:9 a=QEXdDO2ut3YA:10 a=4-lffXr4eVYA:10 a=1E3-nmCtGu8A:10 a=5cGRrf0ZvaUA:10 a=gIJtPTcFdOYA:10 a=H0qZddw-JkYA:10 a=frK2AAmFASMA:10 a=TSdLI7m7KLQA:10 a=PRMmXUY539gA:10 a=xO4FASjox3wA:10 a=6O7yEJNEl3oA:10 a=vf_rwsnxI64A:10 a=mAF2Hv4v7ewA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=keg
+
+--1672293092-eximdsn-5112277
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 AlpEpgvCKYaPW :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FrnDvUnq c=1 sm=1 tr=0 ts=63ad2ae4 p=LgNK7Dh4w48A:10 p=mhSEPLPfQ3kA:10 p=Fs64mVebOGnIxSPwOgsr:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=sHyYjHe8cH0A:10 a=MwZ_Wt5sat8A:10 a=x7bEGLp0ZPQA:10 a=mSV7YWVQAm8A:10 a=NNpj81zlAAAA:8 a=iU_u1L9eAAAA:8 a=PEfSFepkAAAA:8 a=yDHi9mE-AAAA:8 a=4KW3P5ceAAAA:8 a=pd7nfUg_AAAA:8 a=GhyvZy6AAAAA:8 a=Lr3Sy_muAAAA:8 a=gl7w-tDrAAAA:8 a=o-MOgxfwAAAA:8 a=fWZl56FrAAAA:8 a=pGLkceISAAAA:8 a=tIvJ2UVtmQFIuQLzc5EA:9 a=QEXdDO2ut3YA:10 a=4-lffXr4eVYA:10 a=1E3-nmCtGu8A:10 a=5cGRrf0ZvaUA:10 a=gIJtPTcFdOYA:10 a=H0qZddw-JkYA:10 a=frK2AAmFASMA:10 a=TSdLI7m7KLQA:10 a=PRMmXUY539gA:10 a=xO4FASjox3wA:10 a=6O7yEJNEl3oA:10 a=vf_rwsnxI64A:10 a=mAF2Hv4v7ewA:10 a=KyYZJ[truncated]
+
+--1672293092-eximdsn-5112277
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pAlp7-003sSC-KU
+	for ginojohn@gmail.com;
+	Wed, 28 Dec 2022 22:51:32 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Edwardadugs.
+X-PHP-Script: ststephenssanjose.org/contact.php for 156.146.50.2
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 156.146.50.2
+From: igogsh464@gmail.com
+Reply-To: igogsh464@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pAlp7-003sSC-KU@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 28 Dec 2022 22:51:25 -0700
+
+You have been contacted by Edwardadugs, and the message is as follows.
+
+"Totally free online dating sites: 
+<a
+href="https://barakesse.blogspot.com/2021/05/best-online-dating-sites-nz.html">Best
+Online Dating Sites Nz</a>  - Northernsmiler, 6th January 
+https://mogilesa.blogspot.com/2020/04/fortuna-partnervermittlung-st-petersburg.html
+https://cyckepame.blogspot.com/2021/10/hobby-zum-manner-kennenlernen.html
+ 
+<a
+href="https://ropusholo.blogspot.com/2021/07/singles-stockach.html">Singles
+Stockach</a>
+<a
+href="https://nasurbasu.blogspot.com/2021/10/gibt-es-kostenlose-casual-dating-seiten.html">Gibt
+Es Kostenlose Casual Dating Seiten</a>
+<a
+href="https://kuofrotha.blogspot.com/2021/06/lemonswan-dating.html">Lemonswan
+Dating</a>
+<a
+href="https://pitilraten.blogspot.com/2020/07/online-dating-fake-profile-statistics.html">Online
+Dating Fake Profile Statistics</a>
+<a
+href="https://negobepe.blogspot.com/2021/07/kennenlernen-bilder.html">Kennenlernen
+Bilder</a>
+<a
+href="https://rocorontea.blogspot.com/2021/07/top-10-free-online-dating-sites-in-india.html">Top
+10 Free Online Dating Sites In India</a>
+<a
+href="https://tabatimap.blogspot.com/2021/10/bekanntschaften-mannheimer-morgen.html">Bekanntschaften
+Mannheimer Morgen</a>
+<a
+href="https://mecuheca.blogspot.com/2021/10/silvester-single-party-rostock.html">Silvester
+Single Party Rostock</a>
+"
+
+You can contact Edwardadugs via email, igogsh464@gmail.com
+
+--1672293092-eximdsn-5112277--

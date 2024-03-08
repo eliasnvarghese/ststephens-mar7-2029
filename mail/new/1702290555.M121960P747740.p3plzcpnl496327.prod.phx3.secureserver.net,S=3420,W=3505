@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 0EUfB3vkdmXcaAsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 11 Dec 2023 03:29:15 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 11 Dec 2023 03:29:15 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rCdXH-0038nr-0C
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 11 Dec 2023 03:29:15 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rCdXC-0038n5-1S@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rCdXH-0038nr-0C@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 11 Dec 2023 03:29:15 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rCdXC-0038n5-1S
+	for ginojohn@gmail.com;
+	Mon, 11 Dec 2023 03:29:10 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Donna Coffman.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 195.88.56.93
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 195.88.56.93
+From: therese.pendleton@gmail.com
+Reply-To: therese.pendleton@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rCdXC-0038n5-1S@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 11 Dec 2023 03:29:10 -0700
+
+You have been contacted by Donna Coffman, and the message is as
+follows.
+
+"Hi owner of ststephenssanjose.org,
+
+
+Want to break into the world of writing? Jump-start your career as an
+article writer!
+
+Even if you don't consider yourself a professional, you can start
+immediately with basic English writing skills and a knack for
+researching exciting topics.
+
+Click here to read more about this job:
+https://www.vaulemedia.com/writingpaid 
+
+Be part of our team and experience the benefits of creating content
+from your own home with no set duration of the contract, researching
+the given topics, and creating 500-700 word articles with our training
+and support. The businesses that hire our members are all looking for
+new remote workers who don’t need experience but are willing to
+learn. Depending on the scope of the job and qualifications,
+reimbursement will be 150 bucks daily.
+
+Start your application now and be part of our team.
+
+Hit the button below: https://www.vaulemedia.com/writingpaid .
+
+Looking out for you,
+
+
+Donna
+
+(The relationship between Vaulemedia and Paidonlinewritingjobs is a
+partnership, we are two separate companies)
+UNSUBSCRIBE: https://www.vaulemedia.com/unsubscribe
+"
+
+You can contact Donna Coffman via email, therese.pendleton@gmail.com

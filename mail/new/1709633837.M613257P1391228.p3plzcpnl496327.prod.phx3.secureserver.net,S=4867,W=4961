@@ -1,0 +1,94 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id oFlpJC3x5mV8OhUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 05 Mar 2024 03:17:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 05 Mar 2024 03:17:17 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rhRrJ-005qDU-1n
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 05 Mar 2024 03:17:17 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rhRrE-005qBy-0I@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1709633837-eximdsn-1488358658
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rhRrJ-005qDU-1n@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 05 Mar 2024 03:17:17 -0700
+
+--1709633837-eximdsn-1488358658
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 hRrJrKhXJI0Im :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=daAj3mXe c=1 sm=1 tr=0 ts=65e6f12d p=OqVxiVHdAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=K6JAEmCyrfEA:10 a=5Z4D7Z6hAAAA:8 a=Tlgt9hp79WLmHREa2JgA:9 a=PRpDppDLrCsA:10 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=N9mvxbwdM7IA:10 a=KyYZJfTCSdMA:10 a=qsPRHvonzk360LdhwxJ1:22 a=acewEgQMpYTsClr9keMy:22 a=PoH2DdB86p_B_PdMcdrG:22 a=qFa1DmBGh8SRkZj0qjYC:22 ::
+    100.00
+
+--1709633837-eximdsn-1488358658
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 hRrJrKhXJI0Im :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=daAj3mXe c=1 sm=1 tr=0 ts=65e6f12d p=OqVxiVHdAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=K6JAEmCyrfEA:10 a=5Z4D7Z6hAAAA:8 a=Tlgt9hp79WLmHREa2JgA:9 a=PRpDppDLrCsA:10 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=N9mvxbwdM7IA:10 a=KyYZJfTCSdMA:10 a=qsPRHvonzk360LdhwxJ1:22 a=acewEgQMpYTsClr9keMy:22 a=PoH2DdB86p_B_PdMcdrG:22 a=qFa1DmBGh8SRkZj0qjYC:22 :: 100.00
+
+--1709633837-eximdsn-1488358658
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rhRrE-005qBy-0I
+	for ginojohn@gmail.com;
+	Tue, 05 Mar 2024 03:17:17 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by 레고 도메인.
+X-PHP-Script: ststephenssanjose.org/contact.php for 1.231.27.148
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 1.231.27.148
+From: help@gwmetabitt.com
+Reply-To: help@gwmetabitt.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rhRrE-005qBy-0I@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 05 Mar 2024 03:17:12 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by 레고 도메인, and the message is as
+follows.
+
+"흔한 배팅 방식으로는 대부분인 사람이 가볍게 접할
+수 있는 합법적인 스포츠배팅이라 불리는
+토토사이트(일명:종이토토)와 오프라인으로
+간단하게 토토배팅이 최소한 배*맨을 예로 들수
+있을것 입니다. 허나 마음보다 이렇게 종이토토와
+레고 토토 가입코드의 이용도는 오프라인상에
+존재하는 사설 먹튀검증업체의 사용자수에 비해
+현저히 떨어지며그 선호도아울러 굉장히 많은
+차이가 있는것으로 확인되고 있을 것이다. 
+ 
+[url=https://xn--299ao5swvua.com/]레고평생주소[/url]"
+
+You can contact 레고 도메인 via email, help@gwmetabitt.com
+
+--1709633837-eximdsn-1488358658--

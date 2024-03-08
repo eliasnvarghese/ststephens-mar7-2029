@@ -1,0 +1,146 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id JPcMIJm7O2UpOjoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 27 Oct 2023 06:31:05 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 27 Oct 2023 06:31:05 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qwMvZ-00G0hv-FH
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 27 Oct 2023 06:31:05 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qwMvU-00G0SX-8W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698413465-eximdsn-680828090
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qwMvZ-00G0hv-FH@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 27 Oct 2023 06:31:05 -0700
+
+--1698413465-eximdsn-680828090
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wMvZqC92093zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=653bbb99 p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=KR2On8jPXCcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=PhYo5jjsD8UA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=NZYgD1dDYhgtSIQjfhUA:9 a=QEXdDO2ut3YA:10 a=HBUypOwlZg4A:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=N5YZtzD7lL2VCl6lW3cB:22 a=jycUkCEYUnZvh0PkXkJV:22 a=dQKCYly4wMQ0b7G-qZLU:22 a=JEevn01Dj8W1cyRAPOh_:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1698413465-eximdsn-680828090
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 wMvZqC92093zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=653bbb99 p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=KR2On8jPXCcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=PhYo5jjsD8UA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=NZYgD1dDYhgtSIQjfhUA:9 a=QEXdDO2ut3YA:10 a=HBUypOwlZg4A:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=N5YZtzD7lL2VCl6lW3cB:22 a=jycUkCEYUnZvh0PkXkJV:22 a=dQKCYly4wMQ0b7G-qZLU:22 a=JEevn01Dj8W1cyRAPOh_:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1698413465-eximdsn-680828090
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qwMvU-00G0SX-8W
+	for ginojohn@gmail.com;
+	Fri, 27 Oct 2023 06:31:05 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Marshall Jevons.
+X-PHP-Script: ststephenssanjose.org/contact.php for 196.196.255.54
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.196.255.54
+From: jevons.marshall@gmail.com
+Reply-To: jevons.marshall@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qwMvU-00G0SX-8W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 27 Oct 2023 06:31:00 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Marshall Jevons, and the message is as
+follows.
+
+"Salutations ststephenssanjose.org Manager!
+
+I'm Marshall and I recently discovered your website at
+ststephenssanjose.org...
+
+I located it after a quick search, so your SEO’s working out…
+
+Material looks good…
+
+One thing’s missing though…
+
+A FAST, SIMPLE way to communicate with you RIGHT NOW.
+
+Because research show that a visitor like me will only hang out a few
+seconds – 7 out of 10 vanish almost immediately, Browse Click
+Surf… then gone forever.
+
+I have the solution:
+
+Web Visitors Into Leads is a software widget that’s operates on your
+website, set to collect any visitor’s Name, Email address, and Phone
+Number. You’ll know right away they’re intrigued and you can call
+them immediately to SPEAK with them - actually while they’re still
+on the web looking at your site.
+
+CLICK HERE https://bit.ly/3LPltcD to experience a Live Demo with Lead
+Conversion Tool now to see exactly how it works and even test it
+out… it could be huge for your business.
+
+Moreover, now that you’ve got that phone number, with our new SMS
+Text With Lead feature, you can automatically start a text (SMS)
+conversation right away… which is so powerful, because connecting
+with someone within the first 5 minutes is 100 times more efficient
+than waiting 30 minutes or more later.
+
+The new text messaging feature lets you stay connected frequently with
+new offers, content links, even just check-in notes to build a
+relationship.
+
+Every single thing I’ve just described is extremely simple to
+implement, cost-effective, and beneficial.
+
+CLICK HERE https://bit.ly/3LPltcD to discover what Web Visitors Into
+Leads can do for your company, possibly converting up to 100X more
+visitors into leads right now!
+
+Marshall
+PS: Lead Conversion Tool offers a FREE 14 days trial – and it even
+includes International Long Distance Calling.
+You have prospects waiting to speak with you right now… don’t keep
+them waiting.
+CLICK HERE https://bit.ly/3LPltcD to test Web Visitors Into Leads
+now.
+
+If you'd choose to unsubscribe click here https://bit.ly/3rD0G5c
+
+Simply a rapid note - the monikers and email address applied in this
+note, Marshall and Jevons, are substitutes and not actually real
+information. We value openness and desired to confirm you’re aware
+of this! Should you wish to make contact with the genuine individual
+responsible for this communication, kindly visit our website, and
+we’ll associate you with the correct entity.
+"
+
+You can contact Marshall Jevons via email, jevons.marshall@gmail.com
+
+--1698413465-eximdsn-680828090--

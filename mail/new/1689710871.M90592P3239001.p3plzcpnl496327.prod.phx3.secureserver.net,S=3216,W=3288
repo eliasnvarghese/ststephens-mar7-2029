@@ -1,0 +1,72 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id YqBMBRfxtmRZbDEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 18 Jul 2023 13:07:51 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 18 Jul 2023 13:07:51 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qLqz9-00Dabq-0t
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 18 Jul 2023 13:07:51 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qLqz3-00Daac-VE@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qLqz9-00Dabq-0t@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 18 Jul 2023 13:07:51 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qLqz3-00Daac-VE
+	for ginojohn@gmail.com;
+	Tue, 18 Jul 2023 13:07:45 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Martin Jose Barreiro.
+X-PHP-Script: ststephenssanjose.org/contact.php for 195.78.54.21
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 195.78.54.21
+From: barreiromartin36@gmail.com
+Reply-To: barreiromartin36@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qLqz3-00Daac-VE@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 18 Jul 2023 13:07:45 -0700
+
+You have been contacted by Martin Jose Barreiro, and the message is as
+follows.
+
+"Hello 
+My name is Br.Martin Jose Barreiro, I am a Lawyer and I pratices here
+in Madrid Spain.  I have previously sent you an email regarding a
+transaction of US$13.5 Million left behind by my late client before
+his tragic death. 
+However I am reaching out to you once again because after going
+through your profile, I strongly believe that you will be in a better
+position to execute this business transaction with me. 
+I suggest after the transaction, we donate 5% of the money to charity
+organizations while the remaining 95% is shared equally between us. 
+If you are interested to proceed with me, kindly respond to me via
+this email  legalmj@barieroabogados.com for more detail. 
+This transaction is 100% risk free and I look forward to your
+response. 
+Yours sincerely 
+Martin Jose Barreiro,, 
+Lawyer 
+Phone: +34 661 220 756 
+E-mail:  legalmj@barieroabogados.com 
+Web:  http://www.barreiroabogado.com/"
+
+You can contact Martin Jose Barreiro via email,
+barreiromartin36@gmail.com

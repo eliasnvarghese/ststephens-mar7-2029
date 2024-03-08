@@ -1,0 +1,150 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id eG8WEVZEZGNL/zAAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 15:44:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 15:44:38 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqiww-00DUbR-2S
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 15:44:38 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqiwv-00DUb0-Ki@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667515478-eximdsn-458686482
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqiww-00DUbR-2S@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 15:44:38 -0700
+
+--1667515478-eximdsn-458686482
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qiwvo7edQYVlN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=63644456 p=WB-hhGu2qEEA:10 p=w_bkbPa8RTsA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=fzFHSqF7xYcA:10 a=6D-hnrcmAAAA:8 a=mem--OOHAAAA:8 a=ujQ7NRy7OFG8PjgORsQA:9 a=QEXdDO2ut3YA:10 a=uEY-NQEujYoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=44XVQsHO1cRWd2NSFt98:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667515478-eximdsn-458686482
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qiwvo7edQYVlN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=63644456 p=WB-hhGu2qEEA:10 p=w_bkbPa8RTsA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=fzFHSqF7xYcA:10 a=6D-hnrcmAAAA:8 a=mem--OOHAAAA:8 a=ujQ7NRy7OFG8PjgORsQA:9 a=QEXdDO2ut3YA:10 a=uEY-NQEujYoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=44XVQsHO1cRWd2NSFt98:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667515478-eximdsn-458686482
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqiwv-00DUb0-Ki
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 15:44:37 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by DavidFueri.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.106
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.106
+From: zubkova_taniusha_1995_23_8@bk.ru
+Reply-To: zubkova_taniusha_1995_23_8@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqiwv-00DUb0-Ki@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 15:44:37 -0700
+
+You have been contacted by DavidFueri, and the message is as follows.
+
+"Рецепт с сиропом попроще, но до него
+ли ночью, в суете, когда дитё
+закашливается и нужно экстренно
+купировать приступ?
+https://amadey-sirop.ru/patoka-suxaya/
+ 
+https://amadey-sirop.ru/amadey/patoka/patoki-trostnikovye-organicheskie/
+  И долго, и обожжешься в спешке
+запросто, а то и ребенка обожжешь, если
+варишь лекарство, держа его на руках
+https://amadey-sirop.ru/sirop-glyukoznyj-suxoj/
+ 
+Можно поэкспериментировать и
+заменить персик другими фруктами или
+ягодами http://amadey-sirop.ru
+  Не менее распространён алкогольный ,
+рецепт которого включает в себя
+свежую клубнику https://amadey-sirop.ru
+ 
+Сахарный сироп и получающаяся в
+процессе его варки карамель
+представляют собой растворы сахара в
+воде, кипящие при высоких
+температурах https://amadey-sirop.ru/koler-e150a/
+  Слабый сахарный сироп, который чаще
+всего готовят для пропитывания
+бисквитов и приготовления глазури,
+получают растворением 500 г сахара в 500
+мл https://amadey-sirop.ru/amadey/specifikacii/
+  Сироп доводят до кипения, кипятят 1-2
+минуты, в результате чего, остывая, он
+остается жидким https://amadey-sirop.ru/835-2/
+  Если сахарный сироп варить более
+продолжительное время, то будет
+происходить испарение воды и
+увеличение концентрации сахара
+https://amadey-sirop.ru/baton-nareznoj-s-saxarom-kraxmalnym-tverdym/
+  На различных стадиях варки сиропа,
+концентрация сахара различна,
+различны и свойства такого раствора, а
+значит и его кондитерское применение
+https://amadey-sirop.ru/patoka-melassa-sveklovichnaya/
+  Поэтому опытный кондитер знает
+наизусть все приемы приготовления
+сахарного сиропа, и в какие состояния
+переходит сироп по мере его варки
+https://amadey-sirop.ru/patoka-melassa-sveklovichnaya/
+ 
+Что бы получить гумми сироп
+проделайте следующее: , написанный в
+1871-м году Томасом Рикетом)
+https://amadey-sirop.ru/amadey/patoka/patoki-trostnikovye-organicheskie/
+ 
+Защитная мембрана под крышкой банки
+1000гр оберегает Гречишный мед от
+воздействия света и влаги, а так же от
+недобросовестных сотрудников
+логистических компаний http://amadey-sirop.ru
+  А  https://amadey-sirop.ru/amadey/siropy_dlya_napitkov/
+  https://amadey-sirop.ru/patoka-rafinadnaya-medovaya/
+  https://amadey-sirop.ru/sirop-koncentrat-kvas/
+ 
+В тёплых же странах до сих пор
+используется преимущественно
+коричневый сахар – чуть менее
+сладкий, но и многократно более
+полезный за счет различных примесей,
+которые могут сильно разниться в
+зависимости от качества исходного
+сырья и степени его очистки
+https://amadey-sirop.ru/glyukoznyj-sirop-v-internete-lukavstvo/
+ 
+"
+
+You can contact DavidFueri via email, zubkova_taniusha_1995_23_8@bk.ru
+
+--1667515478-eximdsn-458686482--

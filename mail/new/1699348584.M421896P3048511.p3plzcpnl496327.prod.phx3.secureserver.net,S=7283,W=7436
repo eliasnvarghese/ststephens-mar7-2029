@@ -1,0 +1,153 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id cJ4PGWgASmU/hC4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 07 Nov 2023 02:16:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 07 Nov 2023 02:16:24 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r0IC8-00CnRc-Bp
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 07 Nov 2023 02:16:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r0IC3-00CnQ5-Kb@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699348584-eximdsn-1954033977
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r0IC8-00CnRc-Bp@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 07 Nov 2023 02:16:24 -0700
+
+--1699348584-eximdsn-1954033977
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 0IC8rOeoBjLE1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=654a0068 p=tYM1Srd8AAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=YdAijPEXIBYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=c_63Yodayf4A:10 a=pGLkceISAAAA:8 a=Hc6Toyu24pzGlJRolxcA:9 a=QEXdDO2ut3YA:10 a=6G5TUVYA5hYA:10 a=rQC0i9-c93EA:10 a=KyYZJfTCSdMA:10 a=tikSZFVMFAHfGxZeLk9P:22 a=uXBNkH0JdAghHLOhgua1:22 a=J4rAhgBBlWsmFhl1Gdpg:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1699348584-eximdsn-1954033977
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 0IC8rOeoBjLE1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=654a0068 p=tYM1Srd8AAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=YdAijPEXIBYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=c_63Yodayf4A:10 a=pGLkceISAAAA:8 a=Hc6Toyu24pzGlJRolxcA:9 a=QEXdDO2ut3YA:10 a=6G5TUVYA5hYA:10 a=rQC0i9-c93EA:10 a=KyYZJfTCSdMA:10 a=tikSZFVMFAHfGxZeLk9P:22 a=uXBNkH0JdAghHLOhgua1:22 a=J4rAhgBBlWsmFhl1Gdpg:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1699348584-eximdsn-1954033977
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r0IC3-00CnQ5-Kb
+	for ginojohn@gmail.com;
+	Tue, 07 Nov 2023 02:16:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Barryfloal.
+X-PHP-Script: ststephenssanjose.org/contact.php for 109.107.176.19
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 109.107.176.19
+From: 123@gmail.com
+Reply-To: 123@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r0IC3-00CnQ5-Kb@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 07 Nov 2023 02:16:19 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Barryfloal, and the message is as follows.
+
+"Dear Sir/Madam , 
+ 
+Are you ready to tap into the full potential of AI for crafting
+awe-inspiring videos that can elevate your profits? Prepare, because
+we've got something remarkable for you! 
+ 
+Introducing Your Magical AI Tool – The game-changer of AI video
+creation that's here to revolutionize your business and drive
+unbelievable results. ???? 
+ 
+?? Here's why you can't afford to miss this opportunity: 
+ 
+?? Agency License: With our package, you'll receive an Advanced
+License, allowing you to offer our cutting-edge video creation service
+to your clients for additional revenue streams! 
+ 
+???>? GPT-4 Magic: Powered by GPT-4 technology, our whiteboard video
+creation software is engineered to be your revenue-boosting wizard. 
+ 
+?? Niche Mastery: Create AI-generated whiteboard videos in ANY
+industry with exceptional speed and ease. 
+ 
+?? Versatile Videos: Generate an endless number of whiteboard sales
+videos, business ads, product promos, informational content, squeeze
+page videos, explainers, and tutorials – it's like pure magic! 
+ 
+? Script Wizardry: Craft premium video scripts in record time, all
+within the same app, ensuring exceptional content every time. 
+ 
+?? Traffic Magnet: Drive more focused buyer traffic to your websites,
+channels, blogs, and offers – watch your audience grow! 
+ 
+?? Viral Potential: Post your whiteboard videos on trending topics and
+social media to skyrocket engagement and go viral. 
+ 
+?? No Skill Needed: No particular skills required! You'll be a
+video-making expert with ease. 
+ 
+?? Centralized Management: Handle all your video creation tasks
+seamlessly from one intuitive dashboard. 
+ 
+?? ROI Booster: While results may vary, many of our users have
+experienced unbelievable ROI gains of 500% or more! 
+ 
+?? AI Business Launch: Ascend to new heights of online wealth with our
+Agency license. Launch your very own AI-powered business! 
+ 
+?? PLR Opportunities: PLR producers can leverage this tool to craft
+premium training courses that sell like hotcakes! 
+ 
+?? Market Domination: Crush your competition and dominate your market
+with this top-tier technology. 
+ 
+?? Risk-Free Guarantee: We back our product with a ironclad 30-day
+money-back guarantee – zero risk! 
+ 
+?? Compelling CTAs: Boost your conversions and profits effortlessly
+with powerful call-to-action elements. 
+ 
+?? Don't miss out on this exclusive opportunity to transform your
+video creation process and boost your profits with AI technology! 
+ 
+To discover more, schedule a demo, or investigate pricing options,
+simply reply to this email or visit our website at ->
+https://tinyurl.com/vidpalai 
+ 
+Get ready to step into a new era of video content creation and set new
+standards in your industry. We're thrilled to be part of your journey
+towards unsurpassed success! 
+ 
+Best Regards, AI marketing team"
+
+You can contact Barryfloal via email, 123@gmail.com
+
+--1699348584-eximdsn-1954033977--

@@ -1,0 +1,116 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id qCcyHHZqX2RhnRMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 13 May 2023 03:46:14 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 13 May 2023 03:46:14 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pxmlS-005Of3-Dk
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 13 May 2023 03:46:14 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pxmlN-005OeE-D0@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1683974774-eximdsn-1550528147
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pxmlS-005Of3-Dk@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 13 May 2023 03:46:14 -0700
+
+--1683974774-eximdsn-1550528147
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xmlSpWUXYNfnR :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WLa5HFgR c=1 sm=1 tr=0 ts=645f6a76 p=kffreOzdAAAA:20 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=uJZMwbcEY1MA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=r6IOQXEPCVIA:10 a=AAvYLDLOAAAA:8 a=FN0PgHWs26q6lqOirnoA:9 a=QEXdDO2ut3YA:10 a=v4O-DP1A6kQA:10 a=q5XuTYFiR1AA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=_9ji21tRl5PsZ7qhYt0k:22 ::
+    100.00
+
+--1683974774-eximdsn-1550528147
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 xmlSpWUXYNfnR :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WLa5HFgR c=1 sm=1 tr=0 ts=645f6a76 p=kffreOzdAAAA:20 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=uJZMwbcEY1MA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=r6IOQXEPCVIA:10 a=AAvYLDLOAAAA:8 a=FN0PgHWs26q6lqOirnoA:9 a=QEXdDO2ut3YA:10 a=v4O-DP1A6kQA:10 a=q5XuTYFiR1AA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=_9ji21tRl5PsZ7qhYt0k:22 :: 100.00
+
+--1683974774-eximdsn-1550528147
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pxmlN-005OeE-D0
+	for ginojohn@gmail.com;
+	Sat, 13 May 2023 03:46:14 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Elliott Lester.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.230.11.62
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.230.11.62
+From: elliott.lester38@msn.com
+Reply-To: elliott.lester38@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pxmlN-005OeE-D0@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 13 May 2023 03:46:09 -0700
+
+You have been contacted by Elliott Lester, and the message is as
+follows.
+
+"Hey this isCharlie,
+
+Curious if you are  dealing with a lot of client inquiries and
+juggling multiple tools to manage them?
+
+
+We can save you time by centralizing all your customer interactions
+(email, social media, live chat, website, phone and even automate your
+google business profile.) 
+
+We also have an AI assistant that writes blogs for SEO, schedule
+appointments and write social media posts to name a few. 
+
+
+All in one platform which we set up for you so you are up and running
+in in no time.
+
+
+You can also schedule appointments, send invoices, and automate
+repetitive tasks, freeing up your time to focus on what matters most -
+your clients.
+
+One of our clients, Success Plus Marketing, saved over 25 hours a week
+by using GoHighLevel instead of juggling multiple tools. And we
+believe it can help your team too.
+
+
+I'd love to show you how GoHighLevel works and how it can benefit your
+business.https://bit.ly/10XScaleUp
+
+
+
+-Be great
+
+Charlie
+"
+
+You can contact Elliott Lester via email, elliott.lester38@msn.com
+
+--1683974774-eximdsn-1550528147--

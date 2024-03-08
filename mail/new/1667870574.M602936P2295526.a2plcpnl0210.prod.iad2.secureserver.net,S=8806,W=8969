@@ -1,0 +1,163 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id eAz5Im6vaWPmBiMAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 18:22:54 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 18:22:54 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1osDKI-009dnw-Dz
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 18:22:54 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1osDKH-009dnN-T2@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667870574-eximdsn-947429644
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1osDKI-009dnw-Dz@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 18:22:54 -0700
+
+--1667870574-eximdsn-947429644
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 sDKIomTgMwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=6369af6e p=mTW-7JmCtncA:10 p=6bxjhmc0d9wA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=C4ZPwctg428A:10 a=wFdLv_piAAAA:8 a=mem--OOHAAAA:8 a=KIX3tCuThRiJW2CKHBUA:9 a=QEXdDO2ut3YA:10 a=hxXwg1ZgnXYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=-DW9cWuSPti5viWApMzw:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667870574-eximdsn-947429644
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 sDKIomTgMwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=6369af6e p=mTW-7JmCtncA:10 p=6bxjhmc0d9wA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=C4ZPwctg428A:10 a=wFdLv_piAAAA:8 a=mem--OOHAAAA:8 a=KIX3tCuThRiJW2CKHBUA:9 a=QEXdDO2ut3YA:10 a=hxXwg1ZgnXYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=-DW9cWuSPti5viWApMzw:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667870574-eximdsn-947429644
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1osDKH-009dnN-T2
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 18:22:53 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JamesKig.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: sergey_ilin_1982@bk.ru
+Reply-To: sergey_ilin_1982@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1osDKH-009dnN-T2@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 18:22:53 -0700
+
+You have been contacted by JamesKig, and the message is as follows.
+
+"Оснащенность большинства (кроме
+рубиновых) приборов системами
+охлаждения сводит к минимуму
+вероятность случайных ожогов кожи
+https://www.egoestetica-med.ru/services/man/
+   Зона обработки защищена от
+термического воздействия благодаря
+такой системе https://www.egoestetica-med.ru/akcia1/
+ 
+Я не могу сказать, что осталась
+полностью довольной после процедуры
+лазерной эпиляции
+https://www.egoestetica-med.ru/services/man/
+   Конечно, нежелательные волоски в
+зоне бикини, она убрала, но полученный
+ожог кожи меня не сильно страивал
+https://www.egoestetica-med.ru/product/ship-your-idea/
+   Я не знаю, что меня потянуло поменять
+мастера, но это, наверное, и была моя
+основная ошибка https://www.egoestetica-med.ru/contact/
+   С прошлым мастером мы провели
+успешно 3 процедуры, но для желаемого
+эффекта мне требовалось провести еще
+три процедуры, так она говорила
+https://www.egoestetica-med.ru/services/face/
+   Честно говоря, я думала, что она
+просто хочет вытащить у меня еще денег
+https://www.egoestetica-med.ru/homepage-4/
+   Как-то мне не верилось, ведь волоски
+стали уже совсем тоненькие и очень
+мягкие https://www.egoestetica-med.ru/services/man/
+   Я решила из-за этого посетить
+другого мастера, который и наделал мне
+ожогов https://www.egoestetica-med.ru/tab-style/
+   Я, конечно, ходила, возмущалась и в
+результате вытребовала возмещение
+моих затрат, да еще и с компенсацией
+https://www.egoestetica-med.ru/services/face/
+   Сейчас все зажило
+https://www.egoestetica-med.ru/services/man/
+ 
+Лазерная эпиляция глубокого бикини
+проводится при наличии в
+обрабатываемой зоне волос длиной 1-2 мм
+https://www.egoestetica-med.ru/tab-style/
+   Оптимальное сочетание – темная
+растительность на светлой коже: чем
+выраженнее контраст, тем эффективнее
+будут сеансы
+https://www.egoestetica-med.ru/services/treat/
+ 
+В течение нескольких часов после
+лазерной эпиляции подмышек на коже
+могут наблюдаться покраснения и
+воспаления, которые должны пройти
+через несколько часов
+https://www.egoestetica-med.ru/services/facial/
+ 
+Каждый, кто однажды решится на
+лазерную эпиляцию, должен знать о
+своих заболеваниях во избежание
+негативных проявлений после
+процедуры https://www.egoestetica-med.ru/services/nail/
+   Поэтому предварительно необходима
+консультация врача
+https://www.egoestetica-med.ru/product/ship-your-idea/
+ 
+Если вы имеете склонность к появлению
+келоидных рубцов, то такая процедура
+будет для вас также противопоказана
+https://www.egoestetica-med.ru/services/treat/
+   Нельзя использовать лазер в период
+беременности или кормления грудью
+https://www.egoestetica-med.ru/services/massage/
+   Любые инфекционные или
+воспалительные заболевания органов
+малого таза являются
+противопоказанием
+https://www.egoestetica-med.ru/tab-style/
+   Также нельзя проводить эпиляцию
+груди или зоны подмышек тем женщинам,
+которые имеют проблемы со здоровьем
+молочных желез
+https://www.egoestetica-med.ru/services/nail/
+ 
+"
+
+You can contact JamesKig via email, sergey_ilin_1982@bk.ru
+
+--1667870574-eximdsn-947429644--

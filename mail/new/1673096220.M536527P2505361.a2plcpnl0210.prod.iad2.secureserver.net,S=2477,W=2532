@@ -1,0 +1,55 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id UIV6HhxsuWOROiYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 07 Jan 2023 05:57:00 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 07 Jan 2023 05:57:00 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pE8ku-00AbWW-Cn
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sat, 07 Jan 2023 05:57:00 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pE8kp-00AbSt-HX@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pE8ku-00AbWW-Cn@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 07 Jan 2023 05:57:00 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pE8kp-00AbSt-HX
+	for ginojohn@gmail.com;
+	Sat, 07 Jan 2023 05:56:55 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by AffiliateTut.
+X-PHP-Script: ststephenssanjose.org/contact.php for 46.216.179.1
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 46.216.179.1
+From: jannajuk98@gmail.com
+Reply-To: jannajuk98@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pE8kp-00AbSt-HX@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 07 Jan 2023 05:56:55 -0700
+
+You have been contacted by AffiliateTut, and the message is as
+follows.
+
+"Affiliate program provides opportunities for long-term partnership
+and development of your business:  [url=]https://t.co/vk9ak6UIgT[/url]
+
+[url=https://t.co/vk9ak6UIgT][img]https://cdn.sites.admitad.com/www.admitad.com/2022/09/image-9.png[/img][/url]"
+
+You can contact AffiliateTut via email, jannajuk98@gmail.com

@@ -1,0 +1,119 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id uC0WLH5q5mLLXw8AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 31 Jul 2022 04:41:50 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 31 Jul 2022 04:41:50 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oI7KQ-004FsL-I6
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sun, 31 Jul 2022 04:41:50 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oI7KQ-004Frb-2e@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1659267710-eximdsn-131493982
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oI7KQ-004FsL-I6@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 31 Jul 2022 04:41:50 -0700
+
+--1659267710-eximdsn-131493982
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 I7KQoYiBv44O5 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=eNzWMFl1 c=1 sm=1 tr=0 ts=62e66a7e p=AfEPP0_H8hUA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RgO8CyIxsXoA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=j23k9Uv3qOIA:10 a=kqdOk73CAAAA:8 a=mem--OOHAAAA:8 a=3DmDNdKh8rkniSg6fhsA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=1_CMdrPLxkAA:10 a=tJpFFVM_TS0A:10 a=FfTTBaogGIAA:10 a=y4Om2xFp7pkA:10 a=AV1p2HMuc-sA:10 a=dkt5qzgmINAA:10 a=y6Q9yzKRw9AA:10 a=FXm3mqu9TuYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Hm-rK8Owrai46nGSS2ZT:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1659267710-eximdsn-131493982
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 I7KQoYiBv44O5 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=eNzWMFl1 c=1 sm=1 tr=0 ts=62e66a7e p=AfEPP0_H8hUA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RgO8CyIxsXoA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=j23k9Uv3qOIA:10 a=kqdOk73CAAAA:8 a=mem--OOHAAAA:8 a=3DmDNdKh8rkniSg6fhsA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=1_CMdrPLxkAA:10 a=tJpFFVM_TS0A:10 a=FfTTBaogGIAA:10 a=y4Om2xFp7pkA:10 a=AV1p2HMuc-sA:10 a=dkt5qzgmINAA:10 a=y6Q9yzKRw9AA:10 a=FXm3mqu9TuYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Hm-rK8Owrai46nGSS2ZT:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1659267710-eximdsn-131493982
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oI7KQ-004Frb-2e
+	for ginojohn@gmail.com; Sun, 31 Jul 2022 04:41:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Frankdes.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: yaroslavzakharov1969@bk.ru
+Reply-To: yaroslavzakharov1969@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oI7KQ-004Frb-2e@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 31 Jul 2022 04:41:50 -0700
+
+You have been contacted by Frankdes, and the message is as follows.
+
+"
+Гранитные оградительные столбики
+предназначены для организации зон
+парковки, разделения пешеходной зоны
+от проезжей части, ограничения
+движения транспорта, предотвращения
+неправильной парковки транспортных
+средств
+[url=https://www.raidstone.ru/services/montazhnye-raboty/montazh-stupenej-iz-granita-kajrus.html]ванные
+из мрамора [/url]
+ 
+Благодаря специальным способам
+обработки и естественным
+особенностям камня, мы изготавливаем
+столешницы из камня, которые
+устойчивые к царапинам и стиранию,
+действию ультрафиолета (не выгорают) и
+влаги, отличаются высокой
+ударопрочностью и долговечностью
+использования
+[url=https://www.raidstone.ru/services.html]олимпийские
+боги [/url]
+ 
+
+У нас в офисе есть образцы
+разнообразных камней, каталоги и
+брошюры, коллекция фотографий готовых
+объектов и изделий, все для того чтобы
+переговоры с Вами проходили
+максимально конструктивно
+[url=https://www.raidstone.ru/]Скульптуры Из
+Мрамора [/url]
+ 
+Изготовленные из натурального и
+искусственного камня подоконники
+имеют существенные преимущества
+перед аналогичными изделиями,
+изготовленными из других материалов
+[url=https://www.raidstone.ru/services/montazhnye-raboty/oblicovka-pola-pomeshheniya-i-bassejna.html]мрамор
+и гранит [/url]
+ 
+"
+
+You can contact Frankdes via email, yaroslavzakharov1969@bk.ru
+
+--1659267710-eximdsn-131493982--

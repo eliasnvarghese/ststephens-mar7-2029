@@ -1,0 +1,55 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id ETHCHUSYVmTygyEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 06 May 2023 11:11:16 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 06 May 2023 11:11:16 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pvMNI-009DOl-ED
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 06 May 2023 11:11:16 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pvMND-009DNy-W8@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pvMNI-009DOl-ED@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 06 May 2023 11:11:16 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pvMND-009DNy-W8
+	for ginojohn@gmail.com;
+	Sat, 06 May 2023 11:11:11 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Heriberto Litsey.
+X-PHP-Script: ststephenssanjose.org/contact.php for 156.146.36.93
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 156.146.36.93
+From: LesleyTome@gmail.com
+Reply-To: LesleyTome@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pvMND-009DNy-W8@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 06 May 2023 11:11:11 -0700
+
+You have been contacted by Heriberto Litsey, and the message is as
+follows.
+
+"Are you tired of spending a fortune on PPC advertising and getting
+little to no results? Our PPV traffic service delivers real visitors
+to your site for a fraction of the cost of Google and Facebook ads.
+Order now and see the difference! https://bit.ly/40OstuX"
+
+You can contact Heriberto Litsey via email, LesleyTome@gmail.com

@@ -1,0 +1,134 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id gVxBHGEeD2Vcaj0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 23 Sep 2023 10:20:33 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 23 Sep 2023 10:20:33 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qk6Iz-00Gt41-DF
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 23 Sep 2023 10:20:33 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qk6Iu-00GsdO-Oc@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1695489633-eximdsn-450276495
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qk6Iz-00Gt41-DF@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 23 Sep 2023 10:20:33 -0700
+
+--1695489633-eximdsn-450276495
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 k6IzqKLsZm6l8 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ROV1Xau+ c=1 sm=1 tr=0 ts=650f1e61 p=sLxV3zSRAAAA:20 p=KBIuyLqpAAAA:20 p=qia5ZsDhAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=IQ6i_3P6qndKAww0v3AA:9 a=QEXdDO2ut3YA:10 a=37sMX1JlHNAA:10 a=Rj9kSgaLiKUA:10 a=KyYZJfTCSdMA:10 a=dJCP3fkBdVbfUOtKDMVL:22 a=4_AiwwSLzFLJPU7XhDm-:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 ::
+    100.00
+
+--1695489633-eximdsn-450276495
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 k6IzqKLsZm6l8 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ROV1Xau+ c=1 sm=1 tr=0 ts=650f1e61 p=sLxV3zSRAAAA:20 p=KBIuyLqpAAAA:20 p=qia5ZsDhAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=IQ6i_3P6qndKAww0v3AA:9 a=QEXdDO2ut3YA:10 a=37sMX1JlHNAA:10 a=Rj9kSgaLiKUA:10 a=KyYZJfTCSdMA:10 a=dJCP3fkBdVbfUOtKDMVL:22 a=4_AiwwSLzFLJPU7XhDm-:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 :: 100.00
+
+--1695489633-eximdsn-450276495
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qk6Iu-00GsdO-Oc
+	for ginojohn@gmail.com;
+	Sat, 23 Sep 2023 10:20:33 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by B. Randall Willis.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.108.18.2
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.108.18.2
+From: brwillis@quigstercontact.com
+Reply-To: brwillis@quigstercontact.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qk6Iu-00GsdO-Oc@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 23 Sep 2023 10:20:28 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by B. Randall Willis, and the message is as
+follows.
+
+"Hey there!
+
+Are you a business owner looking to take your corporate credit profile
+for long term success without personal guarantees? I've got some
+exciting news for you.
+
+I'm B. Randall Willis, Regional Managing Partner at J. Galt Finance
+Suite. I want to introduce you to a groundbreaking solution that will
+revolutionize the way you access lending and credit.
+
+Introducing the J. Galt Finance Suite, a powerful program that
+empowers business owners like you to achieve significant lines of
+credit with ridiculously low interest rates. Say goodbye to
+traditional lenders and hello to a whole new level of financial
+freedom independent of your personal assets.
+
+Imagine this: You'll gain access to the funding you need and work with
+MBA-level consultants throughout the life of your LLC. We're talking
+top-notch expertise and guidance, ensuring you make the right
+financial moves every step of the way. We work with you to build your
+corporate credit profile assuring your business achieves your dreams
+and goals.
+
+Many business owners believe personal guarantees are unavoidable, but
+that couldn't be further from the truth. J. Galt Finance Suite is here
+to shatter those misconceptions. Build your corporate business profile
+and separate your personal assets from your business.
+
+You can start experiencing the incredible benefits of J. Galt Finance
+Suite in under a year. That's right – you're just months away from a
+financial transformation starting now.
+
+To learn more about how I can help you unlock your business credit
+potential visit https://bit.ly/jgalt_rwillis. Better yet, click the
+link below to schedule an appointment and grab an exclusive 10%
+discount. Don't miss out on this chance to transform your business's
+financial future.
+https://bit.ly/rwillis-jgalt
+
+To your financial freedom,
+
+B. Randall Willis
+Regional Managing Partner
+J. Galt Finance Suite
+
+P.S. Achieving Tier 4 results typically takes around 10 months with
+our program. Act now to accelerate your path to success. Don't let
+traditional lenders dictate your future – it's time to take
+control.
+"
+
+You can contact B. Randall Willis via email,
+brwillis@quigstercontact.com
+
+--1695489633-eximdsn-450276495--

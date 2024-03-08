@@ -1,0 +1,56 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id KBRpI12hnGM9+yEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 16 Dec 2022 09:48:29 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 16 Dec 2022 09:48:29 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1p6Dsr-009VzN-GB
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 16 Dec 2022 09:48:29 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1p6Dsn-009Vxf-1l@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1p6Dsr-009VzN-GB@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 16 Dec 2022 09:48:29 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1p6Dsn-009Vxf-1l
+	for ginojohn@gmail.com;
+	Fri, 16 Dec 2022 09:48:25 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Maurotus.
+X-PHP-Script: ststephenssanjose.org/contact.php for 142.132.151.75
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 142.132.151.75
+From: bek_790@mail.ru
+Reply-To: bek_790@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1p6Dsn-009Vxf-1l@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 16 Dec 2022 09:48:25 -0700
+
+You have been contacted by Maurotus, and the message is as follows.
+
+"http://1bm.ru/forum/viewtopic.php?t=428080
+http://web-lance.net/forums.php?m=posts&q=10022&n=last
+https://addcatalogs.manyweb.ru/review/restaurantponton.ru.html
+http://rak.flyboard.ru/topic14048.html?&p=139293
+https://www.changingtheconversation.ca/eDialogues/memberlist.php?mode=viewprofile&u=22944
+"
+
+You can contact Maurotus via email, bek_790@mail.ru

@@ -1,0 +1,90 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id CG9tL+3LkF6LggYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 10 Apr 2020 12:41:33 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 10 Apr 2020 12:41:33 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	id 1jMzWv-001nYS-N5
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 10 Apr 2020 12:41:33 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1586547693-eximdsn-623315808
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jMzWv-001nYS-N5@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 10 Apr 2020 12:41:33 -0700
+
+--1586547693-eximdsn-623315808
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 MzWvjCEVWS17S :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=dI7YZ9Rb c=1 sm=1 tr=0 p=CVdmlEIHAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=4QzXMxjUntEA:10 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=fKfHS96uhPMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=cl8xLZFz6L8A:10 a=QEoiwosfYrYA:10 a=pGLkceISAAAA:8 a=d_gqd-9GWnj7ls0_hKEA:9 a=QEXdDO2ut3YA:10 a=aWnFi_oFSN8A:10 a=ZENUJ5mLdDQA:10 a=2gkBVXwOQY4A:10 a=JtWTbOpsNOvVfzb4-xQm:22 a=bBLslOLDTHKPTYRf4exT:22 a=qr6uT8CA6e-Mp_2y8P-s:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 ::
+    100.00
+
+--1586547693-eximdsn-623315808
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 MzWvjCEVWS17S :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=dI7YZ9Rb c=1 sm=1 tr=0 p=CVdmlEIHAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=4QzXMxjUntEA:10 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=fKfHS96uhPMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=cl8xLZFz6L8A:10 a=QEoiwosfYrYA:10 a=pGLkceISAAAA:8 a=d_gqd-9GWnj7ls0_hKEA:9 a=QEXdDO2ut3YA:10 a=aWnFi_oFSN8A:10 a=ZENUJ5mLdDQA:10 a=2gkBVXwOQY4A:10 a=JtWTbOpsNOvVfzb4-xQm:22 a=bBLslOLDTHKPTYRf4exT:22 a=qr6uT8CA6e-Mp_2y8P-s:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 :: 100.00
+
+--1586547693-eximdsn-623315808
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1jMzWv-001nXw-Do
+	for ginojohn@gmail.com; Fri, 10 Apr 2020 12:41:33 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Georgefaize.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.104.187.85
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.104.187.85
+From: bradbroker16@gmail.com
+Reply-To: bradbroker16@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1jMzWv-001nXw-Do@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 10 Apr 2020 12:41:33 -0700
+
+You have been contacted by Georgefaize, and the message is as follows.
+
+"Are you looking to sell your HVAC business? Now is the time! We have
+buyers available right now looking to purchase a business like yours.
+Now is the time to buy with uncertainty on the future so high and with
+investor still having some money to invest. Let us go to work for you
+today - we have buyers ready to make you an offer today. Our buyers
+are specifically looking for HVAC companies. 
+ 
+If you are an HVAC company, we can sell your business no matter what
+state you are in - however, if you are any other type of business,
+then we can only sell your business if you are located in Illinois. 
+ 
+Email us today to connect  at: 
+ 
+brad@ilbusinessbroker.com"
+
+You can contact Georgefaize via email, bradbroker16@gmail.com
+
+--1586547693-eximdsn-623315808--

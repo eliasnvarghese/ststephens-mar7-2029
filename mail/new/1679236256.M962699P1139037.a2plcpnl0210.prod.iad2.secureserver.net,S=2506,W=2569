@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OOaKOKAcF2RdYREAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 19 Mar 2023 07:30:56 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 19 Mar 2023 07:30:56 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pdu3k-004nKJ-Q5
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sun, 19 Mar 2023 07:30:56 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pdu3e-004nG0-WC@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pdu3k-004nKJ-Q5@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 19 Mar 2023 07:30:56 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pdu3e-004nG0-WC
+	for ginojohn@gmail.com;
+	Sun, 19 Mar 2023 07:30:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Andrewfrarl.
+X-PHP-Script: ststephenssanjose.org/contact.php for 173.208.195.242
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 173.208.195.242
+From: yourmail@gmail.com
+Reply-To: yourmail@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pdu3e-004nG0-WC@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 19 Mar 2023 07:30:50 -0700
+
+You have been contacted by Andrewfrarl, and the message is as follows.
+
+"Hi 
+ 
+I have top news sites ,where you can promote your site, 
+ 
+Let me know interested in these sites: 
+ 
+https://www.topworldnewstoday.com/ 
+https://www.nytimesnewstoday.com 
+https://www.cnnworldtoday.com 
+https://www.rtnewstoday.com 
+https://www.aljazeeranewstoday.com 
+ 
+Regards"
+
+You can contact Andrewfrarl via email, yourmail@gmail.com

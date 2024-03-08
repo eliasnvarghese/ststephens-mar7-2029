@@ -1,0 +1,65 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id MMq5Be+qiGWMYiIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 24 Dec 2023 15:04:31 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 24 Dec 2023 15:04:31 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rHWaF-009Sdu-06
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 24 Dec 2023 15:04:31 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rHWaA-009Sa3-2W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rHWaF-009Sdu-06@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 24 Dec 2023 15:04:31 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rHWaA-009Sa3-2W
+	for ginojohn@gmail.com;
+	Sun, 24 Dec 2023 15:04:26 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Megan Atkinson.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 188.65.17.12
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 188.65.17.12
+From: meganatkinson149@gmail.com
+Reply-To: meganatkinson149@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rHWaA-009Sa3-2W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 24 Dec 2023 15:04:26 -0700
+
+You have been contacted by Megan Atkinson, and the message is as
+follows.
+
+"Hi there,
+
+We run an Instagram growth service, which increases your number of
+followers safely and practically. 
+
+We aim to gain you 300-1000+ real human followers per month, with all
+actions safe as they are made manually (no bots).
+
+The price is just $60 (USD) per month, and we can start immediately.
+
+Let me know if you wish to see some of our previous work.
+
+Kind Regards,
+Megan"
+
+You can contact Megan Atkinson via email, meganatkinson149@gmail.com

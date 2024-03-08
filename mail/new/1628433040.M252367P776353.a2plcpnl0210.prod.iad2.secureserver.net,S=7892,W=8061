@@ -1,0 +1,169 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id MEcTDJDqD2Gh2AsAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 08 Aug 2021 07:30:40 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 08 Aug 2021 07:30:40 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.93)
+	id 1mCjp2-003HPB-3Y
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sun, 08 Aug 2021 07:30:40 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1mCjp1-003HOS-Bm@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1628433040-eximdsn-605881900
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mCjp2-003HPB-3Y@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 08 Aug 2021 07:30:40 -0700
+
+--1628433040-eximdsn-605881900
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Cjp2mxLRS5xGH :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bqKJuGWi c=1 sm=1 tr=0 ts=610fea90 p=yjcNM3-aVYEA:10 p=GvSyCjOwAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=MhDmnRu9jo8A:10 a=XOHbCf-olB8A:10 a=x7bEGLp0ZPQA:10 a=nxvHYrYzQgMA:10 a=55jZN7dOAAAA:8 a=p4rvzaQIiTvY3IzqHj4A:9 a=QEXdDO2ut3YA:10 a=ep2JkU22z_UA:10 a=KyYZJfTCSdMA:10 a=thkaOd8cmtBIEmkJGzfH:22 ::
+    100.00
+
+--1628433040-eximdsn-605881900
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Cjp2mxLRS5xGH :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bqKJuGWi c=1 sm=1 tr=0 ts=610fea90 p=yjcNM3-aVYEA:10 p=GvSyCjOwAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=MhDmnRu9jo8A:10 a=XOHbCf-olB8A:10 a=x7bEGLp0ZPQA:10 a=nxvHYrYzQgMA:10 a=55jZN7dOAAAA:8 a=p4rvzaQIiTvY3IzqHj4A:9 a=QEXdDO2ut3YA:10 a=ep2JkU22z_UA:10 a=KyYZJfTCSdMA:10 a=thkaOd8cmtBIEmkJGzfH:22 :: 100.00
+
+--1628433040-eximdsn-605881900
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.93)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1mCjp1-003HOS-Bm
+	for ginojohn@gmail.com; Sun, 08 Aug 2021 07:30:39 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by postingxngk.
+X-PHP-Script: ststephenssanjose.org/contact.php for 158.255.172.4
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 158.255.172.4
+From: pydinakatalja1990@rambler.ru
+Reply-To: pydinakatalja1990@rambler.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1mCjp1-003HOS-Bm@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 08 Aug 2021 07:30:39 -0700
+
+You have been contacted by postingxngk, and the message is as follows.
+
+"I'm happy to welcome you! 
+ 
+ 
+Widespread web ads for growth of factors influencing consumer
+behaviour. 
+https://xn----ftbeand5abdikisgee.xn--p1ai/home/ 
+ 
+Factors influencing consumer behaviour are certain actions of users on
+the internet resource, such as: 
+logging in to the web page, viewing pages, time spent on the web page,
+“clicks” on links, repeated returns to the web page. 
+ 
+Unique Trading Offer: 
+Widespread placement of your ads on the Internet in order to attract
+potential customers. 
+Growth of behavioural factors occurs by the mass placement of your ads
+without specifying the address of your web page, but with the
+indication of other identifying features according to which you
+presently become №1 in the search engine results. These features can
+include a phone, a unique name of the website or company, an
+identifier (product code, number, services, promotions), a physical
+address of the organisation and etc. 
+ 
+MAIN AIM: 
+The large-scale attraction of potential customers to your internet
+resource, services and products. 
+Growth of factors influencing consumer behaviour. 
+ 
+YOUR BENEFIT: 
+An increase in webpage visitors who will find your internet resource
+directly from ads using search as well as through additional results
+of search engines themselves related to a the widest range of internet
+queries on your subject. 
+ 
+THE MAIN ADVANTAGES OF THIS AD: 
+1. Mass promotion. 
+2. Quick placement. 
+3. Cost. 
+4. Placement by subject. 
+5. The widest reach. 
+6. Regionality. 
+7. Organic growth of factors influencing consumer behaviour. 
+ 
+REASONS TO ORDER LARGE-SCALE ADS PLACEMENT ON THE WEB ДЛЯ ORGANIC
+GROWTH OF BEHAVIOURAL FACTORS: 
+ 
+1.Widespread attraction of customers to your products and services
+through direct traffic from ads. 
+2.Promotion of your web page, due to search beginning to additionally
+suggest it for a wide range of search queries based on your topic. 
+3. The absence of "filters" and "bans" of search engines, due to ads
+being placed without an indication of an live link to the web page. 
+4. An increase in web page traffic, which leads to an increase in
+orders and an expansion of the client base. 
+5. "Warm traffic", since only engaged users visit the web page. 
+6. Attraction of legal entities and individuals. 
+7. Analysis of demand for goods and services. 
+8.Publication of your ads in different countries around the world. 
+ 
+WHERE ADS ARE PUBLISHED: 
+ 
+Ads are published: on forums, on billboards, in guest books, in
+comments, in catalogues . 
+Ads are placed on your: landing pages,websites, phones, YouTube
+videos, social media accounts , and on links to your other ads. 
+ 
+BAN: 
+In this type of ad a ban by search engine is not possible, since ads
+are published without specifying an active link to the website. 
+ 
+Working method: 
+You send us the text of the ad, where your unique name and identifier
+is indicated at the end of the message, according to which an
+interested visitor can easily and quickly find your internet resource
+in search results in order to get more information about your service.
+
+To do this, identifier or a unique name must be published in the
+appropriate section of your web page и quickly be found in search
+results. 
+ 
+ 
+Randomisation: 
+Randomisation of ads is done according to the formula, which is
+commonly accepted by many programs. As a result of randomisation, many
+unique ads are obtained from one ad variant. 
+ 
+This is achieved by manually synomising the ad text, while the meaning
+of the messages does not change and remains understandable. 
+[url=https://xn----ftbeand5abdikisgee.xn--p1ai/home/] 
+ 
+Widespread web ads for organic growth of factors influencing consumer
+behaviour.[/url]"
+
+You can contact postingxngk via email, pydinakatalja1990@rambler.ru
+
+--1628433040-eximdsn-605881900--

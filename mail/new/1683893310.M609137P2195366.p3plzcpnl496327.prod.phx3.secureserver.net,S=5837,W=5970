@@ -1,0 +1,133 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id Khm/Iz4sXmSmfyEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 12 May 2023 05:08:30 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 12 May 2023 05:08:30 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pxRZW-009D71-HT
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 12 May 2023 05:08:30 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pxRZR-009D4e-FO@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1683893310-eximdsn-930995984
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pxRZW-009D71-HT@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 12 May 2023 05:08:30 -0700
+
+--1683893310-eximdsn-930995984
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xRZWpZR473yUY :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WuTtc/Tv c=1 sm=1 tr=0 ts=645e2c3e p=VOXE9QqZpgcA:10 p=XlbgBzZJAAAA:20 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=5WiZhAJCkTgA:10 a=huvbmMDMAAAA:8 a=sfOm8-O8AAAA:8 a=lf3cJbI8vNx-K7L0dMcA:9 a=QEXdDO2ut3YA:10 a=H3HumAawdVEA:10 a=Zs1lC1sB9DQA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wh3XUMWVSDcbklYI6bXY:22 a=jycUkCEYUnZvh0PkXkJV:22 a=TvTJqdcANYtsRzA46cdi:22 ::
+    100.00
+
+--1683893310-eximdsn-930995984
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 xRZWpZR473yUY :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WuTtc/Tv c=1 sm=1 tr=0 ts=645e2c3e p=VOXE9QqZpgcA:10 p=XlbgBzZJAAAA:20 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=5WiZhAJCkTgA:10 a=huvbmMDMAAAA:8 a=sfOm8-O8AAAA:8 a=lf3cJbI8vNx-K7L0dMcA:9 a=QEXdDO2ut3YA:10 a=H3HumAawdVEA:10 a=Zs1lC1sB9DQA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wh3XUMWVSDcbklYI6bXY:22 a=jycUkCEYUnZvh0PkXkJV:22 a=TvTJqdcANYtsRzA46cdi:22 :: 100.00
+
+--1683893310-eximdsn-930995984
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pxRZR-009D4e-FO
+	for ginojohn@gmail.com;
+	Fri, 12 May 2023 05:08:30 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Elliott Monette.
+X-PHP-Script: ststephenssanjose.org/contact.php for 142.91.118.198
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 142.91.118.198
+From: ofdelgado@protonmail.com
+Reply-To: ofdelgado@protonmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pxRZR-009D4e-FO@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 12 May 2023 05:08:25 -0700
+
+You have been contacted by Elliott Monette, and the message is as
+follows.
+
+"Dear Business Entrepreneur
+
+
+I hope this email finds you well. I am writing to introduce you to
+OLSP System, a unique platform that can help you learn how to make
+money with affiliate marketing.
+
+OLSP System provides a comprehensive training program that teaches you
+everything you need to know about affiliate marketing, from the basics
+to the advanced strategies. Whether you are a beginner or an
+experienced marketer, OLSP System can help you achieve your financial
+goals.
+
+With OLSP System, you will have access to a community of like-minded
+individuals who are also learning how to make money with affiliate
+marketing. You can learn from their experiences and get support from
+them whenever you need it.
+
+What sets OLSP System apart from other training programs is its proven
+track record. Many people have used the system to achieve financial
+success and you can be one of them too.
+
+
+https://hi.switchy.io/D0ap
+
+
+If you are interested in learning more about OLSP System and how it
+can help you make money with affiliate marketing, please visit our
+website at [insert website URL]. You can also sign up for a free trial
+to see how the system works.
+
+Thank you for your time and consideration. We look forward to helping
+you achieve financial success with affiliate marketing.
+
+Any questions, call me on +1 352 289-2008.
+
+
+Regards,
+
+OFDelgado
+
+
+
+
+
+
+
+
+
+
+Opt out of future messages by replying to the message and saying opt
+out.
+ststephenssanjose.org"
+
+You can contact Elliott Monette via email, ofdelgado@protonmail.com
+
+--1683893310-eximdsn-930995984--

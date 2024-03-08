@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id OAYiGKZP4WQgLgwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 19 Aug 2023 16:26:30 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 19 Aug 2023 16:26:30 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qXVKw-003M3V-BI
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 19 Aug 2023 16:26:30 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qXVKr-003M19-J4@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1692487590-eximdsn-1193794158
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qXVKw-003M3V-BI@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 19 Aug 2023 16:26:30 -0700
+
+--1692487590-eximdsn-1193794158
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 XVKwqAVoa2vUR :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IobYMpzg c=1 sm=1 tr=0 ts=64e14fa6 p=6HyRzl2AAAAA:8 p=rmov79ZjAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=dXrrsivEAO3Y2FzI-CcA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=k8QM4OH98ysA:10 a=c-2ODsF-El0A:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=U4c6HHO620bdorl8uqqF:22 a=XNmwAIl9jvbONlPPdzfe:22 a=UhIKqMNHT33Trgcd-uii:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1692487590-eximdsn-1193794158
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 XVKwqAVoa2vUR :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IobYMpzg c=1 sm=1 tr=0 ts=64e14fa6 p=6HyRzl2AAAAA:8 p=rmov79ZjAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=dXrrsivEAO3Y2FzI-CcA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=k8QM4OH98ysA:10 a=c-2ODsF-El0A:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=U4c6HHO620bdorl8uqqF:22 a=XNmwAIl9jvbONlPPdzfe:22 a=UhIKqMNHT33Trgcd-uii:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1692487590-eximdsn-1193794158
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qXVKr-003M19-J4
+	for ginojohn@gmail.com;
+	Sat, 19 Aug 2023 16:26:30 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Danielbup.
+X-PHP-Script: ststephenssanjose.org/contact.php for 46.35.252.130
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 46.35.252.130
+From: v.bashirov@nesteorole.bizml.ru
+Reply-To: v.bashirov@nesteorole.bizml.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qXVKr-003M19-J4@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 19 Aug 2023 16:26:25 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Danielbup, and the message is as follows.
+
+"[url=https://regist.su/]В целях снижения
+скопления невостребованных порожних
+вагонов, предлагаем услугу по отстою
+вагонов на железнодорожных путях
+необщего пользования.[/url]"
+
+You can contact Danielbup via email, v.bashirov@nesteorole.bizml.ru
+
+--1692487590-eximdsn-1193794158--

@@ -1,0 +1,53 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 0PS8Iy9ekWP6jBAAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 07 Dec 2022 20:46:55 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 07 Dec 2022 20:46:55 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1p37s7-004e55-EO
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 07 Dec 2022 20:46:55 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1p37s3-004e0h-74@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1p37s7-004e55-EO@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 07 Dec 2022 20:46:55 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1p37s3-004e0h-74
+	for ginojohn@gmail.com;
+	Wed, 07 Dec 2022 20:46:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JamesTache.
+X-PHP-Script: ststephenssanjose.org/contact.php for 194.88.152.40
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 194.88.152.40
+From: fevgen708@gmail.com
+Reply-To: fevgen708@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1p37s3-004e0h-74@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 07 Dec 2022 20:46:51 -0700
+
+You have been contacted by JamesTache, and the message is as follows.
+
+"[url=https://youtu.be/u5jssqb9Cog] Видео - Etsy + Pinterest +
+SEO дают высокие результаты продаж.
+Также работаем с Shopify, ebay, amazon и др.[/url]"
+
+You can contact JamesTache via email, fevgen708@gmail.com

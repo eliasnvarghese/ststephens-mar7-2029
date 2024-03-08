@@ -1,0 +1,69 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id MO5fE04MrmQIrCcACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 11 Jul 2023 19:13:34 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 11 Jul 2023 19:13:34 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qJPME-00B173-91
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 11 Jul 2023 19:13:34 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qJPM9-00B0tu-5K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1689128014-eximdsn-571232381
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qJPME-00B173-91@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 11 Jul 2023 19:13:34 -0700
+
+--1689128014-eximdsn-571232381
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    message has lines too long for transport
+
+--1689128014-eximdsn-571232381
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+
+--1689128014-eximdsn-571232381
+Content-type: text/rfc822-headers
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qJPM9-00B0tu-5K
+	for ginojohn@gmail.com;
+	Tue, 11 Jul 2023 19:13:34 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Kathryndrids.
+X-PHP-Script: ststephenssanjose.org/contact.php for 176.124.223.175
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 176.124.223.175
+From: alexpopov716253@gmail.com
+Reply-To: alexpopov716253@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qJPM9-00B0tu-5K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 11 Jul 2023 19:13:29 -0700
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
+
+--1689128014-eximdsn-571232381--

@@ -1,0 +1,96 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id GUUyJDW6RGX1wigACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 03 Nov 2023 02:15:33 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 03 Nov 2023 02:15:33 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qyqH7-00BCwB-HT
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 03 Nov 2023 02:15:33 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qyqH2-00BCe7-Ml@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699002933-eximdsn-1437856417
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qyqH7-00BCwB-HT@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 03 Nov 2023 02:15:33 -0700
+
+--1699002933-eximdsn-1437856417
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yqH7qwBAnTa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=6544ba35 p=nZmuMmtIAAAA:8 p=OqVxiVHdAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=UZcbNAaOmbEgFy5Q_H0A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=KyYZJfTCSdMA:10 a=Qcj2RCB6UjKKj87vHlVa:22 a=9KmPILm7x_dVFCFBnbEY:22 a=qFa1DmBGh8SRkZj0qjYC:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1699002933-eximdsn-1437856417
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 yqH7qwBAnTa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=6544ba35 p=nZmuMmtIAAAA:8 p=OqVxiVHdAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=UZcbNAaOmbEgFy5Q_H0A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=KyYZJfTCSdMA:10 a=Qcj2RCB6UjKKj87vHlVa:22 a=9KmPILm7x_dVFCFBnbEY:22 a=qFa1DmBGh8SRkZj0qjYC:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1699002933-eximdsn-1437856417
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qyqH2-00BCe7-Ml
+	for ginojohn@gmail.com;
+	Fri, 03 Nov 2023 02:15:33 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by 기가 주소.
+X-PHP-Script: ststephenssanjose.org/contact.php for 123.215.113.56
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 123.215.113.56
+From: help@gwmetabitt.com
+Reply-To: help@gwmetabitt.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qyqH2-00BCe7-Ml@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 03 Nov 2023 02:15:28 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by 기가 주소, and the message is as
+follows.
+
+"24일 기가 주소 관련주는 동시다발적으로 소폭
+증가했다. 전일 준비 강원랜드는 0.76% 오른 6만7100원,
+파라다이스는 1.64% 오른 9만8400원, GKL은 0.57% 오른
+8만7600원, 롯데관광개발은 0.97% 오른 5만460원에
+거래를 마쳤다. 카지노용 모니터를 생산하는
+토비스도 주가가 0.83% 올랐다. 그러나 초장기 시계열
+분석은 여행주와 다른 양상을 보인다. 2011년 상반기
+직후 상승세를 보이던 여행주와 틀리게 카지노주는
+2016~2018년 저점을 찍고 오르는 추세였다. 2019년 GKL과
+파라다이스 직원 일부가 중국 공안에 체포되는
+악재에 카지노사이트 주는 상승세로 접어들었다. 
+ 
+[url=https://xn--o39a5rp3aq13ceqbw2q.com/]기가 주소[/url]"
+
+You can contact 기가 주소 via email, help@gwmetabitt.com
+
+--1699002933-eximdsn-1437856417--

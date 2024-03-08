@@ -1,0 +1,230 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OOhWEEgdY2MtUw4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 02 Nov 2022 18:45:44 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 02 Nov 2022 18:45:44 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqPIe-004COR-6B
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Wed, 02 Nov 2022 18:45:44 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqPId-004CNU-OC@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667439944-eximdsn-1554857137
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqPIe-004COR-6B@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 02 Nov 2022 18:45:44 -0700
+
+--1667439944-eximdsn-1554857137
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qPIdorgOaa2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63631d48 p=UBCUCyO5IWwA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=zATEfLh3L64A:10 a=6WQSa0bsAAAA:8 a=RgBw9RmQAAAA:8 a=P5w49mVaO4ow5mxuVVEA:9 a=QEXdDO2ut3YA:10 a=1wZ9WgJ4ew4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=RRdh534GtHmTWc1DM0og:22 ::
+    100.00
+
+--1667439944-eximdsn-1554857137
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qPIdorgOaa2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63631d48 p=UBCUCyO5IWwA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=zATEfLh3L64A:10 a=6WQSa0bsAAAA:8 a=RgBw9RmQAAAA:8 a=P5w49mVaO4ow5mxuVVEA:9 a=QEXdDO2ut3YA:10 a=1wZ9WgJ4ew4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=RRdh534GtHmTWc1DM0og:22 :: 100.00
+
+--1667439944-eximdsn-1554857137
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqPId-004CNU-OC
+	for ginojohn@gmail.com; Wed, 02 Nov 2022 18:45:43 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MichaelSeeva.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.38.235.158
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.38.235.158
+From: pasha-nikolayev-84@mail.ru
+Reply-To: pasha-nikolayev-84@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqPId-004CNU-OC@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 02 Nov 2022 18:45:43 -0700
+
+You have been contacted by MichaelSeeva, and the message is as
+follows.
+
+"Експерт ОСОБА_218, що є
+лікарем-нейрохіругом вищої категорії,
+доктором медичних наук, завідуючим
+відділення нейротравми ДУ Інститут
+нейрохірургії ім https://madopar.com.ru/otzyvy
+  акад https://madopar.com.ru/kontakty
+  А https://madopar.com.ru
+ П https://madopar.com.ru
+ Ромоданова АМН України", зі стажем
+роботи за фахом понад 25 років,
+повністю підтримав висновок 67/к
+комісійної судово-медичної
+експертизи щодо ОСОБА_48 Вважає такий
+достовірним https://madopar.com.ru/otzyvy
+ 
+Після початку публікацій у газеті
+Експрес" був у м https://madopar.com.ru
+  Житомирі та намагався знайти
+пологовий будинок, де нібито
+народився, історію хвороби дитини,
+історію хвороби породіллі, нібито
+його матері ОСОБА_55, однак пошуки не
+дали жодного результату
+https://madopar.com.ru/stati
+  Копію актового запису про його
+народження, що є в матеріалах справи,
+вважає підробленою
+https://madopar.com.ru/madopar-instrukciya
+  В м https://madopar.com.ru/otzyvy
+  Козятин не навчався, на обліку у
+військкоматі там не перебував,
+паспортом там не документувався
+https://madopar.com.ru/otzyvy
+  Ствердив, що має військовий квиток,
+який виданий йому у м https://madopar.com.ru/otzyvy
+  Москва та згодом у зв'язку з
+проживанням у м https://madopar.com.ru/stati
+  Червонограді Львівської області був
+поставлений на облік у військомматі
+цього міста, у м https://madopar.com.ru
+  Сокаль на військовому обліку ніколи
+не перебував https://madopar.com.ru
+  Заперечив факт навчання у
+Житомирській школі-інтернаті,
+Потіївській школі-інтернаті,
+Кмитівській школі-інтернаті
+https://madopar.com.ru/voprosy-madopar
+  Чому у журналі Бердичівської
+спеціальної школи-інтернату навпроти
+прізвища Слюсарчук А
+https://madopar.com.ru/kontakty
+ Т https://madopar.com.ru/madopar-instrukciya
+ , згідно висновку експертизи,
+виправлений запис з ІНФОРМАЦІЯ_1 на
+ІНФОРМАЦІЯ_10 р https://madopar.com.ru
+ , пояснити не зміг https://madopar.com.ru/kontakty
+  Такого журналу ніколи не бачив, хоча
+після вищевказаних публікацій був у
+цій школі та не знайшов жодних
+документів, які б стосувалися особи на
+ім'я Слюсарчук А https://madopar.com.ru
+ Т https://madopar.com.ru/voprosy-madopar
+  З вчителями Бердичівської
+спецшколи-інтернату, зокрема, ОСОБА_56,
+ОСОБА_57, ОСОБА_58, познайомився у 2011 р
+https://madopar.com.ru/stati
+  тоді, коли після публікацій
+з'ясовував обставини про іншого
+Слюсарчук А https://madopar.com.ru/otzyvy
+ Т https://madopar.com.ru/madopar-instrukciya
+  Ці особи написали правдиві розписки,
+що він ніколи не навчався у
+Бердичівській спецшколі-інтернаті
+https://madopar.com.ru/stati
+  Чому в судовому засіданні ці та інші
+свідки впізнали у ньому колишнього
+учня зазначеної школи-інтернату,
+пояснити не може https://madopar.com.ru/stati
+  Підтвердив, що жодних непорозумінь з
+ними не мав https://madopar.com.ru/madopar-instrukciya
+ 
+Показання підсудного Слюсарчук А
+https://madopar.com.ru/stati
+ Т https://madopar.com.ru/kontakty
+  про те, що препарат для ОСОБА_27
+придбав за свої кошти, а саме 6700
+доларів США, у Франції, не
+підтверджений ним відповідними
+доказами, хоча підсудний в судовому
+засіданні стверджував, що має
+відповідний чек про придбання
+https://madopar.com.ru/kontakty
+  Допитані в судовому засіданні свідки
+- лікарі, що були присутні в
+операційній під час операції ОСОБА_27,
+ствердили, що Слюсарчук А
+https://madopar.com.ru/voprosy-madopar
+ Т https://madopar.com.ru/otzyvy
+  жодного особливого препарату не
+застосовував, але разом з тим після
+повторної операції родичам ОСОБА_27
+особисто повідомив, що застосовану
+ним під час першої операції мазь змило
+кров'ю https://madopar.com.ru/kontakty
+  Крім цього, свідки, а саме родичі
+ОСОБА_27, підтвердили передачу ОСОБА_27
+коштів Слюсарчук А https://madopar.com.ru
+ Т https://madopar.com.ru/voprosy-madopar
+ , збір цих коштів та їх попереднє
+призначення https://madopar.com.ru
+  Шахрайство щодо пацієнта ОСОБА_27
+було вчинене Слюсарчук А
+https://madopar.com.ru/voprosy-madopar
+ Т https://madopar.com.ru/otzyvy
+  поряд з незаконною лікувальною
+діяльністю https://madopar.com.ru/stati
+ 
+Крім цього, підсудний Слюсарчук А
+https://madopar.com.ru/voprosy-madopar
+ Т https://madopar.com.ru/stati
+  у лютому 2009 року, видаючи себе за
+видатного лікаря-нейрохірурга, маючи
+умисел на заволодіння чужим майном,
+повторно шляхом обману та зловживання
+довірою заволодів чужим майном, а саме
+грошовими коштами потерпілого ОСОБА_4
+у великих розмірах, за наступних
+обставин https://madopar.com.ru/kontakty
+ 
+Таблетки 250: кальция гидрофосфат,
+маннитол, целлюлоза
+микрокристаллическая, кросповидон,
+крахмал кукурузный
+прежелатинизированный,
+этилцеллюлоза, кремния диоксид
+коллоидный безводный, краситель
+железа оксид красный, магния стеарат,
+докузат натрия https://madopar.com.ru/stati
+ 
+Капсулы твердые желатиновые с
+модифицированным высвобождением (ГСС
+125): размер №1, непрозрачной структуры
+с корпусом светло-голубого, крышечкой
+темно-зеленого цвета и ржаво-красной
+надписью  внутри капсул –
+гранулированный порошок желтоватого
+или белого цвета, иногда
+скомковавшийся (30 или 100 шт
+https://madopar.com.ru/voprosy-madopar
+  в стеклянных флаконах темного цвета,
+в картонной пачке 1 флакон) 
+"
+
+You can contact MichaelSeeva via email, pasha-nikolayev-84@mail.ru
+
+--1667439944-eximdsn-1554857137--

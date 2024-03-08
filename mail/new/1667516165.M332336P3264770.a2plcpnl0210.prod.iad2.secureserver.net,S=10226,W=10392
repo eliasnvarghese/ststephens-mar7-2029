@@ -1,0 +1,166 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id uO9oEgVHZGMC0TEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 15:56:05 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 15:56:05 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqj81-00DiMT-74
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 15:56:05 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqj80-00DiKY-B5@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667516165-eximdsn-704353151
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqj81-00DiMT-74@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 15:56:05 -0700
+
+--1667516165-eximdsn-704353151
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qj80oxLkhwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63644705 p=XP0AT3Aw6tAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=UIzBN_w6rocA:10 a=kqdOk73CAAAA:8 a=RgBw9RmQAAAA:8 a=K13R1Zgwyyw8eROGMYoA:9 a=QEXdDO2ut3YA:10 a=v_57HwjHdwgA:10 a=b-gE1ymYJbkA:10 a=9d5-bOi9x-cA:10 a=8GGRnnIVxFUA:10 a=w46uccjSp-IA:10 a=vxmsCQPYgSwA:10 a=B7HQbWzTk9cA:10 a=D3wY1odlPHIA:10 a=VW98z9QuNqgA:10 a=E6K6Nv4LuQ4A:10 a=GuFSWDy3g30A:10 a=U1C1wdhX3ZEA:10 a=-y9BUW9FtvEA:10 a=bho7tNrMacwA:10 a=2gEsK0yLjmIA:10 a=NfcWPws8ND0A:10 a=Onm9c0BZVVkA:10 a=-g6FjFLUS6sA:10 a=mVGT2ZizB-AA:10 a=PIctNLJzoQEA:10 a=fDGjBJYppekA:10 a=aVzXCwnXcbYA:10 a=iBRtaEu7SMgA:10 a=rTS5wInK-AoA:10 a=9ZoE2Y4JeywA:10 a=xJULTdmenlwA:10 a=8kJQaOKwO
+
+--1667516165-eximdsn-704353151
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qj80oxLkhwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63644705 p=XP0AT3Aw6tAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=UIzBN_w6rocA:10 a=kqdOk73CAAAA:8 a=RgBw9RmQAAAA:8 a=K13R1Zgwyyw8eROGMYoA:9 a=QEXdDO2ut3YA:10 a=v_57HwjHdwgA:10 a=b-gE1ymYJbkA:10 a=9d5-bOi9x-cA:10 a=8GGRnnIVxFUA:10 a=w46uccjSp-IA:10 a=vxmsCQPYgSwA:10 a=B7HQbWzTk9cA:10 a=D3wY1odlPHIA:10 a=VW98z9QuNqgA:10 a=E6K6Nv4LuQ4A:10 a=GuFSWDy3g30A:10 a=U1C1wdhX3ZEA:10 a=-y9BUW9FtvEA:10 a=bho7tNrMacwA:10 a=2gEsK0yLjmIA:10 a=NfcWPws8ND0A:10 a=Onm9c0BZVVkA:10 a=-g6FjFLUS6sA:10 a=mVGT2ZizB-AA:10 a=PIctNLJzoQEA:10 a=fDGjBJYppekA:10 a=aVzXCwnXcbYA:10 a=iBRtaEu7SMgA:10 a=rTS5wInK-AoA:10 a=9Zo[truncated]
+
+--1667516165-eximdsn-704353151
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqj80-00DiKY-B5
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 15:56:04 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jeremywhaws.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.106
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.106
+From: consducfen.51@mail.ru
+Reply-To: consducfen.51@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqj80-00DiKY-B5@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 15:56:04 -0700
+
+You have been contacted by Jeremywhaws, and the message is as follows.
+
+"
+Срок изготовления изделия из камня во
+многом зависит от структуры
+применяемого материала и сложности
+проекта мебели
+https://www.raidstone.ru/katalog-kamnya/granit/granit-bejnbruk-braun-bainbrook-brown-g664-purple-pearl.html
+   В среднем, срок изготовления одного
+изделия составляет от одной до трех
+недель
+https://www.raidstone.ru/katalog-kamnya/granit/granit-mon-blan-mont-blanc.html
+ 
+из натурального или искусственного
+камня — одна из наиболее трудоемких и
+дорогостоящих процедур
+https://www.raidstone.ru/catalog/izdeliya-iz-kamnya/podokonniki/podokonniki-iz-granita/podokonnik-iz-granita-imperial-red.html
+   Стоимость монтажных работ может
+варьироваться в пределах 15-30% от цены
+самого изделия
+https://www.raidstone.ru/katalog-kamnya/granit.html?list_page=21
+   Разумеется, приобретая дешевые
+столешницы из камня, заказчик может
+сэкономить значительную сумму при
+монтаже
+https://www.raidstone.ru/catalog/izdeliya-iz-kamnya/podokonniki/podokonniki-iz-mramora.html
+   Единственное, чего не следует делать
+— это гоняться за излишне низкими
+ценами, поскольку от таких изделий
+вряд ли можно ждать полноценного
+качества
+https://www.raidstone.ru/catalog/izdeliya-iz-kamnya/stoleshnicy/stoleshnicy-iz-iskusstvennogo-kamnya/stoleshnica-iz-iskusstvennogo-kvarcevogo-kamnya-silestone-seriya-stonium.html
+   Во-первых, это связано, как минимум, с
+тем, что сам по себе хороший материал
+(как искусственный, так и натуральный)
+не может стоить подозрительно мало
+https://www.raidstone.ru/services/oblicovka-interera/oblicovka-pola/oblicovka-vannoj-travertinom.html
+   Во-вторых, приобретая , лучше
+поинтересоваться, осуществляется ли в
+таком случае монтаж со скидкой от
+компании-продавца, ведь такая
+экономия будет более оправданной, чем
+покупка сомнительного товара
+https://www.raidstone.ru/services/oblicovka-interera/oblicovka-sanuzla-i-vannoj/oblicovka-vannoj-mramorom.html
+ 
+Практичные свойства натурального
+камня открывается в характеристике
+природного материала
+https://www.raidstone.ru/catalog/malye-arhitekturnye-formy/sadovaya-mebel-vazony.html?list_page=2
+   Особенно это проявляется на кухне
+или в ванной комнате, где постоянно
+приходится сталкиваться с
+загрязнениями
+https://www.raidstone.ru/katalog-kamnya/granit/granit-blek-byuti-black-beauty.html
+   Камень не впитывает жир и химические
+вещества
+https://www.raidstone.ru/catalog/izdeliya-iz-kamnya/stoleshnicy/stoleshnicy-dlya-barbekyu.html
+   Столешницу из камня можно легко
+очистить любым средством, не боясь
+поцарапать поверхность
+https://www.raidstone.ru/katalog-kamnya/granit.html?list_page=28
+   Каменная поверхность не боится
+соприкосновения с горячей посудой
+https://www.raidstone.ru/catalog/izdeliya-iz-betona/rotondy-belveder.html
+   Если с истечением некоторого
+времени замечены изменения во внешнем
+виде, столешницу из натурального
+камня легко привести в первоначальный
+вид
+https://www.raidstone.ru/katalog-kamnya/granit/granit-royal-vajt-royal-white-g603-bella-white-light-grey.html
+ 
+изделия для внутренних интерьерных
+работ (столешницы, барные стойки,
+каминные полки, вставки для мебели из
+натурального камня, подоконники,
+столы и многое другое)
+https://www.raidstone.ru/katalog-kamnya/granit.html?list_page=28
+ 
+Камин создает один из первоэлементов
+Вселенной - огонь, который, в свою
+очередь, создает мощнейшие потоки ЦИ
+янского типа (энергии тепла)
+https://www.raidstone.ru/katalog-kamnya/granit/granit-voter-lend-ili-terra-akva-water-land.html
+   Поэтому располагать его нужно таким
+образом 
+https://www.raidstone.ru/katalog-kamnya/travertin.html?list_page=3
+  
+https://www.raidstone.ru/katalog-kamnya/granit/granit-personaliti-personnalite.html
+  
+https://www.raidstone.ru/catalog/izdeliya-iz-kamnya/stoleshnicy/stoleshnicy-dlya-barbekyu.html
+ 
+"
+
+You can contact Jeremywhaws via email, consducfen.51@mail.ru
+
+--1667516165-eximdsn-704353151--

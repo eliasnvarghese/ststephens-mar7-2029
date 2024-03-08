@@ -1,0 +1,99 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id UD7LDzx4TmXrGjcACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 10 Nov 2023 11:36:44 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 10 Nov 2023 11:36:44 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r1WN2-00FCc4-6o
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 10 Nov 2023 11:36:44 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r1WMx-00FCaB-Qh@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699641404-eximdsn-216623953
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r1WN2-00FCc4-6o@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 10 Nov 2023 11:36:44 -0700
+
+--1699641404-eximdsn-216623953
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 1WN2rTWXeiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=654e783c p=cOTLaxmsxv8q2RVjn14l:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=GZmnqRzw0aIA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=yK0zxvlCk20A:10 a=JFqkAMp0AAAA:8 a=pGLkceISAAAA:8 a=VChFQ-MH3Rm7USDh4e0A:9 a=QEXdDO2ut3YA:10 a=la5_OeQMlCgA:10 a=WBwzKgs6pakA:10 a=QUX-bxtqBKFMbur4cTsc:22 a=nNm94XEPO0UDbntguaMN:22 a=jfMwIjxahPjOMCY8bv43:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1699641404-eximdsn-216623953
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 1WN2rTWXeiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=654e783c p=cOTLaxmsxv8q2RVjn14l:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=GZmnqRzw0aIA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=yK0zxvlCk20A:10 a=JFqkAMp0AAAA:8 a=pGLkceISAAAA:8 a=VChFQ-MH3Rm7USDh4e0A:9 a=QEXdDO2ut3YA:10 a=la5_OeQMlCgA:10 a=WBwzKgs6pakA:10 a=QUX-bxtqBKFMbur4cTsc:22 a=nNm94XEPO0UDbntguaMN:22 a=jfMwIjxahPjOMCY8bv43:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1699641404-eximdsn-216623953
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r1WMx-00FCaB-Qh
+	for ginojohn@gmail.com;
+	Fri, 10 Nov 2023 11:36:44 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Mike Fleming  .
+X-PHP-Script: ststephenssanjose.org/contact.php for 191.101.209.148
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 191.101.209.148
+From: mikeZefedync@gmail.com
+Reply-To: mikeZefedync@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r1WMx-00FCaB-Qh@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 10 Nov 2023 11:36:39 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Mike Fleming
+, and the message is as follows.
+
+"If you are looking to rank your local business on Google Maps in a
+specific area, this service is for you. 
+ 
+Google Map Stacking is a highly effective technique for ranking your
+GMB within a specific mile radius. 
+ 
+More info: 
+https://www.speed-seo.net/product/google-maps-pointers/ 
+ 
+Thanks and Regards 
+Mike Fleming
+ 
+ 
+PS: Want a comprehensive local plan that covers everything? 
+https://www.speed-seo.net/product/local-seo-bundle/"
+
+You can contact Mike Fleming
+ via email, mikeZefedync@gmail.com
+
+--1699641404-eximdsn-216623953--

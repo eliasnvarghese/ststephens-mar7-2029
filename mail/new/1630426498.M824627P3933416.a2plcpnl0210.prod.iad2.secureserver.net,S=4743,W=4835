@@ -1,0 +1,92 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id e/QDL4JVLmHoBDwAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 31 Aug 2021 09:14:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 31 Aug 2021 09:14:58 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.93)
+	id 1mL6Pa-00GVQ9-LK
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Tue, 31 Aug 2021 09:14:58 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1mL6Pa-00GVPD-8o@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1630426498-eximdsn-1694985903
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mL6Pa-00GVQ9-LK@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 31 Aug 2021 09:14:58 -0700
+
+--1630426498-eximdsn-1694985903
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 L6Pam4DjteeQC :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AeJ0o1bG c=1 sm=1 tr=0 ts=612e5582 p=20pImzdiAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=YbsVczuAYMkA:10 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=MhDmnRu9jo8A:10 a=_OpQYhbi3wsA:10 a=x7bEGLp0ZPQA:10 a=ZYArTx03CaQA:10 a=pGLkceISAAAA:8 a=EMRIgvuOBKVC8wkckmQA:9 a=QEXdDO2ut3YA:10 a=l3YUOYr8-L8A:10 a=s47B8wPHsukA:10 a=eC7bqY1axo4A:10 a=YPLYvaHi4vt3-T0RUzZA:22 a=SFoMQLW-kwRy7uUwe-B_:22 a=-IN36TJrjJEc4kySkDRg:22 ::
+    100.00
+
+--1630426498-eximdsn-1694985903
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 L6Pam4DjteeQC :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AeJ0o1bG c=1 sm=1 tr=0 ts=612e5582 p=20pImzdiAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=YbsVczuAYMkA:10 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=MhDmnRu9jo8A:10 a=_OpQYhbi3wsA:10 a=x7bEGLp0ZPQA:10 a=ZYArTx03CaQA:10 a=pGLkceISAAAA:8 a=EMRIgvuOBKVC8wkckmQA:9 a=QEXdDO2ut3YA:10 a=l3YUOYr8-L8A:10 a=s47B8wPHsukA:10 a=eC7bqY1axo4A:10 a=YPLYvaHi4vt3-T0RUzZA:22 a=SFoMQLW-kwRy7uUwe-B_:22 a=-IN36TJrjJEc4kySkDRg:22 :: 100.00
+
+--1630426498-eximdsn-1694985903
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.93)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1mL6Pa-00GVPD-8o
+	for ginojohn@gmail.com; Tue, 31 Aug 2021 09:14:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Gabby Angelori.
+X-PHP-Script: ststephenssanjose.org/contact.php for 138.199.59.174
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 138.199.59.174
+From: gafinanc.ie.r@gmail.com
+Reply-To: gafinanc.ie.r@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1mL6Pa-00GVPD-8o@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 31 Aug 2021 09:14:58 -0700
+
+You have been contacted by Gabby Angelori, and the message is as
+follows.
+
+"Dear Entrepreneur, 
+ 
+I'm Gabriel Angelo, My company can bridge funds for your new or
+ongoing business. do let me know when you receive this message for
+further procedure. 
+ 
+We also pay 1% commission to brokers and friends who introduce project
+owners for finance or other opportunities. 
+ 
+You can reach me directly using this email address:
+gabriel_angelo@nestalconsultants.com 
+ 
+Regards, 
+Gabby Angelori"
+
+You can contact Gabby Angelori via email, gafinanc.ie.r@gmail.com
+
+--1630426498-eximdsn-1694985903--

@@ -1,0 +1,114 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id sajUGyH3vWVzLRsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 03 Feb 2024 01:19:45 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 03 Feb 2024 01:19:45 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rWBFZ-007TLR-1J
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 03 Feb 2024 01:19:45 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rWBFJ-007T6H-21@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1706948385-eximdsn-359279310
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rWBFZ-007TLR-1J@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 03 Feb 2024 01:19:45 -0700
+
+--1706948385-eximdsn-359279310
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 WBFYrqJ4Ojb4A :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RYMzCEtv c=1 sm=1 tr=0 ts=65bdf721 p=UH9o1dIggHIA:10 p=SxR_RwiJXiYA:10 p=PTWKEeXjgOZrYZXYcWOV:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=x7bEGLp0ZPQA:10 a=9_UqIf7CAAAA:8 a=yDHi0HkSAAAA:8 a=RgBw9RmQAAAA:8 a=t2CV1ugMlBmKk7UuacoA:9 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=S2O5HNB7mWYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=deCVV-MgyTnZ9alKK66m:22 a=K-BrXWQeQeJMpEbgXHeR:22 ::
+    100.00
+
+--1706948385-eximdsn-359279310
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 WBFYrqJ4Ojb4A :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RYMzCEtv c=1 sm=1 tr=0 ts=65bdf721 p=UH9o1dIggHIA:10 p=SxR_RwiJXiYA:10 p=PTWKEeXjgOZrYZXYcWOV:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=x7bEGLp0ZPQA:10 a=9_UqIf7CAAAA:8 a=yDHi0HkSAAAA:8 a=RgBw9RmQAAAA:8 a=t2CV1ugMlBmKk7UuacoA:9 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=S2O5HNB7mWYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=deCVV-MgyTnZ9alKK66m:22 a=K-BrXWQeQeJMpEbgXHeR:22 :: 100.00
+
+--1706948385-eximdsn-359279310
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rWBFJ-007T6H-21
+	for ginojohn@gmail.com;
+	Sat, 03 Feb 2024 01:19:44 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by ChapAbery.
+X-PHP-Script: ststephenssanjose.org/contact.php for 176.226.183.23
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 176.226.183.23
+From: meeols@mail.ru
+Reply-To: meeols@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rWBFJ-007T6H-21@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 03 Feb 2024 01:19:29 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by ChapAbery, and the message is as follows.
+
+"[url=http://buyclonedcards.net]Sale Credit cards Buy dumps card[/url]
+
+ 
+Welcome to the World of Credit Card Hacking 
+ When it comes to buying a cloned bank card, one option is to turn to
+hackers that sell stolen Visa and Mastercard cards. Purchasing a
+cloned bank card from hackers is done in the dark internet and is not
+recommended. The data normally associated with these cards, such as
+the CVV and dumps can be readily obtained, but it is important to note
+that these cards are stolen, and are therefore illegal. Furthermore,
+sellersof these cloned bank cards can be unreliable and make false
+promises. Therefore, it is advisable to search for credible sellers of
+cloned bank cards and to keep away from those who are selling stolen
+Visa and Mastercard cards.
+
+
+    Exploring the Depths of the Dark Web вЂ“ Visa & Mastercard 
+
+
+ 
+ 
+Item 1 Card Total Balance: $3 100     - Price $ 110.00 
+Item 3 Cards Total Balance ? $9 600   - Price $ 180.00 
+Item PayPal Transfers $500            - Price $ 49.00 
+Item PayPal Transfers $2000           - Price $ 149.00 
+Item Western Union Transfers $1000    - Price $ 99.00 
+Item Western Union Transfers $300     - Price $ 249.00 
+ 
+*Prices on the website may vary slightly 
+ 
+ 
+[url=http://sale-cloned-cards.net]http://sale-cloned-cards.net[/url]"
+
+You can contact ChapAbery via email, meeols@mail.ru
+
+--1706948385-eximdsn-359279310--

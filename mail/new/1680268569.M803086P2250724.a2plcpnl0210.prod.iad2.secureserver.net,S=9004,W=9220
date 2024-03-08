@@ -1,0 +1,216 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ALWzLRndJmTkVyIAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 31 Mar 2023 06:16:09 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 31 Mar 2023 06:16:09 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1piEbx-009Yg2-H0
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 31 Mar 2023 06:16:09 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1piEbs-009YYG-Lx@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1680268569-eximdsn-253089680
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1piEbx-009Yg2-H0@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 31 Mar 2023 06:16:09 -0700
+
+--1680268569-eximdsn-253089680
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 iEbxpE3VEtQAt :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QMuuBCHL c=1 sm=1 tr=0 ts=6426dd19 p=HWM9ePB7VGW5KSpIdgcA:9 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=s5lUS-4hsCEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=SDrExCfa27MA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=fb3fzL9UPycA:10 a=KyYZJfTCSdMA:10 a=B6z9aa3rRNe_rRsEz-dQ:22 a=N5uyRdVey8Vg3NJXWFpk:22 a=acewEgQMpYTsClr9keMy:22 a=Jr3e9WwCUY-GyzEHHz9u:22 a=Opjcf2rbXONI77XeNpWh:22 ::
+    100.00
+
+--1680268569-eximdsn-253089680
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 iEbxpE3VEtQAt :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QMuuBCHL c=1 sm=1 tr=0 ts=6426dd19 p=HWM9ePB7VGW5KSpIdgcA:9 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=s5lUS-4hsCEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=SDrExCfa27MA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=fb3fzL9UPycA:10 a=KyYZJfTCSdMA:10 a=B6z9aa3rRNe_rRsEz-dQ:22 a=N5uyRdVey8Vg3NJXWFpk:22 a=acewEgQMpYTsClr9keMy:22 a=Jr3e9WwCUY-GyzEHHz9u:22 a=Opjcf2rbXONI77XeNpWh:22 :: 100.00
+
+--1680268569-eximdsn-253089680
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1piEbs-009YYG-Lx
+	for ginojohn@gmail.com;
+	Fri, 31 Mar 2023 06:16:09 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Karol Nacht.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.192.137
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.192.137
+From: nacht.karol@gmail.com
+Reply-To: nacht.karol@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1piEbs-009YYG-Lx@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 31 Mar 2023 06:16:04 -0700
+
+You have been contacted by Karol Nacht, and the message is as follows.
+
+"Hi there,
+
+Today, My friends Akshat & Jaideep has released another premium
+World's First ChatGPT-Powered App That Generates High Quality Content
+& Converts It To Scroll Stopping Videos With Thousand Of DFY
+Templates
+
+Yes, you read that right. 
+
+You can now generate Not Only Content but also Videos For Yourself &
+For Your Clients With the power of Real AI (Full ChatGPT Approved)
+
+=> Click Here & Create Your First High Quality Contents & Videos Now
+https://warriorplus.com/o2/a/v3ylnp/0
+Special $4 Off - ‘VIDMORA4’ (Expires in an hour time)
+
+Let me introduce you to VidMora AI…
+
+World's First ChatGPT-Powered App That Generates High Quality Content
+& Converts It To Scroll Stopping Videos With Unique AI Based BG
+Removal App & DFY Templates
+
+How cool is that?
+
+Now you won’t have to pay for expensive platforms like Grammarly,
+Quillbolt, Rytr, Animaker, Jupiter, Videohive, Renderforest or any
+other site.
+
+So let me ask you…
+
+Are you tired of Creating old videos & duplicate contents  ?
+
+Thanks to the brand new ChatGPT AI-powered software VidMora AI.. It
+combines the power of Content Creation, Video Creation & Video
+Marketing to get best results from one easy-to-use dashboard
+
+=> Watch a 60 Sec Demo Video of VidMora AI
+https://warriorplus.com/o2/a/v3ylnp/0
+Special $4 Off - ‘VIDMORA4’ (Expires in an hour time)
+
+VidMora AI is loaded with awesome features like:
+
+
+Professional & Fully Cloud-Based Platform
+ChatGPT Powered AI Content & AI Video Creator Platform
+500+ Ready to Use Templates 
+Create Scroll-Stopping Videos for Your Social Media
+Create AI Generated Content In Just Single Click
+Create High Converting Video Ads 
+Custom 3D Characters to WOW your Audience 
+Custom 3D Objects with Animation to skyrocket your Sales 
+Instagram, FB, Snapchat, Whatsapp Thumb-Stopping Story Creator Create
+
+Personalised Videos eCom Showcase Videos 
+50 Built-in Premium Music Tracks 
+3 Million+ Searchable Royalty Free Stocks 
+Huge Font Library 
+Upload Your Own Images, Videos 
+AI Powered Background Remover 
+Full HD Videos Completely 
+Step By Step Training
+And much more...
+
+=> Get Your VidMora AI Lifetime Account + Commercial License at a
+One-Time Price https://warriorplus.com/o2/a/v3ylnp/0
+Special $4 Off - ‘VIDMORA4’ (Expires in an hour time)
+
+This is turning into monthly recurring very soon.
+
+Trust me, once you have VidMora you’ll be able to Start  Your Own
+Content, Video & Video Marketing Agency In 3 Simple Steps
+
+
+Step 1: Login & Write Any Keyword Or Use DFY Templates
+
+Step 2: ChatGPT Technology Will Generate Unlimited Contents & Videos
+In FLAT 30 Seconds
+
+Step 3: Preview or Download in 1-Click, Create Unlimited Videos & Use
+it for Yourself or Sell to Your Clients & Keep the Profits
+
+over 150 TOP Agency Owners, Content Writers & more than 20000
+customers have shifted to VidMora AI & Generated High Quality Content
+& Unique Animated Videos
+Till Now VidMora AI Has Generated Over 1 Million Contents & Videos In
+Any Niche..TOTALLY UNIQUE
+IT’S HUGE!!
+
+=> Get Your VidMora AI Lifetime Account + Commercial License at a
+One-Time Price https://warriorplus.com/o2/a/v3ylnp/0
+Special $4 Off - ‘VIDMORA4’ (Expires in an hour time)
+
+I am not finished yet... If you get VidMora AI during the special
+launch period, you'll get the following bonuses for no extra cost:
+CourseMora : It's A 3-Click Software That Creates "Udemy Like Website"
+With 1000+ Done-For-You Ready To Sell Courses In 50+ Niches!
+TravelMora + Whitelabel License : First-to-market 1-click app that
+creates a completely automated travel affiliate website in less than
+60 seconds. You can sell your visitors your own products or affiliate
+offers
+
+
+NewsMora + Whitelabel License : Our best drag and drop News Website
+Builder and online News website maker software to help you Create a
+NEWS website for free in minutes.
+
+
+BacklinkMora OTO1 + Reseller : World's First Fully Cloud Based
+Platform Gets You UNLIMITED REAL HQ BACKLINKS & FREE TRAFFIC That
+Ranks Instantly On Google Page #1
+
+
+FlipMora OTO1 + Reseller : WORLD'S FIRST Amazing 3D/Animated FlipBook
+& Article Creator Cloud Based Platform Along With Millions Of Pre Made
+eBooks With PLR Licence
+
+
+ToonMora OTO1 + Reseller- The WORLD'S FIRST AI-Based Platform To
+Create Unlimited Animated Videos
+
+
+GraphicMora With OTO1 + Reseller- New Technology Creates & Sells
+Unlimited Jaw Dropping Designs, Video, Logos & Banners
+
+
+AppMora With OTO1 + Reseller- The World’s First Mobile App Builder
+Allows You To Turn Your Existing Website into a Lightning Fast Future
+Ready Mobile App
+
+
+But remember after this week, VidMora AI will turn into a recurring
+subscription.
+>> So act fast and get your account at the lowest price ever.
+
+
+To Your Success,
+"
+
+You can contact Karol Nacht via email, nacht.karol@gmail.com
+
+--1680268569-eximdsn-253089680--

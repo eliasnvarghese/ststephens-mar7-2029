@@ -1,0 +1,144 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 0KR7NyBSwmOU/h0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 13 Jan 2023 23:56:32 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 13 Jan 2023 23:56:32 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pGaSu-008JFS-Qu
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 13 Jan 2023 23:56:32 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pGaSq-008J4y-4d@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1673679392-eximdsn-1853014421
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pGaSu-008JFS-Qu@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 13 Jan 2023 23:56:32 -0700
+
+--1673679392-eximdsn-1853014421
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 GaSupHP7oA5eq :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=F/mRNItN c=1 sm=1 tr=0 ts=63c25220 p=xkaqqXVvMEQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=B5sNp9tIkpMA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RvmDmJFTN0MA:10 a=x7bEGLp0ZPQA:10 a=ovX0vCOFQNwA:10 a=njEoReLTAAAA:8 a=UqCG9HQmAAAA:8 a=cUV2T3F74HY2pWwl2LkA:9 a=QEXdDO2ut3YA:10 a=4ioPMpWgDn4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Opjcf2rbXONI77XeNpWh:22 ::
+    100.00
+
+--1673679392-eximdsn-1853014421
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 GaSupHP7oA5eq :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=F/mRNItN c=1 sm=1 tr=0 ts=63c25220 p=xkaqqXVvMEQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=B5sNp9tIkpMA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RvmDmJFTN0MA:10 a=x7bEGLp0ZPQA:10 a=ovX0vCOFQNwA:10 a=njEoReLTAAAA:8 a=UqCG9HQmAAAA:8 a=cUV2T3F74HY2pWwl2LkA:9 a=QEXdDO2ut3YA:10 a=4ioPMpWgDn4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Opjcf2rbXONI77XeNpWh:22 :: 100.00
+
+--1673679392-eximdsn-1853014421
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pGaSq-008J4y-4d
+	for ginojohn@gmail.com;
+	Fri, 13 Jan 2023 23:56:32 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Karolyn Burdge.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.187.131
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.187.131
+From: burdge.karolyn51@outlook.com
+Reply-To: burdge.karolyn51@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pGaSq-008J4y-4d@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 13 Jan 2023 23:56:28 -0700
+
+You have been contacted by Karolyn Burdge, and the message is as
+follows.
+
+"Hey Guys,
+
+You won't believe what I managed to secure for you...
+ 
+As most online marketers (myself included) you’re probably paying
+each month or each year ridiculously high fees for online hosting
+that’s sub-par, slow and keeps crashing.
+
+FACT: hosting is one of the biggest expenses for online marketers,
+and
+expensive fees are the #1 reason why many give up quickly or never
+even start.
+
+-> This here puts an end to it! https://warriorplus.com/o2/a/dzqbc1/0
+
+WHAT? Enterprise-level hosting  for a one-time fee?
+
+YES – cloud hosting for life with just one small payment, that still
+gives you 100% uptime, blazingly fast loading times, SUPERIOR service
+and the best possible support Internet Marketers wish for…
+
+PrimeHost 2.0 is the next step in cloud hosting. A revolution like no
+other that enables you to enjoy:
+
+[+] Blazing Fast loading websites than ever before
+[+] 100% uptime with fr-ee SSL encryption built-in
+[+] Unlimited sites, email accounts & more
+[+] Next-Generation Control Panel
+[+] Fr-ee one-click Wordpress installer
+[+] 24/7 support from marketing gurus
+
+… and here’s the kicker: you get all of this, for LIFE, with
+just ONE time low fee today:
+
+-> Get started now (available ONLY during early bird!)
+https://warriorplus.com/o2/a/dzqbc1/0
+
+There's not really much I can say about this other than - GET IT! I'm
+sure you can see the huge value in it.
+ 
+It's the same package huge corporations are offering and charging you
+hundreds of dollars a year.
+ 
+Except this one is better in every way:
+ 
+[+] Unlimited bandwidth
+[+] 24/7 premium support
+[+] faster loading websites
+ 
+Let’s not kid ourselves: you know you’re getting this. It’s
+what’s called in the industry as a “complete no-brainer”.
+
+So why not get it now while the early bird is live?
+
+You’d be virtually stealing it – it’s that affordable!
+
+In fact, wait till you see the price – you get lifetime hosting for
+LESS than what you previously used to pay for one month of service!
+
+-> Click here now to claim yours!
+https://warriorplus.com/o2/a/dzqbc1/0
+
+To your success,
+"
+
+You can contact Karolyn Burdge via email, burdge.karolyn51@outlook.com
+
+--1673679392-eximdsn-1853014421--

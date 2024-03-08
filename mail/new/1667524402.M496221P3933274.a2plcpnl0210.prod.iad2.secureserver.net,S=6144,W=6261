@@ -1,0 +1,117 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id bh5PHTJnZGNaBDwAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 18:13:22 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 18:13:22 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqlGs-00GVDo-CX
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 18:13:22 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqlGr-00GVDQ-S8@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667524402-eximdsn-1509859379
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqlGs-00GVDo-CX@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:13:22 -0700
+
+--1667524402-eximdsn-1509859379
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qlGsoIEMBF1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63646732 p=UalJjBwqAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=uJcnrflZkIsA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=zjvMq4taOzUA:10 a=RgBw9RmQAAAA:8 a=7eh14w1_wlRUt0p2QOwA:9 a=QEXdDO2ut3YA:10 a=YwTlbtxY3LEA:10 a=RNrc3J-mEFEA:10 a=i--Cb3Z0T-QA:10 a=LqzoeV_fOmIA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=NH7Z3M-A7IbanxOPLp4l:22 ::
+    100.00
+
+--1667524402-eximdsn-1509859379
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qlGsoIEMBF1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63646732 p=UalJjBwqAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=uJcnrflZkIsA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=zjvMq4taOzUA:10 a=RgBw9RmQAAAA:8 a=7eh14w1_wlRUt0p2QOwA:9 a=QEXdDO2ut3YA:10 a=YwTlbtxY3LEA:10 a=RNrc3J-mEFEA:10 a=i--Cb3Z0T-QA:10 a=LqzoeV_fOmIA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=NH7Z3M-A7IbanxOPLp4l:22 :: 100.00
+
+--1667524402-eximdsn-1509859379
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqlGr-00GVDQ-S8
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 18:13:21 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by BrandonWrono.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.188.21.49
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.188.21.49
+From: lenya-ufimtsev@mail.ru
+Reply-To: lenya-ufimtsev@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqlGr-00GVDQ-S8@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:13:21 -0700
+
+You have been contacted by BrandonWrono, and the message is as
+follows.
+
+"
+
+
+Предлагаем Вам рассмотреть
+возможность приобретения шин
+производства КНР, для грузового
+транспорта и спецтехники, с наших
+складов в Новосибирске или
+Владивостоке
+https://servishin.ru/catalog/gruzovye-shiny/kama/
+  Производим отгрузку товара мелким 
+https://servishin.ru/catalog/gruzovye-shiny/omskshina/
+ 
+https://servishin.ru/catalog/gruzovye-shiny/aeolus/aeolus-neoconstructg-31580r225-158150k.html
+  https://servishin.ru/catalog/gruzovye-shiny/tyrex/
+ 
+Одной из основных причин, влияющих на
+сокращение срока эксплуатации
+автошин, является агрессивная манера
+вождения
+https://servishin.ru/catalog/gruzovye-shiny/yokohama/901zs.html
+  Как правило, резкие повороты и
+маневры совершаются водителями,
+привыкшими к такой манере вождения
+https://servishin.ru/catalog/gruzovye-shiny/aeolus/hn355.html
+  При таком стиле езды у покрышек
+отмечаются следующие повреждения: 
+Предлагаем Вам рассмотреть
+возможность приобретения шин
+производства КНР, для грузового
+транспорта и спецтехники, с наших
+складов в Новосибирске или
+Владивостоке https://servishin.ru/
+  Производим отгрузку товара мелким 
+https://servishin.ru/catalog/gruzovye-shiny/cordiant/
+  https://servishin.ru/catalog/gruzovye-shiny/sava/
+  https://servishin.ru/catalog/gruzovye-shiny/doublecoin/
+ 
+"
+
+You can contact BrandonWrono via email, lenya-ufimtsev@mail.ru
+
+--1667524402-eximdsn-1509859379--

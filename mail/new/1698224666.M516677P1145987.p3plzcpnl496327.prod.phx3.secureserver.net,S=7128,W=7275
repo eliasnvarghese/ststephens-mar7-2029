@@ -1,0 +1,147 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 96dpHhraOGWDfBEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 25 Oct 2023 02:04:26 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 25 Oct 2023 02:04:26 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qvZoQ-004o7Z-EB
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 25 Oct 2023 02:04:26 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qvZoL-004o41-6K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698224666-eximdsn-2019462889
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qvZoQ-004o7Z-EB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 25 Oct 2023 02:04:26 -0700
+
+--1698224666-eximdsn-2019462889
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 vZoQq3ZX9iYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=6538da1a p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=a-opYhVVKqUA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=sNQ0FR_advAA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=3fn72nQTSGfUV4qRGyQA:9 a=QEXdDO2ut3YA:10 a=bvxEX0gABEoA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=N5YZtzD7lL2VCl6lW3cB:22 a=jycUkCEYUnZvh0PkXkJV:22 a=x0HBjrwnZMNAmiD3TUb8:22 a=V3IJSTiKMSM2tsTS5oV4:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1698224666-eximdsn-2019462889
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 vZoQq3ZX9iYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=6538da1a p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=a-opYhVVKqUA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=sNQ0FR_advAA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=3fn72nQTSGfUV4qRGyQA:9 a=QEXdDO2ut3YA:10 a=bvxEX0gABEoA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=N5YZtzD7lL2VCl6lW3cB:22 a=jycUkCEYUnZvh0PkXkJV:22 a=x0HBjrwnZMNAmiD3TUb8:22 a=V3IJSTiKMSM2tsTS5oV4:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1698224666-eximdsn-2019462889
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qvZoL-004o41-6K
+	for ginojohn@gmail.com;
+	Wed, 25 Oct 2023 02:04:26 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Antonetta Simonds.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 196.196.255.54
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.196.255.54
+From: simonds.antonetta94@gmail.com
+Reply-To: simonds.antonetta94@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qvZoL-004o41-6K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 25 Oct 2023 02:04:21 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Antonetta Simonds, and the message is as
+follows.
+
+"Salutations ststephenssanjose.org Administrator.
+
+I'm Antonetta and I just found your site at ststephenssanjose.org...
+
+I discovered it after a quick search, so your search engine
+optimization is working out…
+
+Information looks decent…
+
+However, one thing’s missing though…
+
+A QUICK, EASY way to connect with you RIGHT NOW.
+
+Because data show that a potential customer like me will only linger a
+few seconds – 7 out of 10 disappear almost immediately, Browse Click
+Surf… then disappeared.
+
+I have the solution:
+
+Lead Conversion Tool is a software that’s works on your site, ready
+to collect any visitor’s Name, Email address, and Phone Number.
+You’ll know right away they’re engaged and you can call them
+directly to SPEAK with them - actually while they’re still on the
+internet looking at your site.
+
+CLICK HERE https://bit.ly/3LPltcD to experience a Live Demo with
+Visitor Engagement Widget now to see just how it works and even give
+it a try… it could be big for your business.
+
+Moreover, now that you’ve got that phone number, with our new SMS
+Text With Lead feature, you can automatically start a text (SMS)
+conversation pronto… which is so strong, because connecting with
+someone within the first 5 minutes is 100 times more effective than
+waiting 30 minutes or more later.
+
+The new text messaging feature lets you stay connected consistently
+with new offers, content links, even just follow up notes to develop a
+relationship.
+
+All I’ve just described is incredibly easy to implement,
+cost-effective, and beneficial.
+
+CLICK HERE https://bit.ly/3LPltcD to learn what Web Visitors Into
+Leads can do for your company, maybe converting up to 100X more
+viewers into leads right now!
+
+Antonetta
+PS: Lead Conversion Tool offers a FREE 14 days trial – and it even
+includes International Long Distance Calling.
+You have customers waiting to talk with you at this moment… don’t
+keep them waiting.
+CLICK HERE https://bit.ly/3LPltcD to use Visitor Engagement Widget
+now.
+
+If you'd prefer to unsubscribe click here https://bit.ly/3rD0G5c
+
+Just a quick message - the names and email address employed in this
+note, Antonetta and Simonds, are substitutes and not actually actual
+contact information. We value candor and desired to make sure you are
+aware! If ever you aspire to connect with the true person responsible
+for this note, do visit our website, and we’ll associate you with
+the appropriate individual.
+"
+
+You can contact Antonetta Simonds via email,
+simonds.antonetta94@gmail.com
+
+--1698224666-eximdsn-2019462889--

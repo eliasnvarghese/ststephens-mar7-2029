@@ -1,0 +1,107 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id cEZAH6wbjmTtRSwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 17 Jun 2023 13:46:36 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 17 Jun 2023 13:46:36 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qAcoe-00CAo3-F4
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 17 Jun 2023 13:46:36 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qAcoa-00CAnQ-JG@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1687034796-eximdsn-478863527
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qAcoe-00CAo3-F4@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 17 Jun 2023 13:46:36 -0700
+
+--1687034796-eximdsn-478863527
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 AcoeqEujJ089I :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Cup5MF0D c=1 sm=1 tr=0 ts=648e1bac p=Z5TDcv9oAAAA:20 p=TiF-rRaV_sYUogJBC1FB:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=XO8quCuqCFUA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=vEyycpR3MpkA:10 a=pGLkceISAAAA:8 a=AYRVl_InCWL7vRffel0A:9 a=QEXdDO2ut3YA:10 a=kADA5aEYJhAA:10 a=pVBVYu6bLYQA:10 a=KyYZJfTCSdMA:10 a=jPIZ0h3gtuNaZTaIhBia:22 a=68QUb7CmXzrr7xNQ_BCb:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1687034796-eximdsn-478863527
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 AcoeqEujJ089I :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Cup5MF0D c=1 sm=1 tr=0 ts=648e1bac p=Z5TDcv9oAAAA:20 p=TiF-rRaV_sYUogJBC1FB:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=XO8quCuqCFUA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=vEyycpR3MpkA:10 a=pGLkceISAAAA:8 a=AYRVl_InCWL7vRffel0A:9 a=QEXdDO2ut3YA:10 a=kADA5aEYJhAA:10 a=pVBVYu6bLYQA:10 a=KyYZJfTCSdMA:10 a=jPIZ0h3gtuNaZTaIhBia:22 a=68QUb7CmXzrr7xNQ_BCb:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1687034796-eximdsn-478863527
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qAcoa-00CAnQ-JG
+	for ginojohn@gmail.com;
+	Sat, 17 Jun 2023 13:46:36 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by John Davis.
+X-PHP-Script: ststephenssanjose.org/contact.php for 63.161.77.8
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 63.161.77.8
+From: john.davis@gmail.com
+Reply-To: john.davis@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qAcoa-00CAnQ-JG@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 17 Jun 2023 13:46:32 -0700
+
+You have been contacted by John Davis, and the message is as follows.
+
+"Have you read the recent USA Today Article about the 7-year-old kid
+who made $22 million from shooting amateur videos about his toy
+collection?
+
+He’s leveraging a secret algorithm to do so. You can now do the
+same!
+
+
+===> bit.ly/3Nc6Ekk 
+
+
+You see, the main secret to Jake’s success to have a stream of
+income that doesn’t go dry – rain or shine. You can leverage the
+power of compound revenues to achieve riches quick – with nearly
+zero frustration.
+
+>>Click here for a strategy so easy that even a kid can do it:
+bit.ly/3Nc6Ekk 
+
+
+Yours truly,
+John
+
+P.S. This Netflix loophole is the very thing making these “Perpetual
+Players” a lot of moolah at the moment.
+
+Click here to be part of that inner circle: bit.ly/3Nc6Ekk
+"
+
+You can contact John Davis via email, john.davis@gmail.com
+
+--1687034796-eximdsn-478863527--

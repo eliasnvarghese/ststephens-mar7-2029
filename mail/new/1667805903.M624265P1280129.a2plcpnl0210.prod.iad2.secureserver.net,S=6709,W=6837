@@ -1,0 +1,128 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id gA8PJc+yaGOBiBMAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 00:25:03 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 00:25:03 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1orwVD-005PuH-Fj
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 00:25:03 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1orwVC-005Prm-Vd@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667805903-eximdsn-513901660
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1orwVD-005PuH-Fj@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 00:25:03 -0700
+
+--1667805903-eximdsn-513901660
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rwVDokEKba2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=6368b2cf p=Ub7iyKXAf0IA:10 p=TW3uCUCyAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=hA8svEKLFJIA:10 a=RgBw9RmQAAAA:8 a=UqoPm4ax4yy1ylZxe0UA:9 a=QEXdDO2ut3YA:10 a=K7UnvLG2rjQA:10 a=0kg-OyZptS0A:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=t_xevUlCPf0fOU_RHLRI:22 ::
+    100.00
+
+--1667805903-eximdsn-513901660
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 rwVDokEKba2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=6368b2cf p=Ub7iyKXAf0IA:10 p=TW3uCUCyAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=hA8svEKLFJIA:10 a=RgBw9RmQAAAA:8 a=UqoPm4ax4yy1ylZxe0UA:9 a=QEXdDO2ut3YA:10 a=K7UnvLG2rjQA:10 a=0kg-OyZptS0A:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=t_xevUlCPf0fOU_RHLRI:22 :: 100.00
+
+--1667805903-eximdsn-513901660
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1orwVC-005Prm-Vd
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 00:25:03 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by KennethApoda.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.197.74.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.197.74.6
+From: fokin.ruslan.1989.6.7@mail.ru
+Reply-To: fokin.ruslan.1989.6.7@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1orwVC-005Prm-Vd@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 00:25:02 -0700
+
+You have been contacted by KennethApoda, and the message is as
+follows.
+
+"
+Домашнее кашпо – это бюджетная и при
+этом довольно пестрая деталь любого
+интерьера http://kashpo.one/gallery
+  Но прежде чем браться за его
+создание, стоит определиться, какие
+материалы вы планируете использовать
+http://kashpo.one/gallery
+  Идей для создания подвесного кашпо
+своими руками множество http://kashpo.one
+  Задумайтесь, какому материалу готовы
+отдать предпочтение лично вы
+http://kashpo.one/gallery
+  Но сначала необходимо изучить их
+преимущества подробнее http://kashpo.one/gallery
+ 
+Правильной посадочной ёмкостью для
+орхидеи является пластиковый горшок
+http://kashpo.one/gallery
+  Он обязательно должен иметь
+дренажные отверстия http://kashpo.one
+  Если их нет, то не проблема
+самостоятельно сделать их при помощи
+шила, нагретого на огне http://kashpo.one/gallery
+  Также можно использовать двойные
+горшки – внутренний с дренажными
+отверстиями, а внешний именно кашпо,
+выполняющее декоративную функцию
+http://kashpo.one
+ 
+
+
+Форма горшка напоминает блюдце:
+широкий сверху и сужается к низу
+http://kashpo.one/gallery
+  В таких ёмкостях отлично приживаются
+деревья-Бонсай http://kashpo.one/gallery
+  В плюшках грунт быстрее сохнет,
+понижает риск скопления воды на дне
+вазона, что чревато загнивание
+корешков http://kashpo.one/gallery
+  Условия произрастания в подобных
+горшках подойдут для цветов с
+корневой системой, растущей на
+поверхности http://kashpo.one/gallery
+  К примеру, , пахира, фиттония, ,
+определенные виды фикусов, кактусов
+http://kashpo.one
+ 
+"
+
+You can contact KennethApoda via email, fokin.ruslan.1989.6.7@mail.ru
+
+--1667805903-eximdsn-513901660--

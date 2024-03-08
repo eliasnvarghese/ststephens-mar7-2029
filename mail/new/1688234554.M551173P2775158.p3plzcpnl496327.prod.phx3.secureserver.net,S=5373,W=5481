@@ -1,0 +1,108 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id Hc+/IDpqoGR2WCoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 01 Jul 2023 11:02:34 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 01 Jul 2023 11:02:34 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qFeva-00Beh3-G3
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 01 Jul 2023 11:02:34 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qFevV-00BeRj-Tq@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1688234554-eximdsn-1398134429
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qFeva-00Beh3-G3@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 01 Jul 2023 11:02:34 -0700
+
+--1688234554-eximdsn-1398134429
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 FevaqjlWVb3ts :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64a06a3a p=ORuJRZ88AAAA:20 p=3elEwcl12VoA:10 p=48FxgZl9Cm2IEnwAOqmI:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=X-t4c_7eCd8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=qKoprObOT70A:10 a=pGLkceISAAAA:8 a=aFFNvpbEHlKcwUQWuOcA:9 a=QEXdDO2ut3YA:10 a=AEbXEFNMFNkA:10 a=KyYZJfTCSdMA:10 a=kGRzY-6en6t7-Q-ytpP3:22 a=EUYyHGiaCbQKzif23lMF:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1688234554-eximdsn-1398134429
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 FevaqjlWVb3ts :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64a06a3a p=ORuJRZ88AAAA:20 p=3elEwcl12VoA:10 p=48FxgZl9Cm2IEnwAOqmI:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=X-t4c_7eCd8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=qKoprObOT70A:10 a=pGLkceISAAAA:8 a=aFFNvpbEHlKcwUQWuOcA:9 a=QEXdDO2ut3YA:10 a=AEbXEFNMFNkA:10 a=KyYZJfTCSdMA:10 a=kGRzY-6en6t7-Q-ytpP3:22 a=EUYyHGiaCbQKzif23lMF:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1688234554-eximdsn-1398134429
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qFevV-00BeRj-Tq
+	for ginojohn@gmail.com;
+	Sat, 01 Jul 2023 11:02:34 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Billy Anders.
+X-PHP-Script: ststephenssanjose.org/contact.php for 168.91.65.105
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 168.91.65.105
+From: billy.anders@gmail.com
+Reply-To: billy.anders@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qFevV-00BeRj-Tq@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 01 Jul 2023 11:02:29 -0700
+
+You have been contacted by Billy Anders, and the message is as
+follows.
+
+"Hey,
+
+What if you could tap into the $3 TRILLION freelancing industry and
+claim your slice of the pie? TaskAI is the key that unlocks your full
+earning potential and propels you towards financial abundance.
+
+Picture this: You're effortlessly providing hundreds of different
+services to your customers, all thanks to the power of AI. No more
+struggling to keep up with the demand or spending endless hours on
+mundane tasks. TaskAI does it all for you, leaving you with more time,
+more money, and more freedom.
+
+But that's not all. TaskAI's AI-powered marketplace auto-ranks on
+Google, ensuring a steady stream of free traffic to your services. Say
+goodbye to hustling for clients and hello to a flood of high-paying
+customers.
+
+Are you ready to take control of your financial destiny and live life
+on your own terms?
+
+Click here to discover how TaskAI can make it a reality:   
+
+===>  https://shorturl.at/huvwV 
+
+
+To your incredible success,
+
+Billy"
+
+You can contact Billy Anders via email, billy.anders@gmail.com
+
+--1688234554-eximdsn-1398134429--

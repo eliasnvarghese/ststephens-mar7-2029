@@ -1,0 +1,52 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ME9lDJtE42Od9SEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 07 Feb 2023 23:43:39 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 07 Feb 2023 23:43:39 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pPdW3-008em1-Fu
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 07 Feb 2023 23:01:11 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pPdVw-008ecl-AB@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pPdW3-008em1-Fu@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 07 Feb 2023 23:01:11 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pPdVw-008ecl-AB
+	for ginojohn@gmail.com;
+	Tue, 07 Feb 2023 23:01:04 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jake Aird.
+X-PHP-Script: ststephenssanjose.org/contact.php for 162.253.129.156
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 162.253.129.156
+From: BuckZirkind@gmail.com
+Reply-To: BuckZirkind@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pPdVw-008ecl-AB@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 07 Feb 2023 23:01:04 -0700
+
+You have been contacted by Jake Aird, and the message is as follows.
+
+"Nice work on the new website! Get it listed in our directory for more
+potential clients.  https://78sx.short.gy/Qeycpm"
+
+You can contact Jake Aird via email, BuckZirkind@gmail.com

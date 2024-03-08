@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id Jx2JEndrwGRCviMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 25 Jul 2023 17:40:23 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 25 Jul 2023 17:40:23 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qOSZj-009pwc-8Z
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 25 Jul 2023 17:40:23 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qOSZe-009pvr-12@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690332023-eximdsn-1510716331
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qOSZj-009pwc-8Z@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 25 Jul 2023 17:40:23 -0700
+
+--1690332023-eximdsn-1510716331
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 OSZjqN8mkUe7e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64c06b77 p=sJOyUBAZAAAA:8 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=0kzM3CcBAAAA:8 a=BEMs72aX-S9-76DGeAEA:9 a=QEXdDO2ut3YA:10 a=SbwC7k_OdKIA:10 a=ZawGXlW_zo8A:10 a=KyYZJfTCSdMA:10 a=WnF_Gj_9GqmodvCu_EE5:22 a=F_xERzkIvo_Bc6Ea2SjA:22 a=CE9uLJsCu-G7ENrl3HQA:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1690332023-eximdsn-1510716331
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 OSZjqN8mkUe7e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64c06b77 p=sJOyUBAZAAAA:8 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=0kzM3CcBAAAA:8 a=BEMs72aX-S9-76DGeAEA:9 a=QEXdDO2ut3YA:10 a=SbwC7k_OdKIA:10 a=ZawGXlW_zo8A:10 a=KyYZJfTCSdMA:10 a=WnF_Gj_9GqmodvCu_EE5:22 a=F_xERzkIvo_Bc6Ea2SjA:22 a=CE9uLJsCu-G7ENrl3HQA:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1690332023-eximdsn-1510716331
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qOSZe-009pvr-12
+	for ginojohn@gmail.com;
+	Tue, 25 Jul 2023 17:40:23 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Michaeljal.
+X-PHP-Script: ststephenssanjose.org/contact.php for 8.222.165.101
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 8.222.165.101
+From: opcrxv@course-fitness.com
+Reply-To: opcrxv@course-fitness.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qOSZe-009pvr-12@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 25 Jul 2023 17:40:18 -0700
+
+You have been contacted by Michaeljal, and the message is as follows.
+
+"91娛樂城 
+ 
+ 
+ 
+https://9jcasino.tw/"
+
+You can contact Michaeljal via email, opcrxv@course-fitness.com
+
+--1690332023-eximdsn-1510716331--

@@ -1,0 +1,1586 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201906 will be lost/reset.
+# Last config file used to build this data file was /home/buwlrdjjq1jo/tmp/awstats/ssl/awstats.ststephenssanjose.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2026                
+POS_TIME 2709                
+POS_VISITOR 31401               
+POS_DAY 59377               
+POS_DOMAIN 3668                
+POS_LOGIN 4579                
+POS_ROBOT 4734                
+POS_WORMS 6154                
+POS_EMAILSENDER 6285                
+POS_EMAILRECEIVER 6428                
+POS_SESSION 60289               
+POS_SIDER 60502               
+POS_FILETYPES 6563                
+POS_DOWNLOADS 6833                
+POS_OS 6881                
+POS_BROWSER 7213                
+POS_SCREENSIZE 9860                
+POS_UNKNOWNREFERER 9934                
+POS_UNKNOWNREFERERBROWSER 11481               
+POS_ORIGIN 12056               
+POS_SEREFERRALS 12204               
+POS_PAGEREFS 12618               
+POS_SEARCHWORDS 13699               
+POS_KEYWORDS 13917               
+POS_MISC 2371                
+POS_ERRORS 14040               
+POS_CLUSTER 4435                
+POS_SIDER_404 14171               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190701001908 396 84264 9356505363937
+FirstTime 20190601010246
+LastTime 20190630221259
+LastUpdate 20190701050100 396 0 395 0 0
+TotalVisits 1244                
+TotalUnique 681                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 730                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 188 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 184 365 14971142 242 341 1319180
+1 180 716 42505497 44 103 845512
+2 100 556 31890461 61 182 4937758
+3 146 584 39581787 56 160 1187855
+4 91 175 6655314 89 349 3770592
+5 104 275 12796355 72 209 2367290
+6 120 387 21127454 86 215 2128148
+7 129 606 38466069 79 245 2281140
+8 108 268 11225173 75 238 4539578
+9 89 512 34589323 88 221 1557482
+10 94 645 40644231 73 222 1650399
+11 93 774 47649003 97 187 1404674
+12 128 541 31571434 77 182 1541678
+13 182 745 46760212 136 263 1572233
+14 81 797 55256803 105 210 1182776
+15 86 520 40359348 109 910 36741481
+16 174 445 22237961 94 293 3643373
+17 169 511 30350501 79 257 5636430
+18 188 666 36617766 108 277 2890369
+19 185 578 29511858 112 278 2250707
+20 113 652 45270059 84 223 1424881
+21 205 1154 64159642 90 123 1528142
+22 134 592 37912927 106 247 2191846
+23 102 573 36207271 92 835 39242949
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 45
+us 2622 9939 596809745
+ru 73 73 507949
+cn 60 605 43329188
+in 52 661 38657229
+fr 44 278 12057307
+ca 42 276 15846874
+de 33 115 6293254
+gb 29 230 16382500
+ie 25 346 27124423
+ua 22 22 526186
+zz 21 21 76788
+nl 16 16 133732
+pl 13 13 180360
+ph 12 149 10459777
+kz 12 12 181158
+gr 11 11 4374
+ng 8 102 8467915
+au 8 78 3543594
+vn 8 8 6429
+id 6 40 1887196
+ae 5 74 3822437
+si 5 5 3425
+mx 4 52 4290601
+se 4 77 3365630
+rs 4 52 4236965
+md 3 4 56630
+mu 3 3 4902
+qa 2 38 1654500
+kw 2 36 1884456
+et 2 34 1881215
+il 1 1 1634
+ro 2 2 1370
+lt 4 4 60328
+za 1 1 1634
+bh 2 36 1884456
+cl 4 4 6536
+kr 1 1 1634
+at 4 38 1896218
+it 3 4 39621
+ke 4 52 4237048
+az 1 1 1634
+br 3 38 1953629
+bd 0 1 32255
+jp 1 33 286574
+pt 3 51 4236281
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 33
+bot[\s_+:,\.\;\/\\-] 2284 81485801 20190630203027 0
+AdsBot\-Google[\x20]\( 761 15468722 20190630202443 0
+Googlebot/ 680 3923631 20190630220505 0
+bingbot/ 323 5140430 20190630214700 0
+bingpreview 285 9805274 20190626220224 0
+spider 170 1428241 20190628181126 0
+Baiduspider/ 169 4734732 20190621235201 0
+Uptimebot/ 139 15070 20190626202240 0
+YandexBot/ 137 464390 20190630082426 0
+Sogou[\x20]web[\x20]spider/ 100 390387 20190630201650 0
+SemrushBot/ 72 275350 20190630214232 0
+(firefox/)([0-9]\.|[0-1][0]\.) 60 223600 20190627160700 0
+curl 54 88236 20190616090058 0
+Applebot/ 31 137884 20190630065253 0
+BLEXBot/ 31 21235 20190625112252 0
+no_user_agent 27 78360 20190627050912 0
+DotBot/ 13 161666 20190630151522 0
+link 12 50994 20190611184952 0
+MJ12bot/ 10 11595 20190630192704 0
+CCBot/ 10 47020 20190616063843 0
+facebookexternalhit/ 8 1234410 20190626182822 0
+baidu 7 24066 20190620131315 0
+DuckDuckGo\-Favicons\-Bot/ 6 4110 20190629224553 0
+AhrefsBot/ 5 3425 20190617205326 0
+oBot/ 4 6536 20190621083940 0
+CFNetwork 3 4902 20190609202402 0
+KomodiaBot/ 2 45977 20190620104231 0
+crawl 2 10387 20190613194400 0
+[\s_+:,\.\;\/\\-]bot 3 2055 20190630083256 0
+java 1 0 20190601213403 0
+Dalvik/ 4 18467 20190622163630 0
+Mail\.RU_Bot/ 2 7794 20190626091256 0
+YandexImages/ 3 95616 20190628170332 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+jpg 2486 720564312 0 0
+png 699 9620996 0 0
+js 4031 39188540 0 0
+css 3085 18469541 0 0
+woff 352 18562068 0 0
+eot 4 159790 0 0
+html 1525 1083184 0 0
+php 1301 10171191 0 0
+gif 151 366472 0 0
+ttf 3 131497 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+linux 590 401
+ios_ipad 123 10
+win2000 1 1
+winlong 180 32
+macosx9 2 2
+linuxandroid 3568 286
+winxp 58 10
+macosx12 148 18
+macosx8 11 11
+Unknown 1669 1502
+macosx 281 32
+win7 1175 187
+win10 2992 404
+win8.1 68 20
+win8 5 4
+macosx10 11 11
+macosx11 10 10
+ios_iphone 2745 244
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 120
+opera55.0.2994.44 1 1
+edge18 92 6
+safari12.0 53 4
+chrome69.0.3497.100 212 15
+chrome34.0.1847.131 1 1
+opera54.0.2952.51 4 4
+chrome60.0.3112.113 5 5
+msie6.0 52 4
+chrome64.0.3282.137 51 4
+chrome61.0.3163.98 38 2
+chrome66.0.3359.126 51 4
+safari11.0 243 19
+firefox67.0 965 100
+chrome39.0.2171.95 5 5
+chrome38.0.1025.166 176 5
+firefox64.0 9 9
+msie7.0 67 1
+opera53.0.2907.68 2 2
+chrome55.0.2883.91 102 8
+firefox52.0 75 7
+chrome75.0.3770.89 138 10
+chrome74.0.3729.169 1453 119
+chrome74.0.3729.112 51 4
+chrome34.0.1847.116 2 2
+chrome64.0.3282.167 1 1
+opera60.0.3255.151 52 4
+chrome73.0.3683.103 53 5
+firefox47.0 8 8
+chrome34.0.1847.137 5 5
+chrome68.0.3440.106 20 20
+chrome66.0.3359.117 2 2
+chrome70.0.3538.67 209 115
+opera12.15 3 3
+chrome34.0.1847.114 1 1
+edge17 316 22
+chrome70.0.3538.110 53 6
+chrome58.0.3029.96 1 0
+chrome75.0.3770.101 125 9
+chrome53.0.2785.124 45 2
+chrome71.0.3578.99 41 5
+msie8.0 60 6
+edge12 1 1
+chrome66.0.3359.139 1 1
+chrome70.0.3538.77 73 26
+chrome58.0.3029.110 2 2
+chrome45.0.2454.94 1 1
+Unknown 1433 1431
+firefox42.0 8 8
+chrome62.0.3202.89 7 7
+chrome67.0.3396.79 1 1
+chrome67.0.3396.87 151 23
+chrome75.0.3770.90 93 5
+chrome62.0.3202.84 92 9
+safari 530 62
+chrome59.0.3071.104 148 148
+chrome75.0.3770.100 528 48
+chrome74.0.3729.131 5 5
+chrome65.0.3325.181 4 4
+chrome75.0.3770.67 185 12
+chrome71.0.3578.98 15 15
+firefox63.0 117 6
+mozilla 153 107
+firefox62.0 37 37
+chrome74.0.3729.136 250 36
+chrome70.0.3538.102 157 12
+chrome26.0.1410.65 10 10
+opera54.0.2952.54 6 6
+firefox65.0 18 18
+chrome32.0.1664.3 1 1
+chrome75.0.3770.80 38 2
+opera54.0.2952.71 2 2
+chrome5.0.375.99 1 1
+chrome3.0.197.11 1 1
+chrome0.2.149.27 1 1
+chrome42.0.2311.90 3 3
+chrome67.0.3396.81 53 6
+chrome28.0.1500.94 5 2
+firefox40.0 4 4
+opera12.16 54 4
+chrome49.0.2623.112 36 2
+firefox33.0 1 1
+safari11.1 1 1
+firefox35.0 1 1
+safari12.1 718 53
+chrome59.0.3071.115 52 4
+chrome41.0.2272.89 15 15
+safari5.1 1 1
+msie11.0 105 9
+chrome74.0.3729.157 1305 98
+firefox66.0 4 4
+chrome67.0.3396.99 17 17
+chrome41.0.2272.118 133 14
+chrome73.0.3683.90 192 17
+firefox60.0 126 6
+iphone 306 24
+chrome43.0.2357.121 42 4
+chrome4.0.213.1 1 1
+firefox34.0 26 26
+chrome61.0.3163.128 53 5
+edge16 4 4
+safari10.0 107 8
+chrome74.0.3729.172 51 3
+firefox40.1 8 8
+opera53.0.2907.106 8 8
+chrome10.0.648.11 1 1
+chrome35.0.1916.47 2 2
+chrome40.0.2214.85 55 7
+firefox48.0 39 4
+chrome72.0.3626.121 90 9
+chrome43.0.2357.134 1 0
+chrome67.0.3396.62 1 1
+safari8.0 2 2
+opera53.0.2907.99 21 21
+opera54.0.2952.64 12 12
+chrome73.0.3683.75 40 2
+chrome30.0.1599.82 1 0
+safari12.1.1 944 84
+chrome72.0.3626.109 1 1
+chrome66.0.3359.181 68 68
+chrome49.0.2623.75 14 14
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 24
+Go-http-client/1.1 20190627052550
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20190630220903
+python-requests/2.18.4 20190610211737
+python-requests/2.21.0 20190618011918
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20190606041711
+Google-Ads-Creatives-Assistant 20190626222905
+Mozilla/5.0_(compatible;_ips-agent) 20190614080728
+Python/3.6_aiohttp/3.5.4 20190612121558
+Scrapy/1.6.0_(_https://scrapy.org) 20190630044242
+python-requests/2.10.0 20190610234028
+Google-Security-Zonelenny 20190630190605
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12ca;__http://researchscan.comsys.rwth-aachen.de) 20190629190411
+adreview/1.0 20190624175213
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_GoogleAdwordsExpress)_Chrome/41.0.2272.118_Safari/537.36 20190630123553
+Google-AdWords-Express 20190630221259
+Mozilla/5.0_(compatible;_WebDataStats/1.0_;__https://webdatastats.com/policy.html) 20190607091621
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190611170558
+Go-http-client/2.0 20190630180507
+Mozilla/5.0_(compatible;_Go-http-client/1.1;__centurybot9@gmail.com) 20190627034023
+Mozilla/5.0_Firefox/35.0 20190618175213
+python-requests/2.22.0 20190625171221
+Mozilla/5.0_(compatible;_Qwantify/2.4w;__https://www.qwant.com/)/2.4w 20190628041748
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20190630012735
+okhttp/3.14.2 20190626033605
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 13
+python-requests/2.10.0 20190610234028
+Python/3.6_aiohttp/3.5.4 20190612121558
+Scrapy/1.6.0_(_https://scrapy.org) 20190630044242
+python-requests/2.22.0 20190625171221
+okhttp/3.14.2 20190626033605
+Google-Security-Zonelenny 20190630190605
+Google-AdWords-Express 20190630221259
+Go-http-client/1.1 20190627052550
+adreview/1.0 20190624175213
+python-requests/2.18.4 20190610211737
+python-requests/2.21.0 20190618011918
+Go-http-client/2.0 20190630180507
+Google-Ads-Creatives-Assistant 20190626222905
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2174 2719
+From1 2 2
+From2 192 213
+From3 63 64
+From4 754 10639
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 15
+www_google_com_pr 0 1
+bing 5 5
+startpage 3 3
+www_google_com_br 0 1
+www_google_fr 9 9
+google_com 1 1
+www_google_com_hk 2 2
+www_google_co_uk 1 1
+www_google_com 146 162
+www_google_ca 3 4
+www_google_co_in 4 5
+youtube 7 7
+sogou 10 10
+www_google_com_mx 0 1
+www_google_se 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 21
+https://googleads.g.doubleclick.net/pagead/ads 23 23
+http://hundejo.com 6 6
+https://baltgazservice.ru/market/kotelnoe_oborudovanie/kotli_haier/falco-l1p26-f21t/ 5 5
+https://xn-----6kcaabbafhu7cskl7akvongwpo7hvjj.xn--p1ai 5 5
+http://pizza-tycoon.com 5 5
+http://pizza-imperia.com 4 4
+https://captcha.gecirtnotification.com/pitc/ 2 2
+https://lm.facebook.com 1 1
+http://www.ststephensbayarea.org 1 1
+https://m.facebook.com 1 1
+https://www-momjunction-com.cdn.ampproject.org 1 1
+http://tpc.googlesyndication.com/safeframe/1-0-33/html/container.html 1 1
+http://STSTEPHENSBAYAREA.COM/admin/ 1 1
+https://l.facebook.com 1 1
+http://l.facebook.com/l.php 1 1
+https://tpc.googlesyndication.com/safeframe/1-0-33/html/container.html 1 1
+http://lm.facebook.com/l.php 1 1
+https://googleads.g.doubleclick.net 1 1
+https://www.catholic.org/bible/daily_reading/ 1 1
+http://www.ststephensbayarea.com 1 1
+http://berikstore.com/schreibtisch-fr-pc.html 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+site+www.svsoc.org 10
+amazon 1
+site+ststephenssiliconvalley.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+site 11
+www.svsoc.org 10
+ststephenssiliconvalley.com 1
+amazon 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+500 1 0
+302 56 0
+404 890 0
+206 207 2268198
+421 10 3220
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 271
+/index.html%27%20and%20%27x%27%3D%27y 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/orthodoxchurch.php99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/xxxxxx.php 1 -
+/lectionary.php999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/oldsite/wp-includes/wlwmanifest.xml 2 -
+/v2/wp-includes/wlwmanifest.xml 1 -
+/sitemap.xml 9 -
+/tel:%20140863809682121121121212.1 1 -
+/videogallery.php%22%20and%20%22x%22%3D%22y 1 -
+/lectionary.php%27%20and%20%27x%27%3D%27x 1 -
+/photogallery.php\"%20and%20\"x\"%3D\"x 1 -
+/aboutourchurch.php99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/index.html%20and%201%3D1 1 -
+/portal/wp-includes/wlwmanifest.xml 2 -
+/videogallery.php%20or%20(1,2)=(select*from(select%20name_const(CHAR(111,104,97,103,65,100,97,79,103),1),name_const(CHAR(111,104,97,103,65,100,97,79,103),1))a)%20--%20and%201%3D1 1 -
+/aboutourchurch.php%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(118,98,100,82,82,82,81,114,80,117,112),1),name_const(CHAR(118,98,100,82,82,82,81,114,80,117,112),1))a)%20--%20%27x%27=%27x 1 -
+/contactus.php%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(79,73,99,101,118,114,104,74,109,66,74),1),name_const(CHAR(79,73,99,101,118,114,104,74,109,66,74),1))a)%20--%20%27x%27=%27x 1 -
+/ministries.php\"%20and%20\"x\"%3D\"x 1 -
+/orthodoxchurch.php2121121121212.1 1 -
+/nova 1 https://www.ststephenssanjose.org/nova
+/newsite/wp-includes/wlwmanifest.xml 1 -
+/aboutourchurch.php99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/patrons.php99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/photogallery.php%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(122,71,83,80,121,107,83,122,70),1),name_const(CHAR(122,71,83,80,121,107,83,122,70),1))a)%20--%20%22x%22=%22x 1 -
+/photogallery.php%27%20and%20%27x%27%3D%27x 1 -
+/ss/index.php 1 -
+/lents.php999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/videogallery.php999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/netcat/ 1 https://www.ststephenssanjose.org/netcat/
+/mscms/ 1 https://www.ststephenssanjose.org/mscms/
+/contactus.php99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/orthodoxchurch.php999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/index.html%27%20and%20%27x%27%3D%27x 1 -
+/2019/wp-includes/wlwmanifest.xml 2 -
+/login.php%22%20and%20%22x%22%3D%22y 1 -
+/ministries.php2121121121212.1 1 -
+/photogallery.php999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/main/wp-includes/wlwmanifest.xml 2 -
+/calendar.php%22%20and%20%22x%22%3D%22y 1 -
+/new/wp-includes/wlwmanifest.xml 1 -
+/orthodoxchurch.php%22%20and%20%22x%22%3D%22y 1 -
+/sql.php 1 -
+/lectionary.php%22%20and%20%22x%22%3D%22y 1 -
+/icms 1 https://www.ststephenssanjose.org/icms
+/index.html\"%20and%20\"x\"%3D\"x 1 -
+/ministries.php%27%20and%20%27x%27%3D%27x 1 -
+/calendar.php2121121121212.1 1 -
+/patrons.php%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(73,122,81,88,110,68,81,102,85,68,99),1),name_const(CHAR(73,122,81,88,110,68,81,102,85,68,99),1))a)%20--%20%22x%22=%22x 1 -
+/v1/wp-includes/wlwmanifest.xml 2 -
+/patrons.php%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(73,122,81,88,110,68,81,102,85,68,99),1),name_const(CHAR(73,122,81,88,110,68,81,102,85,68,99),1))a)%20--%20%27x%27=%27x 1 -
+/photogallery.php\" 1 -
+/calendar.php%20or%20(1,2)=(select*from(select%20name_const(CHAR(106,107,70,76,118,102,69,107,81,111,103),1),name_const(CHAR(106,107,70,76,118,102,69,107,81,111,103),1))a)%20--%20and%201%3D1 1 -
+/lents.php%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(110,110,85,71,117,114,87,74,105,79,119),1),name_const(CHAR(110,110,85,71,117,114,87,74,105,79,119),1))a)%20--%20%27x%27=%27x 1 -
+/index.html%20or%20(1,2)=(select*from(select%20name_const(CHAR(110,103,120,65,119,84,122,118,106,98,116,90),1),name_const(CHAR(110,103,120,65,119,84,122,118,106,98,116,90),1))a)%20--%20and%201%3D1 1 -
+/contactus.php2121121121212.1 1 -
+/patrons.php2121121121212.1 1 -
+/ministries.php%22%20and%20%22x%22%3D%22y 1 -
+/login.php%27%20and%20%27x%27%3D%27x 1 -
+/.well-known/security.txt 1 -
+/engine/classes/js/dle_js.js 1 https://www.ststephenssanjose.org/engine/classes/js/dle_js.js
+/wp-includes/wlwmanifest.xml 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/orthodoxchurch.php%27%20and%20%27x%27%3D%27x 1 -
+/shop/errors/503.php 3 -
+/templates/system/css/system.css 1 -
+/edc_admin/Login/Style.css 1 https://www.ststephenssanjose.org/edc_admin/Login/Style.css
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/,107.180.21.57 2 -
+/admin/login.php 2 -
+/index.php2121121121212.1 1 -
+/index.php%20and%201%3D1 1 -
+/index.php\"%20and%20\"x\"%3D\"x 1 -
+/lents.php%20or%20(1,2)=(select*from(select%20name_const(CHAR(110,110,85,71,117,114,87,74,105,79,119),1),name_const(CHAR(110,110,85,71,117,114,87,74,105,79,119),1))a)%20--%20and%201%3D1 1 -
+/tel:%201408638096899999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/calendar.php%20and%201%3D1 1 -
+/new/ 1 -
+/orthodoxchurch.php\"%20and%20\"x\"%3D\"x 1 -
+/ministries.php\" 1 -
+/photogallery.php2121121121212.1 1 -
+/tel:%2014086380968%22%20and%20%22x%22%3D%22y 1 -
+/cms/wp-includes/wlwmanifest.xml 3 -
+/aboutourchurch.php\" 1 -
+/blogs/wp-includes/wlwmanifest.xml 1 -
+/index.html%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(110,103,120,65,119,84,122,118,106,98,116,90),1),name_const(CHAR(110,103,120,65,119,84,122,118,106,98,116,90),1))a)%20--%20%22x%22=%22x 1 -
+/admin/textolite.css 1 https://www.ststephenssanjose.org/admin/textolite.css
+/photogallery.php%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(122,71,83,80,121,107,83,122,70),1),name_const(CHAR(122,71,83,80,121,107,83,122,70),1))a)%20--%20%27x%27=%27x 1 -
+/administrator/index.php 1 -
+/videogallery.php%20and%201%3E1 1 -
+/login.php%20and%201%3E1 1 -
+/calendar.php%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(106,107,70,76,118,102,69,107,81,111,103),1),name_const(CHAR(106,107,70,76,118,102,69,107,81,111,103),1))a)%20--%20%27x%27=%27x 1 -
+/phpminiadmin.php 1 -
+/lents.php%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(110,110,85,71,117,114,87,74,105,79,119),1),name_const(CHAR(110,110,85,71,117,114,87,74,105,79,119),1))a)%20--%20%22x%22=%22x 1 -
+/contactus.php99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/old/ 1 -
+/ministries.php99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/calendar.php\"%20and%20\"x\"%3D\"x 1 -
+/index.html%20and%201%3E1 1 -
+/.git/HEAD 1 -
+/videogallery.php2121121121212.1 1 -
+/patrons.php\"%20and%20\"x\"%3D\"x 1 -
+/orthodoxchurch.php\" 1 -
+/ministries.php%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(82,83,116,87,108,76,69,104,102,68,70),1),name_const(CHAR(82,83,116,87,108,76,69,104,102,68,70),1))a)%20--%20%22x%22=%22x 1 -
+/phpMyAdmin-2/ 1 http://www.ststephenssanjose.org//phpMyAdmin-2//
+/store/wp-includes/wlwmanifest.xml 2 -
+/lents.php2121121121212.1 1 -
+/admin/images/cal_date_over.gif 1 -
+/videogallery.php%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(111,104,97,103,65,100,97,79,103),1),name_const(CHAR(111,104,97,103,65,100,97,79,103),1))a)%20--%20%27x%27=%27x 1 -
+/backup/wp-includes/wlwmanifest.xml 1 -
+/login.php%27%20and%20%27x%27%3D%27y 1 -
+/photogallery.php%20and%201%3E1 1 -
+/lents.php\" 1 -
+/beta/wp-includes/wlwmanifest.xml 1 -
+/wordpress/wp-includes/wlwmanifest.xml 2 -
+/ministries.php999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/patrons.php\" 1 -
+/photogallery.php%20or%20(1,2)=(select*from(select%20name_const(CHAR(122,71,83,80,121,107,83,122,70),1),name_const(CHAR(122,71,83,80,121,107,83,122,70),1))a)%20--%20and%201%3D1 1 -
+/login.php\"%20and%20\"x\"%3D\"x 1 -
+/calendar.php%27%20and%20%27x%27%3D%27x 1 -
+/shop/index.php/admin/ 3 -
+/calendar.php%27%20and%20%27x%27%3D%27y 1 -
+/home/wp-includes/wlwmanifest.xml 1 -
+/index.html999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/magento/errors/503.php 3 -
+/login.php\" 1 -
+/index.html99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/etm/indy.css 1 https://www.ststephenssanjose.org/etm/indy.css
+/aboutourchurch.php%27%20and%20%27x%27%3D%27x 1 -
+/rss/catalog/notifystock/ 1 http://ststephenssiliconvalley.net/rss/catalog/notifystock/
+/downloader/index.php 3 -
+/calendar.php%20and%201%3E1 1 -
+/lents.php99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/login.php2121121121212.1 1 -
+/blog/ 1 -
+/adm/css/errors.css 1 https://www.ststephenssanjose.org/adm/css/errors.css
+/videogallery.php99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/www/wp-includes/wlwmanifest.xml 1 -
+/lectionary.php%20and%201%3D1 1 -
+/photogallery.php99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/contactus.php999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/aboutourchurch.php%27%20and%20%27x%27%3D%27y 1 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/in 1 -
+/videogallery.php99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/lents.php99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/ads.txt 4 -
+/videogallery.php%27%20and%20%27x%27%3D%27y 1 -
+/.well-known/assetlinks.json 13 -
+/tel:%2014086380968\"%20and%20\"x\"%3D\"x 1 -
+/login.php%20and%201%3D1 1 -
+/site/wp-includes/wlwmanifest.xml 3 -
+/ministries.php%20and%201%3E1 1 -
+/tel:%2014086380968%20and%201%3E1 1 -
+/staging/wp-includes/wlwmanifest.xml 2 -
+/robots.txt 520 -
+/orthodoxchurch.php99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/videogallery.php%27%20and%20%27x%27%3D%27x 1 -
+/indy/indy.css 1 https://www.ststephenssanjose.org/indy/indy.css
+/admin/index.php 4 https://www.google.com/search
+/wp/wp-includes/wlwmanifest.xml 1 -
+/util/login.aspx 1 -
+/ministries.php%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(82,83,116,87,108,76,69,104,102,68,70),1),name_const(CHAR(82,83,116,87,108,76,69,104,102,68,70),1))a)%20--%20%27x%27=%27x 1 -
+/admin/ 2 -
+/calendar.php99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/calendar.php99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/shop/downloader/index.php 3 -
+/videogallery.php\"%20and%20\"x\"%3D\"x 1 -
+/photogallery.php99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/demo/wp-includes/wlwmanifest.xml 2 -
+/store/errors/503.php 3 -
+/calendar.php%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(106,107,70,76,118,102,69,107,81,111,103),1),name_const(CHAR(106,107,70,76,118,102,69,107,81,111,103),1))a)%20--%20%22x%22=%22x 1 -
+/downloader/ 1 http://ststephenssiliconvalley.net/downloader/
+/patrons.php999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/blog/wp-includes/wlwmanifest.xml 2 -
+/contactus.php%27%20and%20%27x%27%3D%27y 1 -
+/wp/ 1 -
+/ministries.php%27%20and%20%27x%27%3D%27y 1 -
+/tel:%201408638096899999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/contactus.php%20and%201%3E1 1 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/adminer.php 1 -
+/index.html\" 1 -
+/aboutourchurch.php%20and%201%3D1 1 -
+/aboutourchurch.php\"%20and%20\"x\"%3D\"x 1 -
+/contactus.php%20and%201%3D1 1 -
+/wp-login.php 15 http://ststephenssanjose.org/wp-login.php
+/patrons.php%20or%20(1,2)=(select*from(select%20name_const(CHAR(73,122,81,88,110,68,81,102,85,68,99),1),name_const(CHAR(73,122,81,88,110,68,81,102,85,68,99),1))a)%20--%20and%201%3D1 1 -
+/wordpress/ 1 -
+/backup/ 1 -
+/lectionary.php%20and%201%3E1 1 -
+/news/wp-includes/wlwmanifest.xml 2 -
+/lectionary.php2121121121212.1 1 -
+/videogallery.php%20and%201%3D1 1 -
+/aboutourchurch.php2121121121212.1 1 -
+/index.html99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/patrons.php%22%20and%20%22x%22%3D%22y 1 -
+/calendar.php\" 1 -
+/scripts/admin/popup.js 1 https://www.ststephenssanjose.org/scripts/admin/popup.js
+/tel:%2014086380968%27%20and%20%27x%27%3D%27y 1 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/cms/ 1 https://www.ststephenssanjose.org/cms/
+/store/downloader/index.php 3 -
+/index.html%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(110,103,120,65,119,84,122,118,106,98,116,90),1),name_const(CHAR(110,103,120,65,119,84,122,118,106,98,116,90),1))a)%20--%20%27x%27=%27x 1 -
+/modules 1 https://www.ststephenssanjose.org/modules
+/photogallery.php%22%20and%20%22x%22%3D%22y 1 -
+/cms/lang/ru_utf8/css/sbIndex.css 1 https://www.ststephenssanjose.org/cms/lang/ru_utf8/css/sbIndex.css
+/dev/wp-includes/wlwmanifest.xml 2 -
+/static/cartreminder.js 1 https://www.ststephenssanjose.org/static/cartreminder.js
+/index.php%27%20and%20%27x%27%3D%27x 1 -
+/tel:%2014086380968\" 1 -
+/patrons.php%27%20and%20%27x%27%3D%27x 1 -
+/videogallery.php%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(111,104,97,103,65,100,97,79,103),1),name_const(CHAR(111,104,97,103,65,100,97,79,103),1))a)%20--%20%22x%22=%22x 1 -
+/index.php%22%20and%20%22x%22%3D%22y 1 -
+/orthodoxchurch.php%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(65,68,120,97,98,118,68,81,79,106,98,75),1),name_const(CHAR(65,68,120,97,98,118,68,81,79,106,98,75),1))a)%20--%20%22x%22=%22x 1 -
+/patrons.php%20and%201%3D1 1 -
+/apple-app-site-association 12 -
+/tel:%2014086380968%20and%201%3D1 1 -
+/orthodoxchurch.php%20or%20(1,2)=(select*from(select%20name_const(CHAR(65,68,120,97,98,118,68,81,79,106,98,75),1),name_const(CHAR(65,68,120,97,98,118,68,81,79,106,98,75),1))a)%20--%20and%201%3D1 1 -
+/tel:%2014086380968 1 -
+/aboutourchurch.php%22%20and%20%22x%22%3D%22y 1 -
+/contactus.php%22%20and%20%22x%22%3D%22y 1 -
+/aboutourchurch.php%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(118,98,100,82,82,82,81,114,80,117,112),1),name_const(CHAR(118,98,100,82,82,82,81,114,80,117,112),1))a)%20--%20%22x%22=%22x 1 -
+/modules/mod_stats.xml 1 https://www.ststephenssanjose.org/modules/mod_stats.xml
+/patrons.php99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/index.php\" 1 -
+/tel:%2014086380968%27%20and%20%27x%27%3D%27x 1 -
+/aboutourchurch.php999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/en/wp-includes/wlwmanifest.xml 1 -
+/photogallery.php%27%20and%20%27x%27%3D%27y 1 -
+/aboutourchurch.php%20or%20(1,2)=(select*from(select%20name_const(CHAR(118,98,100,82,82,82,81,114,80,117,112),1),name_const(CHAR(118,98,100,82,82,82,81,114,80,117,112),1))a)%20--%20and%201%3D1 1 -
+/patrons.php%27%20and%20%27x%27%3D%27y 1 -
+/videogallery.php\" 1 -
+/orthodoxchurch.php%27%20and%20%27x%27%3D%27y 1 -
+/lectionary.php\"%20and%20\"x\"%3D\"x 1 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/lectionary.php%27%20and%20%27x%27%3D%27y 1 -
+/contactus.php\" 1 -
+/oldsite/ 1 -
+/static/common.css 1 https://www.ststephenssanjose.org/static/common.css
+/magento/index.php/admin/ 3 -
+/skins/simpla_blue/style.css 1 https://www.ststephenssanjose.org/skins/simpla_blue/style.css
+/magento/downloader/index.php 3 -
+/lectionary.php99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/contactus.php%27%20and%20%27x%27%3D%27x 1 -
+/contactus.php%20or%20(1,2)=(select*from(select%20name_const(CHAR(79,73,99,101,118,114,104,74,109,66,74),1),name_const(CHAR(79,73,99,101,118,114,104,74,109,66,74),1))a)%20--%20and%201%3D1 1 -
+/index.html%22%20and%20%22x%22%3D%22y 1 -
+/orthodoxchurch.php%20and%201%3E1 1 -
+/calendar.php999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/,184.168.131.241 9 -
+/photogallery.php%20and%201%3D1 1 -
+/errors/503.php 3 -
+/orthodoxchurch.php%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(65,68,120,97,98,118,68,81,79,106,98,75),1),name_const(CHAR(65,68,120,97,98,118,68,81,79,106,98,75),1))a)%20--%20%27x%27=%27x 1 -
+/lectionary.php\" 1 -
+/store/index.php/admin/ 3 -
+/index.php%27%20and%20%27x%27%3D%27y 1 -
+/magento_version 1 -
+/ministries.php%20and%201%3D1 1 -
+/patrons.php%20and%201%3E1 1 -
+/contactus.php%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(79,73,99,101,118,114,104,74,109,66,74),1),name_const(CHAR(79,73,99,101,118,114,104,74,109,66,74),1))a)%20--%20%22x%22=%22x 1 -
+/ministries.php%20or%20(1,2)=(select*from(select%20name_const(CHAR(82,83,116,87,108,76,69,104,102,68,70),1),name_const(CHAR(82,83,116,87,108,76,69,104,102,68,70),1))a)%20--%20and%201%3D1 1 -
+/ministries.php99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/aboutourchurch.php%20and%201%3E1 1 -
+/index.html2121121121212.1 1 -
+/tel:%2014086380968999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/orthodoxchurch.php%20and%201%3D1 1 -
+/rss/order/new/ 1 http://ststephenssiliconvalley.net/rss/order/new/
+/test/wp-login.php 1 http://ststephenssanjose.org//test/wp-login.php
+/index.php%20and%201%3E1 1 -
+/lectionary.php99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/contactus.php\"%20and%20\"x\"%3D\"x 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 730
+66.249.87.178 277 277 1125608 20190621190201
+66.249.87.180 245 245 935157 20190622173810
+72.14.199.146 138 138 576288 20190630190605
+66.249.87.182 133 133 497197 20190622173811
+72.14.199.148 114 114 412799 20190630190557
+72.14.199.150 101 101 384122 20190630190605
+66.249.87.114 96 96 375033 20190623061857
+50.232.248.216 59 546 31755222 20190624123430
+66.249.87.116 57 57 232628 20190623061848
+66.249.90.208 45 45 191903 20190619032300
+24.6.79.223 42 403 32570216 20190629204607
+66.249.87.118 35 35 120815 20190623061846
+144.217.171.225 32 486 25297600 20190601213403
+66.249.90.210 28 28 96661 20190619032301
+95.79.38.35 26 26 113240 20190624003955
+66.249.89.114 25 25 100924 20190622064349
+66.249.90.212 21 21 78923 20190619032259
+99.121.60.200 19 76 4883830 20190628215848
+172.58.203.234 18 78 4863042 20190615163151
+73.222.173.130 17 146 14854996 20190628172728
+5.248.225.86 14 14 513114 20190620192330
+73.241.218.120 13 144 10727144 20190623111351
+49.83.19.154 13 13 59873 20190617044200
+69.58.178.59 13 13 58814 20190614080728
+167.114.158.57 12 12 196625 20190611170331
+104.154.63.185 2 2 1370 20190608130448
+116.203.75.208 1 1 685 20190612120951
+34.66.21.104 2 2 1370 20190605130012
+54.245.137.37 1 1 685 20190617083327
+191.101.85.99 1 1 1634 20190617070348
+67.212.255.134 4 52 4236985 20190608092926
+10.39.128.93 1 1 7134 20190616204538
+113.193.44.66 0 1 68488 
+27.0.137.169 0 1 32255 
+178.128.170.60 1 1 1634 20190620115201
+31.13.115.18 3 22 1142859 20190611022018
+52.13.2.52 1 1 685 20190605045354
+66.220.149.28 1 17 716007 20190615012829
+51.15.209.146 1 1 685 20190611074153
+34.220.238.210 1 1 685 20190609053726
+112.78.167.112 1 1 685 20190626084323
+91.132.138.35 3 3 2055 20190627151433
+199.249.230.79 1 1 0 20190614094742
+178.162.211.204 1 1 1634 20190629011936
+192.99.12.35 1 1 685 20190622163118
+142.122.158.86 4 51 4234054 20190614081347
+211.56.145.140 1 1 1634 20190627022858
+64.233.172.52 5 17 144707 20190624184848
+54.185.248.211 1 1 685 20190619041219
+31.13.115.6 0 7 221014 
+35.238.57.13 3 3 2055 20190603005225
+182.0.139.240 2 36 1884456 20190610083614
+65.155.30.101 4 58 5856070 20190613034358
+208.54.16.36 3 50 4233294 20190622033847
+18.236.149.163 1 1 685 20190613025149
+123.126.68.113 7 102 8463914 20190609035417
+68.183.148.61 1 1 1634 20190606041711
+52.53.156.102 1 21 616530 20190628180905
+35.231.238.97 3 3 7801 20190622205353
+199.65.1.26 6 61 4523418 20190618071016
+35.188.106.149 3 3 2055 20190607010050
+104.198.25.163 2 2 1370 20190604125459
+35.202.129.211 2 2 1370 20190603005231
+185.217.0.138 4 4 15558 20190630044242
+54.149.92.220 1 1 685 20190607103812
+35.192.236.224 2 2 1370 20190608130424
+85.148.231.36 1 1 1634 20190622033555
+35.193.77.37 2 2 1370 20190604005407
+87.101.94.126 8 8 119154 20190628214738
+31.13.127.9 3 20 1483759 20190626020331
+73.162.162.90 3 50 4233312 20190618134259
+66.249.89.116 5 5 22789 20190622052110
+87.101.94.76 4 4 60521 20190614124838
+192.99.13.29 1 1 685 20190613084010
+52.24.42.179 1 1 685 20190623233511
+69.210.3.61 6 61 4521889 20190620094327
+68.183.114.2 3 3 2055 20190629185941
+157.230.153.11 4 51 4233968 20190622021754
+63.33.233.231 1 1 685 20190606210843
+24.89.251.10 0 1 68488 
+86.22.61.242 5 69 5682287 20190604101702
+173.193.191.205 2 2 1370 20190605151951
+178.128.225.216 3 3 0 20190623193504
+109.184.169.69 2 2 14392 20190607030012
+80.121.81.76 3 37 1895533 20190611043948
+34.209.89.148 1 1 685 20190608102404
+111.202.101.171 0 1 2273 
+54.191.126.47 1 1 685 20190630180507
+66.249.91.143 2 9 82934 20190613150934
+79.191.142.242 1 1 685 20190625155726
+5.196.95.37 1 1 685 20190622045558
+208.54.2.37 4 51 4233953 20190628185506
+35.164.30.78 1 1 685 20190613070006
+24.6.212.128 4 51 4234054 20190611220124
+10.39.128.90 1 1 11077 20190611151828
+52.26.245.252 1 1 685 20190630003924
+63.150.13.50 3 49 4223955 20190609151535
+24.130.193.144 3 49 4223925 20190610054155
+18.236.230.187 1 1 685 20190612072211
+104.245.145.164 4 4 60371 20190606164450
+24.23.19.107 4 51 4233971 20190605180332
+117.230.141.252 3 39 1659341 20190622020537
+35.184.143.106 2 2 1370 20190606010121
+35.238.107.141 2 2 1370 20190605005512
+178.128.105.2 1 1 685 20190630201409
+35.232.135.125 2 2 1370 20190606130116
+52.67.138.183 1 21 616568 20190607102718
+31.13.115.9 5 47 3944374 20190628012158
+199.201.64.2 7 90 6422681 20190618234959
+31.204.181.238 10 10 72061 20190617204216
+54.36.64.245 1 1 685 20190625132128
+64.233.172.243 2 2 14225 20190606084022
+49.204.208.3 3 49 4223925 20190609154501
+77.247.181.165 5 5 3425 20190624035810
+35.188.15.191 2 2 1370 20190607010047
+79.137.109.83 1 1 685 20190622110221
+73.48.145.38 4 51 4234054 20190609201747
+106.120.188.160 4 52 4236947 20190624144746
+35.167.2.167 1 1 685 20190620102739
+35.238.72.37 3 3 2055 20190602131710
+66.153.250.199 4 52 4237046 20190601131417
+51.15.0.122 1 1 685 20190607145544
+35.228.87.35 2 2 1370 20190619232310
+51.77.246.205 3 49 4224018 20190611170559
+34.220.63.57 1 1 685 20190621070433
+66.102.6.143 2 2 14389 20190617182729
+93.197.60.152 0 1 50823 
+106.203.65.255 2 38 1654500 20190613223715
+35.232.197.122 3 3 2055 20190602005201
+66.249.89.118 2 2 1370 20190622062948
+35.222.176.8 2 2 1370 20190603005221
+31.13.115.25 0 1 32255 
+54.36.34.174 1 1 3889 20190626154934
+104.154.208.182 2 2 1370 20190603125322
+106.120.188.142 4 52 4236985 20190602155058
+124.206.180.180 1 1 1634 20190618175213
+137.97.93.155 2 38 1654500 20190601034841
+69.206.74.34 0 1 46511 
+71.197.121.16 4 51 4233961 20190616011421
+62.210.26.50 1 1 685 20190618202032
+186.237.221.4 1 1 685 20190626084405
+172.58.203.42 4 51 4240467 20190616033720
+10.39.129.161 1 1 685 20190614153558
+185.234.219.246 2 2 7793 20190608135150
+137.97.21.6 2 38 1654500 20190612221029
+10.33.135.149 1 1 685 20190613004901
+24.5.5.242 11 113 9207744 20190630103125
+110.54.237.249 4 51 4234054 20190606092644
+54.214.67.251 1 1 685 20190630041315
+35.202.192.109 2 2 1370 20190602011928
+34.217.35.104 1 1 685 20190628093728
+67.169.8.59 4 51 4234037 20190624201303
+3.8.18.53 1 21 616520 20190628180850
+24.149.5.199 3 51 4225011 20190610231011
+54.189.137.3 1 1 685 20190611090217
+3.8.235.109 1 21 616614 20190628181112
+79.183.231.50 1 1 1634 20190621071925
+31.13.115.19 0 2 327869 
+137.97.78.105 4 39 1698626 20190607232836
+52.43.213.65 1 1 685 20190603005451
+99.185.42.224 5 59 4388025 20190622225409
+64.62.202.73 5 5 24039 20190627034023
+72.14.199.154 1 1 685 20190610112853
+208.54.5.227 4 51 4233971 20190606074923
+172.58.92.76 2 43 2152701 20190602062834
+10.39.129.39 1 1 685 20190611151827
+73.202.156.127 5 54 4246620 20190625153417
+172.56.128.8 4 51 4233953 20190623122618
+66.220.149.26 2 16 1461044 20190615012831
+189.236.89.79 0 1 56630 
+34.216.71.178 1 1 685 20190625105409
+34.66.110.146 4 4 9183 20190605130008
+199.249.230.82 1 1 0 20190614162448
+54.245.195.34 1 1 685 20190606233134
+166.62.41.179 1 1 685 20190629100719
+173.252.95.14 1 14 1610163 20190611005121
+94.134.94.117 2 36 1884456 20190613015836
+35.243.214.125 3 3 7677 20190630215448
+178.162.216.51 4 4 59661 20190629055401
+174.215.5.153 8 102 8467958 20190620202536
+98.207.36.144 2 48 4140269 20190619135245
+125.212.217.215 7 7 4795 20190610211737
+113.172.153.91 1 1 1634 20190615182427
+35.164.41.115 1 1 685 20190617105113
+35.222.123.255 3 3 2055 20190608130446
+34.219.5.254 1 1 685 20190615090125
+123.126.113.16 4 52 4236947 20190627204743
+106.120.173.94 0 27 382069 
+173.252.87.5 1 15 1188730 20190617013122
+51.158.121.89 4 4 2740 20190607095506
+54.213.96.38 1 1 685 20190609031100
+172.56.138.7 4 51 4233961 20190612032703
+54.189.143.27 1 1 685 20190629091236
+73.158.185.117 4 52 4237040 20190623101617
+35.184.17.184 3 3 2055 20190605130703
+107.23.46.156 1 1 1634 20190618192211
+216.99.127.196 3 50 4233276 20190610230951
+62.210.202.81 1 1 685 20190602180317
+34.219.141.96 1 1 685 20190608023204
+106.200.30.117 2 2 9682 20190614091311
+34.216.139.108 1 1 685 20190621020826
+78.101.186.12 2 38 1654500 20190606211050
+35.188.97.38 2 2 1370 20190605130015
+35.232.63.177 2 2 1370 20190607130223
+18.234.42.169 1 1 1634 20190621070251
+35.232.129.98 2 2 1370 20190607010055
+206.189.27.201 1 1 685 20190619162940
+142.4.210.110 1 1 685 20190613111320
+107.77.213.140 3 37 1618306 20190604090952
+35.166.180.101 1 1 685 20190618204147
+3.15.15.132 2 42 1233069 20190628181052
+92.99.107.226 2 36 1884456 20190615045028
+104.154.120.13 3 3 2055 20190602005130
+159.203.77.172 1 1 1634 20190606040807
+10.39.128.22 1 1 3555 20190611151829
+54.203.15.69 1 1 685 20190608003421
+35.236.218.78 1 1 685 20190606101424
+85.206.165.9 4 4 60328 20190617052415
+35.232.78.20 3 3 2055 20190605005518
+173.193.191.198 1 1 685 20190605152229
+213.55.102.49 2 34 1881215 20190611234858
+50.112.227.228 1 1 685 20190625231154
+18.231.188.153 2 2 1370 20190604084908
+66.249.88.169 1 1 7189 20190602024223
+34.223.251.217 1 1 685 20190627203838
+31.13.190.12 4 4 60322 20190619121635
+91.242.162.20 4 4 20131 20190628041748
+46.166.48.108 0 1 56630 
+24.23.214.222 4 51 4234054 20190606072318
+208.185.247.162 4 52 4237097 20190607134455
+199.249.230.117 1 1 0 20190613110406
+34.213.63.38 1 1 685 20190621174957
+49.15.88.52 2 38 1654500 20190624193136
+31.13.115.20 2 14 419927 20190615011225
+52.39.89.61 1 1 685 20190626221222
+140.213.18.183 3 3 2055 20190604043501
+36.110.147.83 4 52 4236991 20190616132126
+172.58.21.40 4 51 4234054 20190608132216
+35.188.218.242 5 5 3425 20190607010053
+34.222.243.91 1 1 685 20190624232239
+117.240.189.19 3 52 2339529 20190626234449
+142.4.210.157 1 1 685 20190613083848
+178.128.229.48 1 1 0 20190614235532
+27.63.145.195 4 51 4233961 20190614221036
+54.36.54.239 4 4 2740 20190629083244
+66.87.118.49 6 53 4248436 20190612155929
+34.247.174.40 4 4 1370 20190625013317
+35.226.255.250 2 2 1370 20190602131700
+34.218.206.5 1 1 685 20190619084409
+91.242.162.11 4 4 20131 20190627091439
+23.129.64.168 1 1 0 20190614082252
+98.248.61.244 4 51 4234054 20190612131027
+35.192.99.224 3 3 2055 20190607130232
+94.47.78.81 0 1 31153 
+194.44.61.241 6 6 9804 20190621103207
+34.212.22.129 1 1 685 20190618092319
+35.222.7.56 3 3 2055 20190608130451
+35.232.29.85 2 2 1370 20190603125337
+35.227.92.145 3 3 7876 20190614111929
+86.237.193.178 6 42 1673864 20190603001714
+66.249.88.116 1 14 664341 20190618125446
+54.189.175.242 1 1 685 20190605210349
+31.13.115.15 0 19 1201556 
+10.39.129.44 3 3 21404 20190619184642
+185.129.62.62 1 1 0 20190614151535
+35.193.226.148 2 2 1370 20190603125335
+34.219.190.196 1 1 685 20190626104037
+54.184.68.1 1 1 685 20190625053424
+104.198.189.252 3 3 2055 20190604005403
+35.239.189.83 2 2 1370 20190606010120
+34.216.235.79 1 1 685 20190622065602
+35.233.120.217 4 4 2740 20190612121558
+35.229.53.10 1 1 11077 20190611213411
+52.25.142.15 1 1 685 20190624105329
+66.249.90.113 1 1 685 20190604155418
+35.240.99.192 1 1 685 20190626033605
+35.165.70.26 1 1 685 20190604221123
+185.158.150.213 1 1 1634 20190617132846
+172.58.75.116 4 51 4233961 20190606201101
+10.39.129.42 1 1 685 20190619184640
+54.218.248.35 1 1 685 20190606081303
+18.236.77.34 1 1 685 20190627005627
+36.110.147.99 4 52 4236985 20190612141549
+54.70.140.148 3 3 2055 20190625150739
+91.121.176.40 1 1 685 20190613095246
+71.6.165.200 8 8 95737 20190616041510
+142.4.214.159 1 1 685 20190622103014
+66.249.88.173 2 2 14299 20190605040057
+123.126.68.125 4 52 4236990 20190630145226
+60.191.38.77 8 8 13072 20190605020010
+35.222.228.149 2 2 1370 20190607130228
+24.228.141.241 2 36 1616638 20190622095436
+35.229.37.16 3 3 7793 20190606185043
+66.220.149.17 0 1 1620 
+54.190.33.192 1 1 685 20190623080043
+66.220.149.23 1 17 2056673 20190615012826
+207.182.136.170 4 4 91905 20190611143136
+35.232.49.114 2 2 1370 20190608130426
+66.249.88.118 0 11 42795 
+87.118.112.63 5 5 3425 20190606112712
+202.83.42.42 2 38 1654500 20190608100121
+5.253.204.6 4 4 60322 20190621072951
+94.189.131.201 4 52 4236965 20190614061834
+31.13.127.32 0 17 1756484 
+54.203.193.163 1 1 685 20190613095546
+34.222.84.160 1 1 685 20190618180540
+66.249.83.92 4 31 1719419 20190625173856
+81.250.144.68 0 1 22522 
+84.16.242.42 1 1 1634 20190628190649
+172.58.29.101 4 51 4233961 20190605182907
+34.212.122.23 1 1 685 20190614062154
+54.244.105.50 1 1 685 20190620210910
+104.197.4.172 3 3 2055 20190603125323
+34.66.76.211 2 2 1370 20190606010026
+34.244.75.100 3 3 2055 20190604050950
+52.35.161.117 1 1 685 20190616073246
+52.35.218.151 1 1 685 20190604174000
+104.198.222.101 2 2 1370 20190604125505
+83.97.23.230 4 4 60371 20190602162928
+37.114.148.25 1 1 1634 20190616172213
+10.39.128.253 1 1 7128 20190611151828
+66.220.149.43 2 18 2234013 20190613001944
+37.171.111.192 6 75 2932776 20190624142916
+198.245.62.187 1 1 685 20190622042616
+54.185.237.216 1 1 685 20190623232447
+37.173.171.29 2 26 1748817 20190625081051
+34.210.92.43 1 1 685 20190621032002
+31.13.115.8 1 14 901202 20190624175144
+148.66.135.167 1 1 685 20190630201330
+54.71.165.255 1 1 685 20190617025433
+35.202.202.181 2 2 1370 20190608010356
+66.249.83.94 0 16 732897 
+34.213.221.177 1 1 685 20190628180707
+54.149.72.160 1 1 685 20190610064201
+31.13.115.5 1 16 1299063 20190615011227
+185.152.128.36 1 1 11077 20190602085809
+37.165.193.57 2 36 1884456 20190629160135
+173.193.191.202 1 1 685 20190605012236
+110.54.250.19 2 45 1983979 20190615181737
+34.213.26.226 2 2 1370 20190628174938
+185.145.67.183 1 1 1634 20190622043945
+69.109.118.247 5 52 4233991 20190604214330
+5.253.204.9 8 8 120836 20190620045211
+75.54.23.139 2 2 685 20190612020510
+117.209.220.243 4 58 5129528 20190604091834
+173.193.191.195 1 1 685 20190605004259
+50.254.155.233 9 66 4836460 20190616213804
+73.93.154.194 2 12 1210416 20190617154542
+175.176.26.18 4 51 4233961 20190616011122
+34.66.94.252 3 3 2055 20190608010417
+35.238.166.190 3 3 2055 20190604005413
+185.86.93.33 2 2 1370 20190607091621
+73.92.130.65 4 51 4233953 20190628193248
+35.184.95.58 3 3 2055 20190603125330
+35.226.37.104 3 3 2055 20190606010035
+23.250.9.86 1 1 685 20190605124814
+172.58.37.197 4 51 4234054 20190612142513
+66.87.135.140 4 51 4233961 20190609125224
+54.187.23.85 1 1 685 20190611213916
+141.98.100.83 4 4 60333 20190608012245
+35.196.157.84 3 3 7813 20190610192339
+66.249.83.91 1 1 7080 20190627021344
+204.128.192.33 4 52 4236965 20190609171430
+154.16.46.188 2 2 3268 20190622044857
+66.249.83.222 0 13 345700 
+34.213.249.34 1 1 685 20190604222752
+27.59.89.19 4 42 1954449 20190606072645
+103.15.63.50 7 33 2569171 20190607075212
+172.58.37.78 1 1 7128 20190612120250
+35.193.161.163 2 2 1370 20190607130232
+35.226.197.49 3 3 2055 20190606010118
+66.249.88.87 1 1 7108 20190608154818
+107.242.121.11 2 45 1983896 20190611092930
+34.66.128.159 4 4 9246 20190603125333
+117.230.130.46 2 38 1654500 20190611025718
+199.249.230.89 1 1 0 20190614094153
+35.202.34.207 2 2 1370 20190605005512
+51.15.1.70 1 1 685 20190607040434
+178.128.233.82 1 1 0 20190620135929
+139.59.7.171 2 2 1370 20190609140209
+54.186.127.128 1 1 685 20190605073204
+41.203.78.239 4 51 4233972 20190629013223
+35.193.247.194 2 2 1370 20190605125956
+35.184.18.14 3 3 2055 20190603005235
+35.226.3.166 2 2 1370 20190602005137
+107.77.215.25 0 1 32208 
+123.126.68.122 4 52 4237048 20190606142321
+54.36.250.91 1 1 685 20190605051916
+35.226.234.185 3 3 2055 20190605130027
+196.52.2.52 1 1 1634 20190621173126
+106.154.124.224 1 33 286574 20190619010725
+35.196.115.119 3 3 7790 20190618202233
+37.187.157.55 1 1 685 20190608193931
+103.193.88.218 0 1 56630 
+52.13.127.148 1 1 685 20190622175331
+172.58.94.128 4 51 4233971 20190604171728
+31.13.115.2 0 14 2488428 
+107.77.212.229 4 51 4233971 20190608184659
+23.129.64.210 1 1 0 20190615105045
+35.222.33.26 2 2 1370 20190605005508
+98.197.242.82 0 1 52840 
+31.13.115.17 4 41 3272709 20190624175149
+99.252.17.222 2 36 1884456 20190630101743
+35.193.54.9 2 2 1370 20190606130117
+66.220.149.39 0 21 1357977 
+54.148.113.130 1 1 685 20190602130018
+35.246.108.179 1 1 685 20190609083327
+35.222.163.86 3 3 2055 20190608130509
+10.39.129.43 1 1 685 20190616204538
+77.218.249.184 0 1 56630 
+141.168.37.107 2 36 1884456 20190618023807
+50.232.248.104 6 36 4310803 20190607132413
+34.215.191.186 1 1 685 20190607053538
+18.236.173.56 1 1 685 20190608123244
+35.226.171.113 3 3 2055 20190604125519
+148.72.232.158 1 1 685 20190630122514
+73.162.228.88 4 51 4233961 20190603220100
+54.203.194.152 1 1 685 20190604154251
+35.192.15.26 3 3 2055 20190607130645
+23.129.64.161 1 1 0 20190614170104
+200.233.93.165 0 1 68488 
+35.232.1.164 3 3 2055 20190606130159
+202.83.42.234 2 38 1654500 20190605075401
+98.115.255.57 8 123 8002872 20190601141318
+35.232.222.42 3 3 2055 20190602131713
+173.252.87.36 2 18 2163228 20190617013113
+10.39.129.40 1 1 5463 20190611151828
+54.212.151.159 1 1 685 20190604073504
+69.117.89.17 0 1 68488 
+35.192.169.246 4 4 9153 20190607130318
+54.149.64.14 1 1 685 20190603074856
+157.49.241.145 5 53 4251194 20190622234557
+35.222.237.46 2 2 1370 20190609011501
+72.14.199.139 2 5 44464 20190630123546
+67.68.231.140 2 36 1884456 20190627165108
+199.250.251.37 4 52 4225633 20190614210034
+66.220.149.24 0 1 1621 
+73.170.48.10 4 52 4237031 20190629060531
+159.203.95.192 2 2 45977 20190603033445
+18.236.248.61 1 1 685 20190607001151
+208.54.16.38 3 50 4233286 20190616025904
+23.129.64.211 1 1 0 20190614151635
+199.250.251.36 4 52 4236985 20190615093329
+34.209.140.24 1 1 685 20190607001008
+35.226.3.206 3 3 2055 20190603125351
+35.194.12.170 3 3 2055 20190608010352
+178.17.171.197 1 1 0 20190614174616
+34.215.163.101 1 1 685 20190612225200
+31.13.115.21 3 29 2022659 20190628012203
+99.114.114.23 1 1 1634 20190625152210
+192.0.250.168 1 1 685 20190613170402
+54.67.0.196 1 1 685 20190612121424
+154.16.46.217 1 1 1634 20190621031054
+54.185.210.120 1 1 685 20190630025759
+76.98.226.72 0 1 22522 
+54.218.82.140 1 1 685 20190604221351
+73.170.38.236 4 51 4233971 20190603220637
+35.202.220.111 2 2 1370 20190606010122
+193.70.107.57 2 2 7783 20190614190950
+35.202.34.121 3 3 2055 20190602005153
+35.239.79.113 3 3 2055 20190607010135
+207.102.138.158 4 52 4236965 20190609154101
+35.222.165.69 2 2 1370 20190608130423
+106.120.173.157 0 4 54906 
+73.60.47.126 2 38 1654500 20190614194106
+172.58.37.231 1 1 7107 20190601113451
+82.145.221.23 4 54 4255626 20190620071727
+24.185.4.49 2 36 1616991 20190628120813
+167.160.66.152 1 1 685 20190605011505
+91.236.116.14 2 2 7783 20190611033909
+172.58.37.151 4 51 4233960 20190602042426
+104.198.194.24 3 3 2055 20190607130244
+193.138.1.61 5 5 3425 20190618011918
+66.249.91.141 4 46 429462 20190621145253
+54.209.60.63 1 1 4841 20190624175142
+173.252.95.8 3 22 1494161 20190611005120
+34.222.86.231 1 1 685 20190614015305
+37.168.9.194 1 4 59612 20190625131958
+35.188.221.134 3 3 8477 20190602005201
+105.112.46.237 4 51 4233943 20190627132215
+76.126.30.66 6 55 4545950 20190609071748
+104.198.197.180 3 3 2055 20190603005225
+129.56.118.85 3 49 4223925 20190605090412
+64.233.172.50 3 14 111167 20190621064105
+209.97.134.190 1 1 1634 20190620091101
+35.245.201.129 1 1 685 20190606130101
+34.219.12.47 1 1 685 20190617210342
+174.213.25.211 4 51 4233991 20190608161857
+35.197.235.160 1 1 11077 20190606080258
+35.167.216.84 1 1 685 20190627093305
+172.58.35.85 2 5 1248497 20190606151336
+76.127.94.224 5 59 4387968 20190601113503
+35.222.18.80 2 2 1370 20190604005401
+66.249.83.90 6 6 42581 20190630221259
+18.237.182.202 1 1 685 20190623060750
+10.39.129.154 1 1 7108 20190613004901
+51.158.73.199 4 4 2740 20190603170951
+54.218.149.30 3 3 2055 20190626150223
+62.213.100.141 1 1 685 20190630201240
+207.244.70.35 1 1 0 20190614143456
+34.66.171.114 2 2 1370 20190604005406
+172.58.35.55 1 1 7080 20190626134239
+172.58.37.145 6 59 4396005 20190627011548
+138.197.202.197 1 1 685 20190615105426
+54.185.40.137 1 1 685 20190608121843
+165.225.68.61 4 40 1662820 20190604021113
+106.200.21.34 2 38 1654500 20190609195804
+172.58.37.200 1 1 7105 20190616145653
+159.65.168.252 2 2 3268 20190620115201
+54.212.205.201 1 1 685 20190607235140
+35.232.74.210 2 2 1370 20190603005223
+172.58.37.84 4 51 4233961 20190606145420
+35.202.156.62 3 3 2055 20190604125502
+35.226.133.236 2 2 1370 20190605130012
+174.215.8.4 4 51 4234054 20190615141647
+72.14.199.137 0 9 59949 
+106.120.173.103 0 35 465599 
+172.58.39.223 2 40 1908625 20190618212523
+52.12.131.41 1 1 685 20190619234405
+154.124.99.193 4 52 4237048 20190609202310
+188.70.34.251 2 36 1884456 20190618021820
+34.216.204.95 1 1 685 20190601064913
+76.126.22.227 3 49 4223935 20190613234953
+178.162.199.200 4 4 60321 20190605084841
+104.197.92.210 3 3 2055 20190606130131
+66.249.90.109 1 34 331532 20190604155421
+118.127.15.83 2 2 3268 20190624150631
+66.249.83.93 1 21 175052 20190618125447
+137.226.113.26 1 1 685 20190630220903
+34.66.184.75 3 3 2055 20190605005516
+148.72.232.109 1 1 685 20190608212801
+54.188.47.72 3 3 2055 20190627052550
+173.252.87.11 1 19 885033 20190617013115
+34.74.104.30 3 3 7811 20190602081829
+34.247.174.107 2 2 685 20190610164219
+99.226.222.190 3 39 1659341 20190629210210
+24.130.11.31 4 51 4233971 20190613222521
+195.154.102.244 1 1 685 20190605042458
+159.203.125.197 1 1 1634 20190604113819
+138.246.253.5 3 3 0 20190627160936
+104.196.165.80 3 3 7818 20190630132112
+172.58.37.184 1 3 42556 20190626113107
+137.226.113.27 1 1 685 20190630012735
+50.255.199.33 0 1 68488 
+172.58.33.15 4 51 4233953 20190626095048
+35.239.60.148 3 3 2055 20190602131704
+176.205.222.176 2 36 1884456 20190621100606
+37.168.103.156 2 36 1884456 20190623101428
+54.245.6.183 1 1 685 20190630215712
+34.223.213.54 1 1 685 20190605004205
+179.61.156.14 1 1 1634 20190617094109
+35.229.33.57 3 3 7794 20190626212308
+35.164.180.18 1 1 685 20190626013914
+173.252.95.25 0 16 1132631 
+66.249.83.221 0 12 1085376 
+174.232.164.232 0 1 68488 
+107.242.113.2 2 58 4657782 20190623113527
+178.159.127.39 2 2 3268 20190627085231
+37.173.57.125 1 34 1799582 20190626132801
+172.56.136.6 4 51 4233953 20190625165341
+35.239.180.116 3 3 2055 20190608010442
+18.237.240.59 1 1 685 20190602073136
+217.164.161.34 0 1 52840 
+5.188.210.6 7 7 71465 20190626081318
+34.66.72.250 2 2 1370 20190608010347
+18.236.138.19 1 1 685 20190615012113
+64.233.172.245 2 2 1370 20190606084021
+199.87.154.255 1 1 0 20190614172434
+34.219.242.179 1 1 685 20190625002332
+174.215.10.36 1 1 3479 20190616230755
+72.14.199.141 2 7 76701 20190630123547
+18.237.159.141 1 1 685 20190608035044
+104.197.215.184 2 2 1370 20190607130232
+34.221.247.161 1 1 685 20190621232816
+98.114.217.214 10 70 5677673 20190615210650
+66.249.88.105 3 3 21323 20190629222748
+187.233.140.130 4 51 4233971 20190605135701
+172.58.30.175 4 51 4233968 20190623102614
+35.237.200.92 6 6 15626 20190614195427
+75.59.239.246 8 63 7754751 20190606140624
+66.249.88.107 3 3 21388 20190626012441
+35.193.82.34 2 2 1370 20190603125335
+34.211.11.175 1 1 685 20190629182104
+72.195.203.39 4 51 4233971 20190610124118
+35.202.141.201 2 2 1370 20190606130120
+34.221.236.254 1 1 685 20190623180558
+35.238.12.38 2 2 1370 20190607010053
+52.41.18.19 1 1 685 20190606064355
+223.228.131.77 4 50 2178730 20190620114307
+73.231.230.149 8 70 4941466 20190608211929
+211.26.200.20 2 38 1654500 20190603054340
+31.13.127.42 1 15 996694 20190626020335
+35.192.216.96 2 2 1370 20190602131659
+35.192.116.215 3 3 2055 20190604005413
+31.13.115.4 0 17 1935003 
+46.105.99.163 8 8 5480 20190622035110
+110.54.202.158 2 2 7783 20190612004857
+66.249.87.109 1 1 7189 20190601131343
+128.107.241.163 5 54 4245726 20190629110420
+54.213.161.148 1 1 685 20190601212614
+52.78.200.76 0 1 21969 
+66.249.83.220 1 12 139668 20190604115332
+172.58.37.131 4 51 4233961 20190604125009
+54.187.80.124 1 1 685 20190622205444
+10.39.128.92 1 1 3756 20190611151828
+92.20.29.61 2 43 2152701 20190620051116
+34.66.237.2 2 2 1370 20190604125511
+172.58.37.100 3 49 4223935 20190608113445
+64.233.172.232 1 1 7107 20190601030025
+35.232.46.151 3 3 2055 20190605130050
+46.105.99.212 1 1 685 20190629021553
+72.14.199.152 1 1 7128 20190610112855
+35.192.173.154 3 3 2055 20190604125515
+137.97.106.31 2 2 685 20190606172214
+199.249.230.118 1 1 0 20190614110404
+54.149.227.166 1 1 685 20190603201618
+35.202.87.65 2 2 1370 20190602005144
+104.198.23.50 2 2 1370 20190602005124
+193.188.105.244 2 36 1884456 20190615105429
+94.103.85.203 1 1 1634 20190626020635
+79.244.191.98 3 50 4226926 20190616121742
+35.222.86.240 2 2 1370 20190605005521
+74.89.132.154 12 110 8798277 20190624174623
+103.215.221.195 1 1 685 20190630201232
+81.92.200.153 3 51 4236281 20190627113147
+35.239.117.234 2 2 1370 20190602131713
+123.125.125.77 3 50 4226955 20190622074532
+54.244.78.25 1 1 685 20190615223715
+35.229.52.190 6 6 15642 20190626125157
+94.205.253.114 1 1 685 20190622221054
+54.212.220.142 1 1 685 20190609210310
+66.220.149.4 2 13 644975 20190613001952
+138.68.236.147 1 1 685 20190623032005
+67.160.194.118 4 51 4233979 20190619111004
+66.249.90.111 2 3 14514 20190603131007
+136.243.144.81 5 5 0 20190611123202
+83.97.23.135 4 4 60519 20190605054144
+35.239.28.70 2 2 1370 20190604125510
+52.36.110.218 1 1 685 20190602195443
+172.58.39.254 1 4 316925 20190618130931
+109.70.100.19 1 1 685 20190623104548
+52.12.172.123 1 1 685 20190629231842
+34.220.222.77 1 1 685 20190626235846
+179.61.168.10 1 1 1634 20190622043248
+54.191.194.24 1 1 685 20190607222956
+136.243.174.88 1 1 685 20190618202532
+54.175.74.27 1 1 3889 20190624175148
+34.221.2.46 1 1 685 20190608204244
+35.233.193.69 1 1 3177 20190618085206
+34.215.88.188 1 1 685 20190603191058
+65.154.226.126 6 54 4244748 20190613021428
+35.239.46.106 3 3 2055 20190607010105
+24.137.116.134 2 36 1616638 20190619135640
+34.235.233.220 2 2 7790 20190619215559
+66.249.88.109 2 2 14198 20190623185132
+172.58.37.48 4 51 4233971 20190608210108
+94.177.217.116 2 2 1370 20190620172622
+172.58.29.182 2 2 7876 20190605191318
+167.114.232.244 1 1 685 20190604013401
+178.162.199.5 1 1 1634 20190629091843
+35.229.58.206 6 6 15695 20190618115127
+71.62.3.125 0 1 56630 
+34.209.26.45 1 1 685 20190624020631
+172.58.38.212 4 51 4233997 20190622070008
+178.128.225.195 1 1 0 20190611031021
+34.222.158.207 1 1 685 20190617003556
+35.232.165.245 2 2 1370 20190602131702
+66.102.6.141 4 4 28708 20190616234354
+71.198.136.100 4 51 4233979 20190622181951
+146.148.89.185 2 2 1370 20190608010354
+66.249.91.144 0 2 7676 
+34.213.29.156 1 1 685 20190619190349
+107.77.234.153 7 101 8467267 20190615034804
+34.220.127.132 1 1 685 20190630093309
+35.193.129.3 2 2 1370 20190603005230
+54.202.65.16 1 1 685 20190606185842
+31.13.190.254 8 8 120694 20190611111153
+34.216.218.127 1 1 685 20190629081007
+34.215.10.30 1 1 685 20190604051949
+172.56.39.139 1 1 7098 20190606173211
+130.211.235.236 2 2 1370 20190604005407
+66.249.87.105 0 15 148931 
+31.13.115.12 0 5 713681 
+52.33.38.13 1 1 685 20190610193704
+216.244.84.83 1 1 685 20190625171221
+81.94.78.235 2 38 1654500 20190625063646
+66.249.87.107 1 3 17275 20190601131340
+75.126.154.10 2 2 1370 20190605152052
+50.97.77.188 2 2 1370 20190605115959
+171.49.170.169 4 52 4236937 20190623224608
+144.168.162.250 1 1 1634 20190607132635
+35.237.115.160 6 6 15612 20190622121815
+99.65.180.119 4 51 4233971 20190614060111
+178.175.148.224 1 1 0 20190614150516
+66.87.119.27 4 51 4233991 20190610145519
+89.100.155.156 2 38 1654500 20190622211623
+104.198.244.105 3 3 2055 20190606130128
+35.226.205.127 2 2 1370 20190608010358
+178.17.174.229 1 1 0 20190614134757
+66.249.88.114 0 14 2086869 
+137.226.113.28 1 1 685 20190629190411
+34.219.194.241 1 1 685 20190608232820
+50.205.71.42 4 52 4237080 20190627115403
+2.10.251.136 1 1 685 20190623104428
+104.192.74.197 4 51 4233997 20190619183223
+54.218.72.33 1 1 685 20190628204836
+104.192.74.196 8 102 8468052 20190620053514
+149.20.243.70 1 1 685 20190608093748
+174.214.37.229 4 56 5499262 20190611033555
+13.127.194.254 1 21 616614 20190624202032
+206.180.165.147 9 9 6165 20190627112222
+66.102.6.144 2 2 14198 20190629000745
+35.224.122.7 3 3 2055 20190605005523
+10.39.128.10 1 1 3259 20190611151828
+178.31.137.23 2 38 1654500 20190615015146
+35.238.231.160 2 2 1370 20190606130130
+73.86.86.93 0 1 32208 
+172.4.92.241 4 51 4233991 20190612191657
+31.13.115.14 0 7 613628 
+10.39.129.45 1 1 3479 20190611151828
+64.62.202.72 7 7 27001 20190625125346
+54.188.185.50 1 1 685 20190621223415
+93.120.156.67 2 2 14390 20190607015736
+64.233.172.54 3 14 1583918 20190626084357
+117.201.1.32 0 1 68488 
+179.61.142.99 1 1 1634 20190617020055
+31.13.115.1 0 1 696759 
+35.160.130.249 1 1 685 20190626054306
+54.213.153.39 1 1 685 20190628083829
+179.198.84.72 2 36 1884456 20190618113642
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20190601 111 835 43977441 29
+20190602 122 296 12701614 39
+20190603 90 328 16802839 34
+20190604 126 534 34931656 47
+20190605 121 346 18954691 59
+20190606 162 539 30818485 64
+20190607 137 454 26691687 60
+20190608 153 534 32394920 54
+20190609 92 604 44529536 31
+20190610 88 460 29764440 33
+20190611 122 529 33862158 58
+20190612 83 498 35797973 31
+20190613 96 426 26747933 41
+20190614 100 378 23234810 47
+20190615 103 657 43801249 36
+20190616 137 521 35014825 45
+20190617 116 180 6300176 43
+20190618 104 503 26973992 44
+20190619 80 292 14982406 36
+20190620 103 591 35306711 31
+20190621 73 124 2337904 39
+20190622 120 665 44114145 43
+20190623 98 561 34368518 39
+20190624 124 556 31746461 45
+20190625 95 436 27928684 44
+20190626 86 319 18263748 42
+20190627 104 412 24933072 40
+20190628 83 434 24547514 28
+20190629 64 374 25174692 30
+20190630 92 251 11313311 32
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 42
+15mn-30mn 36
+1h+ 43
+2mn-5mn 17
+0s-30s 997
+30mn-1h 83
+5mn-15mn 26
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/ 1525 1083184 900 598
+/index.php 1005 8330940 242 403
+/font-awesome/fonts/fontawesome-webfont.woff 209 17505072 7 73
+/fonts/revicons/revicons.woff 143 1056996 4 89
+/contactus.php 62 540920 16 8
+/orthodoxchurch.php 47 586796 32 13
+/lectionary.php 43 234582 22 9
+/contact.php 32 5343 0 23
+/login.php 26 91152 1 2
+/patrons.php 21 128876 5 5
+/calendar.php 20 78262 4 6
+/aboutourchurch.php 17 63852 2 6
+/ministries.php 11 49426 1 1
+/lents.php 10 40708 2 3
+/mrngprayersongs.php 5 14530 5 0
+/fonts/revicons/revicons.eot 2 14938 0 2
+/font-awesome/fonts/fontawesome-webfont.eot 2 144852 0 0
+/font-awesome/fonts/fontawesome-webfont.ttf 2 124090 0 1
+/qurbonosongs.php 2 5804 1 1
+/fonts/revicons/revicons.ttf 1 7407 0 1
+END_SIDER

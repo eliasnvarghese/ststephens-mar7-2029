@@ -1,0 +1,120 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id cLKUJahxF2Q2RCcAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 19 Mar 2023 13:33:44 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 19 Mar 2023 13:33:44 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pdziq-00AwW8-Er
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sun, 19 Mar 2023 13:33:44 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pdzil-00AwTg-0l@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1679258024-eximdsn-80762976
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pdziq-00AwW8-Er@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 19 Mar 2023 13:33:44 -0700
+
+--1679258024-eximdsn-80762976
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 dziqp6MT0Jsb7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=V8C7k8ri c=1 sm=1 tr=0 ts=641771a8 p=c7rHi3_2AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=tVwDmZ5KAAAA:8 a=9Set_7mT5ALt-jahqUIA:9 a=QEXdDO2ut3YA:10 a=Buu-oFnOWisA:10 a=-FEs8UIgK8oA:10 a=acewEgQMpYTsClr9keMy:22 a=uXDc5IVRVMwUJ8aWOsgP:22 a=29Sj1Bl0XPFXuc2s7gqH:22 a=HSbwx9ufG7nHf_OHZtVS:22 ::
+    100.00
+
+--1679258024-eximdsn-80762976
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 dziqp6MT0Jsb7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=V8C7k8ri c=1 sm=1 tr=0 ts=641771a8 p=c7rHi3_2AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=tVwDmZ5KAAAA:8 a=9Set_7mT5ALt-jahqUIA:9 a=QEXdDO2ut3YA:10 a=Buu-oFnOWisA:10 a=-FEs8UIgK8oA:10 a=acewEgQMpYTsClr9keMy:22 a=uXDc5IVRVMwUJ8aWOsgP:22 a=29Sj1Bl0XPFXuc2s7gqH:22 a=HSbwx9ufG7nHf_OHZtVS:22 :: 100.00
+
+--1679258024-eximdsn-80762976
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pdzil-00AwTg-0l
+	for ginojohn@gmail.com;
+	Sun, 19 Mar 2023 13:33:43 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jenny White.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.255.93.141
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.255.93.141
+From: JennaSM@salesai.com
+Reply-To: JennaSM@salesai.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pdzil-00AwTg-0l@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 19 Mar 2023 13:33:39 -0700
+
+You have been contacted by Jenny White, and the message is as follows.
+
+"Hi Business Leader,
+
+
+Struggling to stay ahead of the competition and generate videos that
+convert? Looking for a time- or cost-effective solution?
+
+
+Say hello to Pictory - the AI-powered text-to-video software. Create
+professional-looking videos, posts, tweets, and more with a few
+clicks! Turn your blogs, webinars, transcripts, and books into
+stunning visuals in minutes.
+
+
+No more paying marketing agencies thousands of dollars. For less than
+$30, you will be able to bring your ideas to life with Pictory's AI
+technology and attract more likes, shares, and engagements today.
+
+
+
+Try it out free: https://www.thegoodlifetime.club
+
+
+
+I am sure you will find it helpful. 
+
+Best, 
+
+Jenna Smith 
+
+Video AI 
+
+Jenny White
+
+Video AI 
+
+
+
+
+
+
+"
+
+You can contact Jenny White via email, JennaSM@salesai.com
+
+--1679258024-eximdsn-80762976--

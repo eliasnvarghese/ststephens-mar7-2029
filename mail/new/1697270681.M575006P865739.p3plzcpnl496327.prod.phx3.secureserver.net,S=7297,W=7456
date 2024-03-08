@@ -1,0 +1,159 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id UCgzIplLKmXLNQ0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 14 Oct 2023 01:04:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 14 Oct 2023 01:04:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qrZdZ-003dqs-Gq
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 14 Oct 2023 01:04:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qrZdU-003dpd-Qn@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697270681-eximdsn-403056633
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qrZdZ-003dqs-Gq@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 14 Oct 2023 01:04:41 -0700
+
+--1697270681-eximdsn-403056633
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rZdZqnE5Y93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=652a4b99 p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=gV2LrLbRbdQA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=4RBI0uEkOaMA:10 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=lLQGzv12lBppoZ0apmUA:9 a=QEXdDO2ut3YA:10 a=hNdNIiBW_hcA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=8HVhLsSfxesIzJXuCx0I:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1697270681-eximdsn-403056633
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 rZdZqnE5Y93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=652a4b99 p=FjYQhgBUAAAA:20 p=LbYH2qZkAAAA:20 p=WXINskxj198A:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=gV2LrLbRbdQA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=4RBI0uEkOaMA:10 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=lLQGzv12lBppoZ0apmUA:9 a=QEXdDO2ut3YA:10 a=hNdNIiBW_hcA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=8HVhLsSfxesIzJXuCx0I:22 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1697270681-eximdsn-403056633
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qrZdU-003dpd-Qn
+	for ginojohn@gmail.com;
+	Sat, 14 Oct 2023 01:04:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Georgina Marsh.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 196.19.240.133
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.19.240.133
+From: marsh.georgina@msn.com
+Reply-To: marsh.georgina@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qrZdU-003dpd-Qn@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 14 Oct 2023 01:04:36 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Georgina Marsh, and the message is as
+follows.
+
+"To the ststephenssanjose.org Administrator!
+
+I'm Georgina and I just recently found your site -
+ststephenssanjose.org - in the searches.
+
+Here is what that means to me…
+
+Your SEO’s doing its job.
+
+You’re receiving eyeballs – mine.
+
+Your content’s pretty good, would not change a thing.
+
+BUT…
+
+Eyeballs do not pay the invoices.
+
+CUSTOMERS do.
+
+And surveys reveal that 7 out of 10 visitors to ststephenssanjose.org
+will drop by, have a look, and then leave without doing else.
+
+It’s like they never were even there.
+
+You can resolve this.
+
+You can make it extremely easy for them to raise their hand, say,
+“okay, let’s talk” without demanding them to even so much as
+pull their cell phone from their pocket… due to Visitor to Lead
+Widget.
+
+Web Visitors Into Leads is a software widget that lives on your
+website, ready and waiting to grab any visitor’s Name, Email
+address, and Phone Number. It lets you know immediately – so you can
+converse with that lead immediately… without delay they head for
+those hills.
+
+CLICK HERE https://bit.ly/3LPltcD to experience a Live Demo with Lead
+Conversion Software right now to see exactly exactly how it
+functions.
+
+Now it’s also true it’s also true that when contacting to hot
+leads, you MUST act fast – the difference between contacting someone
+within 5 minutes versus is huge!
+
+That’s what makes our new SMS Text With Lead feature so powerful so
+effective… you’ve got their phone number, so now you can you can
+start a text message (SMS) conversation with them… so even if they
+don’t take you up take you up on your offer immediately, you
+continue to text them to text them new offers, new content, content
+links, and new reasons to do business with you to do business with you
+with you.
+
+This could change everything change everything for you and your
+enterprise.
+
+CLICK HERE https://bit.ly/3LPltcD to learn more about everything Web
+Visitors Into Leads can do and start turing eyeballs into revenue.
+
+Georgina
+PS: Visitor to Lead Widget offers a FREE 14 days trial – you could
+be converting up to 100x more leads immediately!
+It even includes International Long Distance Calling.
+Paying customers are out there.
+Starting connecting today by CLICKING HERE by CLICKING HERE
+https://bit.ly/3LPltcD to try Visitor to Lead Widget now.
+
+If you'd like to unsubscribe click here https://bit.ly/3rD0G5c
+
+Just a swift remark - the names and email address used here, Georgina
+and Marsh, are placeholders and not really authentic contact details.
+We appreciate openness and desired to confirm you are conscious! If
+you aspire to communicate with the real person responsible for this
+communication, kindly visit our website, and we’ll unite you with
+the correct individual.
+"
+
+You can contact Georgina Marsh via email, marsh.georgina@msn.com
+
+--1697270681-eximdsn-403056633--

@@ -1,0 +1,167 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id b8FmEchtZGNt7j0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 18:41:28 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 18:41:28 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqli4-00H1wp-6S
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 18:41:28 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqli3-00H1w4-M0@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667526088-eximdsn-806942505
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqli4-00H1wp-6S@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:41:28 -0700
+
+--1667526088-eximdsn-806942505
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qli3oIUDxF1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63646dc8 p=CyhBphT7diAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=GDK_EeUnXWsA:10 a=kpVTYQD7AAAA:8 a=RgBw9RmQAAAA:8 a=MujotgOR9fklIQrHEh8A:9 a=QEXdDO2ut3YA:10 a=VobXl5Puzz8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=fp9V6mhuTF7y7hZudOBs:22 ::
+    100.00
+
+--1667526088-eximdsn-806942505
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qli3oIUDxF1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63646dc8 p=CyhBphT7diAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=GDK_EeUnXWsA:10 a=kpVTYQD7AAAA:8 a=RgBw9RmQAAAA:8 a=MujotgOR9fklIQrHEh8A:9 a=QEXdDO2ut3YA:10 a=VobXl5Puzz8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=fp9V6mhuTF7y7hZudOBs:22 :: 100.00
+
+--1667526088-eximdsn-806942505
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqli3-00H1w4-M0
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 18:41:27 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Charlieneona.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.188.21.49
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.188.21.49
+From: viabimil_905@mail.ru
+Reply-To: viabimil_905@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqli3-00H1w4-M0@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:41:27 -0700
+
+You have been contacted by Charlieneona, and the message is as
+follows.
+
+"
+В год Гусь-Хрустальный посещает
+несколько тысяч туристов, приехавших
+полюбоваться и купить себе на память
+изысканный знаменитый гусевской
+хрусталь или забавную стеклянную
+фигурку на память https://ruscrystal.com/page/762
+   Посетив музейную экспозицию и
+побывав на стекольном заводе, Вы
+узнаете, как варят стекло, выдувают
+замысловатые фигуры и вазы
+https://ruscrystal.com/page/814
+   А побывав в святая святых
+стекловаренной индустрии, Вы навсегда
+влюбитесь в этот хрусталь, такой
+самобытный, узнаваемый, а стало быть, 
+непохожий на продукцию других заводом
+https://ruscrystal.com/page/149
+ 
+Принц тихо застонал и пошевелился
+https://ruscrystal.com
+   Она замерла и затаила дыхание
+https://ruscrystal.com/page/157
+   Стоя около кровати, Эбби смогла
+получше его разглядеть
+https://ruscrystal.com/page/361
+   В прошлом ей не раз приходилось
+видеть принца, и она всегда считала
+его самым красивым из троих братьев
+https://ruscrystal.com/page/730
+   А сейчас… сейчас он казался ей еще
+красивее https://ruscrystal.com/page/70
+   Атласная кожа, мускулистое тело,
+которое так и хочется погладить
+https://ruscrystal.com/page/748
+   Странное ощущение https://ruscrystal.com/page/150
+   Ведь они не были близко знакомы
+https://ruscrystal.com/page/798
+   Тогда почему у нее дрожат пальцы?
+Господи! Неужели, даже спящий, он так
+действует на нее, что она не сможет
+выполнить задуманное? Ну нет! Этого
+нельзя допустить https://ruscrystal.com/page/656
+   Сжав зубы, Эбби наклонилась и
+протянула руку https://ruscrystal.com/page/157
+   Еще чуть-чуть, и… 
+
+Ученые нашли ответ https://ruscrystal.com/page/783
+   Оказалось, что горный хрусталь, в
+отличие от стекла, легко проводит
+тепло https://ruscrystal.com/page/680
+   Он как бы  его всей своей массой
+https://ruscrystal.com/page/790
+   А стекло быстро нагревается с
+поверхности, хотя внутри может
+оставаться холодным https://ruscrystal.com/page/740
+ 
+104810791083109110951077108510801077 1075108610881085108610751086
+10931088109110891090107210831103 108610821072107910991074107210771090
+1073108310721075108610871088108011031090108510861077
+1074108310801103108510801077 10851072
+10871086107910741086108510861095108510801082,
+10911083109110951096107210771090 10891074108610811089109010741072
+10821088108610741080, 10731083107210751086109010741086108810851086
+107410831080110310771090 10851072 108810721073108610901091
+10841086107910751072, 1074
+10861089108610731077108510851086108910901080
+10751080108710861092108010791072 1080 1101108710801092108010791072
+https://ruscrystal.com/page/767
+   105710871086108910861073108910901074109110771090
+11011084108610941080108610851072108311001085108610841091
+1088107210741085108610741077108910801102
+https://ruscrystal.com/page/697
+   10711074108311031077109010891103
+1087108810771082108810721089108510991084
+10721084109110831077109010861084, 109010721082 108210721082
+1089108510801084107210771090 1085107710751072109010801074108510861077
+108610901085108610961077108510801077 10891086
+1089109010861088108610851099 107610881091107510801093
+10831102107610771081 https://ruscrystal.com/page/481
+   1042108610891087108810861080107910741086107610801090,
+107210821090108010741080107910801088109110771090,
+108910861093108810721085110310771090 1101108510771088107510801102
+https://ruscrystal.com/page/416
+   1055108810771082108810721089108510861077
+10891088107710761089109010741086 107610831103
+108410771076108010901072109410801080 https://ruscrystal.com
+ 
+"
+
+You can contact Charlieneona via email, viabimil_905@mail.ru
+
+--1667526088-eximdsn-806942505--

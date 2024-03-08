@@ -1,0 +1,117 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 5GvOLL31dmShxgMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 31 May 2023 00:22:37 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 31 May 2023 00:22:37 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q4GAH-0012eH-Mh
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 31 May 2023 00:22:37 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q4GAC-0012dH-0G@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1685517757-eximdsn-138582706
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q4GAH-0012eH-Mh@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 31 May 2023 00:22:37 -0700
+
+--1685517757-eximdsn-138582706
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 4GAHqIXB21CLM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QoOYn3+d c=1 sm=1 tr=0 ts=6476f5bd p=C3W8NYedRRNqHRBW5bxr:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=5iOLkRDIAAAA:8 a=BkpHzsgbAAAA:8 a=3j4BkbkPAAAA:8 a=hbqJtUbYQJcXgDPpiQoA:9 a=QEXdDO2ut3YA:10 a=4HjghVFMmPgA:10 a=NT3U7qq-svwA:10 a=RDlhpwSE5fwA:10 a=acewEgQMpYTsClr9keMy:22 a=wZ9QLA1zjY_3jlZmshub:22 ::
+    100.00
+
+--1685517757-eximdsn-138582706
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 4GAHqIXB21CLM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QoOYn3+d c=1 sm=1 tr=0 ts=6476f5bd p=C3W8NYedRRNqHRBW5bxr:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=5iOLkRDIAAAA:8 a=BkpHzsgbAAAA:8 a=3j4BkbkPAAAA:8 a=hbqJtUbYQJcXgDPpiQoA:9 a=QEXdDO2ut3YA:10 a=4HjghVFMmPgA:10 a=NT3U7qq-svwA:10 a=RDlhpwSE5fwA:10 a=acewEgQMpYTsClr9keMy:22 a=wZ9QLA1zjY_3jlZmshub:22 :: 100.00
+
+--1685517757-eximdsn-138582706
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q4GAC-0012dH-0G
+	for ginojohn@gmail.com;
+	Wed, 31 May 2023 00:22:37 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by ODOZIAKUCHI.
+X-PHP-Script: ststephenssanjose.org/contact.php for 138.199.59.143
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 138.199.59.143
+From: hello@odoziakuchi.com
+Reply-To: hello@odoziakuchi.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q4GAC-0012dH-0G@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 31 May 2023 00:22:32 -0700
+
+You have been contacted by ODOZIAKUCHI, and the message is as follows.
+
+"Good day! 
+ 
+Looking for Heirloom fine Jewellery? 
+ 
+ODOZIAKUCHI is an exciting jewellery brand that celebrates
+individuality, our mission is to create sentimental jewellery with
+meaning that move on to become heirlooms for generations. 
+ 
+We pride ourselves in making sustainable timeless jewellery with
+endless versatility and aesthetics. We are driven to making fine
+jewellery that can be worn for everyday looks or occasional wear. 
+ 
+We pride ourselves in being open and honest, staying true to our
+mission. All our jewellery are hallmarked at the Assay Office in
+London which guarantees our customers of the authenticity of there
+jewels. 
+ 
+We welcome you to follow us on our journey to bringing a full range of
+jewellery pieces that tell a story. 
+ 
+You can visit our website and view our social media channels to get
+inspired! Simply click on the below links 
+ 
+Website: https://odoziakuchi.com/ 
+ 
+Email: info@odoziakuchi.com 
+ 
+Blog:https://odoziakuchi.com/ethical-diamonds/ 
+ 
+Instagram: https://www.instagram.com/odoziakuchi/ 
+ 
+Facebook: https://m.facebook.com/Odoziakuchi 
+ 
+We look forward to having you with us on this journey 
+ 
+Kind regards, 
+ 
+ODOZIAKUCHI"
+
+You can contact ODOZIAKUCHI via email, hello@odoziakuchi.com
+
+--1685517757-eximdsn-138582706--

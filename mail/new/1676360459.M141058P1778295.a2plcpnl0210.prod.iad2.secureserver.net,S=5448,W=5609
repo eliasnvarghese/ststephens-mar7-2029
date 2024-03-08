@@ -1,0 +1,161 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id AANlOAo762N3IhsAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 14 Feb 2023 00:40:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 14 Feb 2023 00:40:59 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pRpvu-007WaS-O9
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 14 Feb 2023 00:40:58 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pRpvp-007W6f-Mw@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1676360458-eximdsn-1983296159
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pRpvu-007WaS-O9@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 14 Feb 2023 00:40:58 -0700
+
+--1676360458-eximdsn-1983296159
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 RpvupvmUgy0IM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=DbjR6NhW c=1 sm=1 tr=0 ts=63eb3b0a p=z2sTiNZWAAAA:8 p=XVEFRpEmAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=_ChsbkT0tjYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=x7bEGLp0ZPQA:10 a=SmBw2u1oQQ8A:10 a=huvbmMDMAAAA:8 a=mK_AVkanAAAA:8 a=jJHn8hgbofM9q9E5TU4A:9 a=QEXdDO2ut3YA:10 a=0ZiBhnRQM5kA:10 a=KyYZJfTCSdMA:10 a=-ctXBezKQRe92_3d2eiw:22 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 a=G-3Wg1hGuANsyOQNqA8o:22 a=y5sVf_D8qEkV7B6LZBhh:22 a=jycUkCEYUnZvh0PkXkJV:22 a=3gWm3jAn84ENXaBijsEo:22 ::
+    100.00
+
+--1676360458-eximdsn-1983296159
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 RpvupvmUgy0IM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=DbjR6NhW c=1 sm=1 tr=0 ts=63eb3b0a p=z2sTiNZWAAAA:8 p=XVEFRpEmAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=_ChsbkT0tjYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=x7bEGLp0ZPQA:10 a=SmBw2u1oQQ8A:10 a=huvbmMDMAAAA:8 a=mK_AVkanAAAA:8 a=jJHn8hgbofM9q9E5TU4A:9 a=QEXdDO2ut3YA:10 a=0ZiBhnRQM5kA:10 a=KyYZJfTCSdMA:10 a=-ctXBezKQRe92_3d2eiw:22 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 a=G-3Wg1hGuANsyOQNqA8o:22 a=y5sVf_D8qEkV7B6LZBhh:22 a=jycUkCEYUnZvh0PkXkJV:22 a=3gWm3jAn84ENXaBijsEo:22 :: 100.00
+
+--1676360458-eximdsn-1983296159
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pRpvp-007W6f-Mw
+	for ginojohn@gmail.com;
+	Tue, 14 Feb 2023 00:40:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Everett Gersten.
+X-PHP-Script: ststephenssanjose.org/contact.php for 173.245.75.217
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 173.245.75.217
+From: gersten.everett@googlemail.com
+Reply-To: gersten.everett@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pRpvp-007W6f-Mw@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 14 Feb 2023 00:40:53 -0700
+
+You have been contacted by Everett Gersten, and the message is as
+follows.
+
+"Hello,
+
+Are you struggling to generate enough leads and sales for your
+business? You're not alone.
+
+Many businesses struggle with this same problem. But did you know that
+creating more videos and writing content can help solve this problem?
+
+
+Yes, it's true! However, the manual process of creating content can be
+time-consuming and overwhelming.
+
+That's where Jasper comes in. Our AI-powered tool allows you to create
+high-quality videos and written content with minimal time and effort.
+
+
+Say goodbye to the manual grind and hello to more time to focus on
+growing your business.
+
+So why wait? Click the link below to learn more about how Jasper can
+revolutionize your content marketing and drive more leads and sales
+for your business.
+easycontentbot.com
+
+
+
+Jim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+224 Westwood Cir, Dalton, GA  30721
+
+unsubscribe:
+optoutforever.com/?customer_domain=ststephenssanjose.org"
+
+You can contact Everett Gersten via email,
+gersten.everett@googlemail.com
+
+--1676360458-eximdsn-1983296159--

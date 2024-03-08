@@ -1,0 +1,131 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id INRmDmJmqmRkNwYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 09 Jul 2023 00:48:50 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 09 Jul 2023 00:48:50 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qIPA2-001iOs-66
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 09 Jul 2023 00:48:50 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qIP9x-001iNM-LZ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1688888930-eximdsn-2129038747
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qIPA2-001iOs-66@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 09 Jul 2023 00:48:50 -0700
+
+--1688888930-eximdsn-2129038747
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 IPA2qPHKDb3ts :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64aa6662 p=dLwBiQK8xhQA:10 p=NOMmYBa5AAAA:20 p=x3GG675rMJJzg7ns5OWJ:22 p=Q0rXV7VsArxg05LWMPFd:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=uh_4kEVlWAIA:10 a=pGLkceISAAAA:8 a=22Knug4dficGzRRs0lsA:9 a=QEXdDO2ut3YA:10 a=dGTOSqivn9QA:10 a=WhJUjeydUUIA:10 a=KyYZJfTCSdMA:10 a=elTdVgkNb-uoVj2YUklL:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1688888930-eximdsn-2129038747
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 IPA2qPHKDb3ts :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64aa6662 p=dLwBiQK8xhQA:10 p=NOMmYBa5AAAA:20 p=x3GG675rMJJzg7ns5OWJ:22 p=Q0rXV7VsArxg05LWMPFd:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=uh_4kEVlWAIA:10 a=pGLkceISAAAA:8 a=22Knug4dficGzRRs0lsA:9 a=QEXdDO2ut3YA:10 a=dGTOSqivn9QA:10 a=WhJUjeydUUIA:10 a=KyYZJfTCSdMA:10 a=elTdVgkNb-uoVj2YUklL:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1688888930-eximdsn-2129038747
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qIP9x-001iNM-LZ
+	for ginojohn@gmail.com;
+	Sun, 09 Jul 2023 00:48:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Roland Sullivan.
+X-PHP-Script: ststephenssanjose.org/contact.php for 63.161.76.238
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 63.161.76.238
+From: roland.sullivan@gmail.com
+Reply-To: roland.sullivan@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qIP9x-001iNM-LZ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 09 Jul 2023 00:48:45 -0700
+
+You have been contacted by Roland Sullivan, and the message is as
+follows.
+
+"Hey,
+ 
+You are about to experience a whole new way to boost your Sales
+Online.
+ 
+It’s time you get rid of your old traditional way of selling.
+ 
+AI Genius is now LIVE to make your offers convert 17X better than
+before
+ 
+First AI App that turns any website, blog eCom store, funnel and so on
+into an Interactive Lead and Sales Generator with just a line of
+code.
+ 
+>> Click here to see it in action https://shorturl.at/rAIX4 
+ 
+It is a futuristic interactive lead and sales machine
+ 
+…with AI Video Messaging, Voice Messaging, And Screen Capturing
+features
+ 
+You just copy and paste a code while AI Genius bridges the gap between
+buyers and business owners in a MODERN, exciting, fresh and truly
+INTERACTIVE way.
+ 
+Until they buy your offers, products and services
+
+>> Click here to get the New Interactive Lead and Sales Generator.
+https://shorturl.at/rAIX4 
+ 
+The thing is,
+ 
+You have been leaving lots of sales on the table
+ 
+because of a lack of communication between you and your customers.
+ 
+AI Genuis also works with any sales funnel on Click funnel, Shopify,
+Wix, Convertri, WordPress, Custom Scripts, and more.
+ 
+And we are giving limited Early birds access to this AI Genius at a
+ridiculous price with other exciting and mind-blowing bonuses that
+come with it.
+ 
+Don’t miss this opportunity to change your business forever.
+ 
+>> Click here to Turn any Website into Sales Machine & Interactive
+Leads https://shorturl.at/rAIX4 
+ 
+See you Inside, 
+Sign Off
+Roland"
+
+You can contact Roland Sullivan via email, roland.sullivan@gmail.com
+
+--1688888930-eximdsn-2129038747--

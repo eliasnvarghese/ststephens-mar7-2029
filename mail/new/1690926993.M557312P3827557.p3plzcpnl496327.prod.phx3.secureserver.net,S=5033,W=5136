@@ -1,0 +1,103 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id T9y3IJF/yWRlZzoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 01 Aug 2023 14:56:33 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 01 Aug 2023 14:56:33 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qQxM1-00G3ih-Fs
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 01 Aug 2023 14:56:33 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qQxLw-00G3V7-Ik@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690926993-eximdsn-1816870072
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qQxM1-00G3ih-Fs@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 01 Aug 2023 14:56:33 -0700
+
+--1690926993-eximdsn-1816870072
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 QxM1qdTFJQ7u7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64c97f91 p=-6H0g-GuAAAA:8 p=Zq9oxlZtNRlUI8O2lwdy:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Lr7ZjMdRtMQA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=7knRnZa17zoA:10 a=AAvYLDLOAAAA:8 a=UGmJrckYrJwW7c4gUTMA:9 a=QEXdDO2ut3YA:10 a=hLQX1AOt1-UA:10 a=n-kRCqdUKCReR6eLsxGM:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1690926993-eximdsn-1816870072
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 QxM1qdTFJQ7u7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64c97f91 p=-6H0g-GuAAAA:8 p=Zq9oxlZtNRlUI8O2lwdy:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Lr7ZjMdRtMQA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=7knRnZa17zoA:10 a=AAvYLDLOAAAA:8 a=UGmJrckYrJwW7c4gUTMA:9 a=QEXdDO2ut3YA:10 a=hLQX1AOt1-UA:10 a=n-kRCqdUKCReR6eLsxGM:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1690926993-eximdsn-1816870072
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qQxLw-00G3V7-Ik
+	for ginojohn@gmail.com;
+	Tue, 01 Aug 2023 14:56:33 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Mindy Callaway.
+X-PHP-Script: ststephenssanjose.org/contact.php for 149.50.212.8
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 149.50.212.8
+From: callaway.mindy@msn.com
+Reply-To: callaway.mindy@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qQxLw-00G3V7-Ik@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 01 Aug 2023 14:56:28 -0700
+
+You have been contacted by Mindy Callaway, and the message is as
+follows.
+
+"JOIN FUNNEL BASE AND GET :
+
+Smart Funnel Booster:
+
+Optimize your funnel by displaying social proof on your website,
+deeply analyze your visitors' behavior and fully control your sales
+funnel
+
+Drive Micro Conversions:
+
+Skyrocket your sales with the power of micro conversions! Bring your
+visitors to the next sales funnel stage by displaying notifications 
+
+Verified Video Reviews:
+Implement user-generated content into your marketing strategy. Show
+verified video reviews to build trust & increase conversion rates on
+your website or landing page.
+Increase Funnel Profit:
+Constantly upgrade your funnel and triple your profit with advanced
+tools to properly attract visitors, generate their confidence and
+convert them into loyal customers.
+
+GET IT NOW AT:  https://funnelbase.net/"
+
+You can contact Mindy Callaway via email, callaway.mindy@msn.com
+
+--1690926993-eximdsn-1816870072--

@@ -1,0 +1,97 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id aCfLE3YwEGR15gQAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 14 Mar 2023 01:29:42 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 14 Mar 2023 01:29:42 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pc02Q-001MOD-1v
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 14 Mar 2023 01:29:42 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pc02J-001MFL-AE@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1678782582-eximdsn-222609301
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pc02Q-001MOD-1v@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 14 Mar 2023 01:29:42 -0700
+
+--1678782582-eximdsn-222609301
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 c02Pp1LTZlA5Y :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=64103076 p=2LPmVE-dAAAA:8 p=TlETnLgF97TVjy-T1isZ:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=8st7pk2pAAAA:8 a=Pffp8UKs6l2h0KTX8h8A:9 a=QEXdDO2ut3YA:10 a=tvDV-zwN-W8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=if7f4CE2qmk4Mqls-wVL:22 a=MYWCqv0SJBwfc0_LEIKu:22 ::
+    100.00
+
+--1678782582-eximdsn-222609301
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 c02Pp1LTZlA5Y :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=64103076 p=2LPmVE-dAAAA:8 p=TlETnLgF97TVjy-T1isZ:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=8st7pk2pAAAA:8 a=Pffp8UKs6l2h0KTX8h8A:9 a=QEXdDO2ut3YA:10 a=tvDV-zwN-W8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=if7f4CE2qmk4Mqls-wVL:22 a=MYWCqv0SJBwfc0_LEIKu:22 :: 100.00
+
+--1678782582-eximdsn-222609301
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pc02J-001MFL-AE
+	for ginojohn@gmail.com;
+	Tue, 14 Mar 2023 01:29:40 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by AlanVeita.
+X-PHP-Script: ststephenssanjose.org/contact.php for 86.124.142.150
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 86.124.142.150
+From: dewysesatre@agentieimobiliara.dynainbox.com
+Reply-To: dewysesatre@agentieimobiliara.dynainbox.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pc02J-001MFL-AE@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 14 Mar 2023 01:29:35 -0700
+
+You have been contacted by AlanVeita, and the message is as follows.
+
+"Cryptocurrencies news have been dominating headlines in recent years
+as a revolutionary form of digital money. As the world becomes more
+and more digitalized,
+[url=https://cryptocurrencies.help]cryptocurrencies news[/url] and
+market are emerging as an attractive alternative to traditional fiat
+currencies. With their decentralized design and sophisticated
+technology, these virtual assets offer users greater control over
+their funds and the potential for much higher returns than traditional
+investments. But with all the hype around the space, it can be
+difficult to separate fact from fiction. That’s why we’ve gathered
+the latest news and insights on
+[url=https://cryptocurrencies.help]cryptocurrencies[/url] so you can
+stay up-to-date and make informed decisions. From the latest news on
+major coins like Bitcoin and Ethereum, to in-depth analysis of the
+cryptocurrencies news and market, our articles provide a comprehensive
+look at this rapidly evolving space.        
+[url=https://cryptocurrencies.help]https://Cryptocurrencies.help[/url]"
+
+You can contact AlanVeita via email,
+dewysesatre@agentieimobiliara.dynainbox.com
+
+--1678782582-eximdsn-222609301--

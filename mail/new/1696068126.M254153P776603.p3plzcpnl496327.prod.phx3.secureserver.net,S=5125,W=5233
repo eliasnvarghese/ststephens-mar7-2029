@@ -1,0 +1,108 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 0D3IDh7yF2Wb2QsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 30 Sep 2023 03:02:06 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 30 Sep 2023 03:02:06 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qmWnW-003GwY-6J
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 30 Sep 2023 03:02:06 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qmWnR-003Gp2-P7@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696068126-eximdsn-969581405
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qmWnW-003GwY-6J@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 30 Sep 2023 03:02:06 -0700
+
+--1696068126-eximdsn-969581405
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 mWnWq06HWIKdu :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=6517f21e p=wrGB_3IrcR8A:10 p=5Gzl0gi_L4QA:10 p=SVwul41uyr7RioyyPooA:9 p=9ims1EfKMCMA:10 p=pv99ZE5NLAiHUtgfiuGS:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=jykRck5FK-MA:10 a=zgiPjhLxNE0A:10 a=zZCYzV9kfG8A:10 a=KyYZJfTCSdMA:10 a=b0kvmU_ktHGtAZ6kvux7:22 a=KE-o72ApteBOHbuFHYsp:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1696068126-eximdsn-969581405
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 mWnWq06HWIKdu :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=6517f21e p=wrGB_3IrcR8A:10 p=5Gzl0gi_L4QA:10 p=SVwul41uyr7RioyyPooA:9 p=9ims1EfKMCMA:10 p=pv99ZE5NLAiHUtgfiuGS:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=jykRck5FK-MA:10 a=zgiPjhLxNE0A:10 a=zZCYzV9kfG8A:10 a=KyYZJfTCSdMA:10 a=b0kvmU_ktHGtAZ6kvux7:22 a=KE-o72ApteBOHbuFHYsp:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1696068126-eximdsn-969581405
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qmWnR-003Gp2-P7
+	for ginojohn@gmail.com;
+	Sat, 30 Sep 2023 03:02:06 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Sarah Lancaster.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 38.154.99.145
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 38.154.99.145
+From: sarahlancaster5432@gmail.com
+Reply-To: sarahlancaster5432@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qmWnR-003Gp2-P7@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 30 Sep 2023 03:02:01 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Sarah Lancaster, and the message is as
+follows.
+
+"Hi there,
+
+Are you tired of high WordPress plugin and theme costs? Meet WP
+Vault.
+
+Access 25K+ GPL-Licensed WordPress Plugins and Themes with:
+
+- Unlimited downloads
+- Unlimited site installations
+- Automatic updates
+- One-click installation
+- VirusTotal reports
+- Unlimited resell rights
+- Bulk download/install options
+
+Our subscription model is straightforward – a one-time payment of
+just $120 for lifetime access. No recurring monthly fees, and you can
+use it on as many sites as you need.
+
+If you have any questions, or would like to try the plugin demo so you
+can see for yourself, get back in touch.
+
+Best regards,
+Sarah"
+
+You can contact Sarah Lancaster via email,
+sarahlancaster5432@gmail.com
+
+--1696068126-eximdsn-969581405--

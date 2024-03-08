@@ -1,0 +1,127 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id aFR/FO8BSmMBjDoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 14 Oct 2022 17:42:23 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 14 Oct 2022 17:42:23 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1ojVFv-00G8Lr-8L
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 14 Oct 2022 17:42:23 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1ojVFu-00G8LB-Of@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1665794543-eximdsn-688148787
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ojVFv-00G8Lr-8L@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 14 Oct 2022 17:42:23 -0700
+
+--1665794543-eximdsn-688148787
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 jVFvoxUg7F1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=634a01ef p=obYRRw5tAAAA:8 p=ziAcytp2AAAA:8 p=oRkqbCoaAAAA:8 p=JA3Z4DHBAAAA:8 p=BwAnLdCffn8A:10 p=jKHqIHcvYdgA:10 p=LT0Cev02HfgA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=CW8a68JbJokA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=Qawa6l4ZSaYA:10 a=l5PD6EmuMvUA:10 a=x7bEGLp0ZPQA:10 a=Vd5e3DuRq8YA:10 a=55jZN7dOAAAA:8 a=hkvVjxvrBd74bl-_kqMA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=sOZkVNyiMecA:10 a=TvfQRCeI0bkA:10 a=iVOdy3BR1_8A:10 a=nNEI9iGQxfIA:10 a=Ypp7gIUqwW0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=R0DMp2NlANyKN4cyJC9v:22 a=Py0lE5SvLXCAg98xzZ0K:22 a=GZ4MpXurEHM2uBO77CRR:22 a=61FXhy9x3HhDFwaGU_tK:22 ::
+    100.00
+
+--1665794543-eximdsn-688148787
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 jVFvoxUg7F1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=634a01ef p=obYRRw5tAAAA:8 p=ziAcytp2AAAA:8 p=oRkqbCoaAAAA:8 p=JA3Z4DHBAAAA:8 p=BwAnLdCffn8A:10 p=jKHqIHcvYdgA:10 p=LT0Cev02HfgA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=CW8a68JbJokA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=Qawa6l4ZSaYA:10 a=l5PD6EmuMvUA:10 a=x7bEGLp0ZPQA:10 a=Vd5e3DuRq8YA:10 a=55jZN7dOAAAA:8 a=hkvVjxvrBd74bl-_kqMA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=sOZkVNyiMecA:10 a=TvfQRCeI0bkA:10 a=iVOdy3BR1_8A:10 a=nNEI9iGQxfIA:10 a=Ypp7gIUqwW0A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=R0DMp2NlANyKN4cyJC9v:22 a=Py0lE5SvLXCAg98xzZ0K:22 a=GZ4MpXurEHM2uBO77CRR:22 a=61FXhy9x3HhDFwaGU_tK:22 :: 100.00
+
+--1665794543-eximdsn-688148787
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1ojVFu-00G8LB-Of
+	for ginojohn@gmail.com; Fri, 14 Oct 2022 17:42:22 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by deinnpush.
+X-PHP-Script: ststephenssanjose.org/contact.php for 79.126.92.63
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 79.126.92.63
+From: deinnpush@rambler.ru
+Reply-To: deinnpush@rambler.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1ojVFu-00G8LB-Of@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 14 Oct 2022 17:42:22 -0700
+
+You have been contacted by deinnpush, and the message is as follows.
+
+"Купить химию для мойки катеров
+автообилей вагонов,
+[url=http://www.matrixboard.ru/index.htm]химия от
+производителя[/url] 
+Качественная промышленная и бытовая
+химия 
+ 
+[url=http://www.matrixboard.ru/index01.htm]matrixboard.ru[/url] 
+ 
+Все для детей 
+ 
+ 
+[url=http://www.freshdesigner.ru/bookstehnik-053.htm]freshdesigner.ru[/url]
+
+ 
+Как выбрать химию для автомоек 
+ 
+ 
+[url=http://www.matrixplus.ru/dkp-013.htm]matrixplus.ru сайт
+химия для клининга, для
+ультразвуковой очистки[/url] 
+ 
+Химия для очистки катеров и прочей
+техники 
+ 
+[url=http://regionsv.ru/chem2.html]regionsv.ru[/url] 
+ 
+Химия для быстрой очистки днищ и
+бортов водного транспорта
+[url=http://boat.matrixplus.ru]boat.matrixplus.ru[/url] от
+водного камня и отложений. Очистка
+корпусов лодок, гидроциклов,
+аквабайков, яхт, катеров, кораблей,
+пантонов. 
+Пути развития ЛК Орион - 128, Орион
+Восточный Экспресс как собрать 
+[[url=http://rdk.regionsv.ru/orion128-express.htm],
+персональные компьютеры на
+процессорах i808, i8085, z80[/url] 
+Сборка самого перспективного 8-ми
+битного компьютера
+[url=http://rdk.regionsv.ru/[url=http://rdk.regionsv.ru/orion128-express.htm]ПК
+Орион Восточный Экспресс 512 - сборка и
+наладка[/url] 
+Орион ПРО
+[url=http://rdk.regionsv.ru/orion128-pro.htm]Сборка и
+наладка Орион-ПРО[/url] 
+ 
+[url=http://uzo.matrixplus.ru]Как очистить
+инжектор[/url]"
+
+You can contact deinnpush via email, deinnpush@rambler.ru
+
+--1665794543-eximdsn-688148787--

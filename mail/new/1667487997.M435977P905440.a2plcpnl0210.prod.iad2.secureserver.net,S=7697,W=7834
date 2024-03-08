@@ -1,0 +1,137 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ECUXGP3YY2Pg0A0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 08:06:37 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 08:06:37 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqbnh-003t0q-9E
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 08:06:37 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqbng-003t0T-Oh@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667487997-eximdsn-168494760
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqbnh-003t0q-9E@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 08:06:37 -0700
+
+--1667487997-eximdsn-168494760
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qbnhozGFKa2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=6363d8fd p=9fCyO1QoW6QA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=mRjDMKnDZOoA:10 a=p2xhioQqAAAA:8 a=RgBw9RmQAAAA:8 a=75jWp6viQEQAyx6SF9gA:9 a=QEXdDO2ut3YA:10 a=9AHY1EnWix8A:10 a=BkL1IYQVMUUA:10 a=CJR7ZyBu_2UA:10 a=vEFmmktjdFQA:10 a=Ai4-YyA5uSoA:10 a=NSBek8Zt_VsA:10 a=6TA2aZKICu8A:10 a=tf86RqQrQYMA:10 a=kcl1b6iZS3cA:10 a=jJAyuH1ihRgA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=aJJ6O3Oh9uUmqPPZBw55:22 ::
+    100.00
+
+--1667487997-eximdsn-168494760
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qbnhozGFKa2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=6363d8fd p=9fCyO1QoW6QA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=mRjDMKnDZOoA:10 a=p2xhioQqAAAA:8 a=RgBw9RmQAAAA:8 a=75jWp6viQEQAyx6SF9gA:9 a=QEXdDO2ut3YA:10 a=9AHY1EnWix8A:10 a=BkL1IYQVMUUA:10 a=CJR7ZyBu_2UA:10 a=vEFmmktjdFQA:10 a=Ai4-YyA5uSoA:10 a=NSBek8Zt_VsA:10 a=6TA2aZKICu8A:10 a=tf86RqQrQYMA:10 a=kcl1b6iZS3cA:10 a=jJAyuH1ihRgA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=aJJ6O3Oh9uUmqPPZBw55:22 :: 100.00
+
+--1667487997-eximdsn-168494760
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqbng-003t0T-Oh
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 08:06:36 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by WarrenInick.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.197.74.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.197.74.6
+From: abtite_278@mail.ru
+Reply-To: abtite_278@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqbng-003t0T-Oh@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 08:06:36 -0700
+
+You have been contacted by WarrenInick, and the message is as follows.
+
+"Обновлено 8 фев 2022Анкерная тяга – это
+крепежное изделие из металла,
+представляющее из себя цельный
+стержень с двумя приваренными
+шпильками с резьбой или с резьбой на
+основном 
+https://gm-k.ru/gruvloki/perexod-pod-rezbu/pr8960.html
+   https://gm-k.ru/homuty/u-skoba1/etr/etr121.html
+   https://gm-k.ru/index.php?route=product/category&path=247_250_639
+ 
+230 Страница Быстрозажимной болт /
+Зажимной болт 232 Плоский зажимной болт
+/ Потайной болт 234 Универсальный болт /
+Позиционирующий болт 236
+Cоединительный болт потайной / 238
+Шестигранный соединительный 
+Шпильки представляют собой
+металлические стержни с резьбой на
+обоих концах
+https://gm-k.ru/index.php?route=product/product&path=726_781&product_id=4293
+   Предназначены они для крепления
+различных деталей с помощью гаек
+https://gm-k.ru/gruvloki/homut-r-u/xpc4821.html
+   В одну из соединяемых деталей
+шпильку ввертывают наглухо, на
+выступающий из другой детали конец
+шпильки навертывают гайку
+https://gm-k.ru/index.php?route=product/category&path=726_834
+ 
+
+Шурупы и саморезы также имеют ряд
+отличительных особенностей
+https://gm-k.ru/index.php?route=product/category&path=1811_1817_1905
+   Перед тем, как закрепить конструкцию
+с помощью шурупа, необходимо
+просверлить отверстие, и только после
+данной процедуры вкрутить изделие
+https://gm-k.ru/index.php?route=product/category&path=683_684_693
+   В этом случае работа с саморезами
+является достаточно легкой
+https://gm-k.ru/samorezy-shurupi/
+   Данные крепежные изделия не требуют
+никакой подготовки
+https://gm-k.ru/index.php?route=product/product&path=155_188_228&product_id=2488
+   Их можно использовать сразу
+https://gm-k.ru/bsr/bsr1/bsr16x150.html
+   Саморезы отличаются размером и
+ходом резьбы, поэтому прежде, чем
+купить изделие, определитесь с целями
+использования
+https://gm-k.ru/index.php?route=product/category&path=1811_1817_1915
+ 
+ГОСТ Р 52644-2006 (ИСО 7411:1984) Болты
+высокопрочные с шестигранной
+головкой с увеличенным размером под
+ключ для металлических конструкций
+https://gm-k.ru/index.php?route=product/category&path=683_463_472
+   Технические условия (с Изменением N 1)
+В настоящий стандарт 
+"
+
+You can contact WarrenInick via email, abtite_278@mail.ru
+
+--1667487997-eximdsn-168494760--

@@ -1,0 +1,147 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 9XcQOt07cGQHRDQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 25 May 2023 21:55:57 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 25 May 2023 21:55:57 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q2PUb-00EN4S-TU
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 25 May 2023 21:55:57 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q2PUW-00EN3U-EU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1685076957-eximdsn-1957692656
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q2PUb-00EN4S-TU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 25 May 2023 21:55:57 -0700
+
+--1685076957-eximdsn-1957692656
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 2PUbqu50brKX1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=cp1d0X0i c=1 sm=1 tr=0 ts=64703bdd p=Ja-LcX6gBj4A:10 p=8ziX2TstAAAA:20 p=rUxL9sQo2fBU2KmoFE57:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=ChwPMmuTgKEA:10 a=pGLkceISAAAA:8 a=HoTG_hX1o2IjgxaCUMQA:9 a=QEXdDO2ut3YA:10 a=DdlvpTPPU-oA:10 a=rf6FBjpiqUwA:10 a=KyYZJfTCSdMA:10 a=nJZqb-bRkp11t3KH3res:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=A-6xxEP7AtzbowyN2k8A:22 ::
+    100.00
+
+--1685076957-eximdsn-1957692656
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 2PUbqu50brKX1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=cp1d0X0i c=1 sm=1 tr=0 ts=64703bdd p=Ja-LcX6gBj4A:10 p=8ziX2TstAAAA:20 p=rUxL9sQo2fBU2KmoFE57:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=ChwPMmuTgKEA:10 a=pGLkceISAAAA:8 a=HoTG_hX1o2IjgxaCUMQA:9 a=QEXdDO2ut3YA:10 a=DdlvpTPPU-oA:10 a=rf6FBjpiqUwA:10 a=KyYZJfTCSdMA:10 a=nJZqb-bRkp11t3KH3res:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=A-6xxEP7AtzbowyN2k8A:22 :: 100.00
+
+--1685076957-eximdsn-1957692656
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q2PUW-00EN3U-EU
+	for ginojohn@gmail.com;
+	Thu, 25 May 2023 21:55:57 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by John Corell.
+X-PHP-Script: ststephenssanjose.org/contact.php for 63.161.76.147
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 63.161.76.147
+From: john.corell@gmail.com
+Reply-To: john.corell@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q2PUW-00EN3U-EU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 25 May 2023 21:55:52 -0700
+
+You have been contacted by John Corell, and the message is as follows.
+
+"Hi,
+
+
+Lets face it: AI is taking over and it's happening RIGHT NOW whether
+we like it or not! 
+
+
+There's a new type of money-making AI tool, that allows you create
+stunning looking websites, for small businesses in the USA
+
+
+This Brand-New software makes you thousands of dollars helping
+businesses sell online.
+
+
+There are over 33.5 million small businesses in the US alone…
+
+
+5.5 Million small scale businesses in the United Kingdom..
+
+
+And over 2 million small businesses in Canada…
+
+
+Looking for someone to help them with:
+
+
+Branding for businesses
+
+Corporate website for their businesses
+
+Voice-overs
+
+Marketing Copy
+
+Emails...
+
+VoiceOvers
+
+
+And they're willing to pay $500-$5,000 or more each month, for anyone
+who can deliver these services.
+
+
+Now, imagine an AI software that does all of these automatically. With
+AI
+
+
+RobinAI is a brand new AI Tool that helps you create 'internet
+assets''  like  Marketing Copy for your Landing Pages, Websites,
+Stunning Graphics like Banners, Visuals, Graphics, and more in
+minutes. Fully powered by ChatGPT.
+
+
+No waiting time, no delays.
+
+Some of our early  users have already made $500-$5,000 or more,
+monthly, creating marketing copy,  content, websites, blogs, videos,
+banners, ads, blogs, and more for them.
+
+
+Go Check it out NOW: bit.ly/3Wzcel6 
+
+See you at the top, 
+
+John
+
+"
+
+You can contact John Corell via email, john.corell@gmail.com
+
+--1685076957-eximdsn-1957692656--

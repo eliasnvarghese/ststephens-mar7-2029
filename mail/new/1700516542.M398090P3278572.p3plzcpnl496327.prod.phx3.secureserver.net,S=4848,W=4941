@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id fGN8F77SW2XsBjIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 20 Nov 2023 14:42:22 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 20 Nov 2023 14:42:22 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r5C2A-00Dku3-Ag
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 20 Nov 2023 14:42:22 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r5C25-00Dksc-7B@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700516542-eximdsn-897718735
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r5C2A-00Dku3-Ag@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 20 Nov 2023 14:42:22 -0700
+
+--1700516542-eximdsn-897718735
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 5C2ArNCNt93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=655bd2be p=ZAzKHn1zAAAA:8 p=OqVxiVHdAAAA:8 p=E0P9n_-E_m831Ik4bU1I:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=7HtTNT0Yi2tPEkWRhwQA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=N9mvxbwdM7IA:10 a=KyYZJfTCSdMA:10 a=4mxi8ZV9pmg8RQs8bRSc:22 a=qFa1DmBGh8SRkZj0qjYC:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1700516542-eximdsn-897718735
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 5C2ArNCNt93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=655bd2be p=ZAzKHn1zAAAA:8 p=OqVxiVHdAAAA:8 p=E0P9n_-E_m831Ik4bU1I:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=7HtTNT0Yi2tPEkWRhwQA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=N9mvxbwdM7IA:10 a=KyYZJfTCSdMA:10 a=4mxi8ZV9pmg8RQs8bRSc:22 a=qFa1DmBGh8SRkZj0qjYC:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1700516542-eximdsn-897718735
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r5C25-00Dksc-7B
+	for ginojohn@gmail.com;
+	Mon, 20 Nov 2023 14:42:22 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by 클라우드웨이브.
+X-PHP-Script: ststephenssanjose.org/contact.php for 121.163.27.11
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 121.163.27.11
+From: help@gwmetabitt.com
+Reply-To: help@gwmetabitt.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r5C25-00Dksc-7B@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 20 Nov 2023 14:42:17 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by 클라우드웨이브, and the message is
+as follows.
+
+"클라우드웨이즈은 컨테이너, 쿠버네티스 등
+클라우드 네이티브 플랫폼으로 애플리케이션을
+창작해 온프레미스, 하이브리드 클라우드, 멀티
+클라우드, 엣지 등에 올리고, 통합된 관리를
+구현하는 영역이다. 클라우드 커넥트는 클라우드에
+올린 애플리케이션을 안전하게 연결하고, 연결의
+품질을 보장하면서 관리자의 가시성을 제공하는
+것을 쓴다. 
+ 
+[url=https://cloud-korea.com/]클라우드웨이즈 결제[/url]"
+
+You can contact 클라우드웨이브 via email, help@gwmetabitt.com
+
+--1700516542-eximdsn-897718735--

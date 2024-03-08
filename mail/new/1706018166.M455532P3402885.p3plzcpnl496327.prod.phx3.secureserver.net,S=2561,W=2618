@@ -1,0 +1,57 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id mLDxGnbFr2WF7DMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 23 Jan 2024 06:56:06 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 23 Jan 2024 06:56:06 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rSHG2-00EHZK-1D
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 23 Jan 2024 06:56:06 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rSHFx-00EHOM-10@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rSHG2-00EHZK-1D@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 23 Jan 2024 06:56:06 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rSHFx-00EHOM-10
+	for ginojohn@gmail.com;
+	Tue, 23 Jan 2024 06:56:01 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Leora Permewan.
+X-PHP-Script: ststephenssanjose.org/contact.php for 45.137.126.42
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 45.137.126.42
+From: permewan.leora@gmail.com
+Reply-To: permewan.leora@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rSHFx-00EHOM-10@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 23 Jan 2024 06:56:01 -0700
+
+You have been contacted by Leora Permewan, and the message is as
+follows.
+
+"START YOUR DAY is a daily newsletter that shows you easy ways to make
+money, gives you ideas to easily learn new skills, as well as giving
+you helpful ways to lose weight and just about anything else you can
+think of - DAILY!
+
+LEARN MORE: https://StartYourDayIdeas.com"
+
+You can contact Leora Permewan via email, permewan.leora@gmail.com

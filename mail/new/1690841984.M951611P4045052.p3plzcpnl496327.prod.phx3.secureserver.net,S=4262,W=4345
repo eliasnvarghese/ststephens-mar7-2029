@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id +CSlOIAzyGT8uD0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 31 Jul 2023 15:19:44 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 31 Jul 2023 15:19:44 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qQbEu-00GydA-St
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 31 Jul 2023 15:19:44 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qQbEu-00Gycz-O2@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690841984-eximdsn-1935360714
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qQbEu-00GydA-St@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 31 Jul 2023 15:19:44 -0700
+
+--1690841984-eximdsn-1935360714
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 QbEuqXfT4Q7u7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64c83380 p=YW5dOBq9AAAA:8 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=0kzM3CcBAAAA:8 a=a0uM2N3NnCLVZQY7mtsA:9 a=QEXdDO2ut3YA:10 a=2CK7EVuICRgA:10 a=rHKw3bK6xg0A:10 a=KyYZJfTCSdMA:10 a=i-O2wU8BxgnDUvVRmKaJ:22 a=kGriIURwBNv3G_iacvw3:22 a=CE9uLJsCu-G7ENrl3HQA:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1690841984-eximdsn-1935360714
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 QbEuqXfT4Q7u7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64c83380 p=YW5dOBq9AAAA:8 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=0kzM3CcBAAAA:8 a=a0uM2N3NnCLVZQY7mtsA:9 a=QEXdDO2ut3YA:10 a=2CK7EVuICRgA:10 a=rHKw3bK6xg0A:10 a=KyYZJfTCSdMA:10 a=i-O2wU8BxgnDUvVRmKaJ:22 a=kGriIURwBNv3G_iacvw3:22 a=CE9uLJsCu-G7ENrl3HQA:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1690841984-eximdsn-1935360714
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qQbEu-00Gycz-O2
+	for ginojohn@gmail.com;
+	Mon, 31 Jul 2023 15:19:44 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by RobertScubs.
+X-PHP-Script: ststephenssanjose.org/contact.php for 8.219.211.176
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 8.219.211.176
+From: qgzpkq@course-fitness.com
+Reply-To: qgzpkq@course-fitness.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qQbEu-00Gycz-O2@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 31 Jul 2023 15:19:44 -0700
+
+You have been contacted by RobertScubs, and the message is as follows.
+
+"小琪兒娛樂 
+ 
+ 
+https://taipei9527.com/"
+
+You can contact RobertScubs via email, qgzpkq@course-fitness.com
+
+--1690841984-eximdsn-1935360714--

@@ -1,0 +1,120 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ALcCBdnQOGTDGh4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 13 Apr 2023 21:04:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 13 Apr 2023 21:04:41 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pnAfw-008Kcy-Up
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Thu, 13 Apr 2023 21:04:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pnAfr-008KZW-Hs@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1681445080-eximdsn-56992209
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pnAfw-008Kcy-Up@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 13 Apr 2023 21:04:40 -0700
+
+--1681445080-eximdsn-56992209
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 nAfwppzCsbx9d :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=LqtUiFRc c=1 sm=1 tr=0 ts=6438d0d8 p=NF0Qmhf-zPFBHBz2qhgx:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=1s9oDtrl3R0A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=mMr5i8OCHJsA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=CQ2x6llFQLeaOcPS1ewA:9 a=QEXdDO2ut3YA:10 a=fahSoq2dVEsA:10 a=uAc9fVzOpMAA:10 a=fa7sxaXfSt38aAmWRsle:22 a=b7Edyt6fBdGWwyY4OYvQ:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=Opjcf2rbXONI77XeNpWh:22 ::
+    100.00
+
+--1681445080-eximdsn-56992209
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 nAfwppzCsbx9d :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=LqtUiFRc c=1 sm=1 tr=0 ts=6438d0d8 p=NF0Qmhf-zPFBHBz2qhgx:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=1s9oDtrl3R0A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=mMr5i8OCHJsA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=CQ2x6llFQLeaOcPS1ewA:9 a=QEXdDO2ut3YA:10 a=fahSoq2dVEsA:10 a=uAc9fVzOpMAA:10 a=fa7sxaXfSt38aAmWRsle:22 a=b7Edyt6fBdGWwyY4OYvQ:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=Opjcf2rbXONI77XeNpWh:22 :: 100.00
+
+--1681445080-eximdsn-56992209
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pnAfr-008KZW-Hs
+	for ginojohn@gmail.com;
+	Thu, 13 Apr 2023 21:04:40 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Marcelino Trott.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.153.193
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.153.193
+From: trott.marcelino@gmail.com
+Reply-To: trott.marcelino@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pnAfr-008KZW-Hs@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 13 Apr 2023 21:04:35 -0700
+
+You have been contacted by Marcelino Trott, and the message is as
+follows.
+
+"Hi,
+
+Are you tired of spending hours every day on social media, trying to
+keep up with your followers and post engaging content? Do you wish
+there was a way to automate your social media accounts so you could
+focus on other things?
+
+If so, then you need to check out SociAi! SociAi is the world's first
+fully ChatGPT4-driven app that automates social media accounts by
+creating and posting trending viral content such as videos, images,
+reels, and much more.
+
+SociAi uses artificial intelligence to create high-quality content
+that is sure to engage your followers. It also automatically schedules
+your posts so you don't have to worry about it.
+
+In addition, SociAi tracks your analytics so you can see how your
+posts are performing. This way, you can make sure you're getting the
+most out of your social media efforts.
+
+SociAi is the perfect solution for busy entrepreneurs who want to grow
+their social media presence without spending hours every day on it.
+
+Here are some additional details about Soci Ai:
+
+Soci Ai uses the power of OpenAI's ChatGPT4 language model to create
+and post trending viral content, video reels, and posts.
+Soci Ai is perfect for anyone who wants to save time, get more views,
+and drive traffic to their social media accounts.
+Soci Ai is easy to use and can be set up in minutes.
+Soci Ai is affordable and offers a free trial.
+
+Try SociAi today and see the results for yourself!
+https://warriorplus.com/o2/a/kp8x0p/0
+
+Sincerely,
+
+P.S. If you act now, you can get a special discount on SociAi. Just
+use the code "EARLYBIRD" at checkout.
+"
+
+You can contact Marcelino Trott via email, trott.marcelino@gmail.com
+
+--1681445080-eximdsn-56992209--

@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id odhBKr+02mXifzcACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 24 Feb 2024 20:32:15 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 24 Feb 2024 20:32:15 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1re5FP-00FGCc-20
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 24 Feb 2024 20:32:15 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1re5FK-00FG88-2C@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1708831935-eximdsn-1885682653
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1re5FP-00FGCc-20@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 24 Feb 2024 20:32:15 -0700
+
+--1708831935-eximdsn-1885682653
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 e5FPrD4n6oF5N :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J9QJ7xnS c=1 sm=1 tr=0 ts=65dab4bf p=1XndT5ZHPm0B_ZhC2NLn:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=vruv-hMYAAAA:8 a=c1PW3pZ2AAAA:8 a=ex7MImEZ6oGtIboy8bIA:9 a=QEXdDO2ut3YA:10 a=dz3PfeCj01gA:10 a=KyYZJfTCSdMA:10 a=X9_wB_1FRzsSq3EhqtQc:22 a=Fut8llMS3decibkZLxsj:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1708831935-eximdsn-1885682653
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 e5FPrD4n6oF5N :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J9QJ7xnS c=1 sm=1 tr=0 ts=65dab4bf p=1XndT5ZHPm0B_ZhC2NLn:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=vruv-hMYAAAA:8 a=c1PW3pZ2AAAA:8 a=ex7MImEZ6oGtIboy8bIA:9 a=QEXdDO2ut3YA:10 a=dz3PfeCj01gA:10 a=KyYZJfTCSdMA:10 a=X9_wB_1FRzsSq3EhqtQc:22 a=Fut8llMS3decibkZLxsj:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1708831935-eximdsn-1885682653
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1re5FK-00FG88-2C
+	for ginojohn@gmail.com;
+	Sat, 24 Feb 2024 20:32:15 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Donovanmeads.
+X-PHP-Script: ststephenssanjose.org/contact.php for 24.56.28.200
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 24.56.28.200
+From: catch@bake.jsafes.com
+Reply-To: catch@bake.jsafes.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1re5FK-00FG88-2C@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 24 Feb 2024 20:32:10 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Donovanmeads, and the message is as
+follows.
+
+"The go-to service for commercial carpet cleaning in Phoenix.
+Efficient and reliable. 
+[url=https://www.oxifresh.com/locations/az/phoenix-carpet-cleaning/?utm_source=gmb&utm_medium=social&promo_code=GM5000]commercial
+carpet cleaning service Phoenix 85077![/url]"
+
+You can contact Donovanmeads via email, catch@bake.jsafes.com
+
+--1708831935-eximdsn-1885682653--

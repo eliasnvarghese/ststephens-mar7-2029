@@ -1,0 +1,153 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id uHZ/FeIHNmUfbwgACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 22 Oct 2023 22:42:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 22 Oct 2023 22:42:58 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1quniM-002OLI-9k
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 22 Oct 2023 22:42:58 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1quniH-002OHR-My@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698039778-eximdsn-2023471934
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1quniM-002OLI-9k@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 22 Oct 2023 22:42:58 -0700
+
+--1698039778-eximdsn-2023471934
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 uniMq05uYjLE1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=653607e2 p=UK4hOm1Kvq0kAMSsWW4A:9 p=4GjRKcdAZc00mMmgOmqo:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=H7J3qrMANAIA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=UwajvVon_p0A:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=CqA5FjR06a0A:10 a=CK4VCVj0HNAA:10 a=KyYZJfTCSdMA:10 a=Opjcf2rbXONI77XeNpWh:22 a=R-BYIrWvnITntb6IYTq8:22 a=sEizRDV54BTsyRf2bdFd:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1698039778-eximdsn-2023471934
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 uniMq05uYjLE1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=653607e2 p=UK4hOm1Kvq0kAMSsWW4A:9 p=4GjRKcdAZc00mMmgOmqo:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=H7J3qrMANAIA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=UwajvVon_p0A:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=CqA5FjR06a0A:10 a=CK4VCVj0HNAA:10 a=KyYZJfTCSdMA:10 a=Opjcf2rbXONI77XeNpWh:22 a=R-BYIrWvnITntb6IYTq8:22 a=sEizRDV54BTsyRf2bdFd:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1698039778-eximdsn-2023471934
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1quniH-002OHR-My
+	for ginojohn@gmail.com;
+	Sun, 22 Oct 2023 22:42:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Gita Howden.
+X-PHP-Script: ststephenssanjose.org/contact.php for 192.210.201.20
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 192.210.201.20
+From: gita.howden@gmail.com
+Reply-To: gita.howden@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1quniH-002OHR-My@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 22 Oct 2023 22:42:53 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Gita Howden, and the message is as follows.
+
+"Hey,
+
+Did you try to make m0ney with
+AI, ChatGPT, Bard, Midjourney etc
+but failed miserably?
+
+They are all awesome tools, but
+alone and without a good strategy
+you'll just be wasting your time,
+money & effort with little to NO results.
+
+What if tell you - there is a *SECRET
+AI HACK* that pulls in millions of
+visitors/m with 30-sec AI FACE videos
+WITHOUT subs, followers, ads or
+SEO...
+
+==> Go here to Unlock this *AI HACK* now...
+https://warriorplus.com/o2/a/c8sl03/0
+
+
+Introducing ViralFaces AI, the
+groundbreaking NEW top-secret
+A.I Face Tech that brings UNLIMITED
+Traffic to your offers!
+
+With this revolutionary platform,
+you can create 100s of attention-grabbing
+A.I. Face Videos with zero effort
+in just minutes that speak and
+go viral on YouTube Shorts & Instagram
+Reels!
+
+You get 10x more sales, reach,
+followers, and engagement...
+
+Here're some results newbies getting
+with Face videos..
+
+- 10M views posting a self-improvement short
+- 1.5M views posting a gym tips reel
+- 2.8M views posting a health tips reel
+
+And they all started with no subs,
+no followers, no ads - all using AI in min.
+
+The sooner you get started, the
+MOST you'll be able to exploit this
+method - just handful of people
+doing it right now and you can be
+one of them..
+
+==> WATCH QUICK DEMO HERE https://warriorplus.com/o2/a/c8sl03/0
+
+ViralFaces AI is available for a Low
+One Time Price during its public launch 
+for the next few days only..
+
+After this week, it will turn into a 
+higher recurring subscription price model.
+
+Act fast and get your account at the 
+lowest price ever.
+
+==> Get ViralFaces AI For A Low 
+One-Time Price Now https://warriorplus.com/o2/a/c8sl03/0 
+
+See you inside.
+
+All the best
+"
+
+You can contact Gita Howden via email, gita.howden@gmail.com
+
+--1698039778-eximdsn-2023471934--

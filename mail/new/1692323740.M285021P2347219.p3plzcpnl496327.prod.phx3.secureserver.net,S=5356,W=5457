@@ -1,0 +1,101 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id yCrZEJzP3mTT0CMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 17 Aug 2023 18:55:40 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 17 Aug 2023 18:55:40 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qWoiC-009qcF-6u
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 17 Aug 2023 18:55:40 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qWoi7-009qYc-Bi@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1692323740-eximdsn-1541036630
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qWoiC-009qcF-6u@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 17 Aug 2023 18:55:40 -0700
+
+--1692323740-eximdsn-1541036630
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 WoiCqBRSvzbc9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=64decf9c p=TNyIVH6XAAAA:20 p=3Ffn6dUkT7JwozKlynEA:9 p=Ldrtx2_dSYYA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=jM0yBQzAh3IA:10 a=IkcTkHD0fZMA:10 a=G2jJQodCnwsA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=pfTvMgvgEPAA:10 a=K7-zUOoYAAAA:8 a=PCvGR1VsAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=H826HFP00o0A:10 a=MUx4qCwQqXIA:10 a=zZCYzV9kfG8A:10 a=KyYZJfTCSdMA:10 a=b-0tDQVsnTlFVgw2dWyH:22 a=J2Y66OQk7GCERZRhCMqs:22 a=g3QCBE6XXdxgzdsXZWD_:22 a=yOhUQQLpi-w4flOYyL__:22 a=Y7uG8eziGMQGTcyfTbCx:22 a=acewEgQMpYTsClr9keMy:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1692323740-eximdsn-1541036630
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 WoiCqBRSvzbc9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=64decf9c p=TNyIVH6XAAAA:20 p=3Ffn6dUkT7JwozKlynEA:9 p=Ldrtx2_dSYYA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=jM0yBQzAh3IA:10 a=IkcTkHD0fZMA:10 a=G2jJQodCnwsA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=pfTvMgvgEPAA:10 a=K7-zUOoYAAAA:8 a=PCvGR1VsAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=H826HFP00o0A:10 a=MUx4qCwQqXIA:10 a=zZCYzV9kfG8A:10 a=KyYZJfTCSdMA:10 a=b-0tDQVsnTlFVgw2dWyH:22 a=J2Y66OQk7GCERZRhCMqs:22 a=g3QCBE6XXdxgzdsXZWD_:22 a=yOhUQQLpi-w4flOYyL__:22 a=Y7uG8eziGMQGTcyfTbCx:22 a=acewEgQMpYTsClr9keMy:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1692323740-eximdsn-1541036630
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qWoi7-009qYc-Bi
+	for ginojohn@gmail.com;
+	Thu, 17 Aug 2023 18:55:40 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Georgina Haynes.
+X-PHP-Script: www.ststephenssanjose.com/contact.php for 167.160.171.132
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 167.160.171.132
+From: georginahaynes620@gmail.com
+Reply-To: georginahaynes620@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qWoi7-009qYc-Bi@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 17 Aug 2023 18:55:35 -0700
+
+You have been contacted by Georgina Haynes, and the message is as
+follows.
+
+"Hi there,
+
+After visiting ststephenssanjose.com we were wondering if you'd be
+interested in our animated explainer video service?
+
+They can explain or promote your business, product or service and are
+especially effective in simplifying something complex, allowing your
+customers to access crucial information without any extensive
+reading.
+
+Here are some samples of our previous work:
+https://drive.google.com/drive/folders/1dLS-IyxSMWOfcCba0DlDG_vb4P-QK_ci?usp=share_link
+
+Our prices start from as little as $195 and include a professional
+script and voice-over.  
+
+Kind Regards,
+Georgina
+
+If you are not interested, unsubscribe here:
+https://explainervideos4u.net/unsubscribe.php?d=ststephenssanjose.com"
+
+You can contact Georgina Haynes via email, georginahaynes620@gmail.com
+
+--1692323740-eximdsn-1541036630--

@@ -1,0 +1,109 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id YHctFJpgQ2Vl1hkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 02 Nov 2023 01:40:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 02 Nov 2023 01:40:58 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qyTG6-00775G-9G
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 02 Nov 2023 01:40:58 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qyTG1-00773x-N5@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698914458-eximdsn-108515840
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qyTG6-00775G-9G@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 01:40:58 -0700
+
+--1698914458-eximdsn-108515840
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yTG6qjlJjjLE1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=6543609a p=zK5MKBerAAAA:20 p=Wvu5rEwKAAAA:20 p=Yg-rGVR5HsEA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=uSk_1WKyUwkA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=cyWE8EtxkVcA:10 a=pGLkceISAAAA:8 a=i4l5Us9WbwUa5xZz39kA:9 a=QEXdDO2ut3YA:10 a=uUoPwAeCi88A:10 a=W0dm4GdQinAA:10 a=OOWbsdTatiwA:10 a=tikSZFVMFAHfGxZeLk9P:22 a=7-oV4KWpvcyhFWvH1fhS:22 a=W23LVWI8GB7MOwYMbQJB:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1698914458-eximdsn-108515840
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 yTG6qjlJjjLE1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=6543609a p=zK5MKBerAAAA:20 p=Wvu5rEwKAAAA:20 p=Yg-rGVR5HsEA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=uSk_1WKyUwkA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=cyWE8EtxkVcA:10 a=pGLkceISAAAA:8 a=i4l5Us9WbwUa5xZz39kA:9 a=QEXdDO2ut3YA:10 a=uUoPwAeCi88A:10 a=W0dm4GdQinAA:10 a=OOWbsdTatiwA:10 a=tikSZFVMFAHfGxZeLk9P:22 a=7-oV4KWpvcyhFWvH1fhS:22 a=W23LVWI8GB7MOwYMbQJB:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1698914458-eximdsn-108515840
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qyTG1-00773x-N5
+	for ginojohn@gmail.com;
+	Thu, 02 Nov 2023 01:40:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MichaelJek.
+X-PHP-Script: ststephenssanjose.org/contact.php for 109.107.176.19
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 109.107.176.19
+From: yourmail@gmail.com
+Reply-To: yourmail@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qyTG1-00773x-N5@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 01:40:53 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by MichaelJek, and the message is as follows.
+
+"Hi Prospective Client, 
+ 
+Do you feel that despite all your endeavors, your website just isn't
+showing up in search results? 
+Perhaps you've invested energy into developing quality content, yet
+your competitors always outperform you, leaving you frustrated? 
+ 
+The problem often lies in the Domain Authority (DA) of your website.
+DA is a paramount factor in the way search engines rank sites. The
+silver lining? It's improvable. 
+ 
+At SEO Spy marketing agency, we specialize in enhancing websites'
+Domain Authority. Here's what we offer: 
+- Effective Link Building: Building meaningful backlinks that enhance
+your site's credibility. 
+- Top-notch Content Strategy: Producing content that not only connects
+with your audience but also attracts search engine attention. 
+- In-depth SEO Audits: Identifying and fixing any problems that could
+be hampering your DA. 
+ 
+Why wait in handling this challenge. Reach out to us for a
+complimentary DA evaluation, and let's design a course to soar your
+website's search rankings. All you need to do is or reach out to us at
+https://t.me/SEO_Spy or order an apropriate service here  ->
+https://tinyurl.com/dahigh1 
+ 
+Sincerely, Expert Search Engine Optimization Specialist with SEO Spy"
+
+You can contact MichaelJek via email, yourmail@gmail.com
+
+--1698914458-eximdsn-108515840--

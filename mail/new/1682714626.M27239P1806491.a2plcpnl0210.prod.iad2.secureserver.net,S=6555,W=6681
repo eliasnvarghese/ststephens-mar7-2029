@@ -1,0 +1,126 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 4Ht4FwEwTGSbkBsAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 28 Apr 2023 13:43:45 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 28 Apr 2023 13:43:45 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1psUwT-007i0k-77
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 28 Apr 2023 13:43:45 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1psUwM-007hy5-Pa@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1682714625-eximdsn-1997217214
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1psUwT-007i0k-77@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 28 Apr 2023 13:43:45 -0700
+
+--1682714625-eximdsn-1997217214
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 sUwTpcCdznjmM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ZJwR213b c=1 sm=1 tr=0 ts=644c3001 p=3qPAkeTxE8mCfiNXrall:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=oXrrVQ81BQcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=Ou4XFhIoB2QA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=P6AliT-1x0lUxCAwdcwA:9 a=QEXdDO2ut3YA:10 a=BM98aOAVkgAA:10 a=KyYZJfTCSdMA:10 a=8SLQPnIAO1ft6GK9qLRv:22 a=vgnrm2lwWDTZDQ8_s1PI:22 a=acewEgQMpYTsClr9keMy:22 a=Opjcf2rbXONI77XeNpWh:22 ::
+    100.00
+
+--1682714625-eximdsn-1997217214
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 sUwTpcCdznjmM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ZJwR213b c=1 sm=1 tr=0 ts=644c3001 p=3qPAkeTxE8mCfiNXrall:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=oXrrVQ81BQcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=Ou4XFhIoB2QA:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=P6AliT-1x0lUxCAwdcwA:9 a=QEXdDO2ut3YA:10 a=BM98aOAVkgAA:10 a=KyYZJfTCSdMA:10 a=8SLQPnIAO1ft6GK9qLRv:22 a=vgnrm2lwWDTZDQ8_s1PI:22 a=acewEgQMpYTsClr9keMy:22 a=Opjcf2rbXONI77XeNpWh:22 :: 100.00
+
+--1682714625-eximdsn-1997217214
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1psUwM-007hy5-Pa
+	for ginojohn@gmail.com;
+	Fri, 28 Apr 2023 13:43:43 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Tabitha Reitz.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.240.148
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.240.148
+From: tabitha.reitz@gmail.com
+Reply-To: tabitha.reitz@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1psUwM-007hy5-Pa@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 28 Apr 2023 13:43:38 -0700
+
+You have been contacted by Tabitha Reitz, and the message is as
+follows.
+
+"Are you tired of spending countless hours managing your social media
+accounts? Do you want to take your social media presence to the next
+level without all the hassle? Look no further than ChatGPT4 (OpenAI)
+powered app for social media automation.
+Introducing…Soci Ai
+
+ChatGPT4 (OpenAI) Powered App for Social Media Automation
+And Content Creation
+
+==> Watch Full Demo Here https://warriorplus.com/o2/a/kp8x0p/0
+SociAl app is designed to make social media management a breeze. With
+just a few simple voice commands, you can auto-post, schedule, and
+automate your social media platforms like Facebook, TikTok, Instagram,
+and more. Soci Ai uses AI-powered algorithms to curate trending viral
+content, video reels, and posts that will drive massive traffic,
+views, and following to your accounts.
+Here are just a few of the features Soci Ai offers:
+Easy-to-use interface: Soci Ai is user-friendly and intuitive, making
+it easy for anyone to use.
+Schedule posts: You can schedule your posts in advance, ensuring that
+your social media presence remains consistent even when you're not
+actively posting.
+Siri-like voice commands: Soci Ai responds to voice commands, just
+like Siri. This means you can use it hands-free while on the go.
+Trending viral content: Soci Ai uses AI algorithms to curate trending
+viral content, video reels, and posts that are guaranteed to drive
+traffic to your social media accounts.
+Massive following: With Soci Ai, you can drive 10,000s of views,
+traffic, and massive following to your social media accounts with
+ease.
+Auto-post, schedule, and automate 12+ major Social media Platforms
+Live Streaming (Pre recorded video) On FB,Youtube,Instagram
+Ai Short Video Generator
+Ai Viral Content Generator
+Ai Image Generator
+Don't let social media management be a burden any longer. Download
+Soci app today and see the results for yourself. Let ChatGPT4 (OpenAI)
+powered app automate your social media presence, so you can focus on
+what really matters.
+Because for the early users of SociAi , we are offering access for
+just a low one-time price
+ equivalent to the price of a takeout dinner for a couple.
+
+Click the button below right now to get started with Soci Ai
+https://warriorplus.com/o2/a/kp8x0p/0
+"
+
+You can contact Tabitha Reitz via email, tabitha.reitz@gmail.com
+
+--1682714625-eximdsn-1997217214--

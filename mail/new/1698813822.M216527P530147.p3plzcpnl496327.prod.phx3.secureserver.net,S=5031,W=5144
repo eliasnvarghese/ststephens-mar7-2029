@@ -1,0 +1,113 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id +HmQDH7XQWXjFggACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 31 Oct 2023 21:43:42 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 31 Oct 2023 21:43:42 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qy34w-002EEQ-52
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 31 Oct 2023 21:43:42 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qy34r-002EDM-91@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698813822-eximdsn-1265510356
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qy34w-002EEQ-52@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 31 Oct 2023 21:43:42 -0700
+
+--1698813822-eximdsn-1265510356
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 y34wqDTVXiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=6541d77e p=nR4UmZS8YVNtIdbG7M4A:9 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=g8TUdU_LZmEA:10 a=dRA9KtsrAAAA:8 a=QEXdDO2ut3YA:10 a=8flvql37EJgA:10 a=IINThOlISvQhCq9rX22Y:22 a=BK8vJLEUKqu4EO4k2C3t:22 a=acewEgQMpYTsClr9keMy:22 a=HNHH-olyoIn_MCbIZ8tT:22 ::
+    100.00
+
+--1698813822-eximdsn-1265510356
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 y34wqDTVXiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=6541d77e p=nR4UmZS8YVNtIdbG7M4A:9 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=g8TUdU_LZmEA:10 a=dRA9KtsrAAAA:8 a=QEXdDO2ut3YA:10 a=8flvql37EJgA:10 a=IINThOlISvQhCq9rX22Y:22 a=BK8vJLEUKqu4EO4k2C3t:22 a=acewEgQMpYTsClr9keMy:22 a=HNHH-olyoIn_MCbIZ8tT:22 :: 100.00
+
+--1698813822-eximdsn-1265510356
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qy34r-002EDM-91
+	for ginojohn@gmail.com;
+	Tue, 31 Oct 2023 21:43:42 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Daniel.
+X-PHP-Script: ststephenssanjose.org/contact.php for 84.17.47.104
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 84.17.47.104
+From: support@newlightdigital.com.hubspot-inbox.com
+Reply-To: support@newlightdigital.com.hubspot-inbox.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qy34r-002EDM-91@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 31 Oct 2023 21:43:37 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Daniel, and the message is as follows.
+
+"Hello, 
+ 
+We are offering a discount on all our digital marketing services. If
+you were ever thinking about doing stuff like this, now is the time.
+This is an amazing deal. Just pick one or more packages below. 
+ 
+1. Write, optimize, and format 3 blog posts per month (1200 words) 
+(Value: $1,350) - Now $800/month 
+ 
+2. 20 hours of SEO per month 
+(Value: $1,500) - Now $1,000/month 
+ 
+3. Email marketing -- two emails per month to your list of prospects 
+(Value $750) - Now $350/month 
+ 
+4. Social media posting -- 12 posts per month on your social channels
+(FB + TW + LN) 
+(Value $900) - Now $450/month 
+ 
+5. All of the above -- for $2,340 
+ 
+Thanks! 
+ 
+ 
+ 
+Daniel 
+Phone: +1 (586) 372-8384 
+Whatsapp: +3 (736) 009-2931 
+Skype: live:.cid.5f5cb3da17814a59 
+Telegram: awesomeagency"
+
+You can contact Daniel via email,
+support@newlightdigital.com.hubspot-inbox.com
+
+--1698813822-eximdsn-1265510356--

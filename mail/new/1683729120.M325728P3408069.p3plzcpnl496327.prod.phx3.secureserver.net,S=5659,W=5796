@@ -1,0 +1,137 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 6M0TE+CqW2TFADQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 10 May 2023 07:32:00 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 10 May 2023 07:32:00 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pwkrI-00EJIY-8g
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 10 May 2023 07:32:00 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pwkr9-00EJFw-RQ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1683729120-eximdsn-750062611
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pwkrI-00EJIY-8g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 10 May 2023 07:32:00 -0700
+
+--1683729120-eximdsn-750062611
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wkrIpGsJPS3fa :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KNWcTnJo c=1 sm=1 tr=0 ts=645baae0 p=8g8QmFQlAAAA:20 p=Vt-_9tAmImQlxzd3SFZK:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=fuJ1kzfWr7kA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=YIlxJshop9sA:10 a=pGLkceISAAAA:8 a=Y3PZs3WsA-YaLU8FAMUA:9 a=QEXdDO2ut3YA:10 a=Yo7RCaJbrPIA:10 a=MR5iDRxbbRcA:10 a=Dma081IO71AA:10 a=0iiRKPvu0REK2VdnwhLU:22 a=bSjlTcz1NbJ0OVjkWBDz:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1683729120-eximdsn-750062611
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 wkrIpGsJPS3fa :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KNWcTnJo c=1 sm=1 tr=0 ts=645baae0 p=8g8QmFQlAAAA:20 p=Vt-_9tAmImQlxzd3SFZK:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=fuJ1kzfWr7kA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=YIlxJshop9sA:10 a=pGLkceISAAAA:8 a=Y3PZs3WsA-YaLU8FAMUA:9 a=QEXdDO2ut3YA:10 a=Yo7RCaJbrPIA:10 a=MR5iDRxbbRcA:10 a=Dma081IO71AA:10 a=0iiRKPvu0REK2VdnwhLU:22 a=bSjlTcz1NbJ0OVjkWBDz:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1683729120-eximdsn-750062611
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pwkr9-00EJFw-RQ
+	for ginojohn@gmail.com;
+	Wed, 10 May 2023 07:32:00 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by EMI Root.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.235.252.209
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.235.252.209
+From: julissa.root@gmail.com
+Reply-To: julissa.root@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pwkr9-00EJFw-RQ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 10 May 2023 07:31:51 -0700
+
+You have been contacted by EMI Root, and the message is as follows.
+
+"Hi
+
+I am here to help you to stop worrying about your social media
+marketing efforts.
+
+I know you know how important it is to your business, so let me tell
+you why picking me and my team is the better decision.
+
+Here's your recipe to social media success:
+
+First, you will need a big bowl.
+Grab a Designer, peel off any ideas that they might have, and sprinkle
+your vision in them.
+Then, get some content creators, give them a nice big squeeze so they
+can get you some great content.
+Make sure to marinade it all with a Strategy,
+And finally, let it rest for 2-3 sleepless months, worrying if it will
+turn out good.
+
+Or, you can just place an order, and we'll do it for you!
+
+Upon hiring us, our marketing services include but are not limited
+to:
+
+ - Optimizing your social media accounts 
+
+ - Content plan and content scheduling
+
+ - Creating high-quality post design branded with your logo or website
+URL
+
+ - Trending hashtag research 
+
+ - Increasing engagement
+
+ - Increasing brand awareness
+
+and much more!
+
+Platforms:
+
+ ~ Facebook
+
+ ~ Instagram
+
+ ~ Twitter
+
+ ~ LinkedIn
+
+ ~ Pinterest
+
+
+Please feel free to contact me before ordering for a customized off
+
+click here let me create your social content and manage it  >>>>
+https://bit.ly/415lQ7O
+
+"
+
+You can contact EMI Root via email, julissa.root@gmail.com
+
+--1683729120-eximdsn-750062611--

@@ -1,0 +1,149 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id qHhuL1LsaWUTHC0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 01 Dec 2023 07:23:14 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 01 Dec 2023 07:23:14 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r94QE-00CPMi-O1
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 01 Dec 2023 07:23:14 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r94Q9-00CPLY-2j@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1701440594-eximdsn-1345673783
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r94QE-00CPMi-O1@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 01 Dec 2023 07:23:14 -0700
+
+--1701440594-eximdsn-1345673783
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 94QErwgtscvGx :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=F9yRNItN c=1 sm=1 tr=0 ts=6569ec52 p=fMrn1DvHn6MA:10 p=AkZ3uxa9nfQA:10 p=Nf3BL1JjAAAA:20 p=yWDHN0XWtW37hjDPcBh_:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=R3wJNkqrL7kBJkdg9foA:9 a=QEXdDO2ut3YA:10 a=-lYbwjDMPdIA:10 a=KyYZJfTCSdMA:10 a=8cyem5sYa5Q9Q4O9Bv0m:22 a=yrVXWi8UOZLRD7uCWzjf:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1701440594-eximdsn-1345673783
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 94QErwgtscvGx :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=F9yRNItN c=1 sm=1 tr=0 ts=6569ec52 p=fMrn1DvHn6MA:10 p=AkZ3uxa9nfQA:10 p=Nf3BL1JjAAAA:20 p=yWDHN0XWtW37hjDPcBh_:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=R3wJNkqrL7kBJkdg9foA:9 a=QEXdDO2ut3YA:10 a=-lYbwjDMPdIA:10 a=KyYZJfTCSdMA:10 a=8cyem5sYa5Q9Q4O9Bv0m:22 a=yrVXWi8UOZLRD7uCWzjf:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1701440594-eximdsn-1345673783
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r94Q9-00CPLY-2j
+	for ginojohn@gmail.com;
+	Fri, 01 Dec 2023 07:23:14 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Josh Jackson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.26.215
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.26.215
+From: josh.jackson@gmail.com
+Reply-To: josh.jackson@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r94Q9-00CPLY-2j@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 01 Dec 2023 07:23:09 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Josh Jackson, and the message is as
+follows.
+
+"������ ❌(Last Chance) … Get Your Hands on BusinessBox AI - Create
+& Launch Your Own AI Platforms & eShops Like ChatGPT, MidJourney &
+JasperAI
+
+I wanted to reach out and let you know about a final opportunity to
+get your hands on BusinessBox AI!
+
+>> BusinessBox AI launch is closing forever In 4 hours.
+https://bit.ly/AiBoxDiscount
+
+
+The World's First App That Creates Your Very Own “Set N’ Forget”
+AI Platforms Like Mid-Journey, Jasper Ai & Chatgpt…
+
+And Lets You Charge People $500 To $1000 Monthly Just For Using It?
+
+Don't miss out on this incredible opportunity to transform the way you
+work.
+
+>>> Act now and get BusinessBox AI
+https://bit.ly/AiBoxDiscount
+
+
+As you may already know, BusinessBox AI is designed to revolutionize
+the way you do AI Business. 
+
+Here are some of the key features of BusinessBox AI:
+
+✅ Create Ai Platforms Like Chatgpt, Mid-Journey & Jasperai…
+
+✅ Charge Your Customers Weekly, Monthly, Or Annually 
+
+✅ Easily Profit $500 To $1000 Monthly Per Customer…
+
+✅ Start Your Own Online Ai Eshops & Charge People For Downloading
+
+✅ Built-In 200+ Ai Tools Included For Maximum Profits!
+
+✅ 1-Click Payment Integration, Accept Payments Through Paypal,
+Stripe
+
+✅ Broadcast Mass Messages To Your Customers With Our 1-Click
+
+✅ Unlimited Website Hosting, Unlimited User Registrations
+
+✅ Unlimited Commercial Rights Included…
+
+✅ In-Depth Customer Login Details, Revenue Details & Traffic
+Details...
+
+But here's the catch: this is the last chance to take advantage of our
+exclusive offer and get BusinessBox AI at a discounted price. 
+
+That's right, time is running out and you don't want to miss this
+opportunity to enhance your productivity and streamline your work
+process.
+So what are you waiting for? 
+Get your hands on BusinessBox AI today and experience the future of
+artificial intelligence. Hurry, this offer won't last long!
+
+Access BusinessBox AI Now : 
+https://bit.ly/AiBoxDiscount
+
+Best regards,
+Josh
+"
+
+You can contact Josh Jackson via email, josh.jackson@gmail.com
+
+--1701440594-eximdsn-1345673783--

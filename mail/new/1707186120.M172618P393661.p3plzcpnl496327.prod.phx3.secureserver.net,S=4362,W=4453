@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id sCnhCMiXwWW9AQYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 05 Feb 2024 19:22:00 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 05 Feb 2024 19:22:00 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rXB60-001eTD-0B
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 05 Feb 2024 19:22:00 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rXB5u-001eS9-1w@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1707186120-eximdsn-42549540
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rXB60-001eTD-0B@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 05 Feb 2024 19:22:00 -0700
+
+--1707186120-eximdsn-42549540
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 XB5zrt6XXodHC :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AfYSHGXG c=1 sm=1 tr=0 ts=65c197c8 p=eq8Fi338AAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=0376jmZ4q862i6MD2KQA:9 a=QEXdDO2ut3YA:10 a=FM00W9rvT0oA:10 a=zgiPjhLxNE0A:10 a=JEls-rIB5-gaylc-t04X:22 a=acewEgQMpYTsClr9keMy:22 a=IMiPDKOlhLfFlYf_jBsD:22 ::
+    100.00
+
+--1707186120-eximdsn-42549540
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 XB5zrt6XXodHC :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AfYSHGXG c=1 sm=1 tr=0 ts=65c197c8 p=eq8Fi338AAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=0376jmZ4q862i6MD2KQA:9 a=QEXdDO2ut3YA:10 a=FM00W9rvT0oA:10 a=zgiPjhLxNE0A:10 a=JEls-rIB5-gaylc-t04X:22 a=acewEgQMpYTsClr9keMy:22 a=IMiPDKOlhLfFlYf_jBsD:22 :: 100.00
+
+--1707186120-eximdsn-42549540
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rXB5u-001eS9-1w
+	for ginojohn@gmail.com;
+	Mon, 05 Feb 2024 19:21:59 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Olivia Davis.
+X-PHP-Script: ststephenssanjose.org/contact.php for 192.186.156.251
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 192.186.156.251
+From: olivia@capitalfundingstore.com
+Reply-To: olivia@capitalfundingstore.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rXB5u-001eS9-1w@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 05 Feb 2024 19:21:54 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Olivia Davis, and the message is as
+follows.
+
+"If you'e been considering some additional working capital you should
+check out our 15 year term loan with interest rates as low as 8%. No
+collateral is required. Just good credit and annual sales of at least
+300k. See if you qualify today at capitalfundingstore.com 
+
+Best Regards,
+
+Olivia Davis"
+
+You can contact Olivia Davis via email, olivia@capitalfundingstore.com
+
+--1707186120-eximdsn-42549540--

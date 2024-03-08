@@ -1,0 +1,70 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id w1dgD+hmp2Xk3C8ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 16 Jan 2024 22:34:32 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 16 Jan 2024 22:34:32 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rPyZM-00DA05-0Y
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 16 Jan 2024 22:34:32 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rPyZH-00D9o0-0a@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rPyZM-00DA05-0Y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 16 Jan 2024 22:34:32 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rPyZH-00D9o0-0a
+	for ginojohn@gmail.com;
+	Tue, 16 Jan 2024 22:34:27 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Sam Forman.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 91.90.121.149
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 91.90.121.149
+From: forman.hal83@gmail.com
+Reply-To: forman.hal83@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rPyZH-00D9o0-0a@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 16 Jan 2024 22:34:27 -0700
+
+You have been contacted by Sam Forman, and the message is as follows.
+
+"Unlock the full potential of your website's Search Engine Rankings
+with our strategic backlinking solutions at
+https://alwaysdigital.co/lg . Our proven techniques will not only
+enhance your site's authority but also boost your google rankings,
+drive targeted traffic, improving your online success.
+
+What you get:
+
+Quality Backlinks: Gain authority with high-quality backlinks from
+reputable sources.
+
+Diverse Strategies: Utilize various techniques like guest posting and
+content outreach for a well-rounded backlink profile.
+
+Customized Approach: Tailored strategies to meet your unique business
+goals and audience.
+
+Ready to see measurable results? Schedule a consultation with our
+experts to discuss how our backlinking services can elevate your
+brand. Click now https://alwaysdigital.co/lg"
+
+You can contact Sam Forman via email, forman.hal83@gmail.com

@@ -1,0 +1,110 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id yLbcExlnzGSpyz8ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 03 Aug 2023 19:48:57 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 03 Aug 2023 19:48:57 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qRks5-00HYG5-95
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 03 Aug 2023 19:48:57 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qRks0-00HYFF-NH@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1691117337-eximdsn-405361642
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qRks5-00HYG5-95@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 03 Aug 2023 19:48:57 -0700
+
+--1691117337-eximdsn-405361642
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Rks5qkI16b3ts :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64cc6719 p=8XmS5SkHWeoA:10 p=Wdn_74p-bZEA:10 p=F-sgOjAGfrBHTtPsGx2Q:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=AhWR1rfG6fsA:10 a=feHJ9b5uAAAA:8 a=pGLkceISAAAA:8 a=GtNATEtvaUC0Js_5XQYA:9 a=QEXdDO2ut3YA:10 a=_Z9Z9Sw0qREA:10 a=PlZJtM6LeA1r0Ko1DsfD:22 a=JlnBv7lPgDpqdZKqtvkR:22 a=gaV_28e4G6KHjFo9qtxF:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1691117337-eximdsn-405361642
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 Rks5qkI16b3ts :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64cc6719 p=8XmS5SkHWeoA:10 p=Wdn_74p-bZEA:10 p=F-sgOjAGfrBHTtPsGx2Q:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=AhWR1rfG6fsA:10 a=feHJ9b5uAAAA:8 a=pGLkceISAAAA:8 a=GtNATEtvaUC0Js_5XQYA:9 a=QEXdDO2ut3YA:10 a=_Z9Z9Sw0qREA:10 a=PlZJtM6LeA1r0Ko1DsfD:22 a=JlnBv7lPgDpqdZKqtvkR:22 a=gaV_28e4G6KHjFo9qtxF:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1691117337-eximdsn-405361642
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qRks0-00HYFF-NH
+	for ginojohn@gmail.com;
+	Thu, 03 Aug 2023 19:48:57 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Susan Karsh.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.153.196
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.153.196
+From: karshsusan@gmail.com
+Reply-To: karshsusan@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qRks0-00HYFF-NH@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 03 Aug 2023 19:48:52 -0700
+
+You have been contacted by Susan Karsh, and the message is as follows.
+
+"Hello,
+
+I was reviewing your site today and I wanted to see if you would be
+open to getting free access to our AI Agents, like ChatGPT, but much
+better. 
+
+Our AI Agents can help you and your team get more done in a day, then
+ever before. 
+
+Here are just a few things they can do:
+- Assist your team with tasks, projects and research, which will
+increase productivity.
+- Crush to-do list by writing - ads, code, emails, content, sales
+copy, contracts & more.
+- Give you time to focus on important things instead of handling
+mundane tasks.
+- Save you time, save you money and make your team much more
+effective.
+
+Watch our video here and see how we can help: https://promo.myaa.com.
+
+Our clients are saving 20% - 30% on operational costs each month by
+using our AI Agents to handle hundreds of tasks.
+
+We would love to have you as a new client. Please check us out and get
+your free AI Agents now, before this offer ends. Start here:
+https://promo.myaa.com.  
+
+Best,
+Susan Karsh
+Myaa"
+
+You can contact Susan Karsh via email, karshsusan@gmail.com
+
+--1691117337-eximdsn-405361642--

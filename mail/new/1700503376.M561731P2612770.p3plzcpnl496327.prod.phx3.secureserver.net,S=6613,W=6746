@@ -1,0 +1,133 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id ALZpIVCfW2Ui3icACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 20 Nov 2023 11:02:56 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 20 Nov 2023 11:02:56 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r58bo-00AzDE-GN
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 20 Nov 2023 11:02:56 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r58bj-00AzBt-8u@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700503376-eximdsn-1416040206
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r58bo-00AzDE-GN@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 20 Nov 2023 11:02:56 -0700
+
+--1700503376-eximdsn-1416040206
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 58borgfzoiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=655b9f50 p=walnL1Tuc4zlISK7Pl1_:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=HOWrpSobyigA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=4gfyQW8ENesA:10 a=huvbmMDMAAAA:8 a=U2Plp-BDAAAA:8 a=pGLkceISAAAA:8 a=uEPEVXeRQcyR1dxC-bUA:9 a=QEXdDO2ut3YA:10 a=DSFNZxK8_OcA:10 a=E3JengKWPXIA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=4qW6d3AUPwk9vKO5kFe-:22 a=vH8rqsBeDTJVD3BTo8We:22 a=qIR2YUk4sNprfTKFphzh:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1700503376-eximdsn-1416040206
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 58borgfzoiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=655b9f50 p=walnL1Tuc4zlISK7Pl1_:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=HOWrpSobyigA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=4gfyQW8ENesA:10 a=huvbmMDMAAAA:8 a=U2Plp-BDAAAA:8 a=pGLkceISAAAA:8 a=uEPEVXeRQcyR1dxC-bUA:9 a=QEXdDO2ut3YA:10 a=DSFNZxK8_OcA:10 a=E3JengKWPXIA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=4qW6d3AUPwk9vKO5kFe-:22 a=vH8rqsBeDTJVD3BTo8We:22 a=qIR2YUk4sNprfTKFphzh:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1700503376-eximdsn-1416040206
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r58bj-00AzBt-8u
+	for ginojohn@gmail.com;
+	Mon, 20 Nov 2023 11:02:56 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Shella Cobbs.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 196.240.237.35
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.240.237.35
+From: cobbs.shella88@gmail.com
+Reply-To: cobbs.shella88@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r58bj-00AzBt-8u@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 20 Nov 2023 11:02:51 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Shella Cobbs, and the message is as
+follows.
+
+"To the ststephenssanjose.org Admin.
+
+This is Shella, and I recently found your site,
+ststephenssanjose.org.
+
+Your site is got much going for it, but here’s an idea to make it
+even MORE effective.
+
+Presenting Web Visitors Into Leads – CLICK HERE
+https://advanceleadgeneration.com for a real-time demo now.
+
+Web Visitors Into Leads is a software which is operates on your site,
+prepared to capture every visitor’s Name, Email address, and Phone
+Number. It alerts you the moment they let you know they’re
+interested – meaning that you can chat to that lead whilst they’re
+really looking over your site.
+
+And, when you’ve secured their phone number, with our new SMS Text
+With Lead feature, you can instantly start a text (SMS)
+conversation… and if they don’t take you up on your offer then,
+you can follow-up with text messages for fresh offers, content links,
+or even just “how you doing?” notes to build a relationship.
+
+CLICK HERE https://advanceleadgeneration.com to learn what Web
+Visitors Into Leads can provide for your business.
+
+The difference between reaching out to someone within 5 minutes
+compared to a half-hour could mean you can be turning up to 100X more
+leads right now!
+
+Shella
+PS: Studies reveal that 70% of a site’s visitors vanish and are gone
+forever in just a moment. Don’t continue losing them. 
+Web Visitors Into Leads provides a FREE 14 days trial – and it
+includes International Long Distance Calling. 
+There are customers waiting to speak with you at this moment…
+don’t keep them waiting. 
+CLICK HERE https://advanceleadgeneration.com to try Web Visitors Into
+Leads now.
+
+Should you wish to unsubscribe click
+https://advanceleadgeneration.com/unsubscribe.aspx?d=ststephenssanjose.org
+
+Just a fast note - the names and email used here, Shella and Cobbs,
+are placeholders and not real contact information. We respect
+transparency and wanted to make sure you’re aware! If you desire to
+reach out with the real person responsible for this message, kindly
+visit our website, and we’ll connect you with the correct
+individual.}
+"
+
+You can contact Shella Cobbs via email, cobbs.shella88@gmail.com
+
+--1700503376-eximdsn-1416040206--

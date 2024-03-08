@@ -1,0 +1,99 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id eEDBHAK8lWQV0jMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 23 Jun 2023 08:36:34 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 23 Jun 2023 08:36:34 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qCipu-00EGCO-Dy
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 23 Jun 2023 08:36:34 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qCipi-00EFwi-4q@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1687534594-eximdsn-1511898305
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qCipu-00EGCO-Dy@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 23 Jun 2023 08:36:34 -0700
+
+--1687534594-eximdsn-1511898305
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 CipuqU3NHUe7e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=6495bc02 p=QQbPJchlQ7gA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=o7B5RtP3xisA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=zO86u8m4-fAA:10 a=iWELIOWmAAAA:8 a=vaJtXVxTAAAA:8 a=WRzq3UA71wlSdUxyDIIA:9 a=QEXdDO2ut3YA:10 a=8d4dQKvSlrcA:10 a=KyYZJfTCSdMA:10 a=NDnGN8Kef_21uUD0f1xL:22 a=acewEgQMpYTsClr9keMy:22 a=dkDm-tGVt1reuMlI81gp:22 ::
+    100.00
+
+--1687534594-eximdsn-1511898305
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 CipuqU3NHUe7e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=6495bc02 p=QQbPJchlQ7gA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=o7B5RtP3xisA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=zO86u8m4-fAA:10 a=iWELIOWmAAAA:8 a=vaJtXVxTAAAA:8 a=WRzq3UA71wlSdUxyDIIA:9 a=QEXdDO2ut3YA:10 a=8d4dQKvSlrcA:10 a=KyYZJfTCSdMA:10 a=NDnGN8Kef_21uUD0f1xL:22 a=acewEgQMpYTsClr9keMy:22 a=dkDm-tGVt1reuMlI81gp:22 :: 100.00
+
+--1687534594-eximdsn-1511898305
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qCipi-00EFwi-4q
+	for ginojohn@gmail.com;
+	Fri, 23 Jun 2023 08:36:34 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jerryshulk.
+X-PHP-Script: ststephenssanjose.org/contact.php for 91.200.224.88
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 91.200.224.88
+From: rastochk4inaplavka@yandex.ru
+Reply-To: rastochk4inaplavka@yandex.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qCipi-00EFwi-4q@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 23 Jun 2023 08:36:22 -0700
+
+You have been contacted by Jerryshulk, and the message is as follows.
+
+" 
+Выездной ремонт спецтехники.
+Осуществляем ремонт любой
+дорожно-строительной техники. -
+Срочный выезд и ремонт в день
+обращения 24/7; - Гарантия на работы и
+запчасти; - Запчасти в наличии:
+оригинальные и аналоги; - Мастера с
+опытом от 8 лет. ...
+расточка проушин стрелы
+экскаватора, техника, восстановление,
+расточка втулок экскаватора,
+расточка проушин ковша зазор.
+коленвал кавасаки 180сс, коленчатый
+вал, расточка корпуса на токарном,
+коленвал, шпон паз коленвал
+ваз. спецтехника, техника,
+техническое обслуживание бульдозера
+т-130, ремонт	[url=https://turbonsk.ru/vosstanovlenie-spetstehniki-bystro-nadezhno-i-ekonomichno/	]	восстановление
+отверстий проушин	[/url]"
+
+You can contact Jerryshulk via email, rastochk4inaplavka@yandex.ru
+
+--1687534594-eximdsn-1511898305--

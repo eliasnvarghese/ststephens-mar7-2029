@@ -1,0 +1,88 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OG5AHvKZlF4oxQEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 13 Apr 2020 09:57:22 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 13 Apr 2020 09:57:22 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	id 1jO2Og-000XJx-DT
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 13 Apr 2020 09:57:22 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1586797042-eximdsn-1986512456
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jO2Og-000XJx-DT@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 13 Apr 2020 09:57:22 -0700
+
+--1586797042-eximdsn-1986512456
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 O2OgjfwcQTjdM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=f7o2+96M c=1 sm=1 tr=0 p=ya08S7UudcMA:10 p=tDy27LarAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=MKtGQD3n3ToA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=cl8xLZFz6L8A:10 a=WudwKeFsRF4A:10 a=ZZnuYtJkoWoA:10 a=6h6VHFADeM2A7JlkCJQA:9 a=QEXdDO2ut3YA:10 a=9QUiCIylqRsA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=n3yJM1v2d00UlJbm0ORf:22 a=SpwHutoSUqvlvF91l3Qd:22 a=p-dnK0njbqwfn1k4-x12:22 a=jjky5lfK57Ii_Ajn6BuG:22 ::
+    100.00
+
+--1586797042-eximdsn-1986512456
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 O2OgjfwcQTjdM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=f7o2+96M c=1 sm=1 tr=0 p=ya08S7UudcMA:10 p=tDy27LarAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=MKtGQD3n3ToA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=cl8xLZFz6L8A:10 a=WudwKeFsRF4A:10 a=ZZnuYtJkoWoA:10 a=6h6VHFADeM2A7JlkCJQA:9 a=QEXdDO2ut3YA:10 a=9QUiCIylqRsA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=n3yJM1v2d00UlJbm0ORf:22 a=SpwHutoSUqvlvF91l3Qd:22 a=p-dnK0njbqwfn1k4-x12:22 a=jjky5lfK57Ii_Ajn6BuG:22 :: 100.00
+
+--1586797042-eximdsn-1986512456
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1jO2Of-000XJX-Vk
+	for ginojohn@gmail.com; Mon, 13 Apr 2020 09:57:22 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by David Biton.
+X-PHP-Script: ststephenssanjose.org/contact.php for 178.162.209.85
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 178.162.209.85
+From: david@graphicdesignisrael.co
+Reply-To: david@graphicdesignisrael.co
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1jO2Of-000XJX-Vk@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 13 Apr 2020 09:57:21 -0700
+
+You have been contacted by David Biton, and the message is as follows.
+
+"Shalom, David here. 
+ 
+Your website and business look great and both seem well established. 
+ 
+I am messaging to both compliment your business + to give a headsup
+about the unreasonably low pricing I am charging (for a limited time)
+to new clients interested in my graphic design services. 
+ 
+Reply back to say Hi, ask to see my portfolio, or visit my site. 
+ 
+Email me: david@graphicdesignisrael.co 
+Website: http://GraphicDesignIsrael.co"
+
+You can contact David Biton via email, david@graphicdesignisrael.co
+
+--1586797042-eximdsn-1986512456--

@@ -1,0 +1,136 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id GJAuEMRWRWV7hw0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 03 Nov 2023 13:23:32 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 03 Nov 2023 13:23:32 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qz0hY-003kMn-67
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 03 Nov 2023 13:23:32 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qz0hS-003k7R-RA@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699043012-eximdsn-1997118300
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qz0hY-003kMn-67@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 03 Nov 2023 13:23:32 -0700
+
+--1699043012-eximdsn-1997118300
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 z0hYqGyAm93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=654556c4 p=DWDiFsIt22oA:10 p=8cJfRJtmAAAA:20 p=HKvvfgvq72g3DDmq_WC3:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=-OOdYJ_aMbYA:10 a=pGLkceISAAAA:8 a=P3ND8mLqdNrWqa4xD7YA:9 a=QEXdDO2ut3YA:10 a=6-HH54Gf0GgA:10 a=V9Nbw90qfhIA:10 a=7YLoLDjMd5h5nKq5ZTqP:22 a=dBnPtQOaRDYqnxSv_K5q:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1699043012-eximdsn-1997118300
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 z0hYqGyAm93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=654556c4 p=DWDiFsIt22oA:10 p=8cJfRJtmAAAA:20 p=HKvvfgvq72g3DDmq_WC3:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=-OOdYJ_aMbYA:10 a=pGLkceISAAAA:8 a=P3ND8mLqdNrWqa4xD7YA:9 a=QEXdDO2ut3YA:10 a=6-HH54Gf0GgA:10 a=V9Nbw90qfhIA:10 a=7YLoLDjMd5h5nKq5ZTqP:22 a=dBnPtQOaRDYqnxSv_K5q:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1699043012-eximdsn-1997118300
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qz0hS-003k7R-RA
+	for ginojohn@gmail.com;
+	Fri, 03 Nov 2023 13:23:32 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jamie Flores.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.82.40.2
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.82.40.2
+From: irstaxissues@gmail.com
+Reply-To: irstaxissues@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qz0hS-003k7R-RA@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 03 Nov 2023 13:23:26 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Jamie Flores, and the message is as
+follows.
+
+"Hi,
+
+Are you tired of living in fear of the IRS? Do you owe back taxes or
+have unfiled returns? The Law Offices of Nick Nemeth, PLLC can help.
+I'm Dallas Tax Attorney Jamie Flores, reaching out on behalf of the
+Law Offices of Nick Nemeth, PLLC, a tax law firm which focuses solely
+on resolving IRS tax issues.
+
+We understand the stress and anxiety that come with IRS problems. Our
+experienced team has a proven track record of successfully resolving
+IRS debt. Our primary goal for every client is to help avoid levies,
+garnishments, and seizures by the IRS, providing you with the peace of
+mind you deserve.
+
+Imagine a life free from the constant worry of IRS collection
+activity. We can guide you through the process, perhaps even
+negotiating a settlement for a greatly reduced amount. If you're not a
+settlement candidate, we have other options available to avoid levies,
+garnishments, seizures, or federal tax liens.
+
+Acting now is crucial, especially as the IRS is becoming more
+aggressive with collection activity post-Covid. Be proactive and you
+may be able to prevent levies and take control of your financial
+future. When dealing with a branch of the federal government that can
+take your paycheck and bank account without going to court, you need
+an attorney, not an out-of-state tax resolution company.  
+
+Take the first step towards resolving your IRS problems and schedule a
+free, confidential consultation with one of our tax attorneys. We'll
+assess your situation and provide personalized guidance tailored to
+your needs. This consultation comes with no obligations attached.
+
+Click the link below to schedule your consultation and let us help you
+find a solution to your IRS debt. Remember, IRS problems do not go
+away on their own - they simply get worse.
+
+Click here: --> https://bit.ly/myirsteam
+
+Don't let the fear of collection activity hold you back. Act now and
+regain control of your financial future.
+
+Best regards,
+
+Jamie Flores
+The Law Offices of Nick Nemeth, PLLC
+
+P.S. Don't let your IRS problems escalate further. Act now to avoid
+levies, garnishments, and seizures. Schedule your free consultation
+today!
+
+Click here: --> https://bit.ly/myirsteam
+
+"
+
+You can contact Jamie Flores via email, irstaxissues@gmail.com
+
+--1699043012-eximdsn-1997118300--

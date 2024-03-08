@@ -1,0 +1,140 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id MDN1GIrWaGPINx4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 02:57:30 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 02:57:30 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1orysk-008Jvl-6A
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 02:57:30 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1orysj-008Jub-Oy@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667815050-eximdsn-709879421
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1orysk-008Jvl-6A@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 02:57:30 -0700
+
+--1667815050-eximdsn-709879421
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rysjooh25YVlN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=6368d68a p=eMyoKMOHr5AA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=K_na3ztOXSAA:10 a=vgnFJnhTAAAA:8 a=RgBw9RmQAAAA:8 a=Rieh4W48mXo3SQBcMRYA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=KRpRAxPBYj8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=TwXeh1IVDHp12sH6qwWX:22 ::
+    100.00
+
+--1667815050-eximdsn-709879421
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 rysjooh25YVlN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=6368d68a p=eMyoKMOHr5AA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=K_na3ztOXSAA:10 a=vgnFJnhTAAAA:8 a=RgBw9RmQAAAA:8 a=Rieh4W48mXo3SQBcMRYA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=KRpRAxPBYj8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=TwXeh1IVDHp12sH6qwWX:22 :: 100.00
+
+--1667815050-eximdsn-709879421
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1orysj-008Jub-Oy
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 02:57:29 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MarioKiz.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.197.74.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.197.74.6
+From: roman-belyayev-92@mail.ru
+Reply-To: roman-belyayev-92@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1orysj-008Jub-Oy@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 02:57:29 -0700
+
+You have been contacted by MarioKiz, and the message is as follows.
+
+"Недостаточность костной ткани в
+области имплантирования, нередко
+требует вмешательства
+хирурга-стоматолога, который
+восстанавливает необходимый объем с
+помощью специальных материалов
+https://www.energy-med.ru/dety
+ 
+Врачи по специализациям стоматолог,
+ЛОР, окулист, гинеколог и пр
+https://www.energy-med.ru/dety#!/tab/450562509-3>платный
+  востребованы за счет открытия
+множества частных медицинских
+учреждений, оказывающих услуги
+гражданам
+https://www.energy-med.ru/diagnostika#!/tab/450642413-7]
+ 
+Не забывайте, своевременное обращение
+к врачу-хирургу, точная диагностика и
+квалифицированное лечение в
+медицинской клинике, помогут Вам
+избежать болезных осложнений и
+дорогостоящих операций
+https://www.energy-med.ru/dety
+  Посещение хирурга в клинике
+позволяет произвести своевременную
+диагностику и лечение хирургической
+патологии https://energy-med.ru/
+  Хирург произведет срочный осмотр и
+выполнит все необходимые лечебные
+манипуляции https://www.energy-med.ru/terapiya
+ 
+Плановая хирургия подразумевает
+проведение последовательных процедур
+подготовки к операции, а экстренная
+хирургия осуществляется в срочном
+порядке, так как существует угроза
+жизни пациента https://www.energy-med.ru/terapiya
+ 
+Информация на сайте предоставлена
+исключительно в
+популярно-ознакомительных целях, не
+претендует на справочную и
+медицинскую точность, не является
+руководством к действию
+https://www.energy-med.ru/chirurgiya
+  Не занимайтесь самолечением
+https://www.energy-med.ru/dety#!/tab/450562509-3>платный
+  Проконсультируйтесь со своим
+лечащим врачом https://energy-med.ru/
+ 
+Диетолог занимается вопросом питания:
+разрабатывает схемы правильного
+приема пищи для людей, страдающих от
+лишнего веса https://www.energy-med.ru/
+  К специалисту этого профиля
+обращаются и здоровые люди с целью
+организовать свой пищевой рацион
+таким образом, чтобы не иметь проблем
+со здоровьем в будущем
+https://www.energy-med.ru/diagnostika#!/tab/450642413-7]
+ 
+"
+
+You can contact MarioKiz via email, roman-belyayev-92@mail.ru
+
+--1667815050-eximdsn-709879421--

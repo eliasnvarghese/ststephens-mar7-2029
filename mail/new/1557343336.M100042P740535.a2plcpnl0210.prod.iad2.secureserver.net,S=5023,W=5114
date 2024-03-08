@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP id 2K5CBGgs01y3TAsAQba4bQ
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 08 May 2019 12:22:16 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 08 May 2019 12:22:16 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.91)
+	id 1hOS8t-003Bg6-Ui
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Wed, 08 May 2019 12:22:16 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1557343335-eximdsn-197226241
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1hOS8t-003Bg6-Ui@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 08 May 2019 12:22:15 -0700
+
+--1557343335-eximdsn-197226241
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 OS8tht4xUvGJq :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=GIB27dFK c=1 sm=1 tr=0 p=V9IPz7MzUm4A:10 p=3BCud7cVAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=OsrUgDCCJskA:10 a=9tMiWJV1oG0A:10 a=tdB2LVuYDnoA:10 a=E5NmQfObTbMA:10 a=psUYQFY1iHcA:10 a=RgBw9RmQAAAA:8 a=xFmY29Ux34QoYNQFbmIA:9 a=QEXdDO2ut3YA:10 a=yf4OQ19xDI8A:10 a=_h3fSj-NFpUbfj6C2Tz-:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 ::
+    100.00
+
+--1557343335-eximdsn-197226241
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 OS8tht4xUvGJq :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=GIB27dFK c=1 sm=1 tr=0 p=V9IPz7MzUm4A:10 p=3BCud7cVAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=OsrUgDCCJskA:10 a=9tMiWJV1oG0A:10 a=tdB2LVuYDnoA:10 a=E5NmQfObTbMA:10 a=psUYQFY1iHcA:10 a=RgBw9RmQAAAA:8 a=xFmY29Ux34QoYNQFbmIA:9 a=QEXdDO2ut3YA:10 a=yf4OQ19xDI8A:10 a=_h3fSj-NFpUbfj6C2Tz-:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 :: 100.00
+
+--1557343335-eximdsn-197226241
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.91)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1hOS8t-003Bfi-Ll
+	for ginojohn@gmail.com; Wed, 08 May 2019 12:22:15 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by OknaGet.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 93.120.136.9
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 93.120.136.9
+From: stas.shapalovskiy@mail.ru
+Reply-To: stas.shapalovskiy@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1hOS8t-003Bfi-Ll@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 08 May 2019 12:22:15 -0700
+
+You have been contacted by OknaGet, and the message is as follows.
+
+"Мы одни из ведущих производителей
+изделий и светопрозрачных
+конструкций из алюминия и пластика в
+Нижнем Новгороде – рада
+приветствовать вас на своем сайте!
+Если вы ищите производство окон из пвх
+и алюминия по низким ценам, но с
+гарантией качества и в кратчайшие
+сроки, то обратились по адресу. Мы
+осуществляем продажу алюминиевых и
+пластиковых конструкций, а также их
+сборку и монтаж в Нижнем Новгороде. 
+ 
+[url=https://fabrika-komforta.ru/balkony-i-lodzhii/]стекление
+балконов[/url]  - подробнее на сайте
+Фабрики Комфорта
+[url=https://fabrika-komforta.ru]fabrika-komforta.ru[/url]"
+
+You can contact OknaGet via email, stas.shapalovskiy@mail.ru
+
+--1557343335-eximdsn-197226241--

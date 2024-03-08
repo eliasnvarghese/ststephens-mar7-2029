@@ -1,0 +1,104 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id QG2jNut5RGWnhhoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 02 Nov 2023 21:41:15 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 02 Nov 2023 21:41:15 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qylzf-007Iad-Rb
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 02 Nov 2023 21:41:15 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qylzb-007IYr-0O@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698986475-eximdsn-331614704
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qylzf-007Iad-Rb@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 21:41:15 -0700
+
+--1698986475-eximdsn-331614704
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ylzfqV9nNiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=654479eb p=7BHFOtSDtalZpiYu8PX1:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=wkq4N4rpQYgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=vXSKyPaWDi4A:10 a=njEoReLTAAAA:8 a=AAvYLDLOAAAA:8 a=t7dJEbip775vVpq4-ocA:9 a=QEXdDO2ut3YA:10 a=TRSKyzV8incA:10 a=zgiPjhLxNE0A:10 a=Opjcf2rbXONI77XeNpWh:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1698986475-eximdsn-331614704
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 ylzfqV9nNiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=654479eb p=7BHFOtSDtalZpiYu8PX1:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=wkq4N4rpQYgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=vXSKyPaWDi4A:10 a=njEoReLTAAAA:8 a=AAvYLDLOAAAA:8 a=t7dJEbip775vVpq4-ocA:9 a=QEXdDO2ut3YA:10 a=TRSKyzV8incA:10 a=zgiPjhLxNE0A:10 a=Opjcf2rbXONI77XeNpWh:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1698986475-eximdsn-331614704
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qylzb-007IYr-0O
+	for ginojohn@gmail.com;
+	Thu, 02 Nov 2023 21:41:15 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Cassie Waller.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.242.148
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.242.148
+From: waller.cassie@msn.com
+Reply-To: waller.cassie@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qylzb-007IYr-0O@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 21:41:11 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Cassie Waller, and the message is as
+follows.
+
+"Introducing The All-In-One Software For Your Business and Marketing
+Needs
+
+Our AI software can:
+
+Create custom AI chatbots to engage with your customers and answer
+their questions 24/7.
+Create image and video content that is more engaging and likely to
+convert.
+Generate AI graphics and 3D models to create unique and visually
+appealing marketing materials.
+Create business cards, pages, ebooks, and flipbooks with ease using
+AI.
+Track your marketing results and identify areas for improvement using
+AI analytics.
+
+Try our AI software today and grow your business at
+https://warriorplus.com/o2/a/npqlst/0 
+
+Click >>>  https://warriorplus.com/o2/a/npqlst/0 
+"
+
+You can contact Cassie Waller via email, waller.cassie@msn.com
+
+--1698986475-eximdsn-331614704--

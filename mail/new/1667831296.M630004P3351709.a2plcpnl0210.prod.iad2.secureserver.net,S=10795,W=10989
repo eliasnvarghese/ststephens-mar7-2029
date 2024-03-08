@@ -1,0 +1,194 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id QC1tJQAWaWOdJDMAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 07:28:16 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 07:28:16 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os36m-00EB6E-Fp
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 07:28:16 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os36m-00EB5V-23@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667831296-eximdsn-685899411
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os36m-00EB6E-Fp@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 07:28:16 -0700
+
+--1667831296-eximdsn-685899411
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s36monrdpa2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63691600 p=WB-hhGu2qEEA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=fzFHSqF7xYcA:10 a=6D-hnrcmAAAA:8 a=mem--OOHAAAA:8 a=HGjuPeiZUQpOw_rRMiYA:9 a=QEXdDO2ut3YA:10 a=uEY-NQEujYoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=44XVQsHO1cRWd2NSFt98:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667831296-eximdsn-685899411
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s36monrdpa2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63691600 p=WB-hhGu2qEEA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=fzFHSqF7xYcA:10 a=6D-hnrcmAAAA:8 a=mem--OOHAAAA:8 a=HGjuPeiZUQpOw_rRMiYA:9 a=QEXdDO2ut3YA:10 a=uEY-NQEujYoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=44XVQsHO1cRWd2NSFt98:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667831296-eximdsn-685899411
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os36m-00EB5V-23
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 07:28:16 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by DavidFueri.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.106
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.106
+From: zubkova_taniusha_1995_23_8@bk.ru
+Reply-To: zubkova_taniusha_1995_23_8@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os36m-00EB5V-23@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 07:28:16 -0700
+
+You have been contacted by DavidFueri, and the message is as follows.
+
+"Очень быстро ликвидировать
+гипергликемию можно с помощью
+активных физических нагрузок
+https://amadey-sirop.ru/sirop-glyukoznyj-suxoj/
+  Вариантов масса — потрудиться на
+даче, в тренажерном зале, заняться
+бегом или плаванием до состояния
+усталости https://amadey-sirop.ru/sirop-premium-a-2/
+  Полезны упражнения йоги
+https://amadey-sirop.ru/patoka-kraxmalnaya-nizkoosaxarennaya/
+  Все это приведет к нормализации
+глюкозы https://amadey-sirop.ru/769-2/
+  Конечно, подобные советы подходят
+молодым и активным
+https://amadey-sirop.ru/amadey/specifikacii/
+ 
+Даже после длительной выдержки в
+бочках коньяк (виски) может остаться
+светло-желтым, это нормально
+https://amadey-sirop.ru/baton-nareznoj-s-saxarom-kraxmalnym-tverdym/
+  Для изменения цвета используется
+натуральный краситель из жженого
+сахара – колер http://amadey-sirop.ru
+  Производство большинства
+французских коньяков предусматривает
+его добавление https://amadey-sirop.ru/769-2/
+  Правильно сделанный карамельный
+краситель не влияет на вкус напитка и
+не вызывает помутнения http://amadey-sirop.ru
+  В свою очередь, технология
+приготовления сахарного колера
+проста и легко воспроизводится в
+домашних условиях
+https://amadey-sirop.ru/amadey/siropy_dlya_napitkov/
+ 
+Для начала надо приготовить
+свежевыжатый апельсиновый сок
+https://amadey-sirop.ru/sirop-koncentrat-kvas/
+  Оставшуюся цедру не выкидывать, а
+порезать ее на мелкие кубики, которые
+нужно залить водой и настаивать в
+течение получаса
+https://amadey-sirop.ru/napitok-bezalkogolnyj-gazirovannyj-moxito-s-aromatom-limon-lajma/
+  В настой из апельсиновой цедры
+необходимо добавить 3-4 грамма кислоты,
+предварительно растворенной в воде
+https://amadey-sirop.ru/page/3/
+  Полученную смесь, апельсиновый сок
+добавляется в сахарный сироп и
+тщательно перемешивается
+https://amadey-sirop.ru/med-naturalnyj-konditerskij/
+  Конечный результат варится в течение
+5 минут на медленном огне
+https://amadey-sirop.ru/maltodekstrin-korichnevyj/fertilizer-eddha-fe-6-chelated-iron-microelement/
+  После этого из сиропа нужно удалить
+кусочки апельсиновой цедры и можно
+продолжать варить сироп дальше
+https://amadey-sirop.ru/patoka-rafinadnaya-klassicheskaya/
+  Оставшиеся 6 грамм лимонной кислоты
+нужно добавить в готовый апельсиновый
+сироп
+https://amadey-sirop.ru/amadey/patoka/patoki-trostnikovye-organicheskie/
+    Варить сахарный сироп для
+коктейлей можно даже с гвоздикой
+https://amadey-sirop.ru/shherbet-s-saxarom-kraxmalnym-tverdym/
+  Цветочный аромат сиропа сделает
+любой коктейль еще более вкусным
+https://amadey-sirop.ru/med-naturalnyj-konditerskij/
+  Для приготовления одного литра
+гвоздичного сахарного сиропа
+понадобится: 
+Следовательно, уровень ожирения в
+Соединенных Штатах в 1905 году растет,
+один из 100 человек страдает ожирением
+https://amadey-sirop.ru/patoka-rafinadnaya-klassicheskaya/
+  Сейчас он приближается к 30 из 100 и
+тольго прогрессирует https://amadey-sirop.ru
+  Первым пунктом Дэвида было то, что
+потребление сахара с 1822 года возросло
+с 2 до 45 чайных ложек в день
+https://amadey-sirop.ru/glyukozno-fruktoznyj-sirop-lfx10-g-60-nizkofruktoznyj/
+   
+Единое мнение по вопросу КСВСФ и его
+опасности для здоровья по сравнению с
+сахаром отсутствует
+https://amadey-sirop.ru/ispolzovanie-saxara-kraxmalnogo-tverdogo-v-recepturax-keksov/
+  Имеются исследования, которые
+демонстрируют, что КСВСФ более вреден,
+и другие исследования,
+демонстрирующие, что он не более
+вреден https://amadey-sirop.ru/saxar-kraxmalnyj-pomadnyj-2/
+  Среди ученых существует консенсус
+относительно необходимости
+дальнейших исследований в области
+воздействия КСВСФ на человеческий
+организм и того, является ли он более
+опасным, чем другие типы
+подсластителей
+https://amadey-sirop.ru/amadey/koncentraty/kvas/
+ 
+Нашатырно-анисовые капли - уникальный 
+препарат растительного
+происхождения, действие которого
+обусловлено входящими в него
+ингредиентами - эфирное масло аниса и
+аммиак, растворенные в этиловом
+спирте
+https://amadey-sirop.ru/maltodekstrin-korichnevyj/fertilizer-eddha-fe-6-chelated-iron-microelement/
+  Нашатырно-анисовыми каплями лечили
+кашель еще наши бабушки, но и сейчас
+они остаются востребованными
+несмотря на огромный ассортимент
+современных отхаркивающих средств в
+аптеках
+https://amadey-sirop.ru/patoka-rafinadnaya-klassicheskaya/
+ 
+"
+
+You can contact DavidFueri via email, zubkova_taniusha_1995_23_8@bk.ru
+
+--1667831296-eximdsn-685899411--

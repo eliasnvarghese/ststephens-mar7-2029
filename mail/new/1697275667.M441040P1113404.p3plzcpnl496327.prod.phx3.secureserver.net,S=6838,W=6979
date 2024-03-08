@@ -1,0 +1,141 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 8N30GRNfKmU8/RAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 14 Oct 2023 02:27:47 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 14 Oct 2023 02:27:47 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qravz-004gJl-CI
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 14 Oct 2023 02:27:47 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qravu-004gIM-L0@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697275667-eximdsn-302358491
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qravz-004gJl-CI@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 14 Oct 2023 02:27:47 -0700
+
+--1697275667-eximdsn-302358491
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ravzq5rv6iYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=652a5f13 p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 p=ot3EfP7IaZfIZBPeT0oO:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=OfSQOJRFdlUA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=clFa-ePd8s0A:10 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=Wy3S0Ona2eRBj6JtCSEA:9 a=QEXdDO2ut3YA:10 a=Gbu5MvjJlwsA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1697275667-eximdsn-302358491
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 ravzq5rv6iYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=652a5f13 p=kEDBsHewAAAA:20 p=LbYH2qZkAAAA:20 p=RppQr0x9k5QA:10 p=ot3EfP7IaZfIZBPeT0oO:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=OfSQOJRFdlUA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=clFa-ePd8s0A:10 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=Wy3S0Ona2eRBj6JtCSEA:9 a=QEXdDO2ut3YA:10 a=Gbu5MvjJlwsA:10 a=AWHbcYPWEh4A:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1697275667-eximdsn-302358491
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qravu-004gIM-L0
+	for ginojohn@gmail.com;
+	Sat, 14 Oct 2023 02:27:47 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jenni Brophy.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.158.106.44
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.158.106.44
+From: jenni.brophy@msn.com
+Reply-To: jenni.brophy@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qravu-004gIM-L0@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 14 Oct 2023 02:27:42 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Jenni Brophy, and the message is as
+follows.
+
+"To the ststephenssanjose.org Webmaster. My name’s Jenni and I just
+come across your webpage at ststephenssanjose.org...
+
+I found it after a brief searching, so your SEO’s doing well…
+
+The content seems pretty good…
+
+However, one thing is absent though…
+
+A QUICK, SIMPLE means to communicate with you NOW.
+
+As studies show reveal that a web lead like me will only stay a short
+time – 7 out of 10 leave instantly, Click Surf Browse… then gone
+forever.
+
+I possess the remedy:
+
+Web Visitors Into Leads is a software that’s functions on your site,
+ready to capture any visitor Name, Email address, and Phone Number.
+You will know right away they’re interested, and you can call 
+directly to TALK with them - virtually as they’re still on the web
+viewing your website.
+
+CLICK HERE https://bit.ly/LeadGena to test a Live Demo with Web
+Visitors Into Leads right now to see exactly how it functions and even
+give it a try… it might be big for your company.
+
+Plus, now that you’ve obtained the phone number, with our new SMS
+Text With Lead feature, you can instantly initiate a text (SMS)
+conversation immediately… which is so effective, because connecting
+in 5 minutes is 100 times more effective than waiting later.
+
+The new text messaging function allows you follow up frequently with 
+offers even just follow-up notes to build a a connection.
+
+Everything I have  described is extremely simple implement,
+cost-effective, and lucrative.
+
+CLICK HERE https://bit.ly/LeadGena to discover what Web Visitors Into
+Leads can make for your business, converting up to 100X more eyeballs
+into leads right now!
+
+Jenni
+PS: Web Visitors Into Leads gives a FREE 14 days trial – and it
+comes with International Long Distance Calls. 
+There are customers eager to talk with you at this moment… don’t
+leave them waiting. 
+CLICK HERE https://bit.ly/LeadGena to try out Web Visitors Into Leads
+today.
+
+Should you wish to unsubscribe click here https://bit.ly/3rD0G5c
+
+Merely a quick note - the names and email used here, Jenni and Brophy,
+are not real and not actual contact data. We value transparency and
+want to ensure sure you’re aware! If you desire to get in touch with
+the real person responsible for this message, please visit our
+website, and we’ll associate you with the right individual.}
+"
+
+You can contact Jenni Brophy via email, jenni.brophy@msn.com
+
+--1697275667-eximdsn-302358491--

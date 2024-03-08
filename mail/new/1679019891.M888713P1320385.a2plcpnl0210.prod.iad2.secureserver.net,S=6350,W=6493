@@ -1,0 +1,143 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id MFkgM3PPE2TBJRQAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 16 Mar 2023 19:24:51 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 16 Mar 2023 19:24:51 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pczlz-005Zoz-NO
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Thu, 16 Mar 2023 19:24:51 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pczlu-005ZnX-OX@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1679019891-eximdsn-1094024700
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pczlz-005Zoz-NO@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 16 Mar 2023 19:24:51 -0700
+
+--1679019891-eximdsn-1094024700
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 czlzpd7ynelrp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=6413cf73 p=H-_HObLgAAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=KNCrSvM6hAsA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=XABbKH8pPZEA:10 a=pGLkceISAAAA:8 a=whAjKiwOkwczB_lROAYA:9 a=QEXdDO2ut3YA:10 a=yl22jG9g9xQA:10 a=Ydy8U1kxZCEA:10 a=X25-Pw9meeoA:10 a=KyYZJfTCSdMA:10 a=OVgILKaCrU0JT1iJKl10:22 a=AhmSIYWH75HdMm0ha-gZ:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=SH2QTXi0dNmrjBxaUsaY:22 ::
+    100.00
+
+--1679019891-eximdsn-1094024700
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 czlzpd7ynelrp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=6413cf73 p=H-_HObLgAAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=KNCrSvM6hAsA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=XABbKH8pPZEA:10 a=pGLkceISAAAA:8 a=whAjKiwOkwczB_lROAYA:9 a=QEXdDO2ut3YA:10 a=yl22jG9g9xQA:10 a=Ydy8U1kxZCEA:10 a=X25-Pw9meeoA:10 a=KyYZJfTCSdMA:10 a=OVgILKaCrU0JT1iJKl10:22 a=AhmSIYWH75HdMm0ha-gZ:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=SH2QTXi0dNmrjBxaUsaY:22 :: 100.00
+
+--1679019891-eximdsn-1094024700
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pczlu-005ZnX-OX
+	for ginojohn@gmail.com;
+	Thu, 16 Mar 2023 19:24:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Peter Magnuson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.93.32.30
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.93.32.30
+From: magnuson.peter@gmail.com
+Reply-To: magnuson.peter@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pczlu-005ZnX-OX@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 16 Mar 2023 19:24:46 -0700
+
+You have been contacted by Peter Magnuson, and the message is as
+follows.
+
+"Hey,
+
+Using social media is the most important factor for attracting maximum
+customers & driving more traffic to your websites. 
+
+But,
+
+In reality,
+
+Managing multiple social platforms for your business or your own
+clients isn’t as easy as it looks.
+
+So, do you wanna get a brand-new technology that helps you to use this
+latest trend & bank in big starting today?
+
+Say Hi To This Breathtaking Brand New System …
+
+World’s First, Smart Core Infusion A.I. Reach Technology That
+Simplifies The Process Of Planning, Composing, And Publishing Engaging
+Content Across Major Social Media Networks & Drives MASSIVE Traffic,
+Engagement, And Sales
+
+With this, anyone can say goodbye to problems like:
+
+• Creating engaging content for social media platforms is a tiring &
+cumbersome process.
+• Managing multiple social media accounts takes tons of time &
+effort.
+• Hiring social media managers is way more expensive & doesn’t
+yield the results that you’re looking for.
+• Targeting the right platforms and audience for maximum engagement
+is a difficult task
+• Keeping up with the ever-changing social media strategies isn’t
+a cup of tea for everyone
+• Falling engagement rates and fewer post interactions is also a big
+roadblock for every marketer
+
+Feeling lured, Watch This Short Demo Video
+
+===> https://bit.ly/3JELRFC
+
+Now, It's Time To Say Final Goodbye To…
+
+● Paying Through The Nose To Third Party Platforms That Charge Big
+● Use Old School Social Media Automation Tools That No One Likes 
+● Pay Thousands Of Dollars On Expensive Automation Platforms Once &
+For All
+● Hiring & Running After Expensive Freelancers
+
+Hope you’re still not confused…
+
+So, what are you waiting for?
+
+Grab Viral Dashboard At Crazy Low Early bird Price
+& here’s the icing on the cake…
+
+To Your Success
+
+Atto Mehndi
+89 Rugby Street, CN
+98789
+==============
+Click here to Unsubscribe"
+
+You can contact Peter Magnuson via email, magnuson.peter@gmail.com
+
+--1679019891-eximdsn-1094024700--

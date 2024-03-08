@@ -1,0 +1,103 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id plLqCOgnnmR8/jQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 29 Jun 2023 17:55:04 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 29 Jun 2023 17:55:04 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qF2Pg-00EZUL-2s
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 29 Jun 2023 17:55:04 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qF2Pb-00EZFj-JB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qF2Pg-00EZUL-2s@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 29 Jun 2023 17:55:04 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qF2Pb-00EZFj-JB
+	for ginojohn@gmail.com;
+	Thu, 29 Jun 2023 17:54:59 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Matt Lee.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.108.18.83
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.108.18.83
+From: hello@getawsses.com
+Reply-To: hello@getawsses.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qF2Pb-00EZFj-JB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 29 Jun 2023 17:54:59 -0700
+
+You have been contacted by Matt Lee, and the message is as follows.
+
+"Are you tired of spending a fortune on email marketing services that
+offer subpar results? Look no further! We have an exciting offer that
+will revolutionize your email campaigns while keeping your costs in
+check. Introducing our game-changing email marketing service powered
+by Amazon Simple Email Service (SES), delivering exceptional
+deliverability rates at an unbeatable price!
+
+Why choose us?
+
+Unmatched Deliverability: With Amazon SES, we guarantee your emails
+will reach your audience's inboxes effectively and reliably. Leverage
+the power of Amazon's sophisticated infrastructure to ensure maximum
+deliverability and avoid the dreaded spam folder.
+
+Cost-Effective Solutions: We understand the importance of optimizing
+your marketing budget. By leveraging Amazon SES, we bring you highly
+competitive and wallet-friendly pricing plans without compromising
+quality or performance. Save big on your email marketing expenses
+while achieving outstanding results.
+
+Seamless Integration: Our platform seamlessly integrates with Amazon
+SES, making it incredibly easy to set up and manage your email
+campaigns. Whether you're a seasoned marketer or just starting out,
+our user-friendly interface ensures a hassle-free experience from
+start to finish.
+
+Advanced Analytics: Gain valuable insights into the effectiveness of
+your email campaigns through comprehensive analytics and reporting.
+Track open rates, click-through rates, and conversion metrics to make
+data-driven decisions and refine your strategies for optimal results.
+
+Personalized Support: We believe in building strong relationships with
+our clients. Our dedicated support team is always ready to assist you
+with any queries or concerns you may have. We'll work closely with you
+to ensure your email marketing endeavors achieve the best possible
+outcomes.
+
+Get started today and unlock the full potential of your email
+marketing efforts by harnessing the power of Amazon SES. Simply reply
+to this email or give us a call at [Your Contact Number]. Let us take
+care of the technical details while you focus on growing your
+business.
+
+Remember, great deliverability doesn't have to break the bank. Take
+advantage of our unbeatable pricing and start supercharging your email
+marketing campaigns today!
+
+Best regards,
+
+Matt Lee
+Co Founder
+Cloud Front
+https://GetAWSSes.com"
+
+You can contact Matt Lee via email, hello@getawsses.com

@@ -1,0 +1,107 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id fwAuDguQG2UlNhYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 02 Oct 2023 20:52:43 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 02 Oct 2023 20:52:43 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qnWSh-0066gA-5a
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 02 Oct 2023 20:52:43 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qnWSc-0066ey-KH@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696305163-eximdsn-1326241245
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qnWSh-0066gA-5a@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 02 Oct 2023 20:52:43 -0700
+
+--1696305163-eximdsn-1326241245
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 nWShqQNzTIKdu :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=651b900b p=OMp5NT7_AAAA:8 p=3ar9d6uEAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=aegr9OFET9I8P_obj8oA:9 a=QEXdDO2ut3YA:10 a=KtjlrtdGSCAA:10 a=zgiPjhLxNE0A:10 a=ddRMcUOhh5DpATiD-AL5:22 a=L7K7qGDEZXlHxzga_5v2:22 a=ewOn-hGSMjBpJlMkqcM3:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1696305163-eximdsn-1326241245
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 nWShqQNzTIKdu :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=651b900b p=OMp5NT7_AAAA:8 p=3ar9d6uEAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=aegr9OFET9I8P_obj8oA:9 a=QEXdDO2ut3YA:10 a=KtjlrtdGSCAA:10 a=zgiPjhLxNE0A:10 a=ddRMcUOhh5DpATiD-AL5:22 a=L7K7qGDEZXlHxzga_5v2:22 a=ewOn-hGSMjBpJlMkqcM3:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1696305163-eximdsn-1326241245
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qnWSc-0066ey-KH
+	for ginojohn@gmail.com;
+	Mon, 02 Oct 2023 20:52:43 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Mark Hoffman.
+X-PHP-Script: ststephenssanjose.org/contact.php for 154.37.64.139
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 154.37.64.139
+From: matt@ga4consulting.com
+Reply-To: matt@ga4consulting.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qnWSc-0066ey-KH@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 02 Oct 2023 20:52:38 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Mark Hoffman, and the message is as
+follows.
+
+"
+Your Universal Analytics account is no longer collecting visitor
+data.
+
+Its time to upgrade to Google Analytics 4! 
+
+Visit https://fixyourtracking.com
+
+Best,
+
+Mark
+Blue Highlighted Text
+422 W Riverside Dr.
+Austin, TX 78704
+
+
+
+
+
+
+
+
+
+reply opt out"
+
+You can contact Mark Hoffman via email, matt@ga4consulting.com
+
+--1696305163-eximdsn-1326241245--

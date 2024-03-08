@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id HWFPHPIJxWRWGDMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 29 Jul 2023 05:45:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 29 Jul 2023 05:45:38 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qPjKE-00E372-DQ
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 29 Jul 2023 05:45:38 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qPjK9-00E365-QW@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690634738-eximdsn-2040052742
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qPjKE-00E372-DQ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 29 Jul 2023 05:45:38 -0700
+
+--1690634738-eximdsn-2040052742
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 PjKEqFkngb3ts :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64c509f2 p=CNKeYpc2LtoA:10 p=Z8PGzm8Rnnz5vkhfTf4f:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=YMmQxWerGs8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=WhDRCx2I2foA:10 a=pGLkceISAAAA:8 a=JqR_4DgZFT0iOdU3IZsA:9 a=QEXdDO2ut3YA:10 a=fRHdt4MtnI8A:10 a=k-aaoF1AdvkA:10 a=KlWbntZFldnAaVyGLX_M:22 a=89hrBCZoePdum8S63Uga:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1690634738-eximdsn-2040052742
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 PjKEqFkngb3ts :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64c509f2 p=CNKeYpc2LtoA:10 p=Z8PGzm8Rnnz5vkhfTf4f:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=YMmQxWerGs8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=WhDRCx2I2foA:10 a=pGLkceISAAAA:8 a=JqR_4DgZFT0iOdU3IZsA:9 a=QEXdDO2ut3YA:10 a=fRHdt4MtnI8A:10 a=k-aaoF1AdvkA:10 a=KlWbntZFldnAaVyGLX_M:22 a=89hrBCZoePdum8S63Uga:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1690634738-eximdsn-2040052742
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qPjK9-00E365-QW
+	for ginojohn@gmail.com;
+	Sat, 29 Jul 2023 05:45:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Christal Varney.
+X-PHP-Script: ststephenssanjose.org/contact.php for 68.194.223.86
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 68.194.223.86
+From: varney.christal@gmail.com
+Reply-To: varney.christal@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qPjK9-00E365-QW@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 29 Jul 2023 05:45:33 -0700
+
+You have been contacted by Christal Varney, and the message is as
+follows.
+
+"Let us handle all your auto repair needs efficiently and affordably -
+because keeping you safely on the road is what we do best!
+Call For a Free Quote
+1-855-537-0829"
+
+You can contact Christal Varney via email, varney.christal@gmail.com
+
+--1690634738-eximdsn-2040052742--

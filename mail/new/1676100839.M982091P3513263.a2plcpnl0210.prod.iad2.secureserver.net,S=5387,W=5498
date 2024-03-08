@@ -1,0 +1,111 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ANnuN+dE52OvmzUAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 11 Feb 2023 00:33:59 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 11 Feb 2023 00:33:59 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pQkOV-00Em9V-H0
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sat, 11 Feb 2023 00:33:59 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pQkOQ-00Em7u-1v@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1676100839-eximdsn-56397866
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pQkOV-00Em9V-H0@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 11 Feb 2023 00:33:59 -0700
+
+--1676100839-eximdsn-56397866
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 QkOVpdJ7rfgEG :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=I5KjBvsg c=1 sm=1 tr=0 ts=63e744e7 p=KxSwURyJAAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Q9fluQ7Um5cA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=xnRgQHRjSWsA:10 a=x7bEGLp0ZPQA:10 a=kbQDi_8Tjh0A:10 a=kCQvi2AvAAAA:20 a=huvbmMDMAAAA:8 a=mK_AVkanAAAA:8 a=qpPYaEoHCbIVfqnYw5AA:9 a=QEXdDO2ut3YA:10 a=6ToMdI23njEA:10 a=1qPu45H9N48A:10 a=ZT_8zCgGubuJgGonBfBE:22 a=C3TH7X1_t_wzkWHIJZxv:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=acewEgQMpYTsClr9keMy:22 a=jycUkCEYUnZvh0PkXkJV:22 a=3gWm3jAn84ENXaBijsEo:22 ::
+    100.00
+
+--1676100839-eximdsn-56397866
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 QkOVpdJ7rfgEG :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=I5KjBvsg c=1 sm=1 tr=0 ts=63e744e7 p=KxSwURyJAAAA:20 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Q9fluQ7Um5cA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=xnRgQHRjSWsA:10 a=x7bEGLp0ZPQA:10 a=kbQDi_8Tjh0A:10 a=kCQvi2AvAAAA:20 a=huvbmMDMAAAA:8 a=mK_AVkanAAAA:8 a=qpPYaEoHCbIVfqnYw5AA:9 a=QEXdDO2ut3YA:10 a=6ToMdI23njEA:10 a=1qPu45H9N48A:10 a=ZT_8zCgGubuJgGonBfBE:22 a=C3TH7X1_t_wzkWHIJZxv:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=acewEgQMpYTsClr9keMy:22 a=jycUkCEYUnZvh0PkXkJV:22 a=3gWm3jAn84ENXaBijsEo:22 :: 100.00
+
+--1676100839-eximdsn-56397866
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pQkOQ-00Em7u-1v
+	for ginojohn@gmail.com;
+	Sat, 11 Feb 2023 00:33:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Zachery Haynie.
+X-PHP-Script: ststephenssanjose.org/contact.php for 198.12.112.161
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 198.12.112.161
+From: zachery.haynie@googlemail.com
+Reply-To: zachery.haynie@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pQkOQ-00Em7u-1v@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 11 Feb 2023 00:33:54 -0700
+
+You have been contacted by Zachery Haynie, and the message is as
+follows.
+
+"Hey do you like traveling? I traveled around the world to 124
+countries and ive documented every single one.
+
+Come and experience the world with me. Ive recently released my most
+treasured work. 
+
+A photobook that allows you to take on a journey through history and
+explore the New York City Subway like never before
+from Station to Station. Check it out here: http://bit.ly/3QTj2XY
+
+Im giving away signed first copy editions to a select few if you sign
+up for my newsletter here: bit.ly/giveawayED
+
+Im on a ten-year mission as to capture dynamic visuals that make up
+the unique story about
+fellow riders in NYC subway cars, stations and the world! 
+
+
+I still have 79 more to go which i have planned for the future. Want
+to join me on my journey? 
+Join me here: bit.ly/giveawayED
+
+Come along for the ride and see places like Thailand, Cuba and
+Africa.
+
+Best
+-Ted
+ststephenssanjose.org
+
+"
+
+You can contact Zachery Haynie via email,
+zachery.haynie@googlemail.com
+
+--1676100839-eximdsn-56397866--

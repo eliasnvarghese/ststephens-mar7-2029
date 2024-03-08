@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id sPSYEg5h32Qm4hQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 18 Aug 2023 05:16:14 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 18 Aug 2023 05:16:14 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qWyOk-005mux-8J
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 18 Aug 2023 05:16:14 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qWyOf-005mmr-8n@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1692360974-eximdsn-2127616730
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qWyOk-005mux-8J@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 18 Aug 2023 05:16:14 -0700
+
+--1692360974-eximdsn-2127616730
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 WyOkqOyF5AGP9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ZdvbdOZA c=1 sm=1 tr=0 ts=64df610e p=BwsSsvocAAAA:8 p=riSFbNU7AAAA:8 p=fRPZpvNIP5tM5hMHeyI-:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=3BcsNitTAAAA:8 a=bNIakJOWmZFzaRNokHkA:9 a=QEXdDO2ut3YA:10 a=qPmZfEk4NE4A:10 a=zIuhvDsfhVQA:10 a=IeTGYkwT12KPfjVvFcAz:22 a=97K9DYCUrtHAY-5RAQN1:22 a=SD2Y9UoVrqin0qKYsMXY:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1692360974-eximdsn-2127616730
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 WyOkqOyF5AGP9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ZdvbdOZA c=1 sm=1 tr=0 ts=64df610e p=BwsSsvocAAAA:8 p=riSFbNU7AAAA:8 p=fRPZpvNIP5tM5hMHeyI-:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=3BcsNitTAAAA:8 a=bNIakJOWmZFzaRNokHkA:9 a=QEXdDO2ut3YA:10 a=qPmZfEk4NE4A:10 a=zIuhvDsfhVQA:10 a=IeTGYkwT12KPfjVvFcAz:22 a=97K9DYCUrtHAY-5RAQN1:22 a=SD2Y9UoVrqin0qKYsMXY:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1692360974-eximdsn-2127616730
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qWyOf-005mmr-8n
+	for ginojohn@gmail.com;
+	Fri, 18 Aug 2023 05:16:14 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by DanielThear.
+X-PHP-Script: ststephenssanjose.org/contact.php for 199.168.97.130
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 199.168.97.130
+From: miko@bloombergnewstoday.com
+Reply-To: miko@bloombergnewstoday.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qWyOf-005mmr-8n@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 18 Aug 2023 05:16:09 -0700
+
+You have been contacted by DanielThear, and the message is as follows.
+
+"Top News Sites for guest post 
+ 
+https://www.topworldnewstoday.com/ 
+https://www.canadiannewstoday.com/ 
+https://www.bloombergnewstoday.com/ 
+ 
+Regards"
+
+You can contact DanielThear via email, miko@bloombergnewstoday.com
+
+--1692360974-eximdsn-2127616730--

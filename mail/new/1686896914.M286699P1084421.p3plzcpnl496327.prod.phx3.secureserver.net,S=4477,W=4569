@@ -1,0 +1,92 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id MPkBERIBjGQFjBAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 15 Jun 2023 23:28:34 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 15 Jun 2023 23:28:34 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qA2wk-004YJP-7c
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 15 Jun 2023 23:28:34 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qA2we-004Y6C-Kg@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1686896914-eximdsn-273447632
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qA2wk-004YJP-7c@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 15 Jun 2023 23:28:34 -0700
+
+--1686896914-eximdsn-273447632
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 A2wkqOVEbb3ts :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=648c0112 p=2cHJkHJPoiYA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=n1L6ya-2AAAA:8 a=FhNAqvN52jZU2oYUozoA:9 a=QEXdDO2ut3YA:10 a=zgiPjhLxNE0A:10 a=R00NVXdH6re2Wy-0FM-t:22 a=acewEgQMpYTsClr9keMy:22 a=SFl0hMuqtATiRYRKx-MK:22 ::
+    96.00
+
+--1686896914-eximdsn-273447632
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 A2wkqOVEbb3ts :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=648c0112 p=2cHJkHJPoiYA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=n1L6ya-2AAAA:8 a=FhNAqvN52jZU2oYUozoA:9 a=QEXdDO2ut3YA:10 a=zgiPjhLxNE0A:10 a=R00NVXdH6re2Wy-0FM-t:22 a=acewEgQMpYTsClr9keMy:22 a=SFl0hMuqtATiRYRKx-MK:22 :: 96.00
+
+--1686896914-eximdsn-273447632
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qA2we-004Y6C-Kg
+	for ginojohn@gmail.com;
+	Thu, 15 Jun 2023 23:28:34 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Sarah Densie.
+X-PHP-Script: ststephenssanjose.org/contact.php for 103.53.52.143
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 103.53.52.143
+From: sarah@businesscoachvas.com
+Reply-To: sarah@businesscoachvas.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qA2we-004Y6C-Kg@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 15 Jun 2023 23:28:28 -0700
+
+You have been contacted by Sarah Densie, and the message is as
+follows.
+
+"Hello there,
+
+I saw your website and I wanted to reach out because I think I can be
+of great assistance.
+
+I provide Virtual Assistants to Business Owners. We help aid with
+their tedious day to day tasks like; prospecting, administrative
+tasks, cold calling, database management, social media branding,
+content writing, and accounting work.
+
+Are you currently looking for any help? 
+"
+
+You can contact Sarah Densie via email, sarah@businesscoachvas.com
+
+--1686896914-eximdsn-273447632--

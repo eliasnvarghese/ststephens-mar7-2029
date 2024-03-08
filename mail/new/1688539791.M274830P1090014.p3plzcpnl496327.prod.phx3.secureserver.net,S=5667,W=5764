@@ -1,0 +1,97 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 70noD48SpWTeoRAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 04 Jul 2023 23:49:51 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 04 Jul 2023 23:49:51 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qGwKl-004ZYk-6h
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 04 Jul 2023 23:49:51 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qGwKg-004ZXQ-3d@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1688539791-eximdsn-981011067
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qGwKl-004ZYk-6h@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 04 Jul 2023 23:49:51 -0700
+
+--1688539791-eximdsn-981011067
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 GwKlqTz6VUe7e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64a5128f p=IturhITrCecA:10 p=o6BTIPHUAAAA:8 p=DBZtSS_74WkA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=tY7VQFxFZokA:10 a=HvY7l-wSAAAA:8 a=UStkX1leAAAA:8 a=d_dkJNkpAAAA:8 a=Z_lKhe5dAAAA:8 a=cHiLoYeyAAAA:8 a=hodXWSPgAAAA:8 a=i_OfGV35AAAA:8 a=CoiYDfS4AAAA:8 a=69EAbJreAAAA:8 a=YvpqNOCMBNbb9JJO5rAA:9 a=QEXdDO2ut3YA:10 a=eqaTgSGywBkA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=sXbVkbHTTEeStbt8bYuE:22 a=dpbxGgunROmXRZfw4p-f:22 a=H_xnENKjrUnPts2BZxqP:22 a=af5oPM7nfoQzmB0UQi1T:22 a=acewEgQMpYTsClr9keMy:22 a=n73pZ6jzNs_nhw03iQ_Y:22 ::
+    100.00
+
+--1688539791-eximdsn-981011067
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 GwKlqTz6VUe7e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64a5128f p=IturhITrCecA:10 p=o6BTIPHUAAAA:8 p=DBZtSS_74WkA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=tY7VQFxFZokA:10 a=HvY7l-wSAAAA:8 a=UStkX1leAAAA:8 a=d_dkJNkpAAAA:8 a=Z_lKhe5dAAAA:8 a=cHiLoYeyAAAA:8 a=hodXWSPgAAAA:8 a=i_OfGV35AAAA:8 a=CoiYDfS4AAAA:8 a=69EAbJreAAAA:8 a=YvpqNOCMBNbb9JJO5rAA:9 a=QEXdDO2ut3YA:10 a=eqaTgSGywBkA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=sXbVkbHTTEeStbt8bYuE:22 a=dpbxGgunROmXRZfw4p-f:22 a=H_xnENKjrUnPts2BZxqP:22 a=af5oPM7nfoQzmB0UQi1T:22 a=acewEgQMpYTsClr9keMy:22 a=n73pZ6jzNs_nhw03iQ_Y:22 :: 100.00
+
+--1688539791-eximdsn-981011067
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qGwKg-004ZXQ-3d
+	for ginojohn@gmail.com;
+	Tue, 04 Jul 2023 23:49:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by CharlesPQ.
+X-PHP-Script: ststephenssanjose.org/contact.php for 5.166.92.195
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 5.166.92.195
+From: semen26041975@hotmail.com
+Reply-To: semen26041975@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qGwKg-004ZXQ-3d@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 04 Jul 2023 23:49:46 -0700
+
+You have been contacted by CharlesPQ, and the message is as follows.
+
+"[url=https://images.google.to/url?q=https://www.69videosx.com]69VideosX.com[/url]
+freshest and newest porn videos! 
+Special XXX top quality & rated content from all the world, from all
+[url=http://www.google.com.bo/url?q=https://www.69videosx.com]best
+porno video[/url] sites: xvideos, redtube, pornhub, xhamster, xnxx,
+beeg, youporn, porn and other! 
+Also have amateur homemade sex collections from socials like facebook,
+reddit, Tumblr, vkontake couple sex, telegram porn videos, japanese &
+thai girls fuck in line chats, Whatsapp XXX girls! All
+[url=https://maps.google.cl/url?q=https://www.69videosx.com]best porn
+videos[/url] we collect for you on 69VideosX! 
+ 
+http://images.google.cc/url?q=https://www.69videosx.com
+https://images.google.ro/url?q=https://www.69videosx.com
+https://google.com.mx/url?q=https://www.69videosx.com
+http://maps.google.pn/url?q=https://www.69videosx.com
+http://maps.google.si/url?q=https://www.69videosx.com
+"
+
+You can contact CharlesPQ via email, semen26041975@hotmail.com
+
+--1688539791-eximdsn-981011067--

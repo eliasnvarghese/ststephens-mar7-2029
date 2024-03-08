@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ejn2H+G2UGRJewEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 02 May 2023 00:08:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 02 May 2023 00:08:17 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1ptk7V-000PFj-6W
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 02 May 2023 00:08:17 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1ptk7Q-000P9E-8X@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1ptk7V-000PFj-6W@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 02 May 2023 00:08:17 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1ptk7Q-000P9E-8X
+	for ginojohn@gmail.com;
+	Tue, 02 May 2023 00:08:12 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Richardlot.
+X-PHP-Script: ststephenssanjose.org/contact.php for 178.168.194.165
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 178.168.194.165
+From: dnnfdfjgq@outlook.com
+Reply-To: dnnfdfjgq@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1ptk7Q-000P9E-8X@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 02 May 2023 00:08:12 -0700
+
+You have been contacted by Richardlot, and the message is as follows.
+
+" 
+ 
+Хотите быть в курсе новых технологий и
+узнавать о самых интересных новинках?
+Тогда наш сайт <a
+href=https://premiumteh.ru>premiumteh.ru</a> идеально
+подойдет для вас! Здесь вы найдете все
+самое интересное о хай тек
+технологиях, компьютерном железе и
+софте, а также множество советов по
+использованию этих технологий. Будьте
+в курсе всех новостей и трендов в мире
+IT вместе с нами!"
+
+You can contact Richardlot via email, dnnfdfjgq@outlook.com

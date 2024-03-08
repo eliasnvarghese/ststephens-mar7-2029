@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 9KbwDFYukWQisy4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 19 Jun 2023 21:43:02 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 19 Jun 2023 21:43:02 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qBTCo-00CqB1-4p
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 19 Jun 2023 21:43:02 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qBTCj-00CpyM-TH@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1687236182-eximdsn-578127954
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qBTCo-00CqB1-4p@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 19 Jun 2023 21:43:02 -0700
+
+--1687236182-eximdsn-578127954
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 BTCoqQtW3089I :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Cup5MF0D c=1 sm=1 tr=0 ts=64912e56 p=v5vA3z12ifgA:10 p=DlOSAzms4gVfhNJ7UqkG:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=QjwlI1Eih3MA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=bSsQWc0YxXYA:10 a=AAvYLDLOAAAA:8 a=pGLkceISAAAA:8 a=DA3wvOIO775YhlluP4EA:9 a=QEXdDO2ut3YA:10 a=5ZerWZd-GUYA:10 a=7wEAKMz5i-wA:10 a=W-yhDW6aotkA:10 a=cAZ84RL2XnEnOr_c8ajw:22 a=Ib9dWkudYUtHLc8YO3NE:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1687236182-eximdsn-578127954
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 BTCoqQtW3089I :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Cup5MF0D c=1 sm=1 tr=0 ts=64912e56 p=v5vA3z12ifgA:10 p=DlOSAzms4gVfhNJ7UqkG:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=QjwlI1Eih3MA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=bSsQWc0YxXYA:10 a=AAvYLDLOAAAA:8 a=pGLkceISAAAA:8 a=DA3wvOIO775YhlluP4EA:9 a=QEXdDO2ut3YA:10 a=5ZerWZd-GUYA:10 a=7wEAKMz5i-wA:10 a=W-yhDW6aotkA:10 a=cAZ84RL2XnEnOr_c8ajw:22 a=Ib9dWkudYUtHLc8YO3NE:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1687236182-eximdsn-578127954
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qBTCj-00CpyM-TH
+	for ginojohn@gmail.com;
+	Mon, 19 Jun 2023 21:43:02 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JamesVet.
+X-PHP-Script: ststephenssanjose.org/contact.php for 37.139.53.94
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 37.139.53.94
+From: oleiabarrasleyh@gmail.com
+Reply-To: oleiabarrasleyh@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qBTCj-00CpyM-TH@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 19 Jun 2023 21:42:57 -0700
+
+You have been contacted by JamesVet, and the message is as follows.
+
+"tbonzo1@msn.com"
+
+You can contact JamesVet via email, oleiabarrasleyh@gmail.com
+
+--1687236182-eximdsn-578127954--

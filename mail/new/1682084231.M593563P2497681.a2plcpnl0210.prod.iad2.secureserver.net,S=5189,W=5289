@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id eDSfIoeRQmSRHCYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 21 Apr 2023 06:37:11 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 21 Apr 2023 06:37:11 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1ppqwp-00AVDj-Ey
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 21 Apr 2023 06:37:11 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1ppqwi-00AV6k-5j@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1682084231-eximdsn-150466782
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ppqwp-00AVDj-Ey@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 21 Apr 2023 06:37:11 -0700
+
+--1682084231-eximdsn-150466782
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 pqwpprQ3Vbx9d :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=LqtUiFRc c=1 sm=1 tr=0 ts=64429187 p=fptVyu0QC6XqP9tjAE-k:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=0cGu1niiAAAA:8 a=pGLkceISAAAA:8 a=fP2BcaHqAAAA:8 a=PRlduuLDfipCbUZkNrUA:9 a=QEXdDO2ut3YA:10 a=qL413_m2J3oA:10 a=Qjn_9iKctQYA:10 a=YNSUXxHe9C0A:10 a=acewEgQMpYTsClr9keMy:22 a=7oUkhdzbPpuR4lySt7gw:22 a=Hh-yr14-J4N9Kc5UXL32:22 ::
+    96.00
+
+--1682084231-eximdsn-150466782
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 pqwpprQ3Vbx9d :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=LqtUiFRc c=1 sm=1 tr=0 ts=64429187 p=fptVyu0QC6XqP9tjAE-k:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=0cGu1niiAAAA:8 a=pGLkceISAAAA:8 a=fP2BcaHqAAAA:8 a=PRlduuLDfipCbUZkNrUA:9 a=QEXdDO2ut3YA:10 a=qL413_m2J3oA:10 a=Qjn_9iKctQYA:10 a=YNSUXxHe9C0A:10 a=acewEgQMpYTsClr9keMy:22 a=7oUkhdzbPpuR4lySt7gw:22 a=Hh-yr14-J4N9Kc5UXL32:22 :: 96.00
+
+--1682084231-eximdsn-150466782
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1ppqwi-00AV6k-5j
+	for ginojohn@gmail.com;
+	Fri, 21 Apr 2023 06:37:11 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Waheed Mohammed.
+X-PHP-Script: ststephenssanjose.org/contact.php for 138.199.59.153
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 138.199.59.153
+From: ujn2esbgakah@opayq.com
+Reply-To: ujn2esbgakah@opayq.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1ppqwi-00AV6k-5j@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 21 Apr 2023 06:37:04 -0700
+
+You have been contacted by Waheed Mohammed, and the message is as
+follows.
+
+"Hello, 
+ 
+We provide funding through our venture capital company to both
+start-up and existing companies either looking for funding for
+expansion or to accelerate growth in their company. We have a
+structured joint venture investment plan in which we are interested in
+an annual return on investment not more than 10% ROI. We are also
+currently structuring a convertible debt and loan financing of 3%
+interest repayable annually with no early repayment penalties. If you
+have a business plan or executive summary, I can review to 
+understand a much better idea of your business and what you are
+looking to do, this will assist in determining the best possible
+investment structure we can pursue and discuss more extensively. If
+you are interested in any of the above, kindly respond to us via this
+email. waheed@almarisinvestmentgroup.com 
+Waheedalgore22@gmail.com 
+Sincerely 
+Engineer Waheed Mohammed 
+Chief Financial Officer 
+Al-Maris Investment Group"
+
+You can contact Waheed Mohammed via email, ujn2esbgakah@opayq.com
+
+--1682084231-eximdsn-150466782--

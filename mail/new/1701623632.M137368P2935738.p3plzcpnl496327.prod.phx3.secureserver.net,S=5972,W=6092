@@ -1,0 +1,120 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id vhyeB1C3bGW6yywACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 03 Dec 2023 10:13:52 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 03 Dec 2023 10:13:52 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r9q2S-00CJiV-1t
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 03 Dec 2023 10:13:52 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r9q2M-00CJh6-DN@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1701623632-eximdsn-1080998331
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r9q2S-00CJiV-1t@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 03 Dec 2023 10:13:52 -0700
+
+--1701623632-eximdsn-1080998331
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 9q2RrCqqDvCBc :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KZUU8yUD c=1 sm=1 tr=0 ts=656cb750 p=hUJAhDVkgCQA:10 p=11o2ZW_-AAAA:20 p=pekD_h5wvn4A:10 p=I5dg2DCqgLpLlIJ3p7im:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=x7bEGLp0ZPQA:10 a=KE5g5grovNcA:10 a=pGLkceISAAAA:8 a=8R1xaT99ChWm0Xh8jiAA:9 a=QEXdDO2ut3YA:10 a=locXM12CMXAA:10 a=sccwGh4aymYA:10 a=tsafYDZEc1YzDLJeeddJ:22 a=oGbveOSLXPW9L4JOlC8K:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1701623632-eximdsn-1080998331
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 9q2RrCqqDvCBc :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KZUU8yUD c=1 sm=1 tr=0 ts=656cb750 p=hUJAhDVkgCQA:10 p=11o2ZW_-AAAA:20 p=pekD_h5wvn4A:10 p=I5dg2DCqgLpLlIJ3p7im:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=x7bEGLp0ZPQA:10 a=KE5g5grovNcA:10 a=pGLkceISAAAA:8 a=8R1xaT99ChWm0Xh8jiAA:9 a=QEXdDO2ut3YA:10 a=locXM12CMXAA:10 a=sccwGh4aymYA:10 a=tsafYDZEc1YzDLJeeddJ:22 a=oGbveOSLXPW9L4JOlC8K:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1701623632-eximdsn-1080998331
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r9q2M-00CJh6-DN
+	for ginojohn@gmail.com;
+	Sun, 03 Dec 2023 10:13:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Ernestjum.
+X-PHP-Script: ststephenssanjose.org/contact.php for 109.107.172.122
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 109.107.172.122
+From: 4546@gmail.com
+Reply-To: 4546@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r9q2M-00CJh6-DN@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 03 Dec 2023 10:13:46 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Ernestjum, and the message is as follows.
+
+"Hey Investor, 
+ 
+Are you prepared to supercharge your investments and watch your
+capital grow exponentially? Great, we have an incredible opportunity
+for you - TenX tokens! 
+ 
+?? Why should you register and invest in TenX tokens? ?? 
+ 
+? Unbelievable Profit Potential: Imagine a world where you will never
+sell TenX tokens for less than you bought them. It's not just a dream;
+it's a guarantee! This is your golden ticket to a massive increase in
+your capital. 
+ 
+? Security and Longevity: TenX has revolutionized the crypto market
+with its limit and lockup systems, offering a perfect blend of
+profitability and reliability. Rest assured, your investments are in
+it for the long haul. 
+ 
+? Astonishing Rewards: TenX's marketing plan is like no other! Project
+leaders have confessed they've never seen returns like this elsewhere.
+Get ready to reap the rewards of a lifetime. 
+ 
+? The Best Terms in the Market: TenX offers terms that outshine the
+competition, and it receives daily support from top leaders worldwide.
+Remember our motto: "If you don't buy today, you'll buy at a higher
+price tomorrow." TenX is your ultimate chance for financial success! 
+ 
+?? Act now, register today, and embark on your journey to financial
+prosperity with TenX! ?? 
+ 
+Ready to seize the moment? Click here to know more:
+https://tinyurl.com/tenxsmm 
+ 
+Don't miss out on this life-changing opportunity to multiply your
+investments tenfold! Join us at TenX today and let's make your
+financial dreams a reality. 
+ 
+To your prosperity,"
+
+You can contact Ernestjum via email, 4546@gmail.com
+
+--1701623632-eximdsn-1080998331--

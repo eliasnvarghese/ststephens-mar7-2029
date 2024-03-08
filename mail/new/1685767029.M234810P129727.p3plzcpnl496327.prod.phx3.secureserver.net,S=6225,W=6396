@@ -1,0 +1,171 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id DavlDXXDemS/+gEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 02 Jun 2023 21:37:09 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 02 Jun 2023 21:37:09 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q5J0n-000XkH-5g
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 02 Jun 2023 21:37:09 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q5J0i-000XjM-31@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1685767029-eximdsn-157022328
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q5J0n-000XkH-5g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 02 Jun 2023 21:37:09 -0700
+
+--1685767029-eximdsn-157022328
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 5J0mqavX2VVZp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=YJhZizKx c=1 sm=1 tr=0 ts=647ac375 p=cMSLcxnurz0A:10 p=mfl2IWXZAAAA:20 p=W161iDaQWK6AY5tEEwUR:22 p=oYY0ZtdiSeWmv1d1oDlb:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=rFqSpvTmGHMA:10 a=pGLkceISAAAA:8 a=5yzZHvN0WVRAV2M3dMkA:9 a=QEXdDO2ut3YA:10 a=x6BBtc08rWIA:10 a=SUQl-1TkCHcA:10 a=KyYZJfTCSdMA:10 a=V6Us0OmCQydLSXhyzMOs:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1685767029-eximdsn-157022328
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 5J0mqavX2VVZp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=YJhZizKx c=1 sm=1 tr=0 ts=647ac375 p=cMSLcxnurz0A:10 p=mfl2IWXZAAAA:20 p=W161iDaQWK6AY5tEEwUR:22 p=oYY0ZtdiSeWmv1d1oDlb:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=rFqSpvTmGHMA:10 a=pGLkceISAAAA:8 a=5yzZHvN0WVRAV2M3dMkA:9 a=QEXdDO2ut3YA:10 a=x6BBtc08rWIA:10 a=SUQl-1TkCHcA:10 a=KyYZJfTCSdMA:10 a=V6Us0OmCQydLSXhyzMOs:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1685767029-eximdsn-157022328
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q5J0i-000XjM-31
+	for ginojohn@gmail.com;
+	Fri, 02 Jun 2023 21:37:08 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Adam Axelson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 63.161.79.83
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 63.161.79.83
+From: adam.axelson@gmail.com
+Reply-To: adam.axelson@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q5J0i-000XjM-31@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 02 Jun 2023 21:37:04 -0700
+
+You have been contacted by Adam Axelson, and the message is as
+follows.
+
+"Residual Income System is a game changer for both new marketers and
+existing affiliates.
+
+
+How? It eliminates competition and makes it push button simple to bank
+hundreds 
+
+PER sale … without a list or even paid traffic!
+
+
+>> Check the demo to see for yourself: bit.ly/42jnFie
+
+
+Here’s what you get:
+
+
+DFY, PROFESSIONAL website optimized for recurring, passive AND high
+ticket commissions
+
+
+MULTIPLE income streams: you’re pre-approved to profit from the 18
+recurring services AND high-ticket offer built into your site
+
+
+Free viral traffic & hosting included = ZERO overhead costs
+
+
+Set & forget method: customize your site ONCE, then it runs on 100%
+autopilot
+
+
+Completely beginner friendly: no tech skills needed, nothing to
+install, step-by-step instructions included
+
+
+Easy to scale: Residual Income System INCLUDES the core software so
+you can customize this system to fit ANY offer
+
+
+
+>> Check the demo to see for yourself: bit.ly/42jnFie
+
+
+
+This is the most complete HIGH PROFIT and recurring affiliate system
+I’ve ever seen.
+
+
+Everyone from complete beginners to advanced marketers are raving
+about their results.
+
+
+You can start making your 1st 3+ figure commissions in as little as 24
+hours …
+
+
+And scale up to lifestyle income easily with the included training.
+
+
+Right now, complete access is all yours for an incredibly low one-time
+fee.
+
+
+But that price WON’T last long.
+
+
+Imagine making $497 before lunchtime every day …
+
+
+And have commission checks arriving in the mail every single month…
+
+
+For no more than 10 minutes of your time.
+
+
+
+>> Grab this NOW to make it happen: bit.ly/42jnFie 
+
+
+
+Good Luck, 
+
+Adam 
+
+
+P.S. if you REALLY want to scale this to game changing profits, check
+out the 1st upgrade option for UNLIMITED campaigns and even more DFY
+high ticket offers
+
+
+"
+
+You can contact Adam Axelson via email, adam.axelson@gmail.com
+
+--1685767029-eximdsn-157022328--

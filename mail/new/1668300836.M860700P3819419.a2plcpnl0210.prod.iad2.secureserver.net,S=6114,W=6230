@@ -1,0 +1,116 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id EAUtMSRAcGObRzoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 12 Nov 2022 17:53:56 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 12 Nov 2022 17:53:56 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1ou1G0-00G3pp-Nq
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sat, 12 Nov 2022 17:53:56 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1ou1G0-00G3pH-Ae@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1668300836-eximdsn-1906601635
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ou1G0-00G3pp-Nq@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 12 Nov 2022 17:53:56 -0700
+
+--1668300836-eximdsn-1906601635
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 u1Fzolf19wRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63704023 p=lHyhNV7gAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=a9BAqNWpUbAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=1qanR0gZbeMA:10 a=x7bEGLp0ZPQA:10 a=O04fKYO6bKEA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=rwp8LKHcbtUmzPflXLUA:9 a=QEXdDO2ut3YA:10 a=hCnhmpw-GlUA:10 a=IVUBdexxtRwA:10 a=XMB075jHoYoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=qYY-0e5v0Ec2vUMr2GDV:22 a=BGcqoopIoM8l-exNahK3:22 a=jycUkCEYUnZvh0PkXkJV:22 a=HwoupzIZW1ShhGgZgozV:22 ::
+    100.00
+
+--1668300836-eximdsn-1906601635
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 u1Fzolf19wRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63704023 p=lHyhNV7gAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=a9BAqNWpUbAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=1qanR0gZbeMA:10 a=x7bEGLp0ZPQA:10 a=O04fKYO6bKEA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=rwp8LKHcbtUmzPflXLUA:9 a=QEXdDO2ut3YA:10 a=hCnhmpw-GlUA:10 a=IVUBdexxtRwA:10 a=XMB075jHoYoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=qYY-0e5v0Ec2vUMr2GDV:22 a=BGcqoopIoM8l-exNahK3:22 a=jycUkCEYUnZvh0PkXkJV:22 a=HwoupzIZW1ShhGgZgozV:22 :: 100.00
+
+--1668300836-eximdsn-1906601635
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1ou1G0-00G3pH-Ae
+	for ginojohn@gmail.com; Sat, 12 Nov 2022 17:53:56 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Eric Jones.
+X-PHP-Script: ststephenssanjose.org/contact.php for 196.240.143.143
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 196.240.143.143
+From: ericjonesmyemail@gmail.com
+Reply-To: ericjonesmyemail@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1ou1G0-00G3pH-Ae@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 12 Nov 2022 17:53:56 -0700
+
+You have been contacted by Eric Jones, and the message is as follows.
+
+"My name’s Eric and I just found your site ststephenssanjose.org.
+
+It’s got a lot going for it, but here’s an idea to make it even
+MORE effective.
+
+Talk With Web Visitor – CLICK HERE https://boostleadgeneration.com
+for a live demo now.
+
+Talk With Web Visitor is a software widget that’s works on your
+site, ready to capture any visitor’s Name, Email address and Phone
+Number.  It signals you the moment they let you know they’re
+interested – so that you can talk to that lead while they’re
+literally looking over your site.
+
+And once you’ve captured their phone number, with our new SMS Text
+With Lead feature, you can automatically start a text (SMS)
+conversation… and if they don’t take you up on your offer then,
+you can follow up with text messages for new offers, content links,
+even just “how you doing?” notes to build a relationship.
+
+CLICK HERE https://boostleadgeneration.com to discover what Talk With
+Web Visitor can do for your business.
+
+The difference between contacting someone within 5 minutes versus a
+half-hour means you could be converting up to 100X more leads today!
+
+Eric
+PS: Studies show that 70% of a site’s visitors disappear and are
+gone forever after just a moment. Don’t keep losing them. 
+Talk With Web Visitor offers a FREE 14 days trial – and it even
+includes International Long Distance Calling. 
+You have customers waiting to talk with you right now… don’t keep
+them waiting. 
+CLICK HERE https://boostleadgeneration.com to try Talk With Web
+Visitor now.
+
+If you'd like to unsubscribe click here
+http://boostleadgeneration.com/unsubscribe.aspx?d=ststephenssanjose.org
+"
+
+You can contact Eric Jones via email, ericjonesmyemail@gmail.com
+
+--1668300836-eximdsn-1906601635--

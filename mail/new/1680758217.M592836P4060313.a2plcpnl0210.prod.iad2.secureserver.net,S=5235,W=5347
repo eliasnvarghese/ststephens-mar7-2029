@@ -1,0 +1,112 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OLuzIclVLmSZ9D0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 05 Apr 2023 22:16:57 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 05 Apr 2023 22:16:57 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pkHzV-00H2HC-DY
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 05 Apr 2023 22:16:57 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pkHzQ-00H2CY-90@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1680758217-eximdsn-212217932
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pkHzV-00H2HC-DY@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 05 Apr 2023 22:16:57 -0700
+
+--1680758217-eximdsn-212217932
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 kHzVp0cnmFHyz :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=C/kviyD+ c=1 sm=1 tr=0 ts=642e55c9 p=fl9gTw5QAAAA:20 p=-YvYs9JLs_5VoqkBEMwP:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=qoWkTKQHP4IA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=rql2KBNI-s0A:10 a=pGLkceISAAAA:8 a=SiqyMtUYdNDw_g1sZWgA:9 a=QEXdDO2ut3YA:10 a=xTR8KLQFi5kA:10 a=nWP9kE336Q4A:10 a=TTMWPwRi8R4A:10 a=KyYZJfTCSdMA:10 a=q0mSuQ8Gv5gLdoDJigmH:22 a=nvq3r-0w7e5phFfqerz3:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1680758217-eximdsn-212217932
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 kHzVp0cnmFHyz :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=C/kviyD+ c=1 sm=1 tr=0 ts=642e55c9 p=fl9gTw5QAAAA:20 p=-YvYs9JLs_5VoqkBEMwP:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=qoWkTKQHP4IA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=rql2KBNI-s0A:10 a=pGLkceISAAAA:8 a=SiqyMtUYdNDw_g1sZWgA:9 a=QEXdDO2ut3YA:10 a=xTR8KLQFi5kA:10 a=nWP9kE336Q4A:10 a=TTMWPwRi8R4A:10 a=KyYZJfTCSdMA:10 a=q0mSuQ8Gv5gLdoDJigmH:22 a=nvq3r-0w7e5phFfqerz3:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1680758217-eximdsn-212217932
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pkHzQ-00H2CY-90
+	for ginojohn@gmail.com;
+	Wed, 05 Apr 2023 22:16:57 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Dorthy Beane.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.142.238
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.142.238
+From: beane.dorthy@gmail.com
+Reply-To: beane.dorthy@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pkHzQ-00H2CY-90@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 05 Apr 2023 22:16:52 -0700
+
+You have been contacted by Dorthy Beane, and the message is as
+follows.
+
+"Have you imagined been able to own your own AI Chatbot…
+
+>> Click here to start https://bit.ly/432KnN0
+
+ChatGPT is the new Big thing now and if you can own your ChatGPT AI it
+will make you unimaginable profit in your online business
+
+Where you can do virtually everything in the online space
+
+Ranging from;
+
+Writing powerful codes for your websites
+Writing attention Grabbing Contents
+Designing Stunning Graphics 
+Doing data analysis
+automated Replies to customer Chats.
+Building a Strong SEO Websites thats pulls in Traffic 
+Video Editing,Proofreading, Translation,
+
+And even a lot more… Just name any skill.
+
+You literally don’t have to pay any freelancer or expert to do any
+of these things for you.
+
+Come see what it can do for you.
+
+https://bit.ly/432KnN0
+
+Have a great day!
+
+
+"
+
+You can contact Dorthy Beane via email, beane.dorthy@gmail.com
+
+--1680758217-eximdsn-212217932--

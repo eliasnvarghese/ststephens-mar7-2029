@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 0HkhIYbMUmXfNDQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 13 Nov 2023 18:25:26 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 13 Nov 2023 18:25:26 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r2iBC-00EMmi-GJ
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 13 Nov 2023 18:25:26 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r2iB7-00EMlW-Vw@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699925126-eximdsn-2113853011
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r2iBC-00EMmi-GJ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 13 Nov 2023 18:25:26 -0700
+
+--1699925126-eximdsn-2113853011
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 2iBCrDHsEjLE1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=6552cc86 p=gPw-jVA2AAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=yJm4ntK-7icA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=jbjtCQyIVa4A:10 a=UqCG9HQmAAAA:8 a=cXfLcR8Uxi9kNOZeEacA:9 a=QEXdDO2ut3YA:10 a=pshpYOIX2FYA:10 a=7T_juO_bARoA:10 a=0XyH9Ug8w_8A:10 a=IawXvI9lP1MA:10 a=QNSHugtdyOUA:10 a=hnDDr0LWhB8A:10 a=ithpByOwecEA:10 a=LGQJf1lOOX1d8GbU-1Xs:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1699925126-eximdsn-2113853011
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 2iBCrDHsEjLE1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=6552cc86 p=gPw-jVA2AAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=yJm4ntK-7icA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=jbjtCQyIVa4A:10 a=UqCG9HQmAAAA:8 a=cXfLcR8Uxi9kNOZeEacA:9 a=QEXdDO2ut3YA:10 a=pshpYOIX2FYA:10 a=7T_juO_bARoA:10 a=0XyH9Ug8w_8A:10 a=IawXvI9lP1MA:10 a=QNSHugtdyOUA:10 a=hnDDr0LWhB8A:10 a=ithpByOwecEA:10 a=LGQJf1lOOX1d8GbU-1Xs:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1699925126-eximdsn-2113853011
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r2iB7-00EMlW-Vw
+	for ginojohn@gmail.com;
+	Mon, 13 Nov 2023 18:25:26 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Tami Waddell.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.22.211
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.22.211
+From: tami.waddell@outlook.com
+Reply-To: tami.waddell@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r2iB7-00EMlW-Vw@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 13 Nov 2023 18:25:21 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Tami Waddell, and the message is as
+follows.
+
+"check this out how to lose belly fat 
+https://bit.ly/lose1122"
+
+You can contact Tami Waddell via email, tami.waddell@outlook.com
+
+--1699925126-eximdsn-2113853011--

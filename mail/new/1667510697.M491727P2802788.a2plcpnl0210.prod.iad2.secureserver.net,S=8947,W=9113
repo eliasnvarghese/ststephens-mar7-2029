@@ -1,0 +1,166 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OG8xHakxZGNkxCoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 14:24:57 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 14:24:57 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqhhp-00Brsw-BA
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 14:24:57 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqhho-00BrsV-QZ@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667510697-eximdsn-1967892805
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqhhp-00Brsw-BA@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 14:24:57 -0700
+
+--1667510697-eximdsn-1967892805
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qhhpoFrPpF1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=636431a9 p=mTW-7JmCtncA:10 p=6bxjhmc0d9wA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=C4ZPwctg428A:10 a=wFdLv_piAAAA:8 a=mem--OOHAAAA:8 a=6cAFMJUm1OBk-DznIyYA:9 a=QEXdDO2ut3YA:10 a=hxXwg1ZgnXYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=-DW9cWuSPti5viWApMzw:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667510697-eximdsn-1967892805
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qhhpoFrPpF1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=636431a9 p=mTW-7JmCtncA:10 p=6bxjhmc0d9wA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=C4ZPwctg428A:10 a=wFdLv_piAAAA:8 a=mem--OOHAAAA:8 a=6cAFMJUm1OBk-DznIyYA:9 a=QEXdDO2ut3YA:10 a=hxXwg1ZgnXYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=-DW9cWuSPti5viWApMzw:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667510697-eximdsn-1967892805
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqhho-00BrsV-QZ
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 14:24:56 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JamesKig.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: sergey_ilin_1982@bk.ru
+Reply-To: sergey_ilin_1982@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqhho-00BrsV-QZ@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 14:24:56 -0700
+
+You have been contacted by JamesKig, and the message is as follows.
+
+"Настало время идти в школу — кому-то
+впервые, кому-то нет, — и родители
+могут столкнуться с нежеланием
+ребенка приступать к учебе
+https://www.egoestetica-med.ru/services/nail/
+   Что делать, если ребенок наотрез
+отказывается учиться и вредничает?
+Советуем посмотреть видео с
+интересными советами от мамы, которая
+не совсем стандартно подошла к
+решению проблемы http://www.egoestetica-med.ru
+ 
+Последствиями лазерной эпиляции при
+правильном проведении процедуры и
+отсутствии у пациента любого рода
+заболеваний может быть только
+гладкая, чистая, здоровая кожа
+https://www.egoestetica-med.ru/popup/
+ 
+Давайте сразу спустимся с небес на
+землю, после первой процедуры волосы
+не прекратят свой рост
+https://www.egoestetica-med.ru/services/waxing/
+   Сначала удалятся те, которые
+находятся на поверхности, а при
+последующих сеансах будут уходить
+вновь отрастающие
+https://www.egoestetica-med.ru/contact/
+   Длительность курса во многом
+зависит от особенностей организма и
+структуры волос
+https://www.egoestetica-med.ru/product/ship-your-idea/
+ 
+Про лазерную эпиляцию я слышала давно,
+так как на протяжении 7 лет я с мужем
+жила в Израиле
+https://www.egoestetica-med.ru/services/face/
+   Там такую процедуру делают уже давно
+и достаточно успешно
+https://www.egoestetica-med.ru/documents-and-licenses/
+   Но как-то я все не решалась пойти на
+эту процедуру
+https://www.egoestetica-med.ru/product/ship-your-idea/
+   Зачастую все упиралось в отсутствие
+денежных средств https://www.egoestetica-med.ru/popup/
+   Когда мы вернулись в Россию, я
+решилась и пошла в салон красоты
+https://www.egoestetica-med.ru
+   Мастера выбирала достаточно долго,
+так как не хотелось поймать кота в
+мешке https://www.egoestetica-med.ru/documents-and-licenses/
+   Спрашивала много у своих подруг,
+переписывалась с девчонками, которые
+посещали этого мастера
+https://www.egoestetica-med.ru
+   В результате поняла, что мастер
+знает свое дело и пошла записываться
+https://www.egoestetica-med.ru/documents-and-licenses/
+   С самого начала она меня направила
+пройти обследование у врача
+эндокринолога, а потом у дерматолога
+https://www.egoestetica-med.ru/contact/
+   Ни один врач не сказал мне о каких-то
+изменениях моего здоровья
+https://www.egoestetica-med.ru/popup/
+   Никаких противопоказаний не было
+https://www.egoestetica-med.ru/epilacia/
+   По приходу к врачу я решилась делать
+эпиляцию и подмышек, и ног
+https://www.egoestetica-med.ru/popup/
+ 
+Больше шансов избавиться от ненужных
+волос у обладательниц светлой кожи и
+светло-русых волос, чем у тех, чья
+светлая кожа сильно контрастирует с
+темными волосами
+https://www.egoestetica-med.ru/services/face/
+ 
+Как у мужчин, так и женщин на лице есть
+нежелательная растительность
+https://www.egoestetica-med.ru/popup/
+   Это могут светлые волосы, , или же
+темные https://www.egoestetica-med.ru/tab-style/
+   Избавит от них лазерная эпиляция
+лица https://www.egoestetica-med.ru/epilacia/
+   Каков от нее эффект, результат? Как
+происходит подготовка? Какие есть
+противопоказания и последствия? 
+"
+
+You can contact JamesKig via email, sergey_ilin_1982@bk.ru
+
+--1667510697-eximdsn-1967892805--

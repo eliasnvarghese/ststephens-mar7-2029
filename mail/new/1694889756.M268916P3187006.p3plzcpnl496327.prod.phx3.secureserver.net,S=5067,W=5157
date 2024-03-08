@@ -1,0 +1,90 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id AEl/Dxz3BWU+oTAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 16 Sep 2023 11:42:36 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 16 Sep 2023 11:42:36 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qhaFY-00DO1H-6q
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 16 Sep 2023 11:42:36 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qhaFT-00DNwA-OB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1694889756-eximdsn-1704854331
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qhaFY-00DO1H-6q@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 16 Sep 2023 11:42:36 -0700
+
+--1694889756-eximdsn-1704854331
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 haFYqtzWWzbc9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=6505f71c p=mDvtkeveAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=-3_RZKxeTFsA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=WYG_yBkMin4A:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=C-WebhaIyuCB_IdkqsgA:9 a=QEXdDO2ut3YA:10 a=eYWZT1OLpSUA:10 a=SE1C0PhVDKIA:10 a=B3JsmWgFuWwA:10 a=oNywppDUFVKoPq5X3UyE:22 a=jycUkCEYUnZvh0PkXkJV:22 a=ON4nB5BJBgYhMFTxmA83:22 a=MtOGofUl4EX7rGfHyJ72:22 a=C-Ri4LXQYA6fvKgT0Er4:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1694889756-eximdsn-1704854331
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 haFYqtzWWzbc9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=6505f71c p=mDvtkeveAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=-3_RZKxeTFsA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=WYG_yBkMin4A:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=C-WebhaIyuCB_IdkqsgA:9 a=QEXdDO2ut3YA:10 a=eYWZT1OLpSUA:10 a=SE1C0PhVDKIA:10 a=B3JsmWgFuWwA:10 a=oNywppDUFVKoPq5X3UyE:22 a=jycUkCEYUnZvh0PkXkJV:22 a=ON4nB5BJBgYhMFTxmA83:22 a=MtOGofUl4EX7rGfHyJ72:22 a=C-Ri4LXQYA6fvKgT0Er4:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1694889756-eximdsn-1704854331
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qhaFT-00DNwA-OB
+	for ginojohn@gmail.com;
+	Sat, 16 Sep 2023 11:42:36 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Royce Cody.
+X-PHP-Script: ststephenssanjose.org/contact.php for 186.233.186.103
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 186.233.186.103
+From: cody.royce@gmail.com
+Reply-To: cody.royce@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qhaFT-00DNwA-OB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 16 Sep 2023 11:42:31 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Royce Cody, and the message is as follows.
+
+"Is this your website? ststephenssanjose.org? I just sent you a
+message via the contact form on your site and was wondering if you
+wanted to try some unique advertising that reaches business owners
+worldwide? How do we do it? Well you just witnessed our process. We
+send your ad text to contact forms on websites worldwide. Plans start
+at a hundred dollars for posting your ad to one million sites. Reach
+out to me via Email and let's dicuss what we can do for your business.
+My Email is:  Royce@gomail2.xyz"
+
+You can contact Royce Cody via email, cody.royce@gmail.com
+
+--1694889756-eximdsn-1704854331--

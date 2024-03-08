@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id qBi6JSS+SWQphjkAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 26 Apr 2023 17:13:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 26 Apr 2023 17:13:24 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1prpGG-00FpNJ-F7
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 26 Apr 2023 17:13:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1prpG9-00FpKW-FZ@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1682554404-eximdsn-1435721487
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1prpGG-00FpNJ-F7@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 26 Apr 2023 17:13:24 -0700
+
+--1682554404-eximdsn-1435721487
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rpGGpnjXEFHyz :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=C/kviyD+ c=1 sm=1 tr=0 ts=6449be24 p=c38b4wsLAAAA:8 p=L1rEgoka3QqpA050sIg2:22 p=dkxYsdtYDTNda3JZEzk-:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=xsHREVzKAAAA:8 a=rx2nVJQl_t6F8V6-NHsA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=QicWjVx6NKIA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=9uYJf0WOw3lLRaOtygVf:22 a=ijroXfr-nJU6R-eEzGbc:22 ::
+    100.00
+
+--1682554404-eximdsn-1435721487
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 rpGGpnjXEFHyz :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=C/kviyD+ c=1 sm=1 tr=0 ts=6449be24 p=c38b4wsLAAAA:8 p=L1rEgoka3QqpA050sIg2:22 p=dkxYsdtYDTNda3JZEzk-:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dKHAf1wccvYA:10 a=xsHREVzKAAAA:8 a=rx2nVJQl_t6F8V6-NHsA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=QicWjVx6NKIA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=9uYJf0WOw3lLRaOtygVf:22 a=ijroXfr-nJU6R-eEzGbc:22 :: 100.00
+
+--1682554404-eximdsn-1435721487
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1prpG9-00FpKW-FZ
+	for ginojohn@gmail.com;
+	Wed, 26 Apr 2023 17:13:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by videoGet.
+X-PHP-Script: ststephenssanjose.org/contact.php for 95.79.217.158
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 95.79.217.158
+From: zwisoltiving1980@seocdvig.ru
+Reply-To: zwisoltiving1980@seocdvig.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1prpG9-00FpKW-FZ@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 26 Apr 2023 17:13:17 -0700
+
+You have been contacted by videoGet, and the message is as follows.
+
+"[url=http://xn----ctbgen7aaf.xn--p1ai]Видеонаблюдение[/url]"
+
+You can contact videoGet via email, zwisoltiving1980@seocdvig.ru
+
+--1682554404-eximdsn-1435721487--

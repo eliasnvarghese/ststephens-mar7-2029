@@ -1,0 +1,109 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id SCytLp2LFGSk/g4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 17 Mar 2023 08:47:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 17 Mar 2023 08:47:41 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pdCIv-004K5n-Ko
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 17 Mar 2023 08:47:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pdCIr-004K3z-1J@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1679068061-eximdsn-3275562
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pdCIv-004K5n-Ko@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 17 Mar 2023 08:47:41 -0700
+
+--1679068061-eximdsn-3275562
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 dCIvpy2Jyy0IM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=DbjR6NhW c=1 sm=1 tr=0 ts=64148b9d p=zUaMdaspNPIA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=uKyvQlQ3AAAA:8 a=IqWteq-Bmx5wMV-wdlYA:9 a=QEXdDO2ut3YA:10 a=acewEgQMpYTsClr9keMy:22 a=DIDTkpkR24CSUX3tCTUD:22 a=P7nGehMPLsCtJMwWakmZ:22 ::
+    100.00
+
+--1679068061-eximdsn-3275562
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 dCIvpy2Jyy0IM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=DbjR6NhW c=1 sm=1 tr=0 ts=64148b9d p=zUaMdaspNPIA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=uKyvQlQ3AAAA:8 a=IqWteq-Bmx5wMV-wdlYA:9 a=QEXdDO2ut3YA:10 a=acewEgQMpYTsClr9keMy:22 a=DIDTkpkR24CSUX3tCTUD:22 a=P7nGehMPLsCtJMwWakmZ:22 :: 100.00
+
+--1679068061-eximdsn-3275562
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pdCIr-004K3z-1J
+	for ginojohn@gmail.com;
+	Fri, 17 Mar 2023 08:47:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MichaelSoipt.
+X-PHP-Script: ststephenssanjose.org/contact.php for 147.50.253.247
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 147.50.253.247
+From: keeshacarina@quelbroker.com
+Reply-To: keeshacarina@quelbroker.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pdCIr-004K3z-1J@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 17 Mar 2023 08:47:37 -0700
+
+You have been contacted by MichaelSoipt, and the message is as
+follows.
+
+"Often, prescription  antihistamines have fewer of those results.
+Healthdirect's info and advice are developed and managed within a
+rigorous scientific governance framework. Many folks get sunburn
+during the summer months and sun safety is necessary for all of us.
+But apart from sunburn, some folks might get different rashes. 
+Common infections that are sexually transmitted in males embody
+gonorrhea, chlamydia, syphilis, hepatitis C and B, genital warts,
+human papillomavirus , and genital herpes. STDs are identified with
+tests that determine proteins or genetic material of the organisms
+causing the an infection. The prognosis of an STD is decided by
+whether the an infection is treatable or not. 
+The finest approach to forestall contact dermatitis is to keep away
+from contact with the allergens or irritants that cause your signs. If
+you'll have the ability to efficiently keep away from the irritants or
+allergens that trigger your symptoms, your skin will ultimately clear
+up. See a GP  in case you have persistent, recurrent or severe signs
+of contact dermatitis. 
+Depending on the severity, anaphylaxis can embody pores and skin
+reactions, bronchoconstriction, swelling, low blood stress, coma, and
+demise. This sort of response could  be triggered abruptly, or the
+onset could be delayed. The nature of anaphylaxis is such that the
+reaction can seem to be subsiding but may recur throughout a period of
+time. Red, bumpy, itchy pores and skin could be irritating, painful
+and embarrassing. 
+More serious symptoms like a drop in blood strain and hassle breathing
+may be life-threatening. Talk to your allergist and work with them to
+fill out a Food Allergy & Anaphylaxis Emergency Care Plan to be ready
+in an emergency. A complete list of symptoms of a meals allergy
+reaction is out there here."
+
+You can contact MichaelSoipt via email, keeshacarina@quelbroker.com
+
+--1679068061-eximdsn-3275562--

@@ -1,0 +1,106 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id R4Z9J984U2UCGgwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 14 Nov 2023 02:07:43 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 14 Nov 2023 02:07:43 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r2pOZ-003KJe-JI
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 14 Nov 2023 02:07:43 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r2pOV-003KIZ-14@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699952863-eximdsn-88016985
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r2pOZ-003KJe-JI@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 14 Nov 2023 02:07:43 -0700
+
+--1699952863-eximdsn-88016985
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 2pOZrFlrFjLE1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=655338df p=9J7FTDu2U52r341gSs75:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=huvbmMDMAAAA:8 a=FCIJlQmUAAAA:8 a=Sce_B39cAAAA:8 a=eamJQkyidTB8le7vn5cA:9 a=QEXdDO2ut3YA:10 a=ztr_BIS-fvYA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=2U32apsRrK45DAn6iGFc:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1699952863-eximdsn-88016985
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 2pOZrFlrFjLE1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=655338df p=9J7FTDu2U52r341gSs75:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=huvbmMDMAAAA:8 a=FCIJlQmUAAAA:8 a=Sce_B39cAAAA:8 a=eamJQkyidTB8le7vn5cA:9 a=QEXdDO2ut3YA:10 a=ztr_BIS-fvYA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=2U32apsRrK45DAn6iGFc:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1699952863-eximdsn-88016985
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r2pOV-003KIZ-14
+	for ginojohn@gmail.com;
+	Tue, 14 Nov 2023 02:07:43 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Tanveer Hassan.
+X-PHP-Script: ststephenssanjose.org/contact.php for 202.47.55.114
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 202.47.55.114
+From: hassan@propelprospect.com
+Reply-To: hassan@propelprospect.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r2pOV-003KIZ-14@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 14 Nov 2023 02:07:39 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Tanveer Hassan, and the message is as
+follows.
+
+"Hey ststephenssanjose.org team
+
+93% of US local businesses struggle with better social media presence,
+do you?
+
+By improving a little you can drive big sales.
+
+We’ve recently helped a similar local business by +200% sales growth
+in 3 months with only 500/m starting budget.
+
+With proven social media strategies we can do the same for you.
+
+
+Let’s have a free consultancy call tomm 12p?
+
+
+Big regards
+
+Tanveer Hassan
+CEO @ Propelprospect.com
+Check ratings & hire directly:
+Upwork.com/freelancers/~01d8e1dd1d85beb26b
+"
+
+You can contact Tanveer Hassan via email, hassan@propelprospect.com
+
+--1699952863-eximdsn-88016985--

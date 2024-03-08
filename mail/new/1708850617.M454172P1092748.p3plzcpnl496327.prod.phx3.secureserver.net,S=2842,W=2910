@@ -1,0 +1,68 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id MYtSGrn92mWMrBAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 25 Feb 2024 01:43:37 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 25 Feb 2024 01:43:37 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1reA6j-004aGi-1A
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 25 Feb 2024 01:43:37 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1reA6e-004aAx-2W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1reA6j-004aGi-1A@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 25 Feb 2024 01:43:37 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1reA6e-004aAx-2W
+	for ginojohn@gmail.com;
+	Sun, 25 Feb 2024 01:43:32 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Samantha Hellyer.
+X-PHP-Script: ststephenssanjose.org/contact.php for 192.158.232.78
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 192.158.232.78
+From: samantha.hellyer@yahoo.com
+Reply-To: samantha.hellyer@yahoo.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1reA6e-004aAx-2W@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 25 Feb 2024 01:43:32 -0700
+
+You have been contacted by Samantha Hellyer, and the message is as
+follows.
+
+"Hey there,
+
+Learn how to rank ststephenssanjose.org with minimal effort, and get
+UNLIMITED organic traffic. 
+
+I need reviews for my "Organic Traffic Accelerator" SEO course which
+is why it's currently FREE.
+(I will be raising the price to $47 once I have some recommendations)
+There are 12 modules in all, with videos and AI prompts
+ 
+Pick it here while it's free >>> https://rebrand.ly/free-seo-course
+Please check it out and leave a review if you like it!
+
+Best wishes,
+Samantha
+
+Safely hosted on Gumroad for confidence and security."
+
+You can contact Samantha Hellyer via email, samantha.hellyer@yahoo.com

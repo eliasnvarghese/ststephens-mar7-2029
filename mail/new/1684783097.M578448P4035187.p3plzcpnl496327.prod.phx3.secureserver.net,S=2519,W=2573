@@ -1,0 +1,54 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id AwvrIfm/a2Rzkj0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 22 May 2023 12:18:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 22 May 2023 12:18:17 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q1B2v-00GvjY-GU
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 22 May 2023 12:18:17 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q1B2r-00Gvir-2y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1q1B2v-00GvjY-GU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 22 May 2023 12:18:17 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q1B2r-00Gvir-2y
+	for ginojohn@gmail.com;
+	Mon, 22 May 2023 12:18:13 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Robertinhab.
+X-PHP-Script: ststephenssanjose.org/contact.php for 194.88.152.40
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 194.88.152.40
+From: fevgen708@gmail.com
+Reply-To: fevgen708@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q1B2r-00Gvir-2y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 22 May 2023 12:18:13 -0700
+
+You have been contacted by Robertinhab, and the message is as follows.
+
+"[url=https://youtu.be/u5jssqb9Cog] Видео - Помогаем
+продавать Ваш товар в Etsy + Pinterest + SEO
+дают высокие результаты продаж. Также
+работаем с Shopify, ebay, amazon и др.[/url]"
+
+You can contact Robertinhab via email, fevgen708@gmail.com

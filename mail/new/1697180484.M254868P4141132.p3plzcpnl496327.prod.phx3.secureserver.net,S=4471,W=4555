@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id qUDDDkTrKGVMMD8ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 13 Oct 2023 00:01:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 13 Oct 2023 00:01:24 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qrCAm-00HNIM-5x
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 13 Oct 2023 00:01:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qrCAh-00HNFm-Jz@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697180484-eximdsn-2054565175
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qrCAm-00HNIM-5x@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 13 Oct 2023 00:01:24 -0700
+
+--1697180484-eximdsn-2054565175
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rCAmqdsrS93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=6528eb44 p=y8N6-Tc8an8738zUBnl9:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=xn9g2PhevzYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=JXEgxd_LQUsA:10 a=DQnNwaqrAAAA:20 a=v3ZZPjhaAAAA:8 a=cA4edeIEri1xJ2XKHC8A:9 a=QEXdDO2ut3YA:10 a=LnHYC4ixHFIA:10 a=dBiLOcLZ_SEA:10 a=y6tHe-p_ay0A:10 a=idoLYSg11kAA:10 a=diPuY58275wA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 ::
+    100.00
+
+--1697180484-eximdsn-2054565175
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 rCAmqdsrS93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=6528eb44 p=y8N6-Tc8an8738zUBnl9:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=xn9g2PhevzYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=JXEgxd_LQUsA:10 a=DQnNwaqrAAAA:20 a=v3ZZPjhaAAAA:8 a=cA4edeIEri1xJ2XKHC8A:9 a=QEXdDO2ut3YA:10 a=LnHYC4ixHFIA:10 a=dBiLOcLZ_SEA:10 a=y6tHe-p_ay0A:10 a=idoLYSg11kAA:10 a=diPuY58275wA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 :: 100.00
+
+--1697180484-eximdsn-2054565175
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qrCAh-00HNFm-Jz
+	for ginojohn@gmail.com;
+	Fri, 13 Oct 2023 00:01:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by riday.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.107.44.108
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.107.44.108
+From: lxuxm19u@icloud.com
+Reply-To: lxuxm19u@icloud.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qrCAh-00HNFm-Jz@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 13 Oct 2023 00:01:19 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by riday, and the message is as follows.
+
+"Hi, this is Irina. I am sending you my intimate photos as I promised.
+https://tinyurl.com/yturzwpq"
+
+You can contact riday via email, lxuxm19u@icloud.com
+
+--1697180484-eximdsn-2054565175--

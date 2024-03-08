@@ -1,0 +1,73 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id RznfIVn4xmVtUBMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 09 Feb 2024 21:15:21 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 09 Feb 2024 21:15:21 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rYelt-005JHZ-1c
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 09 Feb 2024 21:15:21 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rYelo-005JGe-2f@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rYelt-005JHZ-1c@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 09 Feb 2024 21:15:21 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rYelo-005JGe-2f
+	for ginojohn@gmail.com;
+	Fri, 09 Feb 2024 21:15:16 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Alexander Barr.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.106.26.175
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.106.26.175
+From: barr.alexander@googlemail.com
+Reply-To: barr.alexander@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rYelo-005JGe-2f@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 09 Feb 2024 21:15:16 -0700
+
+You have been contacted by Alexander Barr, and the message is as
+follows.
+
+"Hello,
+
+Are you seeking to rebuild or revamp ststephenssanjose.org ?
+
+Look no further! 
+
+Our Freelancers can create just about anything for your website :
+Graphic design – logos, social media posts, banners, business cards,
+book covers Video editing – sizzle reels, event highlight reels,
+trailers Article & copy writing – blog posts, SEO articles, product
+descriptions and much more...
+
+Our team is dedicated to ensuring your satisfaction, and we guarantee
+a website that not only reflects your brand but also
+enhances your online presence. Let us bring your vision to life!
+
+Check us out here : https://cx2e.short.gy/TopFr
+
+Thank you and have a great day,
+
+Alexander"
+
+You can contact Alexander Barr via email,
+barr.alexander@googlemail.com

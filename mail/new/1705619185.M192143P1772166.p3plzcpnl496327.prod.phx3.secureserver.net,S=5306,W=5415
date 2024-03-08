@@ -1,0 +1,109 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id teP8CvGuqWWGChsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 18 Jan 2024 16:06:25 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 18 Jan 2024 16:06:25 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rQbSr-007R1E-0P
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 18 Jan 2024 16:06:25 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rQbSm-007R0R-0g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1705619185-eximdsn-1875772859
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rQbSr-007R1E-0P@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 18 Jan 2024 16:06:25 -0700
+
+--1705619185-eximdsn-1875772859
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 QbSrr5sZA7eH9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=aIJTqq9m c=1 sm=1 tr=0 ts=65a9aef1 p=10VEUSaBhtvwRztnieu8:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=4/sY6Fh1WKFURAvxH+RRY5NmFWQ=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dEuoMetlWLkA:10 a=hKAL4kY2AAAA:8 a=fP2BcaHqAAAA:8 a=a0KdDLxwCEBuGIlrXLsA:9 a=QEXdDO2ut3YA:10 a=h0hzqH-Wi2oA:10 a=Qjn_9iKctQYA:10 a=acewEgQMpYTsClr9keMy:22 a=bSDz_x4VkfEPHYBQuv38:22 a=Hh-yr14-J4N9Kc5UXL32:22 ::
+    100.00
+
+--1705619185-eximdsn-1875772859
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 QbSrr5sZA7eH9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=aIJTqq9m c=1 sm=1 tr=0 ts=65a9aef1 p=10VEUSaBhtvwRztnieu8:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=4/sY6Fh1WKFURAvxH+RRY5NmFWQ=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dEuoMetlWLkA:10 a=hKAL4kY2AAAA:8 a=fP2BcaHqAAAA:8 a=a0KdDLxwCEBuGIlrXLsA:9 a=QEXdDO2ut3YA:10 a=h0hzqH-Wi2oA:10 a=Qjn_9iKctQYA:10 a=acewEgQMpYTsClr9keMy:22 a=bSDz_x4VkfEPHYBQuv38:22 a=Hh-yr14-J4N9Kc5UXL32:22 :: 100.00
+
+--1705619185-eximdsn-1875772859
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rQbSm-007R0R-0g
+	for ginojohn@gmail.com;
+	Thu, 18 Jan 2024 16:06:25 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Tigran Ayrapetyan.
+X-PHP-Script: ststephenssanjose.org/contact.php for 45.88.97.112
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 45.88.97.112
+From: ujn2esbgakah@opayq.com
+Reply-To: ujn2esbgakah@opayq.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rQbSm-007R0R-0g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 18 Jan 2024 16:06:20 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Tigran Ayrapetyan, and the message is as
+follows.
+
+"Hello, 
+ 
+We provide funding through our venture capital company to both
+start-up and existing companies either looking for funding for
+expansion or to accelerate growth in their company. 
+We have a structured joint venture investment plan in which we are
+interested in an annual return on investment not more than 10% ROI. We
+are also currently structuring a convertible debt and loan financing
+of 3% interest repayable annually with no early repayment penalties. 
+ 
+We would like to review your business plan or executive summary to
+understand a much better idea of your business and what you are
+looking to do, this will assist in determining the best possible
+investment structure we can pursue and discuss more extensively. 
+ 
+ 
+I hope to hear back from you soon. 
+ 
+Sincerely, 
+ 
+Tigran Ayrapetyan 
+Investment Director 
+Devcorp International W.L.L. 
+P.O Box 10236 Shop No. 305 
+Flr 3 Manama Centre, Bahrain 
+Email: tigran.a@devcorpinternational.com"
+
+You can contact Tigran Ayrapetyan via email, ujn2esbgakah@opayq.com
+
+--1705619185-eximdsn-1875772859--

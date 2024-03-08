@@ -1,0 +1,57 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id mZpEDTwwpGURTBwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 14 Jan 2024 12:04:28 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 14 Jan 2024 12:04:28 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rP5mW-007mQs-0R
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 14 Jan 2024 12:04:28 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rP5mR-007mPx-2N@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rP5mW-007mQs-0R@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 14 Jan 2024 12:04:28 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rP5mR-007mPx-2N
+	for ginojohn@gmail.com;
+	Sun, 14 Jan 2024 12:04:23 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MelbetcomKr.
+X-PHP-Script: ststephenssanjose.org/contact.php for 77.73.132.21
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 77.73.132.21
+From: afonasevnavit@gmail.com
+Reply-To: afonasevnavit@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rP5mR-007mPx-2N@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 14 Jan 2024 12:04:23 -0700
+
+You have been contacted by MelbetcomKr, and the message is as follows.
+
+"Рабочая ссылка букмекерской компании
+Melbet. Мы нашли его для Вас! Переходите
+на сайт казино Мелбет и играйте в
+любимые автоматы уже сегодня. <a
+href="https://chernogorsk-internat.ru/">Melbet casino
+зеркало</a> — получи доступ к сайту и
+выигрывай на автоматах прямо сейчас."
+
+You can contact MelbetcomKr via email, afonasevnavit@gmail.com

@@ -1,0 +1,126 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id l4SrGo7GZGV7WjQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 27 Nov 2023 09:40:46 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 27 Nov 2023 09:40:46 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r7ef8-00EOZB-CX
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 27 Nov 2023 09:40:46 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r7ef2-00EOXS-WC@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1701103246-eximdsn-830756806
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r7ef8-00EOZB-CX@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 27 Nov 2023 09:40:46 -0700
+
+--1701103246-eximdsn-830756806
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 7ef8rB131Rvrz :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Fe3xhry6 c=1 sm=1 tr=0 ts=6564c68e p=0gBcXy0pAAAA:20 p=kkhhe2mKovYptzxLRc2a:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=g-HgYwn_8acA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=F3FaypnPsfoA:10 a=UqCG9HQmAAAA:8 a=rLKRbK1sEWQ-M-kgIyQA:9 a=QEXdDO2ut3YA:10 a=kC6eLEeG35AA:10 a=nHIo4m8r6NwA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1701103246-eximdsn-830756806
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 7ef8rB131Rvrz :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Fe3xhry6 c=1 sm=1 tr=0 ts=6564c68e p=0gBcXy0pAAAA:20 p=kkhhe2mKovYptzxLRc2a:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=g-HgYwn_8acA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=F3FaypnPsfoA:10 a=UqCG9HQmAAAA:8 a=rLKRbK1sEWQ-M-kgIyQA:9 a=QEXdDO2ut3YA:10 a=kC6eLEeG35AA:10 a=nHIo4m8r6NwA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1701103246-eximdsn-830756806
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r7ef2-00EOXS-WC
+	for ginojohn@gmail.com;
+	Mon, 27 Nov 2023 09:40:46 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jeanna Stanfield.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.247.25
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.247.25
+From: stanfield.jeanna59@outlook.com
+Reply-To: stanfield.jeanna59@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r7ef2-00EOXS-WC@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 27 Nov 2023 09:40:40 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Jeanna Stanfield, and the message is as
+follows.
+
+"Want To Eliminate Employee Complaints, Want To Be Known As The Gold
+Standard In Employee Satisfaction? Our 2 Hr. Compliance Training Is
+The Only One Nationally Recognized For How We Create This Dynamic For
+You.
+
+Schedule a Call or email us, tell us your specific needs, this will
+allow us to briefly explain how we can meet your specific needs and do
+so for you with just one 2Hr. compliance training.
+
+We can deliver our program in 3 languages on demand, English, Spanish,
+and Chinese.
+
+We can deliver our program for you using any of these four methods:
+
+1.	On-site Group Training (Excellent Learning Format)
+2.	Virtual Live (Zoom) Group Training (This is our Most Popular, Cost
+Effective Training Model While Still Allowing For Dynamic Engagement)
+3.	Pre-Recorded or Self Paced Training (Most popular For Onboarding
+New Employees)
+4.	Corrective Action Awareness Program (This Is Our One-To-One
+Personalized Instruction For An Employee Who Needs To Understand They
+Need To Change Their Conduct Or Behavior Or Risk Employment
+Termination, This Is An Excellent Service For a Company To Mitigate
+Its Potential Liability)
+
+The latest National statistics show employee workplace complaints are
+dramatically up and workplace satisfaction is way down, this is
+costing company’s, organizations hundreds of thousands, and even
+millions of dollars in lost revenue due to employee retention issues
+and legal actions. Do not be a statistic, we are giving you the
+solution here.
+
+Get in touch with us today to schedule a brief call:
+https://bit.ly/harassmentcompliancetraining 
+
+A special offer for you - if you get in touch with us and a training
+is scheduled in the near future we will reduce the training fee by 25%
+ through December 31st 2023.
+
+Harassment Compliance Training LLC.
+https://bit.ly/harassmentcompliancetraining_website 
+"
+
+You can contact Jeanna Stanfield via email,
+stanfield.jeanna59@outlook.com
+
+--1701103246-eximdsn-830756806--

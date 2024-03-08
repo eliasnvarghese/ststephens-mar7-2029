@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id o/ahHYbSYmQm7BgACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 15 May 2023 17:47:02 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 15 May 2023 17:47:02 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pyiqE-006qtk-E9
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 15 May 2023 17:47:02 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pyiq9-006qhr-DD@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1684198022-eximdsn-1328712555
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pyiqE-006qtk-E9@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 15 May 2023 17:47:02 -0700
+
+--1684198022-eximdsn-1328712555
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yiqEpvozqHczM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=aJ8265xm c=1 sm=1 tr=0 ts=6462d286 p=iNxXV-HJAAAA:20 p=MwHaO1Q9EOtmTmJkI9_p:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=VMqgG-uqAAAA:8 a=WR_JL2DHFNzwAp0MKlgA:9 a=QEXdDO2ut3YA:10 a=3auTR4Ldg0wA:10 a=FRTH3NgglBkA:10 a=PXUJaed3ZGMA:10 a=Stz9cCqWG0EA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=3plePUqisH_6W-LDCZ2V:22 ::
+    100.00
+
+--1684198022-eximdsn-1328712555
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 yiqEpvozqHczM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=aJ8265xm c=1 sm=1 tr=0 ts=6462d286 p=iNxXV-HJAAAA:20 p=MwHaO1Q9EOtmTmJkI9_p:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=VMqgG-uqAAAA:8 a=WR_JL2DHFNzwAp0MKlgA:9 a=QEXdDO2ut3YA:10 a=3auTR4Ldg0wA:10 a=FRTH3NgglBkA:10 a=PXUJaed3ZGMA:10 a=Stz9cCqWG0EA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=3plePUqisH_6W-LDCZ2V:22 :: 100.00
+
+--1684198022-eximdsn-1328712555
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pyiq9-006qhr-DD
+	for ginojohn@gmail.com;
+	Mon, 15 May 2023 17:47:02 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by pl0tnik.
+X-PHP-Script: ststephenssanjose.org/contact.php for 93.100.155.5
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 93.100.155.5
+From: info@el-tic.ru
+Reply-To: info@el-tic.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pyiq9-006qhr-DD@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 15 May 2023 17:46:57 -0700
+
+You have been contacted by pl0tnik, and the message is as follows.
+
+"Оформляйте единоразовую вечную
+подписку за 1000 рублей и получите
+доступ к 150 000 платных курсов.
+Прекрасный повод чтобы освоить новый
+навык или профессию. Данный сайт вы
+найдёте по адресу https://gg.gg/12y9z7"
+
+You can contact pl0tnik via email, info@el-tic.ru
+
+--1684198022-eximdsn-1328712555--

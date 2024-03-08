@@ -1,0 +1,55 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id UJGFB1FRMGWjJDoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 18 Oct 2023 14:42:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 18 Oct 2023 14:42:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qtEJN-00FzkT-2O
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 18 Oct 2023 14:42:41 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qtEJI-00Fzhg-1c@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qtEJN-00FzkT-2O@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 18 Oct 2023 14:42:41 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qtEJI-00Fzhg-1c
+	for ginojohn@gmail.com;
+	Wed, 18 Oct 2023 14:42:36 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Audrea Acker.
+X-PHP-Script: ststephenssanjose.org/contact.php for 68.194.223.86
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 68.194.223.86
+From: audrea.acker@googlemail.com
+Reply-To: audrea.acker@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qtEJI-00Fzhg-1c@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 18 Oct 2023 14:42:36 -0700
+
+You have been contacted by Audrea Acker, and the message is as
+follows.
+
+"No experience or special skills required - all you need is internet
+access
+
+https://bit.ly/3tm5dcJ"
+
+You can contact Audrea Acker via email, audrea.acker@googlemail.com

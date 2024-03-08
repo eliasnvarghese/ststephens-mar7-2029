@@ -1,0 +1,153 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id iGztGAIRn2RPuSMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 30 Jun 2023 10:29:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 30 Jun 2023 10:29:38 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qFHwA-009q66-Bp
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 30 Jun 2023 10:29:38 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qFHw5-009q4L-P8@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1688146178-eximdsn-1078960778
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qFHwA-009q66-Bp@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 30 Jun 2023 10:29:38 -0700
+
+--1688146178-eximdsn-1078960778
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 FHwAq69pgUe7e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=649f1102 p=lKzjWpGZAAAA:20 p=dtzZ2Pjin_EA:10 p=fMoivtUVhpxUM65SJsP0:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=a3ZWPsfcCB4A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=OKAiYJm-WNkA:10 a=pGLkceISAAAA:8 a=FDqpJNVe5zhzOgGwrdwA:9 a=QEXdDO2ut3YA:10 a=XZow75OKuuUA:10 a=KyYZJfTCSdMA:10 a=-rWMylThCMeRaoe3eXA-:22 a=7fYZGgiY-FWS8l0aXT7g:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1688146178-eximdsn-1078960778
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 FHwAq69pgUe7e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=649f1102 p=lKzjWpGZAAAA:20 p=dtzZ2Pjin_EA:10 p=fMoivtUVhpxUM65SJsP0:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=a3ZWPsfcCB4A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=OKAiYJm-WNkA:10 a=pGLkceISAAAA:8 a=FDqpJNVe5zhzOgGwrdwA:9 a=QEXdDO2ut3YA:10 a=XZow75OKuuUA:10 a=KyYZJfTCSdMA:10 a=-rWMylThCMeRaoe3eXA-:22 a=7fYZGgiY-FWS8l0aXT7g:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1688146178-eximdsn-1078960778
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qFHw5-009q4L-P8
+	for ginojohn@gmail.com;
+	Fri, 30 Jun 2023 10:29:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Felix Lydon.
+X-PHP-Script: ststephenssanjose.org/contact.php for 107.186.67.148
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 107.186.67.148
+From: felix.lydon@gmail.com
+Reply-To: felix.lydon@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qFHw5-009q4L-P8@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 30 Jun 2023 10:29:33 -0700
+
+You have been contacted by Felix Lydon, and the message is as follows.
+
+"Hey,
+
+I’ll be honest with you…
+
+If you’re still spinning your wheels, and 
+have no results to show for it…
+
+I’m sure you’ll find this short email
+of high interest.
+
+Here’s why:
+
+What if I told you that you could tap into
+the endless potential of AI…
+
+To exploit YouTube and finally generate
+$896.34 per day on autopilot without…
+
+Creating videos…
+Paying for traffic…
+Putting in extra work…
+Complicating your life…
+
+All thanks to one of the MOST powerful
+AI tools that I’ve ever seen…
+
+=> Click Here To Discover “Striker” https://shorturl.at/ghkEJ 
+
+If you’re sick and tired of complicated
+apps, you’re going to love this…
+With just 3 clicks of your mouse, you’ll
+be able to not only find lucrative, hidden
+“money pockets” on YouTube…
+But also generate INSANE amounts of
+FREE traffic that you can redirect to
+ANY link of your choice…
+
+This means:
+
+Easy commissions…
+Effortless traffic…
+Getting paid every 24 hours…
+The end of the 9-5 madness…
+
+
+=> Click Here To Get Started Now https://shorturl.at/ghkEJ 
+
+But here’s probably the most interesting
+thing…
+
+It’s been reported that 100 out of 100 beta
+testers have made money using Striker…
+
+That’s a mind-bending 100% success rate…
+
+Which can be translated into the following:
+
+Making money with this unique and 
+out-of-the-box software is as easy as
+getting candy from a baby…
+
+So, if you want to stop banging your head
+against the wall because you fail over
+and over again…
+
+This is your VIP pass to endless daily
+commissions…
+
+=> Click Here To Grab “Striker” https://shorturl.at/ghkEJ 
+
+Talk soon,
+
+Felix
+"
+
+You can contact Felix Lydon via email, felix.lydon@gmail.com
+
+--1688146178-eximdsn-1078960778--

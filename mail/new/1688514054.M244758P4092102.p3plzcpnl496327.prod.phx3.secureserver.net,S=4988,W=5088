@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id WGcyDgaupGTGcD4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 04 Jul 2023 16:40:54 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 04 Jul 2023 16:40:54 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qGpde-00HAXY-5v
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 04 Jul 2023 16:40:54 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qGpdZ-00HAWp-Rx@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1688514054-eximdsn-212781679
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qGpde-00HAXY-5v@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 04 Jul 2023 16:40:54 -0700
+
+--1688514054-eximdsn-212781679
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Gpdeq6EPNQ7u7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64a4ae06 p=QT49fWuTg60A:10 p=W0Vr5v3UFo8A:10 p=UhYg1ssebX10gyHKki3j:22 p=eoP_UiRlUtM5FgLS18wc:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=kHUyc7Zxy98A:10 a=pGLkceISAAAA:8 a=SvLiiLNd15K5ZMgRupMA:9 a=QEXdDO2ut3YA:10 a=n3oC7ApiYNwA:10 a=zgiPjhLxNE0A:10 a=KyYZJfTCSdMA:10 a=FS9twgqLMLz3p6gfmnUX:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1688514054-eximdsn-212781679
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 Gpdeq6EPNQ7u7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=64a4ae06 p=QT49fWuTg60A:10 p=W0Vr5v3UFo8A:10 p=UhYg1ssebX10gyHKki3j:22 p=eoP_UiRlUtM5FgLS18wc:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=kHUyc7Zxy98A:10 a=pGLkceISAAAA:8 a=SvLiiLNd15K5ZMgRupMA:9 a=QEXdDO2ut3YA:10 a=n3oC7ApiYNwA:10 a=zgiPjhLxNE0A:10 a=KyYZJfTCSdMA:10 a=FS9twgqLMLz3p6gfmnUX:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1688514054-eximdsn-212781679
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qGpdZ-00HAWp-Rx
+	for ginojohn@gmail.com;
+	Tue, 04 Jul 2023 16:40:54 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Alex Metz.
+X-PHP-Script: ststephenssanjose.org/contact.php for 139.171.21.166
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 139.171.21.166
+From: bizzletvhv0@gmail.com
+Reply-To: bizzletvhv0@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qGpdZ-00HAWp-Rx@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 04 Jul 2023 16:40:49 -0700
+
+You have been contacted by Alex Metz, and the message is as follows.
+
+"Hey there,
+
+I don’t want to take more time than I have to. I know you’re
+probably very busy, so I’ll cut straight to the chase:
+
+I’m a business card pro designer, I decided to design you guys some
+business cards for free.
+
+I’d be happy to make any business card for you, I have lot of ideas
+on how business cards should look like for your service just give me
+details about your business and I'll make you some examples for FREE
+and pick what you like. 
+
+If you are interested in this, don't hesitate to email me back and I
+will be more than happy to help you.
+
+Looking forward to speaking to you
+
+Kind regards,
+
+- Alex"
+
+You can contact Alex Metz via email, bizzletvhv0@gmail.com
+
+--1688514054-eximdsn-212781679--

@@ -1,0 +1,90 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 6ETZHC/jk11ujwYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 01 Oct 2019 16:37:19 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 01 Oct 2019 16:37:19 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	id 1iFRhn-001qoZ-Cy
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Tue, 01 Oct 2019 16:37:19 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1569973039-eximdsn-1311738331
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iFRhn-001qoZ-Cy@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 01 Oct 2019 16:37:19 -0700
+
+--1569973039-eximdsn-1311738331
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 FRhniU16RmRyi :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=aqHM9hRV c=1 sm=1 tr=0 p=r12iKOyQs7oA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=XobE76Q3jBoA:10 a=jJrOw3FHAAAA:8 a=o46KTrPjAAAA:8 a=wL7C2LMzAAAA:8 a=ZqAelTpb1MeO0Tz0PjEA:9 a=QEXdDO2ut3YA:10 a=Ki1sYZ6fcMAA:10 a=acjmxUgmnHgA:10 a=ewzMnDoQqC4A:10 a=zGlHrSWtykwA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=lsIkP6lG2H4f0j7eDx0G:22 a=27Zzh80FFale-ECer3Cg:22 a=FqPu7Df1Pke00fXV7zc9:22 a=pHzHmUro8NiASowvMSCR:22 a=6VlIyEUom7LUIeUMNQJH:22 ::
+    100.00
+
+--1569973039-eximdsn-1311738331
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 FRhniU16RmRyi :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=aqHM9hRV c=1 sm=1 tr=0 p=r12iKOyQs7oA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=XobE76Q3jBoA:10 a=jJrOw3FHAAAA:8 a=o46KTrPjAAAA:8 a=wL7C2LMzAAAA:8 a=ZqAelTpb1MeO0Tz0PjEA:9 a=QEXdDO2ut3YA:10 a=Ki1sYZ6fcMAA:10 a=acjmxUgmnHgA:10 a=ewzMnDoQqC4A:10 a=zGlHrSWtykwA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=lsIkP6lG2H4f0j7eDx0G:22 a=27Zzh80FFale-ECer3Cg:22 a=FqPu7Df1Pke00fXV7zc9:22 a=pHzHmUro8NiASowvMSCR:22 a=6VlIyEUom7LUIeUMNQJH:22 :: 100.00
+
+--1569973039-eximdsn-1311738331
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1iFRhn-001qoF-4h
+	for ginojohn@gmail.com; Tue, 01 Oct 2019 16:37:19 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JessiekeX.
+X-PHP-Script: ststephenssanjose.org/contact.php for 212.103.50.78
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 212.103.50.78
+From: info@revlight.com.sg
+Reply-To: info@revlight.com.sg
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1iFRhn-001qoF-4h@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 01 Oct 2019 16:37:19 -0700
+
+You have been contacted by JessiekeX, and the message is as follows.
+
+"Dear Customer, 
+ 
+We manufacture High-Definition Security Surveillance Systems for
+Residential & Commercial uses. All our cameras are weatherproof and
+comes with sony sensor for maximum quality. 
+IPcam video quality: https://youtu.be/VPG82dnXfWY 
+ 
+Contact: +1-866-655-7056 
+Email: sales@revlightsecurity.com 
+ 
+regards, 
+Jack Williams 
+7 Temasek Boulevard, Level 32, Suntec Tower One, Singapore 038987 
+W: http://www.revlightsecurity.com/"
+
+You can contact JessiekeX via email, info@revlight.com.sg
+
+--1569973039-eximdsn-1311738331--

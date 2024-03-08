@@ -1,0 +1,137 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id TuMLF8zqA2UhhBAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 14 Sep 2023 22:25:32 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 14 Sep 2023 22:25:32 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qh1Ke-004XZp-A2
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 14 Sep 2023 22:25:32 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qh1KZ-004XMF-LS@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1694755532-eximdsn-293047396
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qh1Ke-004XZp-A2@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 14 Sep 2023 22:25:32 -0700
+
+--1694755532-eximdsn-293047396
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 h1KeqzgmOAGP9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ZdvbdOZA c=1 sm=1 tr=0 ts=6503eacc p=M0zUp9mVbWJ_3wDMdLAA:9 p=Lgbn40s3GN1UiMdU3eUF:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=-lPtgTIB8uwA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=9o-Veo6VWGoA:10 a=Fyunv-tXAAAA:8 a=tdXpFmjzAAAA:8 a=mK_AVkanAAAA:8 a=QEXdDO2ut3YA:10 a=vNz0fy4XFFwA:10 a=KyYZJfTCSdMA:10 a=Cfy3nkBtMiYhrr56oLhA:22 a=-wrnZZL_8f30bW4DQS1g:22 a=3gWm3jAn84ENXaBijsEo:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1694755532-eximdsn-293047396
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 h1KeqzgmOAGP9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ZdvbdOZA c=1 sm=1 tr=0 ts=6503eacc p=M0zUp9mVbWJ_3wDMdLAA:9 p=Lgbn40s3GN1UiMdU3eUF:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=-lPtgTIB8uwA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=9o-Veo6VWGoA:10 a=Fyunv-tXAAAA:8 a=tdXpFmjzAAAA:8 a=mK_AVkanAAAA:8 a=QEXdDO2ut3YA:10 a=vNz0fy4XFFwA:10 a=KyYZJfTCSdMA:10 a=Cfy3nkBtMiYhrr56oLhA:22 a=-wrnZZL_8f30bW4DQS1g:22 a=3gWm3jAn84ENXaBijsEo:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1694755532-eximdsn-293047396
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qh1KZ-004XMF-LS
+	for ginojohn@gmail.com;
+	Thu, 14 Sep 2023 22:25:32 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Deon Davies.
+X-PHP-Script: ststephenssanjose.org/contact.php for 198.44.128.84
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 198.44.128.84
+From: deon.davies@googlemail.com
+Reply-To: deon.davies@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qh1KZ-004XMF-LS@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 14 Sep 2023 22:25:27 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Deon Davies, and the message is as follows.
+
+"Quick question to ask you...
+ 
+Are you aware that in 2023, email marketing still works? 
+The fact that you are reading these lines is proof of that.
+
+Email marketing is underrated, and yet it works so well.  
+All you have to do is find some emails, send a message and cash in.
+
+For example, to find emails you can use this service:
+https://garymarketing.com/go/scrap-gmap
+
+It extracts emails, phone numbers, and lots of other information from
+Google Map listings.
+
+Of course, there are plenty of other ways to get in touch with your
+ideal customers.
+Contact me on Skype and let's discuss what will work for your
+product/service. 
+- My Skype ID: live:.cid.6b79b1d5a11a2ec7
+- My Blog : garymarketing.com
+
+
+Regards,
+Gary & Ophélie
+
+
+
+------ 
+
+J'ai une petite question à vous poser...
+
+Savez-vous qu'en 2023, l'email marketing fonctionne toujours très
+bien ? 
+La preuve, vous lisez ces lignes.
+
+L'email marketing est clairement sous-couté,
+Il  suffit de trouver les coordonnées de vos clients idéaux,
+d'entrer en contact, et d'encaisser.
+
+Pour trouver les coordonnées d'entreprise, vous pouvez par exemple
+utiliser ce service : scrapmybusiness.com
+Il permet d'extraire les emails, les numéros de téléphone et de
+nombreuses autres informations a partir des fiches entreprises de
+Google Map.
+
+Bien sur il y'a plein d'autre solutions pour entrer en contact avec
+vos clients idéaux
+
+Ajouter moi sur Skype et discutons de ce qui conviendrait le plus pour
+promouvoir votre produit/service.
+- Identifiant Skype: live:.cid.83c9da999a4f9f
+- Mon Blog : http://garymarketing.com
+
+Cordialement,
+Ophélie et Gary."
+
+You can contact Deon Davies via email, deon.davies@googlemail.com
+
+--1694755532-eximdsn-293047396--

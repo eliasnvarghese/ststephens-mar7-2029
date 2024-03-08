@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id HEG5DOYSvmS+xDkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 23 Jul 2023 22:57:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 23 Jul 2023 22:57:58 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qNoZy-00Fst6-51
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 23 Jul 2023 22:57:58 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qNoZt-00Fss9-4v@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690178278-eximdsn-1652860089
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qNoZy-00Fst6-51@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 23 Jul 2023 22:57:58 -0700
+
+--1690178278-eximdsn-1652860089
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 NoZyqCpqxUe7e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64be12e6 p=ok2CZOqEAAAA:8 p=hyF1H1bwHWE1-MMZGlwo:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=0kzM3CcBAAAA:8 a=nEikEVbdUIrbefG7zUQA:9 a=QEXdDO2ut3YA:10 a=5kmeHmBSMB4A:10 a=EPdXIJ3N-yAA:10 a=KyYZJfTCSdMA:10 a=R21UQHjWXi288mkjqqOA:22 a=CE9uLJsCu-G7ENrl3HQA:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1690178278-eximdsn-1652860089
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 NoZyqCpqxUe7e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64be12e6 p=ok2CZOqEAAAA:8 p=hyF1H1bwHWE1-MMZGlwo:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=0kzM3CcBAAAA:8 a=nEikEVbdUIrbefG7zUQA:9 a=QEXdDO2ut3YA:10 a=5kmeHmBSMB4A:10 a=EPdXIJ3N-yAA:10 a=KyYZJfTCSdMA:10 a=R21UQHjWXi288mkjqqOA:22 a=CE9uLJsCu-G7ENrl3HQA:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1690178278-eximdsn-1652860089
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qNoZt-00Fss9-4v
+	for ginojohn@gmail.com;
+	Sun, 23 Jul 2023 22:57:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by KevinZef.
+X-PHP-Script: ststephenssanjose.org/contact.php for 8.222.249.8
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 8.222.249.8
+From: 2bljns@course-fitness.com
+Reply-To: 2bljns@course-fitness.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qNoZt-00Fss9-4v@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 23 Jul 2023 22:57:53 -0700
+
+You have been contacted by KevinZef, and the message is as follows.
+
+"2023 世界棒球經典賽 
+ 
+ 
+ 
+https://tx9j.tw/"
+
+You can contact KevinZef via email, 2bljns@course-fitness.com
+
+--1690178278-eximdsn-1652860089--

@@ -1,0 +1,186 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 8ErhJ/I91GRgjgQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 09 Aug 2023 18:31:30 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 09 Aug 2023 18:31:30 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qTuWQ-001Fhm-JN
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 09 Aug 2023 18:31:30 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qTuWJ-001FfH-Cp@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1691631090-eximdsn-1273514606
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qTuWQ-001Fhm-JN@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 09 Aug 2023 18:31:30 -0700
+
+--1691631090-eximdsn-1273514606
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 TuWQqKlfxabsT :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Bp9bg6b5 c=1 sm=1 tr=0 ts=64d43df2 p=w2EZt8tlAAAA:20 p=Ldar6tzJ8964rbUGTaoA:9 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=EZu_hpyqjpIA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=OkyE3-9RJsIA:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=qTy_PdOrQjEA:10 a=KyYZJfTCSdMA:10 a=IbjObFQd3g7YeTq57M5d:22 a=z0m7nVb-w8nupyfIRgau:22 a=H619ah0uTuZtRvd4_C9J:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1691631090-eximdsn-1273514606
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 TuWQqKlfxabsT :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Bp9bg6b5 c=1 sm=1 tr=0 ts=64d43df2 p=w2EZt8tlAAAA:20 p=Ldar6tzJ8964rbUGTaoA:9 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=EZu_hpyqjpIA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=OkyE3-9RJsIA:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=qTy_PdOrQjEA:10 a=KyYZJfTCSdMA:10 a=IbjObFQd3g7YeTq57M5d:22 a=z0m7nVb-w8nupyfIRgau:22 a=H619ah0uTuZtRvd4_C9J:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1691631090-eximdsn-1273514606
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qTuWJ-001FfH-Cp
+	for ginojohn@gmail.com;
+	Wed, 09 Aug 2023 18:31:30 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Chris Daniels.
+X-PHP-Script: ststephenssanjose.org/contact.php for 63.161.79.204
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 63.161.79.204
+From: chris.daniels@gmail.com
+Reply-To: chris.daniels@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qTuWJ-001FfH-Cp@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 09 Aug 2023 18:31:23 -0700
+
+You have been contacted by Chris Daniels, and the message is as
+follows.
+
+"You've heard it a million times...
+
+
+"If you want to profit.. you need your own product"
+
+
+Sounds great, but...
+
+
+How long would that take? You'd need to...
+
+• build a sales website...
+
+• filled with images & content
+
+• create ecovers, logos & a brand name
+
+• develop your own software product
+
+
+
+The first 3 are easy - and can be done for under $1k...
+
+But what about selling your own software?
+
+Well, that's much harder - and more expensive.
+
+A good "cloud-based" software can easily cost $5-10k!
+
+PLUS... it's not just a case of "throwing cash" at a developer...
+
+
+You need to come up with the idea, then turn it into a "spec", hire a
+designer to make mockups...
+
+And then find - and pay - a developer who can build it for you!
+
+Doing all this is another 3-6 months. Ugh!
+
+
+So, even with the best will in the world, you're looking at:
+
+$5k+ and 6 months to launch your first software product...
+
+And then you still need to drive buyer traffic to your site when it's
+done!
+
+It's no wonder, people "know" they should sell their own software
+product to profit...
+
+
+But almost no-one has the time and cash to make it happen!
+
+But...
+
+What if I told you that I've automated the entire process.
+
+So instead of $7-12k and 6 months, it takes you...
+
+Less than 10 minutes!?
+
+
+Ok, I'm going to stop right there.
+
+Because, rather than talk, let me just show you:
+
+Click Here - Watch The Remixable 9:50 Speed Run
+
+===>> bit.ly/RemixableOffer
+
+
+Without My Software, This Would Take 6 Months!
+
+Watch me create an entirely new brand, software, and website from
+scratch... in less than 10 minutes (speed demo starts at 4:34 in this
+video).
+
+After you've watched this, you can go ahead and check Remixable out...
+and see how in 2023 we've integrated Chat-GPT directly into all this!
+
+But, for now, just watch this one video:
+
+Click Here - Watch Me Build A New Brand, Logo, Website, Software
+Product... In 10 Minutes
+
+===>> bit.ly/RemixableTutorial
+
+Thanks,
+
+Chris
+
+P.S. The package I'm building here is built off of my "PushPro"
+product, which made me over $100k.
+
+And it's just one of 30x 50x software tools you can resell with
+Remixable.
+
+You can "mix and match" these to create entirely new software packages
+- just like I'm doing (see my latest proof in the video).
+
+So watch the video, then learn how my most recent GPT integration
+works here.
+
+This weekend could be your time to start profiting with your own
+software product.
+"
+
+You can contact Chris Daniels via email, chris.daniels@gmail.com
+
+--1691631090-eximdsn-1273514606--

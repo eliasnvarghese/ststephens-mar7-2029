@@ -1,0 +1,198 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id wK0JH6pIIWX48TsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 07 Oct 2023 05:01:46 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 07 Oct 2023 05:01:46 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qp60A-00GU71-F2
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 07 Oct 2023 05:01:46 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qp605-00GU5s-TV@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696680106-eximdsn-500584255
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qp60A-00GU71-F2@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 07 Oct 2023 05:01:46 -0700
+
+--1696680106-eximdsn-500584255
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 p60AqsJ7cPElO :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Lu1UiFRc c=1 sm=1 tr=0 ts=652148aa p=7X8BnP8S3f0A:10 p=tVgNjVKdAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=sQeDLwwAgyQA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=O7M7l8Mli5-hRchvwMwA:9 a=QEXdDO2ut3YA:10 a=hNiVfW04sccA:10 a=KyYZJfTCSdMA:10 a=XnnM7JuoCuzCycfjdf2M:22 a=YWMFWycye8g1Gc16KepC:22 a=sZvtdn2GVwPJ96pp_vyb:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1696680106-eximdsn-500584255
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 p60AqsJ7cPElO :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Lu1UiFRc c=1 sm=1 tr=0 ts=652148aa p=7X8BnP8S3f0A:10 p=tVgNjVKdAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=sQeDLwwAgyQA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=pGLkceISAAAA:8 a=O7M7l8Mli5-hRchvwMwA:9 a=QEXdDO2ut3YA:10 a=hNiVfW04sccA:10 a=KyYZJfTCSdMA:10 a=XnnM7JuoCuzCycfjdf2M:22 a=YWMFWycye8g1Gc16KepC:22 a=sZvtdn2GVwPJ96pp_vyb:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1696680106-eximdsn-500584255
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qp605-00GU5s-TV
+	for ginojohn@gmail.com;
+	Sat, 07 Oct 2023 05:01:46 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by John Davids.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.82.40.134
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.82.40.134
+From: john.davids@gmail.com
+Reply-To: john.davids@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qp605-00GU5s-TV@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 07 Oct 2023 05:01:41 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by John Davids, and the message is as follows.
+
+"Audiobook is now the BIG goldmine, and people are making huge profits
+with it on a daily basis…
+
+
+Sadly, creating and selling them can be tough and super-expensive. 
+
+
+But I have got good news for you…
+
+
+Meet Vox AI
+
+
+The World’s First ChatGPT4-Powered AI App That Turns Any "Text, URL,
+Website, Article, Keyword, Blog, Document or PDF" into High-Quality
+Audiobooks or Podcast In 660 Different Voices & 80 Languages…
+
+>> Click Here To See The Live Demo: bit.ly/AIVoxOffer
+
+
+With Vox AI, you can generate content on any topic using
+“Siri-Like” voice command & turn it to Audiobooks, Podcasts, or
+Voiceovers for VSL, TV Commercial, Webinars, Sales Videos, etc
+
+
+...Publish To The Built-In Marketplace with 2.3M active users, Sell &
+Receive Instant Payments Via Multiple Methods, including Paypal,
+Stripe, Cards, and Bank Accounts…
+
+
+
+
+>> Click Here to Get Instant Access to Vox AI and Sell On Automation:
+bit.ly/AIVoxOffer
+
+
+Coupon Code - VOX5OFF (strictly for the first 12 people)
+
+Even if you are a newbie with zero knowledge… VoxAI is your best
+shot.
+
+
+You can easily Activate VoxAI in 3 simple steps & start your audiobook
+empire:
+
+
+Step 1: Login - Login to VoxAI Cloud-Bases App
+
+
+Step 2: Generate- Enter a Keyword, article, PDF, or even a URL… and
+VoxAI will turn them into a Full Audiobook or Podcast
+
+
+Step 3: Publish- publish your audiobooks on our built-in marketplace
+with 2.3 million active users.
+
+
+Step 4: Start Profiting as soon as you are done
+
+
+It is as simple as that.
+
+
+>> Get Lifetime Access Here: bit.ly/AIVoxOffer
+
+
+
+With Vox AI, you can…
+
+
+Create Your First Audiobook Within 2 Minutes
+
+Turn Any Article, Website, Url, PDF or Blog Into Audiobook, Podcast,
+VSL, Audio/Music Track…
+
+Create A Podcast With Human Voice Without Recording
+
+Choose From 660 Real Human Voices 
+
+Create Voices In 80+ Different Languages
+
+Comes With 50+ Built-In AI Features That Will Make Your Life 100x
+Easier 
+
+We Don’t Even Write Scripts, We Let AI Do It For Us.
+
+Publish Your AudioBook To Our Marketplace With 2.3 Million Active
+User
+
+Publish your AudioBook Or Podcast To (Spotify, Audible, Scribe)
+
+No Complicated Setup - Get Up And Running In 2 Minutes
+
+
+…All these, and many more without Paying Any Monthly Fee
+
+>> Click Here To Get Earlybird Access (Ends In 2 Hours From Now):
+bit.ly/AIVoxOffer
+ 
+
+Coupon Code - VOX5OFF (strictly for the first 12 people)
+
+
+
+
+>> Click here to get Lifetime access to VoxAI and start profiting from
+day one: bit.ly/AIVoxOffer
+
+ 
+
+Fair Warning - Go In Now To Avoid Paying Monthly Fee Later
+
+
+Sincerely, 
+John
+"
+
+You can contact John Davids via email, john.davids@gmail.com
+
+--1696680106-eximdsn-500584255--

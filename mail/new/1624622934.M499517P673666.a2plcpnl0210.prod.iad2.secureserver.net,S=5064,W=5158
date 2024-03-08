@@ -1,0 +1,94 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id SAdGGlbH1WCCRwoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 25 Jun 2021 05:08:54 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 25 Jun 2021 05:08:54 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.93)
+	id 1lwkdi-002pp8-Bb
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 25 Jun 2021 05:08:54 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1lwkdi-002poV-2M@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1624622934-eximdsn-1480607134
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lwkdi-002pp8-Bb@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 25 Jun 2021 05:08:54 -0700
+
+--1624622934-eximdsn-1480607134
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wkdilcOw304Ix :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=auV3tQVV c=1 sm=1 tr=0 ts=60d5c756 p=R726r1C8cpoA:10 p=uhNhSXSta3UA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=r6YtysWOX24A:10 a=x7bEGLp0ZPQA:10 a=zCOdhMm96lUA:10 a=DF2YfGKZAAAA:8 a=RgBw9RmQAAAA:8 a=2KRtAg8CxU2ho0qm8YsA:9 a=QEXdDO2ut3YA:10 a=0i-DEeL-vkcA:10 a=KyYZJfTCSdMA:10 a=Hr0sGyXY5K2awrI8LSb3:22 ::
+    100.00
+
+--1624622934-eximdsn-1480607134
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 wkdilcOw304Ix :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=auV3tQVV c=1 sm=1 tr=0 ts=60d5c756 p=R726r1C8cpoA:10 p=uhNhSXSta3UA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=r6YtysWOX24A:10 a=x7bEGLp0ZPQA:10 a=zCOdhMm96lUA:10 a=DF2YfGKZAAAA:8 a=RgBw9RmQAAAA:8 a=2KRtAg8CxU2ho0qm8YsA:9 a=QEXdDO2ut3YA:10 a=0i-DEeL-vkcA:10 a=KyYZJfTCSdMA:10 a=Hr0sGyXY5K2awrI8LSb3:22 :: 100.00
+
+--1624622934-eximdsn-1480607134
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.93)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1lwkdi-002poV-2M
+	for ginojohn@gmail.com; Fri, 25 Jun 2021 05:08:54 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by skyreveryRig.
+X-PHP-Script: ststephenssanjose.org/contact.php for 95.79.202.108
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 95.79.202.108
+From: malinoleg91@mail.ru
+Reply-To: malinoleg91@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1lwkdi-002poV-2M@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 25 Jun 2021 05:08:54 -0700
+
+You have been contacted by skyreveryRig, and the message is as
+follows.
+
+" 
+[url=https://www.skyrevery.com/destinations/private-jet-manchester/]Manchester
+Private Jet Charter [/url]        -  more information on our website
+[url=https://skyrevery.com]skyrevery.com[/url] 
+[url=https://skyrevery.com/]Private jet rental[/url] at SkyRevery
+allows you to use such valuable resource as time most efficiently. 
+You are the one who decides where and when your private jet will fly.
+It is possible to organize and perform a flight between any two civil
+airports worldwide round the clock. In airports, private jet
+passengers use special VIP terminals where airport formalities are
+minimized, and all handling is really fast – you come just 30
+minutes before  the estimated time of the departure of the rented
+private jet. 
+When you need [url=https://skyrevery.com/]private jet charter[/url]
+now, we can organise your flight with departure in 3 hours from
+confirmation."
+
+You can contact skyreveryRig via email, malinoleg91@mail.ru
+
+--1624622934-eximdsn-1480607134--

@@ -1,0 +1,5 @@
+DebugLog  | 2022-05-29 16:07:47 | guest | 114.119.142.37 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2022-05-29' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2022-05-29 17:09:13 | guest | 180.163.220.3 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-05-29 17:09:13 | guest | 180.163.220.3 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-05-29' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-05-29 17:10:01 | guest | 42.236.10.93 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-05-29 17:10:01 | guest | 42.236.10.93 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-05-29' order by fromdate asc ,todate asc limit 3

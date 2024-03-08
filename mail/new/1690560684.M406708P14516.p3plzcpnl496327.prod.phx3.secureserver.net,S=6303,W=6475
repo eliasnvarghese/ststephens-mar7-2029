@@ -1,0 +1,172 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id JpLZF6zow2S0OAAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 28 Jul 2023 09:11:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 28 Jul 2023 09:11:24 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qPQ3o-0003m0-Ap
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 28 Jul 2023 09:11:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qPQ3k-0003lS-5Y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690560684-eximdsn-1758252275
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qPQ3o-0003m0-Ap@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 28 Jul 2023 09:11:24 -0700
+
+--1690560684-eximdsn-1758252275
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 PQ3oqBDUVb3ts :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64c3e8ac p=CQ86sQ6YAAAA:20 p=C3wFqYNdYAwA:10 p=TiF-rRaV_sYUogJBC1FB:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JwOw3dTfMFAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=grVFMtl4hbkA:10 a=pGLkceISAAAA:8 a=LtsNzcdzcxAlI5jiV24A:9 a=QEXdDO2ut3YA:10 a=8iW3GWPKaeMA:10 a=KyYZJfTCSdMA:10 a=7CiQhVcTVhY1r6wLEUR0:22 a=Lj7uyTyynCvWRjd9Rnnr:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1690560684-eximdsn-1758252275
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 PQ3oqBDUVb3ts :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64c3e8ac p=CQ86sQ6YAAAA:20 p=C3wFqYNdYAwA:10 p=TiF-rRaV_sYUogJBC1FB:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JwOw3dTfMFAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=grVFMtl4hbkA:10 a=pGLkceISAAAA:8 a=LtsNzcdzcxAlI5jiV24A:9 a=QEXdDO2ut3YA:10 a=8iW3GWPKaeMA:10 a=KyYZJfTCSdMA:10 a=7CiQhVcTVhY1r6wLEUR0:22 a=Lj7uyTyynCvWRjd9Rnnr:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1690560684-eximdsn-1758252275
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qPQ3k-0003lS-5Y
+	for ginojohn@gmail.com;
+	Fri, 28 Jul 2023 09:11:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Dave Smith.
+X-PHP-Script: ststephenssanjose.org/contact.php for 63.161.77.8
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 63.161.77.8
+From: dave.smith@gmail.com
+Reply-To: dave.smith@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qPQ3k-0003lS-5Y@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 28 Jul 2023 09:11:20 -0700
+
+You have been contacted by Dave Smith, and the message is as follows.
+
+"There are 3 main reasons why thousands have already switched to
+MegaSuite Ai…
+
+
+Check it out, if you still haven’t: bit.ly/AISuite
+
+
+Reason #1: It’s NEXT-GEN technology…
+
+
+MegaSuite Ai is 100% cloud based & supremely reliable. 
+
+You can store files, host websites & webinars, design graphics, 
+
+build funnels & have access to an auto responder from anywhere.
+
+Simply select the device of your choice (MAC, Windows or even your
+Mobile) and begin.
+
+
+ 
+
+Reason #2: It’s BETTER than anything out there…
+
+ 
+
+✓ Get started with your storage journey at the lowest one-time cost
+
+✓ One-of-a kind solution for all major digital problems
+
+✓ Unlimited hosting of sites & domains at the tiniest one-time cost
+
+✓ No delays- lightning speed loading with SSL encryption 
+
+✓ Built-in wordpress installer 
+
+✓ Limitless backup & safe storage of files
+
+✓ One-click creation & hosting of webinars & live video conferences
+
+✓ Convert customers in real time using top autoresponder
+integration
+
+✓ Instant generation of high converting sales funnels & pages
+
+✓ In-built automated designer for stunning graphics
+
+✓ Newbies welcome- easier than ABC
+
+✓ The ultimate profit booster 
+
+✓ Top-notch support team
+
+✓ Absolute security- 100% malware protected
+
+✓ Welcome a worry-free life & your successful future now! 
+
+✓ Designed to perfection for beginners to make instant profits
+
+✓ No recurring fee or success tax
+
+ 
+
+✓ And a lot more...
+
+ 
+
+
+Reason #3: It’s available for the price of a cup of coffee (…and
+that too, one-time only)
+
+ 
+
+Yes – at the moment during this special launch, you can get lifetime
+access to MegaSuite Ai for a super-low one-time price.
+
+ 
+
+Once the launch ends – it will turn into a recurring subscription
+service like other business apps (but still WAYYYY BETTER than them).
+
+ 
+
+Get access here NOW: bit.ly/AISuite
+
+
+ 
+
+Talk soon,
+
+ 
+
+Dave"
+
+You can contact Dave Smith via email, dave.smith@gmail.com
+
+--1690560684-eximdsn-1758252275--

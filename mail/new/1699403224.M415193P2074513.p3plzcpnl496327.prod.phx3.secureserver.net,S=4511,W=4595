@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id KB9BGNjVSmWRpx8ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 07 Nov 2023 17:27:04 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 07 Nov 2023 17:27:04 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r0WPQ-008kl7-BB
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 07 Nov 2023 17:27:04 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r0WPL-008kQi-EM@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699403224-eximdsn-1723427458
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r0WPQ-008kl7-BB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 07 Nov 2023 17:27:04 -0700
+
+--1699403224-eximdsn-1723427458
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 0WPQrV5LWjLE1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=654ad5d8 p=ABdv7zWTBosA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=1oyc8cYNRW8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=S94jkh8YKtQA:10 a=ZZFpAIuwAAAA:8 a=UqCG9HQmAAAA:8 a=M9yM51cCcQCqUWsKo34A:9 a=QEXdDO2ut3YA:10 a=J98iPzVqNrEA:10 a=31llHAk7lkEA:10 a=KyYZJfTCSdMA:10 a=L-YIavYiMYvd3JaNZS5o:22 a=a67pgsldTx4o--CN2M8U:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1699403224-eximdsn-1723427458
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 0WPQrV5LWjLE1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b+d0oPKx c=1 sm=1 tr=0 ts=654ad5d8 p=ABdv7zWTBosA:10 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=1oyc8cYNRW8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=S94jkh8YKtQA:10 a=ZZFpAIuwAAAA:8 a=UqCG9HQmAAAA:8 a=M9yM51cCcQCqUWsKo34A:9 a=QEXdDO2ut3YA:10 a=J98iPzVqNrEA:10 a=31llHAk7lkEA:10 a=KyYZJfTCSdMA:10 a=L-YIavYiMYvd3JaNZS5o:22 a=a67pgsldTx4o--CN2M8U:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1699403224-eximdsn-1723427458
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r0WPL-008kQi-EM
+	for ginojohn@gmail.com;
+	Tue, 07 Nov 2023 17:27:04 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by EvelynDrell.
+X-PHP-Script: ststephenssanjose.org/contact.php for 194.88.152.40
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 194.88.152.40
+From: inet4747@outlook.com
+Reply-To: inet4747@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r0WPL-008kQi-EM@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 07 Nov 2023 17:26:59 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by EvelynDrell, and the message is as follows.
+
+"Etsy - Реклама с гарантией + video на
+http://pint77.com/  + Clip Art and Digital Image"
+
+You can contact EvelynDrell via email, inet4747@outlook.com
+
+--1699403224-eximdsn-1723427458--

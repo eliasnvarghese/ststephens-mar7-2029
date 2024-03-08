@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id WMuPBmQGhmPJTy8AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 29 Nov 2022 06:17:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 29 Nov 2022 06:17:24 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1p00UF-00D1MK-Vo
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 29 Nov 2022 06:17:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1p00UA-00D1IC-NU@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669727843-eximdsn-1395800635
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1p00UF-00D1MK-Vo@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 29 Nov 2022 06:17:23 -0700
+
+--1669727843-eximdsn-1395800635
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 00UFplkz8T58G :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=cYoU7FPM c=1 sm=1 tr=0 ts=63860663 p=eG0OZBEen_cA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=uAxFrqfKAAAA:8 a=kxygvczzAAAA:8 a=x5ECo3kGziiqlCBvDkQA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=tJw9EnxUXVwA:10 a=kXdeGmgiIagA:10 a=uZIrCNeYbGAA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=e3p3vEpbERI6L2dahISe:22 a=YTKn9En7inB_Rfj8kYEg:22 ::
+    100.00
+
+--1669727843-eximdsn-1395800635
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 00UFplkz8T58G :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=cYoU7FPM c=1 sm=1 tr=0 ts=63860663 p=eG0OZBEen_cA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=uAxFrqfKAAAA:8 a=kxygvczzAAAA:8 a=x5ECo3kGziiqlCBvDkQA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=tJw9EnxUXVwA:10 a=kXdeGmgiIagA:10 a=uZIrCNeYbGAA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=e3p3vEpbERI6L2dahISe:22 a=YTKn9En7inB_Rfj8kYEg:22 :: 100.00
+
+--1669727843-eximdsn-1395800635
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1p00UA-00D1IC-NU
+	for ginojohn@gmail.com;
+	Tue, 29 Nov 2022 06:17:23 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Sdvillgix.
+X-PHP-Script: ststephenssanjose.org/contact.php for 46.148.206.226
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 46.148.206.226
+From: c.him.m.edu.rls@o5o5.ru
+Reply-To: c.him.m.edu.rls@o5o5.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1p00UA-00D1IC-NU@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 29 Nov 2022 06:17:18 -0700
+
+You have been contacted by Sdvillgix, and the message is as follows.
+
+"[url=https://chimmed.ru/products/potassium-hydroxide-id=4291709]гидроксид
+калия купить [/url] 
+Tegs: пентанов н купить 
+https://chimmed.ru/products/search?name=tert-butyllithium 
+ 
+[u]нитрат серебра купить [/u] 
+[i]ламинарный бокс [/i] 
+[b]шкаф вытяжной лабораторный [/b]"
+
+You can contact Sdvillgix via email, c.him.m.edu.rls@o5o5.ru
+
+--1669727843-eximdsn-1395800635--

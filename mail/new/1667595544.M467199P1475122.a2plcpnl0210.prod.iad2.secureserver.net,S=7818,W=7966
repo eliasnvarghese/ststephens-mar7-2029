@@ -1,0 +1,148 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id IIduGhh9ZWMyghYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 04 Nov 2022 13:59:04 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 04 Nov 2022 13:59:04 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1or3mK-006CC9-BT
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 04 Nov 2022 13:59:04 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1or3mJ-006C9v-Qc@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667595544-eximdsn-1683159029
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1or3mK-006CC9-BT@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 04 Nov 2022 13:59:04 -0700
+
+--1667595544-eximdsn-1683159029
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 r3mKoHLhba2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63657d18 p=5AhmJ6WYPMkA:10 p=I8gngOcGAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=aPvlRX6qTqsA:10 a=RgBw9RmQAAAA:8 a=hyhfr6qNVlzvOmw75GoA:9 a=QEXdDO2ut3YA:10 a=I6dPebhX8sQA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=lbODvJUO7qPuXahD8TZ6:22 ::
+    100.00
+
+--1667595544-eximdsn-1683159029
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 r3mKoHLhba2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63657d18 p=5AhmJ6WYPMkA:10 p=I8gngOcGAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=aPvlRX6qTqsA:10 a=RgBw9RmQAAAA:8 a=hyhfr6qNVlzvOmw75GoA:9 a=QEXdDO2ut3YA:10 a=I6dPebhX8sQA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=lbODvJUO7qPuXahD8TZ6:22 :: 100.00
+
+--1667595544-eximdsn-1683159029
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1or3mJ-006C9v-Qc
+	for ginojohn@gmail.com; Fri, 04 Nov 2022 13:59:03 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by RonaldWaf.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.38.235.158
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.38.235.158
+From: conneusi-524@mail.ru
+Reply-To: conneusi-524@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1or3mJ-006C9v-Qc@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 04 Nov 2022 13:59:03 -0700
+
+You have been contacted by RonaldWaf, and the message is as follows.
+
+"Проведение профилактических
+прививок согласно Национального
+календаря прививок, а также по
+эпидемическим показаниям в т
+https://med-newton.ru
+  ч http://med-newton.ru
+   против клещевого энцефалита
+https://med-newton.ru/yslugi/magnitoterapiya/
+ 
+В условиях опасности заражения новыми
+вирусными инфекциями, услуга вызова
+педиатра на дом пользуется всё
+большим спросом у жителей
+Санкт-Петербурга и Ленинградской
+области https://med-newton.ru/yslugi/semejnyj-psiholog/
+   В клинике “Основа Дети” работают
+высококвалифицированные
+врач-педиатры https://med-newton.ru/yslugi/massazh/
+   При выезде специалиста на дом
+проводится диагностика, назначаются
+терапия детских заболеваний и
+рекомендации по их профилактит, а
+также проводятся необходимые
+консультации с родителями
+https://med-newton.ru/yslugi/bioakusticheskaya-korrekciya/
+    
+Длится приобретенная краснуха от 4 до 7
+дней https://med-newton.ru/yslugi/logoped/
+   Уже через 1-3 дня после появления
+болячки начинают самостоятельно
+проходить https://med-newton.ru/yslugi/pediatriya/
+   Обрабатывать их лекарственными
+составами не нужно
+https://med-newton.ru/yslugi/nejropsiholog/
+ 
+Амбулаторно-поликлиническая помощь
+детскому населению занимает ведущее
+место в общей системе здравоохранения
+и осуществляется с помощью широкой
+сети детских поликлиник и
+поликлинических отделений
+https://med-newton.ru/yslugi/detskij-psiholog/
+ 
+Сегодня ученые изучают феномен
+латентного (скрытого) носительства
+ветряной оспы, когда ее вирус
+накапливается в клетках нервных узлов
+и периодически активируется, вызывая
+опоясывающий лишай
+https://med-newton.ru/yslugi/osteopatiya/
+   Механизм такой вирусной активации
+пока недостаточно ясен
+https://med-newton.ru/yslugi/reabilitolog/
+ 
+Педиатр - доктор, который выполняет
+диагностику здоровья детей до их
+совершеннолетия, лечит и проводит
+профилактику различных патологий,
+определяет соответствие физического
+и умственного развития нормам, следит
+за своевременностью проведения
+плановых вакцинаций
+https://med-newton.ru/yslugi/logopedicheskij-massazh/
+   Педиатр знает все особенности
+развития детского организма и строит
+лечение в соответствии с ними, при
+необходимости направляет на
+консультацию к профильным врачам
+https://med-newton.ru/o-nas/
+ 
+"
+
+You can contact RonaldWaf via email, conneusi-524@mail.ru
+
+--1667595544-eximdsn-1683159029--

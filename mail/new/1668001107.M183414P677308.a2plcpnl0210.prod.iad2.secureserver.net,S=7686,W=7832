@@ -1,0 +1,146 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id pDOoCFOta2O8VQoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 09 Nov 2022 06:38:27 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 09 Nov 2022 06:38:27 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oslHe-002qCD-V7
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Wed, 09 Nov 2022 06:38:27 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oslHe-002qBb-G5@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1668001106-eximdsn-1550122338
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oslHe-002qCD-V7@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 09 Nov 2022 06:38:26 -0700
+
+--1668001106-eximdsn-1550122338
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 slHeo4o23wRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=636bad52 p=PeKfDwfMboQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=zNCnSnl8bTsA:10 a=mqLrE8-TAAAA:8 a=RgBw9RmQAAAA:8 a=GTf0FPzpCtE939KMVcIA:9 a=QEXdDO2ut3YA:10 a=lBrjguebza4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=W06Up1BWA7JfBTamoNAR:22 ::
+    100.00
+
+--1668001106-eximdsn-1550122338
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 slHeo4o23wRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=636bad52 p=PeKfDwfMboQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=zNCnSnl8bTsA:10 a=mqLrE8-TAAAA:8 a=RgBw9RmQAAAA:8 a=GTf0FPzpCtE939KMVcIA:9 a=QEXdDO2ut3YA:10 a=lBrjguebza4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=W06Up1BWA7JfBTamoNAR:22 :: 100.00
+
+--1668001106-eximdsn-1550122338
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oslHe-002qBb-G5
+	for ginojohn@gmail.com; Wed, 09 Nov 2022 06:38:26 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Charlesbax.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: tiocicie.4769@mail.ru
+Reply-To: tiocicie.4769@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oslHe-002qBb-G5@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 09 Nov 2022 06:38:26 -0700
+
+You have been contacted by Charlesbax, and the message is as follows.
+
+"Подушки безопасности
+изготавливаются из нейлоновой ткани
+похожей на парашютную
+https://materline.ru/catalog/mattresses/lux/laura/
+   В ней есть отверстия, через которые
+газ после надувания подушки покидает
+её всего за 0,3 секунды
+https://materline.ru/catalog/mattress_toppers/
+   Быстрое сдутие необходимо,
+поскольку, когда из подушки
+безопасности выходит воздух, она
+становится мягче https://materline.ru/catalog/
+ 
+Используя декоративные подушки,
+сделанные собственными руками, вы не
+только привнесете новые нотки в
+обстановку комнаты, но и не потратите
+на это много средств http://materline.ru
+   Выгодно, не так ли? 
+Отталкиваясь от этого, вы сможете
+подобрать наиболее подходящую форму,
+материал и цветовую палитру
+https://materline.ru/catalog/pillows/saponetta/
+   Всегда помните о том, что выбор ткани
+должен осуществляться согласно тем
+критериям и требованиям, которые
+предъявляются непосредственно стилем
+https://materline.ru/catalog/mattress_toppers/
+ 
+Не рекомендую открывать или разбирать
+обшивку салона вблизи от подушек
+безопасности без отключения
+аккумулятора
+https://materline.ru/catalog/mattresses_for_babys/
+   Попытка снять подушку под
+напряжением может привести к ее
+срабатыванию https://materline.ru/catalog/accessories/
+   А это, в свою очередь, может повлечь
+тяжелые травмы
+https://materline.ru/catalog/mattresses_for_babys/
+ 
+И основа, и наволочка в этом случае
+шьются по одним выкройкам
+https://materline.ru/catalog/mattresses/lux/
+   Молнию или другую застежку ставят на
+внешнюю сторону дуги, чтобы выпуклые
+детали не давили на шею и наволочку
+было проще снять или надеть
+https://materline.ru
+   Набивать основу лучше рассыпным
+материалом: гречневой лузгой, резаным
+поролоном и т
+https://materline.ru/catalog/pillows/saponetta/
+   п https://materline.ru/catalog/mattresses/lux/laura/
+   Удобно использовать холлофайбер
+https://materline.ru/catalog/accessories/pillows/saponetta/
+ 
+Вначале спазмы должны немного
+ослабнуть, а затем, по мере занятий,
+совсем исчезнуть
+https://materline.ru/catalog/accessories/
+   Позвоночный сегмент получит
+разгрузку, начнет получать
+полноценное питание https://materline.ru/contacts/
+   Свободно  нервные окончания и
+кровеносные сосуды
+https://materline.ru/catalog/accessories/pillows/mfsaponetta/
+ 
+"
+
+You can contact Charlesbax via email, tiocicie.4769@mail.ru
+
+--1668001106-eximdsn-1550122338--

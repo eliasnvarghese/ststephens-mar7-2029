@@ -1,0 +1,94 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id cMiFGWSBF2WW1iwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 29 Sep 2023 19:01:08 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 29 Sep 2023 19:01:08 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qmPI4-00CKuZ-CB
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 29 Sep 2023 19:01:08 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qmPHz-00CKti-Al@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696039268-eximdsn-322431752
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qmPI4-00CKuZ-CB@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 29 Sep 2023 19:01:08 -0700
+
+--1696039268-eximdsn-322431752
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 mPI4qx3WlIKdu :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=65178164 p=iRewr9fGAAAA:8 p=OqVxiVHdAAAA:8 p=2u9dQ_DArUNhfc2ssm91:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=SNIsyMT9LVyGKeagwn0A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=N9mvxbwdM7IA:10 a=KyYZJfTCSdMA:10 a=EqrRimeyUPr2ndbJ6jR6:22 a=qFa1DmBGh8SRkZj0qjYC:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1696039268-eximdsn-322431752
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 mPI4qx3WlIKdu :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=65178164 p=iRewr9fGAAAA:8 p=OqVxiVHdAAAA:8 p=2u9dQ_DArUNhfc2ssm91:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=SNIsyMT9LVyGKeagwn0A:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=N9mvxbwdM7IA:10 a=KyYZJfTCSdMA:10 a=EqrRimeyUPr2ndbJ6jR6:22 a=qFa1DmBGh8SRkZj0qjYC:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1696039268-eximdsn-322431752
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qmPHz-00CKti-Al
+	for ginojohn@gmail.com;
+	Fri, 29 Sep 2023 19:01:08 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by 비아그라 처방.
+X-PHP-Script: ststephenssanjose.org/contact.php for 123.215.113.84
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 123.215.113.84
+From: help@gwmetabitt.com
+Reply-To: help@gwmetabitt.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qmPHz-00CKti-Al@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 29 Sep 2023 19:01:03 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by 비아그라 처방, and the message is as
+follows.
+
+"비아그라 가격가 필요한 이유는 간단하다. 나이가
+들면 섹스가 줄어들 것이란 편견과 달리, 우리나라
+60세 이상 성인들은 왕성한 섹스 라이프를 하고 있다.
+지난 8일 대한임상노인의학회 춘계학술대회 발표의
+말을 인용하면, 60~64세는 84.2%, 65~69세는 69.9%가 섹스
+라이프를 하고 있다. 75~79세의 58.2%, 80~84세 36.3%도
+섹스를 하고 있다고 응답했다. 60대의 절반 이상이,
+80대 노인도 20~30%는 성생활을 하는 것이다. 
+ 
+[url=https://viagrainformation.com/]온라인 발기부전
+치료제[/url]"
+
+You can contact 비아그라 처방 via email, help@gwmetabitt.com
+
+--1696039268-eximdsn-322431752--

@@ -1,0 +1,159 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OCyHFABIgGPG0BwAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 24 Nov 2022 21:43:44 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 24 Nov 2022 21:43:44 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1oyQYy-007zrw-6R
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Thu, 24 Nov 2022 21:43:44 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oyQYs-007zpX-Ap@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669351424-eximdsn-862537379
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oyQYy-007zrw-6R@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 24 Nov 2022 21:43:44 -0700
+
+--1669351424-eximdsn-862537379
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yQYxoMNR7jpWY :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KO2cTnJo c=1 sm=1 tr=0 ts=63804800 p=MzfrwDluAAAA:8 p=ecv3AB2EAAAA:8 p=fgVUG_RiAAAA:8 p=iimL3KwXAAAA:8 p=mUDuIEVfAAAA:8 p=Fns18kRhAAAA:8 p=EjCaO9anAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=--xcJaNhYxIA:10 a=pjdaNNIBAAAA:8 a=8CXNig-rAAAA:8 a=aj1QyfvOAAAA:8 a=1GbB1xGwAAAA:8 a=Mb8FQcLdAAAA:8 a=cT6_93siAAAA:8 a=sUAjbEuqsg3J1qhOWRsA:9 a=QEXdDO2ut3YA:10 a=xpX2sLa_9RMA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Wa2tCCHzUM3e-E9-_Yxz:22 a=P5oqR8072jVZve0kWL2y:22 a=cFmy3VkxvXMKsYLdIcLM:22 a=i-FPulmzvr9PSCRTWjKe:22 a=VhVRDyw4qqcY4Svp9DcD:22 a=BpLDPeDOt2b9xdE_ZCWd:22 a=18Qsl-6rMRnnV5ZT6h-v:22 a=zaICoY3Tl22BRMT3yNdv:22 a=ymUYPmqJAEqPubvv3udz:22 a=-7pkxprkahTVWmrptC2v:22 a=-NSl
+
+--1669351424-eximdsn-862537379
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 yQYxoMNR7jpWY :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KO2cTnJo c=1 sm=1 tr=0 ts=63804800 p=MzfrwDluAAAA:8 p=ecv3AB2EAAAA:8 p=fgVUG_RiAAAA:8 p=iimL3KwXAAAA:8 p=mUDuIEVfAAAA:8 p=Fns18kRhAAAA:8 p=EjCaO9anAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=--xcJaNhYxIA:10 a=pjdaNNIBAAAA:8 a=8CXNig-rAAAA:8 a=aj1QyfvOAAAA:8 a=1GbB1xGwAAAA:8 a=Mb8FQcLdAAAA:8 a=cT6_93siAAAA:8 a=sUAjbEuqsg3J1qhOWRsA:9 a=QEXdDO2ut3YA:10 a=xpX2sLa_9RMA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Wa2tCCHzUM3e-E9-_Yxz:22 a=P5oqR8072jVZve0kWL2y:22 a=cFmy3VkxvXMKsYLdIcLM:22 a=i-FPulmzvr9PSCRTWjKe:22 a=VhVRDyw4qqcY4Svp9DcD:22 a=BpLDPeDOt2b9xdE_ZCWd:22 a=18Qsl-6rMRnnV5ZT6h-v:22 a=zaICoY3Tl22BRMT3yNdv:22 a=ymUYPmqJAEqPub[truncated]
+
+--1669351424-eximdsn-862537379
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oyQYs-007zpX-Ap
+	for ginojohn@gmail.com;
+	Thu, 24 Nov 2022 21:43:43 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by ufabet168pi.
+X-PHP-Script: ststephenssanjose.org/contact.php for 147.50.252.139
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 147.50.252.139
+From: pansyshasta@econgate.com
+Reply-To: pansyshasta@econgate.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oyQYs-007zpX-Ap@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 24 Nov 2022 21:43:38 -0700
+
+You have been contacted by ufabet168pi, and the message is as follows.
+
+"I  do not  understand about you,  but also for me this Internet
+Marketing thing is  everything about making money. There is no  factor
+of doing something that takes so much work as  Online marketing if you
+are not going to make some money.  Materializing  cash online as you
+may  recognize is not an  very easy  point,  numerous  have actually 
+attempted and failed and many more  will certainly  adhere to. 
+ 
+I  have actually been trying to make this  point  help  fairly  a long
+time  recognize  as well as I have tried almost  every little thing 
+available. PPC,  SEARCH ENGINE OPTIMIZATION,  Advertisement  feeling, 
+Checklist building  and also  even more,  however the one that has 
+helped me is Adwords  and also  e-mail  advertising and marketing. 
+ 
+ Generating income with those too takes a lot of  job to get  points 
+best and also some  cash to  purchase building the  checklist.  For
+that reason I am  constantly  seeking new or  affordable  methods to 
+expand my  checklist  as well as make  even more  cash as an 
+associate. 
+ 
+I am currently subscribed to a  man that is  allegedly  and also 
+ebay.com  master  as well as  once in a while I get emails  concerning
+ items  associated with eBay. A  number of days ago I got an email 
+kind him telling me  concerning a  publication called  ebay.com
+Classified  Revenue that  shows you  exactly how to  earn money as an 
+associate or product  proprietor  utilizing  ebay.com classified ads.
+
+ 
+I  do not  learn about you  however I am not an eBay guy and I  have
+actually  never ever  become aware of  ebay.com  categorized ads
+before. The only reason I am on his  checklist is because  long period
+of time ago I was  thinking about doing some eBay  marketing, but 
+never ever did. 
+ 
+ทดลองเล่นสล็อต
+https://fernandomnmdm.blog2learn.com/61980202/indicators-on-poker-texas-holdem-you-ought-to-know
+
+ทดลองเล่นสล็อตฟรี
+https://edgarqzges.jiliblog.com/72481444/considerations-to-know-about-sporting-activities-betting
+
+สล็อต ทดลองเล่น
+https://poker-videos58388.getblogs.net/45155007/information-fiction-as-well-as-hulu-sport-wagering
+
+ทดลองเล่นสล็อต pg เว็บ ตรง
+https://hulusportbetting13594.dsiblogger.com/45443338/the-habesha-sporting-activity-betting-journals
+
+ทดลองเล่นสล็อตทุกค่ายฟรี
+https://poker-online84877.ka-blogs.com/67771312/comprehensive-notes-on-waliya-sport-wagering
+
+ทดลองเล่นสล็อตโรม่า
+https://sportbettingodds72344.blogofoto.com/45257650/the-most-effective-side-of-poker-videos
+
+ทดลองเล่นสล็อต เว็บ ตรง
+https://fernandoebqjy.timeblog.net/50180130/detailed-notes-on-waliya-sporting-activity-wagering
+
+ทดลองเล่นสล็อตเว็บตรง
+https://toplaypoker71402.acidblog.net/45120165/reported-buzz-on-online-poker-on-line-cost-free
+
+ทดลองเล่นสล็อตฟรีทุกค่าย
+https://sports-betting06666.fireblogz.com/45035789/habesha-sporting-activity-wagering-an-introduction
+
+ทดลองเล่นสล็อต pp
+https://sergiojriua.aioblogs.com/68072015/the-online-sport-wagering-journals
+
+ทดลองเล่นสล็อต ฟรี 100 บาท
+https://bmclubvip.me/gamesloteasy/ 
+ทดลองเล่นสล็อตฟรี 100 บาท
+https://bmclubvip.me/sushi-oishi/ 
+ทดลองเล่นสล็อต โร มา ฟรี
+https://bmclubvip.me/speed-winner/ 
+ทดลองเล่นสล็อต pg
+ซื้อฟรีสปิน https://bmclubvip.me/wild-bandito/ 
+ทดลองเล่นสล็อต pg ซื้อฟรี
+ส ปิ น https://bmclubvip.me/lucky-neko/ 
+ทดลองเล่นสล็อต joker
+https://bmclubvip.me/way-of-the-qilin/ 
+เว็บ ทดลองเล่นสล็อต
+https://bmclubvip.me/lucky-piggy/ 
+ทดลองเล่นสล็อตฟรี pg
+https://bmclubvip.me/majong-way-2/ 
+ทดลองเล่นสล็อตทุกค่าย
+https://bmclubvip.me/treasures-of-aztec/"
+
+You can contact ufabet168pi via email, pansyshasta@econgate.com
+
+--1669351424-eximdsn-862537379--

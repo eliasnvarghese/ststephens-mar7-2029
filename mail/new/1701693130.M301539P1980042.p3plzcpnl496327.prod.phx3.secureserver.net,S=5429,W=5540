@@ -1,0 +1,111 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id LXySEcrGbWWKNh4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 04 Dec 2023 05:32:10 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 04 Dec 2023 05:32:10 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1rA87O-008J5w-1S
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 04 Dec 2023 05:32:10 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rA87I-008J4P-CO@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1701693130-eximdsn-617257340
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rA87O-008J5w-1S@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 04 Dec 2023 05:32:10 -0700
+
+--1701693130-eximdsn-617257340
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 A87Nr22gW57rc :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Meqq+bzf c=1 sm=1 tr=0 ts=656dc6ca p=PIFvESoWZjycG8pKVUM7:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=HZ1am1u_2KQA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=x7bEGLp0ZPQA:10 a=i-u3az4H52YA:10 a=MA0CXgXeAAAA:8 a=UqCG9HQmAAAA:8 a=-rObJCH73UovdRcdT-gA:9 a=QEXdDO2ut3YA:10 a=FEfBWYmAwuIA:10 a=nIHewM_8Rj4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1701693130-eximdsn-617257340
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 A87Nr22gW57rc :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Meqq+bzf c=1 sm=1 tr=0 ts=656dc6ca p=PIFvESoWZjycG8pKVUM7:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=HZ1am1u_2KQA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=x7bEGLp0ZPQA:10 a=i-u3az4H52YA:10 a=MA0CXgXeAAAA:8 a=UqCG9HQmAAAA:8 a=-rObJCH73UovdRcdT-gA:9 a=QEXdDO2ut3YA:10 a=FEfBWYmAwuIA:10 a=nIHewM_8Rj4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1701693130-eximdsn-617257340
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rA87I-008J4P-CO
+	for ginojohn@gmail.com;
+	Mon, 04 Dec 2023 05:32:09 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Federico Maitland.
+X-PHP-Script: ststephenssanjose.org/contact.php for 38.57.253.201
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 38.57.253.201
+From: federico.maitland@outlook.com
+Reply-To: federico.maitland@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rA87I-008J4P-CO@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 04 Dec 2023 05:32:04 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Federico Maitland, and the message is as
+follows.
+
+"Elevate Your Workspace Efficiency with Top-Notch Office Supplies
+
+In the realm of business, efficiency is key. And what better way to
+optimize your workspace than with premium office supplies that
+streamline operations and foster productivity?
+
+At Bulk Office Supply, we understand the importance of reliable tools
+in driving success. Our extensive inventory boasts an array of
+top-notch office supplies—from ergonomic chairs to state-of-the-art
+tech gadgets, we have everything your workspace needs to thrive.
+
+Why Choose Us?
+
+Unrivaled quality for seamless performance
+A comprehensive range catering to all your office essentials
+Competitive prices and bulk order discounts for cost-effectiveness
+Elevate your office environment and empower your team for peak
+performance. Explore our catalog and witness the transformation
+firsthand.
+
+Click >>>>
+https://shareasale.com/r.cfm?b=179232&u=3958273&m=22673&urllink=&afftrack=
+
+Let's redefine efficiency together. Get in touch to discuss how we can
+tailor our offerings to suit your specific business needs.
+
+Warm Regards,"
+
+You can contact Federico Maitland via email,
+federico.maitland@outlook.com
+
+--1701693130-eximdsn-617257340--

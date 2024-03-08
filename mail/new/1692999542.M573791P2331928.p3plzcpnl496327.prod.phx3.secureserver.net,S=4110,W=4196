@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id tScLIXYf6WQYlSMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 25 Aug 2023 14:39:02 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 25 Aug 2023 14:39:02 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qZeWE-009mde-Fj
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 25 Aug 2023 14:39:02 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qZeW9-009mPQ-FE@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1692999542-eximdsn-2012193853
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qZeWE-009mde-Fj@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 25 Aug 2023 14:39:02 -0700
+
+--1692999542-eximdsn-2012193853
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ZeWEqss5Qzbc9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=64e91f76 p=GYKZD50q-80YZzsK0MOw:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=4dGbH1l_ag9Yd9kqf0EA:9 a=QEXdDO2ut3YA:10 a=vQvqZRW0kz8A:10 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1692999542-eximdsn-2012193853
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 ZeWEqss5Qzbc9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=64e91f76 p=GYKZD50q-80YZzsK0MOw:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=4dGbH1l_ag9Yd9kqf0EA:9 a=QEXdDO2ut3YA:10 a=vQvqZRW0kz8A:10 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1692999542-eximdsn-2012193853
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qZeW9-009mPQ-FE
+	for ginojohn@gmail.com;
+	Fri, 25 Aug 2023 14:39:02 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by markusPhorp.
+X-PHP-Script: ststephenssanjose.org/contact.php for 176.124.32.184
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 176.124.32.184
+From: m.abwerzger@rechtsanwaltinnsbruck.at
+Reply-To: m.abwerzger@rechtsanwaltinnsbruck.at
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qZeW9-009mPQ-FE@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 25 Aug 2023 14:38:57 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by markusPhorp, and the message is as follows.
+
+"Markus Abwerzger 
+Klubobmann 
+Landtagsklub"
+
+You can contact markusPhorp via email,
+m.abwerzger@rechtsanwaltinnsbruck.at
+
+--1692999542-eximdsn-2012193853--

@@ -1,0 +1,92 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 8BzcEeDpDF2h/Q8AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 21 Jun 2019 07:29:52 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 21 Jun 2019 07:29:52 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	id 1heKY4-0006c1-6J
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 21 Jun 2019 07:29:52 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1561127392-eximdsn-713943958
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1heKY4-0006c1-6J@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 21 Jun 2019 07:29:52 -0700
+
+--1561127392-eximdsn-713943958
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 eKY4hiWKi1Djn :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=ZL6pZkzb c=1 sm=1 tr=0 p=Reye6Yiwo38A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=qz0_fKNWcUAA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=dq6fvYVFJ5YA:10 a=csnHtKEssWwA:10 a=HqY_Fh5OAAAA:8 a=dcnhuX0FAAAA:8 a=AEBoa8aQ9neD0tB8fBQA:9 a=QEXdDO2ut3YA:10 a=qypAFJtyoWIA:10 a=Tm4QDRQsvUcA:10 a=dbQVpM0ydIMC8FP9C6_I:22 a=gUgG6iHDC19TKp_6scJY:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 ::
+    100.00
+
+--1561127392-eximdsn-713943958
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 eKY4hiWKi1Djn :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=ZL6pZkzb c=1 sm=1 tr=0 p=Reye6Yiwo38A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=qz0_fKNWcUAA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=dq6fvYVFJ5YA:10 a=csnHtKEssWwA:10 a=HqY_Fh5OAAAA:8 a=dcnhuX0FAAAA:8 a=AEBoa8aQ9neD0tB8fBQA:9 a=QEXdDO2ut3YA:10 a=qypAFJtyoWIA:10 a=Tm4QDRQsvUcA:10 a=dbQVpM0ydIMC8FP9C6_I:22 a=gUgG6iHDC19TKp_6scJY:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 :: 100.00
+
+--1561127392-eximdsn-713943958
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1heKY3-0006bS-Ss
+	for ginojohn@gmail.com; Fri, 21 Jun 2019 07:29:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by BarbaraJat.
+X-PHP-Script: ststephenssanjose.org/contact.php for 5.253.204.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 5.253.204.6
+From: fax.promotion@consultant.com
+Reply-To: fax.promotion@consultant.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1heKY3-0006bS-Ss@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 21 Jun 2019 07:29:51 -0700
+
+You have been contacted by BarbaraJat, and the message is as follows.
+
+"Hello, 
+My name is barrister Lawwell, I have previously sent you a message
+regarding a transaction of $ 13.5 million left by my late client
+before his sudden death. 
+I m contacting you once again because after going through your profile
+am strongly believe that you will be in a better position to execute
+the transaction with me. 
+If you will be interested, I wish to point out that after the
+transaction I want 10% of this money to be shared among charity
+organizations while the remaining 90% will be shared between us thus
+45% each. 
+This transaction is 100% risk free; Please response to me as soon as
+possible for more explanations about the transaction. My email:
+m.lawwell@bos.shopvot.com Tel:+ 0034 631 694 264 
+Yours Faithfully, 
+Martin Jose Lawwell."
+
+You can contact BarbaraJat via email, fax.promotion@consultant.com
+
+--1561127392-eximdsn-713943958--

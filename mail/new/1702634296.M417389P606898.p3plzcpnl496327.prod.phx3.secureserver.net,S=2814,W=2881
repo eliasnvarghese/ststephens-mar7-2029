@@ -1,0 +1,67 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id FytsGDgjfGWyQgkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 15 Dec 2023 02:58:16 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 15 Dec 2023 02:58:16 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rE4xU-002XsZ-17
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 15 Dec 2023 02:58:16 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rE4xP-002Xrs-1z@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rE4xU-002XsZ-17@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 15 Dec 2023 02:58:16 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rE4xP-002Xrs-1z
+	for ginojohn@gmail.com;
+	Fri, 15 Dec 2023 02:58:11 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Libby Evans.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 154.22.148.177
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 154.22.148.177
+From: libbyevans461@gmail.com
+Reply-To: libbyevans461@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rE4xP-002Xrs-1z@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 15 Dec 2023 02:58:11 -0700
+
+You have been contacted by Libby Evans, and the message is as follows.
+
+"Hi there,
+
+We run an Instagram growth service, which increases your number of
+followers both safely and practically. 
+
+- Guaranteed: We guarantee to gain you 300-1000+ followers per month.
+- Real, human followers: People follow you because they are interested
+in your business or niche.
+- Safe: All actions are made manually. We do not use any bots.
+
+The price is just $60 (USD) per month, and we can start immediately.
+
+If you are interested, and have any questions, reply back and we can
+discuss further.
+
+Kind Regards,
+Libby"
+
+You can contact Libby Evans via email, libbyevans461@gmail.com

@@ -1,0 +1,215 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id GJUdK4FvZGNsZj4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 18:48:49 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 18:48:49 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqlpB-00HALL-Jp
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 18:48:49 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqlpB-00HAKq-3C@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667526529-eximdsn-2066947620
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqlpB-00HALL-Jp@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:48:49 -0700
+
+--1667526529-eximdsn-2066947620
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qlpBoIY5BF1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63646f81 p=wAiqeAcpAAAA:8 p=LaWqe4WEwMQA:10 p=9YhHd9Q1iJAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=DuhWGAxmKMgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=CtcB4d9F3qwA:10 a=RgBw9RmQAAAA:8 a=9XoariBlancxqsI4HFgA:9 a=QEXdDO2ut3YA:10 a=dPkCK7ggBpwA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=9ZAhB9u8MGgaNFXPrDAg:22 ::
+    100.00
+
+--1667526529-eximdsn-2066947620
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qlpBoIY5BF1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63646f81 p=wAiqeAcpAAAA:8 p=LaWqe4WEwMQA:10 p=9YhHd9Q1iJAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=DuhWGAxmKMgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=bB9B_3OnoYkA:10 a=x7bEGLp0ZPQA:10 a=CtcB4d9F3qwA:10 a=RgBw9RmQAAAA:8 a=9XoariBlancxqsI4HFgA:9 a=QEXdDO2ut3YA:10 a=dPkCK7ggBpwA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=9ZAhB9u8MGgaNFXPrDAg:22 :: 100.00
+
+--1667526529-eximdsn-2066947620
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqlpB-00HAKq-3C
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 18:48:49 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Donaldcib.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.125
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.125
+From: namata-2521@mail.ru
+Reply-To: namata-2521@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqlpB-00HAKq-3C@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:48:49 -0700
+
+You have been contacted by Donaldcib, and the message is as follows.
+
+"Типовые нормы бесплатной выдачи
+сертифицированных спецодежды,
+спецобуви и других средств
+индивидуальной защиты работникам
+сквозных профессий и должностей всех
+отраслей экономики (утв https://ratnik.su
+   Приказом Минздравсоцразвития
+России от 01
+https://ratnik.su/voentorg/shevrony-pogony/pogony-iz-rubashechnoj-tkani-vyshitye-latunnaya-kanitel/pogony-iz-rub-tk-olivk-krasn-kant-vysh-lat-zv-praporshhik
+  10
+https://ratnik.su/product-category/shevrony-pogony/pogony-paradnye
+  2008 N 541н) (далее - Приказ N 541н) 
+Для работников, относящихся к высшей
+группе должностей гражданской службы,
+- брюки прямые, темно-серого цвета, по
+боковому шву - кант синего цвета, по
+краям которого лампасы синего цвета
+шириной 2 см
+https://ratnik.su/voentorg/vnutrennie-vojska/shevron-naruk-vv-mvd-severo-zapadnyj-okrug-sfinks-plast
+ 
+Брюки прямого силуэта с притачным
+поясом
+https://ratnik.su/product-category/snaryazhenie/specsredstva
+   Боковые карманы прорезные, в рамку
+https://ratnik.su/voentorg/uncategorized/pogony-iz-rub-tkani-belye-s-odnim-krasnym-prosv-i-vysh-zvezdami-lejtenant-ov-mvd
+   На правой задней половинке - карман в
+рамку, застегивающийся пуговицу
+https://ratnik.su/voentorg/suvenirnaya-produkciya/brelki-zalivka-smoloj/brelok-zheton-akademiya-fso-smola
+   Пояс левой передней половинки со
+свободным концом, застегивающимся на
+пуговицу и петлю
+https://ratnik.su/product-category/nashivki-shevrony-zakaznye
+   На поясе шесть шлевок для
+продергивания ремня
+https://ratnik.su/product-tag/lejtenant
+ 
+Важной особенностью полицейской
+форменной одежды было то
+обстоятельство, что мундиры
+чиновников и нижних чинов в первой
+половине XIX в
+https://ratnik.su/product-category/snaryazhenie/sumki-rjukzaki
+   не представляли собой единый блок,
+как униформа жандармов
+https://ratnik.su/product-category/nagrudnye-znaki-znachki-medali/nagrudnye-znaki-znachki-metallicheskie-mvd-rf-policiya-vnutrennie-vojska
+   В полиции это было две параллельных
+линии развития, которые двигались в
+одном направлении, но с разной
+скоростью
+https://ratnik.su/product-category/nashivki-shevrony-zakaznye
+ 
+Каталог товаров Китель, форменный
+Китель мужской советников
+Федеральной налоговой службы РФ для
+мужчина Китель мужской советников
+Федеральной налоговой службы РФ
+Морской Волны Ткань из Полушерсти
+,Пошив на заказ форменный Китель
+мужской советников Федеральной
+налоговой службы РФ, Где Купить
+форменный Китель мужской советников
+Федеральной налоговой службы РФ,
+Заказать форменный Китель мужской
+советников Федеральной налоговой
+службы РФ, Цена форменный Китель
+мужской советников Федеральной
+налоговой службы РФ 5 000 https://ratnik.su
+  00 руб https://ratnik.su/product-tag/fso-rossii
+  , Одежда Китель мужской советников
+Федеральной налоговой службы РФ,
+Костюм Китель мужской советников
+Федеральной налоговой службы РФ ,
+Форма Китель мужской советников
+Федеральной налоговой службы РФ,
+Спецодежда Китель мужской советников
+Федеральной налоговой службы РФ,
+форменный Китель мужской советников
+Федеральной налоговой службы РФ,
+Китель мужской советников
+Федеральной налоговой службы РФ
+Челябинск, форменный Китель мужской
+советников Федеральной налоговой
+службы РФ от ателье +,форменный Китель
+мужской советников Федеральной
+налоговой службы РФ под заказ оптом и
+в розницу, форменная Одежда
+сотрудников Китель мужской
+советников Федеральной налоговой
+службы РФ, 
+Чтобы выйти на заслуженный отдых
+полицейским теперь нужно будет
+отслужить на пять лет больше
+https://ratnik.su/voentorg/metallofurnitura-prochaya-metallofurnitura/emblema-petlichnaya-ohotnadzor
+   Это правило планируется ввести с
+первого января https://ratnik.su
+   Те, кто в текущем 2022 году успеют уйти
+на заслуженный отдых, будут получать
+пенсию по действующей системе
+https://ratnik.su/voentorg/uncategorized/shevron-naruk-vv-mvd-podrazdeleniya-grifon-plast
+   Сегодня МВД РФ – это приблизительно
+900 тысяч сотрудников https://ratnik.su
+   Каждый из них является важной частью
+госструктуры в целом
+https://ratnik.su/product-category/shevrony-pogony/nashivki-shevrony-ministerstva-oborony-vyshitye
+   Масштаб реформы позволяет
+обеспечить достойную жизнь как
+служащим, так и членам их семей
+https://ratnik.su/product-category/zhetony
+   Также она позволит оптимизировать
+работу МВД в общественной сфере и с
+точки зрения экономики
+https://ratnik.su/product-category/nagrudnye-znaki-znachki-medali/page/18
+   Во время проведения строевого
+смотра проверен внешний вид
+сотрудников, состояние форменного
+обмундирования, обуви, знания личным
+составом правил ношения уставной
+формы, вооружения и снаряжения,
+отдания воинской чести и основных
+положений Устава Вооружённых сил РФ
+https://ratnik.su/voentorg/shevrony-pogony/pogony-iz-rubashechnoj-tkani-vyshitye-latunnaya-kanitel/pogony-iz-rub-tk-olivk-krasn-kant-vysh-lat-zv-praporshhik
+   В рядах МВД Российской Федерации на
+данный момент несут службу около 900
+тыс https://ratnik.su/product-tag/hozpakety-mvd
+   человек, каждый из которых является
+неотъемлемой частью государственной
+структуры
+https://ratnik.su/voentorg/zhetony/zhetony-metallicheskie/zheton-emblema-rvsn
+   Масштабная реформа МВД в 2022 году
+позволит не только добиться
+достойного материального обеспечения
+всех служащих и членов их семей, но и
+оптимизирует работу структуры в
+соответствии с изменениями в
+экономической и общественной сферах
+https://ratnik.su/product-category/zhetony/page/4
+ 
+"
+
+You can contact Donaldcib via email, namata-2521@mail.ru
+
+--1667526529-eximdsn-2066947620--

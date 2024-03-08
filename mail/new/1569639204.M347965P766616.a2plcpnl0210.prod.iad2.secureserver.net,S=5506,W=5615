@@ -1,0 +1,109 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id aFJ0EiTLjl2YsgsAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 27 Sep 2019 19:53:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 27 Sep 2019 19:53:24 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	id 1iE2rM-003DQY-6i
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 27 Sep 2019 19:53:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1569639204-eximdsn-1948375836
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iE2rM-003DQY-6i@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 27 Sep 2019 19:53:24 -0700
+
+--1569639204-eximdsn-1948375836
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 E2rMiOVg6mRyi :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=aqHM9hRV c=1 sm=1 tr=0 p=fWlPDD_M6QYA:10 p=3KlojntfeeUA:10 p=aKD0iQiTf5MA:10 p=ilQq4q5XujEA:10 p=ps48Q_iyKsDNPKUvWSVX:22 p=mgXZ7ej_xF3TYR8MbpeP:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=yqIe6syLascA:10 a=9tMiWJV1oG0A:10 a=tdB2LVuYDnoA:10 a=J70Eh1EUuV4A:10 a=pGLkceISAAAA:8 a=MWdCNDk1E6cZ1yfpDvsA:9 a=4nJ02Eqc3i39kClB:21 a=DABp6xhP9pgcahF8:21 a=QEXdDO2ut3YA:10 a=-A-krr4vLe8A:10 a=tHkuFT-Bev1OVa-O0QcY:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 ::
+    100.00
+
+--1569639204-eximdsn-1948375836
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 E2rMiOVg6mRyi :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=aqHM9hRV c=1 sm=1 tr=0 p=fWlPDD_M6QYA:10 p=3KlojntfeeUA:10 p=aKD0iQiTf5MA:10 p=ilQq4q5XujEA:10 p=ps48Q_iyKsDNPKUvWSVX:22 p=mgXZ7ej_xF3TYR8MbpeP:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=yqIe6syLascA:10 a=9tMiWJV1oG0A:10 a=tdB2LVuYDnoA:10 a=J70Eh1EUuV4A:10 a=pGLkceISAAAA:8 a=MWdCNDk1E6cZ1yfpDvsA:9 a=4nJ02Eqc3i39kClB:21 a=DABp6xhP9pgcahF8:21 a=QEXdDO2ut3YA:10 a=-A-krr4vLe8A:10 a=tHkuFT-Bev1OVa-O0QcY:22 a=pHzHmUro8NiASowvMSCR:22 a=Ew2E2A-JSTLzCXPT_086:22 :: 100.00
+
+--1569639204-eximdsn-1948375836
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.92)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1iE2rL-003DQ1-Vq
+	for ginojohn@gmail.com; Fri, 27 Sep 2019 19:53:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by BryanVot.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 92.63.100.62
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 92.63.100.62
+From: sendfer@gmail.com
+Reply-To: sendfer@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1iE2rL-003DQ1-Vq@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 27 Sep 2019 19:53:23 -0700
+
+You have been contacted by BryanVot, and the message is as follows.
+
+"Hello! 
+ 
+Sending your commercial offer through the feedback form which can be
+found on the sites in the contact partition. Feedback forms are filled
+in by our software and the captcha is solved. The profit of this
+method is that messages sent through feedback forms are whitelisted.
+This method increases the chances that your message will be read.
+Mailing is done in the same way as you received this message. 
+Your commercial proposal will be open by millions of site
+administrators and those who have access to the sites! 
+ 
+The cost of sending 1 million messages is $ 49 instead of $ 99. (you
+can select any country or country domain) 
+All USA - (10 million messages sent) - $399 instead of $699 
+All Europe (7 million messages sent)- $ 299 instead of $599 
+All sites in the world (25 million messages sent) - $499 instead of
+$999 
+ 
+ 
+Discounts are valid until October 1. 
+Feedback and warranty! 
+Delivery report! 
+In the process of sending messages we don't break the rules GDRP. 
+ 
+This message is automatically generated to use our contacts for
+communication. 
+ 
+ 
+ 
+Contact us. 
+Telegram - @feedsend 
+ 
+Email - feedbacksend01@gmail.com"
+
+You can contact BryanVot via email, sendfer@gmail.com
+
+--1569639204-eximdsn-1948375836--

@@ -1,0 +1,71 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id wDwMM7p+2mN3TzsAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 01 Feb 2023 08:01:14 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 01 Feb 2023 08:01:14 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pNEbq-00GLre-Og
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 01 Feb 2023 08:01:14 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pNEbm-00GLpL-2Z@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pNEbq-00GLre-Og@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 01 Feb 2023 08:01:14 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pNEbm-00GLpL-2Z
+	for ginojohn@gmail.com;
+	Wed, 01 Feb 2023 08:01:10 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Reinaldo Bednall.
+X-PHP-Script: www.ststephenssanjose.com/contact.php for 204.217.202.176
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 204.217.202.176
+From: bednall.reinaldo@yahoo.com
+Reply-To: bednall.reinaldo@yahoo.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pNEbm-00GLpL-2Z@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 01 Feb 2023 08:01:10 -0700
+
+You have been contacted by Reinaldo Bednall, and the message is as
+follows.
+
+"Happy Wednesday!
+
+I want to be totally transparent. I know you are super busy delivering
+your services. I took a look at your website and noticed you don't
+have a way to capture contact information of clients or prospective
+clients on your website. I would love to show you how you can easily
+do that with ManyChat. And what is great is that it integrates with
+Facebook messenger! I have created a free guide for you on how this
+works. Just go to the webpage below to download the guide to see how
+simple this is.
+www.10xmoneylife.com
+
+
+Cheers!
+Jennifer
+
+
+Reply to 10xmoneylife@gmail.com and request to unsubscribe.
+Please include your website in the body of your email.
+2435 Forest Ave., Suite 110, San Jose, CA 95128"
+
+You can contact Reinaldo Bednall via email, bednall.reinaldo@yahoo.com

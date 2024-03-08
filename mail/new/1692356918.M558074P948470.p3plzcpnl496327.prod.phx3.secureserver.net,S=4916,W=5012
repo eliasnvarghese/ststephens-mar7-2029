@@ -1,0 +1,96 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 1U4bITZR32T2eA4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 18 Aug 2023 04:08:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 18 Aug 2023 04:08:38 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qWxLK-003yjg-Fd
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 18 Aug 2023 04:08:38 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qWxLF-003yen-NK@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1692356918-eximdsn-2004559820
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qWxLK-003yjg-Fd@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 18 Aug 2023 04:08:38 -0700
+
+--1692356918-eximdsn-2004559820
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 WxLKqOgz2AGP9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ZdvbdOZA c=1 sm=1 tr=0 ts=64df5136 p=9vRYJyM7gscA:10 p=rJnZum7jZPitqz5HSQXM:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=7bRMe-qOzQcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=C-YC_dDwlMcA:10 a=8s4lK9a8AAAA:20 a=pGLkceISAAAA:8 a=1n7nHixOaf1-XwWnIt4A:9 a=QEXdDO2ut3YA:10 a=q1YHjshsk_AA:10 a=JExuBrTVyVoA:10 a=KyYZJfTCSdMA:10 a=dZ10V22dzFgnNk6DaJZJ:22 a=U58v1wyJBeIAklIzhyJi:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1692356918-eximdsn-2004559820
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 WxLKqOgz2AGP9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ZdvbdOZA c=1 sm=1 tr=0 ts=64df5136 p=9vRYJyM7gscA:10 p=rJnZum7jZPitqz5HSQXM:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=7bRMe-qOzQcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=C-YC_dDwlMcA:10 a=8s4lK9a8AAAA:20 a=pGLkceISAAAA:8 a=1n7nHixOaf1-XwWnIt4A:9 a=QEXdDO2ut3YA:10 a=q1YHjshsk_AA:10 a=JExuBrTVyVoA:10 a=KyYZJfTCSdMA:10 a=dZ10V22dzFgnNk6DaJZJ:22 a=U58v1wyJBeIAklIzhyJi:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1692356918-eximdsn-2004559820
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qWxLF-003yen-NK
+	for ginojohn@gmail.com;
+	Fri, 18 Aug 2023 04:08:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Michael Sinclair.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.168.18
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.168.18
+From: msinclair.hivemailers@gmail.com
+Reply-To: msinclair.hivemailers@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qWxLF-003yen-NK@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 18 Aug 2023 04:08:33 -0700
+
+You have been contacted by Michael Sinclair, and the message is as
+follows.
+
+"Hello,
+  
+I made over 100k using a Powerful new AI Marketing System.
+
+I created a FREE training to help you Go from 0 to 30k using our
+proven AI Method to Get Clients Fast!
+  
+Want in? Book a 10 min call with me now:
+https://bit.ly/chatgpt-like-marketing-system
+ 
+This offer is good for the first 20 clients, don’t miss out. Book
+appointment now: https://bit.ly/chatgpt-like-marketing-system
+
+Sincerely,
+Michael"
+
+You can contact Michael Sinclair via email,
+msinclair.hivemailers@gmail.com
+
+--1692356918-eximdsn-2004559820--

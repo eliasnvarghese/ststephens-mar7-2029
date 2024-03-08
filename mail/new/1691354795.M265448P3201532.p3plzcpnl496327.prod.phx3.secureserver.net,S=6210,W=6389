@@ -1,0 +1,179 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id zpJoD6sG0GT82TAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 06 Aug 2023 13:46:35 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 06 Aug 2023 13:46:35 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qSke3-00DRB7-6c
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 06 Aug 2023 13:46:35 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qSkdy-00DQxa-AJ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1691354795-eximdsn-1784396132
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qSke3-00DRB7-6c@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 06 Aug 2023 13:46:35 -0700
+
+--1691354795-eximdsn-1784396132
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Ske3qxV3Wb3ts :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64d006ab p=MxqEWydfAAAA:20 p=yWSipQawDYkA:10 p=GHuMNUy7UnurploJrmzC:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=euWxolyUv3EA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=YlFAm6qFyf8A:10 a=pGLkceISAAAA:8 a=3h-EYyZr93E69A0cppUA:9 a=QEXdDO2ut3YA:10 a=FeuGmh0bJykA:10 a=KyYZJfTCSdMA:10 a=KMbgMlyfeYAPJKgnYT0U:22 a=WrIz9NO9Potk5f6uEt6P:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1691354795-eximdsn-1784396132
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 Ske3qxV3Wb3ts :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=64d006ab p=MxqEWydfAAAA:20 p=yWSipQawDYkA:10 p=GHuMNUy7UnurploJrmzC:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=euWxolyUv3EA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=UttIx32zK-AA:10 a=x7bEGLp0ZPQA:10 a=YlFAm6qFyf8A:10 a=pGLkceISAAAA:8 a=3h-EYyZr93E69A0cppUA:9 a=QEXdDO2ut3YA:10 a=FeuGmh0bJykA:10 a=KyYZJfTCSdMA:10 a=KMbgMlyfeYAPJKgnYT0U:22 a=WrIz9NO9Potk5f6uEt6P:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1691354795-eximdsn-1784396132
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qSkdy-00DQxa-AJ
+	for ginojohn@gmail.com;
+	Sun, 06 Aug 2023 13:46:35 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by James Jefferson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 107.186.67.208
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 107.186.67.208
+From: james.jefferson@gmail.com
+Reply-To: james.jefferson@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qSkdy-00DQxa-AJ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 06 Aug 2023 13:46:30 -0700
+
+You have been contacted by James Jefferson, and the message is as
+follows.
+
+"Yes, this new app will steal any video you want… 
+
+
+And let you take full control over all of its views and traffic… 
+
+
+>> The Cart Is Open. Grab The Earlybird Access To vAI Now. 
+
+Use Coupon: "VAI5OFF" & Get $5 OFF On Complete Funnel
+
+
+===> bit.ly/AIVideoHijack
+
+
+And no, it’s not illegal… 
+
+
+In fact, it doesn’t break any law, or TOS… 
+
+
+
+And once you see it in action you will realize that it’s 100%
+ethical… 
+
+
+>> Get vAI Lifetime Account + Commercial License at a One-Time Price 
+
+Use Coupon: "VAI5OFF" & Get $5 OFF On Complete Funnel
+
+
+===> bit.ly/AIVideoHijack
+
+
+
+It’s pure genius
+
+
+It’s the world’s first AI app that LEGALLY Hijacks any video on
+the internet, and gives you full control over it within seconds… 
+
+
+With vAI…
+
+
+Hijack any video you want from the internet with a click
+
+
+Place optin-forms, buy buttons, CTA buttons, Sell Products, Maps, and
+more… over any video
+
+
+Hijack thousands of clicks almost instantly 
+
+
+Capitalize on existing traffic instead of starting from scratch
+
+
+Embed your hijacked videos anywhere on the internet
+
+
+
+All of that and more is what’s possible with vAI… 
+
+
+Right now you can get your copy of vAI at a huge discount because of
+the early bird pricing… 
+
+
+But that won’t last long…
+
+
+Depends on when you are reading this email, but it will expire within
+a few hours of launch… 
+
+
+Not only that… 
+
+
+You will also miss the incredible bonuses pack i have for you :) 
+
+
+Go ahead and secure your copy of vAI by clicking here, and secure
+earlybird pricing + $10,469.34 bonus pack 
+
+
+Use Coupon: "VAI5OFF" & Get $5 OFF On Complete Funnel
+
+
+===> bit.ly/AIVideoHijack
+
+
+
+Cheers,
+
+James
+
+
+PS: By getting your copy of vAI in the earlybird, you will also get a
+FREE commercial license…"
+
+You can contact James Jefferson via email, james.jefferson@gmail.com
+
+--1691354795-eximdsn-1784396132--

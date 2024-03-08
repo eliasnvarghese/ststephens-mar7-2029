@@ -1,0 +1,117 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 4Ir2DFg1ZWMthT4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 04 Nov 2022 08:52:56 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 04 Nov 2022 08:52:56 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqz04-00HBwk-2M
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 04 Nov 2022 08:52:56 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqz03-00HBw6-IA@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667577176-eximdsn-935757762
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqz04-00HBwk-2M@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 04 Nov 2022 08:52:56 -0700
+
+--1667577176-eximdsn-935757762
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qz03orAYl4oIf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63653558 p=hxgt_FoUeRQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=XsY4UQVz9UkA:10 a=bXrULjrWAAAA:8 a=RgBw9RmQAAAA:8 a=CJzq53QQPrZBIuciIeMA:9 a=QEXdDO2ut3YA:10 a=MnaRnzCmQ3YA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=HkQzo889WDwcJa8sRLRb:22 ::
+    100.00
+
+--1667577176-eximdsn-935757762
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qz03orAYl4oIf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63653558 p=hxgt_FoUeRQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=XsY4UQVz9UkA:10 a=bXrULjrWAAAA:8 a=RgBw9RmQAAAA:8 a=CJzq53QQPrZBIuciIeMA:9 a=QEXdDO2ut3YA:10 a=MnaRnzCmQ3YA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=HkQzo889WDwcJa8sRLRb:22 :: 100.00
+
+--1667577176-eximdsn-935757762
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqz03-00HBw6-IA
+	for ginojohn@gmail.com; Fri, 04 Nov 2022 08:52:55 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Richardliz.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.38.235.158
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.38.235.158
+From: sashuta.meshcheryakov.83@mail.ru
+Reply-To: sashuta.meshcheryakov.83@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqz03-00HBw6-IA@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 04 Nov 2022 08:52:55 -0700
+
+You have been contacted by Richardliz, and the message is as follows.
+
+"Данные особенности микроклимата на
+кухне накладывают на источники
+освещения, в том числе и умные
+сенсорные светильники, определённые
+требования
+https://led-svetilniki.ru/shop/products/svetodiodnyj-svetilnik-varton-zhkh-krug-ip65-18570-mm-antivandalnyj-10-vt-diod-01vt-4000k-s-mikrovolnovym-datchikom-110
+  Среди них для полноценной работы
+осветительных приборов должны
+выполняться следующие: 
+Светильники с сенсорным включателем в
+Москве способны реализовать
+большинство самых оригинальных
+замыслов Вашего дизайнера
+https://led-svetilniki.ru/shop/products/svetodiodnyj-svetilnik-rusvet-rs-403600r-polikarbonat
+  При этом стоить отметить ,Что данные
+осветительные приборы не подойдут для
+классических, винтажных или ретро
+интерьеров, имея с ними непримиримые
+разбежности
+https://led-svetilniki.ru/shop/products/svetodiodnyj-svetilnik-svt-str-m-48w-c
+  Ведь организация линейного
+освещения – прерогатива таких
+направлений дизайна как китч, хай-тек,
+минимализм, модерн или функционализм
+https://led-svetilniki.ru/shop/products/ofis-antivirus-armstrong-33-vt-4000k-s-bakteritsidnymi-uf-lampami
+ 
+
+
+В отличие от большинства других
+лампочек применение светодиодов не
+ограничивается какими-то рамками
+https://led-svetilniki.ru/shop/products/vrv1-a1-70413-10a00-4003840
+  Светодиоды заняли достойное место
+практически в каждом деле, где
+необходимо использовать надежное и
+безопасное освещение
+https://led-svetilniki.ru/shop/products/svetodiodnyj-svetilnik-ledel-l-industry-230
+ 
+
+"
+
+You can contact Richardliz via email, sashuta.meshcheryakov.83@mail.ru
+
+--1667577176-eximdsn-935757762--

@@ -1,0 +1,897 @@
+DebugLog  | 2023-02-27 00:12:43 | guest | 66.249.64.254 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 00:12:44 | guest | 66.249.64.254 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 00:35:15 | guest | 114.119.129.211 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 00:54:44 | guest | 49.7.21.107 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 00:54:44 | guest | 49.7.21.107 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 02:35:02 | guest | 172.59.129.185 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 02:35:02 | guest | 172.59.129.185 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 02:41:55 | guest | 3.15.17.230 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 02:41:55 | guest | 3.15.17.230 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 02:46:37 | guest | 18.223.168.63 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 02:46:37 | guest | 18.223.168.63 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 02:46:58 | guest | 18.223.168.63 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 02:46:58 | guest | 18.223.168.63 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 03:44:42 | guest | 98.47.140.50 | photogallery | Page No = 1
+DebugLog  | 2023-02-27 03:44:42 | guest | 98.47.140.50 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2023-02-27 03:44:42 | guest | 98.47.140.50 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 03:44:42 | guest | 98.47.140.50 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 03:45:04 | guest | 98.47.140.50 | photogallery | Page No = 1
+DebugLog  | 2023-02-27 03:45:04 | guest | 98.47.140.50 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2023-02-27 03:45:04 | guest | 98.47.140.50 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 03:45:04 | guest | 98.47.140.50 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 03:47:52 | guest | 98.47.140.50 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2023-02-27 03:47:52 | guest | 98.47.140.50 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 03:50:29 | guest | 65.108.6.34 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 03:50:29 | guest | 65.108.6.34 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 03:50:31 | guest | 65.108.6.34 | photogallery | Page No = 1
+DebugLog  | 2023-02-27 03:50:31 | guest | 65.108.6.34 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2023-02-27 03:50:31 | guest | 65.108.6.34 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 03:50:31 | guest | 65.108.6.34 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 03:50:32 | guest | 65.108.6.34 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2023-02-27 03:50:32 | guest | 65.108.6.34 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 03:50:39 | guest | 65.108.6.34 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 1
+DebugLog  | 2023-02-27 03:50:40 | guest | 65.108.6.34 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 04:31:37 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 04:32:23 | guest | 174.160.87.51 | login_action | adminAuthenticate: select a.uid,a.userid,a.username,a.firstname,a.lastname,a.passwd,a.saltkey,a.sessionid, a.activated,a.activationdata,a.activatedon,a.photopath  from admin_user_details_t a  where a.userid ='ginojohn@gmail.com'  limit 1
+DebugLog  | 2023-02-27 04:32:23 | guest | 174.160.87.51 | login_action | got data...pOO66Zqpp2s=
+DebugLog  | 2023-02-27 04:32:23 | guest | 174.160.87.51 | login_action | encrypted pass true
+DebugLog  | 2023-02-27 04:32:23 | guest | 174.160.87.51 | login_action | Authenticate ====1
+DebugLog  | 2023-02-27 04:32:23 | guest | 174.160.87.51 | login_action | removeAllLoginActivity: delete  from admin_loginactivity where userid='ginojohn@gmail.com'
+DebugLog  | 2023-02-27 04:32:23 | guest | 174.160.87.51 | login_action | addLoginActivity: insert into admin_loginactivity(userid,logintime,lastupdate,ipaddress,hashkey,sessionid)values('ginojohn@gmail.com','2023-02-27 04:32:23','2023-02-27 04:32:23','174.160.87.51','c4c07b88493f8da84802bcd2a7de351a','bcc469427b2b834abf9db961a2295ce0')
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | login_action | aaaaaaaaaaaa
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | User Logged In
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getTotalRegSummary: select count(a.uid) as cnt from userregistration_t a where a.deleted = 0 
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getThisMonthRegSummary: select count(a.uid) as cnt from userregistration_t a where month(a.createdon) = '02' and year(a.createdon) = '2023' and a.deleted = 0 
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getTodaysRegSummary: select count(a.uid) as cnt from userregistration_t a where  day(a.createdon)='27' and month(a.createdon)='02' and year(a.createdon)='2023' and a.deleted = 0 
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getTotalMesgSummary: select count(a.touid) as cnt from messages_t a where toaddress='churchteam'
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getThisMonthMesgSummary: select count(a.touid) as cnt from messages_t a where month(a.createdon) = '02' and year(a.createdon) = '2023' and toaddress='churchteam'
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getTodaysMesgSummary: select count(a.touid) as cnt from messages_t a where  day(a.createdon)='27' and month(a.createdon)='02' and year(a.createdon)='2023' and toaddress='churchteam'
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getTotalEvntSummary: select count(a.eventid) as cnt from events_t a where deleted = 0
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getThisMonthEvntSummary: select count(a.eventid) as cnt from events_t a where deleted = 0 and  month(a.fromdate) = '02' and year(a.fromdate) = '2023'
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getTodaysEvntSummary: select count(a.eventid) as cnt from events_t a where deleted = 0 and day(a.fromdate)='27' and month(a.fromdate)='02' and year(a.fromdate)='2023'
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getLatestRegUsers: select b.uid ,b.userid ,b.name ,b.familyname,b.gender ,b.dob ,b.maritalstatus,b.spousename,b.qualification ,b.fulladdress ,
+							b.zipcode ,b.city ,b.state ,b.mobilenumber ,b.phonenumber ,b.email ,b.photopath ,
+							b.aboutme ,b.aboutfamily ,b.completedstage ,b.lastlogintime ,b.deleted ,b.createdon ,b.createdby  from useraccount_t a,userregistration_t b  where  a.uid=b.uid and b.deleted=0  order by b.createdon desc limit 5
+UserLog | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | Query : select a.messageid,a.fromuid,a.fromaddress,a.touid,a.toaddress,a.subject,a.message,a.createdon,a.status,a.tag,b.uid,b.name  from  messages_t a, userregistration_t b where a.fromuid=b.uid  and a.toaddress = 'churchteam' order by a.createdon desc  LIMIT 0, 5
+DebugLog  | 2023-02-27 04:32:23 | ginojohn@gmail.com | 174.160.87.51 | dashboard | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 5
+DebugLog  | 2023-02-27 04:32:28 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:32:28 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:32:28 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:32:43 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 2
+DebugLog  | 2023-02-27 04:32:43 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:34:15 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 2 and (( fromdate<='2023-02-19 00:00:00' and todate>='2023-02-19 00:00:00') or ( fromdate>='2023-02-19 00:00:00' and todate<='2023-02-19 00:00:00') or ( fromdate>='2023-02-19 00:00:00' and todate<='2023-02-19 00:00:00') or ( fromdate>='2023-02-19 00:00:00' and todate<='2023-02-19 00:00:00') or ( '2023-02-19 00:00:00' >= fromdate and '2023-02-19 00:00:00'<= todate ) or ( '2023-02-19 00:00:00' >= fromdate and '2023-02-19 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:34:15 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='1st Sunday of Lent',eventdetails='Feast of Cana (qotné )
+
+Holy Qurbono: 8:30 AM',highlights='1st Sunday - Feast of Cana (qotné )',fromdate='2023-02-19 00:00:00',todate='2023-02-19 00:00:00',createdon='2023-02-27 04:34:15',createdby ='' where eventid = 2
+DebugLog  | 2023-02-27 04:34:15 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 2
+DebugLog  | 2023-02-27 04:34:15 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:34:20 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:34:20 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:34:20 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:34:27 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 3
+DebugLog  | 2023-02-27 04:34:27 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:35:03 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 3 and (( fromdate<='2023-02-26 00:00:00' and todate>='2023-02-26 00:00:00') or ( fromdate>='2023-02-26 00:00:00' and todate<='2023-02-26 00:00:00') or ( fromdate>='2023-02-26 00:00:00' and todate<='2023-02-26 00:00:00') or ( fromdate>='2023-02-26 00:00:00' and todate<='2023-02-26 00:00:00') or ( '2023-02-26 00:00:00' >= fromdate and '2023-02-26 00:00:00'<= todate ) or ( '2023-02-26 00:00:00' >= fromdate and '2023-02-26 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:35:03 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='2nd Sunday of Lent',eventdetails='The Sunday of leper (garbo)
+
+Holy Qurbono: 8:30 AM',highlights='2nd Sunday - The Sunday of leper (garbo)',fromdate='2023-02-26 00:00:00',todate='2023-02-26 00:00:00',createdon='2023-02-27 04:35:03',createdby ='' where eventid = 3
+DebugLog  | 2023-02-27 04:35:03 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 3
+DebugLog  | 2023-02-27 04:35:03 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:35:04 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 3 and (( fromdate<='2023-02-26 00:00:00' and todate>='2023-02-26 00:00:00') or ( fromdate>='2023-02-26 00:00:00' and todate<='2023-02-26 00:00:00') or ( fromdate>='2023-02-26 00:00:00' and todate<='2023-02-26 00:00:00') or ( fromdate>='2023-02-26 00:00:00' and todate<='2023-02-26 00:00:00') or ( '2023-02-26 00:00:00' >= fromdate and '2023-02-26 00:00:00'<= todate ) or ( '2023-02-26 00:00:00' >= fromdate and '2023-02-26 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:35:04 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='2nd Sunday of Lent',eventdetails='The Sunday of leper (garbo)
+
+Holy Qurbono: 8:30 AM',highlights='2nd Sunday - The Sunday of leper (garbo)',fromdate='2023-02-26 00:00:00',todate='2023-02-26 00:00:00',createdon='2023-02-27 04:35:04',createdby ='' where eventid = 3
+DebugLog  | 2023-02-27 04:35:05 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 3
+DebugLog  | 2023-02-27 04:35:05 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:35:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:35:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:35:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:35:12 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 9
+DebugLog  | 2023-02-27 04:35:12 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:35:30 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 9 and (( fromdate<='2023-03-05 00:00:00' and todate>='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate ) or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:35:30 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='3rd Sunday of Lent',eventdetails='Sunday of The Paralytic (msharyo)
+
+Holy Qurbono: 8:30 AM',highlights='Sunday of The Paralytic(msharyo)',fromdate='2023-03-05 00:00:00',todate='2023-03-05 00:00:00',createdon='2023-02-27 04:35:30',createdby ='' where eventid = 9
+DebugLog  | 2023-02-27 04:35:30 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 9
+DebugLog  | 2023-02-27 04:35:30 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:35:31 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 9 and (( fromdate<='2023-03-05 00:00:00' and todate>='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate ) or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:35:31 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='3rd Sunday of Lent',eventdetails='Sunday of The Paralytic (msharyo)
+
+Holy Qurbono: 8:30 AM',highlights='Sunday of The Paralytic(msharyo)',fromdate='2023-03-05 00:00:00',todate='2023-03-05 00:00:00',createdon='2023-02-27 04:35:31',createdby ='' where eventid = 9
+DebugLog  | 2023-02-27 04:35:31 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 9
+DebugLog  | 2023-02-27 04:35:31 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:35:32 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 9 and (( fromdate<='2023-03-05 00:00:00' and todate>='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate ) or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:35:32 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='3rd Sunday of Lent',eventdetails='Sunday of The Paralytic (msharyo)
+
+Holy Qurbono: 8:30 AM',highlights='Sunday of The Paralytic(msharyo)',fromdate='2023-03-05 00:00:00',todate='2023-03-05 00:00:00',createdon='2023-02-27 04:35:32',createdby ='' where eventid = 9
+DebugLog  | 2023-02-27 04:35:32 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 9
+DebugLog  | 2023-02-27 04:35:32 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:35:34 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:35:34 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:35:34 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:35:38 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 10
+DebugLog  | 2023-02-27 04:35:38 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:35:51 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 10 and (( fromdate<='2023-03-12 00:00:00' and todate>='2023-03-12 00:00:00') or ( fromdate>='2023-03-12 00:00:00' and todate<='2023-03-12 00:00:00') or ( fromdate>='2023-03-12 00:00:00' and todate<='2023-03-12 00:00:00') or ( fromdate>='2023-03-12 00:00:00' and todate<='2023-03-12 00:00:00') or ( '2023-03-12 00:00:00' >= fromdate and '2023-03-12 00:00:00'<= todate ) or ( '2023-03-12 00:00:00' >= fromdate and '2023-03-12 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:35:51 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='4th Sunday of Lent',eventdetails='Sunday of the Canaanite woman (kna`nayto)
+
+Holy Qurbono: 8:30 AM',highlights='Sunday of the Canaanite woman (kna`nayto)',fromdate='2023-03-12 00:00:00',todate='2023-03-12 00:00:00',createdon='2023-02-27 04:35:51',createdby ='' where eventid = 10
+DebugLog  | 2023-02-27 04:35:51 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 10
+DebugLog  | 2023-02-27 04:35:51 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:35:55 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:35:55 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:35:55 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:35:58 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 11
+DebugLog  | 2023-02-27 04:35:58 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:36:11 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 11 and (( fromdate<='2023-03-19 00:00:00' and todate>='2023-03-19 00:00:00') or ( fromdate>='2023-03-19 00:00:00' and todate<='2023-03-19 00:00:00') or ( fromdate>='2023-03-19 00:00:00' and todate<='2023-03-19 00:00:00') or ( fromdate>='2023-03-19 00:00:00' and todate<='2023-03-19 00:00:00') or ( '2023-03-19 00:00:00' >= fromdate and '2023-03-19 00:00:00'<= todate ) or ( '2023-03-19 00:00:00' >= fromdate and '2023-03-19 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:36:11 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='5th Sunday of Lent',eventdetails='Sunday of the hunchback woman (kfofto)
+
+Holy Qurbono: 8:30 AM',highlights='Sunday of the hunchback woman (kfofto)',fromdate='2023-03-19 00:00:00',todate='2023-03-19 00:00:00',createdon='2023-02-27 04:36:11',createdby ='' where eventid = 11
+DebugLog  | 2023-02-27 04:36:11 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 11
+DebugLog  | 2023-02-27 04:36:11 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:36:15 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 04:36:15 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:36:15 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:36:37 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:36:37 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:36:37 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:36:41 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 12
+DebugLog  | 2023-02-27 04:36:41 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:36:54 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 12 and (( fromdate<='2023-03-26 00:00:00' and todate>='2023-03-26 00:00:00') or ( fromdate>='2023-03-26 00:00:00' and todate<='2023-03-26 00:00:00') or ( fromdate>='2023-03-26 00:00:00' and todate<='2023-03-26 00:00:00') or ( fromdate>='2023-03-26 00:00:00' and todate<='2023-03-26 00:00:00') or ( '2023-03-26 00:00:00' >= fromdate and '2023-03-26 00:00:00'<= todate ) or ( '2023-03-26 00:00:00' >= fromdate and '2023-03-26 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:36:54 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='6th Sunday of Lent',eventdetails='Sunday of the healing of the Blind man (Samyo)
+
+Holy Qurbono:  8:30 AM',highlights='Sunday of the healing of the Blind man (Samyo)',fromdate='2023-03-26 00:00:00',todate='2023-03-26 00:00:00',createdon='2023-02-27 04:36:54',createdby ='' where eventid = 12
+DebugLog  | 2023-02-27 04:36:54 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 12
+DebugLog  | 2023-02-27 04:36:54 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:36:57 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:36:57 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:36:57 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:37:01 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 14
+DebugLog  | 2023-02-27 04:37:01 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:37:36 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 14 and (( fromdate<='2023-04-01 00:00:00' and todate>='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( '2023-04-01 00:00:00' >= fromdate and '2023-04-01 00:00:00'<= todate ) or ( '2023-04-01 00:00:00' >= fromdate and '2023-04-01 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:37:36 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='Lenten Retreat (Saturday)',eventdetails='Lenten Retreat 
+
+Time: 2 PM - 5:00 PM
+Retreat,  Evening Prayer',highlights='Lenten Retreat',fromdate='2023-04-01 00:00:00',todate='2023-04-01 00:00:00',createdon='2023-02-27 04:37:36',createdby ='' where eventid = 14
+DebugLog  | 2023-02-27 04:37:36 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 14
+DebugLog  | 2023-02-27 04:37:36 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:37:38 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 14 and (( fromdate<='2023-04-01 00:00:00' and todate>='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( '2023-04-01 00:00:00' >= fromdate and '2023-04-01 00:00:00'<= todate ) or ( '2023-04-01 00:00:00' >= fromdate and '2023-04-01 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:37:38 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='Lenten Retreat (Saturday)',eventdetails='Lenten Retreat 
+
+Time: 2 PM - 5:00 PM
+Retreat,  Evening Prayer',highlights='Lenten Retreat',fromdate='2023-04-01 00:00:00',todate='2023-04-01 00:00:00',createdon='2023-02-27 04:37:38',createdby ='' where eventid = 14
+DebugLog  | 2023-02-27 04:37:38 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 14
+DebugLog  | 2023-02-27 04:37:38 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:37:40 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:37:40 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:37:40 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:37:44 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 13
+DebugLog  | 2023-02-27 04:37:44 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:38:03 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 13 and (( fromdate<='2023-04-02 00:00:00' and todate>='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( '2023-04-02 00:00:00' >= fromdate and '2023-04-02 00:00:00'<= todate ) or ( '2023-04-02 00:00:00' >= fromdate and '2023-04-02 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:38:03 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='Palm Sunday (oosha`né)',eventdetails='Palm Sunday (oosha`né)
+
+Palm Sunday & Holy Qurbono: 7:30 AM',highlights='Palm Sunday (oosha`né)',fromdate='2023-04-02 00:00:00',todate='2023-04-02 00:00:00',createdon='2023-02-27 04:38:03',createdby ='' where eventid = 13
+DebugLog  | 2023-02-27 04:38:03 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 13
+DebugLog  | 2023-02-27 04:38:03 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:38:07 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:38:07 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:38:07 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:38:11 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 15
+DebugLog  | 2023-02-27 04:38:11 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:38:28 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 15 and (( fromdate<='2023-04-05 00:00:00' and todate>='2023-04-05 00:00:00') or ( fromdate>='2023-04-05 00:00:00' and todate<='2023-04-05 00:00:00') or ( fromdate>='2023-04-05 00:00:00' and todate<='2023-04-05 00:00:00') or ( fromdate>='2023-04-05 00:00:00' and todate<='2023-04-05 00:00:00') or ( '2023-04-05 00:00:00' >= fromdate and '2023-04-05 00:00:00'<= todate ) or ( '2023-04-05 00:00:00' >= fromdate and '2023-04-05 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:38:28 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='Pesaha (Wednesday Evening)',eventdetails='Pesaha
+
+Evening Prayer: 6:00 PM
+Pesaha Qurbono: 7:00 PM
+',highlights='Pesaha',fromdate='2023-04-05 00:00:00',todate='2023-04-05 00:00:00',createdon='2023-02-27 04:38:28',createdby ='' where eventid = 15
+DebugLog  | 2023-02-27 04:38:28 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 15
+DebugLog  | 2023-02-27 04:38:28 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:38:32 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:38:32 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:38:32 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:38:36 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 16
+DebugLog  | 2023-02-27 04:38:36 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:39:04 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 16 and (( fromdate<='2023-04-07 00:00:00' and todate>='2023-04-07 00:00:00') or ( fromdate>='2023-04-07 00:00:00' and todate<='2023-04-07 00:00:00') or ( fromdate>='2023-04-07 00:00:00' and todate<='2023-04-07 00:00:00') or ( fromdate>='2023-04-07 00:00:00' and todate<='2023-04-07 00:00:00') or ( '2023-04-07 00:00:00' >= fromdate and '2023-04-07 00:00:00'<= todate ) or ( '2023-04-07 00:00:00' >= fromdate and '2023-04-07 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:39:04 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='Good Friday',eventdetails='Good Friday
+
+Morning Prayer: 8:00 AM
+Good Friday Service: 9:00 AM',highlights='Good Friday',fromdate='2023-04-07 00:00:00',todate='2023-04-07 00:00:00',createdon='2023-02-27 04:39:04',createdby ='' where eventid = 16
+DebugLog  | 2023-02-27 04:39:04 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 16
+DebugLog  | 2023-02-27 04:39:04 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:39:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:39:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:39:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:39:13 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 17
+DebugLog  | 2023-02-27 04:39:13 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:39:31 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 17 and (( fromdate<='2023-04-08 00:00:00' and todate>='2023-04-08 00:00:00') or ( fromdate>='2023-04-08 00:00:00' and todate<='2023-04-08 00:00:00') or ( fromdate>='2023-04-08 00:00:00' and todate<='2023-04-08 00:00:00') or ( fromdate>='2023-04-08 00:00:00' and todate<='2023-04-08 00:00:00') or ( '2023-04-08 00:00:00' >= fromdate and '2023-04-08 00:00:00'<= todate ) or ( '2023-04-08 00:00:00' >= fromdate and '2023-04-08 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:39:31 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='Easter (Saturday Evening)',eventdetails='Easter(Sunday of resurrection)
+
+Evening Prayer: 5:00 PM
+Easter Service & Holy Qurbono: 6:00 PM',highlights='Easter(Sunday of resurrection)',fromdate='2023-04-08 00:00:00',todate='2023-04-08 00:00:00',createdon='2023-02-27 04:39:31',createdby ='' where eventid = 17
+DebugLog  | 2023-02-27 04:39:32 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 17
+DebugLog  | 2023-02-27 04:39:32 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:39:34 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:39:34 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:39:34 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:39:50 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 04:41:13 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 13
+DebugLog  | 2023-02-27 04:41:13 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:41:26 | guest | 207.46.13.212 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 04:41:26 | guest | 207.46.13.212 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 04:41:33 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 13 and (( fromdate<='2023-04-02 00:00:00' and todate>='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( '2023-04-02 00:00:00' >= fromdate and '2023-04-02 00:00:00'<= todate ) or ( '2023-04-02 00:00:00' >= fromdate and '2023-04-02 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:41:33 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='Palm Sunday (oosha`né)',eventdetails='Palm Sunday (oosha`né)
+
+Palm Sunday Service
+Holy Qurbono: 7:30 AM',highlights='Palm Sunday (oosha`né)',fromdate='2023-04-02 00:00:00',todate='2023-04-02 00:00:00',createdon='2023-02-27 04:41:33',createdby ='' where eventid = 13
+DebugLog  | 2023-02-27 04:41:33 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 13
+DebugLog  | 2023-02-27 04:41:33 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:41:36 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 04:42:33 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 13 and (( fromdate<='2023-04-02 00:00:00' and todate>='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( '2023-04-02 00:00:00' >= fromdate and '2023-04-02 00:00:00'<= todate ) or ( '2023-04-02 00:00:00' >= fromdate and '2023-04-02 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:42:33 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='Palm Sunday (oosha`né)',eventdetails='Palm Sunday (oosha`né)
+
+Palm Sunday Service & Holy Qurbono: 7:30 AM',highlights='Palm Sunday (oosha`né)',fromdate='2023-04-02 00:00:00',todate='2023-04-02 00:00:00',createdon='2023-02-27 04:42:33',createdby ='' where eventid = 13
+DebugLog  | 2023-02-27 04:42:34 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 13
+DebugLog  | 2023-02-27 04:42:34 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:42:36 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 04:42:44 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 04:42:44 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 04:42:44 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 04:42:48 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 14
+DebugLog  | 2023-02-27 04:42:48 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:43:03 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | isEventExists: select count(eventid) as cnt from spl_events_t where deleted = 0 and eventid!= 14 and (( fromdate<='2023-04-01 00:00:00' and todate>='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( '2023-04-01 00:00:00' >= fromdate and '2023-04-01 00:00:00'<= todate ) or ( '2023-04-01 00:00:00' >= fromdate and '2023-04-01 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 04:43:03 | ginojohn@gmail.com | 174.160.87.51 | updsplevent_action | updEvent update spl_events_t set eventname='Lenten Retreat (Saturday)',eventdetails='Lenten Retreat & Evening Prayer
+
+Time: 2 PM - 5:00 PM
+',highlights='Lenten Retreat',fromdate='2023-04-01 00:00:00',todate='2023-04-01 00:00:00',createdon='2023-02-27 04:43:03',createdby ='' where eventid = 14
+DebugLog  | 2023-02-27 04:43:04 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 14
+DebugLog  | 2023-02-27 04:43:04 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 04:43:06 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 04:48:05 | guest | 65.108.6.34 | photogallery | Page No = 2
+DebugLog  | 2023-02-27 04:48:05 | guest | 65.108.6.34 | photogallery | Page No = 2 Rowno = 9
+DebugLog  | 2023-02-27 04:48:05 | guest | 65.108.6.34 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 04:48:05 | guest | 65.108.6.34 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 9, 9
+DebugLog  | 2023-02-27 04:48:07 | guest | 65.108.6.34 | photogallery | Page No = 3
+DebugLog  | 2023-02-27 04:48:07 | guest | 65.108.6.34 | photogallery | Page No = 3 Rowno = 18
+DebugLog  | 2023-02-27 04:48:07 | guest | 65.108.6.34 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 04:48:07 | guest | 65.108.6.34 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 18, 9
+DebugLog  | 2023-02-27 04:48:08 | guest | 65.108.6.34 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2023-02-27 04:48:08 | guest | 65.108.6.34 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 9, 9
+DebugLog  | 2023-02-27 04:48:11 | guest | 65.108.6.34 | photogallery | Page No = 1
+DebugLog  | 2023-02-27 04:48:11 | guest | 65.108.6.34 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2023-02-27 04:48:11 | guest | 65.108.6.34 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 04:48:11 | guest | 65.108.6.34 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 04:48:13 | guest | 65.108.6.34 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2023-02-27 04:48:13 | guest | 65.108.6.34 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 04:51:07 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 04:51:54 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 04:59:22 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:05:01 | guest | 104.28.48.89 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:05:29 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:10:14 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:15:47 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:16:13 | guest | 104.28.48.89 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:20:31 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:21:00 | guest | 104.28.50.120 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:21:20 | guest | 104.28.50.120 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:22:43 | guest | 172.58.111.172 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:24:51 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:25:33 | guest | 104.28.50.120 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:27:05 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:27:17 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:27:17 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:29:35 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:29:35 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:29:43 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:29:43 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:32:36 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:33:08 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:33:08 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:34:02 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:34:02 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:34:33 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:34:33 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:34:59 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:34:59 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:35:08 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:35:11 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:35:11 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:36:48 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:36:48 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:37:21 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:37:21 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:37:21 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:38:28 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:38:28 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:38:28 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:38:33 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 05:38:33 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:38:33 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:38:39 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 9
+DebugLog  | 2023-02-27 05:38:39 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 05:39:06 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 58
+DebugLog  | 2023-02-27 05:39:06 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:39:42 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 58 and (( fromdate<='2023-03-05 00:00:00' and todate>='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate ) or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:39:42 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='3rd Sunday of Lent',eventdetails='Sunday of The Paralytic (msharyo)
+
+Holy Qurbono: 8:30 AM
+
+Address: 1921 Las Plumas Ave, San Jose, CA 95133
+
+Google Map: https://goo.gl/maps/nekuangBuxBabDFL',highlights='Sunday of The Paralytic(msharyo)',fromdate='2023-03-05 00:00:00',todate='2023-03-05 00:00:00',createdon='2023-02-27 05:39:42',createdby ='' where eventid = 58
+UserLog | 2023-02-27 05:39:42 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | Event Cover photo uploading ....11!!!/tmp/phpcVuStb
+UserLog | 2023-02-27 05:39:42 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | Event Cover photo uploading success!!!uploads/events/58.jpg
+DebugLog  | 2023-02-27 05:39:42 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 58
+DebugLog  | 2023-02-27 05:39:42 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:39:55 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 58 and (( fromdate<='2023-03-05 00:00:00' and todate>='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate ) or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:39:55 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='3rd Sunday of Lent',eventdetails='Sunday of The Paralytic (msharyo)
+
+Holy Qurbono: 8:30 AM
+
+Address: 1921 Las Plumas Ave, San Jose, CA 95133
+
+Google Map: https://goo.gl/maps/nekuangBuxBabDFL',highlights='Sunday of The Paralytic(msharyo)',fromdate='2023-03-05 00:00:00',todate='2023-03-05 00:00:00',createdon='2023-02-27 05:39:55',createdby ='' where eventid = 58
+UserLog | 2023-02-27 05:39:55 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | Event Cover photo uploading ....11!!!/tmp/phpyFWEsK
+UserLog | 2023-02-27 05:39:55 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | Event Cover photo uploading success!!!uploads/events/58.jpg
+DebugLog  | 2023-02-27 05:39:56 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 58
+DebugLog  | 2023-02-27 05:39:56 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:39:59 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:39:59 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:40:51 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 58 and (( fromdate<='2023-03-05 00:00:00' and todate>='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate ) or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:40:51 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='3rd Sunday of Lent',eventdetails='Sunday of The Paralytic (msharyo)
+
+Holy Qurbono: 8:30 AM
+
+Address: 1921 Las Plumas Ave, San Jose, CA 95133',highlights='Sunday of The Paralytic(msharyo)',fromdate='2023-03-05 00:00:00',todate='2023-03-05 00:00:00',createdon='2023-02-27 05:40:51',createdby ='' where eventid = 58
+UserLog | 2023-02-27 05:40:51 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | Event Cover photo uploading ....11!!!/tmp/phpr8SWe5
+UserLog | 2023-02-27 05:40:51 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | Event Cover photo uploading success!!!uploads/events/58.jpg
+DebugLog  | 2023-02-27 05:40:51 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 58
+DebugLog  | 2023-02-27 05:40:51 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:40:55 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:40:55 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:41:40 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:41:40 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:41:40 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:41:48 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:41:48 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:41:48 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 10, 10
+DebugLog  | 2023-02-27 05:42:03 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:42:03 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:42:03 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:42:28 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 05:42:28 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:42:28 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:42:33 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 10
+DebugLog  | 2023-02-27 05:42:33 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 05:43:08 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 05:43:59 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 0 and (( fromdate<='2023-03-12 00:00:00' and todate>='2023-03-12 00:00:00') or ( fromdate>='2023-03-12 00:00:00' and todate<='2023-03-12 00:00:00') or ( fromdate>='2023-03-12 00:00:00' and todate<='2023-03-12 00:00:00') or ( fromdate>='2023-03-12 00:00:00' and todate<='2023-03-12 00:00:00') or ( '2023-03-12 00:00:00' >= fromdate and '2023-03-12 00:00:00'<= todate ) or ( '2023-03-12 00:00:00' >= fromdate and '2023-03-12 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:43:59 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | addEvent insert into events_t(eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby)values('4th Sunday of Lent','Sunday of the Canaanite woman (kna`nayto)
+
+Holy Qurbono: 8:30 AM','Sunday of the Canaanite woman (kna`nayto)','2023-03-12 00:00:00','2023-03-12 00:00:00','0','2023-02-27 05:43:59','')
+UserLog | 2023-02-27 05:43:59 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | Event Cover photo uploading ....11!!!/tmp/phpw3PjB1
+UserLog | 2023-02-27 05:43:59 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | Event Cover photo uploading success!!!uploads/events/85.jpg
+DebugLog  | 2023-02-27 05:43:59 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 05:44:02 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:44:02 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:44:31 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 05:44:33 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:44:33 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:44:33 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:44:54 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 74
+DebugLog  | 2023-02-27 05:44:54 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | User Logged In
+DebugLog  | 2023-02-27 05:44:57 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | isEventIdExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid= 74
+DebugLog  | 2023-02-27 05:44:57 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | deleteEvent update events_t set deleted = 1  where eventid = '74'
+DebugLog  | 2023-02-27 05:44:57 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:44:57 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:44:57 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:01 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:01 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:01 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:04 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 75
+DebugLog  | 2023-02-27 05:45:04 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | User Logged In
+DebugLog  | 2023-02-27 05:45:07 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | isEventIdExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid= 75
+DebugLog  | 2023-02-27 05:45:07 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | deleteEvent update events_t set deleted = 1  where eventid = '75'
+DebugLog  | 2023-02-27 05:45:07 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:07 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:07 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:17 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 71
+DebugLog  | 2023-02-27 05:45:17 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | User Logged In
+DebugLog  | 2023-02-27 05:45:20 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | isEventIdExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid= 71
+DebugLog  | 2023-02-27 05:45:20 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | deleteEvent update events_t set deleted = 1  where eventid = '71'
+DebugLog  | 2023-02-27 05:45:20 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:20 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:20 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:22 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:22 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:22 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:28 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 72
+DebugLog  | 2023-02-27 05:45:28 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | User Logged In
+DebugLog  | 2023-02-27 05:45:31 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | isEventIdExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid= 72
+DebugLog  | 2023-02-27 05:45:31 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | deleteEvent update events_t set deleted = 1  where eventid = '72'
+DebugLog  | 2023-02-27 05:45:31 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:31 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:31 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:32 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:32 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:32 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:37 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 83
+DebugLog  | 2023-02-27 05:45:37 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | User Logged In
+DebugLog  | 2023-02-27 05:45:40 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | isEventIdExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid= 83
+DebugLog  | 2023-02-27 05:45:40 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | deleteEvent update events_t set deleted = 1  where eventid = '83'
+UserLog | 2023-02-27 05:45:40 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | Event photo deleting success!!!uploads/events/83.jpg
+DebugLog  | 2023-02-27 05:45:40 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:40 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:40 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:42 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:42 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:42 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:46 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 80
+DebugLog  | 2023-02-27 05:45:46 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | User Logged In
+DebugLog  | 2023-02-27 05:45:49 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | isEventIdExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid= 80
+DebugLog  | 2023-02-27 05:45:49 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | deleteEvent update events_t set deleted = 1  where eventid = '80'
+DebugLog  | 2023-02-27 05:45:49 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:49 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:49 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:51 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:51 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:51 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:45:56 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 81
+DebugLog  | 2023-02-27 05:45:56 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | User Logged In
+DebugLog  | 2023-02-27 05:45:56 | guest | 75.226.54.208 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:45:58 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | isEventIdExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid= 81
+DebugLog  | 2023-02-27 05:45:58 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | deleteEvent update events_t set deleted = 1  where eventid = '81'
+DebugLog  | 2023-02-27 05:45:59 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:45:59 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:45:59 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:46:00 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:46:00 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:46:00 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:46:04 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 58
+DebugLog  | 2023-02-27 05:46:04 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | User Logged In
+DebugLog  | 2023-02-27 05:46:07 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | isEventIdExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid= 58
+DebugLog  | 2023-02-27 05:46:07 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | deleteEvent update events_t set deleted = 1  where eventid = '58'
+UserLog | 2023-02-27 05:46:07 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | Event photo deleting success!!!uploads/events/58.jpg
+DebugLog  | 2023-02-27 05:46:07 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:46:07 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:46:07 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:46:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:46:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:46:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:46:22 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 84
+DebugLog  | 2023-02-27 05:46:22 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | User Logged In
+DebugLog  | 2023-02-27 05:46:25 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | isEventIdExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid= 84
+DebugLog  | 2023-02-27 05:46:25 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | deleteEvent update events_t set deleted = 1  where eventid = '84'
+DebugLog  | 2023-02-27 05:46:25 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:46:25 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:46:25 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:46:26 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:46:26 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:46:26 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:47:17 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:47:17 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:47:31 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 05:47:31 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:47:31 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:47:48 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 05:48:26 | guest | 75.226.54.208 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:48:31 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 9
+DebugLog  | 2023-02-27 05:48:31 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 05:49:04 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:49:04 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:49:04 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 0 and (( fromdate<='2023-03-05 00:00:00' and todate>='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate ) or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:49:04 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | addEvent insert into events_t(eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby)values('3rd Sunday of Lent','Sunday of The Paralytic (msharyo)
+
+Holy Qurbono: 8:30 AM','Sunday of The Paralytic(msharyo)','2023-03-05 00:00:00','2023-03-05 00:00:00','0','2023-02-27 05:49:04','')
+UserLog | 2023-02-27 05:49:04 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | Event Cover photo uploading ....11!!!/tmp/phpNJisIV
+UserLog | 2023-02-27 05:49:04 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | Event Cover photo uploading success!!!uploads/events/86.jpg
+DebugLog  | 2023-02-27 05:49:04 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 05:49:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:49:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:49:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:49:27 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:49:27 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:49:54 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:49:54 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:49:54 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:50:20 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 05:50:20 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:50:20 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:51:26 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 11
+DebugLog  | 2023-02-27 05:51:26 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 05:51:36 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 05:52:45 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:52:45 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:52:45 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 0 and (( fromdate<='2023-03-19 00:00:00' and todate>='2023-03-19 00:00:00') or ( fromdate>='2023-03-19 00:00:00' and todate<='2023-03-19 00:00:00') or ( fromdate>='2023-03-19 00:00:00' and todate<='2023-03-19 00:00:00') or ( fromdate>='2023-03-19 00:00:00' and todate<='2023-03-19 00:00:00') or ( '2023-03-19 00:00:00' >= fromdate and '2023-03-19 00:00:00'<= todate ) or ( '2023-03-19 00:00:00' >= fromdate and '2023-03-19 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:52:45 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | addEvent insert into events_t(eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby)values('5th Sunday of Lent','Sunday of the hunchback woman (kfofto)
+
+Holy Qurbono: 8:30 AM','Sunday of the hunchback woman (kfofto)','2023-03-19 00:00:00','2023-03-19 00:00:00','0','2023-02-27 05:52:45','')
+UserLog | 2023-02-27 05:52:45 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | Event Cover photo uploading ....11!!!/tmp/phpP2sJag
+UserLog | 2023-02-27 05:52:45 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | Event Cover photo uploading success!!!uploads/events/87.jpg
+DebugLog  | 2023-02-27 05:52:45 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 05:52:50 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:52:50 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:53:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 05:53:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:53:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:54:05 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:54:05 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:54:05 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:54:11 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 61
+DebugLog  | 2023-02-27 05:54:11 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:54:21 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 12
+DebugLog  | 2023-02-27 05:54:21 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 05:54:36 | guest | 107.203.255.96 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 05:54:44 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 61 and (( fromdate<='2023-03-26 00:00:00' and todate>='2023-03-26 00:00:00') or ( fromdate>='2023-03-26 00:00:00' and todate<='2023-03-26 00:00:00') or ( fromdate>='2023-03-26 00:00:00' and todate<='2023-03-26 00:00:00') or ( fromdate>='2023-03-26 00:00:00' and todate<='2023-03-26 00:00:00') or ( '2023-03-26 00:00:00' >= fromdate and '2023-03-26 00:00:00'<= todate ) or ( '2023-03-26 00:00:00' >= fromdate and '2023-03-26 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:54:44 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='6th Sunday of Lent',eventdetails='Sunday of the healing of the Blind man (Samyo)
+
+Holy Qurbono:  8:30 AM',highlights='Sunday of the healing of the Blind man (Samyo)',fromdate='2023-03-26 00:00:00',todate='2023-03-26 00:00:00',createdon='2023-02-27 05:54:44',createdby ='' where eventid = 61
+DebugLog  | 2023-02-27 05:54:45 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 61
+DebugLog  | 2023-02-27 05:54:45 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:54:50 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 05:54:50 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 05:54:59 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:54:59 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:54:59 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:56:06 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 05:56:06 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:56:06 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:56:20 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 77
+DebugLog  | 2023-02-27 05:56:20 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:56:24 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 14
+DebugLog  | 2023-02-27 05:56:24 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 05:56:44 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 77 and (( fromdate<='2023-04-01 00:00:00' and todate>='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( fromdate>='2023-04-01 00:00:00' and todate<='2023-04-01 00:00:00') or ( '2023-04-01 00:00:00' >= fromdate and '2023-04-01 00:00:00'<= todate ) or ( '2023-04-01 00:00:00' >= fromdate and '2023-04-01 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:56:44 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='Lenten Retreat (Saturday)',eventdetails='Lenten Retreat & Evening Prayer
+
+Time: 2 PM - 5:00 PM',highlights='Lenten Retreat',fromdate='2023-04-01 00:00:00',todate='2023-04-01 00:00:00',createdon='2023-02-27 05:56:44',createdby ='' where eventid = 77
+DebugLog  | 2023-02-27 05:56:44 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 77
+DebugLog  | 2023-02-27 05:56:44 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:56:52 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:56:52 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:56:52 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:57:02 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 57
+DebugLog  | 2023-02-27 05:57:02 | ginojohn@gmail.com | 174.160.87.51 | deleteevent | User Logged In
+DebugLog  | 2023-02-27 05:57:06 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | isEventIdExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid= 57
+DebugLog  | 2023-02-27 05:57:06 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | deleteEvent update events_t set deleted = 1  where eventid = '57'
+UserLog | 2023-02-27 05:57:06 | ginojohn@gmail.com | 174.160.87.51 | deleteevent_action | Event photo deleting success!!!uploads/events/57.jpg
+DebugLog  | 2023-02-27 05:57:06 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:57:06 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:57:06 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:57:08 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:57:08 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:57:08 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:57:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:57:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:57:09 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:57:19 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 05:57:19 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:57:19 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:57:26 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 13
+DebugLog  | 2023-02-27 05:57:26 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 05:57:41 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 62
+DebugLog  | 2023-02-27 05:57:41 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:58:00 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 62 and (( fromdate<='2023-04-02 00:00:00' and todate>='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( '2023-04-02 00:00:00' >= fromdate and '2023-04-02 00:00:00'<= todate ) or ( '2023-04-02 00:00:00' >= fromdate and '2023-04-02 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:58:00 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='Palm Sunday (oosha`né)',eventdetails='Palm Sunday (oosha`né)
+
+Palm Sunday & Holy Qurbono: 7:30 AM',highlights='Palm Sunday (oosha`né)',fromdate='2023-04-02 00:00:00',todate='2023-04-02 00:00:00',createdon='2023-02-27 05:58:00',createdby ='' where eventid = 62
+DebugLog  | 2023-02-27 05:58:01 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 62
+DebugLog  | 2023-02-27 05:58:01 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:58:13 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 62 and (( fromdate<='2023-04-02 00:00:00' and todate>='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( fromdate>='2023-04-02 00:00:00' and todate<='2023-04-02 00:00:00') or ( '2023-04-02 00:00:00' >= fromdate and '2023-04-02 00:00:00'<= todate ) or ( '2023-04-02 00:00:00' >= fromdate and '2023-04-02 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:58:13 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='Palm Sunday (oosha`né)',eventdetails='Palm Sunday (oosha`né)
+
+Palm Sunday & Holy Qurbono: 7:30 AM',highlights='Palm Sunday (oosha`né)',fromdate='2023-04-02 00:00:00',todate='2023-04-02 00:00:00',createdon='2023-02-27 05:58:13',createdby ='' where eventid = 62
+DebugLog  | 2023-02-27 05:58:14 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 62
+DebugLog  | 2023-02-27 05:58:14 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:58:17 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:58:17 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:58:17 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:58:33 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 76
+DebugLog  | 2023-02-27 05:58:33 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:58:38 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 05:58:38 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:58:38 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 05:58:44 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 15
+DebugLog  | 2023-02-27 05:58:44 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 05:59:44 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 76 and (( fromdate<='2023-04-05 00:00:00' and todate>='2023-04-05 00:00:00') or ( fromdate>='2023-04-05 00:00:00' and todate<='2023-04-05 00:00:00') or ( fromdate>='2023-04-05 00:00:00' and todate<='2023-04-05 00:00:00') or ( fromdate>='2023-04-05 00:00:00' and todate<='2023-04-05 00:00:00') or ( '2023-04-05 00:00:00' >= fromdate and '2023-04-05 00:00:00'<= todate ) or ( '2023-04-05 00:00:00' >= fromdate and '2023-04-05 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 05:59:44 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='Pesaha (Wednesday Evening)',eventdetails='Pesaha
+
+Evening Prayer: 6:00 PM
+Pesaha Qurbono: 7:00 PM',highlights='Pesaha',fromdate='2023-04-05 00:00:00',todate='2023-04-05 00:00:00',createdon='2023-02-27 05:59:44',createdby ='' where eventid = 76
+DebugLog  | 2023-02-27 05:59:44 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 76
+DebugLog  | 2023-02-27 05:59:44 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 05:59:49 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 05:59:49 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 05:59:50 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:00:07 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 78
+DebugLog  | 2023-02-27 06:00:07 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:00:11 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 06:00:11 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:00:11 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:00:16 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 16
+DebugLog  | 2023-02-27 06:00:16 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 06:00:41 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 78 and (( fromdate<='2023-04-07 00:00:00' and todate>='2023-04-07 00:00:00') or ( fromdate>='2023-04-07 00:00:00' and todate<='2023-04-07 00:00:00') or ( fromdate>='2023-04-07 00:00:00' and todate<='2023-04-07 00:00:00') or ( fromdate>='2023-04-07 00:00:00' and todate<='2023-04-07 00:00:00') or ( '2023-04-07 00:00:00' >= fromdate and '2023-04-07 00:00:00'<= todate ) or ( '2023-04-07 00:00:00' >= fromdate and '2023-04-07 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:00:41 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='Good Friday',eventdetails='Good Friday
+
+Morning Prayer: 8:00 AM
+Good Friday Service: 9:00 AM',highlights='Good Friday',fromdate='2023-04-07 00:00:00',todate='2023-04-07 00:00:00',createdon='2023-02-27 06:00:41',createdby ='' where eventid = 78
+DebugLog  | 2023-02-27 06:00:41 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 78
+DebugLog  | 2023-02-27 06:00:41 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:00:43 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 78 and (( fromdate<='2023-04-07 00:00:00' and todate>='2023-04-07 00:00:00') or ( fromdate>='2023-04-07 00:00:00' and todate<='2023-04-07 00:00:00') or ( fromdate>='2023-04-07 00:00:00' and todate<='2023-04-07 00:00:00') or ( fromdate>='2023-04-07 00:00:00' and todate<='2023-04-07 00:00:00') or ( '2023-04-07 00:00:00' >= fromdate and '2023-04-07 00:00:00'<= todate ) or ( '2023-04-07 00:00:00' >= fromdate and '2023-04-07 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:00:43 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='Good Friday',eventdetails='Good Friday
+
+Morning Prayer: 8:00 AM
+Good Friday Service: 9:00 AM',highlights='Good Friday',fromdate='2023-04-07 00:00:00',todate='2023-04-07 00:00:00',createdon='2023-02-27 06:00:43',createdby ='' where eventid = 78
+DebugLog  | 2023-02-27 06:00:43 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 78
+DebugLog  | 2023-02-27 06:00:43 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:00:54 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:00:54 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:00:54 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:01:05 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 79
+DebugLog  | 2023-02-27 06:01:05 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:01:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 06:01:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:01:08 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:01:15 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | User Logged In
+DebugLog  | 2023-02-27 06:01:15 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select count(eventid) as cnt from spl_events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:01:15 | ginojohn@gmail.com | 174.160.87.51 | listofsplevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from spl_events_t  where  deleted = 0  order by fromdate,todate LIMIT 10, 10
+DebugLog  | 2023-02-27 06:01:18 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where eventid = 17
+DebugLog  | 2023-02-27 06:01:19 | ginojohn@gmail.com | 174.160.87.51 | editsplevent | User Logged In
+DebugLog  | 2023-02-27 06:01:32 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 79 and (( fromdate<='2023-04-08 00:00:00' and todate>='2023-04-08 00:00:00') or ( fromdate>='2023-04-08 00:00:00' and todate<='2023-04-08 00:00:00') or ( fromdate>='2023-04-08 00:00:00' and todate<='2023-04-08 00:00:00') or ( fromdate>='2023-04-08 00:00:00' and todate<='2023-04-08 00:00:00') or ( '2023-04-08 00:00:00' >= fromdate and '2023-04-08 00:00:00'<= todate ) or ( '2023-04-08 00:00:00' >= fromdate and '2023-04-08 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:01:32 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='Easter (Saturday Evening)',eventdetails='Easter(Sunday of resurrection)
+
+Evening Prayer: 5:00 PM
+Easter Service & Holy Qurbono: 6:00 PM',highlights='Easter(Sunday of resurrection)',fromdate='2023-04-08 00:00:00',todate='2023-04-08 00:00:00',createdon='2023-02-27 06:01:32',createdby ='' where eventid = 79
+DebugLog  | 2023-02-27 06:01:32 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 79
+DebugLog  | 2023-02-27 06:01:32 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:01:34 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 79 and (( fromdate<='2023-04-08 00:00:00' and todate>='2023-04-08 00:00:00') or ( fromdate>='2023-04-08 00:00:00' and todate<='2023-04-08 00:00:00') or ( fromdate>='2023-04-08 00:00:00' and todate<='2023-04-08 00:00:00') or ( fromdate>='2023-04-08 00:00:00' and todate<='2023-04-08 00:00:00') or ( '2023-04-08 00:00:00' >= fromdate and '2023-04-08 00:00:00'<= todate ) or ( '2023-04-08 00:00:00' >= fromdate and '2023-04-08 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:01:34 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='Easter (Saturday Evening)',eventdetails='Easter(Sunday of resurrection)
+
+Evening Prayer: 5:00 PM
+Easter Service & Holy Qurbono: 6:00 PM',highlights='Easter(Sunday of resurrection)',fromdate='2023-04-08 00:00:00',todate='2023-04-08 00:00:00',createdon='2023-02-27 06:01:34',createdby ='' where eventid = 79
+DebugLog  | 2023-02-27 06:01:34 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 79
+DebugLog  | 2023-02-27 06:01:34 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:01:38 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:01:38 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:01:38 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:01:40 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 82
+DebugLog  | 2023-02-27 06:01:40 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:02:21 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:02:21 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:02:21 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:02:29 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 82
+DebugLog  | 2023-02-27 06:02:29 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:02:42 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 82 and (( fromdate<='2023-04-16 00:00:00' and todate>='2023-04-16 00:00:00') or ( fromdate>='2023-04-16 00:00:00' and todate<='2023-04-16 00:00:00') or ( fromdate>='2023-04-16 00:00:00' and todate<='2023-04-16 00:00:00') or ( fromdate>='2023-04-16 00:00:00' and todate<='2023-04-16 00:00:00') or ( '2023-04-16 00:00:00' >= fromdate and '2023-04-16 00:00:00'<= todate ) or ( '2023-04-16 00:00:00' >= fromdate and '2023-04-16 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:02:42 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='Holy Qurbana 8:30 AM PST',eventdetails='Holy Qurbana @8:30 AM',highlights='Holy Qurbana',fromdate='2023-04-16 00:00:00',todate='2023-04-16 00:00:00',createdon='2023-02-27 06:02:42',createdby ='' where eventid = 82
+DebugLog  | 2023-02-27 06:02:43 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 82
+DebugLog  | 2023-02-27 06:02:43 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:02:46 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:02:46 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:02:46 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:03:13 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 06:04:12 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 0 and (( fromdate<='2023-04-23 00:00:00' and todate>='2023-04-23 00:00:00') or ( fromdate>='2023-04-23 00:00:00' and todate<='2023-04-23 00:00:00') or ( fromdate>='2023-04-23 00:00:00' and todate<='2023-04-23 00:00:00') or ( fromdate>='2023-04-23 00:00:00' and todate<='2023-04-23 00:00:00') or ( '2023-04-23 00:00:00' >= fromdate and '2023-04-23 00:00:00'<= todate ) or ( '2023-04-23 00:00:00' >= fromdate and '2023-04-23 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:04:12 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | addEvent insert into events_t(eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby)values('Holy Qurbana 8:30 AM PST','Morning Prayer - 8:00 AM
+Holy Qurbana - 8:30 AM
+Sunday School - 9:45 AM','Holy Qurbana','2023-04-23 00:00:00','2023-04-23 00:00:00','0','2023-02-27 06:04:12','')
+DebugLog  | 2023-02-27 06:04:12 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 06:04:17 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:04:17 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:04:17 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:04:21 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:04:21 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:04:21 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 10, 10
+DebugLog  | 2023-02-27 06:04:35 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 06:04:51 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:04:51 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:04:51 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:04:55 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 82
+DebugLog  | 2023-02-27 06:04:55 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:04:58 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:04:58 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:04:58 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:05:00 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:05:00 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:05:00 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 10, 10
+DebugLog  | 2023-02-27 06:05:03 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 88
+DebugLog  | 2023-02-27 06:05:03 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:05:25 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 0 and (( fromdate<='2023-04-30 00:00:00' and todate>='2023-04-30 00:00:00') or ( fromdate>='2023-04-30 00:00:00' and todate<='2023-04-30 00:00:00') or ( fromdate>='2023-04-30 00:00:00' and todate<='2023-04-30 00:00:00') or ( fromdate>='2023-04-30 00:00:00' and todate<='2023-04-30 00:00:00') or ( '2023-04-30 00:00:00' >= fromdate and '2023-04-30 00:00:00'<= todate ) or ( '2023-04-30 00:00:00' >= fromdate and '2023-04-30 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:05:25 | ginojohn@gmail.com | 174.160.87.51 | addevent_action | addEvent insert into events_t(eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby)values('Holy Qurbana 8:30 AM PST','Morning Prayer - 8:00 AM
+Holy Qurbana - 8:30 AM
+Sunday School - 9:45 AM','Holy Qurbana','2023-04-30 00:00:00','2023-04-30 00:00:00','0','2023-02-27 06:05:25','')
+DebugLog  | 2023-02-27 06:05:25 | ginojohn@gmail.com | 174.160.87.51 | addevent | User Logged In
+DebugLog  | 2023-02-27 06:05:42 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:05:42 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:05:42 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:05:49 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 86
+DebugLog  | 2023-02-27 06:05:49 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:05:56 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 86 and (( fromdate<='2023-03-05 00:00:00' and todate>='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( fromdate>='2023-03-05 00:00:00' and todate<='2023-03-05 00:00:00') or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate ) or ( '2023-03-05 00:00:00' >= fromdate and '2023-03-05 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:05:56 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='3rd Sunday of Lent',eventdetails='Sunday of The Paralytic (msharyo)
+
+Morning Prayer - 8:00 AM
+Holy Qurbana - 8:30 AM
+Sunday School - 9:45 AM',highlights='Sunday of The Paralytic(msharyo)',fromdate='2023-03-05 00:00:00',todate='2023-03-05 00:00:00',createdon='2023-02-27 06:05:56',createdby ='' where eventid = 86
+DebugLog  | 2023-02-27 06:05:56 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 86
+DebugLog  | 2023-02-27 06:05:56 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:05:59 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 06:05:59 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 06:06:13 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:06:13 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:06:13 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:06:16 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 85
+DebugLog  | 2023-02-27 06:06:16 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:06:21 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 85 and (( fromdate<='2023-03-12 00:00:00' and todate>='2023-03-12 00:00:00') or ( fromdate>='2023-03-12 00:00:00' and todate<='2023-03-12 00:00:00') or ( fromdate>='2023-03-12 00:00:00' and todate<='2023-03-12 00:00:00') or ( fromdate>='2023-03-12 00:00:00' and todate<='2023-03-12 00:00:00') or ( '2023-03-12 00:00:00' >= fromdate and '2023-03-12 00:00:00'<= todate ) or ( '2023-03-12 00:00:00' >= fromdate and '2023-03-12 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:06:21 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='4th Sunday of Lent',eventdetails='Sunday of the Canaanite woman (kna`nayto)
+
+Morning Prayer - 8:00 AM
+Holy Qurbana - 8:30 AM
+Sunday School - 9:45 AM',highlights='Sunday of the Canaanite woman (kna`nayto)',fromdate='2023-03-12 00:00:00',todate='2023-03-12 00:00:00',createdon='2023-02-27 06:06:21',createdby ='' where eventid = 85
+DebugLog  | 2023-02-27 06:06:21 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 85
+DebugLog  | 2023-02-27 06:06:21 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:06:24 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:06:24 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:06:24 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:06:27 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 87
+DebugLog  | 2023-02-27 06:06:27 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:06:32 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 87 and (( fromdate<='2023-03-19 00:00:00' and todate>='2023-03-19 00:00:00') or ( fromdate>='2023-03-19 00:00:00' and todate<='2023-03-19 00:00:00') or ( fromdate>='2023-03-19 00:00:00' and todate<='2023-03-19 00:00:00') or ( fromdate>='2023-03-19 00:00:00' and todate<='2023-03-19 00:00:00') or ( '2023-03-19 00:00:00' >= fromdate and '2023-03-19 00:00:00'<= todate ) or ( '2023-03-19 00:00:00' >= fromdate and '2023-03-19 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:06:32 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='5th Sunday of Lent',eventdetails='Sunday of the hunchback woman (kfofto)
+
+Morning Prayer - 8:00 AM
+Holy Qurbana - 8:30 AM
+Sunday School - 9:45 AM',highlights='Sunday of the hunchback woman (kfofto)',fromdate='2023-03-19 00:00:00',todate='2023-03-19 00:00:00',createdon='2023-02-27 06:06:32',createdby ='' where eventid = 87
+DebugLog  | 2023-02-27 06:06:32 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 87
+DebugLog  | 2023-02-27 06:06:32 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:06:34 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:06:34 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:06:35 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:06:43 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 61
+DebugLog  | 2023-02-27 06:06:43 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:06:48 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | isEventExists: select count(eventid) as cnt from events_t where deleted = 0 and eventid!= 61 and (( fromdate<='2023-03-26 00:00:00' and todate>='2023-03-26 00:00:00') or ( fromdate>='2023-03-26 00:00:00' and todate<='2023-03-26 00:00:00') or ( fromdate>='2023-03-26 00:00:00' and todate<='2023-03-26 00:00:00') or ( fromdate>='2023-03-26 00:00:00' and todate<='2023-03-26 00:00:00') or ( '2023-03-26 00:00:00' >= fromdate and '2023-03-26 00:00:00'<= todate ) or ( '2023-03-26 00:00:00' >= fromdate and '2023-03-26 00:00:00'<= todate )  )
+DebugLog  | 2023-02-27 06:06:48 | ginojohn@gmail.com | 174.160.87.51 | updevent_action | updEvent update events_t set eventname='6th Sunday of Lent',eventdetails='Sunday of the healing of the Blind man (Samyo)
+
+Morning Prayer - 8:00 AM
+Holy Qurbana - 8:30 AM
+Sunday School - 9:45 AM',highlights='Sunday of the healing of the Blind man (Samyo)',fromdate='2023-03-26 00:00:00',todate='2023-03-26 00:00:00',createdon='2023-02-27 06:06:48',createdby ='' where eventid = 61
+DebugLog  | 2023-02-27 06:06:48 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 61
+DebugLog  | 2023-02-27 06:06:48 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:06:51 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:06:51 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:06:51 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:07:05 | ginojohn@gmail.com | 174.160.87.51 | editevent | getEvent select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where eventid = 82
+DebugLog  | 2023-02-27 06:07:05 | ginojohn@gmail.com | 174.160.87.51 | editevent | User Logged In
+DebugLog  | 2023-02-27 06:07:17 | ginojohn@gmail.com | 174.160.87.51 | listofevents | User Logged In
+DebugLog  | 2023-02-27 06:07:17 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select count(eventid) as cnt from events_t   where  deleted = 0 
+DebugLog  | 2023-02-27 06:07:17 | ginojohn@gmail.com | 174.160.87.51 | listofevents | getEventList: select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby from events_t  where  deleted = 0  order by fromdate,todate LIMIT 0, 10
+DebugLog  | 2023-02-27 06:07:19 | ginojohn@gmail.com | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 06:07:19 | ginojohn@gmail.com | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 06:07:33 | ginojohn@gmail.com | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:08:47 | guest | 73.185.82.224 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:08:48 | guest | 69.171.231.1 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:08:48 | guest | 69.171.231.6 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:08:49 | guest | 69.171.231.4 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:08:49 | guest | 69.171.231.6 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:09:03 | guest | 23.115.139.13 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:09:07 | guest | 69.171.231.1 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:09:28 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:13:43 | guest | 173.252.95.1 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:14:19 | guest | 31.13.127.13 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:15:21 | guest | 45.41.141.38 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 06:15:21 | guest | 45.41.141.38 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 06:15:45 | guest | 104.194.194.141 | photogallery | Page No = 1
+DebugLog  | 2023-02-27 06:15:45 | guest | 104.194.194.141 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2023-02-27 06:15:45 | guest | 104.194.194.141 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 06:15:45 | guest | 104.194.194.141 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 06:15:45 | guest | 198.240.105.85 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2023-02-27 06:15:45 | guest | 198.240.105.85 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 06:15:47 | guest | 170.178.154.137 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 06:15:47 | guest | 170.178.154.137 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 06:15:50 | guest | 64.140.131.62 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 1
+DebugLog  | 2023-02-27 06:15:53 | guest | 64.140.130.143 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:27:33 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:28:05 | guest | 174.160.87.51 | photogallery | Page No = 1
+DebugLog  | 2023-02-27 06:28:05 | guest | 174.160.87.51 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2023-02-27 06:28:05 | guest | 174.160.87.51 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 06:28:05 | guest | 174.160.87.51 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 06:28:23 | guest | 174.160.87.51 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 06:28:23 | guest | 174.160.87.51 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 06:31:50 | guest | 71.125.52.21 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:32:53 | guest | 71.125.52.21 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:35:32 | guest | 104.14.128.62 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:48:05 | guest | 73.221.188.239 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:49:50 | guest | 98.47.140.254 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:51:04 | guest | 70.120.113.82 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 06:57:42 | guest | 17.241.227.63 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 06:57:42 | guest | 17.241.227.63 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 08:06:32 | guest | 76.100.57.30 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 08:06:55 | guest | 173.252.127.1 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 08:07:31 | guest | 31.13.115.20 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 08:32:23 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 08:44:59 | guest | 173.252.127.12 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 08:44:59 | guest | 173.252.127.12 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 08:45:00 | guest | 66.220.149.13 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 08:45:00 | guest | 66.220.149.13 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 08:45:26 | guest | 69.63.184.116 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 08:45:26 | guest | 69.63.184.116 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 08:45:33 | guest | 173.252.107.118 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 08:45:33 | guest | 173.252.107.118 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 08:47:46 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 08:48:50 | guest | 174.160.87.51 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 08:59:46 | guest | 35.227.99.183 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 08:59:46 | guest | 35.227.99.183 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 09:14:49 | guest | 69.171.251.20 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 09:15:27 | guest | 69.171.231.2 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 09:29:59 | guest | 98.42.76.153 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 09:31:12 | guest | 23.115.139.13 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 09:31:13 | guest | 23.115.139.13 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 09:36:59 | guest | 174.194.145.54 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 09:36:59 | guest | 174.194.145.54 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 09:37:14 | guest | 174.194.145.54 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 09:37:14 | guest | 174.194.145.54 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 09:41:52 | guest | 174.160.175.78 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 10:01:27 | guest | 123.125.109.55 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 10:01:27 | guest | 123.125.109.55 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 10:18:11 | guest | 73.15.141.86 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 10:49:25 | guest | 69.171.251.11 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 10:50:02 | guest | 31.13.115.19 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 11:19:18 | guest | 52.167.144.81 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2023-02-27 11:19:18 | guest | 52.167.144.81 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 12:13:00 | guest | 118.184.177.75 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 12:13:00 | guest | 118.184.177.75 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 12:16:10 | guest | 162.195.241.11 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 12:19:34 | guest | 162.195.241.11 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 12:20:13 | guest | 162.195.241.11 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 13:00:27 | guest | 35.227.99.183 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 13:00:27 | guest | 35.227.99.183 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 13:04:07 | guest | 31.13.115.23 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 13:04:44 | guest | 173.252.79.3 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 13:55:50 | guest | 104.28.97.115 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 15:32:45 | guest | 66.220.149.20 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 15:33:21 | guest | 31.13.115.16 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 15:56:01 | guest | 107.19.32.172 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 16:03:32 | guest | 40.77.167.179 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 16:03:32 | guest | 40.77.167.179 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 16:53:22 | guest | 67.188.118.126 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 16:54:03 | guest | 34.74.205.181 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 16:54:03 | guest | 34.74.205.181 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 18:37:23 | guest | 66.249.66.6 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 18:37:23 | guest | 66.249.66.6 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 18:37:24 | guest | 66.249.66.7 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 18:37:24 | guest | 66.249.66.7 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 20:20:12 | guest | 64.140.139.122 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 20:20:12 | guest | 64.140.139.122 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 20:20:17 | guest | 104.194.194.162 | photogallery | Page No = 1
+DebugLog  | 2023-02-27 20:20:17 | guest | 104.194.194.162 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2023-02-27 20:20:17 | guest | 104.194.194.162 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 20:20:17 | guest | 104.194.194.162 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 20:20:20 | guest | 64.140.139.244 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2023-02-27 20:20:20 | guest | 64.140.139.244 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 20:20:20 | guest | 207.32.131.12 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 20:20:20 | guest | 64.140.135.234 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 1
+DebugLog  | 2023-02-27 20:20:22 | guest | 64.140.128.185 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 20:20:22 | guest | 64.140.128.185 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 20:35:08 | guest | 34.74.205.181 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 20:35:09 | guest | 34.74.205.181 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 20:38:34 | guest | 114.119.151.12 | photogallery | Page No = 1
+DebugLog  | 2023-02-27 20:38:34 | guest | 114.119.151.12 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2023-02-27 20:38:34 | guest | 114.119.151.12 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 20:38:34 | guest | 114.119.151.12 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 20:39:45 | guest | 114.119.155.232 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 1
+DebugLog  | 2023-02-27 20:56:50 | guest | 114.119.150.196 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 20:56:50 | guest | 114.119.150.196 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 21:24:54 | guest | 114.119.160.75 | videogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Video'
+DebugLog  | 2023-02-27 21:24:54 | guest | 114.119.160.75 | videogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Video' order by createdon desc LIMIT 9, 9
+DebugLog  | 2023-02-27 21:26:05 | guest | 114.119.132.7 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 21:26:05 | guest | 114.119.132.7 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 21:42:32 | guest | 123.183.224.30 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 21:42:32 | guest | 123.183.224.30 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 22:22:40 | guest | 123.183.224.30 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 22:22:40 | guest | 123.183.224.30 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 22:38:03 | guest | 69.171.251.13 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 22:38:40 | guest | 66.220.149.10 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 50
+DebugLog  | 2023-02-27 22:58:19 | guest | 123.183.224.30 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 22:58:19 | guest | 123.183.224.30 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 23:07:40 | guest | 66.249.66.88 | photogallery | Page No = 1
+DebugLog  | 2023-02-27 23:07:40 | guest | 66.249.66.88 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2023-02-27 23:07:40 | guest | 66.249.66.88 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2023-02-27 23:07:40 | guest | 66.249.66.88 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2023-02-27 23:27:26 | guest | 34.139.127.151 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 23:27:26 | guest | 34.139.127.151 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2023-02-27 23:34:11 | guest | 123.183.224.30 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2023-02-27 23:34:11 | guest | 123.183.224.30 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2023-02-27' order by fromdate asc ,todate asc limit 3

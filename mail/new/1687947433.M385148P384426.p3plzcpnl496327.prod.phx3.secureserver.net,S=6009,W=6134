@@ -1,0 +1,125 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 8BOBFqkInGSq3QUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 28 Jun 2023 03:17:13 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 28 Jun 2023 03:17:13 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qESEb-001d2U-AR
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 28 Jun 2023 03:17:13 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qESEW-001d1X-Nm@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1687947433-eximdsn-1232701320
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qESEb-001d2U-AR@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 28 Jun 2023 03:17:13 -0700
+
+--1687947433-eximdsn-1232701320
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ESEbqSOWlb3ts :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=649c08a9 p=oGbba8D9AAAA:20 p=nI3yhpyoAAAA:20 p=x5Ck2bZOhdmbIMlt-iAA:9 p=-ETm23ix088A:10 p=edySl9karRgiN9A9sj7u:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=d0ar-YBfaCgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=ZfUBBOfSn5sA:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=it2Ks6ezM3AA:10 a=tTxJ_EHIDH8A:10 a=KyYZJfTCSdMA:10 a=JDrGadojSHMihRfexg9Q:22 a=AANIdqdDx4qkuOB3xbVW:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1687947433-eximdsn-1232701320
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 ESEbqSOWlb3ts :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuSLm0aN c=1 sm=1 tr=0 ts=649c08a9 p=oGbba8D9AAAA:20 p=nI3yhpyoAAAA:20 p=x5Ck2bZOhdmbIMlt-iAA:9 p=-ETm23ix088A:10 p=edySl9karRgiN9A9sj7u:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=d0ar-YBfaCgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=ZfUBBOfSn5sA:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=it2Ks6ezM3AA:10 a=tTxJ_EHIDH8A:10 a=KyYZJfTCSdMA:10 a=JDrGadojSHMihRfexg9Q:22 a=AANIdqdDx4qkuOB3xbVW:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1687947433-eximdsn-1232701320
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qESEW-001d1X-Nm
+	for ginojohn@gmail.com;
+	Wed, 28 Jun 2023 03:17:13 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Dustin Teece.
+X-PHP-Script: ststephenssanjose.org/contact.php for 150.107.106.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 150.107.106.6
+From: teece.dustin@gmail.com
+Reply-To: teece.dustin@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qESEW-001d1X-Nm@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 28 Jun 2023 03:17:08 -0700
+
+You have been contacted by Dustin Teece, and the message is as
+follows.
+
+"Hi, 
+
+I wanted to share some exciting news with you about a powerful tool
+that
+can revolutionize the way you create content for your business.
+
+⇒ Introducing... GoogAi
+
+This cutting-edge app is powered by Google's Bard
+Help you to create unique, high-quality content, Ai graphics & Images
+in a fraction of the time it would take to write it manually…
+
+Imagine being able to generate product descriptions, blog posts, and
+even entire web pages with just a few simple prompts. GoogAi (Google's
+Bard Powered) makes it possible, delivering content that is not only
+fast and efficient but also engaging and informative…
+
+Click Here To See GoogAi In Action…
+==> https://bit.ly/googaireview
+
+Whether you're looking for answers to complex questions, assistance
+with daily tasks,
+or just someone to talk to, this app has you covered. And with its
+constantly evolving
+understanding of language, it's always getting smarter and more
+helpful.
+
+✅ World's FIRST fully Google's Bard driven App
+✅ Generate human-like responses to complex questions with just
+1-click...
+✅ Generate High-Quality content, ebooks, stories, novels, articles,
+sales scripts, video scripts, or anything you wanted....
+✅ GoogAi gives crisp and clear answers to your any question
+instantly…
+✅ Designs Stunning Ai graphics & Images
+✅ Create SEO-Optimized and plagiarism-free content for your blogs,
+emails, and website 10X faster.
+
+Cheers!
+
+Adam Smith
+78 Road St, NYC
+===============
+Click here to Unsubscribe.
+https://bit.ly/stop69"
+
+You can contact Dustin Teece via email, teece.dustin@gmail.com
+
+--1687947433-eximdsn-1232701320--

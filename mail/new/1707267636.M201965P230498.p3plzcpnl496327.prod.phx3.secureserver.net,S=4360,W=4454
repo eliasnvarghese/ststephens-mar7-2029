@@ -1,0 +1,94 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 9qWICzTWwmVihAMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 06 Feb 2024 18:00:36 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 06 Feb 2024 18:00:36 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rXWIm-000xxc-0Q
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 06 Feb 2024 18:00:36 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rXWIg-000xl9-2E@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1707267636-eximdsn-339465886
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rXWIm-000xxc-0Q@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 06 Feb 2024 18:00:36 -0700
+
+--1707267636-eximdsn-339465886
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 XWIlrFhuAOx8H :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fIia3oae c=1 sm=1 tr=0 ts=65c2d634 p=DaP5IL5nj2QA:10 p=w8VpU1oOxZ2mIUg3jTaz:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=QIQGHasYAAAA:8 a=9FlLlAsOLpYbnWSfN_gA:9 a=QEXdDO2ut3YA:10 a=7FeZBM781ouiJ-rRc8Pr:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1707267636-eximdsn-339465886
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 XWIlrFhuAOx8H :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fIia3oae c=1 sm=1 tr=0 ts=65c2d634 p=DaP5IL5nj2QA:10 p=w8VpU1oOxZ2mIUg3jTaz:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=QIQGHasYAAAA:8 a=9FlLlAsOLpYbnWSfN_gA:9 a=QEXdDO2ut3YA:10 a=7FeZBM781ouiJ-rRc8Pr:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1707267636-eximdsn-339465886
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rXWIg-000xl9-2E
+	for ginojohn@gmail.com;
+	Tue, 06 Feb 2024 18:00:35 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Amber Jones.
+X-PHP-Script: ststephenssanjose.org/contact.php for 168.151.228.177
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 168.151.228.177
+From: amber@nextdayworkingcapital.com
+Reply-To: amber@nextdayworkingcapital.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rXWIg-000xl9-2E@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 06 Feb 2024 18:00:30 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Amber Jones, and the message is as follows.
+
+"Don't put off your projects any longer. Let me provide you the
+funding you need for ANY business reason. Just give me a couple
+minutes of your time and I'll provide you with a funding offer to
+consider. Just go to www.nextdayworkingcapital.com and get your quote
+today!
+
+
+Warm regards,
+
+Amber Jones
+Next Day Working Capital
+"
+
+You can contact Amber Jones via email, amber@nextdayworkingcapital.com
+
+--1707267636-eximdsn-339465886--

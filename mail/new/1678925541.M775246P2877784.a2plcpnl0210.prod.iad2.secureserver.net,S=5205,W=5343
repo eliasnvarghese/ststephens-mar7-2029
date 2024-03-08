@@ -1,0 +1,138 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id QARBKuVeEmRY6SsAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 15 Mar 2023 17:12:21 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 15 Mar 2023 17:12:21 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pcbED-00C55G-EK
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 15 Mar 2023 17:12:21 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pc6XM-009TnS-RU@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1678925541-eximdsn-191181005
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pcbED-00C55G-EK@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 15 Mar 2023 17:12:21 -0700
+
+--1678925541-eximdsn-191181005
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 cbEDpUIlselrp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=64125ee5 p=6XQgTkZD2TwA:10 p=Wk3ol8HSAAAA:8 p=XVEFRpEmAAAA:8 p=myL7c0h5_smxRDCDpPMA:9 p=b1TA62zC0z4A:10 p=D6xeac54EoYTXjzmFidG:22 p=UmOOTn971JA1D-Vc7b0M:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=Dhflq2Nc8FsA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=h15hxVnaZfkA:10 a=KyYZJfTCSdMA:10 a=di9GSbuKP_O0vGuoMfuw:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=LblcIJji0YyQcoDfwy_b:22 a=y5sVf_D8qEkV7B6LZBhh:22 a=jycUkCEYUnZvh0PkXkJV:22 ::
+    100.00
+
+--1678925541-eximdsn-191181005
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 cbEDpUIlselrp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=64125ee5 p=6XQgTkZD2TwA:10 p=Wk3ol8HSAAAA:8 p=XVEFRpEmAAAA:8 p=myL7c0h5_smxRDCDpPMA:9 p=b1TA62zC0z4A:10 p=D6xeac54EoYTXjzmFidG:22 p=UmOOTn971JA1D-Vc7b0M:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=Dhflq2Nc8FsA:10 a=huvbmMDMAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=h15hxVnaZfkA:10 a=KyYZJfTCSdMA:10 a=di9GSbuKP_O0vGuoMfuw:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=LblcIJji0YyQcoDfwy_b:22 a=y5sVf_D8qEkV7B6LZBhh:22 a=jycUkCEYUnZvh0PkXkJV:22 :: 100.00
+
+--1678925541-eximdsn-191181005
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pc6XM-009TnS-RU
+	for ginojohn@gmail.com;
+	Tue, 14 Mar 2023 08:26:10 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Glenda Wilson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 162.212.173.67
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 162.212.173.67
+From: glendawilson031@gmail.com
+Reply-To: glendawilson031@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pc6XM-009TnS-RU@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 14 Mar 2023 08:26:04 -0700
+
+You have been contacted by Glenda Wilson, and the message is as
+follows.
+
+"Hi,
+
+Are you struggling to generate leads and sales for your business?
+
+Video marketing can be a game-changer, but creating videos manually
+can be time-consuming and overwhelming.
+
+With Pictory, you can easily create professional-quality videos using
+AI technology, with minimal time and effort.
+
+Don't miss out on the benefits of video marketing - try Pictory today
+and see the results for yourself!
+
+Click here to learn more and start your free trial.
+
+videoswithbots.com
+
+
+Glenda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+224 Westwood Cir., Dalton, GA  30721
+Unsubscribe:
+optoutforever.com/?site=ststephenssanjose.org
+
+"
+
+You can contact Glenda Wilson via email, glendawilson031@gmail.com
+
+--1678925541-eximdsn-191181005--

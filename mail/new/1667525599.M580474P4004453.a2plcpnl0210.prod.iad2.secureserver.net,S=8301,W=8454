@@ -1,0 +1,153 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id oINuIt9rZGNlGj0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 18:33:19 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 18:33:19 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqlaB-00GsOf-E7
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 18:33:19 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqlaA-00GsNy-TH@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667525599-eximdsn-613475954
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqlaB-00GsOf-E7@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:33:19 -0700
+
+--1667525599-eximdsn-613475954
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qlaBoj2fN4oIf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63646bdf p=y8PNV21neXEA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=p1WboP70cnAA:10 a=Hc4mB7HVAAAA:8 a=RgBw9RmQAAAA:8 a=qwHquroqqlLWGd7LVQMA:9 a=QEXdDO2ut3YA:10 a=3UBKWIcBgTAA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=va6-tBlP1nKVCkfn3Vl3:22 ::
+    100.00
+
+--1667525599-eximdsn-613475954
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qlaBoj2fN4oIf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63646bdf p=y8PNV21neXEA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=p1WboP70cnAA:10 a=Hc4mB7HVAAAA:8 a=RgBw9RmQAAAA:8 a=qwHquroqqlLWGd7LVQMA:9 a=QEXdDO2ut3YA:10 a=3UBKWIcBgTAA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=va6-tBlP1nKVCkfn3Vl3:22 :: 100.00
+
+--1667525599-eximdsn-613475954
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqlaA-00GsNy-TH
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 18:33:19 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Josephdal.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.188.21.49
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.188.21.49
+From: biriria.60@mail.ru
+Reply-To: biriria.60@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqlaA-00GsNy-TH@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 18:33:18 -0700
+
+You have been contacted by Josephdal, and the message is as follows.
+
+"Поговорим о том, как выглядит
+производство декинга
+https://store-parket.ru/odnokomponentnaya-sukhaya-stroitelnaya-smes-sikafloor-screed-206/
+   Для этого используется древесина
+разных пород
+https://store-parket.ru/category/parketnaja-himija/kiesel/kley/kley-odnokomponentnyy/
+   Обычно отдают предпочтение наиболее
+твёрдым
+https://store-parket.ru/laminat-grand-life-chizkeyk-d3220-kollektsiya-trend/
+   Если говорить об иностранных
+производителях, следует отметить: при
+производстве садового паркета они
+часто используют разные экзотические
+виды древесины
+https://store-parket.ru/dvukhkomponentnyy-kley-2k-pu-maxima-rapid/
+ 
+До того, как проводить циклевочные
+работы, необходимо тщательно
+подготовить поверхность
+https://store-parket.ru/laminat-eurowood-shalye-dub-rustik/
+   Пол тщательно освобождается от пыли,
+мелких частиц мусора
+https://store-parket.ru/laminat-kronotex-dynamic-venge-gabun/
+   После этого при помощи специального
+оборудования можно производить
+циклевку
+https://store-parket.ru/parketnaya-doska-galateya-myerbau--merbau/
+   При проведении таких работ
+необходима работа в мягких носках
+https://store-parket.ru/dvukhkomponentnyy-kley-dlya-parketa-kiilto-pro-2k-pu/
+ 
+нижний слой, который является основой,
+изготовлен из тонкого пластика или
+специальной влагостойкой бумаги,
+пропитанной смолами
+https://store-parket.ru/dub-138-nature-antik/
+   Такая основа обеспечивает панели
+жесткость и устойчивость 
+Обновлено 30 января 2022Штучный паркет:
+Штучный паркет Ясень Рустик 420х70х15
+https://store-parket.ru/category/parketnaja-doska/parketnaja-doska-grabo/
+   Сортировка Рустик
+https://store-parket.ru/category/frantsuzskaya-yolka/angliyskaya-yolka-chers/
+   Паркет штучный ясень рустик, также
+как и кленовые и дубовые покрытия
+этого сорта, 
+https://store-parket.ru/category/vinilovye-poly/kvarts-vinilovaya-plitka-pvkh/plitka-pvkh-luxemix/
+   https://store-parket.ru/category/massivnaya-doska/621/serenzo/
+  
+https://store-parket.ru/category/laminat/laminat-haro/laminat-haro-tritty-100/laminat-haro-tritty-100-gran-via-4v/
+ 
+Оборудование предназначено для
+скоростных линий и упаковки в больших
+объемах вагонки, досок, плинтуса,
+штапика, наличников, карнизов, жалюзи
+и других длинномерных предметов
+https://store-parket.ru/laminat-floorwood-estet-dub-ibero-grey/
+   В данной модели также используется
+принцип формирования упаковки с
+помощью системы 
+https://store-parket.ru/parketnyy-kley-murexin-pu-560/
+ 
+Обновлено 30 января 2022Штучный паркет:
+Штучный паркет Дуб Натур 280х70х15
+https://store-parket.ru/dub-shambor-parketnaya-doska-coswick_1/
+   Сортировка НАТУР
+https://store-parket.ru/category/laminat/laminat-kronotex/laminat-kronotex-mega/
+   Штучный паркет дуб натур, также как и
+кленовое и ясеневое покрытие данного
+вида — 
+https://store-parket.ru/probkovoe-pokrytie-corksribas-e-cork-exclusiv-ref2/
+   https://store-parket.ru/parketnyy-kley-s-bond-flex/
+  
+https://store-parket.ru/category/aksessuary-dlya-parketa/podlozhka/probkovaya-podlozhka/
+ 
+"
+
+You can contact Josephdal via email, biriria.60@mail.ru
+
+--1667525599-eximdsn-613475954--

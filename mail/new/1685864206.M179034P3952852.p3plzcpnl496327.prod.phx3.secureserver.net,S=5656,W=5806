@@ -1,0 +1,150 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id xtyCCQ4/fGTUUDwACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 04 Jun 2023 00:36:46 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 04 Jun 2023 00:36:46 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q5iIA-00GaJT-3G
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 04 Jun 2023 00:36:46 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q5iI5-00GaIT-2o@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1685864206-eximdsn-1967046308
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q5iIA-00GaJT-3G@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 04 Jun 2023 00:36:46 -0700
+
+--1685864206-eximdsn-1967046308
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 5iI9qhil6rKX1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=cp1d0X0i c=1 sm=1 tr=0 ts=647c3f0e p=3m34tMv5b-8A:10 p=YpgB-4-oAAAA:20 p=XAoRRpflzzeWDqWnF1SG:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=mUwBYselyFUA:10 a=UqCG9HQmAAAA:8 a=UqH4q5Sr0DIgefVowycA:9 a=QEXdDO2ut3YA:10 a=uDpfaWkq3WcA:10 a=VWafdl3ivC8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1685864206-eximdsn-1967046308
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 5iI9qhil6rKX1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=cp1d0X0i c=1 sm=1 tr=0 ts=647c3f0e p=3m34tMv5b-8A:10 p=YpgB-4-oAAAA:20 p=XAoRRpflzzeWDqWnF1SG:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=mUwBYselyFUA:10 a=UqCG9HQmAAAA:8 a=UqH4q5Sr0DIgefVowycA:9 a=QEXdDO2ut3YA:10 a=uDpfaWkq3WcA:10 a=VWafdl3ivC8A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1685864206-eximdsn-1967046308
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q5iI5-00GaIT-2o
+	for ginojohn@gmail.com;
+	Sun, 04 Jun 2023 00:36:45 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jack Anderson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 107.186.67.112
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 107.186.67.112
+From: jack.anderson@outlook.com
+Reply-To: jack.anderson@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q5iI5-00GaIT-2o@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 04 Jun 2023 00:36:41 -0700
+
+You have been contacted by Jack Anderson, and the message is as
+follows.
+
+"Introducing the Game-Changing AI Technology for Transforming Text
+into Attention-Grabbing Songs and Videos!
+
+
+Don't miss out on this incredible opportunity to transform the way you
+work.
+
+
+==> Watch Ai Songs Demo In Action: bit.ly/43FObTP 
+
+
+World's First Artificial Intelligence Based Technology That Converts
+Any Text Into Attention Grabbing Songs & Video In 3 Clicks
+
+
+✅  Turn An Ordinary Piece Of Text Or Lyrics Into Mind Blowing Songs
+Like Never Before
+
+✅  Smartly Convert Your Songs Generated Into Eye Catchy 4K Video
+
+✅ Inbuilt Marketplace - Create and sell Your Songs
+
+✅  Fully Tested & Proven - Launch Your Own BandCamp, Reverb Nation
+Like Music Selling Platform
+
+✅  Totally Unique & Innovative Tech That Creates Freshly Composed
+Mesmerizing Songs
+
+✅  Create Unique Music Easily With Your Voice Commands Or By
+Entering Any Keyword
+
+✅  Let Customers Literally Beg You In Exchange For Your Premium
+Services
+
+
+..and much more
+
+
+
+If you Purchase from Our Link We Give You Best Bonus: bit.ly/43FObTP 
+
+
+
+VIP Bonus1: Ai Sites With All otos
+
+VIP Bonus2: Ai Suite With All otos
+
+VIP Bonus3: Ai Mailer With All otos
+
+VIP Bonus4: AiPal With All otos
+
+
+..+ more
+
+
+Also
+
+we are giving 3 off  Disc0unt for the entire funnel
+
+Couponcode: AISONGS3
+
+
+Access Ai Songs + All Bonus: bit.ly/43FObTP 
+
+
+Thanks,
+
+Jack
+
+"
+
+You can contact Jack Anderson via email, jack.anderson@outlook.com
+
+--1685864206-eximdsn-1967046308--

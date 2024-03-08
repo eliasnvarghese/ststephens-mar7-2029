@@ -1,0 +1,260 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id gKtUKuA/ZWNz/gEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 04 Nov 2022 09:37:52 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 04 Nov 2022 09:37:52 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqzhY-000Yk2-Hd
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 04 Nov 2022 09:37:52 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqzhX-000YjP-WD@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667579872-eximdsn-958755982
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqzhY-000Yk2-Hd@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 04 Nov 2022 09:37:52 -0700
+
+--1667579872-eximdsn-958755982
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qzhYoR0x9F1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63653fe0 p=UBCUCyO5IWwA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=zATEfLh3L64A:10 a=6WQSa0bsAAAA:8 a=RgBw9RmQAAAA:8 a=1fKN-1Ctbvist475U4MA:9 a=QEXdDO2ut3YA:10 a=1wZ9WgJ4ew4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=RRdh534GtHmTWc1DM0og:22 ::
+    100.00
+
+--1667579872-eximdsn-958755982
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qzhYoR0x9F1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=63653fe0 p=UBCUCyO5IWwA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=FUwtd2aA7jMA:10 a=x7bEGLp0ZPQA:10 a=zATEfLh3L64A:10 a=6WQSa0bsAAAA:8 a=RgBw9RmQAAAA:8 a=1fKN-1Ctbvist475U4MA:9 a=QEXdDO2ut3YA:10 a=1wZ9WgJ4ew4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=RRdh534GtHmTWc1DM0og:22 :: 100.00
+
+--1667579872-eximdsn-958755982
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqzhX-000YjP-WD
+	for ginojohn@gmail.com; Fri, 04 Nov 2022 09:37:52 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MichaelSeeva.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.38.235.158
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.38.235.158
+From: pasha-nikolayev-84@mail.ru
+Reply-To: pasha-nikolayev-84@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqzhX-000YjP-WD@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 04 Nov 2022 09:37:51 -0700
+
+You have been contacted by MichaelSeeva, and the message is as
+follows.
+
+"Даними протоколу виїмки від 17
+https://madopar.com.ru/kontakty
+ 01 https://madopar.com.ru/stati
+ 2012 р https://madopar.com.ru/otzyvy
+ , відповідно до якого з Чортківської
+ЦКРЛ вилучено медичну карту 569 ОСОБА_26,
+ІНФОРМАЦІЯ_16, на 37 арк https://madopar.com.ru/stati
+  (Т https://madopar.com.ru/madopar-instrukciya
+ 8 а https://madopar.com.ru
+ с https://madopar.com.ru/voprosy-madopar
+ 219) 
+Внутрь, не менее чем за 30 мин до или
+через 1 ч после еды https://madopar.com.ru
+  Капсулы (Мадопар ) за 30 мин до начала
+диализа https://madopar.com.ru/madopar-instrukciya
+ 
+Даними листа Вінницького обласного
+військового комісаріату від 27
+https://madopar.com.ru/kontakty
+ 10 https://madopar.com.ru/otzyvy
+ 2011 р https://madopar.com.ru/madopar-instrukciya
+  ВО МР/1268 на запит органу досудового
+розслідування, відповідно до якого
+згідно запису в алфавітній книзі
+призовників ІНФОРМАЦІЯ_1 по
+Козятинському району (справа 39, том 2,
+сторінка 36) за С-53 значиться Слюсарчук
+А https://madopar.com.ru/stati
+ Т приписаний до призовної дільниці
+Козятинського районного військового
+комісаріату 12 https://madopar.com.ru/madopar-instrukciya
+ 02 https://madopar.com.ru
+ 88 р СПТУ 17 м https://madopar.com.ru
+  Козяти знятий з військового обліку
+призовників Козятинського районного
+війського комісаріату 01
+https://madopar.com.ru/madopar-instrukciya
+ 06 https://madopar.com.ru/voprosy-madopar
+ 89 р https://madopar.com.ru/stati
+  (у зв'язку з переміною місця
+проживання), в Сокальський районний
+військовий комісаріат Львівської
+област особова справа призовника
+надіслана в Сокальський районний
+військовий комісаріат Львівської
+області вих https://madopar.com.ru/kontakty
+ 2/163 від 29 https://madopar.com.ru/stati
+ 01 https://madopar.com.ru
+ 90 https://madopar.com.ru/madopar-instrukciya
+  (Т https://madopar.com.ru/kontakty
+ 21 а https://madopar.com.ru
+ с https://madopar.com.ru/voprosy-madopar
+ 219) 
+Так, приблизно наприкінці весни - на
+початку літа 2010 року потерпіла ОСОБА_5,
+сприймаючи підсудного Слюсарчук А
+https://madopar.com.ru
+ Т https://madopar.com.ru/kontakty
+  як видатного лікаря-нейрохірурга,
+звернулася до останнього з проханням
+допомогти вилікувати її сина ОСОБА_45,
+який хворіє на ювенальний
+ревматоїдний артрит https://madopar.com.ru/otzyvy
+  Підсудний Слюсарчук А https://madopar.com.ru
+ Т https://madopar.com.ru/kontakty
+ , маючи злочинний умисел на
+заволодіння чужим майном шляхом
+обману та зловживання довірою, для
+підвищення своєї значимості, як
+спеціаліста, вводячи в оману ОСОБА_5,
+повідомив останній, що не має вільного
+часу, оскільки займається лікуванням
+високопосадовців
+https://madopar.com.ru/madopar-instrukciya
+  Через деякий час ОСОБА_5, помиляючись
+в фаховості Слюсарчук А https://madopar.com.ru
+ Т https://madopar.com.ru/otzyvy
+ , намагаючись запросити його для
+лікування свого сина в якості
+висококваліфікованого спеціаліста в
+медичній галузі, в черговий раз
+зателефонувала до Слюсарчук А
+https://madopar.com.ru/otzyvy
+ Т https://madopar.com.ru
+  в якого запитала, чи зможе він
+вилікувати її сина, на що він відповів,
+що все лікується за гроші та зазначив,
+що для призначення лікування її сину
+необхідно здати нові аналізи в
+лабораторії Біокурс, оскільки наявним
+в ОСОБА_5 результатам попередніх
+аналізів він не довіряє
+https://madopar.com.ru/madopar-instrukciya
+ 
+Згідно з листом Національного банку
+України від 28 https://madopar.com.ru/kontakty
+ 08 https://madopar.com.ru/otzyvy
+ 2012 р https://madopar.com.ru/otzyvy
+  19-013/8600, офіційний курс гривні до
+долара США, встановлений Національним
+банком України у червні 2008 р
+https://madopar.com.ru
+ ёстановив (в середньому за місяць) 485,19
+гривень за 100 доларів США https://madopar.com.ru
+  (Т https://madopar.com.ru/kontakty
+ 9 а https://madopar.com.ru/kontakty
+ с https://madopar.com.ru/otzyvy
+ 225) 
+Даними висновку 84 від 16
+https://madopar.com.ru/madopar-instrukciya
+ 02 https://madopar.com.ru/madopar-instrukciya
+ 2012 р https://madopar.com.ru/otzyvy
+  комісійної судово-медичної
+експертизи за матеріалами справи
+відносно надання медичної допомоги
+ОСОБА_63, проведеної експертами Бюро
+судово-медичної експертизи ГУОЗ ЛОДА,
+відповідно до якого експерти прийшли
+до наступних висновків: 1
+https://madopar.com.ru/kontakty
+ ОСОБА_29 знаходився на лікуванні у
+Чортківській ЦРЛ з приводу гострого
+отруєння каналізаційними газами
+https://madopar.com.ru/otzyvy
+  Станом на 16 https://madopar.com.ru/voprosy-madopar
+ 08 https://madopar.com.ru/kontakty
+ 2008 р https://madopar.com.ru/stati
+  стан хворого залишався важким, кома
+ІІІ, знаходився на керованому диханні,
+з вираженими неврологічними змінами
+https://madopar.com.ru/otzyvy
+  Цей стан не потребував оперативного
+втручання - дренування шлуночків
+головного мозку https://madopar.com.ru
+  2 https://madopar.com.ru
+ Записи в історії хвороби про хід
+операції ОСОБА_63 в загальному, з
+певними неточностями, відповідають
+методикам проведення таких операцій
+https://madopar.com.ru
+  3 https://madopar.com.ru/voprosy-madopar
+ Враховуючи те, що Слюсарчук А
+https://madopar.com.ru/otzyvy
+ Т https://madopar.com.ru/madopar-instrukciya
+  не є лікарем, операція, проведенеа
+ним хворому ОСОБА_63, яка не була
+показана, є тілесним ушкодженням,
+ступінь тяжкості якого категорично
+встановити неможливо
+https://madopar.com.ru/voprosy-madopar
+  4 https://madopar.com.ru
+ Дані судово-медичного дослідження
+трупа свідчать про те, що операція не
+спричинила тяжких наслідків і не
+знаходиться у прямому причинному
+зв'язку з настанням смерті ОСОБА_29 5
+https://madopar.com.ru/madopar-instrukciya
+ Згідно даних консультативного
+перегляду мікропрепаратів 1080 ОСОБА_29
+в них знайдені значні альтернативні
+зміни печінки, нирок, міокарду, легень
+та головного мозку, що можуть виникати
+внаслідок значної токсичної дії, а
+патологічні зміни легень та нирок,
+крім того, мають ознаки травматичних
+ушкоджень (забій нирок та легень)
+https://madopar.com.ru
+  Згідно даних Висновку експерта" 221
+(експертиза трупа), смерть ОСОБА_29
+настала від отруєння сірководнем
+https://madopar.com.ru/voprosy-madopar
+  6 https://madopar.com.ru/otzyvy
+ Операції по трепанації черепа і
+лікуванні головного мозку
+проводяться у спеціалізованих
+нейрохірургічних відділеннях
+https://madopar.com.ru/stati
+  (Т https://madopar.com.ru/kontakty
+ 7 а https://madopar.com.ru/voprosy-madopar
+ с https://madopar.com.ru/stati
+ 209-216) 
+"
+
+You can contact MichaelSeeva via email, pasha-nikolayev-84@mail.ru
+
+--1667579872-eximdsn-958755982--

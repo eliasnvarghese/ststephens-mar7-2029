@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 6DpZAXz0bmMaNQ0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 11 Nov 2022 18:18:52 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 11 Nov 2022 18:18:52 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1otfAZ-003dk3-QQ
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 11 Nov 2022 18:18:51 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1otfAZ-003dji-BO@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1668215931-eximdsn-1772565329
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1otfAZ-003dk3-QQ@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 11 Nov 2022 18:18:51 -0700
+
+--1668215931-eximdsn-1772565329
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 tfAZottsLF1hF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=636ef47b p=GvFwvfa0AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=3HUpNLXf6UgA:10 a=7GahgLzVAAAA:8 a=yzGze2EC6LOpl8ifbzoA:9 a=QEXdDO2ut3YA:10 a=dEWpZZDrC7oA:10 a=CibDrvjnbmcA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=gU5fc-8I4YX8wYqbdrUv:22 a=YgOfC2YwrURCXwUPexHd:22 ::
+    100.00
+
+--1668215931-eximdsn-1772565329
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 tfAZottsLF1hF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WoDtc/Tv c=1 sm=1 tr=0 ts=636ef47b p=GvFwvfa0AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=3HUpNLXf6UgA:10 a=7GahgLzVAAAA:8 a=yzGze2EC6LOpl8ifbzoA:9 a=QEXdDO2ut3YA:10 a=dEWpZZDrC7oA:10 a=CibDrvjnbmcA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=gU5fc-8I4YX8wYqbdrUv:22 a=YgOfC2YwrURCXwUPexHd:22 :: 100.00
+
+--1668215931-eximdsn-1772565329
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1otfAZ-003dji-BO
+	for ginojohn@gmail.com; Fri, 11 Nov 2022 18:18:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Michaeladuch.
+X-PHP-Script: ststephenssanjose.org/contact.php for 144.76.41.194
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 144.76.41.194
+From: apple_bags@jerseyshoreelectric.com
+Reply-To: apple_bags@jerseyshoreelectric.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1otfAZ-003dji-BO@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 11 Nov 2022 18:18:51 -0700
+
+You have been contacted by Michaeladuch, and the message is as
+follows.
+
+"In today's business world,
+([url=https://motortanthanhtai.com/motor-dien-1hp-motor-dien-1-ngua--dong-co-dien-vo-gang-day-dong.html]homepage[/url])it's
+all about who you know. Making the right connections can mean the
+difference between success and failure. But how do you go about making
+those connections? That's where networking comes in. 
+ 
+In order to be successful in marketing, you need to understand your
+target audience and what they want. You also need to be able to create
+a campaign that is attention-grabbing and memorable. Furthermore, you
+need to have a clear message that you are trying to communicate to
+your audience. If you can do all of these things, then you will be
+well on your way to success in marketing."
+
+You can contact Michaeladuch via email,
+apple_bags@jerseyshoreelectric.com
+
+--1668215931-eximdsn-1772565329--

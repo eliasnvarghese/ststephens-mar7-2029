@@ -1,0 +1,66 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id xqeyGqWEQ2U/SSEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 02 Nov 2023 04:14:45 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 02 Nov 2023 04:14:45 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qyVev-0099UN-CL
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 02 Nov 2023 04:14:45 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qyVeq-0099Sv-FJ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qyVev-0099UN-CL@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 04:14:45 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qyVeq-0099Sv-FJ
+	for ginojohn@gmail.com;
+	Thu, 02 Nov 2023 04:14:40 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jolene Buford.
+X-PHP-Script: ststephenssanjose.org/contact.php for 154.53.87.148
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 154.53.87.148
+From: jolene.buford@gmail.com
+Reply-To: jolene.buford@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qyVeq-0099Sv-FJ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 02 Nov 2023 04:14:40 -0700
+
+You have been contacted by Jolene Buford, and the message is as
+follows.
+
+"Book Your Domains Today!!!
+
+ 57% Off .COM Domains- Great Domains, For Less. Limited-Time Offer,
+Just $5.98/Yr
+ Register Your Domain For Less. Up To $15 Off Privacy Protection
+ .Net Domains:- Save 30% On Registration Check Our Amazing Offers
+ 1-Month VPN Deal. Save 89% Get The 1-Month Plan For $0.88/Mo.
+30-Day Money-Back Guarantee
+
+Best Value Web Products. Services: Domain Names, Website Hosting, SSL
+Certificates.
+
+Register Your Domains Today & Avail Special Discount!!!
+
+https://tinyurl.com/y6ts45cb"
+
+You can contact Jolene Buford via email, jolene.buford@gmail.com

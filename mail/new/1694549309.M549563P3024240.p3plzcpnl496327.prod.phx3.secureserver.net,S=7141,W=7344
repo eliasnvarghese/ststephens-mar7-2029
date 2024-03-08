@@ -1,0 +1,203 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 4GSuID3FAGVwJS4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 12 Sep 2023 13:08:29 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 12 Sep 2023 13:08:29 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qg9gT-00Ci4Q-Fl
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 12 Sep 2023 13:08:29 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qg9gI-00Ci21-Gh@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1694549309-eximdsn-12932816
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qg9gT-00Ci4Q-Fl@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 12 Sep 2023 13:08:29 -0700
+
+--1694549309-eximdsn-12932816
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 g9gTqKzob2vUR :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IobYMpzg c=1 sm=1 tr=0 ts=6500c53d p=iBSI6sip-l1pusc4P7oA:9 p=PBnwL5oMrpH4qjbuonNg:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=5wGTyFJLgLsA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=43QI6AK4JXAA:10 a=b43O9QmcAAAA:20 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=zpIniSlf9j8A:10 a=KyYZJfTCSdMA:10 a=1s4NzDWWeNcmvwQfYx-o:22 a=uHaYqPfL7af_UsCaF3-0:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1694549309-eximdsn-12932816
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 g9gTqKzob2vUR :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IobYMpzg c=1 sm=1 tr=0 ts=6500c53d p=iBSI6sip-l1pusc4P7oA:9 p=PBnwL5oMrpH4qjbuonNg:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=5wGTyFJLgLsA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=43QI6AK4JXAA:10 a=b43O9QmcAAAA:20 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=zpIniSlf9j8A:10 a=KyYZJfTCSdMA:10 a=1s4NzDWWeNcmvwQfYx-o:22 a=uHaYqPfL7af_UsCaF3-0:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1694549309-eximdsn-12932816
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qg9gI-00Ci21-Gh
+	for ginojohn@gmail.com;
+	Tue, 12 Sep 2023 13:08:29 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Ross Willams.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.168.229
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.168.229
+From: ross.williams@gmail.com
+Reply-To: ross.williams@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qg9gI-00Ci21-Gh@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 12 Sep 2023 13:08:18 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Ross Willams, and the message is as
+follows.
+
+"NEW “AI” Tech Generating Leads For Local Businesses
+
+Together these 3 Marketing Veterans have 32 Years of experience in
+developing cutting-edge Marketing Software.
+
+Their latest creation is their best yet!
+
+Watch this short video to uncover this goldmine >>
+bit.ly/ConversionAIBot
+
+It’s “Artificial Intelligence” Technology similar to that used
+by HUGE Fortune 500 companies like:
+
+Facebook
+
+Spotify
+
+Starbucks
+
+Staples
+
+The Wall Street Journal
+
+Pizza Hut
+
+Disney
+
+H&M
+
+& Mastercard
+
+======
+
+So what’s this all about?
+
+CHATBOTS.
+
+They’re NEW and rapidly taking over the Internet.
+
+If you use Facebook Messenger, it’s very likely you’ve interacted
+with a Chatbot.
+
+Sometimes it’s actually quite hard to tell whether it’s a Robot or
+a real human speaking to you!
+
+It’s an incredibly powerful way, in 2023, to get more customers
+WITHOUT spending thousands on Live Chat agent employees.
+
+
+
+However..
+
+Most local businesses can’t afford to develop Chatbots for their own
+Website and their own brand.
+
+It’s highly sophisticated technology and it costs THOUSANDS and
+THOUSANDS of dollars to develop.
+
+Allow me to introduce ConversioBot - the Internet’s #1 Chatbot for
+Business Website Owners.
+
+It comes with a simple drag-and-drop builder. You can use it to easily
+create a branded, custom Bot for your business.
+
+WITHOUT any technical knowledge or special skills.
+
+It also comes with a range of DONE-FOR-YOU Bots which are designed to
+get any business more leads and more customers.
+
+ConversioBot comes with a full Commercial License allowing you to sell
+Bots to hungry local businesses.
+
+Their highly experienced team will show you exactly where there’s
+HOT demand for Chatbots.
+
+You can sell their Done-For-You Bots directly to local businesses.
+
+Think about how many businesses out there have a Website and DON’T
+have a Chatbot.
+
+It’s very common to sell them for $200 to $500 EACH! Sometimes even
+more!
+
+Watch this short video to uncover this goldmine >>
+bit.ly/ConversionAIBot
+
+The team at ConversioBot will also give you “pitch templates” you
+can copy and paste.
+
+These will do so much of the selling for you.
+
+They pitch Chatbots as a no-brainer to the businesses you’re selling
+them to.
+
+So you DON’T need:
+
+- any special skills or experience
+
+- to build your own Bots
+
+- any prior selling skills
+
+Watch ConversioBot In Action On This Page >> bit.ly/ConversionAIBot
+
+
+Chatbots are here to stay.
+
+Mark Zuckerburg, the founder of Facebook, has built a 10 Year Plan
+around them.
+
+This is a HOT business opportunity with serious LONG-TERM potential.
+
+Get in and ahead of the competition before it’s too late >>
+bit.ly/ConversionAIBot
+
+
+Regards,
+
+Ross
+"
+
+You can contact Ross Willams via email, ross.williams@gmail.com
+
+--1694549309-eximdsn-12932816--

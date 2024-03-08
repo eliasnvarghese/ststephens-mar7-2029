@@ -1,0 +1,76 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id IF/DIc717WPmBAIAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 16 Feb 2023 02:22:22 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 16 Feb 2023 02:22:22 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pSaT8-000zOk-Bg
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Thu, 16 Feb 2023 02:22:22 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pSaT3-000yQA-5P@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pSaT8-000zOk-Bg@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 16 Feb 2023 02:22:22 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pSaT3-000yQA-5P
+	for ginojohn@gmail.com;
+	Thu, 16 Feb 2023 02:22:17 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by StephenEmaks.
+X-PHP-Script: ststephenssanjose.org/contact.php for 5.227.29.140
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 5.227.29.140
+From: ticomino@mail.ru
+Reply-To: ticomino@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pSaT3-000yQA-5P@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 16 Feb 2023 02:22:17 -0700
+
+You have been contacted by StephenEmaks, and the message is as
+follows.
+
+"[url=https://waterloo-collection.ru]Антикварный
+магазин офицерских вещей[/url]. Основное
+направление уделено антикварному
+оружию, имеющему культурную ценность.
+Широким выбором представлены сабли,
+шпаги, палаши, мечи, кортики разных
+периодов из множества стран мира. 
+также можно прибрести:  
+[url=https://waterloo-collection.ru/93625/]Ножны от
+советской шашки - ИМЗ - стоимость[/url]  
+ 
+Вся продукция, представленная Вашему
+вниманию, соответствует действующему
+законодательству Российской
+Федерации, регулирующему данную
+сферу! Все предметы имеют заключения
+экспертов, аттестованных
+Министерством Культуры РФ. Данные
+экспертные заключения имеют
+государственную регистрацию
+Министерства Культуры и заверены
+подписью руководителя данного
+Министерства. 
+Посетите наш сайт
+[url=https://waterloo-collection.ru/]waterloo-collection.ru[/url]"
+
+You can contact StephenEmaks via email, ticomino@mail.ru

@@ -1,0 +1,165 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 3fOvMXU3ZGMc8iwAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 14:49:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 14:49:41 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqi5l-00CMms-ML
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 14:49:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqi5l-00CMm0-88@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667512181-eximdsn-1965028889
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqi5l-00CMms-ML@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 14:49:41 -0700
+
+--1667512181-eximdsn-1965028889
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qi5lowfOYwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63643775 p=ZqNak0aqHRgA:10 p=tkl-wEA3AAAA:8 p=zXK0HuMUKdkA:10 p=6igJl9roFZsA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=SZSH82HpCSMA:10 a=mem--OOHAAAA:8 a=4tdhK5mmc-U5gf_z0lAA:9 a=QEXdDO2ut3YA:10 a=I1fqqk2ueVQA:10 a=ac22URugJ5MA:10 a=kIGrWsS1n-AA:10 a=5DGxCJclJFAA:10 a=veXoSlFEnJoA:10 a=stoA4yyiJnAA:10 a=nfv5TUZork4A:10 a=33VLT14CoboA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Ju0w42RjTtP-wn-5VfFQ:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667512181-eximdsn-1965028889
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qi5lowfOYwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=63643775 p=ZqNak0aqHRgA:10 p=tkl-wEA3AAAA:8 p=zXK0HuMUKdkA:10 p=6igJl9roFZsA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=SZSH82HpCSMA:10 a=mem--OOHAAAA:8 a=4tdhK5mmc-U5gf_z0lAA:9 a=QEXdDO2ut3YA:10 a=I1fqqk2ueVQA:10 a=ac22URugJ5MA:10 a=kIGrWsS1n-AA:10 a=5DGxCJclJFAA:10 a=veXoSlFEnJoA:10 a=stoA4yyiJnAA:10 a=nfv5TUZork4A:10 a=33VLT14CoboA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=Ju0w42RjTtP-wn-5VfFQ:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667512181-eximdsn-1965028889
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqi5l-00CMm0-88
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 14:49:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Emanuelsuisa.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: olesya.zhukova.1994@bk.ru
+Reply-To: olesya.zhukova.1994@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqi5l-00CMm0-88@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 14:49:41 -0700
+
+You have been contacted by Emanuelsuisa, and the message is as
+follows.
+
+"По этой причине даже
+квалифицированный специалист не
+способен точно ответить, сколько
+стоит капитальный ремонт двигателя
+без предварительной разборки и
+дефектовки мотора
+http://dmalmotors.ru/remont-generatorov.html
+  Также зачастую не удается на
+начальном этапе определить и полный
+список запчастей для капитального
+ремонта двигателя
+http://dmalmotors.ru/remont-avtoelektriki.html
+  Все будет зависеть от износа,
+характера возможных повреждений и
+других факторов
+http://dmalmotors.ru/zamena-masel-i-filtrov.html
+  Также не следует забывать и о том, что
+капремонт может потребоваться не
+только  и узлам, которые расположены в
+нем, но и  с установленным в головке
+блока  http://dmalmotors.ru
+ 
+
+Обратная сборка головки цилиндра
+также начинается с первого поршня,
+также проворачиваете двигатель таким
+образом, чтобы его шейка находилась в
+самом нижнем положении
+http://dmalmotors.ru/zamena-masel-i-filtrov.html
+  Обильно смазываем канал цилиндра и
+вставляем первую поршневую группу
+(поршень и шатун в сборе) стрелкой к
+передней части силового агрегата
+http://dmalmotors.ru/zamena-tsepi-ili-remnya-grm.html
+  Обильно смазываем вкладыш
+подшипника и закрываем крышкой
+http://dmalmotors.ru/remont-starterov.html
+  Смазываем контактные поверхности и
+закручиваем гайки
+http://dmalmotors.ru/zamena-tsepi-ili-remnya-grm.html
+  Проверяем еще раз правильность
+ориентации крышки, проворачиваем
+коленвал, проверяя, есть ли свободное
+вращение
+http://dmalmotors.ru/remont-sistemy-okhlazhdeniya.html
+  Данную процедуру повторяем с каждым
+установленной поршневой группой,
+затем устанавливаем насос, поддон и
+головку блока на место
+http://dmalmotors.ru/zamena-i-remont-stsepleniya.html
+ 
+
+Текущий ремонт представляет собой
+наименьший по объему вид работ, после
+выполнения которых восстанавливается
+работоспособность двигателя
+http://dmalmotors.ru/remont-korobki-peredach.html
+  Как правило, текущий ремонт
+производится без полной разборки
+двигателя и заключается в замене
+вышедших из строя деталей или
+механизмов (например, замена ремня
+привода жидкостного насоса, стартера,
+форсунки или свечи зажигания и др
+http://dmalmotors.ru
+ ) http://dmalmotors.ru
+ 
+Исправный двигатель должен
+удовлетворять следующим основным
+требованиям: работать без стуков и
+перебоев, с минимальным содержанием
+токсичных веществ в отработавших
+газах, иметь легкий пуск, герметичные
+системы питания и охлаждения и др
+https://dmalmotors.ru/remont-generatorov.html
+  Двигатель должен быть подвергнут
+ремонту при невыполнении этих и
+других требований, а также в случае
+отказа в работе его отдельных
+агрегатов
+http://dmalmotors.ru/zamena-i-remont-stsepleniya.html
+  Во время эксплуатации ремонт
+двигателя подразделяют на текущий и
+капитальный
+http://dmalmotors.ru/zamena-masel-i-filtrov.html
+ 
+"
+
+You can contact Emanuelsuisa via email, olesya.zhukova.1994@bk.ru
+
+--1667512181-eximdsn-1965028889--

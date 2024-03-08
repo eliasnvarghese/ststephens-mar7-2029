@@ -1,0 +1,128 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id d+A7D50wXGXX4AUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 20 Nov 2023 21:22:53 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 20 Nov 2023 21:22:53 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r5IHl-001cDQ-5i
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 20 Nov 2023 21:22:53 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r5IHg-001cBk-HJ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700540573-eximdsn-353654195
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r5IHl-001cDQ-5i@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 20 Nov 2023 21:22:53 -0700
+
+--1700540573-eximdsn-353654195
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 5IHlrjgQyiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=655c309d p=MTXg8JMWAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=1ueqkmufvKEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=TxuNUDwBGDUA:10 a=AAvYLDLOAAAA:8 a=hi4bMntCFt7HouBVx6MA:9 a=QEXdDO2ut3YA:10 a=0LP5UwpZmScA:10 a=gACUCMY_sR8A:10 a=KyYZJfTCSdMA:10 a=M_1YaC4UgHLE1-pI4Ftn:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1700540573-eximdsn-353654195
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 5IHlrjgQyiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=655c309d p=MTXg8JMWAAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=1ueqkmufvKEA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=TxuNUDwBGDUA:10 a=AAvYLDLOAAAA:8 a=hi4bMntCFt7HouBVx6MA:9 a=QEXdDO2ut3YA:10 a=0LP5UwpZmScA:10 a=gACUCMY_sR8A:10 a=KyYZJfTCSdMA:10 a=M_1YaC4UgHLE1-pI4Ftn:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1700540573-eximdsn-353654195
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r5IHg-001cBk-HJ
+	for ginojohn@gmail.com;
+	Mon, 20 Nov 2023 21:22:53 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Theresa Smith.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.81.70.76
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.81.70.76
+From: david.trinidad@msn.com
+Reply-To: david.trinidad@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r5IHg-001cBk-HJ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 20 Nov 2023 21:22:48 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Theresa Smith, and the message is as
+follows.
+
+"Hello,
+
+I work for Elebands. 
+
+We make ultra-thin, fashionable, all day wearable body weight bands
+that you put on your wrist, ankle & waist all day to burn up to 1,500
+calories, and the best part is, we have bands for sports, casual and
+formal, so you can wear them with any outfit and look fashionable. 
+
+The problem that most people face, is a tug of war between working out
+or putting more time in at work, and the worst thing is, most people
+choose work, and that is why the mortality rate today is so high for
+executives and the working class. 
+
+That is why we are so excited to solve this problem with our
+ultra-thin, fashionable, all day wearable body weight bands that allow
+you to lose weight and get fit no matter where you are and no matter
+what you are doing.
+
+Benefits You’ll Get Instantly:
+ You’ll burn up to 1,500 calories a day as your body gets more
+toned.
+ You’ll start losing weight the natural way without having to
+workout.
+ You’ll start building more muscles and strength as you just go
+about your day.
+
+Imagine getting the body you always wanted, without having to workout
+at a gym or having to go on a stressful diet. Well now you can, with
+Elebands. 
+
+Many of our clients are losing 2-3 pounds a week and getting
+tremendous health benefits.
+
+Use this coupon code to get 20% off:  SAVE-20%-TODAY
+
+Visit our site now and get the body you always wanted:
+https://bit.ly/elebands 
+
+Theresa Smith
+Brand Ambassador 
+Elebands USA
+
+GET STARTED NOW: https://bit.ly/elebands 
+"
+
+You can contact Theresa Smith via email, david.trinidad@msn.com
+
+--1700540573-eximdsn-353654195--

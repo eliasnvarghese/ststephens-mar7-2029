@@ -1,0 +1,54 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id KMXBBUmZbGQVqh4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 23 May 2023 03:45:29 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 23 May 2023 03:45:29 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q1PWD-008R7z-1b
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 23 May 2023 03:45:29 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q1PW8-008R7H-LD@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1q1PWD-008R7z-1b@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 23 May 2023 03:45:29 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q1PW8-008R7H-LD
+	for ginojohn@gmail.com;
+	Tue, 23 May 2023 03:45:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by RobertScubs.
+X-PHP-Script: ststephenssanjose.org/contact.php for 8.219.211.176
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 8.219.211.176
+From: qgzpkq@course-fitness.com
+Reply-To: qgzpkq@course-fitness.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q1PW8-008R7H-LD@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 23 May 2023 03:45:24 -0700
+
+You have been contacted by RobertScubs, and the message is as follows.
+
+"小琪兒娛樂 
+ 
+ 
+https://taipei9527.com/"
+
+You can contact RobertScubs via email, qgzpkq@course-fitness.com

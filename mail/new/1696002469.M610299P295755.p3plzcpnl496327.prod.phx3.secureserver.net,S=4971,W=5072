@@ -1,0 +1,101 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id Sh5CJKXxFmVLgwQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 29 Sep 2023 08:47:49 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 29 Sep 2023 08:47:49 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qmFiX-001Exu-Hd
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 29 Sep 2023 08:47:49 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qmFiS-001Ewq-JP@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696002469-eximdsn-1975049517
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qmFiX-001Exu-Hd@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 29 Sep 2023 08:47:49 -0700
+
+--1696002469-eximdsn-1975049517
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 mFiXqsvzYIKdu :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=6516f1a5 p=fP8OFsgIAAAA:8 p=nlhHfOppw5lNqjUIQOGZ:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=8KeleGZQZb8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=aIxhxc91m34A:10 a=AAvYLDLOAAAA:8 a=YqTKzDrL-nUJDyJbCHIA:9 a=QEXdDO2ut3YA:10 a=OJv3meq2fGIA:10 a=zgiPjhLxNE0A:10 a=1R7P2nqWWkenmYcwMpEE:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1696002469-eximdsn-1975049517
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 mFiXqsvzYIKdu :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RqIDbgqK c=1 sm=1 tr=0 ts=6516f1a5 p=fP8OFsgIAAAA:8 p=nlhHfOppw5lNqjUIQOGZ:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=8KeleGZQZb8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=aIxhxc91m34A:10 a=AAvYLDLOAAAA:8 a=YqTKzDrL-nUJDyJbCHIA:9 a=QEXdDO2ut3YA:10 a=OJv3meq2fGIA:10 a=zgiPjhLxNE0A:10 a=1R7P2nqWWkenmYcwMpEE:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1696002469-eximdsn-1975049517
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qmFiS-001Ewq-JP
+	for ginojohn@gmail.com;
+	Fri, 29 Sep 2023 08:47:49 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Esperanza Mcdaniels.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.240.4
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.240.4
+From: mcdaniels.esperanza@msn.com
+Reply-To: mcdaniels.esperanza@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qmFiS-001Ewq-JP@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 29 Sep 2023 08:47:44 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Esperanza Mcdaniels, and the message is as
+follows.
+
+"Hi,
+
+I hope this email finds you well. I wanted to remind you about the
+amazing opportunity to get $500 in Google Ad credit when you sign up
+for aireact.net.
+
+Adcreative.ai is a banner automation software that allows you to
+create professional ads and social media content with the help of AI.
+It's an all-in-one solution for your advertising needs, and it can
+help you generate more leads and sales for your business.
+
+The $500 Ad credit is a limited-time offer, so don't miss out on this
+amazing opportunity. If you're interested in learning more check this
+out. aireact.net
+
+Best regards,
+"
+
+You can contact Esperanza Mcdaniels via email,
+mcdaniels.esperanza@msn.com
+
+--1696002469-eximdsn-1975049517--

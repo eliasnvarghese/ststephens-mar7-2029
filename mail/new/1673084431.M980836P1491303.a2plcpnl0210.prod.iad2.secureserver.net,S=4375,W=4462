@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id cIxGOg8+uWNnwRYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sat, 07 Jan 2023 02:40:31 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sat, 07 Jan 2023 02:40:31 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pE5gl-006HDD-Rk
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sat, 07 Jan 2023 02:40:31 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pE5gg-006H50-Vq@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1673084431-eximdsn-1510769518
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pE5gl-006HDD-Rk@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 07 Jan 2023 02:40:31 -0700
+
+--1673084431-eximdsn-1510769518
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 E5glpRA5iAJAH :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=dOVg2sVb c=1 sm=1 tr=0 ts=63b93e0f p=NssOMh7LLyUA:10 p=4Bz3voZjAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RvmDmJFTN0MA:10 a=Hi3vcq4CemZSwUcsQYgA:9 a=QEXdDO2ut3YA:10 a=nLQtPCcTcaoA:10 a=M7TNRQoGUL0A:10 a=HoCwC6xmbSkA:10 a=0A5OLpylI0IA:10 a=acewEgQMpYTsClr9keMy:22 a=XkmTYLD8o7o1R3pwoqRq:22 ::
+    100.00
+
+--1673084431-eximdsn-1510769518
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 E5glpRA5iAJAH :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=dOVg2sVb c=1 sm=1 tr=0 ts=63b93e0f p=NssOMh7LLyUA:10 p=4Bz3voZjAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RvmDmJFTN0MA:10 a=Hi3vcq4CemZSwUcsQYgA:9 a=QEXdDO2ut3YA:10 a=nLQtPCcTcaoA:10 a=M7TNRQoGUL0A:10 a=HoCwC6xmbSkA:10 a=0A5OLpylI0IA:10 a=acewEgQMpYTsClr9keMy:22 a=XkmTYLD8o7o1R3pwoqRq:22 :: 100.00
+
+--1673084431-eximdsn-1510769518
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pE5gg-006H50-Vq
+	for ginojohn@gmail.com;
+	Sat, 07 Jan 2023 02:40:31 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Damian Doss.
+X-PHP-Script: ststephenssanjose.org/contact.php for 149.56.173.77
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 149.56.173.77
+From: damian@damiandoss.com
+Reply-To: damian@damiandoss.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pE5gg-006H50-Vq@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sat, 07 Jan 2023 02:40:26 -0700
+
+You have been contacted by Damian Doss, and the message is as follows.
+
+"I saw a page on your website that was broken. I know a lot about
+website optimization and I would like to volunteer my time to fix some
+of your site for free. Please feel free to reach out.
+
+Feel free to call me or text me  1 (205) 383-3754
+
+Damian
+"
+
+You can contact Damian Doss via email, damian@damiandoss.com
+
+--1673084431-eximdsn-1510769518--

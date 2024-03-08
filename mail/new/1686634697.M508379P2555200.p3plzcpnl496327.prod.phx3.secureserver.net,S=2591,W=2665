@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 0CyuHckAiGRA/SYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 12 Jun 2023 22:38:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 12 Jun 2023 22:38:17 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q8wjR-00AjYE-ES
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 12 Jun 2023 22:38:17 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q8wjN-00AjXW-1F@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1q8wjR-00AjYE-ES@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 12 Jun 2023 22:38:17 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q8wjN-00AjXW-1F
+	for ginojohn@gmail.com;
+	Mon, 12 Jun 2023 22:38:13 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by  William   Davis .
+X-PHP-Script: ststephenssanjose.org/contact.php for 104.143.224.233
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 104.143.224.233
+From: fromm.twyla46@gmail.com
+Reply-To: fromm.twyla46@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q8wjN-00AjXW-1F@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 12 Jun 2023 22:38:13 -0700
+
+You have been contacted by  William   Davis , and the message is as
+follows.
+
+"Hi There,
+
+I found some issues with your website which in turn could be limiting
+your traffic. find your report on the issues at
+https://pxl.to/site-report
+
+Regards 
+
+ Richard   Jones 
+
+
+
+
+
+
+
+
+
+
+//Optout//
+
+To stop receiving any further communication, 
+please opt out at https://pxl.to/optout"
+
+You can contact  William   Davis  via email, fromm.twyla46@gmail.com

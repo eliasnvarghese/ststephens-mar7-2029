@@ -1,0 +1,135 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id eEP0CSvj/mOZWgAAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Tue, 28 Feb 2023 22:31:23 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Tue, 28 Feb 2023 22:31:27 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pXF3i-00070g-Ps
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Tue, 28 Feb 2023 22:31:22 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pXF3d-0006xt-CJ@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1677648682-eximdsn-1905706826
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pXF3i-00070g-Ps@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 28 Feb 2023 22:31:22 -0700
+
+--1677648682-eximdsn-1905706826
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 XF3ipYhC6elrp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=63fee32a p=XBi1MCmfsJoA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=75EXHV2kKJAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=x7bEGLp0ZPQA:10 a=aYTh6vUEeKoA:10 a=JONyAKoTAAAA:8 a=mem--OOHAAAA:8 a=13TkylFyI1ez0s0BXi8A:9 a=QEXdDO2ut3YA:10 a=RKU9Jiz3ILEA:10 a=WGAfVCJ_pcYA:10 a=KyYZJfTCSdMA:10 a=M5n8Z7rGbxDS5F6GruK-:22 a=acewEgQMpYTsClr9keMy:22 a=-txsYDWYoKTsbh4kLzY3:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1677648682-eximdsn-1905706826
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 XF3ipYhC6elrp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Z7EqXldA c=1 sm=1 tr=0 ts=63fee32a p=XBi1MCmfsJoA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=75EXHV2kKJAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=x7bEGLp0ZPQA:10 a=aYTh6vUEeKoA:10 a=JONyAKoTAAAA:8 a=mem--OOHAAAA:8 a=13TkylFyI1ez0s0BXi8A:9 a=QEXdDO2ut3YA:10 a=RKU9Jiz3ILEA:10 a=WGAfVCJ_pcYA:10 a=KyYZJfTCSdMA:10 a=M5n8Z7rGbxDS5F6GruK-:22 a=acewEgQMpYTsClr9keMy:22 a=-txsYDWYoKTsbh4kLzY3:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1677648682-eximdsn-1905706826
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pXF3d-0006xt-CJ
+	for ginojohn@gmail.com;
+	Tue, 28 Feb 2023 22:31:22 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MasnaLkew.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.188.20.88
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.188.20.88
+From: masnalegirtoper@bk.ru
+Reply-To: masnalegirtoper@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pXF3d-0006xt-CJ@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Tue, 28 Feb 2023 22:31:17 -0700
+
+You have been contacted by MasnaLkew, and the message is as follows.
+
+"Добрый день, мы производим отделку в
+кабинете для процедур лечения
+пиявками. Подскажите какая
+[url=http://www.world-art.ru/animation/animation.php?id=10713]расценки
+полусухой стяжки  и стоимость 
+Бетонный пол для коттеджа из каркаса
+лстк?[/url]  Какую толщину стяжки пола
+возможно делать в медицинском
+кабинете? Каким образом прикинуть
+стройматериалы? Полусухая стяжка 
+имеет следующие плюсы и недостатки: 
+Плюсы 
+Полусухая стяжка кладется на все
+разновидности черновой поверхности,
+повышая при этом тепло-, гидро- и
+шумоизоляцию помещения. Среди
+ключевых достоинств: 
+высокая крепость 
+невысокая цена материалов,
+возмещающая траты на услуги компании
+мастеров 
+выгодный случай спрятать под полом
+коммуникации 
+допустимость устройства теплых полов
+
+Недостатки 
+Недостатки полусухой стяжки пола:
+Трудоемкость ручного замешивания. При
+нем невозможно достичь нужной густоты
+состава из-за его низкой текучести.
+Поэтому нужно профессиональное
+оснащение. Надобность укладывать
+большой слой раствора. Это
+обусловлено слабой фактурой и малой
+плотностью сухой заготовки. Кстати, по
+роду деятельности нужно много ездить.
+Поэтому вот полезный совет: очень
+хорошо экономить горючее позволяют
+бензиновые карты. Думаю пригодится.
+Уменьшение сделок по земле. Из-за
+сокращения спроса на недвижимость и
+спроса на земельные участки под новые
+проекты компании начали аккуратнее
+подходить к приобретению земли под
+новое строительство, что уже привело к
+сокращению по результатам прошлого
+года договоров в этом срезе на 15-20 %.
+Инвестировать в приобретение
+участков могут в основном
+застройщики, повысившие прибыль на
+волне ажиотажных продаж, и местные
+игроки. Но их ценовые ожидания нередко
+расходятся с ценой предложения,
+объясняют специалисты. На этой волне
+размер вложений в землю в этом году
+сохранится скромным. "
+
+You can contact MasnaLkew via email, masnalegirtoper@bk.ru
+
+--1677648682-eximdsn-1905706826--

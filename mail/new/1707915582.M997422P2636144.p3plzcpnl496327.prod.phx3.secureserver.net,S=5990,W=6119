@@ -1,0 +1,129 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 40/fOj65zGVwOSgACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 14 Feb 2024 05:59:42 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 14 Feb 2024 05:59:42 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1raErW-00B3mK-2x
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 14 Feb 2024 05:59:42 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1raErR-00B3lT-2F@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1707915582-eximdsn-789472716
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1raErW-00B3mK-2x@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 14 Feb 2024 05:59:42 -0700
+
+--1707915582-eximdsn-789472716
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 aErWrTTep5URZ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=CsMccW4D c=1 sm=1 tr=0 ts=65ccb93e p=RG5tIuQWDNrdKeO6dsdY:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=MKtGQD3n3ToA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=L5jfks-gft0A:10 a=huvbmMDMAAAA:8 a=eQBPJK_bAAAA:8 a=sD6286Hy-Z0wV9E77dUA:9 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=ogv06m89ea0A:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=jycUkCEYUnZvh0PkXkJV:22 a=X9fPweFELI3g4u6mKOBy:22 ::
+    100.00
+
+--1707915582-eximdsn-789472716
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 aErWrTTep5URZ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=CsMccW4D c=1 sm=1 tr=0 ts=65ccb93e p=RG5tIuQWDNrdKeO6dsdY:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=IkcTkHD0fZMA:10 a=MKtGQD3n3ToA:10 a=Q8mBbTjvhdIA:10 a=k7vzHIieQBIA:10 a=L5jfks-gft0A:10 a=huvbmMDMAAAA:8 a=eQBPJK_bAAAA:8 a=sD6286Hy-Z0wV9E77dUA:9 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=ogv06m89ea0A:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=jycUkCEYUnZvh0PkXkJV:22 a=X9fPweFELI3g4u6mKOBy:22 :: 100.00
+
+--1707915582-eximdsn-789472716
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1raErR-00B3lT-2F
+	for ginojohn@gmail.com;
+	Wed, 14 Feb 2024 05:59:42 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Kelli Harmon.
+X-PHP-Script: ststephenssanjose.org/contact.php for 104.168.171.108
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 104.168.171.108
+From: seorank@busitoday.co
+Reply-To: seorank@busitoday.co
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1raErR-00B3lT-2F@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 14 Feb 2024 05:59:37 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Kelli Harmon, and the message is as
+follows.
+
+"
+Hello, 
+I'm Kelli from Busitoday, Busitoday noticed that you have an excellent
+website ststephenssanjose.org. 
+
+Every webmaster like you who is serious about their website/business
+has considered or is considering buying SEO services to grow
+traffic/sales. 
+
+But how to find qualified SEO services? If there is a dispute, how do
+you make sure you can get a refund?
+
+Here is the solution you need: SEO service providers are verified and
+praised by webmasters like you, the largest service trading platform
+in the world to protect your rights and interests, only if you get
+what you want, the platform will hand over your payment to the service
+provider  
+
+Service provider example (the highest rating is 5.0):  
+	Name: Michael - Starting Price: $5, 4 Days Delivery (22,600 orders
+completed) - Method: Build 100 high quality and low OBL backlinks for
+your money site - Webmasters satisfaction rating: 4.9
+	  
+	Name: Wasim Ashraf - Starting price: $15, 1 Days Delivery (2,800
+orders completed) - Method: On-Page SEO For Higher Rankings in Google
+Search Results - Webmasters satisfaction rating: 5.0  
+	...  
+	For Super website, Provider – Randys Mccabe is an ex-Googler and
+has helped 3900 Super websites grow their sites, and webmasters rated
+him 5.0! Starting Price: $250. Now search for his name within the
+platform and chat with him online: https://www.busitoday.co/seorank .
+
+
+Other services include: writing SEO friendly posts, social media
+management, sales email copywriting...
+
+Now sign up for a platform account and grow your traffic:
+https://www.busitoday.co/seorank 
+
+Thank you for your time,  
+Kelli D. Harmon
+
+
+UNSUBSCRIBE: https://www.busitoday.co/unsubscribe/
+Address: 740 The Pkwy, Richland, WA 99352
+"
+
+You can contact Kelli Harmon via email, seorank@busitoday.co
+
+--1707915582-eximdsn-789472716--

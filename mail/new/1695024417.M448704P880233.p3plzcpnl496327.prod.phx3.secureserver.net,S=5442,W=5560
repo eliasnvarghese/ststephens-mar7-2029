@@ -1,0 +1,118 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id eA2jGiEFCGVpbg0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 18 Sep 2023 01:06:57 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 18 Sep 2023 01:06:57 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qi9HV-003gzD-CJ
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 18 Sep 2023 01:06:57 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qi9HQ-003gy4-A6@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1695024417-eximdsn-1732490394
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qi9HV-003gzD-CJ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 18 Sep 2023 01:06:57 -0700
+
+--1695024417-eximdsn-1732490394
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 i9HVq29jDzbc9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=65080521 p=8Z1muFR0AAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=d2zHhSgb4_UA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=jVKxN1bsacwA:10 a=69EAbJreAAAA:8 a=_08Jogo0btf1rxw_ZwYA:9 a=QEXdDO2ut3YA:10 a=6Qx9ugcGw4EA:10 a=PhcEIJLhlZgA:10 a=ElL2piz2ihEA:10 a=KyYZJfTCSdMA:10 a=MIr7STu6etf-sFkf_6bc:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1695024417-eximdsn-1732490394
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 i9HVq29jDzbc9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fapriWcF c=1 sm=1 tr=0 ts=65080521 p=8Z1muFR0AAAA:20 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=d2zHhSgb4_UA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=jVKxN1bsacwA:10 a=69EAbJreAAAA:8 a=_08Jogo0btf1rxw_ZwYA:9 a=QEXdDO2ut3YA:10 a=6Qx9ugcGw4EA:10 a=PhcEIJLhlZgA:10 a=ElL2piz2ihEA:10 a=KyYZJfTCSdMA:10 a=MIr7STu6etf-sFkf_6bc:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1695024417-eximdsn-1732490394
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qi9HQ-003gy4-A6
+	for ginojohn@gmail.com;
+	Mon, 18 Sep 2023 01:06:57 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Michael Sinclair.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.105.6.212
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.105.6.212
+From: brown.marcelo@hotmail.com
+Reply-To: brown.marcelo@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qi9HQ-003gy4-A6@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 18 Sep 2023 01:06:52 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Michael Sinclair, and the message is as
+follows.
+
+"Hello,
+	
+I just wanted to see if you would be open to getting a Full-Time
+Virtual Assistant + an AI Agent team for one week FREE, and the best
+part is, there is no obligation to continue, and no credit card or
+payment required to try us out.
+
+But this offer is only good this week, for the first 20 clients, so
+you need to claim your Virtual Assistant and AI Team Now, before you
+miss out.  
+
+Click Here to Get Started: https://bit.ly/free-va-promo
+
+Using Our Virtual Assistants + an AI Agent Team will allow you to:
+
+- Handle a variety of tasks and projects for you so that your day is
+more productive
+- Follow up on internal/external resources to ensure that there is
+daily progress
+- Give you back time to focus on building your business instead of
+admin tasks
+
+... and much, MUCH more!
+
+This FREE Offer is worth over $400, and you are getting it for
+ABSOLUTELY FREE, so Don’t miss out!!! 
+
+Click Here to Get Started: https://bit.ly/free-va-promo
+		
+Best, 
+
+Michael Sinclair
+Business Development
+Myaa
+"
+
+You can contact Michael Sinclair via email, brown.marcelo@hotmail.com
+
+--1695024417-eximdsn-1732490394--

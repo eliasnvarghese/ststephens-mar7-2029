@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id iFMvJ56au2MFFg4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 08 Jan 2023 21:39:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 08 Jan 2023 21:39:58 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pEjx0-003sh6-IV
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Sun, 08 Jan 2023 21:39:58 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pEjws-003scP-HP@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1673239198-eximdsn-347727634
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pEjx0-003sh6-IV@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 08 Jan 2023 21:39:58 -0700
+
+--1673239198-eximdsn-347727634
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Ejx0pnk8PjpWY :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KO2cTnJo c=1 sm=1 tr=0 ts=63bb9a9e p=ftJia5d-9KwA:10 p=GBAOGxbzZIoA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RvmDmJFTN0MA:10 a=x7bEGLp0ZPQA:10 a=JZyfrA8uXLEA:10 a=gSW2J7KsAAAA:8 a=RgBw9RmQAAAA:8 a=0VafI3GGS0o-CryUnWkA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=pD8mp5RHRlEA:10 a=zNxVj398nLEA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=_KE4PiwVI3kZ2T44Jtd7:22 ::
+    100.00
+
+--1673239198-eximdsn-347727634
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Ejx0pnk8PjpWY :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KO2cTnJo c=1 sm=1 tr=0 ts=63bb9a9e p=ftJia5d-9KwA:10 p=GBAOGxbzZIoA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RvmDmJFTN0MA:10 a=x7bEGLp0ZPQA:10 a=JZyfrA8uXLEA:10 a=gSW2J7KsAAAA:8 a=RgBw9RmQAAAA:8 a=0VafI3GGS0o-CryUnWkA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=pD8mp5RHRlEA:10 a=zNxVj398nLEA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=_KE4PiwVI3kZ2T44Jtd7:22 :: 100.00
+
+--1673239198-eximdsn-347727634
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pEjws-003scP-HP
+	for ginojohn@gmail.com;
+	Sun, 08 Jan 2023 21:39:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by SeptikGet.
+X-PHP-Script: ststephenssanjose.org/contact.php for 95.79.194.118
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 95.79.194.118
+From: taisiya.alximowa@mail.ru
+Reply-To: taisiya.alximowa@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pEjws-003scP-HP@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 08 Jan 2023 21:39:50 -0700
+
+You have been contacted by SeptikGet, and the message is as follows.
+
+" 
+[url=http://septiki-nn.ru]кессоны нижний
+новгород[/url]  - подробнее на сайте
+[url=http://septiki-nn.ru]septiki-nn.ru[/url]"
+
+You can contact SeptikGet via email, taisiya.alximowa@mail.ru
+
+--1673239198-eximdsn-347727634--

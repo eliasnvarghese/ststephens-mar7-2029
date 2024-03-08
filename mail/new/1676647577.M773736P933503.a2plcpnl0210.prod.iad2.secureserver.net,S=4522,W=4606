@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OAOEJ5mc72N/Pg4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 17 Feb 2023 08:26:17 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 17 Feb 2023 08:26:17 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pT2cr-004ByG-Ed
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Fri, 17 Feb 2023 08:26:17 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pT2cm-004Bvm-7e@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1676647577-eximdsn-61920950
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pT2cr-004ByG-Ed@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 17 Feb 2023 08:26:17 -0700
+
+--1676647577-eximdsn-61920950
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 T2crps8salA5Y :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=63ef9c99 p=iWHbSmtIfcoA:10 p=yZdeWiTxiOEA:10 p=f06j14LkQuvhxURBNRBb:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=x7bEGLp0ZPQA:10 a=1E7jyxxXQewA:10 a=xbxY8FyLAAAA:8 a=69EAbJreAAAA:8 a=uKHu3IiDrnJrx5AuAvcA:9 a=QEXdDO2ut3YA:10 a=lZIlLwQ9S1kA:10 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1676647577-eximdsn-61920950
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 T2crps8salA5Y :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=63ef9c99 p=iWHbSmtIfcoA:10 p=yZdeWiTxiOEA:10 p=f06j14LkQuvhxURBNRBb:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=x7bEGLp0ZPQA:10 a=1E7jyxxXQewA:10 a=xbxY8FyLAAAA:8 a=69EAbJreAAAA:8 a=uKHu3IiDrnJrx5AuAvcA:9 a=QEXdDO2ut3YA:10 a=lZIlLwQ9S1kA:10 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1676647577-eximdsn-61920950
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pT2cm-004Bvm-7e
+	for ginojohn@gmail.com;
+	Fri, 17 Feb 2023 08:26:16 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by JosephSLURI.
+X-PHP-Script: ststephenssanjose.org/contact.php for 2.135.152.103
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 2.135.152.103
+From: aosipenkos@hotmail.com
+Reply-To: aosipenkos@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pT2cm-004Bvm-7e@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 17 Feb 2023 08:26:12 -0700
+
+You have been contacted by JosephSLURI, and the message is as follows.
+
+"Bit late to this Stuart. https://context.reverso.net/ I didn't get
+all my Euro tickets as was in different bookings and my mate thought
+the souvenir covered all your bookings for the tournament. He was led
+on knockout games and didn't tick the box. Anyway I got spare Croatia,
+Czech, Scotland. But missing the rest :("
+
+You can contact JosephSLURI via email, aosipenkos@hotmail.com
+
+--1676647577-eximdsn-61920950--

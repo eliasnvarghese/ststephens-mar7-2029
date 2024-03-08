@@ -1,0 +1,131 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id SQ+AFfQRv2SwKyYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 24 Jul 2023 17:06:12 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 24 Jul 2023 17:06:12 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qO5Z6-00AUlW-9k
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 24 Jul 2023 17:06:12 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qO5Z0-00AUkL-Ua@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690243572-eximdsn-1108507614
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qO5Z6-00AUlW-9k@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 24 Jul 2023 17:06:12 -0700
+
+--1690243572-eximdsn-1108507614
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 O5Z6qYcFz089I :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Cup5MF0D c=1 sm=1 tr=0 ts=64bf11f4 p=PoTOWKhXIEUA:10 p=oRkqbCoaAAAA:8 p=JA3Z4DHBAAAA:8 p=obYRRw5tAAAA:8 p=Z24kI2qoK6oA:10 p=HttOlG-3EMkA:10 p=iYxtLO6b_k7cFo1lW4NO:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=Wbips6nj2SkA:10 a=ZyMvFTJZAAAA:8 a=FJdxVBFkAAAA:8 a=55jZN7dOAAAA:8 a=HhopZ793GxRBg9DR1IsA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=YUqg85YW-YsA:10 a=6ABdk5DYnowA:10 a=KyYZJfTCSdMA:10 a=XHHH81XlCYJ948uGNfqA:22 a=rmORkKCns0jjGCuwv3Gg:22 a=3ji1sA9Ro_5XuJdk6AKp:22 a=GZ4MpXurEHM2uBO77CRR:22 a=61FXhy9x3HhDFwaGU_tK:22 a=8OLpHuADH7NqSPwJpW32:22 a=R0DMp2NlANyKN4cyJC9v:22 a=nKmqRDU5HjiGBh5B6-DZ:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1690243572-eximdsn-1108507614
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 O5Z6qYcFz089I :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Cup5MF0D c=1 sm=1 tr=0 ts=64bf11f4 p=PoTOWKhXIEUA:10 p=oRkqbCoaAAAA:8 p=JA3Z4DHBAAAA:8 p=obYRRw5tAAAA:8 p=Z24kI2qoK6oA:10 p=HttOlG-3EMkA:10 p=iYxtLO6b_k7cFo1lW4NO:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=Wbips6nj2SkA:10 a=ZyMvFTJZAAAA:8 a=FJdxVBFkAAAA:8 a=55jZN7dOAAAA:8 a=HhopZ793GxRBg9DR1IsA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=YUqg85YW-YsA:10 a=6ABdk5DYnowA:10 a=KyYZJfTCSdMA:10 a=XHHH81XlCYJ948uGNfqA:22 a=rmORkKCns0jjGCuwv3Gg:22 a=3ji1sA9Ro_5XuJdk6AKp:22 a=GZ4MpXurEHM2uBO77CRR:22 a=61FXhy9x3HhDFwaGU_tK:22 a=8OLpHuADH7NqSPwJpW32:22 a=R0DMp2NlANyKN4cyJC9v:22 a=nKmqRDU5HjiGBh5B6-DZ:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1690243572-eximdsn-1108507614
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qO5Z0-00AUkL-Ua
+	for ginojohn@gmail.com;
+	Mon, 24 Jul 2023 17:06:12 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by odessuragan.
+X-PHP-Script: ststephenssanjose.org/contact.php for 78.29.73.244
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 78.29.73.244
+From: odessuragan@rambler.ru
+Reply-To: odessuragan@rambler.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qO5Z0-00AUkL-Ua@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 24 Jul 2023 17:06:06 -0700
+
+You have been contacted by odessuragan, and the message is as follows.
+
+"Ультразвуковые промывочные жидкости
+для проверки форсунок форсунок
+[url=http://ing.matrixplus.ru]Купить жидкости для
+промывки дизеьных и бензиновых
+форсунок[/url] 
+ 
+[url=http://boat.matrixplus.ru]все для яхсменов,как
+ходить подключение парусом[/url] Как
+отмыть чисто днище катера и лодки от
+тины, уход за катером, лодкой, яхтой,
+дельные вещи 
+ 
+[url=http://wb.matrixplus.ru]Все о парусниках и
+яхтах, ходим под парусом[/url] 
+ 
+Сборка 8-ми битного компьютера и
+клонов Орион-128 и настройка, эпюры
+сигналов и напряжений
+[url=http://rdk.regionsv.ru/index.htm] и сборка и
+подключение периферии[/url].
+подключение к форуму Орионщиков 
+ 
+[url=http://tantra.ru]tantra.ru все о тантрическом
+массаже[/url]  массаже и его лечебные
+свойства 
+ 
+Купить качественную химию для мойки
+лодки и катера, яхты
+[url=http://www.matrixplus.ru/boat.htm]Чем отмыть борта
+лодки, катера, гидроцикла[/url] 
+ 
+[url=http://wt.matrixplus.ru]все про морские и
+речные суда[/url] 
+ 
+[url=http://matrixplus.ru/vagon.htm]химия для мойки
+пассажирских жд вагонов[/url] 
+ 
+[url=http://www.matrixboard.ru/]Производители химии
+для клининга и детергенты для
+мойки[/url] 
+ 
+[url=http://prog.regionsv.ru/]Прошивка микросхем
+серии кр556рт и к573рф8а и их аналогов[/url],
+куплю однократно прошиваемые ППЗУ. 
+куплю ППЗУ серии кр556рт2 кр556рт11 кр556рт4
+м556рт2, м556рт5, м556рт7 в керамике в дип
+корпусах в розовой керамике , куплю
+ПЗУ к573рф8а, к573рф6а 
+ 
+[url=http://kinologiyasaratov.ru]Дрессировка собак,
+кинологические услуги, купить щенка с
+родословной[/url]"
+
+You can contact odessuragan via email, odessuragan@rambler.ru
+
+--1690243572-eximdsn-1108507614--

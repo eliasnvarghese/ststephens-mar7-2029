@@ -1,0 +1,190 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id sF4cFr0UZGOjgyEAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 12:21:33 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 12:21:33 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqfmP-009HBT-6p
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 12:21:33 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqfmO-009H8n-Mn@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667503293-eximdsn-1330815404
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqfmP-009HBT-6p@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 12:21:33 -0700
+
+--1667503293-eximdsn-1330815404
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qfmOo5Sd0YVlN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=636414bd p=1I8LGFciAlwA:10 p=NRt6HND7ZYdcdoDYUm8i:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=_ydkAXfsGqQA:10 a=x7bEGLp0ZPQA:10 a=yLgOkxOUd54A:10 a=RgBw9RmQAAAA:8 a=QJvDNZYBAAAA:8 a=35hFRbUEcm8vjX3WIskA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=NieXIQP3UbcA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=4fgPjrhTYegqmOgYSSRm:22 ::
+    100.00
+
+--1667503293-eximdsn-1330815404
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qfmOo5Sd0YVlN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=636414bd p=1I8LGFciAlwA:10 p=NRt6HND7ZYdcdoDYUm8i:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=_ydkAXfsGqQA:10 a=x7bEGLp0ZPQA:10 a=yLgOkxOUd54A:10 a=RgBw9RmQAAAA:8 a=QJvDNZYBAAAA:8 a=35hFRbUEcm8vjX3WIskA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=NieXIQP3UbcA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=4fgPjrhTYegqmOgYSSRm:22 :: 100.00
+
+--1667503293-eximdsn-1330815404
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqfmO-009H8n-Mn
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 12:21:32 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Wesleyvucky.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.232.186
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.232.186
+From: pencucon_97@mail.ru
+Reply-To: pencucon_97@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqfmO-009H8n-Mn@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 12:21:32 -0700
+
+You have been contacted by Wesleyvucky, and the message is as follows.
+
+"общественного питания), торговое
+(предназначено 				для охлаждения и
+демонстрации продукции в торговых
+точках, кафе, барах) и складское
+				(используется для хранения пищевых
+продуктов в магазинах, ресторанах, на
+производственных 				предприятиях)
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/ramy-koptilnye-aisi-304/ramy-koptilnye-z-aisi-304
+   У нас Вы можете 				приобрести
+холодильное оборудование для любых
+целей по привлекательным ценам
+https://пищевоеоборудование.рф/katalog/mashina-mojki/kopiya-mashina-mojki-banki-mmshb-2000
+ 
+110 ISSN 2074-9414
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/vibropitatel-s-bunkerom-v-200-l
+   Техника и технология пищевых
+производств
+https://пищевоеоборудование.рф/katalog/bunkera-nakopitelnye-priemnye/farshemeshalka-smesitel-tip-farsh-150-aisi-304
+   2014
+https://пищевоеоборудование.рф/katalog/kamera-df/kopiya-kamera-defrostacii-kd-5000
+   1 УДК: 664
+https://пищевоеоборудование.рф/katalog/mashina-mojki/
+  87
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/
+  05 А
+https://пищевоеоборудование.рф/sankt-peterburg/katalog/konvejera-z-obraznye/konvejer-inspekcionnyj-ki-3500
+  Ф
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/kopiya-mashina-mojki-sushki-banki-mmsb-2000
+   Сорокопуд, В
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/stol-inspekcionnyj-san-1500/
+  В
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/stellazh-dlya-razmorozki-aisi-304
+   Сорокопуд, И
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/konvejer-mnogoyarusnyj-dlya-shokovoj-zamorozki
+  Б
+https://пищевоеоборудование.рф/katalog/mashina-mojki/
+   Плотников, Л
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/ramy-koptilnye-aisi-304/ramy-koptilnye-z-aisi-304
+  В
+https://пищевоеоборудование.рф/katalog/kamera-df/
+   Плотникова МОДЕРНИЗАЦИЯ ЛИНИИ
+ПРОИЗВОДСТВА ПЛОДОВО-ЯГОДНЫХ
+ЭКСТРАКТОВ 
+прочные столы всегда вызовут желание
+у посетителей Ваших заведений
+посидеть чуть дольше
+https://пищевоеоборудование.рф/katalog/mashina-mojki/kopiya-mashina-mojki-banki-mmshb-2000
+   Для неповторимых интерьеров
+предлагаем услугу 
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/vibropitatel-s-bunkerom-v-200-l
+   Все модели мебели и оборудования,
+предлагаемые нашей компанией,
+полностью соответствуют всем
+стандартам качества
+https://пищевоеоборудование.рф/katalog/bunkera-nakopitelnye-priemnye/
+   Имеют все соответствующие
+сертификаты,  гарантирует длительный
+срок эксплуатации в условиях
+интенсивного использования
+https://пищевоеоборудование.рф/sankt-peterburg/katalog/konvejera-z-obraznye/magnitnyj-transporter-podemnik-mtp-4000
+ 
+Торговое Оборудование Магазинов,
+Технологическое Оборудование
+Ресторанов и Столовых, Холодильное
+Производственное Торговое Складское
+Оборудование,  Мебель для Кафе и Баров,
+Технологии и Проектирование
+Комбинатов Питания 
+324 техніці і технологіях: Всеукр
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/kopiya-mashina-mojki-sushki-banki-mmsb-2000
+   наук
+https://пищевоеоборудование.рф/katalog/centrifuga-reaktivnaya-ustanovka/
+  -техн
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/ramy-koptilnye-aisi-304/ramy-koptilnye-z-aisi-304
+   журнал
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/kopiya-mashina-mojki-sushki-banki-mmsb-2000
+   Вінниця
+https://пищевоеоборудование.рф/katalog/mashina-mojki/mashina-mojki-upakovannoj-produkcii-mmup-40
+   2009
+https://пищевоеоборудование.рф/katalog/bunkera-nakopitelnye-priemnye/
+   Вип
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/ramy-koptilnye-aisi-304/ramy-koptilnye-z-aisi-304
+   2 (54)
+https://пищевоеоборудование.рф/katalog/mashina-mojki/mashina-mojki-ryby-orehov-mm-2000
+   С
+https://пищевоеоборудование.рф/katalog/mashina-mojki/mashina-mojki-upakovannoj-produkcii-mmup-40
+   69 72
+https://пищевоеоборудование.рф/katalog/mashina-mojki/mashina-mojki-ovoshhej-mmo-1000
+   5
+https://пищевоеоборудование.рф/katalog/mashina-mojki/mashina-mojki-koptilnyh-veshal-mmkv-500
+   Кобринский А
+https://пищевоеоборудование.рф/katalog/oprokidyvateli-kontejnerov-i-telezhek/big-boksy
+   Е
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/
+   Виброударные системы (Динамика и
+устойчивость) / А
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/konvejer-mnogoyarusnyj-dlya-shokovoj-zamorozki
+   Е
+https://пищевоеоборудование.рф/katalog/izdeliya-iz-nerzh.-stali-aisi304/promyshlennye-filtra-aisi-304
+   Кобринский, А
+https://пищевоеоборудование.рф/katalog/bunkera-nakopitelnye-priemnye/farshemeshalka-smesitel-tip-farsh-150-aisi-304
+  А https://пищевоеоборудование.рф/soglashenie
+   Кобринский
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/konvejer-podemnyj-skrebkovyj-kps-3400
+   М
+https://пищевоеоборудование.рф/katalog/konvejera-z-obraznye/konvejer-podemnyj-dlya-melkoj-frakcii-kpm-z
+  : 
+Обновлено 3 марта 2017Предлагаем новое
+пищевое оборудование  стоимостью в
+половину цены от завода-изготовителя:
+упаковочно-разливочный комплекс COMBIBLOC
+SF-606AF (Австрия) 
+"
+
+You can contact Wesleyvucky via email, pencucon_97@mail.ru
+
+--1667503293-eximdsn-1330815404--

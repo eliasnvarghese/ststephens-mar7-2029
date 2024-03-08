@@ -1,0 +1,52 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 0H/HGlril2NziSUAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 12 Dec 2022 19:24:26 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 12 Dec 2022 19:24:26 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1p4uy2-00AK46-AU
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Mon, 12 Dec 2022 19:24:26 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1p4uxy-00AK2E-5c@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1p4uy2-00AK46-AU@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 12 Dec 2022 19:24:26 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1p4uxy-00AK2E-5c
+	for ginojohn@gmail.com;
+	Mon, 12 Dec 2022 19:24:22 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jonas Judge.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 156.146.36.86
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 156.146.36.86
+From: judge.jonas@gmail.com
+Reply-To: judge.jonas@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1p4uxy-00AK2E-5c@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 12 Dec 2022 19:24:22 -0700
+
+You have been contacted by Jonas Judge, and the message is as follows.
+
+"Give your new site a boost, submit your site now to our free
+directory and start getting more clients bit.ly/submit_site_1"
+
+You can contact Jonas Judge via email, judge.jonas@gmail.com

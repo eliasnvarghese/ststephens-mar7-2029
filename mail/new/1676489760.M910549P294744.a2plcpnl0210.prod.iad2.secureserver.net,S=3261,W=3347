@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id yBjfISA07WNYfwQAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 15 Feb 2023 12:36:00 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 15 Feb 2023 12:36:00 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pSNZQ-001Ip9-Dt
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 15 Feb 2023 12:36:00 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pSNZL-001ImY-EZ@a2plcpnl0210.prod.iad2.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pSNZQ-001Ip9-Dt@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 15 Feb 2023 12:36:00 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pSNZL-001ImY-EZ
+	for ginojohn@gmail.com;
+	Wed, 15 Feb 2023 12:35:55 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Neville Marshburn.
+X-PHP-Script: ststephenssanjose.org/contact.php for 204.217.204.15
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 204.217.204.15
+From: marshburn.neville@gmail.com
+Reply-To: marshburn.neville@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pSNZL-001ImY-EZ@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 15 Feb 2023 12:35:55 -0700
+
+You have been contacted by Neville Marshburn, and the message is as
+follows.
+
+"Hi :-)
+
+Transform Your Content Creation with Jasper - Now FREE!
+Unlock the power of A.I. writing and create high-quality content in
+seconds for your product listings, service descriptions, blog, social
+media, website, emails, copywriting and more. 
+
+With a 5/5 star rating based on over 30000 reviews, Jasper is the
+solution you've been looking for. 
+Start writing smarter, not harder. 
+
+(NO CREDIT CARD REQUIRED)
+Limited FREE Spots Available!
+
+Start using Jasper today:  https://jasperchatbot.com
+
+Thats NOT All :-)
+Imagine if A.I. could create any art or image in seconds?
+
+Meet Jasper, the AI art generator who turns your imagination into
+unique images and photos in seconds. 
+Finally, you’ll have the perfect picture to match your message.
+* High-resolution 2k px images
+* Royality-free commercial use
+* No watermark
+* Unlimited generations
+
+(NO CREDIT CARD REQUIRED)
+Limited FREE Spots Available!
+
+Start using Jasper today:  https://jasperchatbot.com
+
+Regards,
+Tim Berd (Jasper Aff Team)"
+
+You can contact Neville Marshburn via email,
+marshburn.neville@gmail.com

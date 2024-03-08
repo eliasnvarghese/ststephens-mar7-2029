@@ -1,0 +1,119 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id +DjHFn0eaWPfBjYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 08:04:29 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 08:04:29 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os3fp-00EsJ3-9e
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 08:04:29 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os3fo-00EsIX-RM@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667833469-eximdsn-289382566
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os3fp-00EsJ3-9e@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 08:04:29 -0700
+
+--1667833469-eximdsn-289382566
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s3fpoRLvD4oIf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63691e7d p=Meqguy5o524A:10 p=GbLHZwzDxGcA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=ZAttmwDT_dUA:10 a=y8ST5GzjAAAA:8 a=mem--OOHAAAA:8 a=GqEeGU7p399vYgv6T4kA:9 a=QEXdDO2ut3YA:10 a=Kx58s-dzgdsA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=oHj87EGnfx3jKNUiqwgY:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667833469-eximdsn-289382566
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s3fpoRLvD4oIf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63691e7d p=Meqguy5o524A:10 p=GbLHZwzDxGcA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=s6vzoy0dvgIA:10 a=x7bEGLp0ZPQA:10 a=ZAttmwDT_dUA:10 a=y8ST5GzjAAAA:8 a=mem--OOHAAAA:8 a=GqEeGU7p399vYgv6T4kA:9 a=QEXdDO2ut3YA:10 a=Kx58s-dzgdsA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=oHj87EGnfx3jKNUiqwgY:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667833469-eximdsn-289382566
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os3fo-00EsIX-RM
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 08:04:28 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by ShawnBes.
+X-PHP-Script: ststephenssanjose.org/contact.php for 193.188.21.49
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 193.188.21.49
+From: panova.elena.1992.23.11@bk.ru
+Reply-To: panova.elena.1992.23.11@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os3fo-00EsIX-RM@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 08:04:28 -0700
+
+You have been contacted by ShawnBes, and the message is as follows.
+
+"Для удобства монтажа хомутовый
+нагреватель оснащается системой
+стяжки, но по желанию заказчика
+нагреватель может быть изготовлен без
+нее https://rusupakten.ru/upakovochnoe-oborudovanie-vidy/
+ Металлический манжетный нагреватель
+стандарт:Металлический манжетный
+нагреватель под заказ: 
+
+
+Подчас бывает так, что пресс-формы,
+трубопроводы или, например, литейные
+формы, нагреть на месте непросто
+https://rusupakten.ru/product/eko-4-5/
+  Но решение проблемы есть - это
+хомутовые и полухомутовые
+нагреватели!" 
+Хомутовые электронагреватели
+предназначены для нагрева
+цилиндрических деталей оборудования
+технологического и бытового
+назначения: термопластавтоматов,
+экструдеров, оборудования для
+производства тары и упаковки,
+пресс-форм, литейных форм, фенов,
+трубопров https://rusupakten.ru/product/rt-550/
+ Принцип теплопередачи: от
+нагревательного элемента к
+обогреваемой детали тепло передается
+контактным способом
+https://rusupakten.ru/product/eko-5-4/
+ 
+Металлический хомутовый
+нагреватель представляет собой
+резистивную ленту шириной 3-4 мм,
+намотанную на слой миканита
+https://rusupakten.ru/product/rt-450n/
+  И все это помещено в корпус из
+нержавеющей стали
+https://rusupakten.ru/product/rt-650n/
+ 
+"
+
+You can contact ShawnBes via email, panova.elena.1992.23.11@bk.ru
+
+--1667833469-eximdsn-289382566--

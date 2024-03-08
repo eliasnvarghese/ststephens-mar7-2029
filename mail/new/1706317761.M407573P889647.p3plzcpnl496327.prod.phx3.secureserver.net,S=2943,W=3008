@@ -1,0 +1,65 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id cCEVGMFXtGUvkw0ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 26 Jan 2024 18:09:21 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 26 Jan 2024 18:09:21 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rTXCD-003jti-15
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 26 Jan 2024 18:09:21 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rTXC8-003jsn-1w@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rTXCD-003jti-15@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 26 Jan 2024 18:09:21 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rTXC8-003jsn-1w
+	for ginojohn@gmail.com;
+	Fri, 26 Jan 2024 18:09:16 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by James Windsor.
+X-PHP-Script: ststephenssanjose.org/contact.php for 45.134.140.237
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 45.134.140.237
+From: windsor.betsy77@gmail.com
+Reply-To: windsor.betsy77@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rTXC8-003jsn-1w@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 26 Jan 2024 18:09:16 -0700
+
+You have been contacted by James Windsor, and the message is as
+follows.
+
+"Professional Web Designers - For Hire
+
+Need a Website Built For Your Business? Get an Experienced Dedicated
+Designer From Us.
+Our website development services can create your dream website. We
+design engaging and user-friendly websites that improve the customer
+experience, we work with you to understand your business goals and
+preferences. From simple blogs to complex e-commerce platforms, we are
+dedicated to delivering high-quality solutions that exceed your
+expectations. Let us bring your vision to life and enhance your online
+presence. 
+
+Talk To Our Software Experts Today Chat With A Live Representative
+https://outsource-bpo.com/website/"
+
+You can contact James Windsor via email, windsor.betsy77@gmail.com

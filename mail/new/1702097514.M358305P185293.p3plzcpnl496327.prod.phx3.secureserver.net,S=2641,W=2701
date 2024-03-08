@@ -1,0 +1,60 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id EF32FGryc2XN0wIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 08 Dec 2023 21:51:54 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 08 Dec 2023 21:51:54 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rBpJi-000mp3-0w
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 08 Dec 2023 21:51:54 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rBpJd-000mnx-1g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rBpJi-000mp3-0w@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 08 Dec 2023 21:51:54 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rBpJd-000mnx-1g
+	for ginojohn@gmail.com;
+	Fri, 08 Dec 2023 21:51:49 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Phil Stewart.
+X-PHP-Script: ststephenssanjose.org/contact.php for 216.24.212.221
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 216.24.212.221
+From: noreplyhere@aol.com
+Reply-To: noreplyhere@aol.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rBpJd-000mnx-1g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 08 Dec 2023 21:51:49 -0700
+
+You have been contacted by Phil Stewart, and the message is as
+follows.
+
+"I now offer contact form blasting service. With my DFY service you
+can either do a targeted blast to only websites that match your
+criteria or bulk blast large volumes of sites worldwide. Prices start
+at just $50 to reach 500,000 bulk sites. Contact me at my email or
+skype below for details.
+
+P. Stewart
+Skype: live:.cid.e169e59bb6e6d159
+Email: psM4e 2v5@gomail2.xyz"
+
+You can contact Phil Stewart via email, noreplyhere@aol.com

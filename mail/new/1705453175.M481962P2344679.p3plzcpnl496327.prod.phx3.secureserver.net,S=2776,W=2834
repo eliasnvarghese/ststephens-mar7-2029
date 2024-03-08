@@ -1,0 +1,58 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id j8kJHHcmp2XnxiMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 16 Jan 2024 17:59:35 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 16 Jan 2024 17:59:35 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rPuHH-009pxI-1D
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 16 Jan 2024 17:59:35 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rPuHC-009plX-3A@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rPuHH-009pxI-1D@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 16 Jan 2024 17:59:35 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rPuHC-009plX-3A
+	for ginojohn@gmail.com;
+	Tue, 16 Jan 2024 17:59:30 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Herbert Donahue.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.223.152.146
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.223.152.146
+From: herbert.donahue@hotmail.com
+Reply-To: herbert.donahue@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rPuHC-009plX-3A@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 16 Jan 2024 17:59:30 -0700
+
+You have been contacted by Herbert Donahue, and the message is as
+follows.
+
+"Are you looking for a way to watch your favorite TV channels and
+movies on any device, anytime, anywhere? Look no further than
+OneTVIPTV.com , the best and most affordable IPTV service in the world
+(plans as low as $9/mnth) . With over 97,000 live TV channels and VOD,
+you will never run out of entertainment options. Sign up now and get a
+free trial for 24 hours. Don't miss this opportunity to enjoy the
+ultimate IPTV experience with OneTV IPTV. Go to Onetviptv.com"
+
+You can contact Herbert Donahue via email, herbert.donahue@hotmail.com

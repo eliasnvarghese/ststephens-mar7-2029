@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id eHvqF9N5MGMx8TwAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 25 Sep 2022 08:54:59 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 25 Sep 2022 08:54:59 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1ocTy7-00GsNZ-8w
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sun, 25 Sep 2022 08:54:59 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1ocTy6-00GsLp-7f@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1664121299-eximdsn-1909963765
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ocTy7-00GsNZ-8w@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 25 Sep 2022 08:54:59 -0700
+
+--1664121299-eximdsn-1909963765
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 cTy6o5aW8JUZZ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=G5XZr/o5 c=1 sm=1 tr=0 ts=633079d3 p=IQQ-AntpwucA:10 p=zlcbpMKKLLUA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=xOM3xZuef0cA:10 a=a7JeIEv_av8A:10 a=x7bEGLp0ZPQA:10 a=arlj7K6eEo0A:10 a=wYTFuCaLAAAA:8 a=BMxJXzqDAAAA:8 a=UdOSqcEj5330wm4ohCMA:9 a=QEXdDO2ut3YA:10 a=q6qwMdGk4lAA:10 a=lSl8MqaGZEQA:10 a=QNe5x9JyyZQA:10 a=acewEgQMpYTsClr9keMy:22 a=ur39QggW1dx-1Ke6se3i:22 ::
+    100.00
+
+--1664121299-eximdsn-1909963765
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 cTy6o5aW8JUZZ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=G5XZr/o5 c=1 sm=1 tr=0 ts=633079d3 p=IQQ-AntpwucA:10 p=zlcbpMKKLLUA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=xOM3xZuef0cA:10 a=a7JeIEv_av8A:10 a=x7bEGLp0ZPQA:10 a=arlj7K6eEo0A:10 a=wYTFuCaLAAAA:8 a=BMxJXzqDAAAA:8 a=UdOSqcEj5330wm4ohCMA:9 a=QEXdDO2ut3YA:10 a=q6qwMdGk4lAA:10 a=lSl8MqaGZEQA:10 a=QNe5x9JyyZQA:10 a=acewEgQMpYTsClr9keMy:22 a=ur39QggW1dx-1Ke6se3i:22 :: 100.00
+
+--1664121299-eximdsn-1909963765
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1ocTy6-00GsLp-7f
+	for ginojohn@gmail.com; Sun, 25 Sep 2022 08:54:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by WarsawNap.
+X-PHP-Script: ststephenssanjose.org/contact.php for 176.124.206.137
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 176.124.206.137
+From: dosugasia@yandex.com
+Reply-To: dosugasia@yandex.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1ocTy6-00GsLp-7f@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 25 Sep 2022 08:54:58 -0700
+
+You have been contacted by WarsawNap, and the message is as follows.
+
+"Good girls who agree on everything click on sexodubai.com 
+Visit us  and you will be very happy."
+
+You can contact WarsawNap via email, dosugasia@yandex.com
+
+--1664121299-eximdsn-1909963765--

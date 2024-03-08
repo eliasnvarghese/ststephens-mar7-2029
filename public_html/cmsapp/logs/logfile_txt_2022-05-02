@@ -1,0 +1,1 @@
+DebugLog  | 2022-05-02 09:26:13 | guest | 114.119.153.169 | lents | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from spl_events_t  where deleted=0 and todate>='2022-05-02' order by fromdate asc ,todate asc limit 50

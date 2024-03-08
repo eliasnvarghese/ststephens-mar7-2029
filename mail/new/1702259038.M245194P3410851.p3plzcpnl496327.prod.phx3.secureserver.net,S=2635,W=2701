@@ -1,0 +1,66 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id SJjkDV5pdmWjCzQACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sun, 10 Dec 2023 18:43:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sun, 10 Dec 2023 18:43:58 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rCVKw-00EJiX-0Z
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sun, 10 Dec 2023 18:43:58 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rCVKr-00EJhf-2D@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rCVKw-00EJiX-0Z@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 10 Dec 2023 18:43:58 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rCVKr-00EJhf-2D
+	for ginojohn@gmail.com;
+	Sun, 10 Dec 2023 18:43:53 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Lester Mitchel.
+X-PHP-Script: ststephenssanjose.org/contact.php for 154.22.61.153
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 154.22.61.153
+From: seoforce979@gmail.com
+Reply-To: seoforce979@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rCVKr-00EJhf-2D@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sun, 10 Dec 2023 18:43:53 -0700
+
+You have been contacted by Lester Mitchel, and the message is as
+follows.
+
+"
+Hi,
+
+Ever wondered how to get your website, ststephenssanjose.org, to rank
+on Google's #1 page with a step-by-step action plan? Get your F.REE
+SEO audit report including customized action plans at -
+https://www.infinityinteractive.online/seo-audit-2?ref=ststephenssanjose.org
+
+Have a great day ahead.
+
+Regards,
+Lester
+SEO Consultant
+Novustri Digital
+"
+
+You can contact Lester Mitchel via email, seoforce979@gmail.com

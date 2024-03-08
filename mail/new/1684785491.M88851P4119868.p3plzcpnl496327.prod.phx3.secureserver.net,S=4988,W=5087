@@ -1,0 +1,99 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id UEAvBVPJa2Q83T4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 22 May 2023 12:58:11 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 22 May 2023 12:58:11 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q1BfX-00HHlO-10
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 22 May 2023 12:58:11 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q1BfR-00HHk7-EQ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1684785491-eximdsn-845775561
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q1BfX-00HHlO-10@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 22 May 2023 12:58:11 -0700
+
+--1684785491-eximdsn-845775561
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 1BfWqXpXv1CLM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QoOYn3+d c=1 sm=1 tr=0 ts=646bc953 p=3za6JNKN-ZUA:10 p=rFllshPrAAAA:20 p=asILznZTcQcA:10 p=whVoTRCr50kFTZw6XT8A:22 p=IbjObFQd3g7YeTq57M5d:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=E18JLQjm8mIA:10 a=pGLkceISAAAA:8 a=3Rrq3UDDTo2Fg2EXwMkA:9 a=QEXdDO2ut3YA:10 a=Piqcdu9TKbUA:10 a=46b67OOHnhgA:10 a=OXJGFft9hLMA:10 a=IawXvI9lP1MA:10 a=KyYZJfTCSdMA:10 a=-tYudExJEuA0vTP0VvZ7:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1684785491-eximdsn-845775561
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 1BfWqXpXv1CLM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QoOYn3+d c=1 sm=1 tr=0 ts=646bc953 p=3za6JNKN-ZUA:10 p=rFllshPrAAAA:20 p=asILznZTcQcA:10 p=whVoTRCr50kFTZw6XT8A:22 p=IbjObFQd3g7YeTq57M5d:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=E18JLQjm8mIA:10 a=pGLkceISAAAA:8 a=3Rrq3UDDTo2Fg2EXwMkA:9 a=QEXdDO2ut3YA:10 a=Piqcdu9TKbUA:10 a=46b67OOHnhgA:10 a=OXJGFft9hLMA:10 a=IawXvI9lP1MA:10 a=KyYZJfTCSdMA:10 a=-tYudExJEuA0vTP0VvZ7:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1684785491-eximdsn-845775561
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q1BfR-00HHk7-EQ
+	for ginojohn@gmail.com;
+	Mon, 22 May 2023 12:58:10 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by David Jackson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 63.161.79.204
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 63.161.79.204
+From: david.jackson@gmail.com
+Reply-To: david.jackson@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q1BfR-00HHk7-EQ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 22 May 2023 12:58:05 -0700
+
+You have been contacted by David Jackson, and the message is as
+follows.
+
+"Hey, í ½í²¥
+
+Introducing Apex: the AI-driven web builder that generates $795.56 and
+4,438 daily clicks! í ½í¸±í ½í²°
+
+í ½íº€ Join now: https://bit.ly/42Rihns í ½íº€
+
+Supercharge your website revenue and get mind-blowing results with
+Apex's cutting-edge technology. Don't miss out on this game-changer!
+
+í ½í±‰ https://bit.ly/42Rihns  í ½í±ˆ
+
+Let's skyrocket your success together! Get started with Apex AI now!
+í ½íº€í ½í²ª
+
+
+See you at the top, 
+
+David"
+
+You can contact David Jackson via email, david.jackson@gmail.com
+
+--1684785491-eximdsn-845775561--

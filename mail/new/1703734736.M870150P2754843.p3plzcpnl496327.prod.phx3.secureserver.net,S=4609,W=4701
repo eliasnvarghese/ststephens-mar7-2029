@@ -1,0 +1,92 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 9KpgM9DtjGUbCSoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 27 Dec 2023 20:38:56 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 27 Dec 2023 20:38:56 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rIhEW-00BYer-2b
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 27 Dec 2023 20:38:56 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rIhER-00BYdo-21@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1703734736-eximdsn-1782810585
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rIhEW-00BYer-2b@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 27 Dec 2023 20:38:56 -0700
+
+--1703734736-eximdsn-1782810585
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 IhEWraZMkurUD :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QNuuBCHL c=1 sm=1 tr=0 ts=658cedd0 p=SsDRV7XoAAAA:8 p=vCsuFxz1_FoapzM3OUG5:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=Pf48eeFNAAAA:8 a=3BcsNitTAAAA:8 a=6B8qJU_UAAAA:8 a=1cC5tysWEnPfo95H3VoA:9 a=QEXdDO2ut3YA:10 a=J9ZNH3O8-u0A:10 a=kpFY7M75H-E-Ddy-exE4:22 a=SD2Y9UoVrqin0qKYsMXY:22 a=CYJKq5tPInkGlrxlVDe1:22 a=lTvtxMr2oFVHoIewoGJL:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1703734736-eximdsn-1782810585
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 IhEWraZMkurUD :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QNuuBCHL c=1 sm=1 tr=0 ts=658cedd0 p=SsDRV7XoAAAA:8 p=vCsuFxz1_FoapzM3OUG5:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=Pf48eeFNAAAA:8 a=3BcsNitTAAAA:8 a=6B8qJU_UAAAA:8 a=1cC5tysWEnPfo95H3VoA:9 a=QEXdDO2ut3YA:10 a=J9ZNH3O8-u0A:10 a=kpFY7M75H-E-Ddy-exE4:22 a=SD2Y9UoVrqin0qKYsMXY:22 a=CYJKq5tPInkGlrxlVDe1:22 a=lTvtxMr2oFVHoIewoGJL:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1703734736-eximdsn-1782810585
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rIhER-00BYdo-21
+	for ginojohn@gmail.com;
+	Wed, 27 Dec 2023 20:38:56 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Matthewjex.
+X-PHP-Script: ststephenssanjose.org/contact.php for 69.197.156.226
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 69.197.156.226
+From: press-release@cnnworldtoday.com
+Reply-To: press-release@cnnworldtoday.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rIhER-00BYdo-21@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 27 Dec 2023 20:38:51 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Matthewjex, and the message is as follows.
+
+"Press Release Offer in 50$ permanent 
+ 
+Sample News sites 
+ 
+https://www.chroniclenewstoday.com/ 
+https://www.bloombergnewstoday.com/ 
+https://www.britishnewstoday.com/ 
+https://www.cnnworldtoday.com/ 
+ 
+Regards"
+
+You can contact Matthewjex via email, press-release@cnnworldtoday.com
+
+--1703734736-eximdsn-1782810585--

@@ -1,0 +1,16 @@
+DebugLog  | 2021-01-30 01:37:47 | guest | 24.228.70.11 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-01-30 01:37:47 | guest | 24.228.70.11 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-01-30' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-01-30 01:48:34 | guest | 77.88.5.131 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-01-30 01:48:34 | guest | 77.88.5.131 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-01-30' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-01-30 03:12:42 | guest | 49.7.21.71 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-01-30 03:12:42 | guest | 49.7.21.71 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-01-30' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-01-30 04:21:44 | guest | 49.7.20.136 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-01-30 04:21:44 | guest | 49.7.20.136 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-01-30' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-01-30 06:06:22 | guest | 49.7.20.146 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-01-30 06:06:22 | guest | 49.7.20.146 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-01-30' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-01-30 08:24:34 | guest | 49.7.20.104 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-01-30 08:24:34 | guest | 49.7.20.104 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-01-30' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-01-30 18:13:11 | guest | 64.225.9.230 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-01-30 18:13:11 | guest | 64.225.9.230 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-01-30' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2021-01-30 20:20:15 | guest | 134.209.41.186 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2021-01-30 20:20:15 | guest | 134.209.41.186 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2021-01-30' order by fromdate asc ,todate asc limit 3

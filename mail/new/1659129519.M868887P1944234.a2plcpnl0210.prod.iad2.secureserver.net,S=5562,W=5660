@@ -1,0 +1,98 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ADA9M69O5GKqqh0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Fri, 29 Jul 2022 14:18:39 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Fri, 29 Jul 2022 14:18:39 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oHXNX-008Ix0-OA
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Fri, 29 Jul 2022 14:18:39 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oHXNX-008Iwa-A2@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1659129519-eximdsn-206612062
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oHXNX-008Ix0-OA@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 29 Jul 2022 14:18:39 -0700
+
+--1659129519-eximdsn-206612062
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 HXNXofFk1Ix9E :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=HvCzp2fS c=1 sm=1 tr=0 ts=62e44eaf p=0K-4lvEsjmgA:10 p=SALuiQNOKbcA:10 p=EtcPfdKXAAAA:8 p=fm5DKE9OAAAA:8 p=JA3Z4DHBAAAA:8 p=oRkqbCoaAAAA:8 p=FJdxVBFkAAAA:8 p=R5umRFQFmTQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RgO8CyIxsXoA:10 a=x7bEGLp0ZPQA:10 a=FaHaZZhcBOIA:10 a=55jZN7dOAAAA:8 a=4CUwBLpVHPVHHUUwkvwA:9 a=QEXdDO2ut3YA:10 a=77j-7Nf0aBcA:10 a=xEioTsa2rIwA:10 a=t5AntSIOaJsA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=TbJ0181C00Muu7hx7tF-:22 a=odh3i5pfw7gQ6VwNz3g5:22 a=61FXhy9x3HhDFwaGU_tK:22 a=GZ4MpXurEHM2uBO77CRR:22 a=nKmqRDU5HjiGBh5B6-DZ:22 ::
+    100.00
+
+--1659129519-eximdsn-206612062
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 HXNXofFk1Ix9E :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=HvCzp2fS c=1 sm=1 tr=0 ts=62e44eaf p=0K-4lvEsjmgA:10 p=SALuiQNOKbcA:10 p=EtcPfdKXAAAA:8 p=fm5DKE9OAAAA:8 p=JA3Z4DHBAAAA:8 p=oRkqbCoaAAAA:8 p=FJdxVBFkAAAA:8 p=R5umRFQFmTQA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RgO8CyIxsXoA:10 a=x7bEGLp0ZPQA:10 a=FaHaZZhcBOIA:10 a=55jZN7dOAAAA:8 a=4CUwBLpVHPVHHUUwkvwA:9 a=QEXdDO2ut3YA:10 a=77j-7Nf0aBcA:10 a=xEioTsa2rIwA:10 a=t5AntSIOaJsA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=TbJ0181C00Muu7hx7tF-:22 a=odh3i5pfw7gQ6VwNz3g5:22 a=61FXhy9x3HhDFwaGU_tK:22 a=GZ4MpXurEHM2uBO77CRR:22 a=nKmqRDU5HjiGBh5B6-DZ:22 :: 100.00
+
+--1659129519-eximdsn-206612062
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oHXNX-008Iwa-A2
+	for ginojohn@gmail.com; Fri, 29 Jul 2022 14:18:39 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by rukittaamber.
+X-PHP-Script: ststephenssanjose.org/contact.php for 78.29.80.118
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 78.29.80.118
+From: rukittaamber@rambler.ru
+Reply-To: rukittaamber@rambler.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oHXNX-008Iwa-A2@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Fri, 29 Jul 2022 14:18:39 -0700
+
+You have been contacted by rukittaamber, and the message is as
+follows.
+
+"Как использовать массаж в
+оздоровительных целях
+[url=http://tantra64.ru]tantra64.ru[/url] 
+Все о массаже [url=http://freshrelax.ru]freshrelax.ru[/url]
+
+Техника и основоположники массажа 
+Как правильно делать масссаж,
+методики и азы массажа 
+ 
+[url=http://freshrelax.ru/massageerotic-073.htm]freshrelax.ru[/url] 
+Все про калибровочные жидкости
+[url=http://regionsv.ru/chem7.html]regionsv.ru[/url] 
+жидкости для ультразвуковой очистки
+[url=http://www.uzo.matrixplus.ru]uzo.matrixplus.ru[/url] 
+ 
+Как отмыть борта катера и лодки
+[url=http://wr.matrixplus.ru/]wr.matrixplus.ru[/url] 
+ 
+Все про дрессировку собак
+[url=http://www.kinologiyasaratov.ru/]www.kinologiyasaratov.ru[/url]"
+
+You can contact rukittaamber via email, rukittaamber@rambler.ru
+
+--1659129519-eximdsn-206612062--

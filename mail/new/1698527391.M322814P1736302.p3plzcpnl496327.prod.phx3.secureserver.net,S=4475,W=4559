@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id F3IiE594PWVufhoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 28 Oct 2023 14:09:51 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 28 Oct 2023 14:09:51 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qwqZ5-007Hgl-8P
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 28 Oct 2023 14:09:51 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qwqZ0-007HfA-A2@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698527391-eximdsn-1205266236
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qwqZ5-007Hgl-8P@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 28 Oct 2023 14:09:51 -0700
+
+--1698527391-eximdsn-1205266236
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wqZ5qiZQNiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=653d789f p=DkjMbK3g2ceYd11XReP1:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=HluYbQO-J8oA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=MrtOgPGaoe0A:10 a=jJrOw3FHAAAA:8 a=mK_AVkanAAAA:8 a=uBONNPnDvwFvQPjw6JwA:9 a=QEXdDO2ut3YA:10 a=DdiELr-FkiYA:10 a=zGlHrSWtykwA:10 a=-FEs8UIgK8oA:10 a=F-G-d656UtMA:10 a=3gWm3jAn84ENXaBijsEo:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1698527391-eximdsn-1205266236
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 wqZ5qiZQNiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=653d789f p=DkjMbK3g2ceYd11XReP1:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=HluYbQO-J8oA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=MrtOgPGaoe0A:10 a=jJrOw3FHAAAA:8 a=mK_AVkanAAAA:8 a=uBONNPnDvwFvQPjw6JwA:9 a=QEXdDO2ut3YA:10 a=DdiELr-FkiYA:10 a=zGlHrSWtykwA:10 a=-FEs8UIgK8oA:10 a=F-G-d656UtMA:10 a=3gWm3jAn84ENXaBijsEo:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1698527391-eximdsn-1205266236
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qwqZ0-007HfA-A2
+	for ginojohn@gmail.com;
+	Sat, 28 Oct 2023 14:09:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Ola Warrick.
+X-PHP-Script: ststephenssanjose.org/contact.php for 107.186.67.143
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 107.186.67.143
+From: warrick.ola@googlemail.com
+Reply-To: warrick.ola@googlemail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qwqZ0-007HfA-A2@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 28 Oct 2023 14:09:46 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Ola Warrick, and the message is as follows.
+
+"Click here to watch!
+https://youtu.be/3NeUpNUrhnk"
+
+You can contact Ola Warrick via email, warrick.ola@googlemail.com
+
+--1698527391-eximdsn-1205266236--

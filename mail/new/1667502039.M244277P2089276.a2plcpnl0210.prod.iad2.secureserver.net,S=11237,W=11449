@@ -1,0 +1,212 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id eDxvDtcPZGM84R8AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 12:00:39 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 12:00:39 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqfSB-008pXw-32
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 12:00:39 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqfSA-008pWz-Ho@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667502039-eximdsn-1014423113
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqfSB-008pXw-32@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 12:00:39 -0700
+
+--1667502039-eximdsn-1014423113
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qfSAo1rZxa2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63640fd7 p=4Y7Pf2QAe6IA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=_ydkAXfsGqQA:10 a=x7bEGLp0ZPQA:10 a=4mrvq5qDtcQA:10 a=Eqba37ZhAAAA:8 a=mem--OOHAAAA:8 a=Y-oEUpr0y4hKBT2wCNAA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=L42-I_CA-jgA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=2RVTKwWlVVesdlOxD0VW:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667502039-eximdsn-1014423113
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qfSAo1rZxa2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63640fd7 p=4Y7Pf2QAe6IA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=_ydkAXfsGqQA:10 a=x7bEGLp0ZPQA:10 a=4mrvq5qDtcQA:10 a=Eqba37ZhAAAA:8 a=mem--OOHAAAA:8 a=Y-oEUpr0y4hKBT2wCNAA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=L42-I_CA-jgA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=2RVTKwWlVVesdlOxD0VW:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667502039-eximdsn-1014423113
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqfSA-008pWz-Ho
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 12:00:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by RichardRax.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.232.186
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.232.186
+From: valya_lebedeva_1979@bk.ru
+Reply-To: valya_lebedeva_1979@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqfSA-008pWz-Ho@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 12:00:38 -0700
+
+You have been contacted by RichardRax, and the message is as follows.
+
+"Предложение  в Москве, в Московской
+области, расположено по адресу 
+[url=https://www.legnostyle.ru/catalog/kuhni/]купить кухню
+из массива [/url]
+ Обсудить детали объявления и
+связаться с продавцом Евгений и
+купить можно по телефону +7 (929) 613-44-74, а
+также при помощи личного сообщения на
+сайте [url=https://www.legnostyle.ru/catalog/inter-eri/]во
+всех подробностях [/url]
+ 
+Сушка – это процесс, направленный на
+устранение влаги из массива, который в
+результате приобретает стабильность
+[url=https://www.legnostyle.ru/catalog/lestnici/]лестницы на
+заказ из дерева [/url]
+ Оптимальной считается влажность
+древесины не более 10%
+[url=https://www.legnostyle.ru/catalog/kuhni/]сих [/url]
+ Поддерживать показатель на одном
+уровне в дождливое лето, в жару, холод,
+при включенных отопительных приборах,
+невозможно
+[url=https://www.legnostyle.ru/catalog/mebel/]пространный
+[/url]
+ Это значит, что нужно искать другие
+пути, которые не просто позволят
+высушить заготовки до необходимой
+нормы, но и сделают их влагостойкими,
+не подверженными влиянию среды
+[url=https://www.legnostyle.ru/]Деревянная Мебель
+Для Кухни [/url]
+ Как этого добиться? – Путем
+использования специальной технологии
+производства дверей из массива
+[url=https://www.legnostyle.ru/]Кухни Из Массива В
+Москве [/url]
+ 
+В этой статье, вместе с сотрудниками
+магазина дверей  мы расскажем о
+подходах к сравнению, о самых
+распространенных видах массива,
+используемых в производстве
+межкомнатных дверей, охарактеризуем
+их с позиции прочности, долговечности
+и стоимости [url=https://www.legnostyle.ru/]Двери 6
+[/url]
+ После этого вы узнаете, что такое
+натуральный шпон, как им покрывают
+полотна
+[url=https://www.legnostyle.ru/catalog/inter-eri/]внутренняя
+отделка деревянного дома фото дизайн
+[/url]
+ В конце мы непременно ответим на
+вопрос – что лучше: шпонированная
+дверь или целиковый массив, выделим
+положительные стороны и недостатки
+каждого типа изделий
+[url=https://www.legnostyle.ru/catalog/kuhni/]мебель для
+кухни из натурального дерева [/url]
+ 
+Межкомнатные   двери     из     массива  
+ясеня на заказ под ключ
+[url=https://www.legnostyle.ru/]Заказать Деревянную
+Лестницу В Москве [/url]
+ Итальянская фурнитура
+[url=https://www.legnostyle.ru/catalog/lestnici/]деревянные
+лестницы от производителя [/url]
+   Двери   идеального качества
+изготавливаются в Смоленске на
+итальянских и немецких станках
+[url=https://www.legnostyle.ru/catalog/mejkomnatnie-dveri/]купить
+красивые межкомнатные двери [/url]
+  Двери   полностью готовы к установке 
+[url=https://www.legnostyle.ru/catalog/mejkomnatnie-dveri/]купля
+дверей [/url]
+Гарантия 5 лет
+[url=https://www.legnostyle.ru/catalog/mejkomnatnie-dveri/]каталог
+недорогих межкомнатных дверей [/url]
+Любые размеры и конфигурация
+[url=https://www.legnostyle.ru/catalog/mejkomnatnie-dveri/]www
+двери межкомнатные [/url]
+ Изделия сертифицированы
+[url=https://www.legnostyle.ru/catalog/mejkomnatnie-dveri/]здесь
+[/url]
+ Монтаж по ГОСТ
+[url=https://www.legnostyle.ru/catalog/lestnici/]деревянная
+лестница для дома [/url]
+ 
+Мы можем изготовить элитную
+деревянную дверь по эксклюзивному
+проекту из ценных пород древа, которая
+будет не просто дверью, а
+произведением искусства
+[url=https://www.legnostyle.ru/catalog/mebel/]подробнейший
+[/url]
+ А также можем взять заказ на
+производство более бюджетных
+вариантов из массива дерева –
+предварительную консультацию вы
+можете получить по телефону
+[url=https://www.legnostyle.ru/catalog/kuhni/]кухня дерево
+недорого [/url]
+ 
+Мы решили внуку сделать подарок –
+заменить всю мебель в его комнате из
+ДСП, а вместо нее, заказать все из
+натурального дерева
+[url=https://www.legnostyle.ru/catalog/inter-eri/]интерьеры
+загородных деревянных домов [/url]
+ По совету знакомых обратились в ,
+выбрали интересные модели – стол
+ручной работы, шкаф и кровать
+[url=https://www.legnostyle.ru/]Цена Дверей
+Межкомнатных [/url]
+ Но немного другие, такие, какими бы мы
+хотели их видеть
+[url=https://www.legnostyle.ru/catalog/lestnici/]лестница
+под заказ [/url]
+ Когда сделали эскиз, нам даже не
+верилось, что такое получится в
+реальности
+[url=https://www.legnostyle.ru/catalog/kuhni/]кухни  из
+массива  от производителя [/url]
+ Однако мастера молодцы, сделали все,
+как надо! Теперь у нашего внука мебель
+из натурального дерева, а не коробки
+из ДСП
+[url=https://www.legnostyle.ru/catalog/mejkomnatnie-dveri/]межкомнатные
+двери эпицентр [/url]
+ Рекомендуем всем
+[url=https://www.legnostyle.ru/catalog/lestnici/]развернутый
+[/url]
+ 
+"
+
+You can contact RichardRax via email, valya_lebedeva_1979@bk.ru
+
+--1667502039-eximdsn-1014423113--

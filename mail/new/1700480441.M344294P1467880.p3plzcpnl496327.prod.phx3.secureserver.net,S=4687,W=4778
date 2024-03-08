@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id EtMjFLlFW2XoZRYACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 20 Nov 2023 04:40:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 20 Nov 2023 04:40:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r52dt-0069rO-8w
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 20 Nov 2023 04:40:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r52do-0069qK-9F@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700480441-eximdsn-682123759
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r52dt-0069rO-8w@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 20 Nov 2023 04:40:41 -0700
+
+--1700480441-eximdsn-682123759
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 52dtrK3WF93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=655b45b9 p=3V8R8VBSDUD6cb692zCs:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JMso4t4tjCUA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=pNm_we5xudYA:10 a=0O2aVY2OAAAA:8 a=pGLkceISAAAA:8 a=Vc7ikRKKzNEHaDIG7jMA:9 a=QEXdDO2ut3YA:10 a=MI0btpFv9lEA:10 a=icCihhcGOcQA:10 a=-HrVfIFpqiDRrmhLlq2C:22 a=SA0HLRAZa7K5E00HWq9U:22 a=6BeJku_beDt1A5r2Oby5:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1700480441-eximdsn-682123759
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 52dtrK3WF93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=655b45b9 p=3V8R8VBSDUD6cb692zCs:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JMso4t4tjCUA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=pNm_we5xudYA:10 a=0O2aVY2OAAAA:8 a=pGLkceISAAAA:8 a=Vc7ikRKKzNEHaDIG7jMA:9 a=QEXdDO2ut3YA:10 a=MI0btpFv9lEA:10 a=icCihhcGOcQA:10 a=-HrVfIFpqiDRrmhLlq2C:22 a=SA0HLRAZa7K5E00HWq9U:22 a=6BeJku_beDt1A5r2Oby5:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1700480441-eximdsn-682123759
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r52do-0069qK-9F
+	for ginojohn@gmail.com;
+	Mon, 20 Nov 2023 04:40:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Raymond Taylor.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.95.81.181
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.95.81.181
+From: pimentel.margo@gmail.com
+Reply-To: pimentel.margo@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r52do-0069qK-9F@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 20 Nov 2023 04:40:36 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Raymond Taylor, and the message is as
+follows.
+
+""Fast-track your business success! 
+
+Up to $250K with terms that make sense for you.
+
+ Express Capital ensures a funding decision in less than 60 seconds. 
+
+Visit expresscapitalcorp.com and take the first step toward financial
+growth!""
+
+You can contact Raymond Taylor via email, pimentel.margo@gmail.com
+
+--1700480441-eximdsn-682123759--

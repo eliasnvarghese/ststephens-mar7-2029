@@ -1,0 +1,124 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id ADvzAyhZEmRMgCoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 15 Mar 2023 16:47:52 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 15 Mar 2023 16:47:52 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pcaqV-00BhT4-UG
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 15 Mar 2023 16:47:52 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pcaqQ-00BhRG-EF@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1678924071-eximdsn-476873491
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pcaqV-00BhT4-UG@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 15 Mar 2023 16:47:51 -0700
+
+--1678924071-eximdsn-476873491
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 caqVpG6IDlA5Y :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=64125927 p=XjYnnF8-AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=-SrA3tT32FwA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=8DDsQT7iSmUA:10 a=SQstoxNvAAAA:8 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=2Ql-koSR-E3QCP5CKPkA:9 a=QEXdDO2ut3YA:10 a=TabF1sUd5HYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=blDGGKshkxetZgQ4mwIY:22 a=a92wne86CCBJYp5se1PY:22 a=zJPOKlILaPO-Fusw5XLl:22 a=jycUkCEYUnZvh0PkXkJV:22 ::
+    100.00
+
+--1678924071-eximdsn-476873491
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 caqVpG6IDlA5Y :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=64125927 p=XjYnnF8-AAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=-SrA3tT32FwA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=8DDsQT7iSmUA:10 a=SQstoxNvAAAA:8 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=2Ql-koSR-E3QCP5CKPkA:9 a=QEXdDO2ut3YA:10 a=TabF1sUd5HYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=blDGGKshkxetZgQ4mwIY:22 a=a92wne86CCBJYp5se1PY:22 a=zJPOKlILaPO-Fusw5XLl:22 a=jycUkCEYUnZvh0PkXkJV:22 :: 100.00
+
+--1678924071-eximdsn-476873491
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pcaqQ-00BhRG-EF
+	for ginojohn@gmail.com;
+	Wed, 15 Mar 2023 16:47:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Neal Cheshire.
+X-PHP-Script: ststephenssanjose.org/contact.php for 192.227.205.235
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 192.227.205.235
+From: cheshire.ferne@msn.com
+Reply-To: cheshire.ferne@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pcaqQ-00BhRG-EF@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 15 Mar 2023 16:47:46 -0700
+
+You have been contacted by Neal Cheshire, and the message is as
+follows.
+
+"I noticed your website isn’t ranking well in the search results. We
+have the exclusive ability to have your company on Google’s
+autocomplete for any search term you want. 
+
+For example, if someone searches Personal injury lawyer Las Vegas then
+Google will autocomplete the search to Learner and Rowe (Our client).
+Or dentist San Antonio, Google will autocomplete the search to Stone
+Oak (Our Client)
+
+This means you’ll 
+-	You’ll be taking over the search before users ever hit the search
+result (huge traffic)
+-	Get insane branding > looks like Google recommends you.
+
+This service is called Search-Box-Optimization (SBO), which we provide
+exclusively. 
+
+*Important – the search terms are exclusive, meaning once you own
+them, they are yours. 
+
+*Important - You Only Pay When We Get You In The Auto- Complete. "Pay
+For Results ONLY!"
+
+You can see the magic of SBO in a video Here: https://reachkings.com
+
+
+
+Regards,
+Neal
+
+
+
+
+
+
+
+
+If you no longer want to receive our messages click here to opt-out:
+https://optout.seobosslocal.com/wp/?site=ststephenssanjose.org
+
+
+
+
+"
+
+You can contact Neal Cheshire via email, cheshire.ferne@msn.com
+
+--1678924071-eximdsn-476873491--

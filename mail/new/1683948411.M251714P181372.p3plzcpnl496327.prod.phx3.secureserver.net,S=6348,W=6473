@@ -1,0 +1,125 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id CuXnDnsDX2R8xAIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 12 May 2023 20:26:51 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 12 May 2023 20:26:51 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pxfuF-000lBG-69
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 12 May 2023 20:26:51 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pxfuA-000lAf-45@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1683948411-eximdsn-2053617528
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pxfuF-000lBG-69@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 12 May 2023 20:26:51 -0700
+
+--1683948411-eximdsn-2053617528
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xfuFpdp2H3yUY :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WuTtc/Tv c=1 sm=1 tr=0 ts=645f037b p=vK5pLu7j93MA:10 p=1tZ7xgR0AAAA:8 p=oBTY3W47AAAA:8 p=Atzm6VaZKG56lMRFvGQF:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=lZ9K03lBrvYA:10 a=UqCG9HQmAAAA:8 a=tvHtcGFHYqQlpu2MyZ8A:9 a=QEXdDO2ut3YA:10 a=AVpTu_3YGg8A:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=b1gu8hWBxKpc7SPfva2r:22 a=cAaYsjDZZr52CCLSnGIU:22 ::
+    100.00
+
+--1683948411-eximdsn-2053617528
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 xfuFpdp2H3yUY :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WuTtc/Tv c=1 sm=1 tr=0 ts=645f037b p=vK5pLu7j93MA:10 p=1tZ7xgR0AAAA:8 p=oBTY3W47AAAA:8 p=Atzm6VaZKG56lMRFvGQF:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=lZ9K03lBrvYA:10 a=UqCG9HQmAAAA:8 a=tvHtcGFHYqQlpu2MyZ8A:9 a=QEXdDO2ut3YA:10 a=AVpTu_3YGg8A:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=b1gu8hWBxKpc7SPfva2r:22 a=cAaYsjDZZr52CCLSnGIU:22 :: 100.00
+
+--1683948411-eximdsn-2053617528
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pxfuA-000lAf-45
+	for ginojohn@gmail.com;
+	Fri, 12 May 2023 20:26:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by AnthonyTam.
+X-PHP-Script: ststephenssanjose.org/contact.php for 104.28.198.243
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 104.28.198.243
+From: relenasannella027@outlook.com
+Reply-To: relenasannella027@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pxfuA-000lAf-45@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 12 May 2023 20:26:46 -0700
+
+You have been contacted by AnthonyTam, and the message is as follows.
+
+"[url=http://bestbrows.site] A fundamentally new anti-detection
+browser with anti-detection methods[/url] 
+ 
+ 
+ 
+[b]Ximera's work is based on the principles of cryptography, which
+make it possible to confuse digital fingerprints and prevent
+sites from collecting and compiling information about the activity of
+their visitors. 
+[/b]
+
+In addition to the obvious advantage of providing anonymous and secure
+online activities, Chimera has other advantages:
+[i] 
+- Profile data can be stored in a convenient way for you. The choice
+is a database or your own device. 
+- Data on different devices are synchronized with each other. 
+- The possibility of fairly accurate manual settings – you can
+change the proxy settings, time zone, browser identification string
+and others. 
+- Access to create multiple work environments. 
+- Protection of the system from hacking if the password is entered
+incorrectly. 
+- Data encryption on a one-way key [/i] 
+ 
+Anonymous browser is suitable for both private and corporate use with
+the distribution of roles between participants. 
+Install and enjoy protected viewing with anti-detection options. 
+ 
+[b]And also be sure to use our affiliate program, to participate, it
+is enough to register in your personal account
+and get an individual link [/b] 
+Invite your users and get 40% from each payment of the user you
+invited 
+ 
+[b]We provide a welcome bonus to each new user when registering with
+the promo code - 94a69r![/b] 
+ 
+ 
+ 
+ 
+ 
+[url=https://xdstore.pro/what-is-anti-detect-browser-batten-down-the-ports-linux-networking-bug-segmentsmack-could-remotely-crash-systems]what-is-anti-detect-browser-batten-down-the-ports-linux-networking-bug-segmentsmack-could-remotely-crash-systems[/url]
+ 
+[url=https://xdstore.pro/what-is-anti-detect-browser-texas-lawyer-suing-apple-over-facetime-bug-claims-it-was-used-to-snoop-on-a-meeting]what-is-anti-detect-browser-texas-lawyer-suing-apple-over-facetime-bug-claims-it-was-used-to-snoop-on-a-meeting[/url]
+"
+
+You can contact AnthonyTam via email, relenasannella027@outlook.com
+
+--1683948411-eximdsn-2053617528--

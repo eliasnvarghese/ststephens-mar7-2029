@@ -1,0 +1,72 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id /Y6IDPFmXGW8mBAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 21 Nov 2023 01:14:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 21 Nov 2023 01:14:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r5Lu5-004Yx3-4h
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 21 Nov 2023 01:14:41 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r5Lu0-004YwC-L2@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1r5Lu5-004Yx3-4h@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 21 Nov 2023 01:14:41 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r5Lu0-004YwC-L2
+	for ginojohn@gmail.com;
+	Tue, 21 Nov 2023 01:14:36 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Julia Reyes.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 45.32.175.161
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 45.32.175.161
+From: microsoft@earnmorenow.info
+Reply-To: microsoft@earnmorenow.info
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r5Lu0-004YwC-L2@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 21 Nov 2023 01:14:36 -0700
+
+You have been contacted by Julia Reyes, and the message is as follows.
+
+"Hello webmaster,
+
+I'm Julia here at Earnmorenow, Earnmorenow is a 3rd party partner of
+Microsoft, and we've launched a campaign to provide prizes (capital,
+iPhone, etc.) to webmasters like you, so you have greater motivation
+to grow your website and business.
+In return, we expect that in the future you will purchase traffic from
+Microsoft Advertising? or monetize your website through Media.net
+(Media.net is a contextual ad network that is powered by Yahoo! and
+Bing)
+
+You only need 1 minute to fill out the form.
+
+Click here to get your prize now:
+https://www.earnmorenow.info/microsoft
+
+Good Luck,
+Julia F. Reyes
+
+UNSUBSCRIBE: https://www.earnmorenow.info/unsubscribe
+
+4351 California St, San Francisco, CA 94118"
+
+You can contact Julia Reyes via email, microsoft@earnmorenow.info

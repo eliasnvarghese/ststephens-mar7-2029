@@ -1,0 +1,244 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id y/ocENGRXmTADTIACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 12 May 2023 12:21:53 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 12 May 2023 12:21:53 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pxYKv-00DlMG-6i
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 12 May 2023 12:21:53 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pxYKp-00DlLG-RR@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1683919313-eximdsn-1298722460
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pxYKv-00DlMG-6i@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 12 May 2023 12:21:53 -0700
+
+--1683919313-eximdsn-1298722460
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xYKvpSPdJNfnR :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WLa5HFgR c=1 sm=1 tr=0 ts=645e91d1 p=bZd4L6ndhUszLfI2ucSd:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=pMHzwDkIAAAA:8 a=SSmOFEACAAAA:8 a=svl-UdSxAAAA:8 a=wypwqX8nAAAA:8 a=pIGlZw7SAAAA:8 a=ysvhrSxAUAsd2l0S4xcA:9 a=QEXdDO2ut3YA:10 a=pdmlaprAOH4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=jF0FGBXs3Vd97qxOKfPP:22 a=FOeTBjBHdiKQ8XF1IaHn:22 a=oxP-dOe8nYFjibhGOpqT:22 a=qm0hTNdVExG7iEfbUhlh:22 ::
+    100.00
+
+--1683919313-eximdsn-1298722460
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 xYKvpSPdJNfnR :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WLa5HFgR c=1 sm=1 tr=0 ts=645e91d1 p=bZd4L6ndhUszLfI2ucSd:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=pMHzwDkIAAAA:8 a=SSmOFEACAAAA:8 a=svl-UdSxAAAA:8 a=wypwqX8nAAAA:8 a=pIGlZw7SAAAA:8 a=ysvhrSxAUAsd2l0S4xcA:9 a=QEXdDO2ut3YA:10 a=pdmlaprAOH4A:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=jF0FGBXs3Vd97qxOKfPP:22 a=FOeTBjBHdiKQ8XF1IaHn:22 a=oxP-dOe8nYFjibhGOpqT:22 a=qm0hTNdVExG7iEfbUhlh:22 :: 100.00
+
+--1683919313-eximdsn-1298722460
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pxYKp-00DlLG-RR
+	for ginojohn@gmail.com;
+	Fri, 12 May 2023 12:21:53 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by SaraiCity.
+X-PHP-Script: ststephenssanjose.org/contact.php for 49.12.208.171
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 49.12.208.171
+From: leannalenard@smilietoys.com
+Reply-To: leannalenard@smilietoys.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pxYKp-00DlLG-RR@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 12 May 2023 12:21:47 -0700
+
+You have been contacted by SaraiCity, and the message is as follows.
+
+"This XML file does not appear to have any style information
+associated with it. The document tree is shown below. 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"> 
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com 
+--> 
+<url> 
+<loc>https://sarai-taj.com/</loc> 
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>1.00</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/blogs/</loc> 
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.80</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D9%83%D9%85%D9%88%D8%A8%D9%86%D8%AF-%D8%AA%D8%A7%D8%AC-%D9%85%D8%B5%D8%B1/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/taj-city-new-cairo/</loc> 
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D8%AA%D8%A7%D8%AC-%D8%B3%D9%8A%D8%AA%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/comparison-between-taj-city-and-sarai-city/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D9%85%D9%82%D8%A7%D8%B1%D9%86%D9%87-%D8%A8%D9%8A%D9%86-%D8%AA%D8%A7%D8%AC-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%88%D8%B3%D8%B1%D8%A7%D9%8A-%D8%B3%D9%8A%D8%AA%D9%8A/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D9%85%D9%88%D9%82%D8%B9-%D9%83%D9%85%D8%A8%D9%88%D9%86%D8%AF-%D8%AA%D8%A7%D8%AC-%D9%85%D8%B5%D8%B1-%D8%B4%D8%B1%D9%83%D8%A9-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D9%86%D8%B5%D8%B1/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D9%87%D9%85-%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A7%D8%AA-%D8%B4%D8%B1%D9%83%D8%A9-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D9%86%D8%B5%D8%B1-%D9%84%D9%84%D8%A3%D8%B3%D9%83%D8%A7%D9%86-%D9%88%D8%A7%D9%84%D8%AA%D8%B9%D9%85%D9%8A%D8%B1/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/distances-and-times-between-taj-city-new-cairo-/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%81%D8%A7%D8%AA-%D9%85%D9%86-%D8%AA%D8%A7%D8%AC-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%88-%D8%A7%D9%87%D9%85-%D8%A7%D9%85%D8%A7%D9%83%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/distance-from-sarai-city-new-cairo-and-some-popula/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/blogs/?page=1</loc> 
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/blogs/?page=2</loc> 
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.64</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%81%D8%A9-%D9%85%D9%86-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%B3%D8%B1%D8%A7%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.51</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D9%83%D9%84-%D9%85%D8%A7-%D8%AA%D8%AD%D8%AA%D8%A7%D8%AC-%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87-%D8%B9%D9%86-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D8%B1%D8%A7%D9%8A-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.51</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1-%D9%81%D9%8A-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%B3%D8%B1%D8%A7%D9%8A/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.51</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9-%D9%81%D9%8A-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D8%B1%D8%A7%D9%8A-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%81%D8%B1%D9%8A%D8%AF%D8%A9-%D9%85%D9%86-%D9%86%D9%88%D8%B9%D9%87%D8%A7/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.51</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7-%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%B0%D9%83%D9%8A-%D9%81%D9%8A-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%B3%D8%B1%D8%A7%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.51</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/%D9%83%D9%84-%D9%85%D8%A7-%D8%AA%D8%B1%D9%8A%D8%AF-%D9%85%D8%B9%D8%B1%D9%81%D8%AA%D9%87-%D8%B9%D9%86-%D9%83%D9%88%D9%85%D8%A8%D8%A7%D9%88%D9%86%D8%AF-%D8%B3%D8%B1%D8%A7%D9%8A/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.51</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/taj-city-compound-egypt-2/</loc> 
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.51</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/why-taj-city-compound-is-a-perfect-choice/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.51</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/discover-luxury-living-at-s-villa-taj-city/</loc>
+
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.51</priority> 
+</url> 
+<url> 
+<loc>https://sarai-taj.com/q-villas-taj-city/</loc> 
+<lastmod>2023-05-02T14:01:36+00:00</lastmod> 
+<priority>0.51</priority> 
+</url> 
+</urlset> 
+ 
+ 
+ 
+Here are the links and their titles based on the provided sitemap: 
+ 
+https://sarai-taj.com/ - Sarai Taj 
+https://sarai-taj.com/blogs/ - Blogs 
+https://sarai-taj.com/%D9%83%D9%85%D9%88%D8%A8%D9%86%D8%AF-%D8%AA%D8%A7%D8%AC-%D9%85%D8%B5%D8%B1/
+- Taj Misr Compound 
+https://sarai-taj.com/taj-city-new-cairo/ - Taj City New Cairo 
+https://sarai-taj.com/%D8%AA%D8%A7%D8%AC-%D8%B3%D9%8A%D8%AA%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/
+- Taj City New Cairo 
+https://sarai-taj.com/comparison-between-taj-city-and-sarai-city/ -
+Comparison between Taj City and Sarai City 
+https://sarai-taj.com/%D9%85%D9%82%D8%A7%D8%B1%D9%86%D9%87-%D8%A8%D9%8A%D9%86-%D8%AA%D8%A7%D8%AC-%D8%B3%D9%8A%D8%AA%D9%8A-%D9%88%D8%B3%D8%B1%D8%A7%D9%8A-%D8%B3%D9%8A%D8%AA%D9%8A/
+- Comparison between Taj City and Sarai City 
+https://sarai-taj.com/%D9%85%D9%88%D9%82%D8%B9-%D9%83%D9%85%D8%A8%D9%88%D9%86%D8%AF-%D8%AA%D8%A7%D8%AC-%D9%85%D8%B5%D8%B1-%D8%B4%D8%B1%D9%83%D8%A9-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D9%86%D8%B5%D8%B1/
+- Taj Misr Compound Location 
+https://sarai-taj.com/%D9%87%D9%85-%D9%85%D8%B4%D8%B1"
+
+You can contact SaraiCity via email, leannalenard@smilietoys.com
+
+--1683919313-eximdsn-1298722460--

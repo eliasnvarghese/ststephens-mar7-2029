@@ -1,0 +1,108 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id sK9NFiQ6ZGPzvC0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 15:01:08 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 15:01:08 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqiGq-00Cbad-96
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 15:01:08 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqiGp-00CbZk-O1@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667512868-eximdsn-885753870
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqiGq-00Cbad-96@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 15:01:08 -0700
+
+--1667512868-eximdsn-885753870
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qiGqo3qXNa2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63643a24 p=wM8EBYZOcTEA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=KWBYhXKsmuAA:10 a=_g7-gzFSAAAA:8 a=RgBw9RmQAAAA:8 a=WhwS-Ftqi9RzDILj1mkA:9 a=QEXdDO2ut3YA:10 a=EyFPjFFrL6QA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=CJOawDorOLD-jYrzWiwd:22 ::
+    100.00
+
+--1667512868-eximdsn-885753870
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qiGqo3qXNa2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63643a24 p=wM8EBYZOcTEA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=DCcFOfKG104A:10 a=x7bEGLp0ZPQA:10 a=KWBYhXKsmuAA:10 a=_g7-gzFSAAAA:8 a=RgBw9RmQAAAA:8 a=WhwS-Ftqi9RzDILj1mkA:9 a=QEXdDO2ut3YA:10 a=EyFPjFFrL6QA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=CJOawDorOLD-jYrzWiwd:22 :: 100.00
+
+--1667512868-eximdsn-885753870
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqiGp-00CbZk-O1
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 15:01:07 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Carlossaf.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.234.115
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.234.115
+From: valya.valeev.01@mail.ru
+Reply-To: valya.valeev.01@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqiGp-00CbZk-O1@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 15:01:07 -0700
+
+You have been contacted by Carlossaf, and the message is as follows.
+
+"The system includes more than 300,000 legal, regulatory and technical
+documents, information on international standards, author's
+documentation, and a specialized glossary https://dianex.co.uk/
+  In addition, the developer fund is always open to you, including
+more than 17 million documents https://dianex.co.uk/
+  Confidence in the correctness of the decision in the most difficult
+situation 
+Power industryUnique professional help system for specialists working
+at the enterprises of the power industry
+http://dianex.co.uk/our_services
+  It contains regulatory and legal documentation, reference
+information, as well as a whole range of unique services and services
+http://dianex.co.uk/our_services
+  What the system gives: A quick and accurate answer to your question
+? Smart search in just a couple of seconds will find the information
+you need in full with a 100% guarantee of relevance, backed by the
+experience of expert practitioners http://dianex.co.uk/our_services
+  Access to a complete collection of documents and materials on the
+electric power industry 
+
+Get a gift *certificate can be used as a discount (ratio 1 point = 1
+ruble) for the purchase of an ISO 9001 quality management system
+certificate in LLC, the cost of which is 12,430 rubles
+http://dianex.co.uk/our_services
+  The difference is paid additionally https://dianex.co.uk/
+  Privileges of our clients 
+
+вЂў - to compare the revisions of one document or a new one with a
+canceled one, in order to understand exactly what changes have
+occurred - the system will provide you with a complete analysis 
+"
+
+You can contact Carlossaf via email, valya.valeev.01@mail.ru
+
+--1667512868-eximdsn-885753870--

@@ -1,0 +1,145 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id MAlZCTZkaGOzyToAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Sun, 06 Nov 2022 18:49:42 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Sun, 06 Nov 2022 18:49:42 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1orrGg-00GCpK-0r
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Sun, 06 Nov 2022 18:49:42 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1orrGf-00GCoi-GW@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667785782-eximdsn-1325887656
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1orrGg-00GCpK-0r@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 06 Nov 2022 18:49:42 -0700
+
+--1667785782-eximdsn-1325887656
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rrGfohgk2a2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63686436 p=iPfaXo_PcWMA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=z_eevZxNH8wA:10 a=QUC2DJBuAAAA:8 a=RgBw9RmQAAAA:8 a=BgTbAdXkFDbH8nRy8BcA:9 a=QEXdDO2ut3YA:10 a=nmN5PyIS0n0A:10 a=s4ET_no39iIA:10 a=YptgenrckBkA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=2bhPD3aLbhISNpCYJdoZ:22 ::
+    100.00
+
+--1667785782-eximdsn-1325887656
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 rrGfohgk2a2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63686436 p=iPfaXo_PcWMA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=vjYOFWP2S5gA:10 a=x7bEGLp0ZPQA:10 a=z_eevZxNH8wA:10 a=QUC2DJBuAAAA:8 a=RgBw9RmQAAAA:8 a=BgTbAdXkFDbH8nRy8BcA:9 a=QEXdDO2ut3YA:10 a=nmN5PyIS0n0A:10 a=s4ET_no39iIA:10 a=YptgenrckBkA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=2bhPD3aLbhISNpCYJdoZ:22 :: 100.00
+
+--1667785782-eximdsn-1325887656
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1orrGf-00GCoi-GW
+	for ginojohn@gmail.com; Sun, 06 Nov 2022 18:49:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jeraldhib.
+X-PHP-Script: ststephenssanjose.org/contact.php for 185.197.74.6
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 185.197.74.6
+From: smirnova.liudmila.1980.30.1@mail.ru
+Reply-To: smirnova.liudmila.1980.30.1@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1orrGf-00GCoi-GW@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Sun, 06 Nov 2022 18:49:41 -0700
+
+You have been contacted by Jeraldhib, and the message is as follows.
+
+"      Тема учеником не раскрыта
+полностью https://www.globish-school.ru/tests.html
+  Можно было менее подробно описать
+дорогу в лес, но зато стоило уделить
+больше внимания описанию осеннего
+леса, детально рассказать, чем
+запомнился день, какие впечатления
+оставил http://www.globish-school.ru
+ 
+Дома маму ждала записка от сына
+https://www.globish-school.ru/tests.html
+ На берегу реки стояли маленькие
+домики http://www.globish-school.ru
+ Засуха в прошлом году погубила всю
+зелень https://www.globish-school.ru/tests.html
+ Ученик достал из портфеля свои
+тетради http://www.globish-school.ru
+ 
+22 https://www.globish-school.ru
+  Прочитайте https://www.globish-school.ru/tests.html
+  Выпишите сначала слова, которые
+пишутся по произношению, а затем
+слова, которые пишутся не так, как
+произносятся https://www.globish-school.ru
+ Варежки, игра,  книга, коньки,  метель,
+мир, снег, снежки, спор, успех
+https://www.globish-school.ru/tests.html
+ 
+198 https://www.globish-school.ru/tests.html
+  Расположите слова в порядке
+увеличения размера называемого
+предмета https://www.globish-school.ru
+ Выделите в каждом слове основу и
+окончание, а в основе слова - корень и
+суффикс, если он есть https://www.globish-school.ru
+ 
+74 http://www.globish-school.ru
+  Прочитайте стихотворение О
+http://www.globish-school.ru
+  Григорьева https://www.globish-school.ru
+  Какое настроение оно создаёт у вас?
+Какие из записанных слов склоняются
+(существительные), какое — спрягается
+(глагол), а какие слова никак не
+изменяются? (Предлоги и
+частицы)Распределите выделенные в
+тексте части речи по следующим
+колонкам:Имена существительные 
+Глаголы Предлоги Частицы   створки   
+                   красил      до         
+   жКрасил я дверные створки,До  кино 
+остался  час,Зацепил ногой
+ведёрко,Краска лужей растеклась
+https://www.globish-school.ru/tests.html
+ Растеклась так растеклась —Это ж
+краска, а не  грязь https://www.globish-school.ru
+ Отложу  поход  в  кино,Пол  покрашу
+заодно https://www.globish-school.ru
+ 
+Актёр, суфлёр, гримёр - в театре,
+дирижёр - в филармонии, изобретатель -
+на заводе или в
+научно-исследовательском институте
+(НИИ), укротитель - в цирке
+https://www.globish-school.ru
+ 
+"
+
+You can contact Jeraldhib via email,
+smirnova.liudmila.1980.30.1@mail.ru
+
+--1667785782-eximdsn-1325887656--

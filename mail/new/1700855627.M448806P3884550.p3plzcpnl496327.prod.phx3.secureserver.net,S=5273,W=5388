@@ -1,0 +1,115 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id yT9aGkv/YGUGRjsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 24 Nov 2023 12:53:47 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 24 Nov 2023 12:53:47 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r6cFH-00GIXv-CH
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 24 Nov 2023 12:53:47 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r6cFC-00GIVI-34@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700855627-eximdsn-1412969130
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r6cFH-00GIXv-CH@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 24 Nov 2023 12:53:47 -0700
+
+--1700855627-eximdsn-1412969130
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 6cFHrMlM95SRd :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=NZEglUP4 c=1 sm=1 tr=0 ts=6560ff4b p=yFOnPD6kAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=0X5J9VTK-LZE7xY-QowA:9 a=QEXdDO2ut3YA:10 a=wsIMSNZ7KEwA:10 a=ucRiF0biNq0A:10 a=v63D9nlihinQpBSboTlF:22 a=CFcPxUkFeYoel43W6cBj:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1700855627-eximdsn-1412969130
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 6cFHrMlM95SRd :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=NZEglUP4 c=1 sm=1 tr=0 ts=6560ff4b p=yFOnPD6kAAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=0X5J9VTK-LZE7xY-QowA:9 a=QEXdDO2ut3YA:10 a=wsIMSNZ7KEwA:10 a=ucRiF0biNq0A:10 a=v63D9nlihinQpBSboTlF:22 a=CFcPxUkFeYoel43W6cBj:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1700855627-eximdsn-1412969130
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r6cFC-00GIVI-34
+	for ginojohn@gmail.com;
+	Fri, 24 Nov 2023 12:53:47 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Pitroda Satyan.
+X-PHP-Script: ststephenssanjose.org/contact.php for 138.199.36.212
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 138.199.36.212
+From: projectdept@kanzalshamsprojectmgt.com
+Reply-To: projectdept@kanzalshamsprojectmgt.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r6cFC-00GIVI-34@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 24 Nov 2023 12:53:42 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Pitroda Satyan, and the message is as
+follows.
+
+"Greetings, 
+ 
+Am glad to connect with you, My name is Pitroda Satyan G, am an
+investment consultant with KANZ ALSHAMS PROJECT CONSULTANT, I have
+been mandated by the company to source for investment opportunities
+and companies seeking for funding, business loans, for its project(s).
+Do you have any investment or project that is seeking for capital to
+fund it? 
+ 
+Our Investments financing focus is on: 
+ 
+Seed Capital, Early-Stage, Start-Up Ventures, , Brokerage, Private
+Finance, Renewable Energy Project, Commercial Real Estate, Blockchain,
+Technology, Telecommunication, Infrastructure, Agriculture, Animal
+Breeding, Hospitality, Healthcare, Oil/Gas/Refinery. Application
+reserved for business executives and companies with proven business
+records in search of funding for expansion or forcapital investments..
+
+ 
+Kindly contact me for further details. 
+ 
+await your return e.mail soonest. 
+ 
+Regards 
+ 
+Dr. Pitroda Satyan G 
+ 
+KANZ ALSHAMS PROJECT CONSULTANT 
+Address: 72469 Jahra Road Shuwaikh Industrial 
+Tel: +968 7866 9578 
+Email: info@kanzalshamsprojectmgt.com"
+
+You can contact Pitroda Satyan via email,
+projectdept@kanzalshamsprojectmgt.com
+
+--1700855627-eximdsn-1412969130--

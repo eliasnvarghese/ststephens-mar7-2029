@@ -1,0 +1,114 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id sKzIDHIlZGO48SYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 13:32:50 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 13:32:50 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqgtO-00AkEs-3M
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 13:32:50 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqgtN-00AkED-Lc@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667507570-eximdsn-703334395
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqgtO-00AkEs-3M@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 13:32:50 -0700
+
+--1667507570-eximdsn-703334395
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qgtNo2tcxa2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63642572 p=Yvo_NEKOnWIA:10 p=D96wC7SEensA:10 p=xSIC7BTlAAAA:8 p=qqEQnl2EcnYA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=x7bEGLp0ZPQA:10 a=z6OMoVG8q7oA:10 a=UqCG9HQmAAAA:8 a=sr7Ctrb2Hxv5EyMiZLAA:9 a=QEXdDO2ut3YA:10 a=Mm4Ec3bnJXwA:10 a=KyYZJfTCSdMA:10 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 a=oXOcAUxH_y3sY6DJVALf:22 ::
+    100.00
+
+--1667507570-eximdsn-703334395
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qgtNo2tcxa2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=63642572 p=Yvo_NEKOnWIA:10 p=D96wC7SEensA:10 p=xSIC7BTlAAAA:8 p=qqEQnl2EcnYA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=x7bEGLp0ZPQA:10 a=z6OMoVG8q7oA:10 a=UqCG9HQmAAAA:8 a=sr7Ctrb2Hxv5EyMiZLAA:9 a=QEXdDO2ut3YA:10 a=Mm4Ec3bnJXwA:10 a=KyYZJfTCSdMA:10 a=e03GX9XZzNdJjLUNKu87:22 a=acewEgQMpYTsClr9keMy:22 a=oXOcAUxH_y3sY6DJVALf:22 :: 100.00
+
+--1667507570-eximdsn-703334395
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqgtN-00AkED-Lc
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 13:32:49 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MichealGow.
+X-PHP-Script: ststephenssanjose.org/contact.php for 178.168.222.120
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 178.168.222.120
+From: heikeikgki@outlook.com
+Reply-To: heikeikgki@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqgtN-00AkED-Lc@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 13:32:49 -0700
+
+You have been contacted by MichealGow, and the message is as follows.
+
+"Так, завод ООО "ПСМА Рус" (совместное
+предприятие PSA Peugeot Citroen и Mitsubishi) в
+Калуге прекратит выпуск автомобилей
+марок Peugeot, Citroen и Opel с 1 по 10 апреля.
+Предприятие с 1 по 5 апреля уйдет в
+простой, с 6 по 10 апреля на заводе
+запланирован коллективный отпуск.
+С тем, что решение кадрового вопроса
+сегодня является одной из важнейших
+задач для рынка ФПИ, согласен и
+управляющий партнер Deloitte. «Я
+постоянно напоминаю себе, что опыта
+работы на открытом свободном рынке у
+Казахстана очень мало. Поэтому
+деятельность ФПИ фундаментально
+зависит от высшего руководства
+компаний. Я очень много времени
+потратил на оценку качества
+руководства компаний, поэтому отмечу,
+что важны не цифры, а люди», —
+резюмирует Рассел.
+ 
+<a href=https://cfeed.ru/>cfeed.ru</a> 
+Новости экономики и финансов.
+Другие представители иностранного
+автопрома в большинстве уже сообщили,
+что также приостановят работу на
+грядущей неделе. В частности, заводы
+Nissan и Hyundai в Санкт-Петербурге.
+Приостановку "Интерфаксу" подтвердили
+и в китайском Haval, выпускающем
+внедорожники в Тульской области.
+Таджикистану предоставят помощь в
+постройке автодорог: грант
+предоставляет финансовая организация
+из Кувейта.
+"
+
+You can contact MichealGow via email, heikeikgki@outlook.com
+
+--1667507570-eximdsn-703334395--

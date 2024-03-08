@@ -1,0 +1,73 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id z1ldG/yacWVKEBUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 07 Dec 2023 03:14:20 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 07 Dec 2023 03:14:20 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rBBOe-005n6o-1F
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 07 Dec 2023 03:14:20 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rBBOZ-005n5A-0v@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rBBOe-005n6o-1F@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 07 Dec 2023 03:14:20 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rBBOZ-005n5A-0v
+	for ginojohn@gmail.com;
+	Thu, 07 Dec 2023 03:14:15 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jimmy Amaral.
+X-PHP-Script: ststephenssanjose.org/contact.php for 5.254.43.249
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 5.254.43.249
+From: rusty.amaral@gmail.com
+Reply-To: rusty.amaral@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rBBOZ-005n5A-0v@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 07 Dec 2023 03:14:15 -0700
+
+You have been contacted by Jimmy Amaral, and the message is as
+follows.
+
+"SEO ensures your website stands out when people search for products
+or services. Google prioritizes relevance and reliability to decide
+which sites appear on the first pages, underscoring the need for
+effective website presentation.
+
+SEO Benefits in Brief:
+1. Boosts Visibility and Traffic:
+2. Establishes Trust:
+3. Yields High ROI:
+4. Enhances User Experience:
+Google announced prioritizing pages based on user experience in their
+algorithm.
+In essence, SEO is your key to standing out, building trust, and
+ensuring a high return on investment.
+
+Contact us at https://digitalpromax.co/
+
+Also Need expert hands on your WordPress projects? We've got you
+covered. Let's discuss how our WordPress developers can boost your web
+endeavors.
+
+Click here for more details: https://outsource-bpo.com/website/"
+
+You can contact Jimmy Amaral via email, rusty.amaral@gmail.com

@@ -1,0 +1,165 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id OF4lHEZmVGXVNAoACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 14 Nov 2023 23:33:42 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 14 Nov 2023 23:33:42 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r39T4-002otJ-DQ
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 14 Nov 2023 23:33:42 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r39Sz-002or8-Gp@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700030022-eximdsn-1002897575
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r39T4-002otJ-DQ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 14 Nov 2023 23:33:42 -0700
+
+--1700030022-eximdsn-1002897575
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 39T4rgpGn93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=65546646 p=mnTjpfSRAAAA:8 p=rgfHRl4_8cIu3mV7fGAz:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=0gc1BNFL9uMA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=Vv3tksodHpAA:10 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=rNXlXjoHL50hhkd74mgA:9 a=QEXdDO2ut3YA:10 a=pQNs7Ala7VQA:10 a=GpgGyJwAu1EA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=vG1CjOZ6gve_C9reCJw_:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1700030022-eximdsn-1002897575
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 39T4rgpGn93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=65546646 p=mnTjpfSRAAAA:8 p=rgfHRl4_8cIu3mV7fGAz:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=0gc1BNFL9uMA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=Vv3tksodHpAA:10 a=huvbmMDMAAAA:8 a=AAvYLDLOAAAA:8 a=rNXlXjoHL50hhkd74mgA:9 a=QEXdDO2ut3YA:10 a=pQNs7Ala7VQA:10 a=GpgGyJwAu1EA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=vG1CjOZ6gve_C9reCJw_:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1700030022-eximdsn-1002897575
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r39Sz-002or8-Gp
+	for ginojohn@gmail.com;
+	Tue, 14 Nov 2023 23:33:42 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Rosemary McGeehan.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 179.61.156.104
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 179.61.156.104
+From: rosemary.mcgeehan@msn.com
+Reply-To: rosemary.mcgeehan@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r39Sz-002or8-Gp@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 14 Nov 2023 23:33:37 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Rosemary McGeehan, and the message is as
+follows.
+
+"Dear ststephenssanjose.org Webmaster.
+
+My name’s Rosemary, I came across ststephenssanjose.org after
+performing a swift search – you popped up near the peak of the
+rankings, so whichever you’re doing for SEO, looks like it’s
+operating well.  
+
+So here’s my query – what happens AFTER someone reaches on your
+site?  Anything?
+
+Studies tell us at least 70% of the individuals who locate your site,
+after a fast once-over, they disappear… forever.
+
+That signifies that all the labor and effort you put into getting them
+to arrive, goes the tubes.
+
+Why would you want all that excellent work – and the fantastic site
+you’ve constructed – go to waste?
+
+Because the probabilities are they’ll just omit over calling or even
+pulling out their phone, leaving you high and dry.
+
+But here’s a idea… what if you could formulate it super-simple for
+someone to raise their hand, say, okay, let’s talk without needing
+them to even pull their cell phone from their pocket?
+  
+You can – all thanks to innovative new software that can actually
+make that first call happen NOW.
+
+Web Visitors Into Leads is a software widget that sits on your site,
+set and waiting capture any visitor’s Name, Email address and Phone
+Number.  It enables you be aware IMMEDIATELY – so that you can talk
+to that lead while they’re still present at your site.
+  
+You realize, strike when the iron’s hot!
+
+CLICK HERE https://turboleadgeneration.com to try out a Live Demo with
+Web Visitors Into Leads now to see precisely how it works.
+
+When targeting leads, you HAVE to act fast – the difference between
+connecting with someone within 5 minutes versus 30 minutes later is
+massive – like 100 times better!
+
+That’s why you should examine our new SMS Text With Lead function as
+well… once you’ve grabbed the phone number of the website visitor,
+you can instantly kick off a text message (SMS) conversation with
+them. 
+
+Imagine how strong this could be – even if they don’t accept you
+up on your offer instantly, you can stay in touch with them using text
+messages to make new offers, offer links to excellent content, and
+create your credibility.
+
+Just this alone could be a game changer to render your website even
+more productive.
+
+Strike when the iron’s hot!
+
+CLICK HERE https://turboleadgeneration.com to find out more about all
+Web Visitors Into Leads can do for your company – you’ll be
+amazed.
+
+Thanks and continue the excellent work!
+
+Rosemary
+PS: Web Visitors Into Leads offers a FREE 14 days trial – you could
+be transforming up to 100x more leads immediately!   
+It even contains International Long Distance Calling. 
+Cease wasting money pursuing eyeballs that don’t turn into paying
+customers. 
+CLICK HERE https://turboleadgeneration.com to try Web Visitors Into
+Leads now.
+
+If you'd like to unsubscribe click here
+https://turboleadgeneration.com/unsubscribe.aspx?d=ststephenssanjose.org
+
+Simply a rapid remark - the identities and email employed in this
+communication, Rosemary and McGeehan, are substitutes and not actually
+authentic contact information. We value honesty and wished to make
+sure you are aware of this! In case you aspire to communicate with the
+real one responsible for this message, do visit our site, and we’ll
+link you with the appropriate person."
+
+You can contact Rosemary McGeehan via email, rosemary.mcgeehan@msn.com
+
+--1700030022-eximdsn-1002897575--

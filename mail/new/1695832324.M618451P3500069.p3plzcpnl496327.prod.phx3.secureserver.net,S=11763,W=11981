@@ -1,0 +1,218 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id eOlgJARZFGUlaDUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 27 Sep 2023 09:32:04 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 27 Sep 2023 09:32:04 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qlXSG-00Eiyf-Hi
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 27 Sep 2023 09:32:04 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qlXSB-00EiYd-En@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1695832324-eximdsn-229060417
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qlXSG-00Eiyf-Hi@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 27 Sep 2023 09:32:04 -0700
+
+--1695832324-eximdsn-229060417
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 lXSGq9aswpACF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ed/7PZIH c=1 sm=1 tr=0 ts=65145904 p=Yg-rGVR5HsEA:10 p=ydgnTqgkkGPRlgAr7T93:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=uSk_1WKyUwkA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=cyWE8EtxkVcA:10 a=pGLkceISAAAA:8 a=bNDOJ876gcnBy5hpqAUA:9 a=QEXdDO2ut3YA:10 a=uUoPwAeCi88A:10 a=KyYZJfTCSdMA:10 a=7-oV4KWpvcyhFWvH1fhS:22 a=W23LVWI8GB7MOwYMbQJB:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1695832324-eximdsn-229060417
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 lXSGq9aswpACF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ed/7PZIH c=1 sm=1 tr=0 ts=65145904 p=Yg-rGVR5HsEA:10 p=ydgnTqgkkGPRlgAr7T93:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=uSk_1WKyUwkA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=cyWE8EtxkVcA:10 a=pGLkceISAAAA:8 a=bNDOJ876gcnBy5hpqAUA:9 a=QEXdDO2ut3YA:10 a=uUoPwAeCi88A:10 a=KyYZJfTCSdMA:10 a=7-oV4KWpvcyhFWvH1fhS:22 a=W23LVWI8GB7MOwYMbQJB:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1695832324-eximdsn-229060417
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qlXSB-00EiYd-En
+	for ginojohn@gmail.com;
+	Wed, 27 Sep 2023 09:32:04 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MichaelLab.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.129.64.141
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.129.64.141
+From: yourmail@gmail.com
+Reply-To: yourmail@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qlXSB-00EiYd-En@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 27 Sep 2023 09:31:59 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by MichaelLab, and the message is as follows.
+
+"Говорят, что в одну и ту же реку нельзя
+войти дважды. Но Сергей Сароян сумел.
+Спустя пять лет его снова позвали в
+Телетрейд, и он с радостью согласился.
+Вероятно руководство компании высоко
+ценит «талант» Сарояна разводить и
+обворовывать людей. 
+ 
+Сегодня мошенник и хапуга Сергей
+Сароян вернулся и снова начал кидать
+клиентов, возглавив все клиентские
+офисы Телетрейд в Украине, Португалии,
+Италии, Польше, Румынии и Венгрии. Но
+теперь уже, как директор, он получает
+не 3%, а долю со слитых депозитов
+клиентов. А вот признаваться прилюдно
+в причастности к мошеннической
+брокерской компании новоиспеченный
+директор не спешит. В своих соцсетях
+Сергей Сароян лишь туманно намекает
+на консультационные услуги, которые
+оказывает Телетрейд. Аферист
+тщательно маскируется, однако
+обманутым клиентам компании удалось
+вывести его на чистую воду — они
+получили доказательство того, что
+именно Сергей Сароян сегодня стоит у
+руля украинского Телетрейд.
+Видеоролик, где он сам признается в
+этом, был показан на
+пресс-конференции, состоявшейся в
+июле 2020 года. 
+ 
+В этом эксклюзивном видео видно как
+Сергей Сароян принимает в управление
+украинские офисы компании Центр
+Биржевых Технологий — дочернего
+предприятия Телетрейд в Украине. 
+ 
+Эту пресс-конференцию провела
+инициативная группа обманутых
+клиентов Телетрейд. Цель, которую они
+поставили перед собой — вывести на
+чистую воду брокера-мошенника и все
+руководство компании, а также вернуть
+свои деньги. Материалы, собранные
+обманутыми клиентами демонстрируют
+схемы развода, которые используются в
+Телетрейд. В частности, проект
+«Синхронная торговля», который пришел
+на смену «Бирже трейдеров». В
+«Синхронной торговле» уже не
+люди-трейдеры, а торговые роботы
+сливают клиентские депозиты. Теперь
+именно в этот проект заманивает
+клиентов Сергей Сароян. А затем, в
+определенный момент, дает
+программистам компании указание, и те
+перепрограммируют роботов на
+заключение заведомо убыточных сделок.
+Так депозиты клиентов сливаются в
+ноль. 
+ 
+Сергей Сароян опустошает карманы
+украинцев и подрывает экономику
+страны 
+ 
+Эти мошеннические схемы давно попали
+в поле зрения правоохранительных
+органов в России — уголовное дело на
+Телетрейд там завели еще несколько
+лет назад. 
+ 
+Последовали примеру российских
+коллег и в Казахстане, где уголовное
+производство началось летом 2020 года.
+Руководители казахского филиала
+Телетрейд и дочерней компании Wall Street
+Invest Partners сейчас находятся в
+следственном изоляторе. 
+ 
+Чтобы замять уголовные дела в России,
+руководители Телетрейд Сергей
+Шамраев, Олег Суворов и Мингиян
+Манжиков дают взятки чиновникам в
+Следственном Комитете РФ —
+ежемесячно «отстегивают» им около 20%
+от поступлений, а это сотни тысяч. И не
+рублей, а долларов. По инсайдерской
+информации руководство Телетрейд в
+России заставляют также
+финансировать боевые действия на
+Востоке Украины — мошенники отдают на
+это еще 10% от поступлений. Если
+рассматривать деятельность Телетрейд
+и с этой стороны, то мошенник Сергей
+Сароян, как директор Телетрейд, не
+только обворовывает своих сограждан
+страны, а еще и финансирует боевиков
+ДНР и ЛНР, отнимающих жизни украинцев.
+
+ 
+Вызывает удивление тот факт, что в
+Украине деятельность Телетрейд на
+протяжении четверти века никто не
+проверяет. Количество обманутых
+клиентов брокера огромно. Мошенниками
+ежемесячно выводятся в офшоры
+миллионы долларов. Но пока
+правоохранительные органы не
+замечают, или не хотят замечать,
+противозаконной деятельности
+брокера. По сведениям из источников
+внутри компании Сергей Сароян
+рассказывает своим подчиненным —
+управляющим офисов в Украине, что им
+не нужно ничего бояться, так как
+руководство Департамента
+киберполиции Украины сидит у него на
+«зарплате». Вот так безнаказанно
+(пока!) Сергей Сароян разоряет
+украинцев, подрывает экономику
+Украины и спонсирует российскую
+агрессию на Донбассе. 
+ 
+Теги статьи: ОффшорыСуворов
+ОлегЧернобай
+АннаАферистыАферыСароян
+СергейЧернобай
+ВладимирМошенничествоМошенникиброкерыТелеТрейд
+
+ 
+19 февраля 2021 г., 10:22     Просмотров: 6197
+Комментарии: 1 
+Распечатать Послать другу 
+Комментарии:"
+
+You can contact MichaelLab via email, yourmail@gmail.com
+
+--1695832324-eximdsn-229060417--

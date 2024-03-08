@@ -1,0 +1,180 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id wN3uNvYLxmP0nDoAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 16 Jan 2023 19:46:14 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 16 Jan 2023 19:46:15 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pHbzK-00GP9y-Q8
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Mon, 16 Jan 2023 19:46:14 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pHbzF-00GP6d-Ny@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1673923574-eximdsn-1564148964
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pHbzK-00GP9y-Q8@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 16 Jan 2023 19:46:14 -0700
+
+--1673923574-eximdsn-1564148964
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 HbzKpmOKVAJAH :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=dOVg2sVb c=1 sm=1 tr=0 ts=63c60bf6 p=52lGPr3CPCAA:10 p=fwQ_BJTyCdEuBcrY2hQA:9 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=8EnuQ8uJAWAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RvmDmJFTN0MA:10 a=x7bEGLp0ZPQA:10 a=nPxos2WEdu8A:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=RNx7cVoCQUwA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=NfjQJnn0gPThvZn_mlKJ:22 a=R7rS4sH3cC8zStyaU2jf:22 a=Opjcf2rbXONI77XeNpWh:22 ::
+    100.00
+
+--1673923574-eximdsn-1564148964
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 HbzKpmOKVAJAH :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=dOVg2sVb c=1 sm=1 tr=0 ts=63c60bf6 p=52lGPr3CPCAA:10 p=fwQ_BJTyCdEuBcrY2hQA:9 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=8EnuQ8uJAWAA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=RvmDmJFTN0MA:10 a=x7bEGLp0ZPQA:10 a=nPxos2WEdu8A:10 a=njEoReLTAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=RNx7cVoCQUwA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=NfjQJnn0gPThvZn_mlKJ:22 a=R7rS4sH3cC8zStyaU2jf:22 a=Opjcf2rbXONI77XeNpWh:22 :: 100.00
+
+--1673923574-eximdsn-1564148964
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pHbzF-00GP6d-Ny
+	for ginojohn@gmail.com;
+	Mon, 16 Jan 2023 19:46:14 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Wade Carrier.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.171.186
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.171.186
+From: carrier.wade@gmail.com
+Reply-To: carrier.wade@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pHbzF-00GP6d-Ny@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 16 Jan 2023 19:46:09 -0700
+
+You have been contacted by Wade Carrier, and the message is as
+follows.
+
+"Hey Friend,,
+ 
+Do you know that Aweber, Getresponse, Active Campaign, Mailchimp are
+charging between $50 to $299 per month for sending limited campaigns
+with low open rates..?
+ 
+And even they will block your account anytime with silly reasons.. 
+
+BUT!! 
+Today, My friends Akshat & Jaideep has released another premium
+WORLD'S First MJML Based Email, Voice & Video Marketing Autoresponder
+With Inbuilt SMTP To Boost Email Delivery, Click and Open Rates
+Instantly
+
+
+With MailBear, you replace all of the memberships and it doesn't
+charge you a hefty recurring amount. No need to mess up with limited
+credits 
+
+Sounds interesting?
+=> Click Here & Send Your First Video, Voice & Email Campaign Now
+https://warriorplus.com/o2/a/qkvkqh/0
+Special $4 Off - ‘BEAR4’ (Expires in an hour time)
+
+WORLD'S First MJML Based Email, Voice & Video Marketing Autoresponder
+With Inbuilt SMTP To Boost Email Delivery, Click and Open Rates
+Instantly
+
+Here’s why you can’t miss it-
+Professional & Fully Cloud-Based Platform
+Send Unlimited Video, Voice & Email Campaigns 
+99.9% Open Rate + Inboxing Assurance
+Play Videos & Voices Inside The Email
+Turn Your Autoresponder Into An Video Autoresponder
+80+ Major Autoresponders Integration
+Inbuilt SMTP & Dedicated API For Higher Inboxing 
+DFY 50+ Inbuilt Templates
+Upload Unlimited Videos Inside Your Autoresponder
+Upload Unlimited List & Subscribers
+Single Optin/ Double Optin Support
+Send Unlimited Campaigns With ZERO Restrictions 
+COMMERCIAL LICENCE Included
+No Limitations - Completely Free
+Sell Unlimited Campaigns & Earn Like The Big Boys
+No Special Skills or Experience Required
+Step by Step Training
+And much more...
+
+=> Get Your MailBear Lifetime Account + Commercial License at a
+One-Time Price https://warriorplus.com/o2/a/qkvkqh/0
+Special $4 Off - ‘BEAR4’ (Expires in an hour time)
+ 
+I am not finished yet... If you get MailBear during the special launch
+period, you'll get the following bonuses for no extra cost:
+CourseBear : It's A 3-Click Software That Creates "Udemy Like Website"
+With 1000+ Done-For-You Ready To Sell Courses In 50+ Niches!
+TravelBear + Whitelabel License : First-to-market 1-click app that
+creates a completely automated travel affiliate website in less than
+60 seconds. You can sell your visitors your own products or affiliate
+offers
+ 
+NewsBear + Whitelabel License : Our best drag and drop News Website
+Builder and online News website maker software to help you Create a
+NEWS website for free in minutes.
+ 
+BacklinkBear OTO1 + Reseller : World's First Fully Cloud Based
+Platform Gets You UNLIMITED REAL HQ BACKLINKS & FREE TRAFFIC That
+Ranks Instantly On Google Page #1
+ 
+FlipBear OTO1 + Reseller : WORLD'S FIRST Amazing 3D/Animated FlipBook
+& Article Creator Cloud Based Platform Along With Millions Of Pre Made
+eBooks With PLR Licence
+ 
+ContentBear OTO1 + Reseller : It’s is a Brand New Cloud A.I
+CopyWriter that Creates High Converting Marketing Copies like…Sales
+Letters, VSL Scripts, Email Swipes, Blog Posts and much much more In
+Just 3 simple steps.
+ 
+VidBear OTO1 + Reseller - Turn Your Old Boring Video A Brand-New
+Breathtaking Video + 100+ Pre Made Video Templates 
+ 
+ToonBear OTO1 + Reseller- The WORLD'S FIRST AI-Based Platform To
+Create Unlimited Animated Videos
+ 
+GraphicBear With OTO1 + Reseller- New Technology Creates & Sells
+Unlimited Jaw Dropping Designs, Video, Logos & Banners
+ 
+AppBear With OTO1 + Reseller- The World’s First Mobile App Builder
+Allows You To Turn Your Existing Website into a Lightning Fast Future
+Ready Mobile App
+ 
+But remember after this week, Mailbear will turn into a recurring
+subscription.
+>> So act fast and get your account at the lowest price ever.
+https://warriorplus.com/o2/a/qkvkqh/0
+
+To Your Success,
+
+
+"
+
+You can contact Wade Carrier via email, carrier.wade@gmail.com
+
+--1673923574-eximdsn-1564148964--

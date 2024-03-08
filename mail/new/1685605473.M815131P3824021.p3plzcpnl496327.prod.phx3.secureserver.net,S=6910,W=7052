@@ -1,0 +1,142 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id sD8vMGFMeGSVWToACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 01 Jun 2023 00:44:33 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 01 Jun 2023 00:44:33 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q4cz3-00G2nd-O6
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 01 Jun 2023 00:44:33 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q4cyx-00G2at-OQ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1685605473-eximdsn-810105074
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q4cz3-00G2nd-O6@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 01 Jun 2023 00:44:33 -0700
+
+--1685605473-eximdsn-810105074
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 4cz3qPsd9VVZp :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=YJhZizKx c=1 sm=1 tr=0 ts=64784c61 p=0a9i_B1bAAAA:20 p=nI3yhpyoAAAA:20 p=-ETm23ix088A:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=gUDTvKrU1Z8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=H-Mfj8JfOfEA:10 a=pGLkceISAAAA:8 a=9-Rt8D_1x8qmvg6w7NgA:9 a=QEXdDO2ut3YA:10 a=wHo_ghTIjH8A:10 a=KyYZJfTCSdMA:10 a=981s9EiWrqO2mPnTDMOr:22 a=k5NOVkIAe9fUN09tSOuQ:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 a=UZlcoHSnRvPIml3ppEvj:22 ::
+    100.00
+
+--1685605473-eximdsn-810105074
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 4cz3qPsd9VVZp :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=YJhZizKx c=1 sm=1 tr=0 ts=64784c61 p=0a9i_B1bAAAA:20 p=nI3yhpyoAAAA:20 p=-ETm23ix088A:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=gUDTvKrU1Z8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=H-Mfj8JfOfEA:10 a=pGLkceISAAAA:8 a=9-Rt8D_1x8qmvg6w7NgA:9 a=QEXdDO2ut3YA:10 a=wHo_ghTIjH8A:10 a=KyYZJfTCSdMA:10 a=981s9EiWrqO2mPnTDMOr:22 a=k5NOVkIAe9fUN09tSOuQ:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 a=UZlcoHSnRvPIml3ppEvj:22 :: 100.00
+
+--1685605473-eximdsn-810105074
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q4cyx-00G2at-OQ
+	for ginojohn@gmail.com;
+	Thu, 01 Jun 2023 00:44:33 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Elvia Roddy.
+X-PHP-Script: ststephenssanjose.org/contact.php for 23.229.59.210
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 23.229.59.210
+From: roddy.elvia@gmail.com
+Reply-To: roddy.elvia@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q4cyx-00G2at-OQ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 01 Jun 2023 00:44:27 -0700
+
+You have been contacted by Elvia Roddy, and the message is as follows.
+
+"Hi,
+
+Are you ready to embark on an exciting journey into the world of
+cryptocurrency? We are thrilled to invite you to register for a free
+crypto wallet, where you can securely store and manage your digital
+assets.
+
+Here at Binance, we believe that cryptocurrency has the potential to
+revolutionize the way we transact, invest, and build wealth. Whether
+you're a seasoned crypto enthusiast or just curious about this
+emerging technology, our free crypto wallet is the perfect starting
+point to explore the possibilities and take control of your financial
+future.
+
+Why should you register for our free crypto wallet?
+
+► Secure and User-Friendly: Our wallet incorporates state-of-the-art
+security features to safeguard your digital assets. With a
+user-friendly interface, it's easy to navigate, even if you're new to
+the world of cryptocurrencies.
+
+► Convenience: Enjoy instant access to your funds anytime, anywhere.
+Say goodbye to the limitations of traditional banking hours and
+complicated procedures. Our wallet is designed to simplify your crypto
+experience.
+
+► Versatile Asset Support: Store and manage a wide range of
+cryptocurrencies in one place. Bitcoin, Ethereum, Ripple, Litecoin,
+and many more are supported, ensuring you have the flexibility to
+diversify your portfolio.
+
+► Peace of Mind: We prioritize the safety and security of your
+funds. Our wallet utilizes advanced encryption techniques, two-factor
+authentication, and cold storage to provide you with peace of mind and
+protect your assets from unauthorized access.
+
+► Exclusive Benefits: As a registered user, you'll gain access to
+exclusive benefits, including early access to new features,
+educational resources, and exclusive promotions. Stay ahead of the
+curve and maximize your crypto potential.
+
+Don't miss out on this incredible opportunity to step into the world
+of cryptocurrencies. Register for your free crypto wallet today and
+take control of your financial destiny!
+
+Click the link below to create your free crypto wallet:
+Get Started here >>> https://bit.ly/cryptowalletreg
+
+* Limited Time $100 FREE BONUS for any new account that Completes
+Account Verification. (Expires on 15th June 2023)
+
+Join the millions of individuals who are already harnessing the power
+of cryptocurrencies. Secure your financial future with our free crypto
+wallet today!
+
+To your financial success
+
+Ronald D
+99 Manhatten Road, TX
+87845
+=====
+Click here to unsubscribe
+https://bit.ly/stop69"
+
+You can contact Elvia Roddy via email, roddy.elvia@gmail.com
+
+--1685605473-eximdsn-810105074--

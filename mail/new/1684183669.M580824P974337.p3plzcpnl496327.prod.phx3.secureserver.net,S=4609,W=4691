@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id s6OBInWaYmQB3g4ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 15 May 2023 13:47:49 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 15 May 2023 13:47:49 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1pyf6j-0045T1-Gq
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 15 May 2023 13:47:49 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1pyf6f-0045Ro-07@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1684183669-eximdsn-2036604160
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pyf6j-0045T1-Gq@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 15 May 2023 13:47:49 -0700
+
+--1684183669-eximdsn-2036604160
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yf6jpmVE3NfnR :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WLa5HFgR c=1 sm=1 tr=0 ts=64629a75 p=5QAQsrVBbbQA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=PNmArGLDX9sA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=uHxwvLVSrz0A:10 a=ZZFpAIuwAAAA:8 a=pGLkceISAAAA:8 a=3f_egnp31kdjFUglJ3QA:9 a=QEXdDO2ut3YA:10 a=p9MghdSJ1UMA:10 a=L1ub-1XThdsA:10 a=KyYZJfTCSdMA:10 a=Tg4SG1WT1fYwXvd2n5xz:22 a=v6AZY1rFE2iT8z_7WXNU:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=L-YIavYiMYvd3JaNZS5o:22 a=a67pgsldTx4o--CN2M8U:22 ::
+    100.00
+
+--1684183669-eximdsn-2036604160
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 yf6jpmVE3NfnR :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WLa5HFgR c=1 sm=1 tr=0 ts=64629a75 p=5QAQsrVBbbQA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=PNmArGLDX9sA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=P0xRbXHiH_UA:10 a=x7bEGLp0ZPQA:10 a=uHxwvLVSrz0A:10 a=ZZFpAIuwAAAA:8 a=pGLkceISAAAA:8 a=3f_egnp31kdjFUglJ3QA:9 a=QEXdDO2ut3YA:10 a=p9MghdSJ1UMA:10 a=L1ub-1XThdsA:10 a=KyYZJfTCSdMA:10 a=Tg4SG1WT1fYwXvd2n5xz:22 a=v6AZY1rFE2iT8z_7WXNU:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=L-YIavYiMYvd3JaNZS5o:22 a=a67pgsldTx4o--CN2M8U:22 :: 100.00
+
+--1684183669-eximdsn-2036604160
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1pyf6f-0045Ro-07
+	for ginojohn@gmail.com;
+	Mon, 15 May 2023 13:47:49 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Robertinhab.
+X-PHP-Script: ststephenssanjose.org/contact.php for 194.88.152.40
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 194.88.152.40
+From: fevgen708@gmail.com
+Reply-To: fevgen708@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pyf6f-0045Ro-07@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 15 May 2023 13:47:45 -0700
+
+You have been contacted by Robertinhab, and the message is as follows.
+
+"Etsy + Pinterest + SEO http://pint77.com дают высокие
+результаты продаж. Также работаем с
+Shopify, ebay, amazon и др."
+
+You can contact Robertinhab via email, fevgen708@gmail.com
+
+--1684183669-eximdsn-2036604160--

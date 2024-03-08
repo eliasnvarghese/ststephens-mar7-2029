@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id SH0mI/qNtmSi5x8ACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 18 Jul 2023 06:04:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 18 Jul 2023 06:04:58 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qLkNu-008mZp-HT
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 18 Jul 2023 06:04:58 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qLkNp-008mYU-FF@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1689685498-eximdsn-694877226
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qLkNu-008mZp-HT@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 18 Jul 2023 06:04:58 -0700
+
+--1689685498-eximdsn-694877226
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 LkNuqynt5089I :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Cup5MF0D c=1 sm=1 tr=0 ts=64b68dfa p=6S4X-7CuAAAA:20 p=8KyZ71eB34UA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=PAiI40AX27wA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=ahIHCfHWSRsA:10 a=vaJtXVxTAAAA:8 a=PfPdjvpqcwJLYFrHrzMA:9 a=QEXdDO2ut3YA:10 a=FhPVuGslY1UA:10 a=VBBFqMlsqSkA:10 a=viisyGSXx70A:10 a=vGxug4WWXpAA:10 a=aKLS03f9Jol-8D6V0giy:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 ::
+    100.00
+
+--1689685498-eximdsn-694877226
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 LkNuqynt5089I :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Cup5MF0D c=1 sm=1 tr=0 ts=64b68dfa p=6S4X-7CuAAAA:20 p=8KyZ71eB34UA:10 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=PAiI40AX27wA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=ahIHCfHWSRsA:10 a=vaJtXVxTAAAA:8 a=PfPdjvpqcwJLYFrHrzMA:9 a=QEXdDO2ut3YA:10 a=FhPVuGslY1UA:10 a=VBBFqMlsqSkA:10 a=viisyGSXx70A:10 a=vGxug4WWXpAA:10 a=aKLS03f9Jol-8D6V0giy:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 :: 100.00
+
+--1689685498-eximdsn-694877226
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qLkNp-008mYU-FF
+	for ginojohn@gmail.com;
+	Tue, 18 Jul 2023 06:04:58 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by IrinaCiP.
+X-PHP-Script: ststephenssanjose.org/contact.php for 94.25.175.199
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 94.25.175.199
+From: jgmaria304@yandex.ru
+Reply-To: jgmaria304@yandex.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qLkNp-008mYU-FF@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 18 Jul 2023 06:04:53 -0700
+
+You have been contacted by IrinaCiP, and the message is as follows.
+
+"https://clck.ru/34aceS"
+
+You can contact IrinaCiP via email, jgmaria304@yandex.ru
+
+--1689685498-eximdsn-694877226--

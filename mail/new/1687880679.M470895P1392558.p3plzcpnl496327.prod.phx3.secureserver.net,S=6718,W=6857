@@ -1,0 +1,139 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 4yaAG+cDm2SuPxUACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 27 Jun 2023 08:44:39 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 27 Jun 2023 08:44:39 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qEArv-005qGW-Ct
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 27 Jun 2023 08:44:39 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qEArq-005qF1-8H@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1687880679-eximdsn-1327658172
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qEArv-005qGW-Ct@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 27 Jun 2023 08:44:39 -0700
+
+--1687880679-eximdsn-1327658172
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 EArvqT9y7Q7u7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=649b03e7 p=Q_RkQUu7j_9WB_pQzAEA:9 p=zY_luDzHilnXUEm8IgfQ:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=a9BAqNWpUbAA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=O04fKYO6bKEA:10 a=huvbmMDMAAAA:8 a=U2Plp-BDAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=hCnhmpw-GlUA:10 a=E3JengKWPXIA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=4qW6d3AUPwk9vKO5kFe-:22 a=qYY-0e5v0Ec2vUMr2GDV:22 a=BGcqoopIoM8l-exNahK3:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1687880679-eximdsn-1327658172
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 EArvqT9y7Q7u7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SttWqtC0 c=1 sm=1 tr=0 ts=649b03e7 p=Q_RkQUu7j_9WB_pQzAEA:9 p=zY_luDzHilnXUEm8IgfQ:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=a9BAqNWpUbAA:10 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=of4jigFt-DYA:10 a=x7bEGLp0ZPQA:10 a=O04fKYO6bKEA:10 a=huvbmMDMAAAA:8 a=U2Plp-BDAAAA:8 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=hCnhmpw-GlUA:10 a=E3JengKWPXIA:10 a=KyYZJfTCSdMA:10 a=jycUkCEYUnZvh0PkXkJV:22 a=4qW6d3AUPwk9vKO5kFe-:22 a=qYY-0e5v0Ec2vUMr2GDV:22 a=BGcqoopIoM8l-exNahK3:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1687880679-eximdsn-1327658172
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qEArq-005qF1-8H
+	for ginojohn@gmail.com;
+	Tue, 27 Jun 2023 08:44:39 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Eric Jones.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 181.214.89.102
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 181.214.89.102
+From: ericjonesmyemail@gmail.com
+Reply-To: ericjonesmyemail@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qEArq-005qF1-8H@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 27 Jun 2023 08:44:34 -0700
+
+You have been contacted by Eric Jones, and the message is as follows.
+
+"Dear ststephenssanjose.org Owner! this is Eric and I ran across
+ststephenssanjose.org a few minutes ago.
+
+Looks great… but now what?
+
+By that I mean, when someone like me finds your website – either
+through Search or just bouncing around – what happens next?  Do you
+get a lot of leads from your site, or at least enough to make you
+happy?
+
+Honestly, most business websites fall a bit short when it comes to
+generating paying customers. Studies show that 70% of a site’s
+visitors disappear and are gone forever after just a moment.
+
+Here’s an idea…
+ 
+How about making it really EASY for every visitor who shows up to get
+a personal phone call you as soon as they hit your site…
+ 
+You can –
+  
+Web Visitors Into Leads is a software widget that’s works on your
+site, ready to capture any visitor’s Name, Email address and Phone
+Number.  It signals you the moment they let you know they’re
+interested – so that you can talk to that lead while they’re
+literally looking over your site.
+
+CLICK HERE https://advanceleadgeneration.com to try out a Live Demo
+with Web Visitors Into Leads now to see exactly how it works.
+
+You’ll be amazed - the difference between contacting someone within
+5 minutes versus a half-hour or more later could increase your results
+100-fold.
+
+It gets even better… once you’ve captured their phone number, with
+our new SMS Text With Lead feature, you can automatically start a text
+(SMS) conversation.
+  
+That way, even if you don’t close a deal right away, you can follow
+up with text messages for new offers, content links, even just “how
+you doing?” notes to build a relationship.
+
+Pretty sweet – AND effective.
+
+CLICK HERE https://advanceleadgeneration.com to discover what Web
+Visitors Into Leads can do for your business.
+
+You could be converting up to 100X more leads today!
+
+Eric
+PS: Web Visitors Into Leads offers a FREE 14 days trial – and it
+even includes International Long Distance Calling. 
+You have customers waiting to talk with you right now… don’t keep
+them waiting. 
+CLICK HERE https://advanceleadgeneration.com to try Web Visitors Into
+Leads now.
+
+If you'd like to unsubscribe click here
+http://advanceleadgeneration.com/unsubscribe.aspx?d=ststephenssanjose.org
+"
+
+You can contact Eric Jones via email, ericjonesmyemail@gmail.com
+
+--1687880679-eximdsn-1327658172--

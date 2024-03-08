@@ -1,0 +1,180 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id KPuUC25bYGP9oj4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 31 Oct 2022 16:34:06 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 31 Oct 2022 16:34:06 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1opeIA-00HIhi-3Y
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 31 Oct 2022 16:34:06 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1opeI9-00HIgo-MF@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667259246-eximdsn-1674588081
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1opeIA-00HIhi-3Y@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 31 Oct 2022 16:34:06 -0700
+
+--1667259246-eximdsn-1674588081
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 peI9oS6FWYVlN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=63605b6e p=rEtdkeB4AAAA:8 p=7QMtt-1JAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=cz3m4QBR5NYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=Qawa6l4ZSaYA:10 a=hNfI3TQdlDIA:10 a=x7bEGLp0ZPQA:10 a=6k_3HHr18QMA:10 a=69EAbJreAAAA:8 a=adj4vdrgJpJM2HxFvo4A:9 a=QEXdDO2ut3YA:10 a=Kvp7DqmzxhIA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=tFoQqWA5jRbsuLIOBBGM:22 a=nFFjNVGfoSlG1Vi7Lnti:22 ::
+    100.00
+
+--1667259246-eximdsn-1674588081
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 peI9oS6FWYVlN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=63605b6e p=rEtdkeB4AAAA:8 p=7QMtt-1JAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=cz3m4QBR5NYA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=Qawa6l4ZSaYA:10 a=hNfI3TQdlDIA:10 a=x7bEGLp0ZPQA:10 a=6k_3HHr18QMA:10 a=69EAbJreAAAA:8 a=adj4vdrgJpJM2HxFvo4A:9 a=QEXdDO2ut3YA:10 a=Kvp7DqmzxhIA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=tFoQqWA5jRbsuLIOBBGM:22 a=nFFjNVGfoSlG1Vi7Lnti:22 :: 100.00
+
+--1667259246-eximdsn-1674588081
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1opeI9-00HIgo-MF
+	for ginojohn@gmail.com; Mon, 31 Oct 2022 16:34:05 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Rosella Gard.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.153.248
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.153.248
+From: rosella.gard@hotmail.com
+Reply-To: rosella.gard@hotmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1opeI9-00HIgo-MF@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 31 Oct 2022 16:34:05 -0700
+
+You have been contacted by Rosella Gard, and the message is as
+follows.
+
+"
+
+12 Tips on How to Stage Your Home for a Quick Sale
+
+1. Clean
+A clean home shows potential buyers that you've taken good care of the
+property. Ideally, you should clean every part of the house, from the
+floors to the ceilings—and everything in between.
+
+2. Declutter
+There are two major problems with clutter. One is that it distracts
+buyers from your home's features. The other is that it makes it seem
+like the home has less space.
+
+3. Depersonalize
+Buyers need to be able to envision themselves in your home, so remove
+all the family photos, keepsakes, and refrigerator art. Keep clothes
+hidden away as much as possible, and make sure the bathroom counters
+are empty (except for hand soap, of course). Likewise, put away all
+the toys and anything else that is highly personal or evocative of the
+home's current inhabitants.
+
+4. Focus on Fresh
+A few potted plants can do wonders to make your home feel fresh and
+inviting. If you have a lot of plants, space them out strategically so
+they don't overwhelm any one area (unless you have a greenhouse). Of
+course, dead and dying plants don't do much to make your home look
+well tended.
+
+5. Define Rooms
+Make sure that each room has a single, defined purpose. And make sure
+that every space within each room has a purpose. This will help buyers
+see how to maximize the home's square footage. If you have a finished
+attic, make it into an office. A finished basement can become an
+entertainment room, and a junk room can be transformed into a guest
+bedroom.
+
+6. Wallpaper and Paint
+It is unlikely that a potential buyer will like your wallpaper. Your
+best bet is to tear it down and paint the walls with a neutral color
+instead. It's best not to paint over the wallpaper because it may look
+shabby and send a signal to the buyer about work they may have to do
+later.
+
+7. Flooring
+No one wants to live in a home with dirty, stained carpet, especially
+when someone else was the one who dirtied it. And linoleum is outdated
+and looks cheap. Although pricey, hardwood floors add value and
+elegance to a home. They are also low maintenance, provide great
+long-term value, and are perfect for buyers with allergies. In other
+words, they appeal to almost everyone, and if not, they're easily
+carpeted over by the buyer and preserved for the next owner.
+
+8. Lighting
+Take advantage of your home's natural light. Open all curtains and
+blinds when showing your home. Add fixtures where necessary, and turn
+on all the lights for showings (including those in the closets). This
+makes your home appear brighter and more inviting, and it saves buyers
+from having to hunt for light switches. If you think your existing
+fixtures are fine, be sure to dust them and clean off any grime.
+Otherwise, outdated and broken light fixtures are easy and cheap to
+replace.
+
+9. Furniture
+Make sure furniture is the right size for the room, and don't clutter
+a room with too much of it. Furniture that's too big will make a room
+look small, while too little or too small furniture can make a space
+feel cold.
+
+10. Walls and Ceilings
+Cracks in the walls or ceiling are red flags to buyers because they
+may indicate foundation problems. If your home does have foundation
+problems, you will need to either fix them or alert potential buyers
+to them; fixing any foundation problems would be better in terms of
+getting the home sold. If the foundation only looks bad but has been
+deemed sound by an inspector, repair the cracks so you don't scare off
+buyers for no good reason.
+
+11. Exterior
+The exterior and the entryway—which factor into the home's "curb
+appeal"—are important points of focus because they can heavily
+impact a buyer's first impression. They may even determine someone's
+interest in viewing the inside of the house.
+
+12. Final Touches
+Just before any open house or showing, make sure that your staging
+efforts have the maximum impact with a few last-minute touches that
+will make the home seem warm and inviting. Put fresh flowers in vases,
+let fresh air into the house for at least ten minutes beforehand so it
+isn't stuffy, light a few candles (soft and subtle fragrances only),
+and put new, plush towels in the bathrooms.
+fsb
+Hope this helps. If you really want an in depth manual of all the
+things you can do to sell your home on your own, grab our 60 page
+manual (AKA FSBO Bible) here at this link.
+
+https://meterlinks.com/stageyourhome
+
+Best Wishes
+
+Opt Out Here
+https://redeyedeal.com/opt-out-2954"
+
+You can contact Rosella Gard via email, rosella.gard@hotmail.com
+
+--1667259246-eximdsn-1674588081--

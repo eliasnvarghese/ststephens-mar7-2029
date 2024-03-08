@@ -1,0 +1,92 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 4KUME7BRaWIDWzkAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 27 Apr 2022 07:22:40 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 27 Apr 2022 07:22:40 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1njiYy-00FmOD-5P
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Wed, 27 Apr 2022 07:22:40 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1njiYx-00FmNJ-01@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1651069360-eximdsn-1445707559
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1njiYy-00FmOD-5P@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 27 Apr 2022 07:22:40 -0700
+
+--1651069360-eximdsn-1445707559
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 jiYxn9VoEPj8T :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KrGIZUaN c=1 sm=1 tr=0 ts=626951b0 p=CRcNcbnT7_AA:10 p=KcPqP1d0VTAA:10 p=WxSPKfO0rmsA:10 p=ot9gjKU-l5cA:10 p=wmXDQlKXIsMpJEivXWQH:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=z0gMJWrwH1QA:10 a=JD7MLD07-PcA:10 a=x7bEGLp0ZPQA:10 a=0BV6ZIGZMcEA:10 a=pGLkceISAAAA:8 a=ZeODVlNRSIEzsy8FItoA:9 a=QEXdDO2ut3YA:10 a=YDxqgZ2sOCsA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=CzyrAqh5tSpaJNVSBc4M:22 ::
+    100.00
+
+--1651069360-eximdsn-1445707559
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 jiYxn9VoEPj8T :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KrGIZUaN c=1 sm=1 tr=0 ts=626951b0 p=CRcNcbnT7_AA:10 p=KcPqP1d0VTAA:10 p=WxSPKfO0rmsA:10 p=ot9gjKU-l5cA:10 p=wmXDQlKXIsMpJEivXWQH:22 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=z0gMJWrwH1QA:10 a=JD7MLD07-PcA:10 a=x7bEGLp0ZPQA:10 a=0BV6ZIGZMcEA:10 a=pGLkceISAAAA:8 a=ZeODVlNRSIEzsy8FItoA:9 a=QEXdDO2ut3YA:10 a=YDxqgZ2sOCsA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=CzyrAqh5tSpaJNVSBc4M:22 :: 100.00
+
+--1651069360-eximdsn-1445707559
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1njiYx-00FmNJ-01
+	for ginojohn@gmail.com; Wed, 27 Apr 2022 07:22:39 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by LerаTup.
+X-PHP-Script: ststephenssanjose.org/contact.php for 34.243.220.88
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 34.243.220.88
+From: leramihalovna91@gmail.com
+Reply-To: leramihalovna91@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1njiYx-00FmNJ-01@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 27 Apr 2022 07:22:39 -0700
+
+You have been contacted by LerаTup, and the message is as follows.
+
+"Hi! I am in Ukraine, we have a terrible war going on and I am asking
+for your help with tears in my eyes. 
+I have had more grief. I am a mother of two children and our house was
+destroyed by Russian missiles, everything we had gained was burned. We
+lost our homes, we have nowhere to live. We are hiding in basements
+from bombing and praying to stay alive, we eat what we can. We have
+only what we are wearing. 
+I am asking for help. My children are freezing, there is nothing to
+eat and nowhere to live. 
+If there is any way - I would be grateful for any financial support. 
+Paypal: ziexfb@gmail.com 
+Bitcoin wallet: bc1qanhw4t7v6jnc26tllr9jr3ywy47aqjgujd9tvm 
+When transferring please write at least the word help and your name. 
+Thank you for your help and understanding, God give you health and
+peace in your home!"
+
+You can contact LerаTup via email, leramihalovna91@gmail.com
+
+--1651069360-eximdsn-1445707559--

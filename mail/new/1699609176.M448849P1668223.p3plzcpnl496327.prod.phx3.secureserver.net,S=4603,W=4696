@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id UIdoGlj6TWV/dBkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Fri, 10 Nov 2023 02:39:36 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Fri, 10 Nov 2023 02:39:36 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r1NzE-0072Um-CP
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Fri, 10 Nov 2023 02:39:36 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r1Nz9-0072Mv-H4@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1699609176-eximdsn-462992453
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r1NzE-0072Um-CP@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 10 Nov 2023 02:39:36 -0700
+
+--1699609176-eximdsn-462992453
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 1NzErQMDuiYze :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=654dfa58 p=2gMon9xGAAAA:20 p=Hc8bfFbF6-cA:10 p=lShmEa8quOb7CX_btKfv:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=rF1F4VISBNcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=DLekoaxeBywA:10 a=AAvYLDLOAAAA:8 a=VlWjIvYml6wJDu5xpoEA:9 a=QEXdDO2ut3YA:10 a=G8OFlQCPto4A:10 a=IawXvI9lP1MA:10 a=5hCx1Ef3TVgA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 ::
+    100.00
+
+--1699609176-eximdsn-462992453
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 1NzErQMDuiYze :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fKf/n7We c=1 sm=1 tr=0 ts=654dfa58 p=2gMon9xGAAAA:20 p=Hc8bfFbF6-cA:10 p=lShmEa8quOb7CX_btKfv:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=rF1F4VISBNcA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=BNY50KLci1gA:10 a=x7bEGLp0ZPQA:10 a=DLekoaxeBywA:10 a=AAvYLDLOAAAA:8 a=VlWjIvYml6wJDu5xpoEA:9 a=QEXdDO2ut3YA:10 a=G8OFlQCPto4A:10 a=IawXvI9lP1MA:10 a=5hCx1Ef3TVgA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=z1LPbVoaQVLvk6C7Ep2K:22 :: 100.00
+
+--1699609176-eximdsn-462992453
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r1Nz9-0072Mv-H4
+	for ginojohn@gmail.com;
+	Fri, 10 Nov 2023 02:39:36 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Myra Reading.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.81.58.40
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.81.58.40
+From: reading.myra@msn.com
+Reply-To: reading.myra@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r1Nz9-0072Mv-H4@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Fri, 10 Nov 2023 02:39:31 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Myra Reading, and the message is as
+follows.
+
+"Thats right!....
+ 
+This brand spanking *NEW* software is making me up 
+to $347 A Day.
+
+ ==>> https://bit.ly/aisoftwere
+
+Hurry before it's too late. 
+
+Regards, Mark"
+
+You can contact Myra Reading via email, reading.myra@msn.com
+
+--1699609176-eximdsn-462992453--

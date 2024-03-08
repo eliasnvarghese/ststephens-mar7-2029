@@ -1,0 +1,173 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 0B7fMdUCvmJSCz4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 30 Jun 2022 13:08:53 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 30 Jun 2022 13:08:53 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1o70T7-00H7gd-JX
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 30 Jun 2022 13:08:53 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1o70T7-00H7gE-4n@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1656619733-eximdsn-1993788421
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1o70T7-00H7gd-JX@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 30 Jun 2022 13:08:53 -0700
+
+--1656619733-eximdsn-1993788421
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 70T7oUv5qLpEN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=e53D9Yl/ c=1 sm=1 tr=0 ts=62be02d5 p=GnkaNw1SAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=JPEYwPQDsx4A:10 a=Hi5oteM5Q-0A:10 a=e-Ovw6bNAAAA:8 a=2tid-Fz-j422xLmLf3UA:9 a=QEXdDO2ut3YA:10 a=73LilJyzd_YA:10 a=fjm-g3BdBNoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=SlYzCONoBw0WG_FEcYXQ:22 a=nOxMtLUM5ck9Hn2diPJ4:22 ::
+    100.00
+
+--1656619733-eximdsn-1993788421
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 70T7oUv5qLpEN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=e53D9Yl/ c=1 sm=1 tr=0 ts=62be02d5 p=GnkaNw1SAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=JPEYwPQDsx4A:10 a=Hi5oteM5Q-0A:10 a=e-Ovw6bNAAAA:8 a=2tid-Fz-j422xLmLf3UA:9 a=QEXdDO2ut3YA:10 a=73LilJyzd_YA:10 a=fjm-g3BdBNoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=SlYzCONoBw0WG_FEcYXQ:22 a=nOxMtLUM5ck9Hn2diPJ4:22 :: 100.00
+
+--1656619733-eximdsn-1993788421
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1o70T7-00H7gE-4n
+	for ginojohn@gmail.com; Thu, 30 Jun 2022 13:08:53 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by DavidBruig.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.188
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.188
+From: lesha.pavlov.77@list.ru
+Reply-To: lesha.pavlov.77@list.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1o70T7-00H7gE-4n@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 30 Jun 2022 13:08:53 -0700
+
+You have been contacted by DavidBruig, and the message is as follows.
+
+"Спа процедуры являются одними из
+лучших не только для поддержания
+красоты, но и для восстановления
+душевного равновесия, снятия
+усталости и релаксации
+[url=https://salon-creativ-msk.ru/uslugi/usluga-1]парикмахерская
+прическа [/url]
+   Спа для волос занимает при этом
+особенное место, и в нем используется
+немало рецептов и методик ухода за
+кожей головы и самими прядями
+[url=https://salon-creativ-msk.ru/uslugi/spa-protsedury-3]услуги
+спа [/url]
+ 
+Доброго времени суток
+[url=https://salon-creativ-msk.ru/uslugi/massazhy]салоны
+массажа [/url]
+   Посещала салон  более 5 раз
+[url=https://salon-creativ-msk.ru/uslugi/massazhy]салон
+массажа в москве [/url]
+   Каждый визит в данное заведение
+считаю праздником
+[url=https://salon-creativ-msk.ru/uslugi/spa-protsedury-4]наращивание
+волос цены фото [/url]
+   Моё настроение после каждого визита
+великолепно
+[url=https://salon-creativ-msk.ru/uslugi/spa-protsedury-10]тонирование
+волос что это такое [/url]
+   Местоположение салона удобное
+[url=https://salon-creativ-msk.ru/uslugi/spa-protsedury-4]нарастить
+волосы цены [/url]
+   Интерьер красивый
+[url=https://salon-creativ-msk.ru/uslugi/nogtevye-studii]ногтевой
+сервис москва [/url]
+   Персонал вежливый и профессионал
+своего дела
+[url=https://salon-creativ-msk.ru/uslugi/massazhy]салон спа
+массажа [/url]
+   Цены приемлемые
+[url=https://salon-creativ-msk.ru/uslugi/spa-protsedury]бровист
+[/url]
+   Спасибо вам большое! 
+Все, что хочет знать женщина - в одном
+журнале! Актуальные ежедневные статьи
+на женские темы
+[url=https://salon-creativ-msk.ru/uslugi/usluga-1]парикмахерская
+на карте москвы [/url]
+   Мы расскажем о красоте и моде,
+женском здоровье и кулинарии, также
+затронем темы отношений и воспитании
+детейСвяжитесь с нами: 
+Свое название данный дизайн получил
+потому, что внешним видом
+действительно напоминает стеклянный
+сосуд, в который помещены
+декоративные элементы
+[url=https://salon-creativ-msk.ru/uslugi/spa-protsedury]брови
+мастер [/url]
+   Роль стекла в данном случае
+выполняет гель
+[url=https://salon-creativ-msk.ru/uslugi/massazhy]салон
+массаж [/url]
+   Такой маникюр может создаваться как
+на нарощенных гелем ногтях, так и на
+натуральных
+[url=https://salon-creativ-msk.ru/uslugi/spa-protsedury]бровист
+[/url]
+ 
+Наш коллектив – это опытные,
+дипломированные и квалифицированные
+специалисты
+[url=https://salon-creativ-msk.ru/uslugi/nogtevye-studii]маникюр
+м [/url]
+   Они не только ежедневно создают
+уникальные образы клиентам нашего
+салона, но и непрерывно осваивают
+новые методики и следят за модными
+трендами, создавая имидж
+по-настоящему стильным, активным и
+современным людям
+[url=https://salon-creativ-msk.ru/uslugi/usluga-1]хорошие
+парикмахерские в москве [/url]
+ 
+Специализация по косметологии:
+кафедра эстетической медицины
+факультета повышения квалификации
+медицинских работников Российского
+Университета Дружбы Народов — 
+[url=https://salon-creativ-msk.ru/uslugi/spa-protsedury-6]все о
+депиляции [/url]
+   Курсы повышения квалификации по
+дерматовенерологии
+[url=https://salon-creativ-msk.ru/uslugi/usluga-1]телефон
+парикмахерской [/url]
+ 
+"
+
+You can contact DavidBruig via email, lesha.pavlov.77@list.ru
+
+--1656619733-eximdsn-1993788421--

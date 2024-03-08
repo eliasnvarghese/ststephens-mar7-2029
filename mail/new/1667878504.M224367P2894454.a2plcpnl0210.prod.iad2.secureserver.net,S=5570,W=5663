@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id /NjsC2jOaWN2KiwAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 20:35:04 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 20:35:04 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1osFOC-00CA36-1N
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 20:35:04 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1osFOB-00CA0h-Io@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667878504-eximdsn-247905512
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1osFOC-00CA36-1N@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 20:35:04 -0700
+
+--1667878504-eximdsn-247905512
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 sFOBoucqCa2b2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=6369ce68 p=arDxFgHk3ZgA:10 p=ZGyCzB-aAAAA:8 p=JjA-aaPTAAAA:8 p=eCXZflrCAAAA:8 p=cS69HW5QAAAA:8 p=wo7Aajf-AAAA:8 p=CxBsBLNWAAAA:8 p=PmV6BLdpAAAA:8 p=QujKMOASAAAA:8 p=4bYT8Q_TAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=MGPIa5X-RT_gEr5Zb3oA:9 a=QEXdDO2ut3YA:10 a=oac4nOa6HPoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=hXdwCePGXMS50TWhGJAk:22 a=ykM4PrNY2-3OUMLvbtVp:22 a=VmS03hDjiOagFkIEtgXj:22 a=amvgG8ecBNwxoaxiYSN0:22 a=sgBbFLSUmkchTw265OAx:22 a=X_omSKp70D4lsx5fVV4x:22 a=M0UQpTJse32uvV6ByuI4:22 a=cmFKZb0mUBgCZnE0O4tO:22 a=zt7aSPUo9omSf7YByqz8:22 ::
+    100.00
+
+--1667878504-eximdsn-247905512
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 sFOBoucqCa2b2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=J+xsrirS c=1 sm=1 tr=0 ts=6369ce68 p=arDxFgHk3ZgA:10 p=ZGyCzB-aAAAA:8 p=JjA-aaPTAAAA:8 p=eCXZflrCAAAA:8 p=cS69HW5QAAAA:8 p=wo7Aajf-AAAA:8 p=CxBsBLNWAAAA:8 p=PmV6BLdpAAAA:8 p=QujKMOASAAAA:8 p=4bYT8Q_TAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=MGPIa5X-RT_gEr5Zb3oA:9 a=QEXdDO2ut3YA:10 a=oac4nOa6HPoA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=hXdwCePGXMS50TWhGJAk:22 a=ykM4PrNY2-3OUMLvbtVp:22 a=VmS03hDjiOagFkIEtgXj:22 a=amvgG8ecBNwxoaxiYSN0:22 a=sgBbFLSUmkchTw265OAx:22 a=X_omSKp70D4lsx5fVV4x:22 a=M0UQpTJse32uvV6ByuI4:22 a=cmFKZb0mUBgCZnE0O4tO:22 a=zt7aSPUo9omSf7YByqz8:22 :: 100.00
+
+--1667878504-eximdsn-247905512
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1osFOB-00CA0h-Io
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 20:35:03 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MinnieMeS.
+X-PHP-Script: ststephenssanjose.org/contact.php for 37.139.53.90
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 37.139.53.90
+From: wwhbhetxl@gordpizza.ru
+Reply-To: wwhbhetxl@gordpizza.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1osFOB-00CA0h-Io@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 20:35:03 -0700
+
+You have been contacted by MinnieMeS, and the message is as follows.
+
+"[url=https://flashroyal.net/]casino real money[/url] 
+<a href="https://flashroyal.net/">casino</a> 
+[url=https://casinowingames.com/]online casino[/url] 
+<a href="https://casinowingames.com/">casino online</a> 
+[url=https://onlinelistcasino24.com/]casinos[/url] 
+<a href="https://onlinelistcasino24.com/">casino game</a> 
+[url=https://realmonetcasino.com/]casino real money[/url] 
+<a href="https://realmonetcasino.com/">casinos</a> 
+[url=https://casinogambiba.com/]casinos[/url] 
+<a href="https://casinogambiba.com/">casinos</a> 
+[url=https://casinowellplay.com/]casinos[/url] 
+<a href="https://casinowellplay.com/">gambling</a> 
+[url=https://casinoongames.com/]online casino[/url] 
+<a href="https://casinoongames.com/">gambling</a> 
+[url=https://casinotoplines.com/]slots[/url] 
+<a href="https://casinotoplines.com/">casinos online</a>"
+
+You can contact MinnieMeS via email, wwhbhetxl@gordpizza.ru
+
+--1667878504-eximdsn-247905512--

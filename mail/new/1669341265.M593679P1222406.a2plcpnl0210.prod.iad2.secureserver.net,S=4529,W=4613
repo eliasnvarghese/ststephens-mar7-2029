@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OBH4NlAggGMGpxIAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 24 Nov 2022 18:54:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 24 Nov 2022 18:54:25 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1oyNv6-0058ac-RD
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Thu, 24 Nov 2022 18:54:24 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oyNv2-0058YC-5y@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669341264-eximdsn-1010955513
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oyNv6-0058ac-RD@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 24 Nov 2022 18:54:24 -0700
+
+--1669341264-eximdsn-1010955513
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yNv6o78eVT58G :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=cYoU7FPM c=1 sm=1 tr=0 ts=63802050 p=M9R3fZtFwiEA:10 p=Ugqxw1pAAAAA:8 p=XTApPFwc8v0A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Tr6DGPWg7W8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=x7bEGLp0ZPQA:10 a=Kd2Kvl3BMG4A:10 a=55jZN7dOAAAA:8 a=JgbaQ2ww3ocOq-eRRd8A:9 a=QEXdDO2ut3YA:10 a=_JvNl2G27fEA:10 a=4J4grPK4yqoA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=mXkukI9F5mdvl6bF172R:22 ::
+    100.00
+
+--1669341264-eximdsn-1010955513
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 yNv6o78eVT58G :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=cYoU7FPM c=1 sm=1 tr=0 ts=63802050 p=M9R3fZtFwiEA:10 p=Ugqxw1pAAAAA:8 p=XTApPFwc8v0A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=Tr6DGPWg7W8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=x7bEGLp0ZPQA:10 a=Kd2Kvl3BMG4A:10 a=55jZN7dOAAAA:8 a=JgbaQ2ww3ocOq-eRRd8A:9 a=QEXdDO2ut3YA:10 a=_JvNl2G27fEA:10 a=4J4grPK4yqoA:10 a=-FEs8UIgK8oA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=mXkukI9F5mdvl6bF172R:22 :: 100.00
+
+--1669341264-eximdsn-1010955513
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oyNv2-0058YC-5y
+	for ginojohn@gmail.com;
+	Thu, 24 Nov 2022 18:54:24 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by EdwardPurdy.
+X-PHP-Script: ststephenssanjose.org/contact.php for 31.171.154.120
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 31.171.154.120
+From: aq17aqa@rambler.ru
+Reply-To: aq17aqa@rambler.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oyNv2-0058YC-5y@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 24 Nov 2022 18:54:20 -0700
+
+You have been contacted by EdwardPurdy, and the message is as follows.
+
+" интересный пост  
+_________________ 
+olimp lab kz -
+[url=https://tel.realmoneytopgames.xyz/Olimp_kz_com_%D0%B1%D1%83%D0%BA%D0%BC%D0%B5%D0%BA%D0%B5%D1%80.html]olimp
+live kz[/url], olimp com kz олимп зеркало"
+
+You can contact EdwardPurdy via email, aq17aqa@rambler.ru
+
+--1669341264-eximdsn-1010955513--

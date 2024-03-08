@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id Fj9pEYurkmRnnzAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 21 Jun 2023 00:49:31 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 21 Jun 2023 00:49:31 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qBsap-00DMxI-7G
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 21 Jun 2023 00:49:31 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qBsac-00DMoF-CU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qBsap-00DMxI-7G@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 21 Jun 2023 00:49:31 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qBsac-00DMoF-CU
+	for ginojohn@gmail.com;
+	Wed, 21 Jun 2023 00:49:18 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by John   Davis .
+X-PHP-Script: ststephenssanjose.org/contact.php for 104.249.29.25
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 104.249.29.25
+From: longwell.albertina@msn.com
+Reply-To: longwell.albertina@msn.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qBsac-00DMoF-CU@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 21 Jun 2023 00:49:18 -0700
+
+You have been contacted by John   Davis , and the message is as
+follows.
+
+"Hi There,
+
+I found some issues with your website which in turn could be limiting
+your traffic. find your report on the issues at
+https://rokl.ink/site-report
+
+Regards 
+
+ Michael   Jones 
+
+
+
+
+
+
+
+
+
+
+//Optout//
+
+To stop receiving any further communication, 
+please opt out at https://rokl.ink/optout"
+
+You can contact John   Davis  via email, longwell.albertina@msn.com

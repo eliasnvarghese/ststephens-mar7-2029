@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id OIg9AifD42NNwwYAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 08 Feb 2023 08:43:35 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 08 Feb 2023 08:43:35 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	id 1pPmbe-001tKF-N9
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net;
+	Wed, 08 Feb 2023 08:43:34 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1pPmbY-001t5J-Cs@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1675871014-eximdsn-255622164
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pPmbe-001tKF-N9@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 08 Feb 2023 08:43:34 -0700
+
+--1675871014-eximdsn-255622164
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 PmbepiHOLlA5Y :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=63e3c326 p=Uc2tLVccAAAA:20 p=466r4Tqj3csA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=X-EUeZbjCikA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=d-MyQYP4SPsA:10 a=x7bEGLp0ZPQA:10 a=cRBYGRmMWzwA:10 a=UqCG9HQmAAAA:8 a=QgcPQ0S9mWNoJXBpXn0A:9 a=QEXdDO2ut3YA:10 a=FSsNy6IPiC4A:10 a=BBaDJCoOOR4A:10 a=IawXvI9lP1MA:10 a=-yT08Xz3KmAA:10 a=QgqPFt7K1sQA:10 a=d_T1B_sKBUwA:10 a=ZT_8zCgGubuJgGonBfBE:22 a=NK1YwuxGHQOJUDexsI64:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1675871014-eximdsn-255622164
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 PmbepiHOLlA5Y :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ee/7PZIH c=1 sm=1 tr=0 ts=63e3c326 p=Uc2tLVccAAAA:20 p=466r4Tqj3csA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=X-EUeZbjCikA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=m04uMKEZRckA:10 a=d-MyQYP4SPsA:10 a=x7bEGLp0ZPQA:10 a=cRBYGRmMWzwA:10 a=UqCG9HQmAAAA:8 a=QgcPQ0S9mWNoJXBpXn0A:9 a=QEXdDO2ut3YA:10 a=FSsNy6IPiC4A:10 a=BBaDJCoOOR4A:10 a=IawXvI9lP1MA:10 a=-yT08Xz3KmAA:10 a=QgqPFt7K1sQA:10 a=d_T1B_sKBUwA:10 a=ZT_8zCgGubuJgGonBfBE:22 a=NK1YwuxGHQOJUDexsI64:22 a=z1LPbVoaQVLvk6C7Ep2K:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1675871014-eximdsn-255622164
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1pPmbY-001t5J-Cs
+	for ginojohn@gmail.com;
+	Wed, 08 Feb 2023 08:43:33 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Retha Vida.
+X-PHP-Script: ststephenssanjose.org/contact.php for 195.181.168.167
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 195.181.168.167
+From: vida.retha@outlook.com
+Reply-To: vida.retha@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1pPmbY-001t5J-Cs@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 08 Feb 2023 08:43:28 -0700
+
+You have been contacted by Retha Vida, and the message is as follows.
+
+"Submit your new website to our directory and reach a wider audience.
+http://bit.ly/3JHYznk"
+
+You can contact Retha Vida via email, vida.retha@outlook.com
+
+--1675871014-eximdsn-255622164--

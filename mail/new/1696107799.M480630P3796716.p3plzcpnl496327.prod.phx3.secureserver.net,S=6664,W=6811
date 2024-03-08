@@ -1,0 +1,147 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id B76CHBeNGGXs7jkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 30 Sep 2023 14:03:19 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 30 Sep 2023 14:03:19 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qmh7P-00FvhF-DK
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 30 Sep 2023 14:03:19 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qmh7K-00FvgB-At@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696107799-eximdsn-482396648
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qmh7P-00FvhF-DK@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 30 Sep 2023 14:03:19 -0700
+
+--1696107799-eximdsn-482396648
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 mh7PqfyqzpACF :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ed/7PZIH c=1 sm=1 tr=0 ts=65188d17 p=-Fm-5YQ6AAAA:20 p=lRbXqOa7Rt_OZ9U3PEwA:9 p=vXVVmcj_ahuRrLSiGZ7L:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=vSyfsC9JwccA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=qKss73O7h40A:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=xRy-769WS50A:10 a=K_HPY8586nkA:10 a=KyYZJfTCSdMA:10 a=5jl72KRN8zoTsYA9W6UK:22 a=YMxVYoZBSsCqj9vY34oR:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1696107799-eximdsn-482396648
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 mh7PqfyqzpACF :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ed/7PZIH c=1 sm=1 tr=0 ts=65188d17 p=-Fm-5YQ6AAAA:20 p=lRbXqOa7Rt_OZ9U3PEwA:9 p=vXVVmcj_ahuRrLSiGZ7L:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=vSyfsC9JwccA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=qKss73O7h40A:10 a=pGLkceISAAAA:8 a=QEXdDO2ut3YA:10 a=xRy-769WS50A:10 a=K_HPY8586nkA:10 a=KyYZJfTCSdMA:10 a=5jl72KRN8zoTsYA9W6UK:22 a=YMxVYoZBSsCqj9vY34oR:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1696107799-eximdsn-482396648
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qmh7K-00FvgB-At
+	for ginojohn@gmail.com;
+	Sat, 30 Sep 2023 14:03:19 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by David Johnson.
+X-PHP-Script: ststephenssanjose.org/contact.php for 172.241.168.102
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 172.241.168.102
+From: david.johnson@gmail.com
+Reply-To: david.johnson@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qmh7K-00FvgB-At@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 30 Sep 2023 14:03:14 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by David Johnson, and the message is as
+follows.
+
+"Hey,
+If you haven’t started thinking about using FlipBooks for your
+business, You are leaving huge money on the table…
+
+This is your last chance to grab AIFlipBook and after the launch ends,
+the price will be doubled.
+
+Watch AIFlipBook Demo Video ===>>> https://bit.ly/AIFlipbook
+
+The truth is, I’m not here to make a quick buck.
+
+I’m here to help you become a successful internet marketer, which
+will allow me to establish credibility.
+
+[+]This AIFlipBook App is for those who want to take their business to
+the next level…
+[+]For those who don’t want to leave money on the table…
+[+]Those looking to treat this like a real business…
+If those 3 points sound like you, then you need this AIFlipBook App.
+
+Click the button below right now to get started with AIFlipBook. 
+
+===>>> https://bit.ly/AIFlipbook
+
+(If you purchase AIFlipBook Through This Link Today, You Will Get FREE
+AIFlipBook RESELLER Upgrade With Front End Product)
+
+Here is what you get with AIFlipBook:
+[+]Create A Fully-Functional FlipBook From: PDF, Text and Images.
+[+]Pre-Loaded With 2,000 Ebooks In 50 Niches To Start Creating Your
+Own FlipBooks
+[+]Done-For-You FlipBook Content Builder (From Built-in ChatGPT and
+Real Time AI Chatbot)
+[+]AI-Powered Text To Graphics Module
+[+]Web-Based App, So There's Nothing To Install.
+[+]Share Or Embed Your Flipbooks Anywhere
+[+]All FlipBooks Are 100% Customizable - Change Name, Description,
+Color, Logo, Background In Just 1-Click
+[+]Series of in-depth training videos shows all the ins and outs of
+the software.
+[+]Special Bonus: Get Reseller License If You Purchase Today.
+
+=>Build Your First FlipBook And Profit From UNTAPPED World Of FlipBook
+Marketing Without Big Costs
+
+===>>> https://bit.ly/AIFlipbook
+
+(If you purchase AIFlipBook Through This Link Today, You Will Get FREE
+AIFlipBook RESELLER Upgrade With Front End Product)
+
+
+This is as simple as it gets…
+
+Because for the early users of AIFlipBook , we are offering access for
+just a low one-time price equivalent to the price of a takeout dinner
+for a couple.
+
+Click the button below right now to get started with AIFlipBook
+
+===>>> https://bit.ly/AIFlipbook
+
+See you inside, 
+David 
+"
+
+You can contact David Johnson via email, david.johnson@gmail.com
+
+--1696107799-eximdsn-482396648--

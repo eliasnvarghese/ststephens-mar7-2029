@@ -1,0 +1,153 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id qL9ZNDQEaWND/y0AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 06:12:20 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 06:12:20 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os1vI-00Ci9L-O9
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 06:12:20 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os1vI-00Ci8s-8q@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667826740-eximdsn-370132911
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os1vI-00Ci9L-O9@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 06:12:20 -0700
+
+--1667826740-eximdsn-370132911
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s1vIoqKd1YVlN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=63690434 p=S0VMWgPFB_4A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=lA9t84AsYEwA:10 a=KuurkoHMAAAA:8 a=RgBw9RmQAAAA:8 a=E65R_5JfcmktpQpUz3cA:9 a=QEXdDO2ut3YA:10 a=npBg2R7OAEEA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=AUUu0Zaex1l9_VQLs15u:22 ::
+    100.00
+
+--1667826740-eximdsn-370132911
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s1vIoqKd1YVlN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=63690434 p=S0VMWgPFB_4A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=lA9t84AsYEwA:10 a=KuurkoHMAAAA:8 a=RgBw9RmQAAAA:8 a=E65R_5JfcmktpQpUz3cA:9 a=QEXdDO2ut3YA:10 a=npBg2R7OAEEA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=AUUu0Zaex1l9_VQLs15u:22 :: 100.00
+
+--1667826740-eximdsn-370132911
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os1vI-00Ci8s-8q
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 06:12:20 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Justinkam.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.106
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.106
+From: contcubal-92@mail.ru
+Reply-To: contcubal-92@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os1vI-00Ci8s-8q@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 06:12:20 -0700
+
+You have been contacted by Justinkam, and the message is as follows.
+
+"Поршень шприца вытащить до указанной
+метки, затем повернуть его и
+зафиксировать с помощью стопора
+https://autosteklo77.com/magazin/folder/peugeot-partner-origin-97-10
+   Подождать в течение 30 секунд пока из
+скола выйдет воздух
+https://autosteklo77.com/magazin/folder/renault-logan-14
+   Подобную операцию необходимо
+провести несколько раз, до тех пор,
+пока из скола не перестанет выходить
+воздух https://autosteklo77.com/magazin/folder/lobovoye-405
+   Это можно увидеть из салона
+автомобиля
+https://autosteklo77.com/magazin/folder/lobovoye-513
+ 
+Мы предлагаем альтернативный
+дорогостоящей замене стекла выход -
+ремонт автостекол любых типов и видов
+по весьма доступным каждому
+автолюбителю ценам и в кротчайшие
+сроки в любом округе Москвы - ЦАО, САО,
+СВАО, ВАО, ЮВАО, ЮАО, ЮЗАО, ЗАО, СЗАО 
+По современным конструкторским
+решениям стёкла в производимых на
+сегодняшний день автомобилях
+вклеиваются и выполняют роль силовых
+элементов, несущих значительную
+нагрузку
+https://autosteklo77.com/glavnaya/product/seat-leon-2005
+   Вследствие этого, не сделанный
+вовремя ремонт стекла может стать
+причиной динамического развития
+дефекта всего кузова автомобиля
+https://autosteklo77.com/katalog-avtostekol/folder/lobovoye-143
+   При этом совершенно не нужно
+удивляться, что совсем маленькая
+трещина всего за 3-4 месяца значительно
+увеличилась в своих размерах и стекло
+теперь необходимо полностью менять
+https://autosteklo77.com/katalog-avtostekol/folder/lobovoye-261
+ 
+Маленькое и незначительное
+повреждение может разрастись в
+огромную трещину, потому что рядом с
+местом скола появляется большое
+количество микротрещин, которые со
+временем увеличиваются и становятся
+всё заметнее
+https://autosteklo77.com/katalog-avtostekol/product/kia-ceed-5dv-2012-up-6
+ 
+Такие стёкла устанавливают на авто
+производители
+https://autosteklo77.com/magazin/folder/lexus
+   Если же стекло менять и при этом
+купить низкокачественную продукцию,
+которая может стоить неоправданно
+низко, то вероятность получения
+дефектов возрастает в разы
+https://autosteklo77.com/glavnaya/product/kia-sportage-2004-up
+   Однако и в том, и в другом случае она
+существует
+https://autosteklo77.com/katalog-avtostekol/folder/fiat-ducato-sb-rossiya-08
+ 
+Любое повреждение данного элемента
+машины отличается от других, является
+по-своему уникальным, поэтому для его
+устранения необходим только
+индивидуальный подход
+https://autosteklo77.com/katalog-avtostekol/folder/fiat-doblo-06
+   Конечно, бывают такие сильные
+повреждения, что простым ремонтом уже
+не обойтись, и становится необходимой
+только полная замена
+https://autosteklo77.com/katalog-avtostekol/folder/zadneye-12
+ 
+"
+
+You can contact Justinkam via email, contcubal-92@mail.ru
+
+--1667826740-eximdsn-370132911--

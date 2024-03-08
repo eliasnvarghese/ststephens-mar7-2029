@@ -1,0 +1,142 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id cPbdEJPSWGX0xSAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 18 Nov 2023 08:04:51 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 18 Nov 2023 08:04:51 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1r4MsN-009179-7L
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 18 Nov 2023 08:04:51 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1r4MsI-00915t-1v@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1700319891-eximdsn-1976946197
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r4MsN-009179-7L@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 18 Nov 2023 08:04:51 -0700
+
+--1700319891-eximdsn-1976946197
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 4MsNr6qyq93zL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=6558d293 p=7_WIWXhFAAAA:8 p=rXweEVQaEaYSoCNosZP4:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=L7DwMectqZ94vLNFPDQA:9 a=QEXdDO2ut3YA:10 a=RxFkOSUYgFkA:10 a=KyYZJfTCSdMA:10 a=J7dAambGzOuPHR2yZF9_:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1700319891-eximdsn-1976946197
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 4MsNr6qyq93zL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FMvdhcks c=1 sm=1 tr=0 ts=6558d293 p=7_WIWXhFAAAA:8 p=rXweEVQaEaYSoCNosZP4:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=tdB2LVuYDnoA:10 a=BNY50KLci1gA:10 a=L7DwMectqZ94vLNFPDQA:9 a=QEXdDO2ut3YA:10 a=RxFkOSUYgFkA:10 a=KyYZJfTCSdMA:10 a=J7dAambGzOuPHR2yZF9_:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1700319891-eximdsn-1976946197
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1r4MsI-00915t-1v
+	for ginojohn@gmail.com;
+	Sat, 18 Nov 2023 08:04:51 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Devin Brown.
+X-PHP-Script: www.ststephenssanjose.org/contact.php for 49.83.137.184
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 49.83.137.184
+From: aiangents@vaulemedia.com
+Reply-To: aiangents@vaulemedia.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1r4MsI-00915t-1v@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 18 Nov 2023 08:04:46 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Devin Brown, and the message is as follows.
+
+"Hey ,
+
+Imagine having access to a complete team of experts to run your
+business seamlessly, without the burden of hefty salaries.  It might
+sound too good to be true, but today, your dreams become reality with
+AI Agents, the groundbreaking solution that's set to transform your
+business operations.  Ì†ΩÌ∫Ä
+
+[Get AI Agents At Low Early bird Price Now]:
+https://www.vaulemedia.com/aiangents 
+AI Agents tackles major business challenges by removing the need to
+hire expensive professionals, reduces operational costs, and ensures
+that your business remains innovative and adaptable to growth, all
+without compromising on quality.
+
+Here's what you can expect with AI Agents:
+
+Ì†ºÌºü Create blog posts, emails, social post, courses, marketing
+plans, and more.
+Ì†ºÌºü Streamline your sales and marketing tasks with automation.
+Ì†ºÌºü Utilize the power of AI to personalize and optimize customer
+interactions.
+Ì†ºÌºü Access expert guidance for legal, accounting, and finance
+matters.
+Ì†ºÌºü Boost your online presence and engage with your audience.
+
+But that's just the beginning!  AI Agents comes packed with remarkable
+features:
+
+Ì†æÌ¥ñ 50+ unique AI-powered Agents and workflows, each specialized in
+various tasks.
+Ì†ΩÌ∫Ä Cutting-edge technology that evolves alongside your business.
+Ì†ΩÌª†Ô∏è Customizable solutions tailored to your specific needs.
+Ì†ΩÌ∂•Ô∏è User-friendly interface, perfect for beginners and pros.
+Ì†ΩÌ¥ó Seamless integration with your existing systems.
+Ì†ΩÌ¥í Advanced data security and privacy measures.
+Ì†ΩÌ≥Ü Regular updates to stay aligned with industry trends.
+Ì†ºÌºü Exceptional customer support from our dedicated team.
+
+[See Complete AI Agents Features Here]:
+https://www.vaulemedia.com/aiangents 
+
+Now's the perfect time to take action.
+
+This incredible offer is available for a limited time, and the clock
+is ticking.
+
+Don't miss this opportunity to revolutionize your business with AI
+Agents and these exclusive bonuses.
+
+Secure your spot and embrace the future of business:
+https://www.vaulemedia.com/aiangents 
+
+To Your Success,
+Devin Brown Ì†ΩÌ∏éÌ†ΩÌ∫Ä
+
+
+UNSUBSCRIBE: https://www.vaulemedia.com/unsubscribe
+
+6801 W Canal Dr, Kennewick, WA 99336"
+
+You can contact Devin Brown via email, aiangents@vaulemedia.com
+
+--1700319891-eximdsn-1976946197--

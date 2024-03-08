@@ -1,0 +1,162 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id AAWyOTQWZGPCLSIAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Thu, 03 Nov 2022 12:27:48 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Thu, 03 Nov 2022 12:27:48 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1oqfsS-009PCj-RX
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Thu, 03 Nov 2022 12:27:48 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1oqfsS-009PCF-E3@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667503668-eximdsn-1628728813
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oqfsS-009PCj-RX@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 12:27:48 -0700
+
+--1667503668-eximdsn-1628728813
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qfsSofAig4oIf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63641634 p=VQgfY3vYAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=_ydkAXfsGqQA:10 a=z3ULzVM9AAAA:8 a=90nerC6Nb7BHU_qYe9AA:9 a=QEXdDO2ut3YA:10 a=3XyfmqfAmmYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=88kCle8IRId1ENC6pjn8:22 a=aC2TUO9nyKtkVkuG-GoU:22 ::
+    100.00
+
+--1667503668-eximdsn-1628728813
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qfsSofAig4oIf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=JYp672GV c=1 sm=1 tr=0 ts=63641634 p=VQgfY3vYAAAA:8 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=_ydkAXfsGqQA:10 a=z3ULzVM9AAAA:8 a=90nerC6Nb7BHU_qYe9AA:9 a=QEXdDO2ut3YA:10 a=3XyfmqfAmmYA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=88kCle8IRId1ENC6pjn8:22 a=aC2TUO9nyKtkVkuG-GoU:22 :: 100.00
+
+--1667503668-eximdsn-1628728813
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1oqfsS-009PCF-E3
+	for ginojohn@gmail.com; Thu, 03 Nov 2022 12:27:48 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Bruceanots.
+X-PHP-Script: ststephenssanjose.org/contact.php for 89.22.232.186
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 89.22.232.186
+From: mamedov.edgar.1992.3.3@inbox.ru
+Reply-To: mamedov.edgar.1992.3.3@inbox.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1oqfsS-009PCF-E3@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Thu, 03 Nov 2022 12:27:48 -0700
+
+You have been contacted by Bruceanots, and the message is as follows.
+
+"Фундаментом опор освещения может
+быть бетонная основа или подземный
+монтажный блок https://xn----8sbbqwjb8ce.xn--p1ai/v2
+  Его размеры зависят от места
+установки, характеристик грунта, веса,
+высоты и условий эксплуатации столба,
+размещение должно обеспечивать
+безопасную эксплуатацию светильника
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-288592881193-tsvetnie-lampochki-svetodiodnie-matovie
+  Установка фундамента требует
+разрешения на земельные работы
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-288592881193-tsvetnie-lampochki-svetodiodnie-matovie
+  Глубина заложения должна учитывать
+промерзание земли в данной местности
+и быть на 30 см больше: 
+Если интенсивность для категорий А и Б
+превышает более 2000 единиц транспорта
+в час, или дороги являются сильно
+запыленными, светильник должен
+соответствовать по степени защиты
+исполнению IP54
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-220680002191-konnektor-dlya-belt-laita
+  Максимальная защита возможна при
+исполнении IP65, например, в
+транспортных тоннелях
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-288592881193-tsvetnie-lampochki-svetodiodnie-matovie
+ 
+Выбор лампы влияет на количество
+потребляемой энергии, интенсивность
+излучаемого света и его температуру
+https://xn----8sbbqwjb8ce.xn--p1ai/
+  Еще пятьдесят лет назад был только
+один вариант — лампы накаливания
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/195474176-244767563591-belt-lait-dvuhzhilnii-chernii-i-belii-s
+  Сейчас их также можно встретить в
+магазинах, но характеристики
+значительно уступают современным
+аналогам
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-289562481031-belt-lait-pyatizhilnii-belii-ili-chernii
+  Такие светильники из-за низкого КПД
+требуют большего всего электричества
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-220680002191-konnektor-dlya-belt-laita
+  Кроме того, излучаемый желтый свет
+плохо сочетается с естественной
+красотой природы https://xn----8sbbqwjb8ce.xn--p1ai/v2
+  Поэтому такие устройства обычно не
+применяют на дачах
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-446351617956-oblegchennaya-girlyanda-s-prozrachnimi-t
+ 
+Для установки светильников на улице
+пытайтесь выбирать только
+качественные образцы, они точно
+принесут результат
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-446351617956-oblegchennaya-girlyanda-s-prozrachnimi-t
+  Дешевые быстро выйдут из строя, плюс
+с ними будет много мороки, как по
+установке, так и замене
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/195474176-992165094149-belt-lait-dvuhzhilnii-belii-i-chernii-s
+ 
+Большая длина гирлянды потребует
+нескольких блоков питания
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-706497614521-oblegchennaya-girlyanda-so-svisaniem-s-p
+  Ни в коем случае не пытайтесь
+подключить гирлянду только к одному
+трансформатору: велика вероятность,
+что слишком большая потребляемая
+нагрузка легко выведет его из строя,
+что может привести к короткому
+замыканию и пожару
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-446351617956-oblegchennaya-girlyanda-s-prozrachnimi-t
+ 
+Индивидуальное освещение
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/195474176-992165094149-belt-lait-dvuhzhilnii-belii-i-chernii-s
+  Это составление схемы размещения на
+основе проекта участка
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-642339341169-prozrachnie-lampochki-1w-dlya-belt-laita
+  Здесь используются небольшие фонари
+вдоль садовых дорожек, лампы на
+крыльце дома и возле парадного въезда
+с улицы
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-706497614521-oblegchennaya-girlyanda-so-svisaniem-s-p
+  Наиболее распространённый вариант
+https://xn----8sbbqwjb8ce.xn--p1ai/tproduct/1-772320672151-retro-girlyanda-so-svisaniem-10m-na-cher
+ 
+"
+
+You can contact Bruceanots via email, mamedov.edgar.1992.3.3@inbox.ru
+
+--1667503668-eximdsn-1628728813--

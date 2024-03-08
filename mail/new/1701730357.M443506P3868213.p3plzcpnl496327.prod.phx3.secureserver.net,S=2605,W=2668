@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id d7ntGTVYbmU1BjsACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 04 Dec 2023 15:52:37 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 04 Dec 2023 15:52:37 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rAHnp-00GEIM-1A
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 04 Dec 2023 15:52:37 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rAHnh-00GE0r-0t@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rAHnp-00GEIM-1A@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 04 Dec 2023 15:52:37 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rAHnh-00GE0r-0t
+	for ginojohn@gmail.com;
+	Mon, 04 Dec 2023 15:52:29 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by James Herr.
+X-PHP-Script: ststephenssanjose.org/contact.php for 149.88.19.5
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 149.88.19.5
+From: reyna.herr@gmail.com
+Reply-To: reyna.herr@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rAHnh-00GE0r-0t@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 04 Dec 2023 15:52:29 -0700
+
+You have been contacted by James Herr, and the message is as follows.
+
+"Advantages of hiring a Developer:
+
+Specialized Expertise
+Tailored Customization and Control
+Time and Cost Efficiency
+Custom Plugin Development
+SEO Optimization
+Ongoing Support and Maintenance
+Seamless Integration and Migration
+Scalability for Business Growth
+
+Hire a web developer now from us. Contact us at
+https://wpexpertspro.co/website/"
+
+You can contact James Herr via email, reyna.herr@gmail.com

@@ -1,0 +1,133 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id MDedLTolaWMgEzgAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 08:33:14 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 08:33:14 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os47e-00FSHn-Lf
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 08:33:14 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os47e-00FSH8-8p@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667835194-eximdsn-1132911205
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os47e-00FSHn-Lf@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 08:33:14 -0700
+
+--1667835194-eximdsn-1132911205
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s47eohJoBwRiJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=6369253a p=XP0AT3Aw6tAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=UIzBN_w6rocA:10 a=kqdOk73CAAAA:8 a=RgBw9RmQAAAA:8 a=NqIqYz_QnXeHlLdw9VUA:9 a=QEXdDO2ut3YA:10 a=v_57HwjHdwgA:10 a=lU-_7mn0aEEA:10 a=ldAt9LOWP2oA:10 a=wsEWA-V-YKAA:10 a=RSC_YFh0YlgA:10 a=a3cWty9WgdwA:10 a=N8SCuqvy2qoA:10 a=uOmjn6O-cgIA:10 a=H3TL4ZYFw58A:10 a=NfcWPws8ND0A:10 a=22HsnpNd3SsA:10 a=vxmsCQPYgSwA:10 a=O8mKjwkuiGIA:10 a=HJMwBB0pA-cA:10 a=YNnliqI5BcUA:10 a=iLoGIDkz8AsA:10 a=iASwLB02IKoA:10 a=sEmII5tsm6oA:10 a=_WlzgGpK5iEA:10 a=NVI325227X8A:10 a=nELN1CkTBmkA:10 a=YoCogyiqrP4A:10 a=wi3Be3s9tuwA:10 a=CTda2vrLBPcA:10 a=g3ON4d_y3w4A:10 a=aVzXCwnXcbYA:10 a=giTgpWsEE
+
+--1667835194-eximdsn-1132911205
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s47eohJoBwRiJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=AM9vU0Rf c=1 sm=1 tr=0 ts=6369253a p=XP0AT3Aw6tAA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=UIzBN_w6rocA:10 a=kqdOk73CAAAA:8 a=RgBw9RmQAAAA:8 a=NqIqYz_QnXeHlLdw9VUA:9 a=QEXdDO2ut3YA:10 a=v_57HwjHdwgA:10 a=lU-_7mn0aEEA:10 a=ldAt9LOWP2oA:10 a=wsEWA-V-YKAA:10 a=RSC_YFh0YlgA:10 a=a3cWty9WgdwA:10 a=N8SCuqvy2qoA:10 a=uOmjn6O-cgIA:10 a=H3TL4ZYFw58A:10 a=NfcWPws8ND0A:10 a=22HsnpNd3SsA:10 a=vxmsCQPYgSwA:10 a=O8mKjwkuiGIA:10 a=HJMwBB0pA-cA:10 a=YNnliqI5BcUA:10 a=iLoGIDkz8AsA:10 a=iASwLB02IKoA:10 a=sEmII5tsm6oA:10 a=_WlzgGpK5iEA:10 a=NVI325227X8A:10 a=nELN1CkTBmkA:10 a=YoCogyiqrP4A:10 a=wi3Be3s9tuwA:10 a=CTda2vrLBPcA:10 a=g3O[truncated]
+
+--1667835194-eximdsn-1132911205
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os47e-00FSH8-8p
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 08:33:14 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jeremywhaws.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.106
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.106
+From: consducfen.51@mail.ru
+Reply-To: consducfen.51@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os47e-00FSH8-8p@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 08:33:14 -0700
+
+You have been contacted by Jeremywhaws, and the message is as follows.
+
+"
+
+Сегодня многие заинтересованы в
+использовании экологически чистых
+материалов в своем доме
+https://www.raidstone.ru/katalog-kamnya/granit/granit-gimalaj-vaajt-himalay-white.html
+   Это позволяет максимально долго
+поддерживать чистоту, избежать
+пагубного влияния на здоровье жильцов
+и просто привнести некую изюминку в
+интерьер апартаментов
+https://www.raidstone.ru/katalog-kamnya/granit/granit-dzhiallo-topazi-giallo-topazio.html
+   Именно поэтому на современных
+кухнях все чаще устанавливаются
+столешницы из камня, а в других
+комнатах — подоконники и полки из
+аналогичного материала
+https://www.raidstone.ru/catalog/malye-arhitekturnye-formy/karnizy.html
+ 
+Изделия из натурального природного
+камня в Калининграде:
+https://www.raidstone.ru/katalog-kamnya/granit/granit-indian-ellou-indian-yellow.html
+  
+https://www.raidstone.ru/catalog/izdeliya-iz-kamnya/kaminy/kaminy-iz-mramora/oblicovka-portala-dvuhstoronnego-kamina-slebom-mramora.html
+  
+https://www.raidstone.ru/catalog/malye-arhitekturnye-formy/kolonny-tumby-pilyastry.html?list_page=2
+   Изделия из натурального природного
+камня в Калининграде
+https://www.raidstone.ru/katalog-kamnya/oniks/oniks-uajt-white.html
+  
+https://www.raidstone.ru/katalog-kamnya/mramor/mramor-medzhik-braun-magic-brown.html
+   https://www.raidstone.ru/katalog-kamnya/travertin.html
+    специализируется на обработке
+натурального камня и предлагает своим
+клиентам в Калининграде широчайший
+спектр услуг – от производства
+эксклюзивных каменных изделий до
+профессиональной облицовки помещений
+https://www.raidstone.ru/catalog/izdeliya-iz-kamnya/banya-hamam/kurny-rakoviny.html?list_page=2
+   В своей работе мы используем
+натуральный гранит и мрамор только
+высокого качества
+https://www.raidstone.ru/catalog/izdeliya-iz-kamnya/podokonniki/podokonniki-iz-mramora.html?list_page=4
+   Подрядчикам, дизайнерам и оптовым
+покупателям для достижения взаимной
+выгоды предлагаются специальные
+программы сотрудничества
+https://www.raidstone.ru/catalog/izdeliya-iz-kamnya/stojki-resepshen.html
+ 
+
+Федеральным законом от 27
+https://www.raidstone.ru/catalog/izdeliya-iz-kamnya/stupeni1/stupeni-iz-granita.html
+  07 https://www.raidstone.ru/prices.html
+  2006 года №152-ФЗ , на условиях и для
+целей, определенных в Согласии на
+обработку персональных данных 
+"
+
+You can contact Jeremywhaws via email, consducfen.51@mail.ru
+
+--1667835194-eximdsn-1132911205--

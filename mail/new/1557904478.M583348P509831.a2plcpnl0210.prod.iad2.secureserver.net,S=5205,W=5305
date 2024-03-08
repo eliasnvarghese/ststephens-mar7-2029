@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id +PupIF6821yHxwcAQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Wed, 15 May 2019 00:14:38 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Wed, 15 May 2019 00:14:38 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.91)
+	id 1hQo7a-002GVY-Dj
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Wed, 15 May 2019 00:14:38 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Content-Type: multipart/report; report-type=delivery-status; boundary=1557904478-eximdsn-967383046
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1hQo7a-002GVY-Dj@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 15 May 2019 00:14:38 -0700
+
+--1557904478-eximdsn-967383046
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Qo7ahVo1uMLqE :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=GfBpYjfL c=1 sm=1 tr=0 p=buv2XZRzYUMA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=vN3qymnmzzEA:10 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=EgiqfGdIEyUA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=E5NmQfObTbMA:10 a=cLng2ktABUQA:10 a=pGLkceISAAAA:8 a=mG6ZHBNGwtezoIW2SaQA:9 a=xjp2Sy1lNlWwiCLV:21 a=Kdn5NsWQdOUrdQjJ:21 a=QEXdDO2ut3YA:10 a=zQzzvf_mOWQA:10 a=HzZdxL8MhtsA:10 a=D6jvL9wlNARFfYRA5set:22 a=RVN-XaUdX6MkSaK3ILuJ:22 a=fe0bVqHomkLySKfmr4Gc:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 ::
+    100.00
+
+--1557904478-eximdsn-967383046
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Qo7ahVo1uMLqE :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=GfBpYjfL c=1 sm=1 tr=0 p=buv2XZRzYUMA:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=vN3qymnmzzEA:10 a=IkcTkHD0fZMA:10 a=x7bEGLp0ZPQA:10 a=EgiqfGdIEyUA:10 a=9tMiWJV1oG0A:10 a=Q8mBbTjvhdIA:10 a=E5NmQfObTbMA:10 a=cLng2ktABUQA:10 a=pGLkceISAAAA:8 a=mG6ZHBNGwtezoIW2SaQA:9 a=xjp2Sy1lNlWwiCLV:21 a=Kdn5NsWQdOUrdQjJ:21 a=QEXdDO2ut3YA:10 a=zQzzvf_mOWQA:10 a=HzZdxL8MhtsA:10 a=D6jvL9wlNARFfYRA5set:22 a=RVN-XaUdX6MkSaK3ILuJ:22 a=fe0bVqHomkLySKfmr4Gc:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 :: 100.00
+
+--1557904478-eximdsn-967383046
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.91)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1hQo7a-002GVF-84
+	for ginojohn@gmail.com; Wed, 15 May 2019 00:14:38 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by MichaelAgers.
+X-PHP-Script: ststephenssanjose.org/contact.php for 77.243.183.68
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 77.243.183.68
+From: bsms89467@gmail.com
+Reply-To: bsms89467@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1hQo7a-002GVF-84@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Wed, 15 May 2019 00:14:38 -0700
+
+You have been contacted by MichaelAgers, and the message is as
+follows.
+
+"Greetings, 
+ 
+We are direct gold and diamond seller, we are ready  and able to
+deliver the consignment with the following specifications 
+ 
+Commodity:                        Gold Bars/ Nugget 
+Purity :                                97.6% pure, 
+Carat   :                                23.48+ct 
+Quantity:                             11,860 Kilograms 
+First Delivery :                       500 to 1000 Kilograms 
+Price per Kg:               Thirty Thousand United States Dollars ($
+30,000), CIF Price 
+Packing:                       Packed in metal boxes suitable for
+Airfreight 
+Shipment:                             By Airfreight 
+Destination:                         Buyer’s Choice (Free Zone) 
+ 
+kindly get back to me if we can work together. We will discuss our
+terms once I hear from you. 
+I am looking forward to hear from you. 
+Best regards, 
+Mr. David Ngadama. 
+Email: ta7338612@gmail.com"
+
+You can contact MichaelAgers via email, bsms89467@gmail.com
+
+--1557904478-eximdsn-967383046--

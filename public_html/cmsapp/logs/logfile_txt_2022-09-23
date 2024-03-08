@@ -1,0 +1,23 @@
+DebugLog  | 2022-09-23 02:44:01 | guest | 61.135.159.153 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-09-23 02:44:01 | guest | 61.135.159.153 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-09-23' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-09-23 02:47:16 | guest | 114.119.146.87 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-09-23 02:47:16 | guest | 114.119.146.87 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-09-23' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-09-23 03:12:30 | guest | 195.78.54.53 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-09-23 03:12:30 | guest | 195.78.54.53 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-09-23' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-09-23 08:48:56 | guest | 3.95.139.195 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-09-23 08:48:57 | guest | 3.95.139.195 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-09-23' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-09-23 09:30:28 | guest | 45.32.89.161 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-09-23 09:30:28 | guest | 45.32.89.161 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-09-23' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-09-23 10:00:17 | guest | 73.15.198.232 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-09-23 10:00:17 | guest | 73.15.198.232 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-09-23' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-09-23 12:59:34 | guest | 157.55.39.86 | photogallery | Page No = 1
+DebugLog  | 2022-09-23 12:59:34 | guest | 157.55.39.86 | photogallery | Page No = 1 Rowno = 0
+DebugLog  | 2022-09-23 12:59:34 | guest | 157.55.39.86 | photogallery | getAllPostings: select count(a.postingid) as cnt from postings_t a  where a.deleted=0  and contenttype='Image'
+DebugLog  | 2022-09-23 12:59:34 | guest | 157.55.39.86 | photogallery | getAllPostings: select a.postingid,a.contenttype,a.contentid,a.videotype,a.videourl,a.videolabel,a.imagetype,a.imagepath,a.title,a.description,a.posting_like,a.createdon,a.createdby   from postings_t a  where a.deleted=0  and contenttype='Image' order by createdon desc LIMIT 0, 9
+DebugLog  | 2022-09-23 19:44:05 | guest | 123.125.109.107 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-09-23 19:44:05 | guest | 123.125.109.107 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-09-23' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-09-23 20:23:36 | guest | 3.238.125.192 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-09-23' order by fromdate asc ,todate asc limit 1
+DebugLog  | 2022-09-23 21:48:19 | guest | 69.160.160.54 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-09-23 21:48:19 | guest | 69.160.160.54 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-09-23' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-09-23 23:48:13 | guest | 123.125.109.94 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-09-23 23:48:13 | guest | 123.125.109.94 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-09-23' order by fromdate asc ,todate asc limit 3

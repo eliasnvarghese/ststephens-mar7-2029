@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id cCMzDDe5fmQcYiMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Mon, 05 Jun 2023 21:42:31 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Mon, 05 Jun 2023 21:42:31 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1q6OWd-009jLq-55
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Mon, 05 Jun 2023 21:42:31 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1q6OWV-009jEG-KT@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1686026551-eximdsn-2054078045
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q6OWd-009jLq-55@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 05 Jun 2023 21:42:31 -0700
+
+--1686026551-eximdsn-2054078045
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 6OWcqs98HrKX1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=cp1d0X0i c=1 sm=1 tr=0 ts=647eb937 p=20X2rGeCj3KBhsMstsyt:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=jni8Q4bWAAAA:8 a=0kzM3CcBAAAA:8 a=ICVbhxgXxJ3myL-OnNsA:9 a=QEXdDO2ut3YA:10 a=u2kSLcLEIu4A:10 a=hiEWGgREwk0A:10 a=MYGO9zxfYPIA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=0iNq3KTrh-TiYMfLC-0V:22 a=CE9uLJsCu-G7ENrl3HQA:22 ::
+    100.00
+
+--1686026551-eximdsn-2054078045
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 6OWcqs98HrKX1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=cp1d0X0i c=1 sm=1 tr=0 ts=647eb937 p=20X2rGeCj3KBhsMstsyt:22 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=of4jigFt-DYA:10 a=jni8Q4bWAAAA:8 a=0kzM3CcBAAAA:8 a=ICVbhxgXxJ3myL-OnNsA:9 a=QEXdDO2ut3YA:10 a=u2kSLcLEIu4A:10 a=hiEWGgREwk0A:10 a=MYGO9zxfYPIA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=0iNq3KTrh-TiYMfLC-0V:22 a=CE9uLJsCu-G7ENrl3HQA:22 :: 100.00
+
+--1686026551-eximdsn-2054078045
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1q6OWV-009jEG-KT
+	for ginojohn@gmail.com;
+	Mon, 05 Jun 2023 21:42:30 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jamesfum.
+X-PHP-Script: ststephenssanjose.org/contact.php for 1.169.114.84
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 1.169.114.84
+From: uvdiy4@course-fitness.com
+Reply-To: uvdiy4@course-fitness.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1q6OWV-009jEG-KT@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Mon, 05 Jun 2023 21:42:23 -0700
+
+You have been contacted by Jamesfum, and the message is as follows.
+
+"點子數位科技有限公司 
+ 
+https://spot-digital.com.tw/"
+
+You can contact Jamesfum via email, uvdiy4@course-fitness.com
+
+--1686026551-eximdsn-2054078045--

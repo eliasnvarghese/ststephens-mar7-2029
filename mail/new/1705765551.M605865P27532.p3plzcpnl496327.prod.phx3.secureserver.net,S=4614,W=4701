@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id yKSSI6/qq2WMawAACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Sat, 20 Jan 2024 08:45:51 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Sat, 20 Jan 2024 08:45:51 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rRDXb-0007de-1k
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Sat, 20 Jan 2024 08:45:51 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rRDXV-0007cq-0o@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1705765551-eximdsn-1175743196
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rRDXb-0007de-1k@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 20 Jan 2024 08:45:51 -0700
+
+--1705765551-eximdsn-1175743196
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp01-v01.prod.phx3.secureserver.net [132.148.124.48]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 RDXarxqg7bNq0 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KuLu2nWN c=1 sm=1 tr=0 ts=65abeaaf p=I7-Ut6FWAAAA:8 p=ABdv7zWTBosA:10 p=u8vPFXH5uzMkSe2odHuy:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=1oyc8cYNRW8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dEuoMetlWLkA:10 a=x7bEGLp0ZPQA:10 a=S94jkh8YKtQA:10 a=UqCG9HQmAAAA:8 a=dd0T1nMTV1CeGOS114AA:9 a=QEXdDO2ut3YA:10 a=J98iPzVqNrEA:10 a=NXYwQCgrGoQA:10 a=KyYZJfTCSdMA:10 a=zhaJ39o4ujsnVbFezuih:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 ::
+    100.00
+
+--1705765551-eximdsn-1175743196
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp01-v01.prod.phx3.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 RDXarxqg7bNq0 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KuLu2nWN c=1 sm=1 tr=0 ts=65abeaaf p=I7-Ut6FWAAAA:8 p=ABdv7zWTBosA:10 p=u8vPFXH5uzMkSe2odHuy:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=1oyc8cYNRW8A:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=dEuoMetlWLkA:10 a=x7bEGLp0ZPQA:10 a=S94jkh8YKtQA:10 a=UqCG9HQmAAAA:8 a=dd0T1nMTV1CeGOS114AA:9 a=QEXdDO2ut3YA:10 a=J98iPzVqNrEA:10 a=NXYwQCgrGoQA:10 a=KyYZJfTCSdMA:10 a=zhaJ39o4ujsnVbFezuih:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 :: 100.00
+
+--1705765551-eximdsn-1175743196
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rRDXV-0007cq-0o
+	for ginojohn@gmail.com;
+	Sat, 20 Jan 2024 08:45:50 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Roberttox.
+X-PHP-Script: ststephenssanjose.org/contact.php for 194.88.153.140
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 194.88.153.140
+From: inet4747@outlook.com
+Reply-To: inet4747@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rRDXV-0007cq-0o@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Sat, 20 Jan 2024 08:45:45 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Roberttox, and the message is as follows.
+
+"[url=https://pint77.blogspot.com/2023/12/shop-home-plans.html] Shop
+Home Plans And DIY. 45x57 A-Frame Cabin Plans 4 Bedrooms, 2 Half Baths
+Architecture Build Plans with 1758SF of Living Area Blueprint, Build
+Architectural Plans Blueprint, 209 pages of detailed information and
+instructions Downloadable PDF[/url]"
+
+You can contact Roberttox via email, inet4747@outlook.com
+
+--1705765551-eximdsn-1175743196--

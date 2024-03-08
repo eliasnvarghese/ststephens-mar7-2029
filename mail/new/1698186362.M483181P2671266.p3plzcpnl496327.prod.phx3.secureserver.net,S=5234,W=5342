@@ -1,0 +1,108 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id YZqVHHpEOGWiwigACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Tue, 24 Oct 2023 15:26:02 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Tue, 24 Oct 2023 15:26:02 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qvPqc-00BCuR-CQ
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Tue, 24 Oct 2023 15:26:02 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qvPqW-00BCfq-Pq@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698186362-eximdsn-323563433
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qvPqc-00BCuR-CQ@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 24 Oct 2023 15:26:02 -0700
+
+--1698186362-eximdsn-323563433
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 vPqcqPXloTa2r :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=6538447a p=hKAL4kY2AAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=4/sY6Fh1WKFURAvxH+RRY5NmFWQ=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=fP2BcaHqAAAA:8 a=a0KdDLxwCEBuGIlrXLsA:9 a=QEXdDO2ut3YA:10 a=C_9VNqhgeUIA:10 a=Qjn_9iKctQYA:10 a=bRGyI2tpAeM6w_J-Fg6t:22 a=bSDz_x4VkfEPHYBQuv38:22 a=Hh-yr14-J4N9Kc5UXL32:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1698186362-eximdsn-323563433
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 vPqcqPXloTa2r :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=O+f//jxW c=1 sm=1 tr=0 ts=6538447a p=hKAL4kY2AAAA:8 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=4/sY6Fh1WKFURAvxH+RRY5NmFWQ=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=bhdUkHdE2iEA:10 a=fP2BcaHqAAAA:8 a=a0KdDLxwCEBuGIlrXLsA:9 a=QEXdDO2ut3YA:10 a=C_9VNqhgeUIA:10 a=Qjn_9iKctQYA:10 a=bRGyI2tpAeM6w_J-Fg6t:22 a=bSDz_x4VkfEPHYBQuv38:22 a=Hh-yr14-J4N9Kc5UXL32:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1698186362-eximdsn-323563433
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qvPqW-00BCfq-Pq
+	for ginojohn@gmail.com;
+	Tue, 24 Oct 2023 15:26:02 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Syed Atif.
+X-PHP-Script: ststephenssanjose.org/contact.php for 216.24.216.85
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 216.24.216.85
+From: ujn2esbgakah@opayq.com
+Reply-To: ujn2esbgakah@opayq.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qvPqW-00BCfq-Pq@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Tue, 24 Oct 2023 15:25:56 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by Syed Atif, and the message is as follows.
+
+"Hello, 
+ 
+We provide funding through our venture capital company to both
+start-up and existing companies either looking for funding for
+expansion or to accelerate growth in their company. 
+We have a structured joint venture investment plan in which we are
+interested in an annual return on investment not more than 10% ROI. We
+are also currently structuring a convertible debt and loan financing
+of 3% interest repayable annually with no early repayment penalties. 
+ 
+We would like to review your business plan or executive summary to
+understand a much better idea of your business and what you are
+looking to do, this will assist in determining the best possible
+investment structure we can pursue and discuss more extensively. 
+ 
+ 
+I hope to hear back from you soon. 
+ 
+Sincerely, 
+ 
+Syed Atif 
+Investment Director 
+Devcorp International E.C. 
+P.O Box 10236 Shop No. 305 
+Flr 3 Manama Centre, Bahrain 
+Email: syed.atif@devcorpinternational.com"
+
+You can contact Syed Atif via email, ujn2esbgakah@opayq.com
+
+--1698186362-eximdsn-323563433--

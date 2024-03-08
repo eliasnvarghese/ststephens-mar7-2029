@@ -1,0 +1,116 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id KEGnDRIgpWSYyxMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 05 Jul 2023 00:47:30 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 05 Jul 2023 00:47:30 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qGxEY-005RVh-5o
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 05 Jul 2023 00:47:30 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qGxET-005RQm-35@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1688543250-eximdsn-2106249825
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qGxEY-005RVh-5o@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 05 Jul 2023 00:47:30 -0700
+
+--1688543250-eximdsn-2106249825
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 GxEYqUBTyUe7e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64a52012 p=7iJ-iq5QAAAA:8 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=dkxSqNBkwZMA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=mtTTZODm-4wA:10 a=UqCG9HQmAAAA:8 a=CPfZ2gNNXbETLVjsMc8A:9 a=QEXdDO2ut3YA:10 a=wkVcRD-Ip-oA:10 a=-TpEFXQ2wqYA:10 a=wyOGtjrLtcMA:10 a=KyYZJfTCSdMA:10 a=ZzTZcJNaYjnEJeS22oY7:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=vo7uaTXnpDrq-bScW70b:22 ::
+    100.00
+
+--1688543250-eximdsn-2106249825
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 GxEYqUBTyUe7e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64a52012 p=7iJ-iq5QAAAA:8 a=2X41b4ieGfoJAKBLAMfEgQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=dkxSqNBkwZMA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=mtTTZODm-4wA:10 a=UqCG9HQmAAAA:8 a=CPfZ2gNNXbETLVjsMc8A:9 a=QEXdDO2ut3YA:10 a=wkVcRD-Ip-oA:10 a=-TpEFXQ2wqYA:10 a=wyOGtjrLtcMA:10 a=KyYZJfTCSdMA:10 a=ZzTZcJNaYjnEJeS22oY7:22 a=acewEgQMpYTsClr9keMy:22 a=e03GX9XZzNdJjLUNKu87:22 a=vo7uaTXnpDrq-bScW70b:22 :: 100.00
+
+--1688543250-eximdsn-2106249825
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qGxET-005RQm-35
+	for ginojohn@gmail.com;
+	Wed, 05 Jul 2023 00:47:30 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Tobias Heyer.
+X-PHP-Script: ststephenssanjose.org/contact.php for 91.242.71.192
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 91.242.71.192
+From: lauri.heyer@outlook.com
+Reply-To: lauri.heyer@outlook.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qGxET-005RQm-35@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 05 Jul 2023 00:47:25 -0700
+
+You have been contacted by Tobias Heyer, and the message is as
+follows.
+
+"I hope this email finds you well. My name is Tobias and I am writing
+to introduce you to Pictory, a platform that can help your business
+grow and become better.
+
+At Pictory, we understand the importance of effective communication
+and digital presence in today's business world. Our platform offers a
+variety of visual content creation tools that can help you enhance
+your brand awareness, improve customer engagement, and reach a wider
+audience.
+
+With Pictory, you can create visually stunning and memorable customer
+experiences, which can lead to increased sales and customer loyalty.
+Additionally, our platform offers effective marketing features that
+can help you promote your business and reach your target audience more
+effectively.
+
+We believe that Pictory can have a positive impact on your business
+and help you achieve your growth goals. That's why we would like to
+offer you a chance to try our platform for free. Simply click on the
+link https://pictory.ai?ref=tobias29 to get started.
+
+If you have any questions or concerns, please don't hesitate to reach
+out to us. We would be happy to assist you.
+
+Thank you for considering Pictory as a tool for your business growth.
+We look forward to helping you succeed.
+
+Best regards,
+Tobias
+
+
+
+
+
+
+"
+
+You can contact Tobias Heyer via email, lauri.heyer@outlook.com
+
+--1688543250-eximdsn-2106249825--

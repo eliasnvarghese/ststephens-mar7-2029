@@ -1,0 +1,112 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id GAKZEL5VhGVsmBkACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 21 Dec 2023 08:11:58 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 21 Dec 2023 08:11:58 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rGKiM-0072S4-0g
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 21 Dec 2023 08:11:58 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rGKiH-0072Rb-1K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1rGKiM-0072S4-0g@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 21 Dec 2023 08:11:58 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rGKiH-0072Rb-1K
+	for ginojohn@gmail.com;
+	Thu, 21 Dec 2023 08:11:53 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by DrRabbit.
+X-PHP-Script: ststephenssanjose.org/contact.php for 93.100.152.5
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 93.100.152.5
+From: hhhppp@mail.ru
+Reply-To: hhhppp@mail.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rGKiH-0072Rb-1K@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 21 Dec 2023 08:11:53 -0700
+
+You have been contacted by DrRabbit, and the message is as follows.
+
+"Приветствую! Вы, наверняка, замечали
+подозрительные отказы с ipv6 адресов на
+своем сайте. Иногда они маскируются
+под реферер https://api.yandex-baza.website. Эти
+мошенники занимаются накруткой
+поведенческих факторов, определяя
+долгосрочные интересы сайтов через API
+Яндекс Вебмастера например доставка
+еды, недвижимость, подарки, туризм и
+т.д.
+Они классифицируют все известные
+публичные сайты по их долгосрочным
+интересам.
+
+
+Как выглядит схема.
+
+Шаг 1: Когда требуется "прокачать" свой
+сайт, они выбирают базу сайтов
+соответствующую долгосрочным
+интересам(Д.И.) прокачиваемого сайта.
+
+Шаг 2: Последовательно вбивают в
+выдаче ключевые слова относящиеся к
+этим Д.И.(долгосрочным интересам) и
+если в базе есть сайт с таким Д.И. то
+заходят на него из поиска и совершают
+отказы. Могут и по несколько раз.
+Каждый раз совершая такие отказные
+визиты они "прокачивают профиль" то
+есть грубоговоря нагуливают этим
+профилям cookies.
+
+Шаг 3: Затем, используя эти cookie, они
+выполняют поисковый запрос по тем же
+ключевым словам. Но на этот раз они
+заходят не на ваш сайт для отказа, а на
+свой, который прокачивают, повышая
+поведенческий фактор. Это приводит к
+тому, что поисковая система Яндекса
+снижает рейтинг ваших сайтов, в то
+время как сайты накрутчиков
+поднимаются в выдаче.
+
+Не смотря на мои жалобы и обращения в
+Яндекс, проблема так и осталась.
+Получал от них ответы вроде "мы в
+курсе", "мы рассмотрим", "этим
+занимается другой отдел", "мы сделали
+реплику искуственного интеллекта и
+теперь он рулит нашими алгоритмами".
+Очевидно что это полнейший бред.
+
+Как говорится, "если хочешь что-то
+сделать, сделай это сам". Я разработал
+решение для блокировки подобных
+накрутчиков, и для его реализации не
+требуется установка каких-либо
+скриптов или других сложных действий.
+Стоимость данной услуги - 2000 рублей
+единоразово.
+https://toproll.cf/posts/cf-bot-protection/"
+
+You can contact DrRabbit via email, hhhppp@mail.ru

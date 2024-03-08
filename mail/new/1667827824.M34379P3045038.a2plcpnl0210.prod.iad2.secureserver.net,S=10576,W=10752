@@ -1,0 +1,176 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Received: from a2plcpnl0210.prod.iad2.secureserver.net
+	by a2plcpnl0210.prod.iad2.secureserver.net with LMTP
+	id 6EvoAXAIaWOudi4AQba4bQ
+	(envelope-from <>)
+	for <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>; Mon, 07 Nov 2022 06:30:24 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+Delivery-date: Mon, 07 Nov 2022 06:30:24 -0700
+Received: from mailnull by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	id 1os2Cl-00D39W-Th
+	for buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net; Mon, 07 Nov 2022 06:30:23 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@a2plcpnl0210.prod.iad2.secureserver.net>
+To: buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net
+References: <E1os2Cl-00D390-DO@a2plcpnl0210.prod.iad2.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667827823-eximdsn-934037406
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1os2Cl-00D39W-Th@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 06:30:23 -0700
+
+--1667827823-eximdsn-934037406
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net [198.71.232.0]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 s2CloqUHTYVlN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=6369086f p=oITKRlBLPp4A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=4dWLWivEJnUA:10 a=MJ4n-0voAAAA:8 a=mem--OOHAAAA:8 a=QGJVZv7P94dZGmh_fWgA:9 a=QEXdDO2ut3YA:10 a=1usfws7tEtsA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=pJ3VizIf9_r_Snbu_oJB:22 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1667827823-eximdsn-934037406
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; a2plcpnl0210.prod.iad2.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; a2nlsmtpcp-v01.shr.prod.iad2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 s2CloqUHTYVlN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RJJ1Xau+ c=1 sm=1 tr=0 ts=6369086f p=oITKRlBLPp4A:10 a=H6zVvMkj8Qbq0pdlqPf9JQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=9xFQ1JgjjksA:10 a=ig81Dn9s_BkA:10 a=x7bEGLp0ZPQA:10 a=4dWLWivEJnUA:10 a=MJ4n-0voAAAA:8 a=mem--OOHAAAA:8 a=QGJVZv7P94dZGmh_fWgA:9 a=QEXdDO2ut3YA:10 a=1usfws7tEtsA:10 a=KyYZJfTCSdMA:10 a=acewEgQMpYTsClr9keMy:22 a=pJ3VizIf9_r_Snbu_oJB:22 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1667827823-eximdsn-934037406
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>
+Received: from buwlrdjjq1jo by a2plcpnl0210.prod.iad2.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <buwlrdjjq1jo@a2plcpnl0210.prod.iad2.secureserver.net>)
+	id 1os2Cl-00D390-DO
+	for ginojohn@gmail.com; Mon, 07 Nov 2022 06:30:23 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Jamesvah.
+X-PHP-Script: ststephenssanjose.org/contact.php for 213.219.247.106
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 213.219.247.106
+From: kovaleva.ekaterina.1980.3.2@bk.ru
+Reply-To: kovaleva.ekaterina.1980.3.2@bk.ru
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1os2Cl-00D390-DO@a2plcpnl0210.prod.iad2.secureserver.net>
+Date: Mon, 07 Nov 2022 06:30:23 -0700
+
+You have been contacted by Jamesvah, and the message is as follows.
+
+"Минус https://ballwool.com/links/ru
+  Ведь для правильного формирования
+выручки в налоговом учете продавцу
+потребуются данные перевозчика или
+отделения связи о фактической дате
+передачи товаров покупателям
+https://ballwool.com/?hashtag=%D1%83%D1%8E%D1%82%D0%B2%D0%B4%D0%BE%D0%BC%D0%B5
+  Не всегда удается вовремя получить
+такую информацию
+https://ballwool.com/?hashtag=%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%D0%BE%D1%82%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F
+ 
+Товар пришел в Иркутскую область
+очень быстро
+https://ballwool.com/?hashtag=%D1%83%D1%8E%D1%82%D0%B2%D0%B4%D0%BE%D0%BC%D0%B5
+  Упаковано всё было хорошо, продавец
+забыл правда помаду одну положить и
+стельки пришли большего размера, но мы
+договорились, что в следующем заказе
+это будет исправлено
+https://ballwool.com/?hashtag=%D1%81%D0%BF%D0%B8%D0%BB%D1%8B
+  Парфюм, косметика и вообще весь товар
+мне и всем моим покупателям очень
+понравился, кроме одной, которая
+сказала,что ей её парфюм не понравился
+https://ballwool.com/?hashtag=%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%D0%BE%D1%82%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F
+  Но сколько людей, столько и мнений
+https://ballwool.com/?hashtag=%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D0%BA%D0%B2%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%D0%B5
+  Кому не нравится, пожалуйста, дорога
+в Летуаль) Цены у этого магазина
+доступные, качество хорошее
+https://ballwool.com/?hashtag=%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0
+  Продавец внимательный, отзывчивый
+https://ballwool.com/?hashtag=handmade_ru
+  Обязательно буду с вами сотрудничать
+дальше
+https://ballwool.com/?hashtag=%D1%86%D0%B2%D0%B5%D1%82%D1%8B%D0%B2%D0%B4%D0%BE%D0%BC%D0%B5
+  Товара заказала много, жаль фото
+сразу не сделала, всё разобрали
+https://ballwool.com/?hashtag=%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BA%D0%B8%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0
+  Процветания вашему
+интернет-магазину
+https://ballwool.com/?filter=video_only
+  Спасибо! 
+16
+https://ballwool.com/?hashtag=%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%D0%BE%D1%82%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F
+  Продавец должен обеспечивать
+конфиденциальность персональных
+данных о покупателе в соответствии с
+законодательством Российской
+Федерации в области персональных
+данных
+https://ballwool.com/?hashtag=%D1%86%D0%B2%D0%B5%D1%82%D1%8B%D0%B2%D0%B4%D0%BE%D0%BC%D0%B5
+ 
+Отдельного внимания заслуживают
+китайские копии продукции известных
+брендов https://ballwool.com/?is_detailed=true
+  По качеству они немногим уступают
+оригиналам, а стоят при этом порой в
+разы дешевле
+https://ballwool.com/?hashtag=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D0%BA
+  На Алиэкспресс представлено
+огромное количество таких реплик
+https://ballwool.com/?hashtag=%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%D0%BE%D1%82%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F
+  И эти изделия крайне популярны среди
+тех, кто не желает платить огромные
+деньги за один лишь бренд
+https://ballwool.com/?hashtag=%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%D0%BE%D1%82%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F
+ 
+Этот магазин идеально подходит для
+мамочек и тех, кто только собирается
+ими стать
+https://ballwool.com/?hashtag=%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D0%BA%D0%B2%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%D0%B5
+  Ведь здесь есть качественные вещи
+для детей любого возраста, в том числе
+и новорожденных
+https://ballwool.com/?hashtag=%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0%D0%BE%D1%82%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F
+  А также белье, специальная одежда и
+аксессуары для беременных женщин
+https://ballwool.com/?hashtag=%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BA%D0%B8%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0
+  Эти вещи такие приятные, что их не
+хочется снимать http://ballwool.com
+  Например, джинсы со вставкой для
+округлившегося живота я еще долго
+носила и после родов
+https://ballwool.com/?hashtag=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D0%BA
+  Уж очень они были стильные и удобные
+https://ballwool.com/?hashtag=handmade_ru
+ 
+В тот же момент после присвоения
+трек-номера, в случае доставки,
+совершенной не экспресс-службой,
+отслеживание посылки не
+предоставляется возможным
+https://ballwool.com/?hashtag=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D0%BA
+  В особенности это знакомо
+интернет-магазинам
+https://ballwool.com/?hashtag=handmade_ru
+ 
+"
+
+You can contact Jamesvah via email, kovaleva.ekaterina.1980.3.2@bk.ru
+
+--1667827823-eximdsn-934037406--

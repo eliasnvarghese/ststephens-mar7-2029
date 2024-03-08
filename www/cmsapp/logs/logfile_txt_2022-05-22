@@ -1,0 +1,7 @@
+DebugLog  | 2022-05-22 10:10:05 | guest | 114.119.142.63 | calendar | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-05-22' order by fromdate asc ,todate asc limit 1
+DebugLog  | 2022-05-22 11:04:02 | guest | 114.119.142.3 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-05-22 11:04:02 | guest | 114.119.142.3 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-05-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-05-22 15:21:53 | guest | 66.249.66.147 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-05-22 15:21:53 | guest | 66.249.66.147 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-05-22' order by fromdate asc ,todate asc limit 3
+DebugLog  | 2022-05-22 17:46:10 | guest | 66.249.66.147 | index | getGospel: select * from gospel_t where deleted = 0 order by rand() limit 1
+DebugLog  | 2022-05-22 17:46:10 | guest | 66.249.66.147 | index | getUpComingEvents select eventid,eventname,eventdetails,highlights,fromdate,todate,deleted,createdon,createdby  from events_t  where deleted=0 and todate>='2022-05-22' order by fromdate asc ,todate asc limit 3

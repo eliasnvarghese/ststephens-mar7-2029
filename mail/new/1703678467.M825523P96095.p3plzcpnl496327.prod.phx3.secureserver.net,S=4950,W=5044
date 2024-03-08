@@ -1,0 +1,94 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id QogCMQMSjGVfdwEACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Wed, 27 Dec 2023 05:01:07 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Wed, 27 Dec 2023 05:01:07 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	id 1rISax-000Ozo-2P
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Wed, 27 Dec 2023 05:01:07 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1rISas-000Ouv-0O@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1703678467-eximdsn-260306908
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1rISax-000Ozo-2P@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 27 Dec 2023 05:01:07 -0700
+
+--1703678467-eximdsn-260306908
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ISaxrUWlvurUD :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QNuuBCHL c=1 sm=1 tr=0 ts=658c1203 p=OqVxiVHdAAAA:8 p=qsPRHvonzk360LdhwxJ1:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=KJ1oyaWcAAAA:8 a=DzkxrA4lE15FnYHIL8AA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=N9mvxbwdM7IA:10 a=KyYZJfTCSdMA:10 a=4B5sH4x1mh89dD-gLM2X:22 a=qFa1DmBGh8SRkZj0qjYC:22 a=NoBaTvEsJLXv93WKdLAC:22 a=acewEgQMpYTsClr9keMy:22 ::
+    100.00
+
+--1703678467-eximdsn-260306908
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 ISaxrUWlvurUD :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QNuuBCHL c=1 sm=1 tr=0 ts=658c1203 p=OqVxiVHdAAAA:8 p=qsPRHvonzk360LdhwxJ1:22 a=vRt8nlOPhD6ZR7UO9pw1ew==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=e2cXIFwxEfEA:10 a=KJ1oyaWcAAAA:8 a=DzkxrA4lE15FnYHIL8AA:9 a=PRpDppDLrCsA:10 a=QEXdDO2ut3YA:10 a=3TTO0qYOwB8A:10 a=N9mvxbwdM7IA:10 a=KyYZJfTCSdMA:10 a=4B5sH4x1mh89dD-gLM2X:22 a=qFa1DmBGh8SRkZj0qjYC:22 a=NoBaTvEsJLXv93WKdLAC:22 a=acewEgQMpYTsClr9keMy:22 :: 100.00
+
+--1703678467-eximdsn-260306908
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.96.2)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1rISas-000Ouv-0O
+	for ginojohn@gmail.com;
+	Wed, 27 Dec 2023 05:01:07 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by 수원엑소좀.
+X-PHP-Script: ststephenssanjose.org/contact.php for 1.231.27.148
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 1.231.27.148
+From: help@gwmetabitt.com
+Reply-To: help@gwmetabitt.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1rISas-000Ouv-0O@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Wed, 27 Dec 2023 05:01:02 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-shz
+X-ENVIRONMENT: prod
+
+You have been contacted by 수원엑소좀, and the message is as
+follows.
+
+"수원엑소좀 장** 원장은 “교통사고 처방는
+물리처치뿐만 아니라 한약 처방, 침, 뜸, 부항, 추나
+조취, 약침 요법 등 비교적 다양한 범위의 조취가
+가능하다는 이점이 있어 운전사고로 한의사 병원을
+찾는 환자분들이 일괄되게 늘고 있다”라면서
+“가벼운 차량사고라고 내버려 두지 마시고 사고
+초기에 내원하여 처치를 받아야 만성 통증으로
+발전하지 않고 운전사고 후유증을 최소화할 수
+있다”라고 전했다. 
+ 
+[url=https://suwonskin.com]수원엑소좀[/url]"
+
+You can contact 수원엑소좀 via email, help@gwmetabitt.com
+
+--1703678467-eximdsn-260306908--

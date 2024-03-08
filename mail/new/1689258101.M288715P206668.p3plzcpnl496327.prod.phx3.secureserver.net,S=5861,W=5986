@@ -1,0 +1,125 @@
+Return-Path: <>
+Delivered-To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Received: from p3plzcpnl496327.prod.phx3.secureserver.net
+	by p3plzcpnl496327.prod.phx3.secureserver.net with LMTP
+	id 8NeuEHUIsGRMJwMACjoG6Q
+	(envelope-from <>)
+	for <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>; Thu, 13 Jul 2023 07:21:41 -0700
+Return-path: <>
+Envelope-to: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+Delivery-date: Thu, 13 Jul 2023 07:21:41 -0700
+Received: from mailnull by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	id 1qJxCP-000stE-7O
+	for buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net;
+	Thu, 13 Jul 2023 07:21:41 -0700
+X-Failed-Recipients: ginojohn@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plzcpnl496327.prod.phx3.secureserver.net>
+To: buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net
+References: <E1qJxCK-000srt-5t@p3plzcpnl496327.prod.phx3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1689258101-eximdsn-717101957
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qJxCP-000stE-7O@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 13 Jul 2023 07:21:41 -0700
+
+--1689258101-eximdsn-717101957
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ginojohn@gmail.com
+    host p3nlsmtpcp-v01.prod.phx3.gdg [132.148.52.4]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 JxCPqF2vRUe7e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64b00875 p=wFxtHc3pAAAA:20 p=q0zWaKWY0V4A:10 p=I0HTSyg7DwCumjjIXuus:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=nVbHBMX-7EgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=Q9ETh3BqqcYA:10 a=pGLkceISAAAA:8 a=d9qr3k7Lyjbg-r0NYyAA:9 a=QEXdDO2ut3YA:10 a=c8Ylq_15NdgA:10 a=KyYZJfTCSdMA:10 a=l4uxXo0TrCfwATX4kFvg:22 a=0gEX6QcQmfqn7IVVCD9x:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 ::
+    100.00
+
+--1689258101-eximdsn-717101957
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plzcpnl496327.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;ginojohn@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 JxCPqF2vRUe7e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L4bbAcf8 c=1 sm=1 tr=0 ts=64b00875 p=wFxtHc3pAAAA:20 p=q0zWaKWY0V4A:10 p=I0HTSyg7DwCumjjIXuus:22 a=5p2kn+TdgGlJEV5v7/uc8g==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=nVbHBMX-7EgA:10 a=IkcTkHD0fZMA:10 a=Q8mBbTjvhdIA:10 a=ws7JD89P4LkA:10 a=x7bEGLp0ZPQA:10 a=Q9ETh3BqqcYA:10 a=pGLkceISAAAA:8 a=d9qr3k7Lyjbg-r0NYyAA:9 a=QEXdDO2ut3YA:10 a=c8Ylq_15NdgA:10 a=KyYZJfTCSdMA:10 a=l4uxXo0TrCfwATX4kFvg:22 a=0gEX6QcQmfqn7IVVCD9x:22 a=acewEgQMpYTsClr9keMy:22 a=ZT_8zCgGubuJgGonBfBE:22 a=wn0B9tHeFSp-EGyjOE_v:22 :: 100.00
+
+--1689258101-eximdsn-717101957
+Content-type: message/rfc822
+
+Return-path: <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>
+Received: from buwlrdjjq1jo by p3plzcpnl496327.prod.phx3.secureserver.net with local (Exim 4.95)
+	(envelope-from <buwlrdjjq1jo@p3plzcpnl496327.prod.phx3.secureserver.net>)
+	id 1qJxCK-000srt-5t
+	for ginojohn@gmail.com;
+	Thu, 13 Jul 2023 07:21:41 -0700
+To: ginojohn@gmail.com
+Subject: You've been contacted by Neil Baron.
+X-PHP-Script: ststephenssanjose.org/contact.php for 63.161.78.221
+X-PHP-Filename: /home/buwlrdjjq1jo/public_html/contact.php REMOTE_ADDR: 63.161.78.221
+From: neil.baron@gmail.com
+Reply-To: neil.baron@gmail.com
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E1qJxCK-000srt-5t@p3plzcpnl496327.prod.phx3.secureserver.net>
+Date: Thu, 13 Jul 2023 07:21:36 -0700
+
+You have been contacted by Neil Baron, and the message is as follows.
+
+"For the first time ever, the World's first GPT4 Powered Social Video
+Story Creator just went LIVE.
+
+Act Fast and get this First-To-Market App before early-bird expires.
+
+Get AI StoriMate Access + LifeTime Account + Exclusive Discount
+https://shorturl.at/nuMSU 
+
+THIS IS LITERALLY World's First (GPT-4 Powered) A.I. Story Software
+that Creates ALL Kind of Stories, Reels & Shorts for Instagram,
+TikTok, YouTube, Facebook, and Other Platforms In Seconds Using just a
+Keyword using A.I.
+
+How cool is that? Isn't it?
+
+==> Watch Ai StoriMate Demo In Action https://shorturl.at/nuMSU 
+
+Ai StoriMate is jam-packed with the power features:
+✅ AI Text to Video Story Creator
+✅ 50 Beautiful Templates
+✅ AI Idea & Content Generator with 33+ Language support
+✅ Select from Beautiful Luxury templates 
+✅ 10 Million Royalty Free Stock Media
+✅ Add 100+ Premium Music
+✅ Smoothest Drag-n-Drop Story Video Editor
+✅ Add Stickers, shapes, abstract shapes, emojis and icons to Story
+Video
+✅ Automated Powerful Animation, Pro Fonts And much more...
+
+Plus Commercial license ($997) included with AI StoriMate- Generate &
+sell as many assets as you like to clients.
+
+=== Here Full Scoop ===
+If you get this right away you will get below exclusive bonuses for
+FREE with AI StoriMate
+
+Exclusive Bonus#1
+Exclusive Bonus#2
+Exclusive Bonus#3
+Exclusive Bonus#4
+Exclusive Bonus#5
+
+==> Access AI StoriMate + All Bonus https://shorturl.at/nuMSU 
+
+To Your Success,
+Neil"
+
+You can contact Neil Baron via email, neil.baron@gmail.com
+
+--1689258101-eximdsn-717101957--
